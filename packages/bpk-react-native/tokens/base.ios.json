@@ -1,0 +1,1093 @@
+{
+  "properties": [
+    {
+      "type": "duration",
+      "value": "50ms",
+      "category": "animations",
+      "name": "animationDurationXs"
+    },
+    {
+      "type": "duration",
+      "value": "200ms",
+      "category": "animations",
+      "name": "animationDurationSm"
+    },
+    {
+      "type": "duration",
+      "value": "400ms",
+      "category": "animations",
+      "name": "animationDurationBase"
+    },
+    {
+      "type": "size",
+      "value": "3",
+      "category": "borders",
+      "name": "borderWidthXl"
+    },
+    {
+      "type": "size",
+      "value": "1",
+      "category": "borders",
+      "name": "borderSizeSm"
+    },
+    {
+      "type": "size",
+      "value": "2",
+      "category": "borders",
+      "name": "borderSizeLg"
+    },
+    {
+      "type": "size",
+      "value": "1",
+      "category": "borders",
+      "name": "borderWidthSm"
+    },
+    {
+      "type": "size",
+      "value": "2",
+      "category": "borders",
+      "name": "borderWidthLg"
+    },
+    {
+      "type": "size",
+      "value": "12",
+      "category": "radii",
+      "name": "borderRadiusMd"
+    },
+    {
+      "type": "size",
+      "value": "40",
+      "category": "radii",
+      "name": "borderRadiusPill"
+    },
+    {
+      "type": "size",
+      "value": "8",
+      "category": "radii",
+      "name": "borderRadiusSm"
+    },
+    {
+      "type": "size",
+      "value": "4",
+      "category": "radii",
+      "name": "borderRadiusXs"
+    },
+    {
+      "type": "size",
+      "value": "24",
+      "category": "radii",
+      "name": "borderRadiusLg"
+    },
+    {
+      "type": "size",
+      "value": "12",
+      "category": "radii",
+      "name": "cornerRadiusMd"
+    },
+    {
+      "type": "size",
+      "value": "40",
+      "category": "radii",
+      "name": "cornerRadiusPill"
+    },
+    {
+      "type": "size",
+      "value": "8",
+      "category": "radii",
+      "name": "cornerRadiusSm"
+    },
+    {
+      "type": "size",
+      "value": "4",
+      "category": "radii",
+      "name": "cornerRadiusXs"
+    },
+    {
+      "type": "size",
+      "value": "24",
+      "category": "radii",
+      "name": "cornerRadiusLg"
+    },
+    {
+      "type": "size",
+      "value": "3",
+      "category": "borders",
+      "name": "borderSizeXl"
+    },
+    {
+      "value": 0,
+      "type": "size",
+      "category": "box-shadows",
+      "name": "shadowSmOffsetWidth"
+    },
+    {
+      "value": 0.15,
+      "type": "size",
+      "category": "box-shadows",
+      "name": "shadowSmOpacity"
+    },
+    {
+      "value": 0.15,
+      "type": "size",
+      "category": "box-shadows",
+      "name": "shadowLgOpacity"
+    },
+    {
+      "value": 1,
+      "type": "size",
+      "category": "box-shadows",
+      "name": "shadowSmOffsetHeight"
+    },
+    {
+      "value": 4,
+      "type": "size",
+      "category": "box-shadows",
+      "name": "shadowLgOffsetHeight"
+    },
+    {
+      "value": 16,
+      "type": "size",
+      "category": "box-shadows",
+      "name": "shadowLgRadius"
+    },
+    {
+      "value": 3,
+      "type": "size",
+      "category": "box-shadows",
+      "name": "shadowSmRadius"
+    },
+    {
+      "value": "#111236ff",
+      "type": "color",
+      "category": "box-shadows",
+      "name": "shadowSmColor"
+    },
+    {
+      "value": "#111236ff",
+      "type": "color",
+      "category": "box-shadows",
+      "name": "shadowLgColor"
+    },
+    {
+      "value": 0,
+      "type": "size",
+      "category": "box-shadows",
+      "name": "shadowLgOffsetWidth"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "2",
+      "name": "buttonBorderWidth"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "32",
+      "name": "buttonHeight"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "4 * 3",
+      "name": "buttonPaddingHorizontal"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "4 * 12",
+      "name": "buttonLineHeightLarge"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "8",
+      "name": "buttonPaddingVertical"
+    },
+    {
+      "type": "size",
+      "category": "carousel-indicator-dots",
+      "value": "2",
+      "name": "carouselIndicatorDotSizeSm"
+    },
+    {
+      "type": "size",
+      "category": "carousel-indicator-dots",
+      "value": "4",
+      "name": "carouselIndicatorDotSizeMd"
+    },
+    {
+      "type": "size",
+      "category": "carousel-indicator-dots",
+      "value": "6",
+      "name": "carouselIndicatorDotSizeBase"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#02122cff",
+      "name": "colorSkyBlueShade03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0770e3ff",
+      "name": "colorPrimaryGradientLight"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffb54dff",
+      "name": "colorErfoud"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#a59bc8ff",
+      "name": "colorValensole"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#00a698ff",
+      "name": "colorMonteverde"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#3a3a3cff",
+      "name": "backgroundElevation03DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#444560ff",
+      "name": "colorSkyGrayTint01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "name": "colorBlack"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#2c2c2eff",
+      "name": "backgroundElevation02DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#68697fff",
+      "name": "colorSkyGrayTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#48484aff",
+      "name": "lineDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#1d1b20ff",
+      "name": "backgroundElevation01DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d0eeecff",
+      "name": "colorSagano"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8f90a0ff",
+      "name": "colorSkyGrayTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#b2b2bfff",
+      "name": "colorSkyGrayTint04"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f6dde1ff",
+      "name": "colorHarbour"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cdcdd7ff",
+      "name": "colorSkyGrayTint05"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#1d1b20ff",
+      "name": "backgroundAlternativeSecondaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#dddde5ff",
+      "name": "colorSkyGrayTint06"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "backgroundLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#1d1b20ff",
+      "name": "colorBlackTint01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "colorSkyGrayTint07"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#2c2c2eff",
+      "name": "colorBlackTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#5a489bff",
+      "name": "colorAbisko"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "name": "backgroundDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#3a3a3cff",
+      "name": "colorBlackTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#48484aff",
+      "name": "colorBlackTint04"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "backgroundAlternativeSecondaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "colorWhite"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#636366ff",
+      "name": "colorBlackTint05"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "name": "colorBlackTint06"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d1435bff",
+      "name": "colorPanjin"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#00a698ff",
+      "name": "colorSystemGreen"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ff9400ff",
+      "name": "colorKolkata"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#73cec6ff",
+      "name": "colorGlencoe"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "backgroundElevation01LightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#e1ddecff",
+      "name": "colorTochigi"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cdcdd7ff",
+      "name": "lineLightColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "backgroundElevation02LightColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "backgroundElevation03LightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffab95ff",
+      "name": "colorPetra"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0770e3ff",
+      "name": "colorSkyBlue"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#2c2c2eff",
+      "name": "backgroundTertiaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#1d1b20ff",
+      "name": "backgroundSecondaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "backgroundAlternativeLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#6d9febff",
+      "name": "primaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffebd0ff",
+      "name": "colorBagan"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#e18b96ff",
+      "name": "colorHillier"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#6d9febff",
+      "name": "colorSkyBlueTint01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#9dc0f2ff",
+      "name": "colorSkyBlueTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ff7b59ff",
+      "name": "colorBunol"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cddff8ff",
+      "name": "colorSkyBlueTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#111236ff",
+      "name": "colorSkyGray"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d1435bff",
+      "name": "colorSystemRed"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "name": "backgroundAlternativeDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0770e3ff",
+      "name": "primaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "backgroundTertiaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffe7e0ff",
+      "name": "colorNara"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#084eb2ff",
+      "name": "colorSkyBlueShade01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "backgroundSecondaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#042759ff",
+      "name": "colorSkyBlueShade02"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "4",
+      "name": "spacingSm"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "8",
+      "name": "spacingMd"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "16",
+      "name": "spacingBase"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "24",
+      "name": "spacingLg"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "32",
+      "name": "spacingXl"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "40",
+      "name": "spacingXxl"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "0",
+      "name": "spacingNone"
+    },
+    {
+      "category": "touchables",
+      "value": "0.15",
+      "type": "number",
+      "deprecated": true,
+      "name": "underlayOpacity"
+    },
+    {
+      "category": "touchables",
+      "value": "#111236ff",
+      "type": "color",
+      "name": "touchableOverlayColor"
+    },
+    {
+      "category": "touchables",
+      "value": "0.15",
+      "type": "number",
+      "name": "touchableOverlayOpacity"
+    },
+    {
+      "value": "29",
+      "type": "size",
+      "category": "typesettings",
+      "name": "lineHeightXl"
+    },
+    {
+      "value": "24",
+      "type": "font-size",
+      "category": "typesettings",
+      "name": "fontSizeXl"
+    },
+    {
+      "value": "36",
+      "type": "font-size",
+      "category": "typesettings",
+      "name": "fontSizeXxxl"
+    },
+    {
+      "value": "null",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "textXxxlLetterSpacing"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textXxlFontWeight"
+    },
+    {
+      "value": "null",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "textXlLetterSpacing"
+    },
+    {
+      "value": "10",
+      "type": "font-size",
+      "category": "font-sizes",
+      "name": "textCapsFontSize"
+    },
+    {
+      "value": "-0.2",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "letterSpacingBase"
+    },
+    {
+      "value": "-0.2",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "textBaseLetterSpacing"
+    },
+    {
+      "value": "17",
+      "type": "size",
+      "category": "typesettings",
+      "name": "lineHeightSm"
+    },
+    {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "name": "lineHeightLg"
+    },
+    {
+      "value": "14",
+      "type": "size",
+      "category": "typesettings",
+      "name": "lineHeightXs"
+    },
+    {
+      "value": "14",
+      "type": "font-size",
+      "category": "typesettings",
+      "name": "fontSizeSm"
+    },
+    {
+      "value": "#ffffffff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textPrimaryDarkColor"
+    },
+    {
+      "value": "12",
+      "type": "font-size",
+      "category": "typesettings",
+      "name": "fontSizeXs"
+    },
+    {
+      "value": "null",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "letterSpacingXxxl"
+    },
+    {
+      "value": "#8e8e93ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textQuaternaryDarkColor"
+    },
+    {
+      "value": "null",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "letterSpacingXl"
+    },
+    {
+      "value": "20",
+      "type": "font-size",
+      "category": "typesettings",
+      "name": "fontSizeLg"
+    },
+    {
+      "value": "#8f90a0ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textQuaternaryLightColor"
+    },
+    {
+      "value": "#111236ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textPrimaryLightColor"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textBaseFontWeight"
+    },
+    {
+      "value": "30",
+      "type": "font-size",
+      "category": "font-sizes",
+      "name": "textXxlFontSize"
+    },
+    {
+      "value": "10",
+      "type": "font-size",
+      "category": "typesettings",
+      "name": "fontSizeCaps"
+    },
+    {
+      "value": "null",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "textXxlLetterSpacing"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textXlFontWeight"
+    },
+    {
+      "value": "0",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "letterSpacingSm"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textXxxlFontWeight"
+    },
+    {
+      "value": "null",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "letterSpacingLg"
+    },
+    {
+      "value": "0",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "letterSpacingXs"
+    },
+    {
+      "value": "\"System\"",
+      "type": "font",
+      "category": "typesettings",
+      "name": "fontFamily"
+    },
+    {
+      "value": "#8e8e93ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textTertiaryDarkColor"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textSmFontWeight"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "name": "textBaseFontSize"
+    },
+    {
+      "value": "0.4",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "textCapsLetterSpacing"
+    },
+    {
+      "value": "0.4",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "letterSpacingCaps"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textLgFontWeight"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textXsFontWeight"
+    },
+    {
+      "value": "null",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "letterSpacingXxl"
+    },
+    {
+      "value": "#8e8e93ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textSecondaryDarkColor"
+    },
+    {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "name": "textXlFontSize"
+    },
+    {
+      "value": "36",
+      "type": "font-size",
+      "category": "font-sizes",
+      "name": "textXxxlFontSize"
+    },
+    {
+      "value": "0",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "textXsLetterSpacing"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textCapsFontWeight"
+    },
+    {
+      "value": "null",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "textLgLetterSpacing"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textEmphasizedFontWeight"
+    },
+    {
+      "value": "#68697fff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textSecondaryLightColor"
+    },
+    {
+      "value": "0",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "name": "textSmLetterSpacing"
+    },
+    {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "name": "textSmFontSize"
+    },
+    {
+      "value": "30",
+      "type": "font-size",
+      "category": "typesettings",
+      "name": "fontSizeXxl"
+    },
+    {
+      "value": "800",
+      "type": "string",
+      "category": "font-weights",
+      "name": "textHeavyFontWeight"
+    },
+    {
+      "value": "19",
+      "type": "size",
+      "category": "typesettings",
+      "name": "lineHeightBase"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "typesettings",
+      "name": "fontSizeBase"
+    },
+    {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "name": "textLgFontSize"
+    },
+    {
+      "value": "#8f90a0ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textTertiaryLightColor"
+    },
+    {
+      "value": "43",
+      "type": "size",
+      "category": "typesettings",
+      "name": "lineHeightXxl"
+    },
+    {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "name": "textXsFontSize"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "backgroundElevation03Color",
+      "darkValue": "#3a3a3cff"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "backgroundElevation02Color",
+      "darkValue": "#2c2c2eff"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cdcdd7ff",
+      "name": "lineColor",
+      "darkValue": "#48484aff"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "backgroundElevation01Color",
+      "darkValue": "#1d1b20ff"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "backgroundAlternativeSecondaryColor",
+      "darkValue": "#1d1b20ff"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "backgroundColor",
+      "darkValue": "#000000ff"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "backgroundTertiaryColor",
+      "darkValue": "#2c2c2eff"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "backgroundSecondaryColor",
+      "darkValue": "#1d1b20ff"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "backgroundAlternativeColor",
+      "darkValue": "#000000ff"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0770e3ff",
+      "name": "primaryColor",
+      "darkValue": "#6d9febff"
+    },
+    {
+      "value": "#111236ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textPrimaryColor",
+      "darkValue": "#ffffffff"
+    },
+    {
+      "value": "#8f90a0ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textQuaternaryColor",
+      "darkValue": "#8e8e93ff"
+    },
+    {
+      "value": "#8f90a0ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textTertiaryColor",
+      "darkValue": "#8e8e93ff"
+    },
+    {
+      "value": "#68697fff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textSecondaryColor",
+      "darkValue": "#8e8e93ff"
+    }
+  ]
+}

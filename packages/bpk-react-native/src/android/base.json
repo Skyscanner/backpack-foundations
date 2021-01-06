@@ -1,0 +1,12 @@
+{
+  "imports": [
+    "./base/animations.json",
+    "./base/borders.json",
+    "./base/buttons.json",
+    "./base/carousel-indicator-dots.json",
+    "./base/colors.json",
+    "./base/elevation.json",
+    "./base/spacing.json",
+    "./base/typography.json"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "aliases": {
+    "SPACING_SM": 4,
+    "SPACING_MD": 8,
+    "SPACING_BASE": 16,
+    "SPACING_LG": 24,
+    "SPACING_XL": 32,
+    "SPACING_XXL": 40,
+    "SPACING_NONE": 0
+  }
+}
