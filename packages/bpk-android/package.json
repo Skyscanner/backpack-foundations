@@ -16,6 +16,7 @@
     "tokens": "gulp"
   },
   "dependencies": {
+    "@skyscanner/bpk-common": "0.0.1",
     "color": "^3.0.0"
   }
 }
