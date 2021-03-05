@@ -1468,6 +1468,13 @@
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "COLOR_SKY_GRAY_TINT_06"
     },
+    "BACKGROUND_LIGHT_COLOR": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "BACKGROUND_LIGHT_COLOR"
+    },
     "COLOR_SKY_GRAY_TINT_07": {
       "type": "color",
       "category": "colors",
@@ -1481,6 +1488,13 @@
       "value": "rgb(90, 72, 155)",
       "originalValue": "{!ABISKO}",
       "name": "COLOR_ABISKO"
+    },
+    "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR"
     },
     "COLOR_WHITE": {
       "type": "color",
@@ -1531,6 +1545,13 @@
       "originalValue": "{!TOCHIGI}",
       "name": "COLOR_TOCHIGI"
     },
+    "LINE_LIGHT_COLOR": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(205, 205, 215)",
+      "originalValue": "{!SKY_GRAY_TINT_05}",
+      "name": "LINE_LIGHT_COLOR"
+    },
     "COLOR_PETRA": {
       "type": "color",
       "category": "colors",
@@ -1544,6 +1565,13 @@
       "value": "rgb(7, 112, 227)",
       "originalValue": "{!SKY_BLUE}",
       "name": "COLOR_SKY_BLUE"
+    },
+    "BACKGROUND_ALTERNATIVE_LIGHT_COLOR": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(241, 242, 248)",
+      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "name": "BACKGROUND_ALTERNATIVE_LIGHT_COLOR"
     },
     "COLOR_BAGAN": {
       "type": "color",
@@ -1601,6 +1629,20 @@
       "originalValue": "{!PANJIN}",
       "name": "COLOR_SYSTEM_RED"
     },
+    "PRIMARY_LIGHT_COLOR": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(7, 112, 227)",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "PRIMARY_LIGHT_COLOR"
+    },
+    "BACKGROUND_TERTIARY_LIGHT_COLOR": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "BACKGROUND_TERTIARY_LIGHT_COLOR"
+    },
     "COLOR_NARA": {
       "type": "color",
       "category": "colors",
@@ -1614,6 +1656,13 @@
       "value": "rgb(8, 78, 178)",
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "COLOR_SKY_BLUE_SHADE_01"
+    },
+    "BACKGROUND_SECONDARY_LIGHT_COLOR": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(241, 242, 248)",
+      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "name": "BACKGROUND_SECONDARY_LIGHT_COLOR"
     },
     "COLOR_SKY_BLUE_SHADE_02": {
       "type": "color",
@@ -2498,6 +2547,13 @@
       "originalValue": "{!FONT_SIZE_LG}",
       "name": "FONT_SIZE_LG"
     },
+    "TEXT_QUATERNARY_LIGHT_COLOR": {
+      "value": "rgb(143, 144, 160)",
+      "type": "color",
+      "category": "text-colors",
+      "originalValue": "{!SKY_GRAY_TINT_03}",
+      "name": "TEXT_QUATERNARY_LIGHT_COLOR"
+    },
     "TEXT_PRIMARY_LIGHT_COLOR": {
       "value": "rgb(17, 18, 54)",
       "type": "color",
@@ -2828,10 +2884,10 @@
       "name": "TEXT_LG_LETTER_SPACING"
     },
     "FONT_FAMILY_BASE": {
-      "value": "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif",
+      "value": "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
       "type": "font",
       "category": "typesettings",
-      "originalValue": "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif",
+      "originalValue": "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
       "name": "FONT_FAMILY_BASE"
     },
     "FONT_WEIGHT_BOLD": {
@@ -2959,6 +3015,13 @@
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_LG}",
       "name": "TEXT_LG_FONT_SIZE"
+    },
+    "TEXT_TERTIARY_LIGHT_COLOR": {
+      "value": "rgb(143, 144, 160)",
+      "type": "color",
+      "category": "text-colors",
+      "originalValue": "{!SKY_GRAY_TINT_03}",
+      "name": "TEXT_TERTIARY_LIGHT_COLOR"
     },
     "HEADING_MARGIN_BOTTOM": {
       "value": ".75rem",
