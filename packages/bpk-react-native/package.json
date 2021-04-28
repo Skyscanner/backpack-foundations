@@ -1,5 +1,5 @@
 {
-  "name": "@skyscanner/bpk-rn",
+  "name": "@skyscanner/bpk-react-native",
   "version": "0.0.1",
   "description": "Common Backpack design tokens for colors, spacing, font, etc.",
   "license": "Apache-2.0",
