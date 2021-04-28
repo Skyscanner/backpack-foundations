@@ -1,11 +1,11 @@
-# @skyscanner/bpk-tokens-rn
+# @skyscanner/bpk-react-native
 
 > React Native design tokens for colours, spacing, font, etc.
 
 ## Installation
 
 ```sh
-npm install @skyscanner/bpk-tokens-rn --save-dev
+npm install @skyscanner/bpk-react-native --save-dev
 ```
 
 ## Usage
@@ -16,17 +16,17 @@ For React Native:
 
 ```js
 // Individual tokens
-import { spacingBase } from 'bpk-tokens/tokens/base.react.native';
+import { spacingBase } from '@skyscanner/bpk-react-native/tokens/base.react.native';
 
 console.log(spacingBase);
 
 // Whole token categories
-import { colors } from 'bpk-tokens/tokens/base.react.native';
+import { colors } from '@skyscanner/bpk-react-native/tokens/base.react.native';
 
 console.log(colors.colorSkyGrayTint01);
 
 // All tokens
-import * as tokens from 'bpk-tokens/tokens/base.react.native';
+import * as tokens from '@skyscanner/bpk-react-native/tokens/base.react.native';
 
 console.log(tokens);
 ```
@@ -35,17 +35,17 @@ For web:
 
 ```js
 // Individual tokens
-import { spacingBase } from 'bpk-tokens/tokens/base.es6';
+import { spacingBase } from '@skyscanner/bpk-react-native/tokens/base.es6';
 
 console.log(spacingBase);
 
 // Whole token categories
-import { colors } from 'bpk-tokens/tokens/base.es6';
+import { colors } from '@skyscanner/bpk-react-native/tokens/base.es6';
 
 console.log(colors.colorSkyGrayTint01);
 
 // All tokens
-import * as tokens from 'bpk-tokens/tokens/base.es6';
+import * as tokens from '@skyscanner/bpk-react-native/tokens/base.es6';
 
 console.log(tokens);
 ```
@@ -54,12 +54,12 @@ console.log(tokens);
 
 ```js
 // Individual tokens
-import { spacingBase } from 'bpk-tokens/tokens/base.common';
+import { spacingBase } from '@skyscanner/bpk-react-native/tokens/base.common';
 
 console.log(spacingBase);
 
 // All tokens
-import * as tokens from 'bpk-tokens/tokens/base.common';
+import * as tokens from '@skyscanner/bpk-react-native/tokens/base.common';
 
 console.log(tokens);
 ```
@@ -69,8 +69,8 @@ console.log(tokens);
 It is possible to add opacity to Backpack color tokens as follows:
 
 ```js
-import { colorSkyBlue } from 'bpk-tokens/tokens/base.react.native';
-import { setOpacity } from 'bpk-tokens';
+import { colorSkyBlue } from '@skyscanner/bpk-react-native/tokens/base.react.native';
+import { setOpacity } from '@skyscanner/bpk-react-native';
 
 const transparentBlue500 = setOpacity(colorSkyBlue, 0.7);
 

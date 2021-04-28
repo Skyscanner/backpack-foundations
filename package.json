@@ -18,7 +18,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --no-ci",
     "build": "npm run build:tokens && npm run build:svgs",
-    "build:svgs": "lerna run svgs --scope bpk-svgs",
+    "build:svgs": "lerna run svgs --scope @skyscanner/bpk-svgs",
     "build:tokens": "lerna run tokens",
     "clean:lerna": "lerna clean --yes",
     "publish": "lerna bootstrap && lerna run tokens && lerna publish"

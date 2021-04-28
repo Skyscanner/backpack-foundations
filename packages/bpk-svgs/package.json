@@ -17,6 +17,6 @@
   },
   "gitHead": "6b6b8e2511c9f50354ba6eca5331e093901400fe",
   "devDependencies": {
-    "bpk-tokens": "^36.1.2"
+    "@skyscanner/bpk-web": "^0.0.1"
   }
 }

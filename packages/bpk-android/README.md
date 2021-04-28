@@ -1,11 +1,11 @@
-# @skyscanner/bpk-tokens-android
+# @skyscanner/bpk-android
 
 > Android design tokens for colours, spacing, font, etc.
 
 ## Installation
 
 ```sh
-npm install @skyscanner/bpk-tokens-android --save-dev
+npm install @skyscanner/bpk-android --save-dev
 ```
 
 ## Usage

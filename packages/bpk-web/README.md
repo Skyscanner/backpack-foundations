@@ -1,11 +1,11 @@
-# @skyscanner/bpk-tokens-web
+# @skyscanner/bpk-web
 
 > Design tokens for colours, spacing, font, etc.
 
 ## Installation
 
 ```sh
-npm install @skyscanner/bpk-tokens-web --save-dev
+npm install @skyscanner/bpk-web --save-dev
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install @skyscanner/bpk-tokens-web --save-dev
 ### Sass:
 
 ```scss
-@import '~@skyscanner/bpk-tokens-web/tokens/base.default.scss';
+@import '~@skyscanner/bpk-web/tokens/base.default.scss';
 
 .my-selector {
   padding: $bpk-spacing-base;
@@ -26,17 +26,17 @@ For React Native:
 
 ```js
 // Individual tokens
-import { spacingBase } from '@skyscanner/bpk-tokens-web/tokens/base.react.native';
+import { spacingBase } from '@skyscanner/bpk-web/tokens/base.react.native';
 
 console.log(spacingBase);
 
 // Whole token categories
-import { colors } from '@skyscanner/bpk-tokens-web/tokens/base.react.native';
+import { colors } from '@skyscanner/bpk-web/tokens/base.react.native';
 
 console.log(colors.colorSkyGrayTint01);
 
 // All tokens
-import * as tokens from '@skyscanner/bpk-tokens-web/tokens/base.react.native';
+import * as tokens from '@skyscanner/bpk-web/tokens/base.react.native';
 
 console.log(tokens);
 ```
@@ -45,17 +45,17 @@ For web:
 
 ```js
 // Individual tokens
-import { spacingBase } from '@skyscanner/bpk-tokens-web/tokens/base.es6';
+import { spacingBase } from '@skyscanner/bpk-web/tokens/base.es6';
 
 console.log(spacingBase);
 
 // Whole token categories
-import { colors } from '@skyscanner/bpk-tokens-web/tokens/base.es6';
+import { colors } from '@skyscanner/bpk-web/tokens/base.es6';
 
 console.log(colors.colorSkyGrayTint01);
 
 // All tokens
-import * as tokens from '@skyscanner/bpk-tokens-web/tokens/base.es6';
+import * as tokens from '@skyscanner/bpk-web/tokens/base.es6';
 
 console.log(tokens);
 ```
@@ -64,12 +64,12 @@ console.log(tokens);
 
 ```js
 // Individual tokens
-import { spacingBase } from '@skyscanner/bpk-tokens-web/tokens/base.common';
+import { spacingBase } from '@skyscanner/bpk-web/tokens/base.common';
 
 console.log(spacingBase);
 
 // All tokens
-import * as tokens from '@skyscanner/bpk-tokens-web/tokens/base.common';
+import * as tokens from '@skyscanner/bpk-web/tokens/base.common';
 
 console.log(tokens);
 ```
@@ -79,8 +79,8 @@ console.log(tokens);
 It is possible to add opacity to Backpack color tokens as follows:
 
 ```js
-import { colorSkyBlue } from '@skyscanner/bpk-tokens-web/tokens/base.react.native';
-import { setOpacity } from '@skyscanner/bpk-tokens-web';
+import { colorSkyBlue } from '@skyscanner/bpk-web/tokens/base.react.native';
+import { setOpacity } from '@skyscanner/bpk-web';
 
 const transparentBlue500 = setOpacity(colorSkyBlue, 0.7);
 
