@@ -54,6 +54,14 @@ const largeIconPxSize = remToPx(largeIconSize);
 
 const colors = _(tokens.props)
   .filter({ category: 'colors', type: 'color' })
+  .filter(color => {
+    // We don't want to generate SVGs for colors that begine with Background or Line as these are not meant for icons.
+    // We want it for raw colors only.
+    if (color.name.startsWith('BACKGROUND') || color.name.startsWith('LINE')) {
+      return false;
+    }
+    return color;
+  })
   .keyBy('name')
   .mapValues('value')
   .mapKeys((value, key) => _.kebabCase(key).replace('color-', ''))
@@ -160,6 +168,7 @@ const optimiseSvgs = size =>
                 'width',
                 'height',
                 'viewBox',
+                'fill-rule',
               ],
             },
           },
