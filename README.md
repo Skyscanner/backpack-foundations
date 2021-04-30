@@ -1,4 +1,4 @@
-# Backpack Foundation
+# Backpack Foundations
 
 This repo contains common design system elements that are shared across our platforms. These include but not limited to: Icons and Tokens e.g. colours, typography, etc
 

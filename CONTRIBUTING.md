@@ -1,4 +1,4 @@
-# Contributing to Backpack Foundations
+# Contributing to Backpack Foundationss
 
 You want to help us enable Skyscanner to create beautiful, coherent products at scale? That's awesome! :heart:
 
@@ -80,7 +80,7 @@ Run `npm install` to install dependencies from npm.
 <details>
 <summary>A note on dependencies</summary>
 
-Backpack Foundation is a multi-package repository, also known as a monorepo. This means that instead of having one code repository for each npm package, we manage them all inside this single repository.
+Backpack Foundations is a multi-package repository, also known as a monorepo. This means that instead of having one code repository for each npm package, we manage them all inside this single repository.
 
 We use [Lerna](https://lernajs.io) to achieve this. Lerna links packages together inside this repo by 'bootstrapping'.
 
@@ -90,7 +90,7 @@ When you run `npm install`, Lerna is bootstrapped automatically as a post-instal
 
 ### Build the code
 
-Backpack Foundations code depends on some things that must be built first, such as icon fonts, SVGs and tokens.
+Backpack Foundationss code depends on some things that must be built first, such as icon fonts, SVGs and tokens.
 
 Use `npm run build` to do this.
 
@@ -115,7 +115,7 @@ For documentation changes, please see our [Backpack docs repo](http://github.com
 ## How to
 
 <details>
-<summary>Create a pull request to Backpack Foundations</summary>
+<summary>Create a pull request to Backpack Foundationss</summary>
 
 For anything non-trivial, we strongly recommend speaking to somebody from Koala before starting work on a PR. This lets us pass on any advice or knowledge we already have about the work you're proposing. It might even be something we're already working on. After this, follow the steps below.
 
