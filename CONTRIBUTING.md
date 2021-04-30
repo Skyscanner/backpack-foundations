@@ -65,12 +65,12 @@ We recommend that you install [a plugin to your editor](https://eslint.org/docs/
 
 ### Getting the code
 
-You should first fork the [foundations repo](https://github.com/Skyscanner/backpack-foundation/fork)
+You should first fork the [foundations repo](https://github.com/Skyscanner/backpack-foundations/fork)
 
 Then you should pull code down using the following command
 
 ```
-git clone https://github.com/YOUR_USERNAME/backpack-foundation.git
+git clone https://github.com/YOUR_USERNAME/backpack-foundations.git
 ```
 
 ### Install dependencies
@@ -119,11 +119,11 @@ For documentation changes, please see our [Backpack docs repo](http://github.com
 
 For anything non-trivial, we strongly recommend speaking to somebody from Koala before starting work on a PR. This lets us pass on any advice or knowledge we already have about the work you're proposing. It might even be something we're already working on. After this, follow the steps below.
 
-1. [Fork the repository](https://github.com/Skyscanner/backpack-foundation/fork).
+1. [Fork the repository](https://github.com/Skyscanner/backpack-foundations/fork).
 2. Create a new branch.
 3. Make your changes.
 4. Commit and push your new branch.
-5. Submit a [pull request](https://github.com/Skyscanner/backpack-foundation/pulls).
+5. Submit a [pull request](https://github.com/Skyscanner/backpack-foundations/pulls).
 6. Notify someone in Koala squad or drop a note in #backpack.
 
 Don't forget to update [`UNRELEASED.md`](UNRELEASED.md) for any user-facing changes.

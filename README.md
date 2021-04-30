@@ -2,7 +2,7 @@
 
 This repo contains common design system elements that are shared across our platforms. These include but not limited to: Icons and Tokens e.g. colours, typography, etc
 
-[![Build Status](https://github.com/Skyscanner/backpack-foundation/workflows/Foundations%20CI/badge.svg)](https://github.com/Skyscanner/backpack-foundation/actions)
+[![Build Status](https://github.com/Skyscanner/backpack-foundations/workflows/Foundations%20CI/badge.svg)](https://github.com/Skyscanner/backpack-foundations/actions)
 
 ## Table of contents
 
