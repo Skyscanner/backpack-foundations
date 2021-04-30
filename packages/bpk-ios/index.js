@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-import setOpacity from './src/setOpacity';
+import setOpacity from '@skyscanner/bpk-common';
 
 export { setOpacity };
 export default { setOpacity };

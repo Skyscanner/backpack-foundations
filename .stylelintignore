@@ -1,0 +1,6 @@
+node_modules
+/packages/bpk-svgs/dist
+/packages/bpk-android/tokens
+/packages/bpk-ios/tokens
+/packages/bpk-react-native/tokens
+/packages/bpk-web/tokens

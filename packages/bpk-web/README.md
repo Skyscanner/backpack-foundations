@@ -22,25 +22,6 @@ npm install @skyscanner/bpk-web --save-dev
 
 ### JavaScript (ES6 module):
 
-For React Native:
-
-```js
-// Individual tokens
-import { spacingBase } from '@skyscanner/bpk-web/tokens/base.react.native';
-
-console.log(spacingBase);
-
-// Whole token categories
-import { colors } from '@skyscanner/bpk-web/tokens/base.react.native';
-
-console.log(colors.colorSkyGrayTint01);
-
-// All tokens
-import * as tokens from '@skyscanner/bpk-web/tokens/base.react.native';
-
-console.log(tokens);
-```
-
 For web:
 
 ```js
@@ -79,7 +60,7 @@ console.log(tokens);
 It is possible to add opacity to Backpack color tokens as follows:
 
 ```js
-import { colorSkyBlue } from '@skyscanner/bpk-web/tokens/base.react.native';
+import { colorSkyBlue } from '@skyscanner/bpk-web/tokens/base.common';
 import { setOpacity } from '@skyscanner/bpk-web';
 
 const transparentBlue500 = setOpacity(colorSkyBlue, 0.7);

@@ -23,6 +23,7 @@ import _ from 'lodash';
 
 import sortTokens from '../../../utils/formatters/sort-tokens';
 import { blockComment } from '../../../utils/formatters/license-header';
+
 import adjustTypography from './adjust-typography';
 import valueTemplate from './react-native-value-template';
 
@@ -53,10 +54,10 @@ export const categoryTemplate = (
   categoryName,
   props,
 ) => `export const ${_.camelCase(categoryName)} = {
-${_.map(props, prop => `${_.camelCase(prop.name)},`).join('\n')}
+${_.map(props, (prop) => `${_.camelCase(prop.name)},`).join('\n')}
 };`;
 
-const extractSemanticTokens = allTokens => {
+const extractSemanticTokens = (allTokens) => {
   const parsedTokens = Object.keys(allTokens).reduce(
     (semanticTokens, tokenKey) => {
       const token = allTokens[tokenKey];
@@ -81,7 +82,7 @@ const extractSemanticTokens = allTokens => {
   );
 
   return Object.keys(parsedTokens).map(
-    parsedToken => parsedTokens[parsedToken],
+    (parsedToken) => parsedTokens[parsedToken],
   );
 };
 
@@ -90,10 +91,10 @@ const extractPlatformSpecifcTokens = (allTokens, platform) => {
     platform === 'iosRn' ? androidRawTokens() : iosRawTokens();
   const otherPlatformKeys = Object.keys(otherPlatformTokens.props);
 
-  const platformKeys = allTokens.props.map(token => token.name);
+  const platformKeys = allTokens.props.map((token) => token.name);
 
   const missingTokens = otherPlatformKeys
-    .filter(token => platformKeys.indexOf(token) === -1)
+    .filter((token) => platformKeys.indexOf(token) === -1)
     .reduce(
       (newTokens, token) => ({
         ...newTokens,
@@ -109,7 +110,7 @@ const extractPlatformSpecifcTokens = (allTokens, platform) => {
     );
 
   const nullableTokens = platformKeys
-    .filter(token => otherPlatformKeys.indexOf(token) === -1)
+    .filter((token) => otherPlatformKeys.indexOf(token) === -1)
     .reduce((acc, token) => ({ ...acc, [token]: true }), {});
 
   return [missingTokens, nullableTokens];
@@ -131,11 +132,11 @@ const bpkReactNativeEs6Js = (result, platform) => {
   const { props } = sortTokens(allTokens);
 
   const categories = _(props)
-    .map(prop => prop.category)
+    .map((prop) => prop.category)
     .uniq()
     .value();
 
-  const singleTokens = _.map(props, prop =>
+  const singleTokens = _.map(props, (prop) =>
     tokenTemplate({
       ...adjustTypography(prop, platform),
       nullable: nullableTokenNames[prop.name],
@@ -144,17 +145,12 @@ const bpkReactNativeEs6Js = (result, platform) => {
 
   const groupedTokens = categories
     .sort()
-    .map(category =>
-      categoryTemplate(
-        category,
-        _(props)
-          .filter({ category })
-          .value(),
-      ),
+    .map((category) =>
+      categoryTemplate(category, _(props).filter({ category }).value()),
     )
     .join('\n');
 
-  const platformSpecific = _.map(platformSpecificTokens, prop =>
+  const platformSpecific = _.map(platformSpecificTokens, (prop) =>
     tokenTemplate(prop),
   ).join('\n');
 
@@ -168,8 +164,8 @@ const bpkReactNativeEs6Js = (result, platform) => {
   ].join('\n');
 };
 
-export const bpkReactNativeEs6JsAndroid = result =>
+export const bpkReactNativeEs6JsAndroid = (result) =>
   bpkReactNativeEs6Js(result, 'androidRn');
 
-export const bpkReactNativeEs6JsIos = result =>
+export const bpkReactNativeEs6JsIos = (result) =>
   bpkReactNativeEs6Js(result, 'iosRn');

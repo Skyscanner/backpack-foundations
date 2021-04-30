@@ -39,10 +39,10 @@ const PLATFORM_FORMATS = {
   web: ['scss', 'default.scss', 'common.js', 'es6.js'],
 };
 
-const createTokenSets = formats =>
+const createTokenSets = (formats) =>
   flatten(
-    Object.keys(formats).map(platform =>
-      formats[platform].map(format =>
+    Object.keys(formats).map((platform) =>
+      formats[platform].map((format) =>
         typeof format !== 'string'
           ? { platform, ...format }
           : { platform, format },
@@ -58,7 +58,7 @@ theo.registerFormat('default.scss', bpkDefaultScss);
 theo.registerFormat('es6.js', bpkEs6Js);
 theo.registerFormat('common.js', bpkCommonJs);
 
-gulp.task('clean', done => del(['tokens'], done));
+gulp.task('clean', (done) => del(['tokens'], done));
 
 gulp.task('lint', () =>
   gulp
@@ -88,15 +88,16 @@ const createTokens = (tokenSets, done) => {
       .pipe(gulp.dest(path.resolve(__dirname, outputPath)))
       .on('error', done)
       .on(`finish`, () => {
-        console.log('Completed tokens')
+        // eslint-disable-next-line no-console
+        console.log('Completed tokens');
       });
   });
 
   gulpMerge(streams).on('finish', done);
 };
 
-const createRawTokens = done => createTokens(rawTokenSets, done);
-const createPlatformTokens = done => createTokens(platformTokenSets, done);
+const createRawTokens = (done) => createTokens(rawTokenSets, done);
+const createPlatformTokens = (done) => createTokens(platformTokenSets, done);
 
 gulp.task('tokens:raw', createRawTokens);
 

@@ -20,6 +20,7 @@ import _ from 'lodash';
 
 import sortTokens from '../../../utils/formatters/sort-tokens';
 import { blockComment } from '../../../utils/formatters/license-header';
+
 import adjustTypography from './adjust-typography';
 import valueTemplate from './react-native-value-template';
 
@@ -31,9 +32,9 @@ const bpkReactNativeCommon = (result, platform = 'other') => {
 
   const source = `
 module.exports = {
-  ${_.map(props, prop => tokenTemplate(adjustTypography(prop, platform))).join(
-    ',\n  ',
-  )}
+  ${_.map(props, (prop) =>
+    tokenTemplate(adjustTypography(prop, platform)),
+  ).join(',\n  ')}
 };`;
 
   return [blockComment, source].join('\n');
@@ -41,8 +42,8 @@ module.exports = {
 
 export default bpkReactNativeCommon;
 
-export const bpkReactNativeCommonJsAndroid = result =>
+export const bpkReactNativeCommonJsAndroid = (result) =>
   bpkReactNativeCommon(result, 'androidRn');
 
-export const bpkReactNativeCommonJsIos = result =>
+export const bpkReactNativeCommonJsIos = (result) =>
   bpkReactNativeCommon(result, 'iosRn');

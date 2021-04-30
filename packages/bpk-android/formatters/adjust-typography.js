@@ -29,10 +29,10 @@ const getCorrespondingFontSizeTokens = (aliases, letterSpacingKey) => {
   return aliases.aliases[fontSizeKey];
 };
 
-const getCorrespondingFontSizeTokensAndroid = letterSpacingKey =>
+const getCorrespondingFontSizeTokensAndroid = (letterSpacingKey) =>
   getCorrespondingFontSizeTokens(androidTokenAliases, letterSpacingKey);
 
-const adjustTypographyAndroid = prop => {
+const adjustTypographyAndroid = (prop) => {
   let adjustedValue = prop.value;
   if (prop.type === 'letter-spacing') {
     const correspondingFontSize = getCorrespondingFontSizeTokensAndroid(
@@ -48,11 +48,9 @@ const adjustTypographyAndroid = prop => {
   return { ...prop, value: adjustedValue };
 };
 
-const adjustTypography = (prop, platform) => {
+const adjustTypography = (prop) => {
   return adjustTypographyAndroid(prop);
 };
 
 export default adjustTypography;
-export {
-  adjustTypographyAndroid,
-};
+export { adjustTypographyAndroid };

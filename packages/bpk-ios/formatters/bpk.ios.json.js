@@ -19,12 +19,13 @@
 import camelCase from 'lodash/camelCase';
 
 import sortTokens from '../../../utils/formatters/sort-tokens';
+
 import { adjustTypographyIos } from './adjust-typography';
 
-export default result => {
+export default (result) => {
   const { props } = sortTokens(result.toJS());
 
-  const properties = props.map(obj => {
+  const properties = props.map((obj) => {
     const prop = adjustTypographyIos(obj);
     return { ...prop, name: camelCase(prop.name) };
   });

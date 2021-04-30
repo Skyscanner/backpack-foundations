@@ -37,7 +37,7 @@ import svg2datauri, { sassMap, svg2sassvar } from './tasks/svg2datauri';
 import getIconFontMetadataProvider from './tasks/getIconFontMetadataProvider';
 import metadata from './tasks/metadata';
 
-const remToPx = value => {
+const remToPx = (value) => {
   let parsed = null;
 
   if (/rem$/.test(value)) {
@@ -54,7 +54,7 @@ const largeIconPxSize = remToPx(largeIconSize);
 
 const colors = _(tokens.props)
   .filter({ category: 'colors', type: 'color' })
-  .filter(color => {
+  .filter((color) => {
     // We don't want to generate SVGs for colors that begine with Background or Line as these are not meant for icons.
     // We want it for raw colors only.
     if (color.name.startsWith('BACKGROUND') || color.name.startsWith('LINE')) {
@@ -65,7 +65,7 @@ const colors = _(tokens.props)
   .keyBy('name')
   .mapValues('value')
   .mapKeys((value, key) => _.kebabCase(key).replace('color-', ''))
-  .mapValues(value => tinycolor(value).toHexString())
+  .mapValues((value) => tinycolor(value).toHexString())
   .value();
 
 const svgoCommonPlugins = [
@@ -150,7 +150,7 @@ gulp.task('spinners', () => {
 /*
   ICONS
 */
-const optimiseSvgs = size =>
+const optimiseSvgs = (size) =>
   gulp
     .src(`src/icons/${size}/**/*.svg`)
     .pipe(chmod(0o644))
@@ -184,7 +184,7 @@ const optimiseSvgs = size =>
 
 gulp.task('icons-common', () => merge(optimiseSvgs('sm'), optimiseSvgs('lg')));
 
-const iconReactComponents = size => {
+const iconReactComponents = (size) => {
   const iconSize = size === 'sm' ? smallIconSize : largeIconSize;
   const iconPxSize = size === 'sm' ? smallIconPxSize : largeIconPxSize;
 
@@ -258,7 +258,7 @@ gulp.task('prepare-for-icons-font', () =>
     gulp
       .src('src/icons/sm/*.svg')
       .pipe(
-        rename(path => {
+        rename((path) => {
           // eslint-disable-next-line no-param-reassign
           path.basename += '-sm';
         }),
@@ -268,7 +268,7 @@ gulp.task('prepare-for-icons-font', () =>
     gulp
       .src('src/icons/xl/*.svg')
       .pipe(
-        rename(path => {
+        rename((path) => {
           // eslint-disable-next-line no-param-reassign
           path.basename += '-xl';
         }),
@@ -313,18 +313,16 @@ gulp.task('icons-font', () => {
   const fontStream = generateFont();
   const saveFonts = [
     fontStream.pipe(clone()).pipe(gulp.dest('dist/font')),
-    generateFont('BpkIconIOS')
-      .pipe(clone())
-      .pipe(gulp.dest('dist/font')),
+    generateFont('BpkIconIOS').pipe(clone()).pipe(gulp.dest('dist/font')),
   ];
 
-  const saveMapping = fontStream.on('glyphs', glyphs => {
+  const saveMapping = fontStream.on('glyphs', (glyphs) => {
     const baseDir = 'dist/font';
     const mapping = glyphs.reduce((acc, glyph) => {
       // use punycode to get the text representation of the unicode
       acc[glyph.name] = punycode.ucs2
         .decode(glyph.unicode[0])
-        .map(point => `${point.toString(16).toUpperCase()}`)
+        .map((point) => `${point.toString(16).toUpperCase()}`)
         .join('');
       return acc;
     }, {});
@@ -355,10 +353,7 @@ gulp.task('copy-svgs', () =>
 );
 
 gulp.task('create-metadata', () =>
-  gulp
-    .src('src/icons/lg/*.svg')
-    .pipe(metadata())
-    .pipe(gulp.dest('dist')),
+  gulp.src('src/icons/lg/*.svg').pipe(metadata()).pipe(gulp.dest('dist')),
 );
 
 const iconFonts = gulp.series(

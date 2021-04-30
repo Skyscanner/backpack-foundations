@@ -18,7 +18,7 @@
 
 import sortBy from 'lodash/sortBy';
 
-const sortObjByKey = obj =>
+const sortObjByKey = (obj) =>
   Object.keys(obj)
     .sort()
     .reduce((result, key) => {
@@ -27,7 +27,7 @@ const sortObjByKey = obj =>
       return result;
     }, {});
 
-export default json => {
+export default (json) => {
   const aliases = sortObjByKey(json.aliases);
   const props = sortBy(json.props, 'name');
 

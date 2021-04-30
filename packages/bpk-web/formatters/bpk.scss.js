@@ -38,10 +38,10 @@ export const template = ({ category, name, value, type }) =>
     type,
   })}`;
 
-export default result => {
+export default (result) => {
   const { props } = sortTokens(result.toJS());
 
-  return [blockComment, _.map(props, prop => template(prop)).join('\n')].join(
+  return [blockComment, _.map(props, (prop) => template(prop)).join('\n')].join(
     '\n',
   );
 };

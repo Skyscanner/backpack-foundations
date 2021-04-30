@@ -16,6 +16,6 @@
  * limitations under the License.
  */
 
-import transformDarkValues from './src/transformDarkValues';
+import transformDarkValues from './transformDarkValues';
 
-export { transformDarkValues };
+export default transformDarkValues;

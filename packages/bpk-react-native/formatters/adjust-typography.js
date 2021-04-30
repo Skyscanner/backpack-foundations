@@ -69,15 +69,15 @@ const getCorrespondingFontSizeTokens = (aliases, letterSpacingKey) => {
   return aliases.aliases[fontSizeKey];
 };
 
-const getCorrespondingFontSizeTokensAndroid = letterSpacingKey =>
+const getCorrespondingFontSizeTokensAndroid = (letterSpacingKey) =>
   getCorrespondingFontSizeTokens(androidTokenAliases, letterSpacingKey);
 
-const getCorrespondingFontSizeTokensIos = letterSpacingKey =>
+const getCorrespondingFontSizeTokensIos = (letterSpacingKey) =>
   getCorrespondingFontSizeTokens(iosTokenAliases, letterSpacingKey);
 
-const adjustTypographyAndroidRn = prop => prop;
+const adjustTypographyAndroidRn = (prop) => prop;
 
-const adjustTypographyAndroid = prop => {
+const adjustTypographyAndroid = (prop) => {
   let adjustedValue = prop.value;
   if (prop.type === 'letter-spacing') {
     const correspondingFontSize = getCorrespondingFontSizeTokensAndroid(
@@ -93,7 +93,7 @@ const adjustTypographyAndroid = prop => {
   return { ...prop, value: adjustedValue };
 };
 
-const adjustTypographyIos = prop => {
+const adjustTypographyIos = (prop) => {
   let adjustedValue = prop.value;
   if (prop.value === 'null') {
     adjustedValue = null;
@@ -119,7 +119,7 @@ const adjustTypographyIos = prop => {
 const adjustTypographyIosRn = adjustTypographyIos;
 
 const adjustTypography = (prop, platform) => {
-  let adjustmentFunction = value => value;
+  let adjustmentFunction = (value) => value;
   if (platform === 'android') {
     adjustmentFunction = adjustTypographyAndroid;
   } else if (platform === 'ios') {

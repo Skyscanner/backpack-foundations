@@ -41,7 +41,7 @@ type MetadataModifier = (
 const iconModifiers = [withAutoMirror()];
 
 const wrapWithIcon = (icon: string, modifiers: Array<MetadataModifier>) =>
-  modifiers.map(modifier => data => modifier(icon, data));
+  modifiers.map((modifier) => (data) => modifier(icon, data));
 
 const withIcon = (icon: string) => flow(wrapWithIcon(icon, iconModifiers));
 

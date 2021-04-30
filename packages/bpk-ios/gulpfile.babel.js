@@ -28,25 +28,22 @@ import gulpMerge from 'merge2';
 import jsonLint from 'gulp-jsonlint';
 
 import transformDarkValues from '../../utils/transformDarkValues';
+
 import bpkIosJson from './formatters/bpk.ios.json';
-import bpkRawJson, {
-  bpkRawJsonIos,
-} from './formatters/bpk.raw.json';
+import bpkRawJson, { bpkRawJsonIos } from './formatters/bpk.raw.json';
 
 const RAW_FORMATS = {
   ios: ['raw.ios.json'],
 };
 
 const PLATFORM_FORMATS = {
-  ios: [
-    'ios.json',
-  ],
+  ios: ['ios.json'],
 };
 
-const createTokenSets = formats =>
+const createTokenSets = (formats) =>
   flatten(
-    Object.keys(formats).map(platform =>
-      formats[platform].map(format =>
+    Object.keys(formats).map((platform) =>
+      formats[platform].map((format) =>
         typeof format !== 'string'
           ? { platform, ...format }
           : { platform, format },
@@ -63,7 +60,7 @@ theo.registerFormat('raw.ios.json', bpkRawJsonIos);
 
 theo.registerTransform('ios', ['color/hex8rgba']);
 
-gulp.task('clean', done => del(['tokens'], done));
+gulp.task('clean', (done) => del(['tokens'], done));
 
 gulp.task('lint', () =>
   gulp
@@ -98,9 +95,7 @@ const createTokens = (tokenSets, done) => {
         const oldPath = path.resolve(outputPath, `base.${format}`);
         const newPath = path.resolve(
           outputPath,
-          `base.${format}`
-            .split('IOS_')
-            .join(''),
+          `base.${format}`.split('IOS_').join(''),
         );
         if (oldPath !== newPath) {
           fs.renameSync(oldPath, newPath);
@@ -111,8 +106,8 @@ const createTokens = (tokenSets, done) => {
   gulpMerge(streams).on('finish', done);
 };
 
-const createRawTokens = done => createTokens(rawTokenSets, done);
-const createPlatformTokens = done => createTokens(platformTokenSets, done);
+const createRawTokens = (done) => createTokens(rawTokenSets, done);
+const createPlatformTokens = (done) => createTokens(platformTokenSets, done);
 
 gulp.task('tokens:raw', createRawTokens);
 

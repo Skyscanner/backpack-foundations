@@ -18,14 +18,14 @@
 
 const through = require('through2');
 
-const calculatePotentialMerges = properties => {
+const calculatePotentialMerges = (properties) => {
   const merges = {};
 
   if (!properties) {
     return merges;
   }
 
-  properties.forEach(p => {
+  properties.forEach((p) => {
     if (p.name && p.name.includes('LightColor')) {
       const newName = p.name.replace('LightColor', 'Color');
 
@@ -78,20 +78,20 @@ const performMerge = (key, mergeDefinition) => {
   return newObj;
 };
 
-const listify = obj => {
+const listify = (obj) => {
   const list = [];
   if (!obj) {
     return list;
   }
 
-  Object.keys(obj).forEach(k => {
+  Object.keys(obj).forEach((k) => {
     const newObj = { ...obj[k] };
     list.push(newObj);
   });
   return list;
 };
 
-const mergeJsonDynamicColours = str => {
+const mergeJsonDynamicColours = (str) => {
   let obj = {};
   try {
     obj = JSON.parse(str);
@@ -107,7 +107,7 @@ const mergeJsonDynamicColours = str => {
   const propertyMerges = calculatePotentialMerges(obj.properties);
   const propsMerges = calculatePotentialMerges(listify(obj.props));
 
-  Object.keys(propertyMerges).forEach(mKey => {
+  Object.keys(propertyMerges).forEach((mKey) => {
     const merge = propertyMerges[mKey];
     const mergeResult = performMerge(mKey, merge);
     if (mergeResult) {
@@ -115,7 +115,7 @@ const mergeJsonDynamicColours = str => {
     }
   });
 
-  Object.keys(propsMerges).forEach(mKey => {
+  Object.keys(propsMerges).forEach((mKey) => {
     const merge = propsMerges[mKey];
     const mergeResult = performMerge(mKey, merge);
     if (mergeResult) {
@@ -129,7 +129,7 @@ const mergeJsonDynamicColours = str => {
 
 module.exports = () => {
   // eslint-disable-next-line consistent-return, func-names
-  const stream = through.obj(function(buffer, enc, cb) {
+  const stream = through.obj(function (buffer, enc, cb) {
     try {
       if (buffer.isStream()) {
         return cb();

@@ -18,4 +18,5 @@
 
 import setOpacity from './src/setOpacity';
 
-export { setOpacity, transformDarkValues };
+export { setOpacity };
+export default setOpacity;

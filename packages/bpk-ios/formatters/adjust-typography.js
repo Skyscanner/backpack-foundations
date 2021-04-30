@@ -68,11 +68,10 @@ const getCorrespondingFontSizeTokens = (aliases, letterSpacingKey) => {
   return aliases.aliases[fontSizeKey];
 };
 
-
-const getCorrespondingFontSizeTokensIos = letterSpacingKey =>
+const getCorrespondingFontSizeTokensIos = (letterSpacingKey) =>
   getCorrespondingFontSizeTokens(iosTokenAliases, letterSpacingKey);
 
-const adjustTypographyIos = prop => {
+const adjustTypographyIos = (prop) => {
   let adjustedValue = prop.value;
   if (prop.value === 'null') {
     adjustedValue = null;
@@ -100,6 +99,4 @@ const adjustTypography = (prop) => {
 };
 
 export default adjustTypography;
-export {
-  adjustTypographyIos,
-};
+export { adjustTypographyIos };

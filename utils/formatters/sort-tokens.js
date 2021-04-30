@@ -16,10 +16,9 @@
  * limitations under the License.
  */
 
-// import sortBy from 'lodash/sortBy';
-var sortBy = require('lodash/sortBy');
+const sortBy = require('lodash/sortBy');
 
-const sortObjByKey = obj =>
+const sortObjByKey = (obj) =>
   Object.keys(obj)
     .sort()
     .reduce((result, key) => {
@@ -28,7 +27,7 @@ const sortObjByKey = obj =>
       return result;
     }, {});
 
-module.exports = json => {
+module.exports = (json) => {
   const aliases = sortObjByKey(json.aliases);
   const props = sortBy(json.props, 'name');
 

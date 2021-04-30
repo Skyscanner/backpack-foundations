@@ -21,9 +21,10 @@ import tinycolor from 'tinycolor2';
 
 import sortTokens from '../../../utils/formatters/sort-tokens';
 import { xmlComment } from '../../../utils/formatters/license-header';
+
 import { adjustTypographyAndroid } from './adjust-typography';
 
-const tagName = type => (type === 'color' ? 'color' : 'property');
+const tagName = (type) => (type === 'color' ? 'color' : 'property');
 
 const valueTemplate = (value, type) => {
   let formattedValue = value;
@@ -60,10 +61,10 @@ export const tokenTemplate = ({ name, value, type, category }) =>
     type,
   )}</${tagName(type)}>`;
 
-export default result => {
+export default (result) => {
   const { props } = sortTokens(result.toJS());
 
-  const singleTokens = _.map(props, prop =>
+  const singleTokens = _.map(props, (prop) =>
     tokenTemplate(adjustTypographyAndroid(prop)),
   ).join('\n');
 

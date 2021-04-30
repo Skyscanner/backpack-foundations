@@ -40,7 +40,7 @@ export default (codepointsPath: string) => {
       });
     }
 
-    const codepointValues = Object.values(codepoints).map(value =>
+    const codepointValues = Object.values(codepoints).map((value) =>
       parseInt(value, 10),
     );
 

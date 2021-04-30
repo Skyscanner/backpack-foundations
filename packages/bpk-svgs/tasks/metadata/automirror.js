@@ -29,7 +29,7 @@ const withAutoMirrorData = (): MetadataModifier => {
   const info = fs.readFileSync(infoFile, 'utf8').split('\n');
   return (icon, data) => ({
     ...data,
-    autoMirror: !!info.find(i => i === icon),
+    autoMirror: !!info.find((i) => i === icon),
   });
 };
 

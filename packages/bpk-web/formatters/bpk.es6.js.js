@@ -28,28 +28,23 @@ export const categoryTemplate = (
   categoryName,
   props,
 ) => `export const ${_.camelCase(categoryName)} = {
-${_.map(props, prop => `${_.camelCase(prop.name)},`).join('\n')}
+${_.map(props, (prop) => `${_.camelCase(prop.name)},`).join('\n')}
 };`;
 
-export default result => {
+export default (result) => {
   const { props } = sortTokens(result.toJS());
 
   const categories = _(props)
-    .map(prop => prop.category)
+    .map((prop) => prop.category)
     .uniq()
     .value();
 
-  const singleTokens = _.map(props, prop => tokenTemplate(prop)).join('\n');
+  const singleTokens = _.map(props, (prop) => tokenTemplate(prop)).join('\n');
 
   const groupedTokens = categories
     .sort()
-    .map(category =>
-      categoryTemplate(
-        category,
-        _(props)
-          .filter({ category })
-          .value(),
-      ),
+    .map((category) =>
+      categoryTemplate(category, _(props).filter({ category }).value()),
     )
     .join('\n');
 

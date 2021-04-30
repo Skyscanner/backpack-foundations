@@ -27,7 +27,7 @@ const mapTemplate = (options = {}) =>
   `/// @group svgs\n$${options.mapName}: (\n${options.vars}\n);\n`;
 const mapVariableTemplate = (options = {}) =>
   `${options.varname}: '${options.base64Data}',`;
-const colorOverride = color =>
+const colorOverride = (color) =>
   `$1<style type="text/css">circle, ellipse, line, path, polygon, polyline, rect, text { fill: ${color} !important }</style>`;
 const colorPlaceholder =
   '$1<style type="text/css">circle, ellipse, line, path, polygon, polyline, rect, text { fill: $$$COLOR$$$ !important }</style>';
@@ -54,7 +54,7 @@ const injectColorPlaceholder = (svgContents, svgName) => {
 const svg2datauri = (svgContents, svgName, colors) => {
   if (colors) {
     return Object.keys(colors)
-      .map(color =>
+      .map((color) =>
         mapVariableTemplate({
           varname: `${svgName}-${color}`,
           base64Data: encodeSvg(svgContents, colors[color]),
@@ -100,7 +100,7 @@ export default (opts = {}) => {
   return stream;
 };
 
-export const sassMap = mapName => {
+export const sassMap = (mapName) => {
   const stream = new Transform({ objectMode: true });
 
   // eslint-disable-next-line no-underscore-dangle

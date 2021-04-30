@@ -28,6 +28,7 @@ import gulpMerge from 'merge2';
 import jsonLint from 'gulp-jsonlint';
 
 import transformDarkValues from '../../utils/transformDarkValues';
+
 import bpkRawJson, {
   bpkRawJsonAndroid,
   bpkRawJsonIos,
@@ -61,10 +62,10 @@ const PLATFORM_FORMATS = {
   ],
 };
 
-const createTokenSets = formats =>
+const createTokenSets = (formats) =>
   flatten(
-    Object.keys(formats).map(platform =>
-      formats[platform].map(format =>
+    Object.keys(formats).map((platform) =>
+      formats[platform].map((format) =>
         typeof format !== 'string'
           ? { platform, ...format }
           : { platform, format },
@@ -91,7 +92,7 @@ theo.registerFormat('IOS_react.native.common.js', bpkReactNativeCommonJsIos);
 theo.registerTransform('ios', ['color/hex8rgba']);
 theo.registerTransform('android', ['color/hex8rgba']);
 
-gulp.task('clean', done => del(['tokens'], done));
+gulp.task('clean', (done) => del(['tokens'], done));
 
 gulp.task('lint', () =>
   gulp
@@ -126,11 +127,7 @@ const createTokens = (tokenSets, done) => {
         const oldPath = path.resolve(outputPath, `base.${format}`);
         const newPath = path.resolve(
           outputPath,
-          `base.${format}`
-            .split('ANDROID_')
-            .join('')
-            .split('IOS_')
-            .join(''),
+          `base.${format}`.split('ANDROID_').join('').split('IOS_').join(''),
         );
         if (oldPath !== newPath) {
           fs.renameSync(oldPath, newPath);
@@ -141,8 +138,8 @@ const createTokens = (tokenSets, done) => {
   gulpMerge(streams).on('finish', done);
 };
 
-const createRawTokens = done => createTokens(rawTokenSets, done);
-const createPlatformTokens = done => createTokens(platformTokenSets, done);
+const createRawTokens = (done) => createTokens(rawTokenSets, done);
+const createPlatformTokens = (done) => createTokens(platformTokenSets, done);
 
 gulp.task('tokens:raw', createRawTokens);
 
