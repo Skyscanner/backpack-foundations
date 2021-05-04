@@ -38,7 +38,7 @@ This package contains all our svgs but just split from the main Backpack web rep
 ### Installing packages
 
 ```sh
-npm install [package-name] --save
+npm install @skyscanner/[package-name] --save
 ```
 
 **Note:** You should not install the `bpk-common` package as this is consumed within each platform-specific package and serves tokens directly.
