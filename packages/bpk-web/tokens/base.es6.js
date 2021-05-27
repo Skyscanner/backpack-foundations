@@ -368,6 +368,13 @@ export const selectPaddingLeft = ".75rem";
 export const selectPaddingRight = "1.875rem";
 export const selectPaddingTop = ".375rem";
 export const spacingBase = "1.5rem";
+export const spacingFunctionBase = "@function bpk-spacing-base() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1rem; } @return 1.5rem; }";
+export const spacingFunctionLg = "@function bpk-spacing-lg() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1.5rem; } @return 1.875rem; }";
+export const spacingFunctionMd = "@function bpk-spacing-md() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .5rem; } @return 1.125rem; }";
+export const spacingFunctionSm = "@function bpk-spacing-sm() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .25rem; } @return .75rem; }";
+export const spacingFunctionXl = "@function bpk-spacing-xl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2rem; } @return 2.250rem; }";
+export const spacingFunctionXs = "@function bpk-spacing-xs() { @warn 'bpk-spacing-xs has been deprecated in the new system and will be removed in the future.'; @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .25rem; } @return .375rem; }";
+export const spacingFunctionXxl = "@function bpk-spacing-xxl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2.5rem; } @return 2.625rem; }";
 export const spacingLg = "1.875rem";
 export const spacingMd = "1.125rem";
 export const spacingNone = "0";
@@ -821,6 +828,13 @@ onePixelRem,
 pMarginBottom,
 pMarginTop,
 spacingBase,
+spacingFunctionBase,
+spacingFunctionLg,
+spacingFunctionMd,
+spacingFunctionSm,
+spacingFunctionXl,
+spacingFunctionXs,
+spacingFunctionXxl,
 spacingLg,
 spacingMd,
 spacingNone,

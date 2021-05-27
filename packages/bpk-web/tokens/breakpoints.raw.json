@@ -135,11 +135,17 @@
     "FONT_SIZE_XXXL": {
       "value": "2.25rem"
     },
+    "SPACING_LG_V2": {
+      "value": "1.5rem"
+    },
     "BUTTON_FONT_SIZE": {
       "value": "1.1875rem"
     },
     "BORDER_SIZE_SM": {
       "value": "1px"
+    },
+    "SPACING_SM_V2": {
+      "value": ".25rem"
     },
     "ZINDEX_MODAL": {
       "value": "1100"
@@ -156,6 +162,9 @@
     "FONT_WEIGHT_BLACK": {
       "value": "900"
     },
+    "SPACING_MD_V2": {
+      "value": ".5rem"
+    },
     "FONT_SIZE_SM": {
       "value": ".875rem"
     },
@@ -164,6 +173,12 @@
     },
     "FONT_SIZE_LG": {
       "value": "1.25rem"
+    },
+    "SPACING_XL_V2": {
+      "value": "2rem"
+    },
+    "SPACING_XXL_V2": {
+      "value": "2.5rem"
     },
     "SPACING_BASE": {
       "value": "1.5rem"
@@ -176,6 +191,9 @@
     },
     "BREAKPOINT_DESKTOP": {
       "value": "71.25rem"
+    },
+    "SPACING_BASE_V2": {
+      "value": "1rem"
     },
     "FONT_LINE_HEIGHT_XXL": {
       "value": "2.4375rem"
