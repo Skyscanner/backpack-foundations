@@ -21,9 +21,12 @@ import _ from 'lodash';
 import sortTokens from '../../../utils/formatters/sort-tokens';
 import { blockComment } from '../../../utils/formatters/license-header';
 
-export const tokenTemplate = ({ name, value }) =>
-  `export const ${_.camelCase(name)} = "${value.replace(/"/g, '\\"')}";`;
-
+export const tokenTemplate = ({ name, value, type }) => {
+  if (type === 'function') {
+    return null;
+  }
+  return `export const ${_.camelCase(name)} = "${value.replace(/"/g, '\\"')}";`;
+};
 export const categoryTemplate = (
   categoryName,
   props,
@@ -39,12 +42,21 @@ export default (result) => {
     .uniq()
     .value();
 
-  const singleTokens = _.map(props, (prop) => tokenTemplate(prop)).join('\n');
+  const singleTokens = _.map(
+    props.filter((prop) => prop.type !== 'function'),
+    (prop) => tokenTemplate(prop),
+  ).join('\n');
 
   const groupedTokens = categories
     .sort()
     .map((category) =>
-      categoryTemplate(category, _(props).filter({ category }).value()),
+      categoryTemplate(
+        category,
+        _(props)
+          .filter({ category })
+          .filter((prop) => prop.type !== 'function')
+          .value(),
+      ),
     )
     .join('\n');
 
