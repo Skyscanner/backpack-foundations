@@ -347,7 +347,7 @@ gulp.task('clean-up-font-svgs', () => del('dist/font/*.svg'));
 // copy-svgs ignores those in `xl` as we don't want to make them available to web consumers.
 gulp.task('copy-svgs', () =>
   gulp
-    .src(['src/**/*.svg', '!src/icons/xl/*.svg'])
+    .src(['src/**/*.svg', '!src/icons/xl/*.svg', 'src/icons/*.js'])
     .pipe(clone())
     .pipe(gulp.dest('dist/svgs')),
 );
