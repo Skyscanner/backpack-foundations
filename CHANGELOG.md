@@ -1,4 +1,11 @@
-# 2021-06-01
+# 2021-06-01 - Fix for `@skyscanner/bpk-web`
+
+**Fixed:**
+
+- @skyscanner/bpk-web: 1.0.0 => 1.0.1
+  - Fixed an issue when generating tokens for the spacing functions.
+
+# 2021-06-01 - Inital release
 
 Inital release of new foundation libraries:
 
