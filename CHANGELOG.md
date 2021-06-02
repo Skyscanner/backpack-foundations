@@ -1,3 +1,10 @@
+# 2021-06-02 - Fix for `@skyscanner/bpk-svgs`
+
+**Fixed:**
+
+- @skyscanner/bpk-svgs: 12.6.4 => 12.7.0
+  - Fixed an issue with missing files used for creating zip file when used in Backpack docs site.
+
 # 2021-06-01 - Fix for `@skyscanner/bpk-web`
 
 **Fixed:**
