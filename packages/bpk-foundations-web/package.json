@@ -1,0 +1,23 @@
+{
+  "name": "@skyscanner/bpk-foundations-web",
+  "version": "1.0.1",
+  "description": "Common Backpack design tokens for colors, spacing, font, etc.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Skyscanner/backpack-foundations.git"
+  },
+  "author": "Backpack Design System <backpack@skyscanner.net>",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "tokens": "gulp"
+  },
+  "dependencies": {
+    "@skyscanner/bpk-foundations-common": "^1.0.0",
+    "color": "^3.0.0"
+  }
+}

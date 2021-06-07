@@ -164,7 +164,7 @@ You can also run the tests in 'watch mode', which means the process will continu
 - You’ll be asked to confirm the new versions and descriptions for every package that has changed.
 - If you need to make changes you can exit without confirming and no changes will be made.
 
-Be aware that if `bpk-common` has changed, *all* packages in the repository will be updated as they all depend on `bpk-common`. Changing an existing token is almost always worth a "major" release, whereas adding a new token is usually a "minor" release.
+Be aware that if `bpk-foundations-common` has changed, *all* packages in the repository will be updated as they all depend on `bpk-foundations-common`. Changing an existing token is almost always worth a "major" release, whereas adding a new token is usually a "minor" release.
 
 </details>
 

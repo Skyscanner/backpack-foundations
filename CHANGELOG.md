@@ -1,3 +1,12 @@
+# 2021-06-07 - Renaming packages to avoid confusion
+
+Renamed packages to avoid confusion with what they are and their contents.
+
+- @skyscanner/bpk-web => @skyscanner/bpk-foundations-web: 1.0.0
+- @skyscanner/bpk-react-native => @skyscanner/bpk-foundations-rn: 1.0.0
+- @skyscanner/bpk-ios => @skyscanner/bpk-foundations-ios: 1.0.0
+- @skyscanner/bpk-android => @skyscanner/bpk-foundations-android: 1.0.0
+
 # 2021-06-02 - `@skyscanner/bpk-svgs` updates
 
 **Fixed:**

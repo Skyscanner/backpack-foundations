@@ -15,7 +15,7 @@ This repo contains common design system elements that are shared across our plat
 
 This repo is broken down into the following [packages](/packages):
 
-### `bpk-common`
+### `bpk-foundations-common`
 
 All tokens that are common across all platforms, broken down into two parts:
 
@@ -27,7 +27,7 @@ All tokens that are common across all platforms, broken down into two parts:
 
 These specifc packages target any tokens that are only applicable to them, e.g. breakpoints for web or elevations for Android.
 
-These packages inherit the `bpk-common` tokens and export them through each `aliases.json` file, so they can be added to the platform alongside their specific tokens.
+These packages inherit the `bpk-foundations-common` tokens and export them through each `aliases.json` file, so they can be added to the platform alongside their specific tokens.
 
 ### `bpk-svgs`
 
@@ -41,7 +41,7 @@ This package contains all our svgs but just split from the main Backpack web rep
 npm install @skyscanner/[package-name] --save
 ```
 
-**Note:** You should not install the `bpk-common` package as this is consumed within each platform-specific package and serves tokens directly.
+**Note:** You should not install the `bpk-foundations-common` package as this is consumed within each platform-specific package and serves tokens directly.
 
 ## Contributing
 
