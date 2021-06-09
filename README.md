@@ -1,6 +1,6 @@
 # Backpack Foundations
 
-This repo contains common design system elements that are shared across our platforms. These include but are not limited to icons and tokens e.g. colours, typography, etc
+This repo contains common design system elements that are shared across Skyscanner platforms. These include but are not limited to icons and tokens e.g. colours, typography etc.
 
 [![Build Status](https://github.com/Skyscanner/backpack-foundations/workflows/Foundations%20CI/badge.svg)](https://github.com/Skyscanner/backpack-foundations/actions)
 
@@ -25,13 +25,13 @@ All tokens that are common across all platforms, broken down into two parts:
 
 ### `bpk-<android/ios/react-native/web>`
 
-These specifc packages target any tokens that are only applicable to them, e.g. breakpoints for web or elevations for Android.
+These specific packages target any tokens that are only applicable to them, e.g. breakpoints for web or elevations for Android.
 
 These packages inherit the `bpk-foundations-common` tokens and export them through each `aliases.json` file, so they can be added to the platform alongside their specific tokens.
 
 ### `bpk-svgs`
 
-This package contains all our svgs but just split from the main Backpack web repo.
+This package contains all of Backpack's SVGs, just split from the main Backpack web repo.
 
 ## Usage
 
