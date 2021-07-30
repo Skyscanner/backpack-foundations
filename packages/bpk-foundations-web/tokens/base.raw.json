@@ -816,6 +816,7 @@
       "category": "buttons",
       "value": "1.125rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!BORDER_RADIUS_PILL}",
       "name": "BUTTON_ICON_BORDER_RADIUS"
     },
@@ -837,6 +838,7 @@
       "category": "buttons",
       "value": ".5625rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": ".5625rem",
       "name": "BUTTON_LARGE_PADDING_X_ICON_ONLY"
     },
@@ -879,6 +881,7 @@
       "category": "buttons",
       "value": "1.3125rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!BORDER_RADIUS_PILL_LG}",
       "name": "BUTTON_ICON_BORDER_RADIUS_LG"
     },
@@ -908,6 +911,7 @@
       "category": "buttons",
       "value": ".5625rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": ".5625rem",
       "name": "BUTTON_PADDING_X_ICON_ONLY"
     },
@@ -1049,6 +1053,7 @@
       "category": "buttons",
       "value": "1.5rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_BASE}",
       "name": "BUTTON_LARGE_PADDING_X"
     },
@@ -1077,6 +1082,7 @@
       "category": "buttons",
       "value": ".375rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_XS}",
       "name": "BUTTON_LARGE_PADDING_Y"
     },
@@ -1168,6 +1174,7 @@
       "category": "buttons",
       "value": "1.125rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_MD}",
       "name": "BUTTON_PADDING_X"
     },
@@ -1182,6 +1189,7 @@
       "category": "buttons",
       "value": ".375rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_XS}",
       "name": "BUTTON_PADDING_Y"
     },
