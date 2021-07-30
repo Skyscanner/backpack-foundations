@@ -64,23 +64,28 @@
     },
     "SELECT_HEIGHT": {
       "value": "{!SPACING_XL}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "SELECT_PADDING_TOP": {
       "value": "{!SPACING_XS}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "SELECT_PADDING_RIGHT": {
       "value": "{!SPACING_LG}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "SELECT_PADDING_BOTTOM": {
       "value": "{!SPACING_XS}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "SELECT_PADDING_LEFT": {
       "value": "{!SPACING_SM}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "SELECT_BORDER_WIDTH": {
       "value": "{!ONE_PIXEL_REM}",
@@ -108,7 +113,8 @@
     },
     "SELECT_LARGE_HEIGHT": {
       "value": "{!SPACING_XXL} + {!SPACING_XS}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "LABEL_COLOR": {
       "value": "{!SKY_GRAY}",
