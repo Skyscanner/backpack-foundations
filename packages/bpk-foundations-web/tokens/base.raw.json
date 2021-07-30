@@ -1786,6 +1786,7 @@
       "category": "forms",
       "value": ".375rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_XS}",
       "name": "SELECT_PADDING_TOP"
     },
@@ -1814,6 +1815,7 @@
       "category": "forms",
       "value": "2.250rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_XL}",
       "name": "SELECT_HEIGHT"
     },
@@ -1828,6 +1830,7 @@
       "category": "forms",
       "value": "1.875rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_LG}",
       "name": "SELECT_PADDING_RIGHT"
     },
@@ -1835,6 +1838,7 @@
       "category": "forms",
       "value": "2.625rem + .375rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_XXL} + {!SPACING_XS}",
       "name": "SELECT_LARGE_HEIGHT"
     },
@@ -1912,6 +1916,7 @@
       "category": "forms",
       "value": ".75rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM}",
       "name": "SELECT_PADDING_LEFT"
     },
@@ -1947,6 +1952,7 @@
       "category": "forms",
       "value": ".375rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_XS}",
       "name": "SELECT_PADDING_BOTTOM"
     },
