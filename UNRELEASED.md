@@ -17,3 +17,8 @@
     - `$bpk-select-padding-right`
     - `$bpk-select-padding-bottom`
     - `$bpk-select-padding-left`
+
+**Fixed:**
+
+- bpk-svgs
+  - Fixed an issue with the world icons being mixed up.
