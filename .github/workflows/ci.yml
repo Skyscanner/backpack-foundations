@@ -29,6 +29,9 @@ jobs:
         run: |
           nvm use
           npm run build
+      
+      - name: Confirm the build hasn't changed any files
+        run: ./check-pristine-state package-lock.json
 
       - name: Run tests
         run: |
