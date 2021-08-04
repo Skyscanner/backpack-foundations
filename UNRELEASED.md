@@ -18,6 +18,9 @@
     - `$bpk-select-padding-bottom`
     - `$bpk-select-padding-left`
 
+- bpk-svgs:
+  - Updated small and xl spinners to use the new spacing compatible versions.
+
 **Fixed:**
 
 - bpk-svgs
