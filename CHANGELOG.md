@@ -1,3 +1,38 @@
+# 2021-08-05
+
+**Added:**
+
+- @skyscanner/bpk-foundations-android: 1.0.0 => 1.1.0
+- @skyscanner/bpk-foundations-ios: 1.0.0 => 1.1.0
+- @skyscanner/bpk-foundations-react-native: 1.0.0 => 1.1.0
+- @skyscanner/bpk-foundations-web: 1.0.0 => 1.1.0
+  - New `text-icon-spacing` token. This is the spacing that should be placed between icons and text.
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-web: 1.0.0 => 1.1.0
+  - The following button tokens are now deprecated. To migrate, use an equivalent spacing value.
+    - `$button-padding-x`
+    - `$button-padding-y`
+    - `$button-padding-x-icon-only`
+    - `$button-icon-border-radius`
+    - `$button-icon-border-radius-lg`
+    - `$button-large-padding-x`
+    - `$button-large-padding-y`
+    - `$button-large-padding-x-icon-only`
+  
+  - The following select tokens are now deprecated. To migrate, use an equivalent spacing value.
+    - `$bpk-select-height`
+    - `$bpk-select-padding-top`
+    - `$bpk-select-padding-right`
+    - `$bpk-select-padding-bottom`
+    - `$bpk-select-padding-left`
+
+**Fixed:**
+
+- @skyscanner/bpk-svgs: 12.7.2 => 12.7.3
+  - Fixed an issue with the world icons being mixed up.
+
 # 2021-06-07 - Renaming packages to avoid confusion
 
 Renamed packages to avoid confusion with what they are and their contents.
