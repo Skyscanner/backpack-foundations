@@ -93,6 +93,7 @@
   <dimen name="SPACING_XL" category="spacings">32</dimen>
   <dimen name="SPACING_XXL" category="spacings">40</dimen>
   <dimen name="SPACING_NONE" category="spacings">0</dimen>
+  <dimen name="SPACING_ICON_TEXT" category="spacings">8</dimen>
   <dimen name="LINE_HEIGHT_XL" category="typesettings">28</dimen>
   <property name="FONT_SIZE_XL" category="typesettings">24</property>
   <property name="FONT_SIZE_XXXL" category="typesettings">36</property>

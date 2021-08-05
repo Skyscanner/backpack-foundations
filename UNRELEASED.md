@@ -1,3 +1,11 @@
+**Added:**
+
+- bpk-foundations-web:
+- bpk-foundations-ios:
+- bpk-foundations-android:
+- bpk-foundations-react-native:
+  - New `text-icon-spacing` token. This is the spacing that should be placed between icons and text.
+
 **Changed:**
 
 - bpk-foundations-web:

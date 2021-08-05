@@ -857,6 +857,13 @@
     {
       "type": "size",
       "category": "spacings",
+      "value": "8",
+      "originalValue": "{!SPACING_MD}",
+      "name": "spacingIconText"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
       "value": "24",
       "originalValue": "{!SPACING_LG}",
       "name": "spacingLg"
