@@ -131,6 +131,7 @@ module.exports = {
   primaryDarkColor: "rgb(109, 159, 235)",
   primaryLightColor: "rgb(7, 112, 227)",
   spacingBase: 16,
+  spacingIconText: 8,
   spacingLg: 24,
   spacingMd: 8,
   spacingNone: 0,

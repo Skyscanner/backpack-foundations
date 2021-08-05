@@ -170,6 +170,7 @@ export const primaryColor = {
 export const primaryDarkColor = "rgb(109, 159, 235)";
 export const primaryLightColor = "rgb(7, 112, 227)";
 export const spacingBase = 16;
+export const spacingIconText = 8;
 export const spacingLg = 24;
 export const spacingMd = 8;
 export const spacingNone = 0;
@@ -376,6 +377,7 @@ buttonLineHeightLarge,
 buttonPaddingHorizontal,
 buttonPaddingVertical,
 spacingBase,
+spacingIconText,
 spacingLg,
 spacingMd,
 spacingNone,

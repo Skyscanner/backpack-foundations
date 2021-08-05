@@ -1114,6 +1114,13 @@
       "originalValue": "{!SPACING_BASE}",
       "name": "SPACING_BASE"
     },
+    "SPACING_ICON_TEXT": {
+      "type": "size",
+      "category": "spacings",
+      "value": "8",
+      "originalValue": "{!SPACING_MD}",
+      "name": "SPACING_ICON_TEXT"
+    },
     "SPACING_LG": {
       "type": "size",
       "category": "spacings",
@@ -1666,6 +1673,7 @@
     "SHADOW_SM_OPACITY",
     "SHADOW_SM_RADIUS",
     "SPACING_BASE",
+    "SPACING_ICON_TEXT",
     "SPACING_LG",
     "SPACING_MD",
     "SPACING_NONE",

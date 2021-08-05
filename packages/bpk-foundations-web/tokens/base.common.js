@@ -370,6 +370,7 @@ module.exports = {
   selectPaddingRight: "1.875rem",
   selectPaddingTop: ".375rem",
   spacingBase: "1.5rem",
+  spacingIconText: ".5rem",
   spacingLg: "1.875rem",
   spacingMd: "1.125rem",
   spacingNone: "0",
