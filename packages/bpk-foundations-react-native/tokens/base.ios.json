@@ -631,6 +631,12 @@
       "name": "spacingNone"
     },
     {
+      "type": "size",
+      "category": "spacings",
+      "value": "8",
+      "name": "spacingIconText"
+    },
+    {
       "category": "touchables",
       "value": "0.15",
       "type": "number",

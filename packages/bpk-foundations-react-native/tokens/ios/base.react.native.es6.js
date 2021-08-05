@@ -180,6 +180,7 @@ export const shadowSmOffsetWidth = 0;
 export const shadowSmOpacity = 0.15;
 export const shadowSmRadius = 3;
 export const spacingBase = 16;
+export const spacingIconText = 8;
 export const spacingLg = 24;
 export const spacingMd = 8;
 export const spacingNone = 0;
@@ -403,6 +404,7 @@ buttonLineHeightLarge,
 buttonPaddingHorizontal,
 buttonPaddingVertical,
 spacingBase,
+spacingIconText,
 spacingLg,
 spacingMd,
 spacingNone,

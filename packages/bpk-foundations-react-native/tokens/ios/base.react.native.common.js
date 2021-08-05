@@ -141,6 +141,7 @@ module.exports = {
   shadowSmOpacity: 0.15,
   shadowSmRadius: 3,
   spacingBase: 16,
+  spacingIconText: 8,
   spacingLg: 24,
   spacingMd: 8,
   spacingNone: 0,

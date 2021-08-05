@@ -368,6 +368,7 @@ export const selectPaddingLeft = ".75rem";
 export const selectPaddingRight = "1.875rem";
 export const selectPaddingTop = ".375rem";
 export const spacingBase = "1.5rem";
+export const spacingIconText = ".5rem";
 export const spacingLg = "1.875rem";
 export const spacingMd = "1.125rem";
 export const spacingNone = "0";
@@ -821,6 +822,7 @@ onePixelRem,
 pMarginBottom,
 pMarginTop,
 spacingBase,
+spacingIconText,
 spacingLg,
 spacingMd,
 spacingNone,

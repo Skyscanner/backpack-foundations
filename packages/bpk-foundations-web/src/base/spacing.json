@@ -60,6 +60,9 @@
     "SPACING_NONE": {
       "value": "{!SPACING_NONE}"
     },
+    "SPACING_ICON_TEXT": {
+      "value": "{!SPACING_MD_V2}"
+    },
     "ONE_PIXEL_REM": {
       "value": "{!ONE_PIXEL_REM}"
     }

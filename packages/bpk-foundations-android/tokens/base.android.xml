@@ -132,6 +132,7 @@
   <color name="PRIMARY_DARK_COLOR" category="colors">#ff6d9feb</color>
   <color name="PRIMARY_LIGHT_COLOR" category="colors">#ff0770e3</color>
   <property name="SPACING_BASE" category="spacings">16dp</property>
+  <property name="SPACING_ICON_TEXT" category="spacings">8dp</property>
   <property name="SPACING_LG" category="spacings">24dp</property>
   <property name="SPACING_MD" category="spacings">8dp</property>
   <property name="SPACING_NONE" category="spacings">0dp</property>

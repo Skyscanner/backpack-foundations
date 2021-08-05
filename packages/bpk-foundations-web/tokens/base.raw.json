@@ -2384,6 +2384,13 @@
       "originalValue": "{!SPACING_SM}",
       "name": "SPACING_SM"
     },
+    "SPACING_ICON_TEXT": {
+      "type": "size",
+      "category": "spacings",
+      "value": ".5rem",
+      "originalValue": "{!SPACING_MD_V2}",
+      "name": "SPACING_ICON_TEXT"
+    },
     "SPACING_XS": {
       "type": "size",
       "category": "spacings",
