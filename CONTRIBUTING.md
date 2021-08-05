@@ -1,4 +1,4 @@
-# Contributing to Backpack Foundationss
+# Contributing to Backpack Foundations
 
 You want to help us enable Skyscanner to create beautiful, coherent products at scale? That's awesome! :heart:
 
@@ -90,7 +90,7 @@ When you run `npm install`, Lerna is bootstrapped automatically as a post-instal
 
 ### Build the code
 
-Backpack Foundationss code depends on some things that must be built first, such as icon fonts, SVGs and tokens.
+Backpack Foundations code depends on some things that must be built first, such as icon fonts, SVGs and tokens.
 
 Use `npm run build` to do this.
 
@@ -115,7 +115,7 @@ For documentation changes, please see our [Backpack docs repo](http://github.com
 ## How to
 
 <details>
-<summary>Create a pull request to Backpack Foundationss</summary>
+<summary>Create a pull request to Backpack Foundations</summary>
 
 For anything non-trivial, we strongly recommend speaking to somebody from Koala before starting work on a PR. This lets us pass on any advice or knowledge we already have about the work you're proposing. It might even be something we're already working on. After this, follow the steps below.
 
