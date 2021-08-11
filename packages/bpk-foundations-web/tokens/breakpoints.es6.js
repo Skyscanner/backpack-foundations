@@ -19,6 +19,7 @@
  */
 export const breakpointDesktop = "71.25rem";
 export const breakpointMobile = "32.25rem";
+export const breakpointQueryAboveDesktop = "(min-width: 71.3125rem)";
 export const breakpointQueryAboveMobile = "(min-width: 32.3125rem)";
 export const breakpointQueryAboveTablet = "(min-width: 50.3125rem)";
 export const breakpointQueryMobile = "(max-width: 32.25rem)";
@@ -28,6 +29,7 @@ export const breakpointTablet = "50.25rem";
 export const breakpoints = {
 breakpointDesktop,
 breakpointMobile,
+breakpointQueryAboveDesktop,
 breakpointQueryAboveMobile,
 breakpointQueryAboveTablet,
 breakpointQueryMobile,

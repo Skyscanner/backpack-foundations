@@ -335,6 +335,13 @@
       "originalValue": "(min-width: {!BREAKPOINT_ABOVE_MOBILE}) and (max-width: {!BREAKPOINT_TABLET})",
       "name": "BREAKPOINT_QUERY_TABLET_ONLY"
     },
+    "BREAKPOINT_QUERY_ABOVE_DESKTOP": {
+      "category": "breakpoints",
+      "value": "(min-width: 71.3125rem)",
+      "type": "media-query",
+      "originalValue": "(min-width: {!BREAKPOINT_ABOVE_DESKTOP})",
+      "name": "BREAKPOINT_QUERY_ABOVE_DESKTOP"
+    },
     "BREAKPOINT_QUERY_ABOVE_MOBILE": {
       "category": "breakpoints",
       "value": "(min-width: 32.3125rem)",
