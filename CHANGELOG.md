@@ -1,5 +1,12 @@
 # 2021-08-05
 
+**Breaking:**
+
+- bpk-svgs: 12.7.3 => 14.0.0
+  - Updated small and xl spinners to use the new spacing compatible versions.
+
+# 2021-08-05
+
 **Added:**
 
 - @skyscanner/bpk-foundations-android: 1.0.0 => 1.1.0
