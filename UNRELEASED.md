@@ -8,3 +8,8 @@
     - `bpk-rating-sm-height`
     - `bpk-rating-lg-width`
     - `bpk-rating-lg-height`
+
+**Added:**
+- @skyscanenr/bpk-foundations-web:
+  - Add breakpoint-query-above-desktop
+

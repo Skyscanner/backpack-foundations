@@ -57,6 +57,7 @@ export const boxShadowSm = "0px 1px 3px 0px rgba(37,32,31,.3)";
 export const boxShadowXl = "0px 12px 50px 0px rgba(37,32,31,.25)";
 export const breakpointDesktop = "71.25rem";
 export const breakpointMobile = "32.25rem";
+export const breakpointQueryAboveDesktop = "(min-width: 71.3125rem)";
 export const breakpointQueryAboveMobile = "(min-width: 32.3125rem)";
 export const breakpointQueryAboveTablet = "(min-width: 50.3125rem)";
 export const breakpointQueryMobile = "(max-width: 32.25rem)";
@@ -450,6 +451,7 @@ boxShadowXl,
 export const breakpoints = {
 breakpointDesktop,
 breakpointMobile,
+breakpointQueryAboveDesktop,
 breakpointQueryAboveMobile,
 breakpointQueryAboveTablet,
 breakpointQueryMobile,

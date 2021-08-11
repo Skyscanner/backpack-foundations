@@ -30,6 +30,10 @@
       "value": "(min-width: {!BREAKPOINT_ABOVE_MOBILE}) and (max-width: {!BREAKPOINT_TABLET})",
       "type": "media-query"
     },
+    "BREAKPOINT_QUERY_ABOVE_DESKTOP": {
+      "value": "(min-width: {!BREAKPOINT_ABOVE_DESKTOP})",
+      "type": "media-query"
+    },
     "BREAKPOINT_QUERY_ABOVE_MOBILE": {
       "value": "(min-width: {!BREAKPOINT_ABOVE_MOBILE})",
       "type": "media-query"
