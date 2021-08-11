@@ -2261,6 +2261,7 @@
       "category": "ratings",
       "value": ".75rem * 4",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM} * 4",
       "name": "RATING_BASE_WIDTH"
     },
@@ -2268,6 +2269,7 @@
       "category": "ratings",
       "value": ".75rem * 4",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM} * 4",
       "name": "RATING_BASE_HEIGHT"
     },
@@ -2275,6 +2277,7 @@
       "category": "ratings",
       "value": ".75rem * 3",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM} * 3",
       "name": "RATING_SM_WIDTH"
     },
@@ -2282,6 +2285,7 @@
       "category": "ratings",
       "value": ".75rem * 3",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM} * 3",
       "name": "RATING_SM_HEIGHT"
     },
@@ -2289,6 +2293,7 @@
       "category": "ratings",
       "value": "1.875rem * 2",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_LG} * 2",
       "name": "RATING_LG_WIDTH"
     },
@@ -2296,6 +2301,7 @@
       "category": "ratings",
       "value": "1.875rem * 2",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_LG} * 2",
       "name": "RATING_LG_HEIGHT"
     },
