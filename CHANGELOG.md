@@ -1,3 +1,19 @@
+# 2021-08-11
+
+
+@skyscanner/bpk-foundations-web: 1.1.0 => 1.2.0
+  **Added:**
+  - Add breakpoint-query-above-desktop
+
+  **Changed:**
+  - The following rating tokens are now deprecated. To migrate, use an equivalent spacing value
+      - `bpk-rating-base-width`
+      - `bpk-rating-base-height`
+      - `bpk-rating-sm-width`
+      - `bpk-rating-sm-height`
+      - `bpk-rating-lg-width`
+      - `bpk-rating-lg-height`
+
 # 2021-08-05
 
 **Breaking:**
