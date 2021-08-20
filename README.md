@@ -23,7 +23,7 @@ All tokens that are common across all platforms, broken down into two parts:
 
 `app/` – tokens that are shared across iOS and Android.
 
-### `bpk-<android/ios/react-native/web>`
+### `bpk-foundations-<android/ios/react-native/web>`
 
 These specific packages target any tokens that are only applicable to them, e.g. breakpoints for web or elevations for Android.
 
