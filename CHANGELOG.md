@@ -1,3 +1,10 @@
+# 2021-08-20
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-web: 1.2.0 => 1.2.1
+  - The `bpk-modal-header-padding` token is now deprecated. To migrate, use an equivalent spacing value.
+
 # 2021-08-11
 
 
