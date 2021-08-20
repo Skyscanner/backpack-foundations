@@ -2089,6 +2089,7 @@
       "category": "modals",
       "value": ".75rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM}",
       "name": "MODAL_HEADER_PADDING"
     },

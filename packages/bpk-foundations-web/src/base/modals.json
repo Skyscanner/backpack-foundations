@@ -28,7 +28,8 @@
     },
     "MODAL_HEADER_PADDING": {
       "value": "{!SPACING_SM}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "MODAL_CONTENT_PADDING": {
       "value": "{!SPACING_SM}",
