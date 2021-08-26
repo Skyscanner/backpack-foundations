@@ -234,7 +234,7 @@ module.exports = {
   durationXs: "50ms",
   flareCornerRadius: "1.3125rem",
   flareHeightDesktop: "1.5rem",
-  flareHeightMobile: "1.125rem",
+  flareHeightMobile: "1rem",
   fontColorBase: "rgb(17, 18, 54)",
   fontFamilyBase: "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
   fontSizeBase: "1rem",

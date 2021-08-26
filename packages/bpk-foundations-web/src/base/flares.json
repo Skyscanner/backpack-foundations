@@ -6,10 +6,10 @@
   },
   "props": {
     "FLARE_HEIGHT_DESKTOP": {
-      "value": "{!SPACING_BASE}"
+      "value": "{!SPACING_LG_V2}"
     },
     "FLARE_HEIGHT_MOBILE": {
-      "value": "{!SPACING_MD}"
+      "value": "{!SPACING_BASE_V2}"
     },
     "FLARE_CORNER_RADIUS": {
       "value": "{!BORDER_RADIUS_PILL_LG}"
