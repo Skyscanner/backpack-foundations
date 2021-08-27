@@ -1,3 +1,10 @@
+# 2021-08-27
+
+**Breaking:**
+
+- @skyscanner/bpk-foundations-web: 1.2.1 => 2.0.0
+  - Updated flare tokens to use the new grid.
+
 # 2021-08-20
 
 **Changed:**
