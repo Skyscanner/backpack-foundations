@@ -15,15 +15,15 @@
       "type": "color"
     },
     "INPUT_HEIGHT": {
-      "value": "{!SPACING_XL}",
+      "value": "{!SPACING_XL_V2} + {!SPACING_SM_V2}",
       "type": "size"
     },
     "INPUT_PADDING_X": {
-      "value": "{!SPACING_SM}",
+      "value": "{!SPACING_BASE_V2}",
       "type": "size"
     },
     "INPUT_PADDING_Y": {
-      "value": "{!SPACING_XS}",
+      "value": "{!SPACING_MD_V2}",
       "type": "size"
     },
     "INPUT_BORDER_WIDTH": {
@@ -59,7 +59,7 @@
       "type": "color"
     },
     "INPUT_LARGE_HEIGHT": {
-      "value": "{!SPACING_XXL} + {!SPACING_XS}",
+      "value": "{!SPACING_XXL_V2} + {!SPACING_MD_V2}",
       "type": "size"
     },
     "SELECT_HEIGHT": {
