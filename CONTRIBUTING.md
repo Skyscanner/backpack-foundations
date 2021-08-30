@@ -163,6 +163,7 @@ You can also run the tests in 'watch mode', which means the process will continu
 - **Run `npm run release`** (this will run several checks and then `lerna publish`). Do not run `npm publish`.
 - You’ll be asked to confirm the new versions and descriptions for every package that has changed.
 - If you need to make changes you can exit without confirming and no changes will be made.
+- Once the publish is done, move anything from `UNRELEASED.md` to `CHANGELOG.md` and push these changes directly to `main`.
 
 Be aware that if `bpk-foundations-common` has changed, *all* packages in the repository will be updated as they all depend on `bpk-foundations-common`. Changing an existing token is almost always worth a "major" release, whereas adding a new token is usually a "minor" release.
 
