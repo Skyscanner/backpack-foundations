@@ -15,7 +15,7 @@
       "type": "color"
     },
     "INPUT_HEIGHT": {
-      "value": "{!SPACING_XL_V2} + {!SPACING_SM_V2}",
+      "value": "{!BUTTON_HEIGHT}",
       "type": "size"
     },
     "INPUT_PADDING_X": {
@@ -59,7 +59,7 @@
       "type": "color"
     },
     "INPUT_LARGE_HEIGHT": {
-      "value": "{!SPACING_XXL_V2} + {!SPACING_MD_V2}",
+      "value": "{!BUTTON_LARGE_HEIGHT}",
       "type": "size"
     },
     "SELECT_HEIGHT": {

@@ -243,6 +243,9 @@
     "BREAKPOINT_TABLET": {
       "value": "50.25rem"
     },
+    "BUTTON_HEIGHT": {
+      "value": "2.25rem"
+    },
     "BORDER_RADIUS_XS": {
       "value": ".25rem"
     },
@@ -266,6 +269,9 @@
     },
     "ZINDEX_DRAWER": {
       "value": "1100"
+    },
+    "BUTTON_LARGE_HEIGHT": {
+      "value": "3rem"
     },
     "FONT_LINE_HEIGHT_LG": {
       "value": "1.625rem"
@@ -981,6 +987,13 @@
       "originalValue": "{!SKY_BLUE_SHADE_02}",
       "name": "BUTTON_SELECTED_ACTIVE_BACKGROUND_COLOR"
     },
+    "BUTTON_HEIGHT": {
+      "category": "buttons",
+      "value": "2.25rem",
+      "type": "size",
+      "originalValue": "{!BUTTON_HEIGHT}",
+      "name": "BUTTON_HEIGHT"
+    },
     "BUTTON_SECONDARY_DISABLED_BACKGROUND_IMAGE": {
       "category": "buttons",
       "value": "none",
@@ -1058,6 +1071,13 @@
       "type": "color",
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "BUTTON_SECONDARY_DISABLED_COLOR"
+    },
+    "BUTTON_LARGE_HEIGHT": {
+      "category": "buttons",
+      "value": "3rem",
+      "type": "size",
+      "originalValue": "{!BUTTON_LARGE_HEIGHT}",
+      "name": "BUTTON_LARGE_HEIGHT"
     },
     "BUTTON_LARGE_PADDING_X": {
       "category": "buttons",
@@ -1730,9 +1750,9 @@
     },
     "INPUT_LARGE_HEIGHT": {
       "category": "forms",
-      "value": "2.5rem + .5rem",
+      "value": "3rem",
       "type": "size",
-      "originalValue": "{!SPACING_XXL_V2} + {!SPACING_MD_V2}",
+      "originalValue": "{!BUTTON_LARGE_HEIGHT}",
       "name": "INPUT_LARGE_HEIGHT"
     },
     "SELECT_COLOR": {
@@ -1953,9 +1973,9 @@
     },
     "INPUT_HEIGHT": {
       "category": "forms",
-      "value": "2rem + .25rem",
+      "value": "2.25rem",
       "type": "size",
-      "originalValue": "{!SPACING_XL_V2} + {!SPACING_SM_V2}",
+      "originalValue": "{!BUTTON_HEIGHT}",
       "name": "INPUT_HEIGHT"
     },
     "SELECT_PADDING_BOTTOM": {

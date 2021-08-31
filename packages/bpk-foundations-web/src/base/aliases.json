@@ -5,6 +5,8 @@
   ],
   "aliases": {
     "BUTTON_FONT_SIZE": "1.1875rem",
+    "BUTTON_HEIGHT": "2.25rem",
+    "BUTTON_LARGE_HEIGHT": "3rem",
     "FONT_SIZE_XS": ".75rem",
     "FONT_SIZE_SM": ".875rem",
     "FONT_SIZE_BASE": "1rem",

@@ -243,6 +243,9 @@
     "BREAKPOINT_TABLET": {
       "value": "50.25rem"
     },
+    "BUTTON_HEIGHT": {
+      "value": "2.25rem"
+    },
     "BORDER_RADIUS_XS": {
       "value": ".25rem"
     },
@@ -266,6 +269,9 @@
     },
     "ZINDEX_DRAWER": {
       "value": "1100"
+    },
+    "BUTTON_LARGE_HEIGHT": {
+      "value": "3rem"
     },
     "FONT_LINE_HEIGHT_LG": {
       "value": "1.625rem"
