@@ -34,7 +34,7 @@
     "postinstall": "npm run bootstrap",
     "preinstall": "npx ensure-node-env",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\"",
-    "publish": "lerna bootstrap && npm run build && npm test && lerna publish",
+    "release": "lerna bootstrap && npm run build && npm test && lerna publish",
     "test": "npm run lint && npm run jest && npm run flow"
   },
   "jest": {

@@ -1731,14 +1731,14 @@
       "type": "size",
       "category": "flare",
       "value": "1.5rem",
-      "originalValue": "{!SPACING_BASE}",
+      "originalValue": "{!SPACING_LG_V2}",
       "name": "FLARE_HEIGHT_DESKTOP"
     },
     "FLARE_HEIGHT_MOBILE": {
       "type": "size",
       "category": "flare",
-      "value": "1.125rem",
-      "originalValue": "{!SPACING_MD}",
+      "value": "1rem",
+      "originalValue": "{!SPACING_BASE_V2}",
       "name": "FLARE_HEIGHT_MOBILE"
     },
     "FLARE_CORNER_RADIUS": {
