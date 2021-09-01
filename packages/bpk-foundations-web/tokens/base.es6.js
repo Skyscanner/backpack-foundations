@@ -110,6 +110,7 @@ export const buttonFontSize = "1.1875rem";
 export const buttonFontWeight = "700";
 export const buttonGradientEndColor = "rgb(0, 166, 152)";
 export const buttonGradientStartColor = "rgb(0, 166, 152)";
+export const buttonHeight = "2.25rem";
 export const buttonHoverBackgroundColor = "rgb(0, 136, 125)";
 export const buttonHoverBackgroundImage = "none";
 export const buttonHoverBoxShadow = "none";
@@ -117,6 +118,7 @@ export const buttonHoverColor = "rgb(255, 255, 255)";
 export const buttonIconBorderRadius = "1.125rem";
 export const buttonIconBorderRadiusLg = "1.3125rem";
 export const buttonLargeFontSize = "1.5rem";
+export const buttonLargeHeight = "3rem";
 export const buttonLargeLineHeight = "1.875rem";
 export const buttonLargePaddingX = "1.5rem";
 export const buttonLargePaddingXIconOnly = ".5625rem";
@@ -288,10 +290,10 @@ export const inputBorderWidth = ".0625rem";
 export const inputColor = "rgb(17, 18, 54)";
 export const inputDisabledBorderColor = "rgb(241, 242, 248)";
 export const inputDisabledColor = "rgb(178, 178, 191)";
-export const inputHeight = "2.250rem";
-export const inputLargeHeight = "2.625rem + .375rem";
-export const inputPaddingX = ".75rem";
-export const inputPaddingY = ".375rem";
+export const inputHeight = "2.25rem";
+export const inputLargeHeight = "3rem";
+export const inputPaddingX = "1rem";
+export const inputPaddingY = ".5rem";
 export const inputPlaceholderColor = "rgb(104, 105, 127)";
 export const labelColor = "rgb(17, 18, 54)";
 export const labelDisabledColor = "rgb(178, 178, 191)";
@@ -505,6 +507,7 @@ buttonFeaturedHoverColor,
 buttonFontWeight,
 buttonGradientEndColor,
 buttonGradientStartColor,
+buttonHeight,
 buttonHoverBackgroundColor,
 buttonHoverBackgroundImage,
 buttonHoverBoxShadow,
@@ -512,6 +515,7 @@ buttonHoverColor,
 buttonIconBorderRadius,
 buttonIconBorderRadiusLg,
 buttonLargeFontSize,
+buttonLargeHeight,
 buttonLargeLineHeight,
 buttonLargePaddingX,
 buttonLargePaddingXIconOnly,

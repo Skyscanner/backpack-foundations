@@ -243,6 +243,9 @@
     "BREAKPOINT_TABLET": {
       "value": "50.25rem"
     },
+    "BUTTON_HEIGHT": {
+      "value": "2.25rem"
+    },
     "BORDER_RADIUS_XS": {
       "value": ".25rem"
     },
@@ -266,6 +269,9 @@
     },
     "ZINDEX_DRAWER": {
       "value": "1100"
+    },
+    "BUTTON_LARGE_HEIGHT": {
+      "value": "3rem"
     },
     "FONT_LINE_HEIGHT_LG": {
       "value": "1.625rem"
@@ -981,6 +987,13 @@
       "originalValue": "{!SKY_BLUE_SHADE_02}",
       "name": "BUTTON_SELECTED_ACTIVE_BACKGROUND_COLOR"
     },
+    "BUTTON_HEIGHT": {
+      "category": "buttons",
+      "value": "2.25rem",
+      "type": "size",
+      "originalValue": "{!BUTTON_HEIGHT}",
+      "name": "BUTTON_HEIGHT"
+    },
     "BUTTON_SECONDARY_DISABLED_BACKGROUND_IMAGE": {
       "category": "buttons",
       "value": "none",
@@ -1058,6 +1071,13 @@
       "type": "color",
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "BUTTON_SECONDARY_DISABLED_COLOR"
+    },
+    "BUTTON_LARGE_HEIGHT": {
+      "category": "buttons",
+      "value": "3rem",
+      "type": "size",
+      "originalValue": "{!BUTTON_LARGE_HEIGHT}",
+      "name": "BUTTON_LARGE_HEIGHT"
     },
     "BUTTON_LARGE_PADDING_X": {
       "category": "buttons",
@@ -1730,9 +1750,9 @@
     },
     "INPUT_LARGE_HEIGHT": {
       "category": "forms",
-      "value": "2.625rem + .375rem",
+      "value": "3rem",
       "type": "size",
-      "originalValue": "{!SPACING_XXL} + {!SPACING_XS}",
+      "originalValue": "{!BUTTON_LARGE_HEIGHT}",
       "name": "INPUT_LARGE_HEIGHT"
     },
     "SELECT_COLOR": {
@@ -1896,9 +1916,9 @@
     },
     "INPUT_PADDING_X": {
       "category": "forms",
-      "value": ".75rem",
+      "value": "1rem",
       "type": "size",
-      "originalValue": "{!SPACING_SM}",
+      "originalValue": "{!SPACING_BASE_V2}",
       "name": "INPUT_PADDING_X"
     },
     "CHECKBOX_CHECKED_TICK_COLOR": {
@@ -1910,9 +1930,9 @@
     },
     "INPUT_PADDING_Y": {
       "category": "forms",
-      "value": ".375rem",
+      "value": ".5rem",
       "type": "size",
-      "originalValue": "{!SPACING_XS}",
+      "originalValue": "{!SPACING_MD_V2}",
       "name": "INPUT_PADDING_Y"
     },
     "SELECT_BORDER_WIDTH": {
@@ -1953,9 +1973,9 @@
     },
     "INPUT_HEIGHT": {
       "category": "forms",
-      "value": "2.250rem",
+      "value": "2.25rem",
       "type": "size",
-      "originalValue": "{!SPACING_XL}",
+      "originalValue": "{!BUTTON_HEIGHT}",
       "name": "INPUT_HEIGHT"
     },
     "SELECT_PADDING_BOTTOM": {

@@ -6,6 +6,10 @@
     "category": "buttons"
   },
   "props": {
+    "BUTTON_HEIGHT": {
+      "value": "{!BUTTON_HEIGHT}",
+      "type":"size"
+    },
     "BUTTON_PADDING_Y": {
       "value": "{!SPACING_XS}",
       "type": "size",
@@ -118,6 +122,10 @@
     "BUTTON_TEXT_ALIGN": {
       "value": "center",
       "type": "text-align"
+    },
+    "BUTTON_LARGE_HEIGHT": {
+      "value": "{!BUTTON_LARGE_HEIGHT}",
+      "type":"size"
     },
     "BUTTON_LARGE_PADDING_Y": {
       "value": "{!SPACING_XS}",
