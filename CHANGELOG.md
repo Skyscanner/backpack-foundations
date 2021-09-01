@@ -1,3 +1,12 @@
+# 2021-09-01
+
+**Breaking:**
+
+- @skyscanner/bpk-foundations-web 2.0.0 => 2.1.0
+  - Created new aliases that represent the height of the buttons
+  - Changed input tokens to use the new aliases
+  - Changed input tokens to use the new grid horizontally
+
 # 2021-08-27
 
 **Breaking:**
