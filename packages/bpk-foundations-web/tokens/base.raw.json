@@ -1966,9 +1966,9 @@
     },
     "TEXTAREA_MIN_HEIGHT": {
       "category": "forms",
-      "value": "2.625rem * 2",
+      "value": ".5rem * 11",
       "type": "size",
-      "originalValue": "{!SPACING_XXL} * 2",
+      "originalValue": "{!SPACING_MD_V2} * 11",
       "name": "TEXTAREA_MIN_HEIGHT"
     },
     "INPUT_HEIGHT": {

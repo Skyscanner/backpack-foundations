@@ -382,7 +382,7 @@ module.exports = {
   spacingXs: ".375rem",
   spacingXxl: "2.625rem",
   stateSelectedBackgroundColor: "rgb(8, 78, 178)",
-  textareaMinHeight: "2.625rem * 2",
+  textareaMinHeight: ".5rem * 11",
   textBaseFontSize: "1rem",
   textBaseFontWeight: "400",
   textBaseLetterSpacing: "normal",
