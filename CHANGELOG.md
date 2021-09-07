@@ -1,3 +1,10 @@
+# 2021-09-07
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-web: 2.1.0 => 2.1.1
+  - The `bpk-textarea-min-height` token is now deprecated. To migrate, use an equivalent spacing value.
+
 # 2021-09-01
 
 **Breaking:**
