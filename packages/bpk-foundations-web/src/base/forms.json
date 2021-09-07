@@ -143,7 +143,8 @@
     },
     "TEXTAREA_MIN_HEIGHT": {
       "value": "{!SPACING_XXL} * 2",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "REQUIRED_COLOR": {
       "value": "{!PANJIN}",

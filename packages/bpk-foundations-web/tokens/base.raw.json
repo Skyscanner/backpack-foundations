@@ -1968,6 +1968,7 @@
       "category": "forms",
       "value": "2.625rem * 2",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_XXL} * 2",
       "name": "TEXTAREA_MIN_HEIGHT"
     },
