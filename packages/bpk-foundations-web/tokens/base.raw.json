@@ -1428,9 +1428,9 @@
     },
     "CARD_PADDING": {
       "category": "cards",
-      "value": ".75rem",
+      "value": "1rem",
       "type": "size",
-      "originalValue": "{!SPACING_SM}",
+      "originalValue": "{!SPACING_BASE_V2}",
       "name": "CARD_PADDING"
     },
     "COLOR_SKY_BLUE_SHADE_03": {
