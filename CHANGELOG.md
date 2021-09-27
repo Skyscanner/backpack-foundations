@@ -1,3 +1,10 @@
+# 2021-09-27
+
+**Breaking:**
+
+- @skyscanner/bpk-foundations-web: 2.1.1 => 3.0.0
+  - Changed `bpk-card-padding` token to use the new spacing grid.
+
 # 2021-09-07
 
 **Changed:**
@@ -7,7 +14,7 @@
 
 # 2021-09-01
 
-**Breaking:**
+**Changed:**
 
 - @skyscanner/bpk-foundations-web 2.0.0 => 2.1.0
   - Created new aliases that represent the height of the buttons
