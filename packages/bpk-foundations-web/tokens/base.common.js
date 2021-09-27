@@ -195,7 +195,7 @@ module.exports = {
   calendarPadding: ".75rem",
   cardBackgroundColor: "rgb(255, 255, 255)",
   cardColor: "rgb(17, 18, 54)",
-  cardPadding: ".75rem",
+  cardPadding: "1rem",
   checkboxCheckedTickColor: "rgb(7, 112, 227)",
   colorAbisko: "rgb(90, 72, 155)",
   colorBagan: "rgb(255, 235, 208)",
