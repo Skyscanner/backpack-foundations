@@ -1,3 +1,9 @@
+# 2021-09-30
+
+**Fixed:**
+
+- @skyscanner/bpk-svgs
+  - Fix world small icons which weren't rendering correctly on iOS.
 # 2021-09-27
 
 **Breaking:**
