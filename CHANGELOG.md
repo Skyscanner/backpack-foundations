@@ -2,7 +2,7 @@
 
 **Fixed:**
 
-- @skyscanner/bpk-svgs
+- @skyscanner/bpk-svgs: 14.0.6 => 14.0.7
   - Fix world small icons which weren't rendering correctly on iOS.
 # 2021-09-27
 
