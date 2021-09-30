@@ -2116,9 +2116,9 @@
     },
     "MODAL_CONTENT_PADDING": {
       "category": "modals",
-      "value": ".75rem",
+      "value": "1rem",
       "type": "size",
-      "originalValue": "{!SPACING_SM}",
+      "originalValue": "{!SPACING_BASE_V2}",
       "name": "MODAL_CONTENT_PADDING"
     },
     "SCRIM_BACKGROUND_COLOR": {
