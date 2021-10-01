@@ -32,8 +32,9 @@
       "deprecated": true
     },
     "MODAL_CONTENT_PADDING": {
-      "value": "{!SPACING_BASE_V2}",
-      "type": "size"
+      "value": "{!SPACING_SM}",
+      "type": "size",
+      "deprecated": true
     }
   }
 }
