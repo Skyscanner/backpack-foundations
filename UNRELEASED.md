@@ -1,4 +1,4 @@
-**Changed:**
+**Breaking:**
 
 - @skyscanner/bpk-foundations-web:
-  - The `bpk-modal-content-padding` token is now deprecated. To migrate, use an equivalent spacing value.
+  - Changed `bpk-modal-content-padding` token to use the new spacing grid.
