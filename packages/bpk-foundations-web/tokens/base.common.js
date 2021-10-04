@@ -332,7 +332,7 @@ module.exports = {
   listNestedMarginBottom: "0",
   listNestedMarginTop: "0",
   modalBackgroundColor: "rgb(255, 255, 255)",
-  modalContentPadding: ".75rem",
+  modalContentPadding: "1rem",
   modalHeaderPadding: ".75rem",
   modalInitialOpacity: "0",
   modalMaxWidth: "32.25rem",
