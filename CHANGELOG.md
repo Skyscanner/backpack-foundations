@@ -1,3 +1,10 @@
+# 2021-10-04
+
+**Breaking:**
+
+- @skyscanner/bpk-foundations-web: 3.0.0 => 4.0.0
+  - Changed `bpk-modal-content-padding` token to use the new spacing grid.
+
 # 2021-09-30
 
 **Fixed:**
