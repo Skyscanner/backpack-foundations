@@ -62,9 +62,7 @@ export const tokenTemplate = ({ name, value, type, category }) =>
 export default (result) => {
   const { props } = sortTokens(result.toJS());
 
-  const singleTokens = _.map(props, (prop) =>
-    tokenTemplate(prop),
-  ).join('\n');
+  const singleTokens = _.map(props, (prop) => tokenTemplate(prop)).join('\n');
 
   const source = `<?xml version="1.0" encoding="utf-8"?>
 ${xmlComment}

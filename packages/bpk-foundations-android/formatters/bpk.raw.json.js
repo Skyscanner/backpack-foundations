@@ -20,7 +20,7 @@ import _ from 'lodash';
 
 import sortTokens from '../../../utils/formatters/sort-tokens';
 
-const bpkRawJson = (result, platform = 'other') => {
+const bpkRawJson = (result) => {
   const { aliases, props } = sortTokens(result.toJS());
   const propsObj = _.keyBy(props, 'name');
   const propKeys = Object.keys(propsObj);
@@ -30,6 +30,4 @@ const bpkRawJson = (result, platform = 'other') => {
 
 export default bpkRawJson;
 
-export const bpkRawJsonAndroid = (result) => bpkRawJson(result, 'android');
-
-export const bpkRawJsonIos = (result) => bpkRawJson(result, 'ios');
+export const bpkRawJsonAndroid = (result) => bpkRawJson(result);
