@@ -1,5 +1,11 @@
 # 2021-11-09
 
+**Fixed:**
+
+- @skyscanner/bpk-svgs: 14.0.9 => 14.0.10
+  - Properly align self-service 16px icon.
+# 2021-11-09
+
 **Added:**
 
 - @skyscanner/bpk-svgs: 14.0.8 => 14.0.9
