@@ -20,12 +20,9 @@ import _ from 'lodash';
 
 import sortTokens from '../../../utils/formatters/sort-tokens';
 
-import adjustTypography from './adjust-typography';
-
 const bpkRawJson = (result, platform = 'other') => {
   const { aliases, props } = sortTokens(result.toJS());
-  const adjustedProps = props.map((prop) => adjustTypography(prop, platform));
-  const propsObj = _.keyBy(adjustedProps, 'name');
+  const propsObj = _.keyBy(props, 'name');
   const propKeys = Object.keys(propsObj);
 
   return JSON.stringify({ aliases, props: propsObj, propKeys }, null, 2);

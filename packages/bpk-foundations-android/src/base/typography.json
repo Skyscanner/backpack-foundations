@@ -126,51 +126,6 @@
       "type": "size",
       "category": "typesettings"
     },
-    "LETTER_SPACING_CAPS": {
-      "value": "{!LETTER_SPACING_CAPS}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
-    "LETTER_SPACING_XS": {
-      "value": "{!LETTER_SPACING_XS}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
-    "LETTER_SPACING_SM": {
-      "value": "{!LETTER_SPACING_SM}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
-    "LETTER_SPACING_BASE": {
-      "value": "{!LETTER_SPACING_BASE}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
-    "LETTER_SPACING_LG": {
-      "value": "{!LETTER_SPACING_LG}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
-    "LETTER_SPACING_XL": {
-      "value": "{!LETTER_SPACING_XL}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
-    "LETTER_SPACING_XXL": {
-      "value": "{!LETTER_SPACING_XXL}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
-    "LETTER_SPACING_XXXL": {
-      "value": "{!LETTER_SPACING_XXXL}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
-    "TEXT_CAPS_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_CAPS}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
     "TEXT_CAPS_FONT_SIZE": {
       "value": "{!FONT_SIZE_CAPS}",
       "type": "font-size",
@@ -180,11 +135,6 @@
       "value": "{!FONT_WEIGHT_REGULAR}",
       "type": "string",
       "category": "font-weights"
-    },
-    "TEXT_XS_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_XS}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
     },
     "TEXT_XS_FONT_SIZE": {
       "value": "{!FONT_SIZE_XS}",
@@ -196,11 +146,6 @@
       "type": "string",
       "category": "font-weights"
     },
-    "TEXT_SM_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_SM}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
     "TEXT_SM_FONT_SIZE": {
       "value": "{!FONT_SIZE_SM}",
       "type": "font-size",
@@ -210,11 +155,6 @@
       "value": "{!FONT_WEIGHT_REGULAR}",
       "type": "string",
       "category": "font-weights"
-    },
-    "TEXT_BASE_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_BASE}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
     },
     "TEXT_BASE_FONT_SIZE": {
       "value": "{!FONT_SIZE_BASE}",
@@ -226,11 +166,6 @@
       "type": "string",
       "category": "font-weights"
     },
-    "TEXT_LG_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_LG}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
     "TEXT_LG_FONT_SIZE": {
       "value": "{!FONT_SIZE_LG}",
       "type": "font-size",
@@ -240,11 +175,6 @@
       "value": "{!FONT_WEIGHT_REGULAR}",
       "type": "string",
       "category": "font-weights"
-    },
-    "TEXT_XL_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_XL}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
     },
     "TEXT_XL_FONT_SIZE": {
       "value": "{!FONT_SIZE_XL}",
@@ -256,11 +186,6 @@
       "type": "string",
       "category": "font-weights"
     },
-    "TEXT_XXL_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_XXL}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
-    },
     "TEXT_XXL_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXL}",
       "type": "font-size",
@@ -270,11 +195,6 @@
       "value": "{!FONT_WEIGHT_REGULAR}",
       "type": "string",
       "category": "font-weights"
-    },
-    "TEXT_XXXL_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_XXXL}",
-      "type": "letter-spacing",
-      "category": "letter-spacings"
     },
     "TEXT_XXXL_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXXL}",
