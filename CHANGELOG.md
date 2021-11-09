@@ -1,5 +1,10 @@
 # 2021-10-04
 
+**Added:**
+- @skyscanner/bpk-svgs
+  - New self-service icons 16px and 24px.
+# 2021-10-04
+
 **Breaking:**
 
 - @skyscanner/bpk-foundations-web: 3.0.0 => 4.0.0
