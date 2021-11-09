@@ -1,8 +1,10 @@
-# 2021-10-04
+# 2021-11-09
 
 **Added:**
-- @skyscanner/bpk-svgs
+
+- @skyscanner/bpk-svgs: 14.0.8 => 14.0.9
   - New self-service icons 16px and 24px.
+
 # 2021-10-04
 
 **Breaking:**
