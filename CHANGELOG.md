@@ -1,3 +1,10 @@
+# 2021-11-10
+
+**Breaking:**
+
+- @skyscanner/bpk-foundations-android: 1.1.0 => 2.0.0
+  - Removed letter spacing tokens
+
 # 2021-11-09
 
 **Fixed:**
@@ -106,7 +113,7 @@
     - `$button-large-padding-x`
     - `$button-large-padding-y`
     - `$button-large-padding-x-icon-only`
-  
+
   - The following select tokens are now deprecated. To migrate, use an equivalent spacing value.
     - `$bpk-select-height`
     - `$bpk-select-padding-top`
