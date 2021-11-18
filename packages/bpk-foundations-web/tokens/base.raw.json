@@ -346,16 +346,16 @@
     },
     "BADGE_PADDING_Y": {
       "category": "badges",
-      "value": "0",
+      "value": ".25rem",
       "type": "size",
-      "originalValue": "0",
+      "originalValue": "{!SPACING_SM_V2}",
       "name": "BADGE_PADDING_Y"
     },
     "BADGE_PADDING_X": {
       "category": "badges",
-      "value": ".375rem",
+      "value": ".5rem",
       "type": "size",
-      "originalValue": "{!SPACING_XS}",
+      "originalValue": "{!SPACING_MD_V2}",
       "name": "BADGE_PADDING_X"
     },
     "BADGE_BACKGROUND_COLOR": {
