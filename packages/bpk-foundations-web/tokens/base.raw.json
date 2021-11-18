@@ -2209,6 +2209,7 @@
       "category": "notifications",
       "value": ".75rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM}",
       "name": "BANNER_ALERT_HEADER_PADDING_X"
     },
@@ -2216,6 +2217,7 @@
       "category": "notifications",
       "value": ".375rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_XS}",
       "name": "BANNER_ALERT_HEADER_PADDING_Y"
     },

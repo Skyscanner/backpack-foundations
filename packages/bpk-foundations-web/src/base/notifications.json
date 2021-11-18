@@ -12,11 +12,13 @@
     },
     "BANNER_ALERT_HEADER_PADDING_Y": {
       "value": "{!SPACING_XS}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "BANNER_ALERT_HEADER_PADDING_X": {
       "value": "{!SPACING_SM}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR": {
       "value": "{!SKY_GRAY_TINT_07}",
