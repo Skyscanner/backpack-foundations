@@ -1,3 +1,8 @@
+**Changed:**
+
+- @skyscanner/bpk-foundations-web: 4.0.0 => 4.1.0
+  - The `$bpk-banner-alert-header-padding-x` and `$bpk-banner-alert-header-padding-y` tokens are now deprecated. To migrate, use equivalent spacing values.
+
 # 2021-11-10
 
 **Breaking:**
