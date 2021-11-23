@@ -1269,10 +1269,10 @@
       "name": "TEXT_QUATERNARY_LIGHT_COLOR"
     },
     "TEXT_SECONDARY_DARK_COLOR": {
-      "value": "#8e8e93ff",
+      "value": "#b2b2bfff",
       "type": "color",
       "category": "text-colors",
-      "originalValue": "{!BLACK_TINT_06}",
+      "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_DARK_COLOR"
     },
     "TEXT_SECONDARY_LIGHT_COLOR": {
@@ -1537,8 +1537,8 @@
       "category": "text-colors",
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "TEXT_SECONDARY_COLOR",
-      "darkValue": "#8e8e93ff",
-      "originalDarkValue": "{!BLACK_TINT_06}"
+      "darkValue": "#b2b2bfff",
+      "originalDarkValue": "{!SKY_GRAY_TINT_04}"
     },
     "TEXT_TERTIARY_COLOR": {
       "value": "#8f90a0ff",
