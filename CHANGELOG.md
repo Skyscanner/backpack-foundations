@@ -1,3 +1,12 @@
+# 2021-11-23
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-ios: 1.1.0 => 1.2.0
+  - The `TEXT_SECONDARY_DARK_COLOR` token value is now `SKY_GRAY_TINT_04`.
+
+# 2021-11-19
+
 **Changed:**
 
 - @skyscanner/bpk-foundations-web: 4.0.0 => 4.1.0
