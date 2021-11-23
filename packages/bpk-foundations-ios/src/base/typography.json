@@ -32,7 +32,7 @@
       "category": "text-colors"
     },
     "TEXT_SECONDARY_DARK_COLOR": {
-      "value": "{!BLACK_TINT_06}",
+      "value": "{!SKY_GRAY_TINT_04}",
       "type": "color",
       "category": "text-colors"
     },

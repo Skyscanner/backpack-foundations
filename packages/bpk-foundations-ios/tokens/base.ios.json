@@ -1009,10 +1009,10 @@
       "name": "textQuaternaryLightColor"
     },
     {
-      "value": "#8e8e93ff",
+      "value": "#b2b2bfff",
       "type": "color",
       "category": "text-colors",
-      "originalValue": "{!BLACK_TINT_06}",
+      "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "textSecondaryDarkColor"
     },
     {
@@ -1277,8 +1277,8 @@
       "category": "text-colors",
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "textSecondaryColor",
-      "darkValue": "#8e8e93ff",
-      "originalDarkValue": "{!BLACK_TINT_06}"
+      "darkValue": "#b2b2bfff",
+      "originalDarkValue": "{!SKY_GRAY_TINT_04}"
     },
     {
       "value": "#8f90a0ff",
