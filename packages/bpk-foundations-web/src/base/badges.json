@@ -7,11 +7,11 @@
   },
   "props": {
     "BADGE_PADDING_Y": {
-      "value": "0",
+      "value": "{!SPACING_SM_V2}",
       "type": "size"
     },
     "BADGE_PADDING_X": {
-      "value": "{!SPACING_XS}",
+      "value": "{!SPACING_MD_V2}",
       "type": "size"
     },
     "BADGE_BACKGROUND_COLOR": {
