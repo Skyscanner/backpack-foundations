@@ -1,4 +1,9 @@
-# 2021-11-23
+# 2021-11-25
+
+**Fixed:**
+
+- @skyscanner/bpk-foundations-web: 4.1.0 => 4.1.1
+  - Changed `bpk-badge-padding-x` and `bpk-badge-padding-y` tokens to use the new spacing grid.
 
 **Changed:**
 
