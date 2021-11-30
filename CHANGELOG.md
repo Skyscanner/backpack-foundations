@@ -1,3 +1,10 @@
+# 2021-11-30
+
+**Fixed:**
+
+- @skyscanner/bpk-foundations-android: 2.0.0 => 2.0.1
+  - Updated `TEXT_SECONDARY_DARK_COLOR` to `SKY_GRAY_TINT_04`
+
 # 2021-11-25
 
 **Fixed:**
