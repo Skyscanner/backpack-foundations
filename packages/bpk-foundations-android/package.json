@@ -1,6 +1,6 @@
 {
   "name": "@skyscanner/bpk-foundations-android",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Android design tokens for colors, spacing, font, etc.",
   "license": "Apache-2.0",
   "repository": {
