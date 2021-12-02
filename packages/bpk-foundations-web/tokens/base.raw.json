@@ -1400,16 +1400,16 @@
     },
     "CALENDAR_DAY_COLOR": {
       "category": "calendar",
-      "value": "rgb(7, 112, 227)",
+      "value": "rgb(17, 18, 54)",
       "type": "color",
-      "originalValue": "{!SKY_BLUE}",
+      "originalValue": "{!SKY_GRAY}",
       "name": "CALENDAR_DAY_COLOR"
     },
     "CALENDAR_DAY_SPACING": {
       "category": "calendar",
-      "value": ".375rem",
+      "value": ".25rem",
       "type": "size",
-      "originalValue": "{!SPACING_XS}",
+      "originalValue": "{!SPACING_SM_V2}",
       "name": "CALENDAR_DAY_SPACING"
     },
     "CARD_BACKGROUND_COLOR": {

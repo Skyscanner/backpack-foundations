@@ -11,7 +11,7 @@
       "type": "size"
     },
     "CALENDAR_DAY_SPACING": {
-      "value": "{!SPACING_XS}",
+      "value": "{!SPACING_SM_V2}",
       "type": "size"
     },
     "CALENDAR_DAY_SIZE": {
@@ -19,7 +19,7 @@
       "type": "size"
     },
     "CALENDAR_DAY_COLOR": {
-      "value": "{!SKY_BLUE}",
+      "value": "{!SKY_GRAY}",
       "type": "color"
     },
     "CALENDAR_DAY_SELECTED_COLOR": {
