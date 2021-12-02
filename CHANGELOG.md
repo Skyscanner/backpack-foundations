@@ -1,3 +1,11 @@
+# 2021-12-02
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-web: 4.1.1 => 4.2.0
+  - Changed `bpk-calendar-day-spacing` token to use the new spacing grid.
+  - Changed `bpk-calendar-day-color` token colour.
+
 # 2021-11-30
 
 **Fixed:**
