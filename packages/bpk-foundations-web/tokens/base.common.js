@@ -294,7 +294,7 @@ module.exports = {
   inputDisabledColor: "rgb(178, 178, 191)",
   inputHeight: "2.25rem",
   inputLargeHeight: "3rem",
-  inputPaddingX: "1rem",
+  inputPaddingX: ".5rem",
   inputPaddingY: ".5rem",
   inputPlaceholderColor: "rgb(104, 105, 127)",
   labelColor: "rgb(17, 18, 54)",

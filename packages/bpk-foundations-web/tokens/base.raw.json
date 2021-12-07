@@ -1916,9 +1916,9 @@
     },
     "INPUT_PADDING_X": {
       "category": "forms",
-      "value": "1rem",
+      "value": ".5rem",
       "type": "size",
-      "originalValue": "{!SPACING_BASE_V2}",
+      "originalValue": "{!SPACING_MD_V2}",
       "name": "INPUT_PADDING_X"
     },
     "CHECKBOX_CHECKED_TICK_COLOR": {
