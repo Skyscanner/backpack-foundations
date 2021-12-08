@@ -1,3 +1,10 @@
+# 2021-12-08
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-web: 4.2.0 => 4.3.0
+  - Changed `bpk-input-padding-x` token from `1rem` to `0.5rem`.
+
 # 2021-12-02
 
 **Changed:**
