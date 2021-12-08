@@ -19,7 +19,7 @@
       "type": "size"
     },
     "INPUT_PADDING_X": {
-      "value": "{!SPACING_BASE_V2}",
+      "value": "{!SPACING_MD_V2}",
       "type": "size"
     },
     "INPUT_PADDING_Y": {
