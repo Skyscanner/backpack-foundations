@@ -187,7 +187,7 @@ module.exports = {
   calendarDaySelectedBackgroundColor: "rgb(8, 78, 178)",
   calendarDaySelectedColor: "rgb(255, 255, 255)",
   calendarDaySize: "2.250rem",
-  calendarDaySpacing: ".25rem",
+  calendarDaySpacing: ".5rem",
   calendarNavIconActiveFill: "rgb(4, 39, 89)",
   calendarNavIconDisabledFill: "rgb(221, 221, 229)",
   calendarNavIconFill: "rgb(7, 112, 227)",
