@@ -1,3 +1,8 @@
+**Patched:**
+
+- @skyscanner/bpk-foundations-web: 4.3.0 => 4.3.1
+  - Updated `CALENDAR_DAY_SPACING` to `8px` to align with updated calendar sizes.
+
 # 2021-12-08
 
 **Changed:**
