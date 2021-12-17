@@ -726,6 +726,8 @@ $bpk-select-padding-top: .375rem;
 /// @group spacings
 $bpk-spacing-base: 1.5rem;
 /// @group spacings
+$bpk-spacing-base-v-2: 1rem;
+/// @group spacings
 @function bpk-spacing-base() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1rem; } @return 1.5rem; }
 /// @group spacings
 @function bpk-spacing-lg() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1.5rem; } @return 1.875rem; }
@@ -744,17 +746,27 @@ $bpk-spacing-icon-text: .5rem;
 /// @group spacings
 $bpk-spacing-lg: 1.875rem;
 /// @group spacings
+$bpk-spacing-lg-v-2: 1.5rem;
+/// @group spacings
 $bpk-spacing-md: 1.125rem;
+/// @group spacings
+$bpk-spacing-md-v-2: .5rem;
 /// @group spacings
 $bpk-spacing-none: 0;
 /// @group spacings
 $bpk-spacing-sm: .75rem;
 /// @group spacings
+$bpk-spacing-sm-v-2: .25rem;
+/// @group spacings
 $bpk-spacing-xl: 2.250rem;
+/// @group spacings
+$bpk-spacing-xl-v-2: 2rem;
 /// @group spacings
 $bpk-spacing-xs: .375rem;
 /// @group spacings
 $bpk-spacing-xxl: 2.625rem;
+/// @group spacings
+$bpk-spacing-xxl-v-2: 2.5rem;
 /// @group states
 $bpk-state-selected-background-color: rgb(8, 78, 178);
 /// @group forms

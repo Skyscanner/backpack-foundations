@@ -2353,12 +2353,26 @@
       "originalValue": "@function bpk-spacing-md() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_MD_V2}; } @return {!SPACING_MD}; }",
       "name": "SPACING_FUNCTION_MD"
     },
+    "SPACING_LG_V2": {
+      "type": "size",
+      "category": "spacings",
+      "value": "1.5rem",
+      "originalValue": "{!SPACING_LG_V2}",
+      "name": "SPACING_LG_V2"
+    },
     "SPACING_FUNCTION_SM": {
       "type": "function",
       "category": "spacings",
       "value": "@function bpk-spacing-sm() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .25rem; } @return .75rem; }",
       "originalValue": "@function bpk-spacing-sm() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_SM_V2}; } @return {!SPACING_SM}; }",
       "name": "SPACING_FUNCTION_SM"
+    },
+    "SPACING_SM_V2": {
+      "type": "size",
+      "category": "spacings",
+      "value": ".25rem",
+      "originalValue": "{!SPACING_SM_V2}",
+      "name": "SPACING_SM_V2"
     },
     "SPACING_FUNCTION_LG": {
       "type": "function",
@@ -2382,12 +2396,40 @@
       "originalValue": "{!ONE_PIXEL_REM}",
       "name": "ONE_PIXEL_REM"
     },
+    "SPACING_MD_V2": {
+      "type": "size",
+      "category": "spacings",
+      "value": ".5rem",
+      "originalValue": "{!SPACING_MD_V2}",
+      "name": "SPACING_MD_V2"
+    },
+    "SPACING_XL_V2": {
+      "type": "size",
+      "category": "spacings",
+      "value": "2rem",
+      "originalValue": "{!SPACING_XL_V2}",
+      "name": "SPACING_XL_V2"
+    },
+    "SPACING_XXL_V2": {
+      "type": "size",
+      "category": "spacings",
+      "value": "2.5rem",
+      "originalValue": "{!SPACING_XXL_V2}",
+      "name": "SPACING_XXL_V2"
+    },
     "SPACING_BASE": {
       "type": "size",
       "category": "spacings",
       "value": "1.5rem",
       "originalValue": "{!SPACING_BASE}",
       "name": "SPACING_BASE"
+    },
+    "SPACING_BASE_V2": {
+      "type": "size",
+      "category": "spacings",
+      "value": "1rem",
+      "originalValue": "{!SPACING_BASE_V2}",
+      "name": "SPACING_BASE_V2"
     },
     "SPACING_XL": {
       "type": "size",
