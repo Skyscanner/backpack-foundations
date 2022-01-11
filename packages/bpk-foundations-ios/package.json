@@ -17,7 +17,7 @@
     "tokens": "gulp"
   },
   "dependencies": {
-    "@skyscanner/bpk-foundations-common": "^1.0.0",
+    "@skyscanner/bpk-foundations-common": "../bpk-foundations-common",
     "color": "^3.0.0"
   }
 }

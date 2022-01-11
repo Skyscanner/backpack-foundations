@@ -16,8 +16,6 @@
  * limitations under the License.
  */
 
-import iosTokenAliases from '../src/base/aliases.json';
-
 // These are the default letter tracking values used by SF Pro and SF Pro Display for each font-size. They are given in 1/1000em.
 // They can be found at https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography#font-usage-and-tracking
 const sfProTracking = {
@@ -65,27 +63,27 @@ const getCorrespondingFontSizeTokens = (aliases, letterSpacingKey) => {
     [, , modifier] = letterSpacingKey.split('_');
   }
   const fontSizeKey = `FONT_SIZE_${modifier}`;
-  return aliases.aliases[fontSizeKey];
+  return aliases[fontSizeKey].value;
 };
 
-const getCorrespondingFontSizeTokensIos = (letterSpacingKey) =>
-  getCorrespondingFontSizeTokens(iosTokenAliases, letterSpacingKey);
+const getCorrespondingFontSizeTokensIos = (aliases, letterSpacingKey) =>
+  getCorrespondingFontSizeTokens(aliases, letterSpacingKey);
 
-const adjustTypographyIos = (prop) => {
+const adjustTypographyIos = (aliases, prop) => {
   let adjustedValue = prop.value;
   if (prop.value === 'null') {
     adjustedValue = null;
   } else if (prop.type === 'letter-spacing') {
-    const correspondingFontSize = getCorrespondingFontSizeTokensIos(prop.name);
+    const correspondingFontSize = getCorrespondingFontSizeTokensIos(aliases, prop.name);
     if (correspondingFontSize === undefined) {
       throw new Error(
-        `A suitable adjustment for token ${prop.name} could not be found as no corresponding font-size exists`,
+        `A suitable adjustment for token ${prop.name} could not be found as no corresponding font-size exists ${adjustedValue}`,
       );
     }
     const sfProTrackingForFont = sfProTracking[correspondingFontSize];
     if (sfProTrackingForFont === undefined) {
       throw new Error(
-        `A suitable adjustment for token ${prop.name} could not be found as no corresponding SF Pro tracking value exists`,
+        `A suitable adjustment for token ${prop.name} could not be found as no corresponding SF Pro tracking value exists ${correspondingFontSize}`,
       );
     }
     const adjustment = (sfProTrackingForFont * correspondingFontSize) / 1000;
@@ -94,8 +92,8 @@ const adjustTypographyIos = (prop) => {
   return { ...prop, value: adjustedValue };
 };
 
-const adjustTypography = (prop) => {
-  return adjustTypographyIos(prop);
+const adjustTypography = (aliases, prop) => {
+  return adjustTypographyIos(aliases, prop);
 };
 
 export default adjustTypography;

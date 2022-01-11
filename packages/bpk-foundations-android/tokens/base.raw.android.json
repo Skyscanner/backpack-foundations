@@ -102,6 +102,18 @@
     "FONT_FAMILY_HEAVY": {
       "value": "\"sans-serif-black\""
     },
+    "FONT_SIZE_5XL": {
+      "value": 64
+    },
+    "FONT_SIZE_6XL": {
+      "value": 76
+    },
+    "FONT_SIZE_7XL": {
+      "value": 96
+    },
+    "FONT_SIZE_8XL": {
+      "value": 120
+    },
     "FONT_SIZE_BASE": {
       "value": 16
     },
@@ -121,16 +133,28 @@
       "value": 12
     },
     "FONT_SIZE_XXL": {
-      "value": 30
+      "value": 32
     },
     "FONT_SIZE_XXXL": {
-      "value": 36
+      "value": 40
+    },
+    "FONT_SIZE_XXXXL": {
+      "value": 48
+    },
+    "FONT_WEIGHT_BOLD": {
+      "value": "800"
     },
     "FONT_WEIGHT_MEDIUM": {
       "value": "500"
     },
+    "FONT_WEIGHT_NORMAL": {
+      "value": "400"
+    },
     "FONT_WEIGHT_REGULAR": {
       "value": "400"
+    },
+    "FONT_WEIGHT_SEMIBOLD": {
+      "value": "700"
     },
     "GLENCOE": {
       "value": "#73cec6"
@@ -143,6 +167,9 @@
     },
     "KOLKATA": {
       "value": "#ff9400"
+    },
+    "LETTER_SPACING_TIGHT": {
+      "value": -0.02
     },
     "LINE_HEIGHT_BASE": {
       "value": 19
@@ -895,14 +922,14 @@
       "name": "FONT_SIZE_XS"
     },
     "FONT_SIZE_XXL": {
-      "value": "30",
+      "value": "32",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXL}",
       "name": "FONT_SIZE_XXL"
     },
     "FONT_SIZE_XXXL": {
-      "value": "36",
+      "value": "40",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXXL}",
@@ -1182,7 +1209,7 @@
       "name": "TEXT_XS_FONT_WEIGHT"
     },
     "TEXT_XXL_FONT_SIZE": {
-      "value": "30",
+      "value": "32",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXL}",
@@ -1196,7 +1223,7 @@
       "name": "TEXT_XXL_FONT_WEIGHT"
     },
     "TEXT_XXXL_FONT_SIZE": {
-      "value": "36",
+      "value": "40",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXXL}",
