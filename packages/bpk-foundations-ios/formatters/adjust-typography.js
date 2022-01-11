@@ -87,7 +87,7 @@ const adjustTypographyIos = (aliases, prop) => {
       );
     }
     const adjustment = (sfProTrackingForFont * correspondingFontSize) / 1000;
-    adjustedValue = parseFloat(prop.value) - adjustment;
+  adjustedValue = parseFloat(prop.value) - adjustment;
   }
   return { ...prop, value: adjustedValue };
 };
