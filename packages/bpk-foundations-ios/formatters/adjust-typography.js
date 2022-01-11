@@ -77,13 +77,13 @@ const adjustTypographyIos = (aliases, prop) => {
     const correspondingFontSize = getCorrespondingFontSizeTokensIos(aliases, prop.name);
     if (correspondingFontSize === undefined) {
       throw new Error(
-        `A suitable adjustment for token ${prop.name} could not be found as no corresponding font-size exists ${adjustedValue}`,
+        `A suitable adjustment for token ${prop.name} could not be found as no corresponding font-size exists`,
       );
     }
     const sfProTrackingForFont = sfProTracking[correspondingFontSize];
     if (sfProTrackingForFont === undefined) {
       throw new Error(
-        `A suitable adjustment for token ${prop.name} could not be found as no corresponding SF Pro tracking value exists ${correspondingFontSize}`,
+        `A suitable adjustment for token ${prop.name} could not be found as no corresponding SF Pro tracking value exists`,
       );
     }
     const adjustment = (sfProTrackingForFont * correspondingFontSize) / 1000;
