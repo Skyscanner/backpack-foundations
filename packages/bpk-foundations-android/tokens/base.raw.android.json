@@ -175,19 +175,19 @@
       "value": 19
     },
     "LINE_HEIGHT_LG": {
-      "value": 23
+      "value": 24
     },
     "LINE_HEIGHT_SM": {
-      "value": 16
+      "value": 17
     },
     "LINE_HEIGHT_XL": {
-      "value": 28
+      "value": 29
     },
     "LINE_HEIGHT_XS": {
       "value": 14
     },
     "LINE_HEIGHT_XXL": {
-      "value": 42
+      "value": 43
     },
     "MONTEVERDE": {
       "value": "#00a698"
@@ -950,21 +950,21 @@
       "name": "LINE_HEIGHT_BASE"
     },
     "LINE_HEIGHT_LG": {
-      "value": "23",
+      "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG}",
       "name": "LINE_HEIGHT_LG"
     },
     "LINE_HEIGHT_SM": {
-      "value": "16",
+      "value": "17",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "LINE_HEIGHT_SM"
     },
     "LINE_HEIGHT_XL": {
-      "value": "28",
+      "value": "29",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL}",
@@ -978,7 +978,7 @@
       "name": "LINE_HEIGHT_XS"
     },
     "LINE_HEIGHT_XXL": {
-      "value": "42",
+      "value": "43",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",

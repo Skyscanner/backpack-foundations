@@ -722,21 +722,21 @@
       "name": "lineHeightBase"
     },
     {
-      "value": "23",
+      "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG}",
       "name": "lineHeightLg"
     },
     {
-      "value": "16",
+      "value": "17",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "lineHeightSm"
     },
     {
-      "value": "28",
+      "value": "29",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL}",
@@ -750,7 +750,7 @@
       "name": "lineHeightXs"
     },
     {
-      "value": "42",
+      "value": "43",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",
