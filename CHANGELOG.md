@@ -1,3 +1,12 @@
+# 2021-12-17
+
+**Patch:**
+
+- bpk-foundations-web:
+  - Exporting `spacing-v2` tokens for use in the docsite.
+
+# 2021-12-10
+
 **Patched:**
 
 - @skyscanner/bpk-foundations-web: 4.3.0 => 4.3.1
