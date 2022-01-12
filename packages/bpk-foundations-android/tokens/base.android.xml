@@ -111,8 +111,8 @@
   <property name="FONT_SIZE_SM" category="typesettings">14sp</property>
   <property name="FONT_SIZE_XL" category="typesettings">24sp</property>
   <property name="FONT_SIZE_XS" category="typesettings">12sp</property>
-  <property name="FONT_SIZE_XXL" category="typesettings">32sp</property>
-  <property name="FONT_SIZE_XXXL" category="typesettings">40sp</property>
+  <property name="FONT_SIZE_XXL" category="typesettings">30sp</property>
+  <property name="FONT_SIZE_XXXL" category="typesettings">36sp</property>
   <color name="LINE_DARK_COLOR" category="colors">#ff48484a</color>
   <property name="LINE_HEIGHT_BASE" category="typesettings">19dp</property>
   <property name="LINE_HEIGHT_LG" category="typesettings">23dp</property>
@@ -152,8 +152,8 @@
   <property name="TEXT_XL_FONT_WEIGHT" category="font-weights">400</property>
   <property name="TEXT_XS_FONT_SIZE" category="font-sizes">12sp</property>
   <property name="TEXT_XS_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_XXL_FONT_SIZE" category="font-sizes">32sp</property>
+  <property name="TEXT_XXL_FONT_SIZE" category="font-sizes">30sp</property>
   <property name="TEXT_XXL_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_XXXL_FONT_SIZE" category="font-sizes">40sp</property>
+  <property name="TEXT_XXXL_FONT_SIZE" category="font-sizes">36sp</property>
   <property name="TEXT_XXXL_FONT_WEIGHT" category="font-weights">400</property>
 </resources>

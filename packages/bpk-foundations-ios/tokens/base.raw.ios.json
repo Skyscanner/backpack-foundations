@@ -109,10 +109,10 @@
       "value": 12
     },
     "FONT_SIZE_XXL": {
-      "value": 32
+      "value": 30
     },
     "FONT_SIZE_XXXL": {
-      "value": 40
+      "value": 36
     },
     "FONT_SIZE_XXXXL": {
       "value": 48
@@ -922,14 +922,14 @@
       "name": "FONT_SIZE_XS"
     },
     "FONT_SIZE_XXL": {
-      "value": "32",
+      "value": "30",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXL}",
       "name": "FONT_SIZE_XXL"
     },
     "FONT_SIZE_XXXL": {
-      "value": "40",
+      "value": "36",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXXL}",
@@ -1384,7 +1384,7 @@
       "name": "TEXT_XS_LETTER_SPACING"
     },
     "TEXT_XXL_FONT_SIZE": {
-      "value": "32",
+      "value": "30",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXL}",
@@ -1405,7 +1405,7 @@
       "name": "TEXT_XXL_LETTER_SPACING"
     },
     "TEXT_XXXL_FONT_SIZE": {
-      "value": "40",
+      "value": "36",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXXL}",

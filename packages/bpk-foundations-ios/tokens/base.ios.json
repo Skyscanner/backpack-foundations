@@ -638,14 +638,14 @@
       "name": "fontSizeXs"
     },
     {
-      "value": "32",
+      "value": "30",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXL}",
       "name": "fontSizeXxl"
     },
     {
-      "value": "40",
+      "value": "36",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXXL}",
@@ -1100,7 +1100,7 @@
       "name": "textXsLetterSpacing"
     },
     {
-      "value": "32",
+      "value": "30",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXL}",
@@ -1121,7 +1121,7 @@
       "name": "textXxlLetterSpacing"
     },
     {
-      "value": "40",
+      "value": "36",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXXL}",
