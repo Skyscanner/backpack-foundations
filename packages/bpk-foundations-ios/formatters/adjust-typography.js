@@ -74,7 +74,10 @@ const adjustTypographyIos = (aliases, prop) => {
   if (prop.value === 'null') {
     adjustedValue = null;
   } else if (prop.type === 'letter-spacing') {
-    const correspondingFontSize = getCorrespondingFontSizeTokensIos(aliases, prop.name);
+    const correspondingFontSize = getCorrespondingFontSizeTokensIos(
+      aliases,
+      prop.name,
+    );
     if (correspondingFontSize === undefined) {
       throw new Error(
         `A suitable adjustment for token ${prop.name} could not be found as no corresponding font-size exists`,
@@ -87,7 +90,7 @@ const adjustTypographyIos = (aliases, prop) => {
       );
     }
     const adjustment = (sfProTrackingForFont * correspondingFontSize) / 1000;
-  adjustedValue = parseFloat(prop.value) - adjustment;
+    adjustedValue = parseFloat(prop.value) - adjustment;
   }
   return { ...prop, value: adjustedValue };
 };
