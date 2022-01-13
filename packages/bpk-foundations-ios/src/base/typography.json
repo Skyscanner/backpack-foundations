@@ -277,7 +277,7 @@
       "category": "font-weights"
     },
     "TEXT_HEAVY_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_BOLD}",
+      "value": "{!FONT_WEIGHT_BLACK}",
       "type": "string",
       "category": "font-weights"
     },

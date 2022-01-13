@@ -953,10 +953,10 @@
       "name": "textEmphasizedFontWeight"
     },
     {
-      "value": "700",
+      "value": "900",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "textHeavyFontWeight"
     },
     {
