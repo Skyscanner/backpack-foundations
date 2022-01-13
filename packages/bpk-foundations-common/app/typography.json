@@ -124,6 +124,21 @@
       "type": "size",
       "category": "typesettings"
     },
+    "TEXT_SUBHEADING_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XL}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_SUBHEADING_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_SUBHEADING_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
     "TEXT_HEADING-5_FONT_SIZE": {
       "value": "{!FONT_SIZE_BASE}",
       "type": "font-size",

@@ -170,6 +170,9 @@
   <color name="TEXT_SECONDARY_LIGHT_COLOR" category="text-colors">#ff68697f</color>
   <property name="TEXT_SM_FONT_SIZE" category="font-sizes">14sp</property>
   <property name="TEXT_SM_FONT_WEIGHT" category="font-weights">400</property>
+  <property name="TEXT_SUBHEADING_FONT_SIZE" category="font-sizes">24sp</property>
+  <property name="TEXT_SUBHEADING_FONT_WEIGHT" category="font-weights">400</property>
+  <property name="TEXT_SUBHEADING_LINE_HEIGHT" category="typesettings">28dp</property>
   <color name="TEXT_TERTIARY_DARK_COLOR" category="text-colors">#ff8e8e93</color>
   <color name="TEXT_TERTIARY_LIGHT_COLOR" category="text-colors">#ff8f90a0</color>
   <property name="TEXT_XL_FONT_SIZE" category="font-sizes">24sp</property>

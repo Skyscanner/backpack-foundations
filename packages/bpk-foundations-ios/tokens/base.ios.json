@@ -1212,6 +1212,27 @@
       "name": "textSmLetterSpacing"
     },
     {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "textSubheadingFontSize"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textSubheadingFontWeight"
+    },
+    {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XL}",
+      "name": "textSubheadingLineHeight"
+    },
+    {
       "value": "#8e8e93ff",
       "type": "color",
       "category": "text-colors",
