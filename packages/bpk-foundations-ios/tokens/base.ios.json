@@ -946,14 +946,14 @@
       "name": "textCapsLetterSpacing"
     },
     {
-      "value": "800",
+      "value": "700",
       "type": "string",
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "textEmphasizedFontWeight"
     },
     {
-      "value": "800",
+      "value": "700",
       "type": "string",
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOLD}",
