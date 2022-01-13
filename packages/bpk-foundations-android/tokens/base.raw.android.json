@@ -1159,6 +1159,27 @@
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "TEXT_FOOTNOTE_LINE_HEIGHT"
     },
+    "TEXT_LABEL-1_FONT_SIZE": {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "TEXT_LABEL-1_FONT_SIZE"
+    },
+    "TEXT_LABEL-1_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_LABEL-1_FONT_WEIGHT"
+    },
+    "TEXT_LABEL-1_LINE_HEIGHT": {
+      "value": "19",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE}",
+      "name": "TEXT_LABEL-1_LINE_HEIGHT"
+    },
     "TEXT_LABEL-2_FONT_SIZE": {
       "value": "14",
       "type": "font-size",
@@ -1570,6 +1591,9 @@
     "TEXT_FOOTNOTE_FONT_SIZE",
     "TEXT_FOOTNOTE_FONT_WEIGHT",
     "TEXT_FOOTNOTE_LINE_HEIGHT",
+    "TEXT_LABEL-1_FONT_SIZE",
+    "TEXT_LABEL-1_FONT_WEIGHT",
+    "TEXT_LABEL-1_LINE_HEIGHT",
     "TEXT_LABEL-2_FONT_SIZE",
     "TEXT_LABEL-2_FONT_WEIGHT",
     "TEXT_LABEL-2_LINE_HEIGHT",

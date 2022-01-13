@@ -1002,6 +1002,27 @@
       "name": "textHeavyFontWeight"
     },
     {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textLabel1FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textLabel1FontWeight"
+    },
+    {
+      "value": "19",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE}",
+      "name": "textLabel1LineHeight"
+    },
+    {
       "value": "14",
       "type": "font-size",
       "category": "font-sizes",
