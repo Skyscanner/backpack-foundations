@@ -207,7 +207,7 @@
       "category": "font-weights"
     },
     "TEXT_EMPHASIZED_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_BOOK}",
+      "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
       "category": "font-weights"
     }
