@@ -975,7 +975,7 @@
     },
     {
       "value": "-0.02",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_TIGHT}",
       "name": "textHero1LetterSpacing"
@@ -1003,7 +1003,7 @@
     },
     {
       "value": "-0.02",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_TIGHT}",
       "name": "textHero2LetterSpacing"
@@ -1031,7 +1031,7 @@
     },
     {
       "value": "-0.02",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_TIGHT}",
       "name": "textHero3LetterSpacing"
@@ -1059,7 +1059,7 @@
     },
     {
       "value": "-0.02",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_TIGHT}",
       "name": "textHero4LetterSpacing"
@@ -1087,7 +1087,7 @@
     },
     {
       "value": "-0.02",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_TIGHT}",
       "name": "textHero5LetterSpacing"

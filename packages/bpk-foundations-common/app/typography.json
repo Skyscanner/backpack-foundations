@@ -51,7 +51,7 @@
     },
     "TEXT_HERO-5_LETTER_SPACING": {
       "value": "{!LETTER_SPACING_TIGHT}",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings"
     },
     "TEXT_HERO-4_FONT_SIZE": {
@@ -71,7 +71,7 @@
     },
     "TEXT_HERO-4_LETTER_SPACING": {
       "value": "{!LETTER_SPACING_TIGHT}",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings"
     },
     "TEXT_HERO-3_FONT_SIZE": {
@@ -91,7 +91,7 @@
     },
     "TEXT_HERO-3_LETTER_SPACING": {
       "value": "{!LETTER_SPACING_TIGHT}",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings"
     },
     "TEXT_HERO-2_FONT_SIZE": {
@@ -111,7 +111,7 @@
     },
     "TEXT_HERO-2_LETTER_SPACING": {
       "value": "{!LETTER_SPACING_TIGHT}",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings"
     },
     "TEXT_HERO-1_FONT_SIZE": {
@@ -131,7 +131,7 @@
     },
     "TEXT_HERO-1_LETTER_SPACING": {
       "value": "{!LETTER_SPACING_TIGHT}",
-      "type": "letter-space",
+      "type": "letter-spacing",
       "category": "letter-spacings"
     }
   }
