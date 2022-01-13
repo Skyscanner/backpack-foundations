@@ -55,7 +55,7 @@ const sfProTracking = {
   80: 0,
 };
 
-const getCorrespondingFontSizeTokens = (aliases, letterSpacingKey) => {
+const getCorrespondingFontSizeTokensIos = (aliases, letterSpacingKey) => {
   let modifier = null;
   if (letterSpacingKey.includes('TEXT')) {
     [, modifier] = letterSpacingKey.split('_');
@@ -65,9 +65,6 @@ const getCorrespondingFontSizeTokens = (aliases, letterSpacingKey) => {
   const fontSizeKey = `FONT_SIZE_${modifier}`;
   return aliases[fontSizeKey].value;
 };
-
-const getCorrespondingFontSizeTokensIos = (aliases, letterSpacingKey) =>
-  getCorrespondingFontSizeTokens(aliases, letterSpacingKey);
 
 const adjustTypographyIos = (aliases, prop) => {
   let adjustedValue = prop.value;
@@ -84,11 +81,6 @@ const adjustTypographyIos = (aliases, prop) => {
       );
     }
     const sfProTrackingForFont = sfProTracking[correspondingFontSize];
-    if (sfProTrackingForFont === undefined) {
-      throw new Error(
-        `A suitable adjustment for token ${prop.name} could not be found as no corresponding SF Pro tracking value exists`,
-      );
-    }
     const adjustment = (sfProTrackingForFont * correspondingFontSize) / 1000;
     adjustedValue = parseFloat(prop.value) - adjustment;
   }

@@ -133,36 +133,9 @@
   <property name="SPACING_XXL" category="spacings">40dp</property>
   <property name="TEXT_BASE_FONT_SIZE" category="font-sizes">16sp</property>
   <property name="TEXT_BASE_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_BODY-DEFAULT_FONT_SIZE" category="font-sizes">16sp</property>
-  <property name="TEXT_BODY-DEFAULT_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_BODY-DEFAULT_LINE_HEIGHT" category="typesettings">19dp</property>
-  <property name="TEXT_BODY-LONGFORM_FONT_SIZE" category="font-sizes">20sp</property>
-  <property name="TEXT_BODY-LONGFORM_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_BODY-LONGFORM_LINE_HEIGHT" category="typesettings">23dp</property>
   <property name="TEXT_CAPS_FONT_SIZE" category="font-sizes">10sp</property>
   <property name="TEXT_CAPS_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_CAPTION_FONT_SIZE" category="font-sizes">12sp</property>
-  <property name="TEXT_CAPTION_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_CAPTION_LINE_HEIGHT" category="typesettings">14dp</property>
   <property name="TEXT_EMPHASIZED_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_FOOTNOTE_FONT_SIZE" category="font-sizes">14sp</property>
-  <property name="TEXT_FOOTNOTE_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_FOOTNOTE_LINE_HEIGHT" category="typesettings">16dp</property>
-  <property name="TEXT_HEADING-1_FONT_SIZE" category="font-sizes">36sp</property>
-  <property name="TEXT_HEADING-1_FONT_WEIGHT" category="font-weights">700</property>
-  <property name="TEXT_HEADING-1_LINE_HEIGHT" category="typesettings">40dp</property>
-  <property name="TEXT_HEADING-2_FONT_SIZE" category="font-sizes">30sp</property>
-  <property name="TEXT_HEADING-2_FONT_WEIGHT" category="font-weights">700</property>
-  <property name="TEXT_HEADING-2_LINE_HEIGHT" category="typesettings">42dp</property>
-  <property name="TEXT_HEADING-3_FONT_SIZE" category="font-sizes">24sp</property>
-  <property name="TEXT_HEADING-3_FONT_WEIGHT" category="font-weights">700</property>
-  <property name="TEXT_HEADING-3_LINE_HEIGHT" category="typesettings">24dp</property>
-  <property name="TEXT_HEADING-4_FONT_SIZE" category="font-sizes">20sp</property>
-  <property name="TEXT_HEADING-4_FONT_WEIGHT" category="font-weights">700</property>
-  <property name="TEXT_HEADING-4_LINE_HEIGHT" category="typesettings">20dp</property>
-  <property name="TEXT_HEADING-5_FONT_SIZE" category="font-sizes">16sp</property>
-  <property name="TEXT_HEADING-5_FONT_WEIGHT" category="font-weights">700</property>
-  <property name="TEXT_HEADING-5_LINE_HEIGHT" category="typesettings">16dp</property>
   <property name="TEXT_HERO-1_FONT_SIZE" category="font-sizes">120sp</property>
   <property name="TEXT_HERO-1_FONT_WEIGHT" category="font-weights">700</property>
   <property name="TEXT_HERO-1_LETTER_SPACING" category="letter-spacings">-0.02</property>
@@ -183,12 +156,6 @@
   <property name="TEXT_HERO-5_FONT_WEIGHT" category="font-weights">700</property>
   <property name="TEXT_HERO-5_LETTER_SPACING" category="letter-spacings">-0.02</property>
   <property name="TEXT_HERO-5_LINE_HEIGHT" category="typesettings">48dp</property>
-  <property name="TEXT_LABEL-1_FONT_SIZE" category="font-sizes">16sp</property>
-  <property name="TEXT_LABEL-1_FONT_WEIGHT" category="font-weights">700</property>
-  <property name="TEXT_LABEL-1_LINE_HEIGHT" category="typesettings">19dp</property>
-  <property name="TEXT_LABEL-2_FONT_SIZE" category="font-sizes">14sp</property>
-  <property name="TEXT_LABEL-2_FONT_WEIGHT" category="font-weights">700</property>
-  <property name="TEXT_LABEL-2_LINE_HEIGHT" category="typesettings">16dp</property>
   <property name="TEXT_LG_FONT_SIZE" category="font-sizes">20sp</property>
   <property name="TEXT_LG_FONT_WEIGHT" category="font-weights">400</property>
   <color name="TEXT_PRIMARY_DARK_COLOR" category="text-colors">#ffffffff</color>
@@ -199,9 +166,6 @@
   <color name="TEXT_SECONDARY_LIGHT_COLOR" category="text-colors">#ff68697f</color>
   <property name="TEXT_SM_FONT_SIZE" category="font-sizes">14sp</property>
   <property name="TEXT_SM_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_SUBHEADING_FONT_SIZE" category="font-sizes">24sp</property>
-  <property name="TEXT_SUBHEADING_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_SUBHEADING_LINE_HEIGHT" category="typesettings">28dp</property>
   <color name="TEXT_TERTIARY_DARK_COLOR" category="text-colors">#ff8e8e93</color>
   <color name="TEXT_TERTIARY_LIGHT_COLOR" category="text-colors">#ff8f90a0</color>
   <property name="TEXT_XL_FONT_SIZE" category="font-sizes">24sp</property>
