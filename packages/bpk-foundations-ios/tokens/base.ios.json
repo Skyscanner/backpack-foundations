@@ -946,6 +946,27 @@
       "name": "textBodyDefaultLineHeight"
     },
     {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "textBodyLongformFontSize"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textBodyLongformFontWeight"
+    },
+    {
+      "value": "23",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG}",
+      "name": "textBodyLongformLineHeight"
+    },
+    {
       "value": "10",
       "type": "font-size",
       "category": "font-sizes",

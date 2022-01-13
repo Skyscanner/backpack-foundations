@@ -1250,6 +1250,27 @@
       "originalValue": "{!LINE_HEIGHT_BASE}",
       "name": "TEXT_BODY-DEFAULT_LINE_HEIGHT"
     },
+    "TEXT_BODY-LONGFORM_FONT_SIZE": {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "TEXT_BODY-LONGFORM_FONT_SIZE"
+    },
+    "TEXT_BODY-LONGFORM_FONT_WEIGHT": {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "TEXT_BODY-LONGFORM_FONT_WEIGHT"
+    },
+    "TEXT_BODY-LONGFORM_LINE_HEIGHT": {
+      "value": "23",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG}",
+      "name": "TEXT_BODY-LONGFORM_LINE_HEIGHT"
+    },
     "TEXT_CAPS_FONT_SIZE": {
       "value": "10",
       "type": "font-size",
@@ -1857,6 +1878,9 @@
     "TEXT_BODY-DEFAULT_FONT_SIZE",
     "TEXT_BODY-DEFAULT_FONT_WEIGHT",
     "TEXT_BODY-DEFAULT_LINE_HEIGHT",
+    "TEXT_BODY-LONGFORM_FONT_SIZE",
+    "TEXT_BODY-LONGFORM_FONT_WEIGHT",
+    "TEXT_BODY-LONGFORM_LINE_HEIGHT",
     "TEXT_CAPS_FONT_SIZE",
     "TEXT_CAPS_FONT_WEIGHT",
     "TEXT_CAPS_LETTER_SPACING",
