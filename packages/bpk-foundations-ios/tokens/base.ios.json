@@ -722,21 +722,21 @@
       "name": "lineHeightBase"
     },
     {
-      "value": "24",
+      "value": "23",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG}",
       "name": "lineHeightLg"
     },
     {
-      "value": "17",
+      "value": "16",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "lineHeightSm"
     },
     {
-      "value": "29",
+      "value": "28",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL}",
@@ -750,7 +750,7 @@
       "name": "lineHeightXs"
     },
     {
-      "value": "43",
+      "value": "42",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",
@@ -914,7 +914,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textBaseFontWeight"
     },
     {
@@ -935,7 +935,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textCapsFontWeight"
     },
     {
@@ -946,10 +946,10 @@
       "name": "textCapsLetterSpacing"
     },
     {
-      "value": "700",
+      "value": "800",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_SEMIBOLD}",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "textEmphasizedFontWeight"
     },
     {
@@ -970,7 +970,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textLgFontWeight"
     },
     {
@@ -1033,7 +1033,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textSmFontWeight"
     },
     {
@@ -1068,7 +1068,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textXlFontWeight"
     },
     {
@@ -1089,7 +1089,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textXsFontWeight"
     },
     {
@@ -1110,7 +1110,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textXxlFontWeight"
     },
     {
@@ -1131,7 +1131,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textXxxlFontWeight"
     },
     {

@@ -144,17 +144,8 @@
     "FONT_WEIGHT_BOLD": {
       "value": "800"
     },
-    "FONT_WEIGHT_MEDIUM": {
-      "value": "500"
-    },
-    "FONT_WEIGHT_NORMAL": {
+    "FONT_WEIGHT_BOOK": {
       "value": "400"
-    },
-    "FONT_WEIGHT_REGULAR": {
-      "value": "400"
-    },
-    "FONT_WEIGHT_SEMIBOLD": {
-      "value": "700"
     },
     "GLENCOE": {
       "value": "#73cec6"
@@ -171,23 +162,50 @@
     "LETTER_SPACING_TIGHT": {
       "value": -0.02
     },
+    "LINE_HEIGHT_5XL": {
+      "value": 64
+    },
+    "LINE_HEIGHT_6XL": {
+      "value": 76
+    },
+    "LINE_HEIGHT_7XL": {
+      "value": 96
+    },
+    "LINE_HEIGHT_8XL": {
+      "value": 120
+    },
     "LINE_HEIGHT_BASE": {
       "value": 19
     },
+    "LINE_HEIGHT_BASE_TIGHT": {
+      "value": 16
+    },
     "LINE_HEIGHT_LG": {
-      "value": 24
+      "value": 23
+    },
+    "LINE_HEIGHT_LG_TIGHT": {
+      "value": 20
     },
     "LINE_HEIGHT_SM": {
-      "value": 17
+      "value": 16
     },
     "LINE_HEIGHT_XL": {
-      "value": 29
+      "value": 28
+    },
+    "LINE_HEIGHT_XL_TIGHT": {
+      "value": 24
     },
     "LINE_HEIGHT_XS": {
       "value": 14
     },
     "LINE_HEIGHT_XXL": {
-      "value": 43
+      "value": 42
+    },
+    "LINE_HEIGHT_XXXL": {
+      "value": 40
+    },
+    "LINE_HEIGHT_XXXXL": {
+      "value": 48
     },
     "MONTEVERDE": {
       "value": "#00a698"
@@ -950,21 +968,21 @@
       "name": "LINE_HEIGHT_BASE"
     },
     "LINE_HEIGHT_LG": {
-      "value": "24",
+      "value": "23",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG}",
       "name": "LINE_HEIGHT_LG"
     },
     "LINE_HEIGHT_SM": {
-      "value": "17",
+      "value": "16",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "LINE_HEIGHT_SM"
     },
     "LINE_HEIGHT_XL": {
-      "value": "29",
+      "value": "28",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL}",
@@ -978,7 +996,7 @@
       "name": "LINE_HEIGHT_XS"
     },
     "LINE_HEIGHT_XXL": {
-      "value": "43",
+      "value": "42",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",
@@ -1072,7 +1090,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_REGULAR}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_BASE_FONT_WEIGHT"
     },
     "TEXT_CAPS_FONT_SIZE": {
@@ -1086,14 +1104,14 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_REGULAR}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_CAPS_FONT_WEIGHT"
     },
     "TEXT_EMPHASIZED_FONT_WEIGHT": {
-      "value": "500",
+      "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_MEDIUM}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_EMPHASIZED_FONT_WEIGHT"
     },
     "TEXT_LG_FONT_SIZE": {
@@ -1107,7 +1125,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_REGULAR}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_LG_FONT_WEIGHT"
     },
     "TEXT_PRIMARY_DARK_COLOR": {
@@ -1163,7 +1181,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_REGULAR}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_SM_FONT_WEIGHT"
     },
     "TEXT_TERTIARY_DARK_COLOR": {
@@ -1191,7 +1209,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_REGULAR}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_XL_FONT_WEIGHT"
     },
     "TEXT_XS_FONT_SIZE": {
@@ -1205,7 +1223,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_REGULAR}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_XS_FONT_WEIGHT"
     },
     "TEXT_XXL_FONT_SIZE": {
@@ -1219,7 +1237,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_REGULAR}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_XXL_FONT_WEIGHT"
     },
     "TEXT_XXXL_FONT_SIZE": {
@@ -1233,7 +1251,7 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_REGULAR}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_XXXL_FONT_WEIGHT"
     },
     "BACKGROUND_ALTERNATIVE_COLOR": {
