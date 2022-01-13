@@ -1037,6 +1037,27 @@
       "name": "textFootnoteLineHeight"
     },
     {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "textHeading4FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHeading4FontWeight"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
+      "name": "textHeading4LineHeight"
+    },
+    {
       "value": "16",
       "type": "font-size",
       "category": "font-sizes",

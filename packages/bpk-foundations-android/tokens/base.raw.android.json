@@ -1201,6 +1201,27 @@
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "TEXT_FOOTNOTE_LINE_HEIGHT"
     },
+    "TEXT_HEADING-4_FONT_SIZE": {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "TEXT_HEADING-4_FONT_SIZE"
+    },
+    "TEXT_HEADING-4_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_HEADING-4_FONT_WEIGHT"
+    },
+    "TEXT_HEADING-4_LINE_HEIGHT": {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
+      "name": "TEXT_HEADING-4_LINE_HEIGHT"
+    },
     "TEXT_HEADING-5_FONT_SIZE": {
       "value": "16",
       "type": "font-size",
@@ -1660,6 +1681,9 @@
     "TEXT_FOOTNOTE_FONT_SIZE",
     "TEXT_FOOTNOTE_FONT_WEIGHT",
     "TEXT_FOOTNOTE_LINE_HEIGHT",
+    "TEXT_HEADING-4_FONT_SIZE",
+    "TEXT_HEADING-4_FONT_WEIGHT",
+    "TEXT_HEADING-4_LINE_HEIGHT",
     "TEXT_HEADING-5_FONT_SIZE",
     "TEXT_HEADING-5_FONT_WEIGHT",
     "TEXT_HEADING-5_LINE_HEIGHT",

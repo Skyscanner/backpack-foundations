@@ -148,6 +148,9 @@
   <property name="TEXT_FOOTNOTE_FONT_SIZE" category="font-sizes">14sp</property>
   <property name="TEXT_FOOTNOTE_FONT_WEIGHT" category="font-weights">400</property>
   <property name="TEXT_FOOTNOTE_LINE_HEIGHT" category="typesettings">16dp</property>
+  <property name="TEXT_HEADING-4_FONT_SIZE" category="font-sizes">20sp</property>
+  <property name="TEXT_HEADING-4_FONT_WEIGHT" category="font-weights">700</property>
+  <property name="TEXT_HEADING-4_LINE_HEIGHT" category="typesettings">20dp</property>
   <property name="TEXT_HEADING-5_FONT_SIZE" category="font-sizes">16sp</property>
   <property name="TEXT_HEADING-5_FONT_WEIGHT" category="font-weights">700</property>
   <property name="TEXT_HEADING-5_LINE_HEIGHT" category="typesettings">16dp</property>
