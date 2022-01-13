@@ -163,6 +163,26 @@
   <property name="TEXT_HEADING-5_FONT_SIZE" category="font-sizes">16sp</property>
   <property name="TEXT_HEADING-5_FONT_WEIGHT" category="font-weights">700</property>
   <property name="TEXT_HEADING-5_LINE_HEIGHT" category="typesettings">16dp</property>
+  <property name="TEXT_HERO-1_FONT_SIZE" category="font-sizes">120sp</property>
+  <property name="TEXT_HERO-1_FONT_WEIGHT" category="font-weights">700</property>
+  <property name="TEXT_HERO-1_LETTER_SPACING" category="letter-spacings">-0.02</property>
+  <property name="TEXT_HERO-1_LINE_HEIGHT" category="typesettings">120dp</property>
+  <property name="TEXT_HERO-2_FONT_SIZE" category="font-sizes">96sp</property>
+  <property name="TEXT_HERO-2_FONT_WEIGHT" category="font-weights">700</property>
+  <property name="TEXT_HERO-2_LETTER_SPACING" category="letter-spacings">-0.02</property>
+  <property name="TEXT_HERO-2_LINE_HEIGHT" category="typesettings">96dp</property>
+  <property name="TEXT_HERO-3_FONT_SIZE" category="font-sizes">76sp</property>
+  <property name="TEXT_HERO-3_FONT_WEIGHT" category="font-weights">700</property>
+  <property name="TEXT_HERO-3_LETTER_SPACING" category="letter-spacings">-0.02</property>
+  <property name="TEXT_HERO-3_LINE_HEIGHT" category="typesettings">76dp</property>
+  <property name="TEXT_HERO-4_FONT_SIZE" category="font-sizes">64sp</property>
+  <property name="TEXT_HERO-4_FONT_WEIGHT" category="font-weights">700</property>
+  <property name="TEXT_HERO-4_LETTER_SPACING" category="letter-spacings">-0.02</property>
+  <property name="TEXT_HERO-4_LINE_HEIGHT" category="typesettings">64dp</property>
+  <property name="TEXT_HERO-5_FONT_SIZE" category="font-sizes">48sp</property>
+  <property name="TEXT_HERO-5_FONT_WEIGHT" category="font-weights">700</property>
+  <property name="TEXT_HERO-5_LETTER_SPACING" category="letter-spacings">-0.02</property>
+  <property name="TEXT_HERO-5_LINE_HEIGHT" category="typesettings">48dp</property>
   <property name="TEXT_LABEL-1_FONT_SIZE" category="font-sizes">16sp</property>
   <property name="TEXT_LABEL-1_FONT_WEIGHT" category="font-weights">700</property>
   <property name="TEXT_LABEL-1_LINE_HEIGHT" category="typesettings">19dp</property>

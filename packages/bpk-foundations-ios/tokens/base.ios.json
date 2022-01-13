@@ -1149,6 +1149,146 @@
       "name": "textHeavyFontWeight"
     },
     {
+      "value": "120",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_8XL}",
+      "name": "textHero1FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero1FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero1LetterSpacing"
+    },
+    {
+      "value": "120",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_8XL}",
+      "name": "textHero1LineHeight"
+    },
+    {
+      "value": "96",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_7XL}",
+      "name": "textHero2FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero2FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero2LetterSpacing"
+    },
+    {
+      "value": "96",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_7XL}",
+      "name": "textHero2LineHeight"
+    },
+    {
+      "value": "76",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_6XL}",
+      "name": "textHero3FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero3FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero3LetterSpacing"
+    },
+    {
+      "value": "76",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_6XL}",
+      "name": "textHero3LineHeight"
+    },
+    {
+      "value": "64",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_5XL}",
+      "name": "textHero4FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero4FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero4LetterSpacing"
+    },
+    {
+      "value": "64",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_5XL}",
+      "name": "textHero4LineHeight"
+    },
+    {
+      "value": "48",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXXL}",
+      "name": "textHero5FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero5FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero5LetterSpacing"
+    },
+    {
+      "value": "48",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "textHero5LineHeight"
+    },
+    {
       "value": "16",
       "type": "font-size",
       "category": "font-sizes",

@@ -1306,6 +1306,146 @@
       "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
       "name": "TEXT_HEADING-5_LINE_HEIGHT"
     },
+    "TEXT_HERO-1_FONT_SIZE": {
+      "value": "120",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_8XL}",
+      "name": "TEXT_HERO-1_FONT_SIZE"
+    },
+    "TEXT_HERO-1_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_HERO-1_FONT_WEIGHT"
+    },
+    "TEXT_HERO-1_LETTER_SPACING": {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "TEXT_HERO-1_LETTER_SPACING"
+    },
+    "TEXT_HERO-1_LINE_HEIGHT": {
+      "value": "120",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_8XL}",
+      "name": "TEXT_HERO-1_LINE_HEIGHT"
+    },
+    "TEXT_HERO-2_FONT_SIZE": {
+      "value": "96",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_7XL}",
+      "name": "TEXT_HERO-2_FONT_SIZE"
+    },
+    "TEXT_HERO-2_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_HERO-2_FONT_WEIGHT"
+    },
+    "TEXT_HERO-2_LETTER_SPACING": {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "TEXT_HERO-2_LETTER_SPACING"
+    },
+    "TEXT_HERO-2_LINE_HEIGHT": {
+      "value": "96",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_7XL}",
+      "name": "TEXT_HERO-2_LINE_HEIGHT"
+    },
+    "TEXT_HERO-3_FONT_SIZE": {
+      "value": "76",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_6XL}",
+      "name": "TEXT_HERO-3_FONT_SIZE"
+    },
+    "TEXT_HERO-3_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_HERO-3_FONT_WEIGHT"
+    },
+    "TEXT_HERO-3_LETTER_SPACING": {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "TEXT_HERO-3_LETTER_SPACING"
+    },
+    "TEXT_HERO-3_LINE_HEIGHT": {
+      "value": "76",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_6XL}",
+      "name": "TEXT_HERO-3_LINE_HEIGHT"
+    },
+    "TEXT_HERO-4_FONT_SIZE": {
+      "value": "64",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_5XL}",
+      "name": "TEXT_HERO-4_FONT_SIZE"
+    },
+    "TEXT_HERO-4_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_HERO-4_FONT_WEIGHT"
+    },
+    "TEXT_HERO-4_LETTER_SPACING": {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "TEXT_HERO-4_LETTER_SPACING"
+    },
+    "TEXT_HERO-4_LINE_HEIGHT": {
+      "value": "64",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_5XL}",
+      "name": "TEXT_HERO-4_LINE_HEIGHT"
+    },
+    "TEXT_HERO-5_FONT_SIZE": {
+      "value": "48",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXXL}",
+      "name": "TEXT_HERO-5_FONT_SIZE"
+    },
+    "TEXT_HERO-5_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_HERO-5_FONT_WEIGHT"
+    },
+    "TEXT_HERO-5_LETTER_SPACING": {
+      "value": "-0.02",
+      "type": "letter-space",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "TEXT_HERO-5_LETTER_SPACING"
+    },
+    "TEXT_HERO-5_LINE_HEIGHT": {
+      "value": "48",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "TEXT_HERO-5_LINE_HEIGHT"
+    },
     "TEXT_LABEL-1_FONT_SIZE": {
       "value": "16",
       "type": "font-size",
@@ -1780,6 +1920,26 @@
     "TEXT_HEADING-5_FONT_SIZE",
     "TEXT_HEADING-5_FONT_WEIGHT",
     "TEXT_HEADING-5_LINE_HEIGHT",
+    "TEXT_HERO-1_FONT_SIZE",
+    "TEXT_HERO-1_FONT_WEIGHT",
+    "TEXT_HERO-1_LETTER_SPACING",
+    "TEXT_HERO-1_LINE_HEIGHT",
+    "TEXT_HERO-2_FONT_SIZE",
+    "TEXT_HERO-2_FONT_WEIGHT",
+    "TEXT_HERO-2_LETTER_SPACING",
+    "TEXT_HERO-2_LINE_HEIGHT",
+    "TEXT_HERO-3_FONT_SIZE",
+    "TEXT_HERO-3_FONT_WEIGHT",
+    "TEXT_HERO-3_LETTER_SPACING",
+    "TEXT_HERO-3_LINE_HEIGHT",
+    "TEXT_HERO-4_FONT_SIZE",
+    "TEXT_HERO-4_FONT_WEIGHT",
+    "TEXT_HERO-4_LETTER_SPACING",
+    "TEXT_HERO-4_LINE_HEIGHT",
+    "TEXT_HERO-5_FONT_SIZE",
+    "TEXT_HERO-5_FONT_WEIGHT",
+    "TEXT_HERO-5_LETTER_SPACING",
+    "TEXT_HERO-5_LINE_HEIGHT",
     "TEXT_LABEL-1_FONT_SIZE",
     "TEXT_LABEL-1_FONT_WEIGHT",
     "TEXT_LABEL-1_LINE_HEIGHT",
