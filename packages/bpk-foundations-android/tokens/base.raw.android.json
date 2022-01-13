@@ -1096,6 +1096,27 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_BASE_FONT_WEIGHT"
     },
+    "TEXT_BODY-DEFAULT_FONT_SIZE": {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "TEXT_BODY-DEFAULT_FONT_SIZE"
+    },
+    "TEXT_BODY-DEFAULT_FONT_WEIGHT": {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "TEXT_BODY-DEFAULT_FONT_WEIGHT"
+    },
+    "TEXT_BODY-DEFAULT_LINE_HEIGHT": {
+      "value": "19",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE}",
+      "name": "TEXT_BODY-DEFAULT_LINE_HEIGHT"
+    },
     "TEXT_CAPS_FONT_SIZE": {
       "value": "10",
       "type": "font-size",
@@ -1582,6 +1603,9 @@
     "SPACING_XXL",
     "TEXT_BASE_FONT_SIZE",
     "TEXT_BASE_FONT_WEIGHT",
+    "TEXT_BODY-DEFAULT_FONT_SIZE",
+    "TEXT_BODY-DEFAULT_FONT_WEIGHT",
+    "TEXT_BODY-DEFAULT_LINE_HEIGHT",
     "TEXT_CAPS_FONT_SIZE",
     "TEXT_CAPS_FONT_WEIGHT",
     "TEXT_CAPTION_FONT_SIZE",

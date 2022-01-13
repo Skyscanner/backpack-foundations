@@ -133,6 +133,9 @@
   <property name="SPACING_XXL" category="spacings">40dp</property>
   <property name="TEXT_BASE_FONT_SIZE" category="font-sizes">16sp</property>
   <property name="TEXT_BASE_FONT_WEIGHT" category="font-weights">400</property>
+  <property name="TEXT_BODY-DEFAULT_FONT_SIZE" category="font-sizes">16sp</property>
+  <property name="TEXT_BODY-DEFAULT_FONT_WEIGHT" category="font-weights">400</property>
+  <property name="TEXT_BODY-DEFAULT_LINE_HEIGHT" category="typesettings">19dp</property>
   <property name="TEXT_CAPS_FONT_SIZE" category="font-sizes">10sp</property>
   <property name="TEXT_CAPS_FONT_WEIGHT" category="font-weights">400</property>
   <property name="TEXT_CAPTION_FONT_SIZE" category="font-sizes">12sp</property>

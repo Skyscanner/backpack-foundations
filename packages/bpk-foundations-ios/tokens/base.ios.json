@@ -925,6 +925,27 @@
       "name": "textBaseLetterSpacing"
     },
     {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textBodyDefaultFontSize"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textBodyDefaultFontWeight"
+    },
+    {
+      "value": "19",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE}",
+      "name": "textBodyDefaultLineHeight"
+    },
+    {
       "value": "10",
       "type": "font-size",
       "category": "font-sizes",
