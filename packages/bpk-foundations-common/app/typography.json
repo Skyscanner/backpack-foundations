@@ -30,6 +30,24 @@
     "LINE_HEIGHT_8XL": 120,
     "LETTER_SPACING_TIGHT": -0.02,
     "FONT_WEIGHT_BOOK": "400",
-    "FONT_WEIGHT_BOLD": "700"
+    "FONT_WEIGHT_BOLD": "700",
+    "FONT_WEIGHT_BLACK": "900"
+  },
+  "props": {
+    "TEXT_CAPTION_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XS}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_CAPTION_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_CAPTION_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XS}",
+      "type": "size",
+      "category": "typesettings"
+    }
   }
 }

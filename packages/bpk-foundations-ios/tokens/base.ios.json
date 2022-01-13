@@ -946,6 +946,27 @@
       "name": "textCapsLetterSpacing"
     },
     {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "textCaptionFontSize"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textCaptionFontWeight"
+    },
+    {
+      "value": "14",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textCaptionLineHeight"
+    },
+    {
       "value": "700",
       "type": "string",
       "category": "font-weights",

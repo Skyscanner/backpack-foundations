@@ -141,6 +141,9 @@
     "FONT_SIZE_XXXXL": {
       "value": 48
     },
+    "FONT_WEIGHT_BLACK": {
+      "value": "900"
+    },
     "FONT_WEIGHT_BOLD": {
       "value": "700"
     },
@@ -1107,6 +1110,27 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_CAPS_FONT_WEIGHT"
     },
+    "TEXT_CAPTION_FONT_SIZE": {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "TEXT_CAPTION_FONT_SIZE"
+    },
+    "TEXT_CAPTION_FONT_WEIGHT": {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "TEXT_CAPTION_FONT_WEIGHT"
+    },
+    "TEXT_CAPTION_LINE_HEIGHT": {
+      "value": "14",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "TEXT_CAPTION_LINE_HEIGHT"
+    },
     "TEXT_EMPHASIZED_FONT_WEIGHT": {
       "value": "400",
       "type": "string",
@@ -1497,6 +1521,9 @@
     "TEXT_BASE_FONT_WEIGHT",
     "TEXT_CAPS_FONT_SIZE",
     "TEXT_CAPS_FONT_WEIGHT",
+    "TEXT_CAPTION_FONT_SIZE",
+    "TEXT_CAPTION_FONT_WEIGHT",
+    "TEXT_CAPTION_LINE_HEIGHT",
     "TEXT_EMPHASIZED_FONT_WEIGHT",
     "TEXT_LG_FONT_SIZE",
     "TEXT_LG_FONT_WEIGHT",
