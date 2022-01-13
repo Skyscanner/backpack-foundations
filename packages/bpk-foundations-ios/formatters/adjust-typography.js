@@ -70,7 +70,7 @@ const adjustTypographyIos = (aliases, prop) => {
   let adjustedValue = prop.value;
   if (prop.value === 'null') {
     adjustedValue = null;
-  } else if (prop.type === 'letter-spacing') {
+  } else if (prop.type === 'legacy-letter-spacing') {
     const correspondingFontSize = getCorrespondingFontSizeTokensIos(
       aliases,
       prop.name,

@@ -1111,10 +1111,10 @@
       "name": "TEXT_CAPS_FONT_WEIGHT"
     },
     "TEXT_EMPHASIZED_FONT_WEIGHT": {
-      "value": "400",
+      "value": "700",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_EMPHASIZED_FONT_WEIGHT"
     },
     "TEXT_HERO-1_FONT_SIZE": {

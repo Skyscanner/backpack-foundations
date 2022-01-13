@@ -135,7 +135,7 @@
   <property name="TEXT_BASE_FONT_WEIGHT" category="font-weights">400</property>
   <property name="TEXT_CAPS_FONT_SIZE" category="font-sizes">10sp</property>
   <property name="TEXT_CAPS_FONT_WEIGHT" category="font-weights">400</property>
-  <property name="TEXT_EMPHASIZED_FONT_WEIGHT" category="font-weights">400</property>
+  <property name="TEXT_EMPHASIZED_FONT_WEIGHT" category="font-weights">700</property>
   <property name="TEXT_HERO-1_FONT_SIZE" category="font-sizes">120sp</property>
   <property name="TEXT_HERO-1_FONT_WEIGHT" category="font-weights">700</property>
   <property name="TEXT_HERO-1_LETTER_SPACING" category="letter-spacings">-0.02</property>

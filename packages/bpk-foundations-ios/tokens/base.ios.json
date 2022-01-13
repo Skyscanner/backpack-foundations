@@ -653,56 +653,56 @@
     },
     {
       "value": 0.12,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_BASE}",
       "name": "letterSpacingBase"
     },
     {
       "value": 0.28,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_CAPS}",
       "name": "letterSpacingCaps"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_LG}",
       "name": "letterSpacingLg"
     },
     {
       "value": 0.154,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_SM}",
       "name": "letterSpacingSm"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XL}",
       "name": "letterSpacingXl"
     },
     {
       "value": 0,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XS}",
       "name": "letterSpacingXs"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XXL}",
       "name": "letterSpacingXxl"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XXXL}",
       "name": "letterSpacingXxxl"
@@ -919,7 +919,7 @@
     },
     {
       "value": 0.12,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_BASE}",
       "name": "textBaseLetterSpacing"
@@ -940,7 +940,7 @@
     },
     {
       "value": 0.28,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_CAPS}",
       "name": "textCapsLetterSpacing"
@@ -1115,7 +1115,7 @@
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_LG}",
       "name": "textLgLetterSpacing"
@@ -1178,7 +1178,7 @@
     },
     {
       "value": 0.154,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_SM}",
       "name": "textSmLetterSpacing"
@@ -1213,7 +1213,7 @@
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XL}",
       "name": "textXlLetterSpacing"
@@ -1234,7 +1234,7 @@
     },
     {
       "value": 0,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XS}",
       "name": "textXsLetterSpacing"
@@ -1255,7 +1255,7 @@
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XXL}",
       "name": "textXxlLetterSpacing"
@@ -1276,7 +1276,7 @@
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XXXL}",
       "name": "textXxxlLetterSpacing"
