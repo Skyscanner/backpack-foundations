@@ -974,6 +974,27 @@
       "name": "textEmphasizedFontWeight"
     },
     {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "textFootnoteFontSize"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textFootnoteFontWeight"
+    },
+    {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "textFootnoteLineHeight"
+    },
+    {
       "value": "700",
       "type": "string",
       "category": "font-weights",

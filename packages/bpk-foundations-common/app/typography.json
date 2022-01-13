@@ -48,6 +48,21 @@
       "value": "{!LINE_HEIGHT_XS}",
       "type": "size",
       "category": "typesettings"
-    }
+    },
+    "TEXT_FOOTNOTE_FONT_SIZE": {
+      "value": "{!FONT_SIZE_SM}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_FOOTNOTE_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_FOOTNOTE_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_SM}",
+      "type": "size",
+      "category": "typesettings"
+    },
   }
 }

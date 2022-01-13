@@ -139,6 +139,9 @@
   <property name="TEXT_CAPTION_FONT_WEIGHT" category="font-weights">400</property>
   <property name="TEXT_CAPTION_LINE_HEIGHT" category="typesettings">14dp</property>
   <property name="TEXT_EMPHASIZED_FONT_WEIGHT" category="font-weights">400</property>
+  <property name="TEXT_FOOTNOTE_FONT_SIZE" category="font-sizes">14sp</property>
+  <property name="TEXT_FOOTNOTE_FONT_WEIGHT" category="font-weights">400</property>
+  <property name="TEXT_FOOTNOTE_LINE_HEIGHT" category="typesettings">16dp</property>
   <property name="TEXT_LG_FONT_SIZE" category="font-sizes">20sp</property>
   <property name="TEXT_LG_FONT_WEIGHT" category="font-weights">400</property>
   <color name="TEXT_PRIMARY_DARK_COLOR" category="text-colors">#ffffffff</color>
