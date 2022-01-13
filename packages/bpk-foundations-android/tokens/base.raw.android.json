@@ -180,13 +180,13 @@
     "LINE_HEIGHT_BASE": {
       "value": 19
     },
-    "LINE_HEIGHT_BASE_TIGHT": {
+    "LINE_HEIGHT_BASE-TIGHT": {
       "value": 16
     },
     "LINE_HEIGHT_LG": {
       "value": 23
     },
-    "LINE_HEIGHT_LG_TIGHT": {
+    "LINE_HEIGHT_LG-TIGHT": {
       "value": 20
     },
     "LINE_HEIGHT_SM": {
@@ -195,7 +195,7 @@
     "LINE_HEIGHT_XL": {
       "value": 28
     },
-    "LINE_HEIGHT_XL_TIGHT": {
+    "LINE_HEIGHT_XL-TIGHT": {
       "value": 24
     },
     "LINE_HEIGHT_XS": {
@@ -1180,6 +1180,27 @@
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "TEXT_FOOTNOTE_LINE_HEIGHT"
     },
+    "TEXT_HEADING-5_FONT_SIZE": {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "TEXT_HEADING-5_FONT_SIZE"
+    },
+    "TEXT_HEADING-5_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_HEADING-5_FONT_WEIGHT"
+    },
+    "TEXT_HEADING-5_LINE_HEIGHT": {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "name": "TEXT_HEADING-5_LINE_HEIGHT"
+    },
     "TEXT_LABEL-1_FONT_SIZE": {
       "value": "16",
       "type": "font-size",
@@ -1615,6 +1636,9 @@
     "TEXT_FOOTNOTE_FONT_SIZE",
     "TEXT_FOOTNOTE_FONT_WEIGHT",
     "TEXT_FOOTNOTE_LINE_HEIGHT",
+    "TEXT_HEADING-5_FONT_SIZE",
+    "TEXT_HEADING-5_FONT_WEIGHT",
+    "TEXT_HEADING-5_LINE_HEIGHT",
     "TEXT_LABEL-1_FONT_SIZE",
     "TEXT_LABEL-1_FONT_WEIGHT",
     "TEXT_LABEL-1_LINE_HEIGHT",
