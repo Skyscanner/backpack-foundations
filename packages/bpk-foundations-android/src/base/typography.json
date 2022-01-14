@@ -132,7 +132,7 @@
       "category": "font-sizes"
     },
     "TEXT_CAPS_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_REGULAR}",
+      "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
       "category": "font-weights"
     },
@@ -142,7 +142,7 @@
       "category": "font-sizes"
     },
     "TEXT_XS_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_REGULAR}",
+      "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
       "category": "font-weights"
     },
@@ -152,7 +152,7 @@
       "category": "font-sizes"
     },
     "TEXT_SM_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_REGULAR}",
+      "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
       "category": "font-weights"
     },
@@ -162,7 +162,7 @@
       "category": "font-sizes"
     },
     "TEXT_BASE_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_REGULAR}",
+      "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
       "category": "font-weights"
     },
@@ -172,7 +172,7 @@
       "category": "font-sizes"
     },
     "TEXT_LG_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_REGULAR}",
+      "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
       "category": "font-weights"
     },
@@ -182,7 +182,7 @@
       "category": "font-sizes"
     },
     "TEXT_XL_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_REGULAR}",
+      "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
       "category": "font-weights"
     },
@@ -192,7 +192,7 @@
       "category": "font-sizes"
     },
     "TEXT_XXL_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_REGULAR}",
+      "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
       "category": "font-weights"
     },
@@ -202,12 +202,12 @@
       "category": "font-sizes"
     },
     "TEXT_XXXL_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_REGULAR}",
+      "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
       "category": "font-weights"
     },
     "TEXT_EMPHASIZED_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_MEDIUM}",
+      "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
       "category": "font-weights"
     }

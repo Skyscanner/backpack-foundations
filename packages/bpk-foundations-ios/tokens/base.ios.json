@@ -653,56 +653,56 @@
     },
     {
       "value": 0.12,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_BASE}",
       "name": "letterSpacingBase"
     },
     {
       "value": 0.28,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_CAPS}",
       "name": "letterSpacingCaps"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_LG}",
       "name": "letterSpacingLg"
     },
     {
       "value": 0.154,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_SM}",
       "name": "letterSpacingSm"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XL}",
       "name": "letterSpacingXl"
     },
     {
       "value": 0,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XS}",
       "name": "letterSpacingXs"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XXL}",
       "name": "letterSpacingXxl"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XXXL}",
       "name": "letterSpacingXxxl"
@@ -722,21 +722,21 @@
       "name": "lineHeightBase"
     },
     {
-      "value": "24",
+      "value": "23",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG}",
       "name": "lineHeightLg"
     },
     {
-      "value": "17",
+      "value": "16",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "lineHeightSm"
     },
     {
-      "value": "29",
+      "value": "28",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL}",
@@ -750,7 +750,7 @@
       "name": "lineHeightXs"
     },
     {
-      "value": "43",
+      "value": "42",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",
@@ -914,12 +914,12 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textBaseFontWeight"
     },
     {
       "value": 0.12,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_BASE}",
       "name": "textBaseLetterSpacing"
@@ -935,12 +935,12 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textCapsFontWeight"
     },
     {
       "value": 0.28,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_CAPS}",
       "name": "textCapsLetterSpacing"
@@ -949,15 +949,155 @@
       "value": "700",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_SEMIBOLD}",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "textEmphasizedFontWeight"
     },
     {
-      "value": "800",
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "textHeavyFontWeight"
+    },
+    {
+      "value": "120",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_8XL}",
+      "name": "textHero1FontSize"
+    },
+    {
+      "value": "700",
       "type": "string",
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHeavyFontWeight"
+      "name": "textHero1FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero1LetterSpacing"
+    },
+    {
+      "value": "120",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_8XL}",
+      "name": "textHero1LineHeight"
+    },
+    {
+      "value": "96",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_7XL}",
+      "name": "textHero2FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero2FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero2LetterSpacing"
+    },
+    {
+      "value": "96",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_7XL}",
+      "name": "textHero2LineHeight"
+    },
+    {
+      "value": "76",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_6XL}",
+      "name": "textHero3FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero3FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero3LetterSpacing"
+    },
+    {
+      "value": "76",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_6XL}",
+      "name": "textHero3LineHeight"
+    },
+    {
+      "value": "64",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_5XL}",
+      "name": "textHero4FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero4FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero4LetterSpacing"
+    },
+    {
+      "value": "64",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_5XL}",
+      "name": "textHero4LineHeight"
+    },
+    {
+      "value": "48",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXXL}",
+      "name": "textHero5FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero5FontWeight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero5LetterSpacing"
+    },
+    {
+      "value": "48",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "textHero5LineHeight"
     },
     {
       "value": "20",
@@ -970,12 +1110,12 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textLgFontWeight"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_LG}",
       "name": "textLgLetterSpacing"
@@ -1033,12 +1173,12 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textSmFontWeight"
     },
     {
       "value": 0.154,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_SM}",
       "name": "textSmLetterSpacing"
@@ -1068,12 +1208,12 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textXlFontWeight"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XL}",
       "name": "textXlLetterSpacing"
@@ -1089,12 +1229,12 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textXsFontWeight"
     },
     {
       "value": 0,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XS}",
       "name": "textXsLetterSpacing"
@@ -1110,12 +1250,12 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textXxlFontWeight"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XXL}",
       "name": "textXxlLetterSpacing"
@@ -1131,12 +1271,12 @@
       "value": "400",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_NORMAL}",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textXxxlFontWeight"
     },
     {
       "value": null,
-      "type": "letter-spacing",
+      "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_XXXL}",
       "name": "textXxxlLetterSpacing"
