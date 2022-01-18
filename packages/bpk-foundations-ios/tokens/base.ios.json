@@ -638,14 +638,14 @@
       "name": "fontSizeXs"
     },
     {
-      "value": "30",
+      "value": "32",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXL}",
       "name": "fontSizeXxl"
     },
     {
-      "value": "36",
+      "value": "40",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXXL}",
@@ -715,42 +715,42 @@
       "name": "lineDarkColor"
     },
     {
-      "value": "19",
+      "value": "16",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_BASE}",
       "name": "lineHeightBase"
     },
     {
-      "value": "23",
+      "value": "20",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG}",
       "name": "lineHeightLg"
     },
     {
-      "value": "16",
+      "value": "14",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "lineHeightSm"
     },
     {
-      "value": "28",
+      "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL}",
       "name": "lineHeightXl"
     },
     {
-      "value": "14",
+      "value": "12",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XS}",
       "name": "lineHeightXs"
     },
     {
-      "value": "42",
+      "value": "32",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",
@@ -1240,7 +1240,7 @@
       "name": "textXsLetterSpacing"
     },
     {
-      "value": "30",
+      "value": "32",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXL}",
@@ -1261,7 +1261,7 @@
       "name": "textXxlLetterSpacing"
     },
     {
-      "value": "36",
+      "value": "40",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXXL}",

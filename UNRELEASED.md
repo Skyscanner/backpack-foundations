@@ -1,10 +1,14 @@
 **Breaking:**
 
+
+- bpk-foundations-common:
+  - Font Sizes, weights and Line Heights have been updated to use the correct values
+
 - bpk-foundations-ios:
-  - Some font weights have been updated to use the correct values
+  - Font Sizes, weights and Line Heights have been updated to use the correct values
 
 - bpk-foundations-android:
-  - Some font weights have been updated to use the correct values
+  - Font Sizes, weights and Line Heights have been updated to use the correct values
 
 
 **Changed:**
