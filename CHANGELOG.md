@@ -1,3 +1,21 @@
+# 2022-01-18
+
+**Breaking:**
+
+- @skyscanner/bpk-foundations-common:
+  - Font Sizes, weights and Line Heights have been updated to use the correct values
+
+- @skyscanner/bpk-foundations-ios:
+  - Font Sizes, weights and Line Heights have been updated to use the correct values
+
+- @skyscanner/bpk-foundations-android:
+  - Font Sizes, weights and Line Heights have been updated to use the correct values
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-common:
+  - Typography related aliases
+
 # 2021-12-17
 
 **Patch:**
