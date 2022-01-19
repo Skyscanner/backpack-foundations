@@ -249,6 +249,7 @@ export const fontSizeXxxxl = "2.625rem";
 export const fontSizeXxxxxl = "3.75rem";
 export const fontWeightBlack = "900";
 export const fontWeightBold = "700";
+export const fontWeightBook = "400";
 export const formValidationArrowSize = ".375rem";
 export const formValidationColor = "rgb(209, 67, 91)";
 export const gridColumns = "12";
@@ -299,10 +300,14 @@ export const labelColor = "rgb(17, 18, 54)";
 export const labelDisabledColor = "rgb(178, 178, 191)";
 export const labelFontSize = ".75rem";
 export const labelLineHeight = "1rem";
+export const letterSpacingTight = "-0.02em";
 export const lineHeightBase = "1.25rem";
+export const lineHeightBaseTight = "1.25rem";
 export const lineHeightLg = "1.625rem";
+export const lineHeightLgTight = "1.5rem";
 export const lineHeightSm = "1.125rem";
 export const lineHeightXl = "1.9375rem";
+export const lineHeightXlTight = "1.75rem";
 export const lineHeightXs = "1rem";
 export const lineHeightXxl = "2.4375rem";
 export const lineHeightXxxl = "2.9375rem";
@@ -672,6 +677,7 @@ textXxxxxlFontSize,
 export const fontWeights = {
 fontWeightBlack,
 fontWeightBold,
+fontWeightBook,
 h1FontWeight,
 h2FontWeight,
 h3FontWeight,
@@ -742,6 +748,7 @@ iconSizeLg,
 iconSizeSm,
 };
 export const letterSpacings = {
+letterSpacingTight,
 textBaseLetterSpacing,
 textLgLetterSpacing,
 textSmLetterSpacing,
@@ -888,9 +895,12 @@ fontSizeXxxl,
 fontSizeXxxxl,
 fontSizeXxxxxl,
 lineHeightBase,
+lineHeightBaseTight,
 lineHeightLg,
+lineHeightLgTight,
 lineHeightSm,
 lineHeightXl,
+lineHeightXlTight,
 lineHeightXs,
 lineHeightXxl,
 lineHeightXxxl,

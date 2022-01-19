@@ -48,13 +48,28 @@
       "type": "size",
       "category": "typesettings"
     },
+    "LINE_HEIGHT_BASE_TIGHT": {
+      "value": "{!FONT_LINE_HEIGHT_BASE_TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
     "LINE_HEIGHT_LG": {
       "value": "{!FONT_LINE_HEIGHT_LG}",
       "type": "size",
       "category": "typesettings"
     },
+    "LINE_HEIGHT_LG_TIGHT": {
+      "value": "{!FONT_LINE_HEIGHT_LG_TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
     "LINE_HEIGHT_XL": {
       "value": "{!FONT_LINE_HEIGHT_XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "LINE_HEIGHT_XL_TIGHT": {
+      "value": "{!FONT_LINE_HEIGHT_XL_TIGHT}",
       "type": "size",
       "category": "typesettings"
     },
@@ -137,6 +152,16 @@
       "value": "{!FONT_WEIGHT_BLACK}",
       "type": "string",
       "category": "font-weights"
+    },
+    "FONT_WEIGHT_BOOK": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "LETTER_SPACING_TIGHT": {
+      "value": "{!LETTER_SPACING_TIGHT}",
+      "type": "size",
+      "category": "letter-spacings"
     },
     "BUTTON_FONT_SIZE": {
       "value": "{!BUTTON_FONT_SIZE}",
