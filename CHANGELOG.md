@@ -1,3 +1,10 @@
+# 2022-01-20
+
+**Added:**
+
+- bpk-foundations-web: 4.3.3 => 4.4.0
+  - added weight, line height, and letter spacing tokens that will be used to support the new typography system
+
 # 2022-01-18
 
 **Breaking:**
