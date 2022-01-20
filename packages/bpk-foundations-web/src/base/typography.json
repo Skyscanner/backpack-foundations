@@ -48,13 +48,28 @@
       "type": "size",
       "category": "typesettings"
     },
+    "LINE_HEIGHT_BASE_TIGHT": {
+      "value": "{!FONT_LINE_HEIGHT_BASE_TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
     "LINE_HEIGHT_LG": {
       "value": "{!FONT_LINE_HEIGHT_LG}",
       "type": "size",
       "category": "typesettings"
     },
+    "LINE_HEIGHT_LG_TIGHT": {
+      "value": "{!FONT_LINE_HEIGHT_LG_TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
     "LINE_HEIGHT_XL": {
       "value": "{!FONT_LINE_HEIGHT_XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "LINE_HEIGHT_XL_TIGHT": {
+      "value": "{!FONT_LINE_HEIGHT_XL_TIGHT}",
       "type": "size",
       "category": "typesettings"
     },
@@ -75,6 +90,21 @@
     },
     "LINE_HEIGHT_XXXXXL": {
       "value": "{!FONT_LINE_HEIGHT_XXXXXL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "LINE_HEIGHT_6XL": {
+      "value": "{!FONT_LINE_HEIGHT_6XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "LINE_HEIGHT_7XL": {
+      "value": "{!FONT_LINE_HEIGHT_7XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "LINE_HEIGHT_8XL": {
+      "value": "{!FONT_LINE_HEIGHT_8XL}",
       "type": "size",
       "category": "typesettings"
     },
@@ -128,6 +158,21 @@
       "type": "font-size",
       "category": "typesettings"
     },
+    "FONT_SIZE_6XL": {
+      "value": "{!FONT_SIZE_6XL}",
+      "type": "font-size",
+      "category": "typesettings"
+    },
+    "FONT_SIZE_7XL": {
+      "value": "{!FONT_SIZE_7XL}",
+      "type": "font-size",
+      "category": "typesettings"
+    },
+    "FONT_SIZE_8XL": {
+      "value": "{!FONT_SIZE_8XL}",
+      "type": "font-size",
+      "category": "typesettings"
+    },
     "FONT_WEIGHT_BOLD": {
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
@@ -137,6 +182,16 @@
       "value": "{!FONT_WEIGHT_BLACK}",
       "type": "string",
       "category": "font-weights"
+    },
+    "FONT_WEIGHT_BOOK": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "LETTER_SPACING_TIGHT": {
+      "value": "{!LETTER_SPACING_TIGHT}",
+      "type": "size",
+      "category": "letter-spacings"
     },
     "BUTTON_FONT_SIZE": {
       "value": "{!BUTTON_FONT_SIZE}",
