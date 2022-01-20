@@ -195,6 +195,9 @@
     "FONT_LINE_HEIGHT_BASE_TIGHT": {
       "value": "1.25rem"
     },
+    "FONT_LINE_HEIGHT_6XL": {
+      "value": "5.25rem"
+    },
     "FONT_LINE_HEIGHT_BASE": {
       "value": "1.25rem"
     },
@@ -206,6 +209,12 @@
     },
     "SPACING_BASE_V2": {
       "value": "1rem"
+    },
+    "FONT_LINE_HEIGHT_7XL": {
+      "value": "6rem"
+    },
+    "FONT_LINE_HEIGHT_8XL": {
+      "value": "7.5rem"
     },
     "FONT_LINE_HEIGHT_XXL": {
       "value": "2.4375rem"
@@ -291,11 +300,20 @@
     "FONT_LINE_HEIGHT_LG": {
       "value": "1.625rem"
     },
+    "FONT_SIZE_6XL": {
+      "value": "4.75rem"
+    },
     "ZINDEX_TOOLTIP": {
       "value": "900"
     },
     "FONT_WEIGHT_BOLD": {
       "value": "700"
+    },
+    "FONT_SIZE_7XL": {
+      "value": "6rem"
+    },
+    "FONT_SIZE_8XL": {
+      "value": "7.5rem"
     },
     "ZINDEX_POPOVER": {
       "value": "900"

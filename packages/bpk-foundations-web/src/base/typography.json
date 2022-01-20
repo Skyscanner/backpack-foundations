@@ -93,6 +93,21 @@
       "type": "size",
       "category": "typesettings"
     },
+    "LINE_HEIGHT_6XL": {
+      "value": "{!FONT_LINE_HEIGHT_6XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "LINE_HEIGHT_7XL": {
+      "value": "{!FONT_LINE_HEIGHT_7XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "LINE_HEIGHT_8XL": {
+      "value": "{!FONT_LINE_HEIGHT_8XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
     "FONT_SIZE_ROOT": {
       "value": "100%",
       "type": "font-size",
@@ -140,6 +155,21 @@
     },
     "FONT_SIZE_XXXXXL": {
       "value": "{!FONT_SIZE_XXXXXL}",
+      "type": "font-size",
+      "category": "typesettings"
+    },
+    "FONT_SIZE_6XL": {
+      "value": "{!FONT_SIZE_6XL}",
+      "type": "font-size",
+      "category": "typesettings"
+    },
+    "FONT_SIZE_7XL": {
+      "value": "{!FONT_SIZE_7XL}",
+      "type": "font-size",
+      "category": "typesettings"
+    },
+    "FONT_SIZE_8XL": {
+      "value": "{!FONT_SIZE_8XL}",
       "type": "font-size",
       "category": "typesettings"
     },

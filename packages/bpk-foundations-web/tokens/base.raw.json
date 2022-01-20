@@ -195,6 +195,9 @@
     "FONT_LINE_HEIGHT_BASE_TIGHT": {
       "value": "1.25rem"
     },
+    "FONT_LINE_HEIGHT_6XL": {
+      "value": "5.25rem"
+    },
     "FONT_LINE_HEIGHT_BASE": {
       "value": "1.25rem"
     },
@@ -206,6 +209,12 @@
     },
     "SPACING_BASE_V2": {
       "value": "1rem"
+    },
+    "FONT_LINE_HEIGHT_7XL": {
+      "value": "6rem"
+    },
+    "FONT_LINE_HEIGHT_8XL": {
+      "value": "7.5rem"
     },
     "FONT_LINE_HEIGHT_XXL": {
       "value": "2.4375rem"
@@ -291,11 +300,20 @@
     "FONT_LINE_HEIGHT_LG": {
       "value": "1.625rem"
     },
+    "FONT_SIZE_6XL": {
+      "value": "4.75rem"
+    },
     "ZINDEX_TOOLTIP": {
       "value": "900"
     },
     "FONT_WEIGHT_BOLD": {
       "value": "700"
+    },
+    "FONT_SIZE_7XL": {
+      "value": "6rem"
+    },
+    "FONT_SIZE_8XL": {
+      "value": "7.5rem"
     },
     "ZINDEX_POPOVER": {
       "value": "900"
@@ -3097,6 +3115,13 @@
       "originalValue": "normal",
       "name": "TEXT_LG_LETTER_SPACING"
     },
+    "FONT_SIZE_6XL": {
+      "value": "4.75rem",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_6XL}",
+      "name": "FONT_SIZE_6XL"
+    },
     "FONT_FAMILY_BASE": {
       "value": "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
       "type": "font",
@@ -3132,6 +3157,13 @@
       "originalValue": "none",
       "name": "LINK_TEXT_DECORATION"
     },
+    "FONT_SIZE_7XL": {
+      "value": "6rem",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_7XL}",
+      "name": "FONT_SIZE_7XL"
+    },
     "TEXT_SECONDARY_LIGHT_COLOR": {
       "value": "rgb(68, 69, 96)",
       "type": "color",
@@ -3153,6 +3185,13 @@
       "originalValue": "{!FONT_SIZE_XL}",
       "name": "H3_FONT_SIZE"
     },
+    "LINE_HEIGHT_6XL": {
+      "value": "5.25rem",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_LINE_HEIGHT_6XL}",
+      "name": "LINE_HEIGHT_6XL"
+    },
     "H2_LINE_HEIGHT": {
       "value": "2.4375rem",
       "type": "size",
@@ -3166,6 +3205,13 @@
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_SM}",
       "name": "TEXT_SM_FONT_SIZE"
+    },
+    "FONT_SIZE_8XL": {
+      "value": "7.5rem",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_8XL}",
+      "name": "FONT_SIZE_8XL"
     },
     "FONT_SIZE_XXL": {
       "value": "1.875rem",
@@ -3208,6 +3254,13 @@
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_BASE}",
       "name": "LINE_HEIGHT_BASE"
+    },
+    "LINE_HEIGHT_7XL": {
+      "value": "6rem",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_LINE_HEIGHT_7XL}",
+      "name": "LINE_HEIGHT_7XL"
     },
     "FONT_SIZE_BASE": {
       "value": "1rem",
@@ -3257,6 +3310,13 @@
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_SM}",
       "name": "TEXT_SM_LINE_HEIGHT"
+    },
+    "LINE_HEIGHT_8XL": {
+      "value": "7.5rem",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_LINE_HEIGHT_8XL}",
+      "name": "LINE_HEIGHT_8XL"
     },
     "LINE_HEIGHT_XXL": {
       "value": "2.4375rem",
