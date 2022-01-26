@@ -596,6 +596,34 @@
       "name": "fontFamily"
     },
     {
+      "value": "64",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_5XL}",
+      "name": "fontSize5Xl"
+    },
+    {
+      "value": "76",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_6XL}",
+      "name": "fontSize6Xl"
+    },
+    {
+      "value": "96",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_7XL}",
+      "name": "fontSize7Xl"
+    },
+    {
+      "value": "120",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_8XL}",
+      "name": "fontSize8Xl"
+    },
+    {
       "value": "16",
       "type": "font-size",
       "category": "typesettings",
@@ -652,6 +680,13 @@
       "name": "fontSizeXxxl"
     },
     {
+      "value": "48",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_XXXXL}",
+      "name": "fontSizeXxxxl"
+    },
+    {
       "value": 0.12,
       "type": "legacy-letter-spacing",
       "category": "letter-spacings",
@@ -678,6 +713,13 @@
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_SM}",
       "name": "letterSpacingSm"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "letterSpacingTight"
     },
     {
       "value": null,
@@ -713,6 +755,34 @@
       "value": "#48484aff",
       "originalValue": "{!BLACK_TINT_04}",
       "name": "lineDarkColor"
+    },
+    {
+      "value": "64",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_5XL}",
+      "name": "lineHeight5Xl"
+    },
+    {
+      "value": "76",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_6XL}",
+      "name": "lineHeight6Xl"
+    },
+    {
+      "value": "96",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_7XL}",
+      "name": "lineHeight7Xl"
+    },
+    {
+      "value": "120",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_8XL}",
+      "name": "lineHeight8Xl"
     },
     {
       "value": "16",
@@ -755,6 +825,20 @@
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",
       "name": "lineHeightXxl"
+    },
+    {
+      "value": "40",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXL}",
+      "name": "lineHeightXxxl"
+    },
+    {
+      "value": "48",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "lineHeightXxxxl"
     },
     {
       "type": "color",
