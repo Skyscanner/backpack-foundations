@@ -133,10 +133,10 @@
       "value": "1.5rem"
     },
     "FONT_SIZE_XXXXXL": {
-      "value": "3.75rem"
+      "value": "4rem"
     },
     "FONT_SIZE_XXXL": {
-      "value": "2.25rem"
+      "value": "2.5rem"
     },
     "SPACING_LG_V2": {
       "value": "1.5rem"
@@ -199,7 +199,7 @@
       "value": "5.25rem"
     },
     "FONT_LINE_HEIGHT_BASE": {
-      "value": "1.25rem"
+      "value": "1.5rem"
     },
     "ZINDEX_AUTOSUGGEST": {
       "value": "900"
@@ -217,10 +217,10 @@
       "value": "7.5rem"
     },
     "FONT_LINE_HEIGHT_XXL": {
-      "value": "2.4375rem"
+      "value": "2.5rem"
     },
     "FONT_LINE_HEIGHT_XXXXL": {
-      "value": "3.4375rem"
+      "value": "3.5rem"
     },
     "SPACING_XL": {
       "value": "2.250rem"
@@ -238,13 +238,13 @@
       "value": ".75rem"
     },
     "FONT_LINE_HEIGHT_XXXL": {
-      "value": "2.9375rem"
+      "value": "3rem"
     },
     "FONT_LINE_HEIGHT_XL": {
-      "value": "1.9375rem"
+      "value": "2rem"
     },
     "FONT_LINE_HEIGHT_XXXXXL": {
-      "value": "4.875rem"
+      "value": "4.5rem"
     },
     "BREAKPOINT_ABOVE_MOBILE": {
       "value": "32.3125rem"
@@ -286,7 +286,7 @@
       "value": "1.875rem"
     },
     "FONT_LINE_HEIGHT_SM": {
-      "value": "1.125rem"
+      "value": "1.25rem"
     },
     "FONT_LINE_HEIGHT_XS": {
       "value": "1rem"
@@ -298,7 +298,7 @@
       "value": "3rem"
     },
     "FONT_LINE_HEIGHT_LG": {
-      "value": "1.625rem"
+      "value": "1.75rem"
     },
     "FONT_SIZE_6XL": {
       "value": "4.75rem"
@@ -319,10 +319,10 @@
       "value": "900"
     },
     "FONT_SIZE_XXL": {
-      "value": "1.875rem"
+      "value": "2rem"
     },
     "FONT_SIZE_XXXXL": {
-      "value": "2.625rem"
+      "value": "3rem"
     },
     "FONT_SIZE_BASE": {
       "value": "1rem"
@@ -2542,7 +2542,7 @@
       "name": "STATE_SELECTED_BACKGROUND_COLOR"
     },
     "TEXT_LG_LINE_HEIGHT": {
-      "value": "1.625rem",
+      "value": "1.75rem",
       "type": "size",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_LG}",
@@ -2591,7 +2591,7 @@
       "name": "HEADING_MARGIN_TOP"
     },
     "LINE_HEIGHT_XXXXXL": {
-      "value": "4.875rem",
+      "value": "4.5rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXXXL}",
@@ -2605,14 +2605,14 @@
       "name": "H6_LINE_HEIGHT"
     },
     "LINE_HEIGHT_XXXL": {
-      "value": "2.9375rem",
+      "value": "3rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXL}",
       "name": "LINE_HEIGHT_XXXL"
     },
     "LINE_HEIGHT_XL": {
-      "value": "1.9375rem",
+      "value": "2rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XL}",
@@ -2626,14 +2626,14 @@
       "name": "FONT_SIZE_XL"
     },
     "FONT_SIZE_XXXXXL": {
-      "value": "3.75rem",
+      "value": "4rem",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXXXXL}",
       "name": "FONT_SIZE_XXXXXL"
     },
     "FONT_SIZE_XXXL": {
-      "value": "2.25rem",
+      "value": "2.5rem",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXXL}",
@@ -2703,7 +2703,7 @@
       "name": "HEADING_CONTENT_MARGIN_TOP"
     },
     "LINE_HEIGHT_SM": {
-      "value": "1.125rem",
+      "value": "1.25rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_SM}",
@@ -2717,7 +2717,7 @@
       "name": "LINE_HEIGHT_LG_TIGHT"
     },
     "LINE_HEIGHT_LG": {
-      "value": "1.625rem",
+      "value": "1.75rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_LG}",
@@ -2801,7 +2801,7 @@
       "name": "LIST_NESTED_MARGIN_TOP"
     },
     "TEXT_XXXXL_FONT_SIZE": {
-      "value": "2.625rem",
+      "value": "3rem",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXXXL}",
@@ -2815,7 +2815,7 @@
       "name": "TEXT_BASE_FONT_WEIGHT"
     },
     "TEXT_XXL_FONT_SIZE": {
-      "value": "1.875rem",
+      "value": "2rem",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXL}",
@@ -2829,14 +2829,14 @@
       "name": "P_MARGIN_BOTTOM"
     },
     "TEXT_XXL_LINE_HEIGHT": {
-      "value": "2.4375rem",
+      "value": "2.5rem",
       "type": "number",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_XXL}",
       "name": "TEXT_XXL_LINE_HEIGHT"
     },
     "TEXT_XXXXL_LINE_HEIGHT": {
-      "value": "3.4375rem",
+      "value": "3.5rem",
       "type": "number",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXXL}",
@@ -2976,7 +2976,7 @@
       "name": "H5_FONT_WEIGHT"
     },
     "TEXT_BASE_LINE_HEIGHT": {
-      "value": "1.25rem",
+      "value": "1.5rem",
       "type": "size",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_BASE}",
@@ -3018,21 +3018,21 @@
       "name": "TEXT_XL_FONT_SIZE"
     },
     "TEXT_XXXXXL_FONT_SIZE": {
-      "value": "3.75rem",
+      "value": "4rem",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXXXXL}",
       "name": "TEXT_XXXXXL_FONT_SIZE"
     },
     "TEXT_XXXL_FONT_SIZE": {
-      "value": "2.25rem",
+      "value": "2.5rem",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXXL}",
       "name": "TEXT_XXXL_FONT_SIZE"
     },
     "TEXT_XL_LINE_HEIGHT": {
-      "value": "1.9375rem",
+      "value": "2rem",
       "type": "size",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_XL}",
@@ -3046,14 +3046,14 @@
       "name": "LINK_ALTERNATE_COLOR"
     },
     "TEXT_XXXXXL_LINE_HEIGHT": {
-      "value": "4.875rem",
+      "value": "4.5rem",
       "type": "number",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXXXL}",
       "name": "TEXT_XXXXXL_LINE_HEIGHT"
     },
     "TEXT_XXXL_LINE_HEIGHT": {
-      "value": "2.9375rem",
+      "value": "3rem",
       "type": "number",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXL}",
@@ -3074,7 +3074,7 @@
       "name": "LINK_HOVER_COLOR"
     },
     "H1_FONT_SIZE": {
-      "value": "2.625rem",
+      "value": "3rem",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXXXL}",
@@ -3095,14 +3095,14 @@
       "name": "TEXT_XS_LETTER_SPACING"
     },
     "H2_FONT_SIZE": {
-      "value": "1.875rem",
+      "value": "2rem",
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXL}",
       "name": "H2_FONT_SIZE"
     },
     "H1_LINE_HEIGHT": {
-      "value": "2.9375rem",
+      "value": "3rem",
       "type": "number",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXL}",
@@ -3193,7 +3193,7 @@
       "name": "LINE_HEIGHT_6XL"
     },
     "H2_LINE_HEIGHT": {
-      "value": "2.4375rem",
+      "value": "2.5rem",
       "type": "size",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_XXL}",
@@ -3214,7 +3214,7 @@
       "name": "FONT_SIZE_8XL"
     },
     "FONT_SIZE_XXL": {
-      "value": "1.875rem",
+      "value": "2rem",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXL}",
@@ -3228,14 +3228,14 @@
       "name": "H4_FONT_SIZE"
     },
     "H3_LINE_HEIGHT": {
-      "value": "1.9375rem",
+      "value": "2rem",
       "type": "size",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_XL}",
       "name": "H3_LINE_HEIGHT"
     },
     "FONT_SIZE_XXXXL": {
-      "value": "2.625rem",
+      "value": "3rem",
       "type": "font-size",
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXXXL}",
@@ -3249,7 +3249,7 @@
       "name": "LINK_COLOR"
     },
     "LINE_HEIGHT_BASE": {
-      "value": "1.25rem",
+      "value": "1.5rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_BASE}",
@@ -3270,7 +3270,7 @@
       "name": "FONT_SIZE_BASE"
     },
     "H4_LINE_HEIGHT": {
-      "value": "1.25rem",
+      "value": "1.5rem",
       "type": "size",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_BASE}",
@@ -3305,7 +3305,7 @@
       "name": "HEADING_MARGIN_BOTTOM"
     },
     "TEXT_SM_LINE_HEIGHT": {
-      "value": "1.125rem",
+      "value": "1.25rem",
       "type": "size",
       "category": "line-heights",
       "originalValue": "{!FONT_LINE_HEIGHT_SM}",
@@ -3319,7 +3319,7 @@
       "name": "LINE_HEIGHT_8XL"
     },
     "LINE_HEIGHT_XXL": {
-      "value": "2.4375rem",
+      "value": "2.5rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XXL}",
@@ -3333,7 +3333,7 @@
       "name": "TEXT_XS_FONT_SIZE"
     },
     "LINE_HEIGHT_XXXXL": {
-      "value": "3.4375rem",
+      "value": "3.5rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXXL}",
