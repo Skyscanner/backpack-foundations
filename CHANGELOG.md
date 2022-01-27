@@ -1,7 +1,12 @@
 # 2022-01-27
+**Fixed:**
+- @skyscanner/bpk-foundations-android: 3.1.0 => 3.1.1
+  - Included originalTag where needed in xml version for tokens
+
+# 2022-01-27
 
 **Added:**
-- @skyscanner/bpk-foundations-android: 3.0.0 => 2.1.0
+- @skyscanner/bpk-foundations-android: 3.0.0 => 3.1.0
   - Added missing raw tokens for text size, line height and letter spacing
 - @skyscanner/bpk-foundations-ios: 2.0.0 => 2.1.0
     - Added missing raw tokens for text size, line height and letter spacing
