@@ -52,17 +52,17 @@ const valueTemplate = (value, type) => {
 };
 
 const originalTag = (originalValue, name) => {
-  const trimmedValue = originalValue.replace(/[{}!}]/g, '')
-  return (name != trimmedValue ? ` originalTag="${trimmedValue}"`: '');
-}
+  const trimmedValue = originalValue.replace(/[{}!}]/g, '');
+  return name !== trimmedValue ? ` originalTag="${trimmedValue}"` : '';
+};
 
 export const tokenTemplate = ({ name, value, type, category, originalValue }) =>
   `  <${tagName(
     type,
-  )} name="${name.toUpperCase()}" category="${category}"${originalTag(originalValue, name)}>${valueTemplate(
-    value,
-    type,
-  )}</${tagName(type)}>`;
+  )} name="${name.toUpperCase()}" category="${category}"${originalTag(
+    originalValue,
+    name,
+  )}>${valueTemplate(value, type)}</${tagName(type)}>`;
 
 export default (result) => {
   const { props } = sortTokens(result.toJS());
