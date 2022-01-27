@@ -1222,13 +1222,6 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_CAPS_FONT_WEIGHT"
     },
-    "TEXT_EMPHASIZED_FONT_WEIGHT": {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "TEXT_EMPHASIZED_FONT_WEIGHT"
-    },
     "TEXT_HERO-1_FONT_SIZE": {
       "value": "120",
       "type": "font-size",
@@ -1852,7 +1845,6 @@
     "TEXT_CAPS_EMPHASIZED_FONT_WEIGHT",
     "TEXT_CAPS_FONT_SIZE",
     "TEXT_CAPS_FONT_WEIGHT",
-    "TEXT_EMPHASIZED_FONT_WEIGHT",
     "TEXT_HERO-1_FONT_SIZE",
     "TEXT_HERO-1_FONT_WEIGHT",
     "TEXT_HERO-1_LETTER_SPACING",

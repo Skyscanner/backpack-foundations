@@ -324,11 +324,6 @@
       "type": "string",
       "category": "font-weights"
     },
-    "TEXT_EMPHASIZED_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_BOLD}",
-      "type": "string",
-      "category": "font-weights"
-    },
     "TEXT_HERO-5_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXXXL}",
       "type": "font-size",

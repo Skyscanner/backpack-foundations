@@ -151,7 +151,6 @@
   <property name="TEXT_CAPS_EMPHASIZED_FONT_WEIGHT" category="font-weights" originalTag="FONT_WEIGHT_BOLD">700</property>
   <property name="TEXT_CAPS_FONT_SIZE" category="font-sizes" originalTag="FONT_SIZE_CAPS">10sp</property>
   <property name="TEXT_CAPS_FONT_WEIGHT" category="font-weights" originalTag="FONT_WEIGHT_BOOK">400</property>
-  <property name="TEXT_EMPHASIZED_FONT_WEIGHT" category="font-weights" originalTag="FONT_WEIGHT_BOLD">700</property>
   <property name="TEXT_HERO-1_FONT_SIZE" category="font-sizes" originalTag="FONT_SIZE_8XL">120sp</property>
   <property name="TEXT_HERO-1_FONT_WEIGHT" category="font-weights" originalTag="FONT_WEIGHT_BOLD">700</property>
   <property name="TEXT_HERO-1_LETTER_SPACING" category="letter-spacings" originalTag="LETTER_SPACING_TIGHT">-0.02</property>
