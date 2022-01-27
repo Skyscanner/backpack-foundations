@@ -1,3 +1,14 @@
+# 2022-01-27
+
+**Added:**
+- @skyscanner/bpk-foundations-android: 3.0.0 => 2.1.0
+  - Added missing raw tokens for text size, line height and letter spacing
+- @skyscanner/bpk-foundations-ios: 2.0.0 => 2.1.0
+    - Added missing raw tokens for text size, line height and letter spacing
+- @skyscanner/bpk-foundations-common: 2.0.0 => 2.1.0
+  - Added missing raw tokens for text size, line height and letter spacing
+
+
 # 2022-01-26
 
 **Breaking:**
