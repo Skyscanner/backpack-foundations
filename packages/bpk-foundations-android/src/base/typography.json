@@ -15,46 +15,6 @@
       "value": "{!FONT_FAMILY_HEAVY}",
       "type": "font",
       "category": "typesettings"
-    },
-    "TEXT_PRIMARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY}",
-      "type": "color",
-      "category": "text-colors"
-    },
-    "TEXT_SECONDARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY_TINT_02}",
-      "type": "color",
-      "category": "text-colors"
-    },
-    "TEXT_TERTIARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY_TINT_03}",
-      "type": "color",
-      "category": "text-colors"
-    },
-    "TEXT_QUATERNARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY_TINT_03}",
-      "type": "color",
-      "category": "text-colors"
-    },
-    "TEXT_PRIMARY_DARK_COLOR": {
-      "value": "{!WHITE}",
-      "type": "color",
-      "category": "text-colors"
-    },
-    "TEXT_SECONDARY_DARK_COLOR": {
-      "value": "{!SKY_GRAY_TINT_04}",
-      "type": "color",
-      "category": "text-colors"
-    },
-    "TEXT_TERTIARY_DARK_COLOR": {
-      "value": "{!BLACK_TINT_06}",
-      "type": "color",
-      "category": "text-colors"
-    },
-    "TEXT_QUATERNARY_DARK_COLOR": {
-      "value": "{!BLACK_TINT_06}",
-      "type": "color",
-      "category": "text-colors"
     }
   }
 }
