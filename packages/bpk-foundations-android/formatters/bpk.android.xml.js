@@ -51,10 +51,15 @@ const valueTemplate = (value, type) => {
   return formattedValue;
 };
 
-export const tokenTemplate = ({ name, value, type, category }) =>
+const originalTag = (originalValue, name) => {
+  const trimmedValue = originalValue.replace(/[{}!}]/g, '')
+  return (name != trimmedValue ? ` originalTag="${trimmedValue}"`: '');
+}
+
+export const tokenTemplate = ({ name, value, type, category, originalValue }) =>
   `  <${tagName(
     type,
-  )} name="${name.toUpperCase()}" category="${category}">${valueTemplate(
+  )} name="${name.toUpperCase()}" category="${category}"${originalTag(originalValue, name)}>${valueTemplate(
     value,
     type,
   )}</${tagName(type)}>`;
