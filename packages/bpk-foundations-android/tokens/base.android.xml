@@ -105,6 +105,10 @@
   <property name="FONT_FAMILY" category="typesettings">"sans-serif"</property>
   <property name="FONT_FAMILY_EMPHASIZE" category="typesettings">"sans-serif-medium"</property>
   <property name="FONT_FAMILY_HEAVY" category="typesettings">"sans-serif-black"</property>
+  <property name="FONT_SIZE_5XL" category="typesettings">64sp</property>
+  <property name="FONT_SIZE_6XL" category="typesettings">76sp</property>
+  <property name="FONT_SIZE_7XL" category="typesettings">96sp</property>
+  <property name="FONT_SIZE_8XL" category="typesettings">120sp</property>
   <property name="FONT_SIZE_BASE" category="typesettings">16sp</property>
   <property name="FONT_SIZE_CAPS" category="typesettings">10sp</property>
   <property name="FONT_SIZE_LG" category="typesettings">20sp</property>
@@ -113,13 +117,21 @@
   <property name="FONT_SIZE_XS" category="typesettings">12sp</property>
   <property name="FONT_SIZE_XXL" category="typesettings">32sp</property>
   <property name="FONT_SIZE_XXXL" category="typesettings">40sp</property>
+  <property name="FONT_SIZE_XXXXL" category="typesettings">48sp</property>
+  <property name="LETTER_SPACING_TIGHT" category="letter-spacings">-0.02</property>
   <color name="LINE_DARK_COLOR" category="colors">#ff48484a</color>
+  <property name="LINE_HEIGHT_5XL" category="typesettings">64dp</property>
+  <property name="LINE_HEIGHT_6XL" category="typesettings">76dp</property>
+  <property name="LINE_HEIGHT_7XL" category="typesettings">96dp</property>
+  <property name="LINE_HEIGHT_8XL" category="typesettings">120dp</property>
   <property name="LINE_HEIGHT_BASE" category="typesettings">16dp</property>
   <property name="LINE_HEIGHT_LG" category="typesettings">20dp</property>
   <property name="LINE_HEIGHT_SM" category="typesettings">14dp</property>
   <property name="LINE_HEIGHT_XL" category="typesettings">24dp</property>
   <property name="LINE_HEIGHT_XS" category="typesettings">12dp</property>
   <property name="LINE_HEIGHT_XXL" category="typesettings">32dp</property>
+  <property name="LINE_HEIGHT_XXXL" category="typesettings">40dp</property>
+  <property name="LINE_HEIGHT_XXXXL" category="typesettings">48dp</property>
   <color name="LINE_LIGHT_COLOR" category="colors">#ffcdcdd7</color>
   <color name="PRIMARY_DARK_COLOR" category="colors">#ff6d9feb</color>
   <color name="PRIMARY_LIGHT_COLOR" category="colors">#ff0770e3</color>

@@ -900,6 +900,34 @@
       "originalValue": "{!FONT_FAMILY}",
       "name": "FONT_FAMILY"
     },
+    "FONT_SIZE_5XL": {
+      "value": "64",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_5XL}",
+      "name": "FONT_SIZE_5XL"
+    },
+    "FONT_SIZE_6XL": {
+      "value": "76",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_6XL}",
+      "name": "FONT_SIZE_6XL"
+    },
+    "FONT_SIZE_7XL": {
+      "value": "96",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_7XL}",
+      "name": "FONT_SIZE_7XL"
+    },
+    "FONT_SIZE_8XL": {
+      "value": "120",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_8XL}",
+      "name": "FONT_SIZE_8XL"
+    },
     "FONT_SIZE_BASE": {
       "value": "16",
       "type": "font-size",
@@ -956,6 +984,13 @@
       "originalValue": "{!FONT_SIZE_XXXL}",
       "name": "FONT_SIZE_XXXL"
     },
+    "FONT_SIZE_XXXXL": {
+      "value": "48",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_XXXXL}",
+      "name": "FONT_SIZE_XXXXL"
+    },
     "LETTER_SPACING_BASE": {
       "value": 0.12,
       "type": "legacy-letter-spacing",
@@ -983,6 +1018,13 @@
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_SM}",
       "name": "LETTER_SPACING_SM"
+    },
+    "LETTER_SPACING_TIGHT": {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "LETTER_SPACING_TIGHT"
     },
     "LETTER_SPACING_XL": {
       "value": null,
@@ -1018,6 +1060,34 @@
       "value": "#48484aff",
       "originalValue": "{!BLACK_TINT_04}",
       "name": "LINE_DARK_COLOR"
+    },
+    "LINE_HEIGHT_5XL": {
+      "value": "64",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_5XL}",
+      "name": "LINE_HEIGHT_5XL"
+    },
+    "LINE_HEIGHT_6XL": {
+      "value": "76",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_6XL}",
+      "name": "LINE_HEIGHT_6XL"
+    },
+    "LINE_HEIGHT_7XL": {
+      "value": "96",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_7XL}",
+      "name": "LINE_HEIGHT_7XL"
+    },
+    "LINE_HEIGHT_8XL": {
+      "value": "120",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_8XL}",
+      "name": "LINE_HEIGHT_8XL"
     },
     "LINE_HEIGHT_BASE": {
       "value": "16",
@@ -1060,6 +1130,20 @@
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",
       "name": "LINE_HEIGHT_XXL"
+    },
+    "LINE_HEIGHT_XXXL": {
+      "value": "40",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXL}",
+      "name": "LINE_HEIGHT_XXXL"
+    },
+    "LINE_HEIGHT_XXXXL": {
+      "value": "48",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "LINE_HEIGHT_XXXXL"
     },
     "LINE_LIGHT_COLOR": {
       "type": "color",
@@ -1821,6 +1905,10 @@
     "CORNER_RADIUS_SM",
     "CORNER_RADIUS_XS",
     "FONT_FAMILY",
+    "FONT_SIZE_5XL",
+    "FONT_SIZE_6XL",
+    "FONT_SIZE_7XL",
+    "FONT_SIZE_8XL",
     "FONT_SIZE_BASE",
     "FONT_SIZE_CAPS",
     "FONT_SIZE_LG",
@@ -1829,21 +1917,29 @@
     "FONT_SIZE_XS",
     "FONT_SIZE_XXL",
     "FONT_SIZE_XXXL",
+    "FONT_SIZE_XXXXL",
     "LETTER_SPACING_BASE",
     "LETTER_SPACING_CAPS",
     "LETTER_SPACING_LG",
     "LETTER_SPACING_SM",
+    "LETTER_SPACING_TIGHT",
     "LETTER_SPACING_XL",
     "LETTER_SPACING_XS",
     "LETTER_SPACING_XXL",
     "LETTER_SPACING_XXXL",
     "LINE_DARK_COLOR",
+    "LINE_HEIGHT_5XL",
+    "LINE_HEIGHT_6XL",
+    "LINE_HEIGHT_7XL",
+    "LINE_HEIGHT_8XL",
     "LINE_HEIGHT_BASE",
     "LINE_HEIGHT_LG",
     "LINE_HEIGHT_SM",
     "LINE_HEIGHT_XL",
     "LINE_HEIGHT_XS",
     "LINE_HEIGHT_XXL",
+    "LINE_HEIGHT_XXXL",
+    "LINE_HEIGHT_XXXXL",
     "LINE_LIGHT_COLOR",
     "PRIMARY_DARK_COLOR",
     "PRIMARY_LIGHT_COLOR",
