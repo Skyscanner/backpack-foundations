@@ -166,10 +166,10 @@
       "value": -0.02
     },
     "LINE_HEIGHT_5XL": {
-      "value": 64
+      "value": 72
     },
     "LINE_HEIGHT_6XL": {
-      "value": 76
+      "value": 84
     },
     "LINE_HEIGHT_7XL": {
       "value": 96
@@ -178,37 +178,37 @@
       "value": 120
     },
     "LINE_HEIGHT_BASE": {
-      "value": 16
+      "value": 24
     },
     "LINE_HEIGHT_BASE-TIGHT": {
-      "value": 16
+      "value": 20
     },
     "LINE_HEIGHT_LG": {
-      "value": 20
+      "value": 28
     },
     "LINE_HEIGHT_LG-TIGHT": {
-      "value": 20
+      "value": 24
     },
     "LINE_HEIGHT_SM": {
-      "value": 14
+      "value": 20
     },
     "LINE_HEIGHT_XL": {
-      "value": 24
-    },
-    "LINE_HEIGHT_XL-TIGHT": {
-      "value": 24
-    },
-    "LINE_HEIGHT_XS": {
-      "value": 12
-    },
-    "LINE_HEIGHT_XXL": {
       "value": 32
     },
-    "LINE_HEIGHT_XXXL": {
+    "LINE_HEIGHT_XL-TIGHT": {
+      "value": 28
+    },
+    "LINE_HEIGHT_XS": {
+      "value": 16
+    },
+    "LINE_HEIGHT_XXL": {
       "value": 40
     },
-    "LINE_HEIGHT_XXXXL": {
+    "LINE_HEIGHT_XXXL": {
       "value": 48
+    },
+    "LINE_HEIGHT_XXXXL": {
+      "value": 56
     },
     "MONTEVERDE": {
       "value": "#00a698"
@@ -1006,14 +1006,14 @@
       "name": "LINE_DARK_COLOR"
     },
     "LINE_HEIGHT_5XL": {
-      "value": "64",
+      "value": "72",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_5XL}",
       "name": "LINE_HEIGHT_5XL"
     },
     "LINE_HEIGHT_6XL": {
-      "value": "76",
+      "value": "84",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_6XL}",
@@ -1034,77 +1034,77 @@
       "name": "LINE_HEIGHT_8XL"
     },
     "LINE_HEIGHT_BASE": {
-      "value": "16",
+      "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_BASE}",
       "name": "LINE_HEIGHT_BASE"
     },
     "LINE_HEIGHT_BASE-TIGHT": {
-      "value": "16",
+      "value": "20",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
       "name": "LINE_HEIGHT_BASE-TIGHT"
     },
     "LINE_HEIGHT_LG": {
-      "value": "20",
+      "value": "28",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG}",
       "name": "LINE_HEIGHT_LG"
     },
     "LINE_HEIGHT_LG-TIGHT": {
-      "value": "20",
+      "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
       "name": "LINE_HEIGHT_LG-TIGHT"
     },
     "LINE_HEIGHT_SM": {
-      "value": "14",
+      "value": "20",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "LINE_HEIGHT_SM"
     },
     "LINE_HEIGHT_XL": {
-      "value": "24",
+      "value": "32",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL}",
       "name": "LINE_HEIGHT_XL"
     },
     "LINE_HEIGHT_XL-TIGHT": {
-      "value": "24",
+      "value": "28",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
       "name": "LINE_HEIGHT_XL-TIGHT"
     },
     "LINE_HEIGHT_XS": {
-      "value": "12",
+      "value": "16",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XS}",
       "name": "LINE_HEIGHT_XS"
     },
     "LINE_HEIGHT_XXL": {
-      "value": "32",
+      "value": "40",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",
       "name": "LINE_HEIGHT_XXL"
     },
     "LINE_HEIGHT_XXXL": {
-      "value": "40",
+      "value": "48",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXXL}",
       "name": "LINE_HEIGHT_XXXL"
     },
     "LINE_HEIGHT_XXXXL": {
-      "value": "48",
+      "value": "56",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXXXL}",
@@ -1201,6 +1201,13 @@
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_BASE-EMPHASIZED_FONT_WEIGHT"
     },
+    "TEXT_BASE-EMPHASIZED_LINE_HEIGHT": {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "name": "TEXT_BASE-EMPHASIZED_LINE_HEIGHT"
+    },
     "TEXT_BASE_FONT_SIZE": {
       "value": "16",
       "type": "font-size",
@@ -1214,6 +1221,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_BASE_FONT_WEIGHT"
+    },
+    "TEXT_BASE_LINE_HEIGHT": {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE}",
+      "name": "TEXT_BASE_LINE_HEIGHT"
     },
     "TEXT_BODY-DEFAULT_FONT_SIZE": {
       "value": "16",
@@ -1230,7 +1244,7 @@
       "name": "TEXT_BODY-DEFAULT_FONT_WEIGHT"
     },
     "TEXT_BODY-DEFAULT_LINE_HEIGHT": {
-      "value": "16",
+      "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_BASE}",
@@ -1251,7 +1265,7 @@
       "name": "TEXT_BODY-LONGFORM_FONT_WEIGHT"
     },
     "TEXT_BODY-LONGFORM_LINE_HEIGHT": {
-      "value": "20",
+      "value": "28",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG}",
@@ -1300,7 +1314,7 @@
       "name": "TEXT_CAPTION_FONT_WEIGHT"
     },
     "TEXT_CAPTION_LINE_HEIGHT": {
-      "value": "12",
+      "value": "16",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XS}",
@@ -1321,7 +1335,7 @@
       "name": "TEXT_FOOTNOTE_FONT_WEIGHT"
     },
     "TEXT_FOOTNOTE_LINE_HEIGHT": {
-      "value": "14",
+      "value": "20",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_SM}",
@@ -1342,7 +1356,7 @@
       "name": "TEXT_HEADING-1_FONT_WEIGHT"
     },
     "TEXT_HEADING-1_LINE_HEIGHT": {
-      "value": "40",
+      "value": "48",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXXL}",
@@ -1363,7 +1377,7 @@
       "name": "TEXT_HEADING-2_FONT_WEIGHT"
     },
     "TEXT_HEADING-2_LINE_HEIGHT": {
-      "value": "32",
+      "value": "40",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXL}",
@@ -1384,7 +1398,7 @@
       "name": "TEXT_HEADING-3_FONT_WEIGHT"
     },
     "TEXT_HEADING-3_LINE_HEIGHT": {
-      "value": "24",
+      "value": "28",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
@@ -1405,7 +1419,7 @@
       "name": "TEXT_HEADING-4_FONT_WEIGHT"
     },
     "TEXT_HEADING-4_LINE_HEIGHT": {
-      "value": "20",
+      "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
@@ -1426,7 +1440,7 @@
       "name": "TEXT_HEADING-5_FONT_WEIGHT"
     },
     "TEXT_HEADING-5_LINE_HEIGHT": {
-      "value": "16",
+      "value": "20",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
@@ -1510,7 +1524,7 @@
       "name": "TEXT_HERO-3_LETTER_SPACING"
     },
     "TEXT_HERO-3_LINE_HEIGHT": {
-      "value": "76",
+      "value": "84",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_6XL}",
@@ -1538,7 +1552,7 @@
       "name": "TEXT_HERO-4_LETTER_SPACING"
     },
     "TEXT_HERO-4_LINE_HEIGHT": {
-      "value": "64",
+      "value": "72",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_5XL}",
@@ -1566,7 +1580,7 @@
       "name": "TEXT_HERO-5_LETTER_SPACING"
     },
     "TEXT_HERO-5_LINE_HEIGHT": {
-      "value": "48",
+      "value": "56",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XXXXL}",
@@ -1587,7 +1601,7 @@
       "name": "TEXT_LABEL-1_FONT_WEIGHT"
     },
     "TEXT_LABEL-1_LINE_HEIGHT": {
-      "value": "16",
+      "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_BASE}",
@@ -1608,7 +1622,7 @@
       "name": "TEXT_LABEL-2_FONT_WEIGHT"
     },
     "TEXT_LABEL-2_LINE_HEIGHT": {
-      "value": "14",
+      "value": "20",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_SM}",
@@ -1628,6 +1642,13 @@
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_LG-EMPHASIZED_FONT_WEIGHT"
     },
+    "TEXT_LG-EMPHASIZED_LINE_HEIGHT": {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
+      "name": "TEXT_LG-EMPHASIZED_LINE_HEIGHT"
+    },
     "TEXT_LG_FONT_SIZE": {
       "value": "20",
       "type": "font-size",
@@ -1641,6 +1662,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_LG_FONT_WEIGHT"
+    },
+    "TEXT_LG_LINE_HEIGHT": {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG}",
+      "name": "TEXT_LG_LINE_HEIGHT"
     },
     "TEXT_PRIMARY_DARK_COLOR": {
       "value": "#ffffffff",
@@ -1698,6 +1726,13 @@
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_SM-EMPHASIZED_FONT_WEIGHT"
     },
+    "TEXT_SM-EMPHASIZED_LINE_HEIGHT": {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "TEXT_SM-EMPHASIZED_LINE_HEIGHT"
+    },
     "TEXT_SM_FONT_SIZE": {
       "value": "14",
       "type": "font-size",
@@ -1711,6 +1746,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_SM_FONT_WEIGHT"
+    },
+    "TEXT_SM_LINE_HEIGHT": {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "TEXT_SM_LINE_HEIGHT"
     },
     "TEXT_SUBHEADING_FONT_SIZE": {
       "value": "24",
@@ -1727,7 +1769,7 @@
       "name": "TEXT_SUBHEADING_FONT_WEIGHT"
     },
     "TEXT_SUBHEADING_LINE_HEIGHT": {
-      "value": "24",
+      "value": "32",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL}",
@@ -1761,6 +1803,13 @@
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_XL-EMPHASIZED_FONT_WEIGHT"
     },
+    "TEXT_XL-EMPHASIZED_LINE_HEIGHT": {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
+      "name": "TEXT_XL-EMPHASIZED_LINE_HEIGHT"
+    },
     "TEXT_XL-HEAVY_FONT_SIZE": {
       "value": "24",
       "type": "font-size",
@@ -1789,6 +1838,13 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_XL_FONT_WEIGHT"
     },
+    "TEXT_XL_LINE_HEIGHT": {
+      "value": "32",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XL}",
+      "name": "TEXT_XL_LINE_HEIGHT"
+    },
     "TEXT_XS-EMPHASIZED_FONT_SIZE": {
       "value": "12",
       "type": "font-size",
@@ -1802,6 +1858,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_XS-EMPHASIZED_FONT_WEIGHT"
+    },
+    "TEXT_XS-EMPHASIZED_LINE_HEIGHT": {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "TEXT_XS-EMPHASIZED_LINE_HEIGHT"
     },
     "TEXT_XS_FONT_SIZE": {
       "value": "12",
@@ -1817,6 +1880,13 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_XS_FONT_WEIGHT"
     },
+    "TEXT_XS_LINE_HEIGHT": {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "TEXT_XS_LINE_HEIGHT"
+    },
     "TEXT_XXL-EMPHASIZED_FONT_SIZE": {
       "value": "32",
       "type": "font-size",
@@ -1830,6 +1900,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_XXL-EMPHASIZED_FONT_WEIGHT"
+    },
+    "TEXT_XXL-EMPHASIZED_LINE_HEIGHT": {
+      "value": "40",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXL}",
+      "name": "TEXT_XXL-EMPHASIZED_LINE_HEIGHT"
     },
     "TEXT_XXL-HEAVY_FONT_SIZE": {
       "value": "32",
@@ -1872,6 +1949,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_XXXL-EMPHASIZED_FONT_WEIGHT"
+    },
+    "TEXT_XXXL-EMPHASIZED_LINE_HEIGHT": {
+      "value": "48",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXL}",
+      "name": "TEXT_XXXL-EMPHASIZED_LINE_HEIGHT"
     },
     "TEXT_XXXL-HEAVY_FONT_SIZE": {
       "value": "40",
@@ -2157,8 +2241,10 @@
     "SPACING_XXL",
     "TEXT_BASE-EMPHASIZED_FONT_SIZE",
     "TEXT_BASE-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_BASE-EMPHASIZED_LINE_HEIGHT",
     "TEXT_BASE_FONT_SIZE",
     "TEXT_BASE_FONT_WEIGHT",
+    "TEXT_BASE_LINE_HEIGHT",
     "TEXT_BODY-DEFAULT_FONT_SIZE",
     "TEXT_BODY-DEFAULT_FONT_WEIGHT",
     "TEXT_BODY-DEFAULT_LINE_HEIGHT",
@@ -2218,8 +2304,10 @@
     "TEXT_LABEL-2_LINE_HEIGHT",
     "TEXT_LG-EMPHASIZED_FONT_SIZE",
     "TEXT_LG-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_LG-EMPHASIZED_LINE_HEIGHT",
     "TEXT_LG_FONT_SIZE",
     "TEXT_LG_FONT_WEIGHT",
+    "TEXT_LG_LINE_HEIGHT",
     "TEXT_PRIMARY_DARK_COLOR",
     "TEXT_PRIMARY_LIGHT_COLOR",
     "TEXT_QUATERNARY_DARK_COLOR",
@@ -2228,8 +2316,10 @@
     "TEXT_SECONDARY_LIGHT_COLOR",
     "TEXT_SM-EMPHASIZED_FONT_SIZE",
     "TEXT_SM-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_SM-EMPHASIZED_LINE_HEIGHT",
     "TEXT_SM_FONT_SIZE",
     "TEXT_SM_FONT_WEIGHT",
+    "TEXT_SM_LINE_HEIGHT",
     "TEXT_SUBHEADING_FONT_SIZE",
     "TEXT_SUBHEADING_FONT_WEIGHT",
     "TEXT_SUBHEADING_LINE_HEIGHT",
@@ -2237,22 +2327,28 @@
     "TEXT_TERTIARY_LIGHT_COLOR",
     "TEXT_XL-EMPHASIZED_FONT_SIZE",
     "TEXT_XL-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_XL-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XL-HEAVY_FONT_SIZE",
     "TEXT_XL-HEAVY_FONT_WEIGHT",
     "TEXT_XL_FONT_SIZE",
     "TEXT_XL_FONT_WEIGHT",
+    "TEXT_XL_LINE_HEIGHT",
     "TEXT_XS-EMPHASIZED_FONT_SIZE",
     "TEXT_XS-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_XS-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XS_FONT_SIZE",
     "TEXT_XS_FONT_WEIGHT",
+    "TEXT_XS_LINE_HEIGHT",
     "TEXT_XXL-EMPHASIZED_FONT_SIZE",
     "TEXT_XXL-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_XXL-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XXL-HEAVY_FONT_SIZE",
     "TEXT_XXL-HEAVY_FONT_WEIGHT",
     "TEXT_XXL_FONT_SIZE",
     "TEXT_XXL_FONT_WEIGHT",
     "TEXT_XXXL-EMPHASIZED_FONT_SIZE",
     "TEXT_XXXL-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_XXXL-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XXXL-HEAVY_FONT_SIZE",
     "TEXT_XXXL-HEAVY_FONT_WEIGHT",
     "TEXT_XXXL_FONT_SIZE",
