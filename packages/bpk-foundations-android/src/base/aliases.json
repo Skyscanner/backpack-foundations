@@ -2,6 +2,7 @@
   "imports": [
     "@skyscanner/bpk-foundations-common/app/borders.json",
     "@skyscanner/bpk-foundations-common/app/carousel.json",
+    "@skyscanner/bpk-foundations-common/app/colors.json",
     "@skyscanner/bpk-foundations-common/app/spacing.json",
     "@skyscanner/bpk-foundations-common/app/typography.json",
     "@skyscanner/bpk-foundations-common/base/animations.json",

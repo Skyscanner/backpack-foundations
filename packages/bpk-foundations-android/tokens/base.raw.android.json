@@ -1166,6 +1166,20 @@
       "originalValue": "{!SPACING_XXL}",
       "name": "SPACING_XXL"
     },
+    "TEXT_BASE-EMPHASIZED_FONT_SIZE": {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "TEXT_BASE-EMPHASIZED_FONT_SIZE"
+    },
+    "TEXT_BASE-EMPHASIZED_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_BASE-EMPHASIZED_FONT_WEIGHT"
+    },
     "TEXT_BASE_FONT_SIZE": {
       "value": "16",
       "type": "font-size",
@@ -1180,6 +1194,20 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_BASE_FONT_WEIGHT"
     },
+    "TEXT_CAPS-EMPHASIZED_FONT_SIZE": {
+      "value": "10",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_CAPS}",
+      "name": "TEXT_CAPS-EMPHASIZED_FONT_SIZE"
+    },
+    "TEXT_CAPS-EMPHASIZED_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_CAPS-EMPHASIZED_FONT_WEIGHT"
+    },
     "TEXT_CAPS_FONT_SIZE": {
       "value": "10",
       "type": "font-size",
@@ -1193,13 +1221,6 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_CAPS_FONT_WEIGHT"
-    },
-    "TEXT_EMPHASIZED_FONT_WEIGHT": {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "TEXT_EMPHASIZED_FONT_WEIGHT"
     },
     "TEXT_HERO-1_FONT_SIZE": {
       "value": "120",
@@ -1341,6 +1362,20 @@
       "originalValue": "{!LINE_HEIGHT_XXXXL}",
       "name": "TEXT_HERO-5_LINE_HEIGHT"
     },
+    "TEXT_LG-EMPHASIZED_FONT_SIZE": {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "TEXT_LG-EMPHASIZED_FONT_SIZE"
+    },
+    "TEXT_LG-EMPHASIZED_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_LG-EMPHASIZED_FONT_WEIGHT"
+    },
     "TEXT_LG_FONT_SIZE": {
       "value": "20",
       "type": "font-size",
@@ -1397,6 +1432,20 @@
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "TEXT_SECONDARY_LIGHT_COLOR"
     },
+    "TEXT_SM-EMPHASIZED_FONT_SIZE": {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "TEXT_SM-EMPHASIZED_FONT_SIZE"
+    },
+    "TEXT_SM-EMPHASIZED_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_SM-EMPHASIZED_FONT_WEIGHT"
+    },
     "TEXT_SM_FONT_SIZE": {
       "value": "14",
       "type": "font-size",
@@ -1425,6 +1474,34 @@
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_TERTIARY_LIGHT_COLOR"
     },
+    "TEXT_XL-EMPHASIZED_FONT_SIZE": {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "TEXT_XL-EMPHASIZED_FONT_SIZE"
+    },
+    "TEXT_XL-EMPHASIZED_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_XL-EMPHASIZED_FONT_WEIGHT"
+    },
+    "TEXT_XL-HEAVY_FONT_SIZE": {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "TEXT_XL-HEAVY_FONT_SIZE"
+    },
+    "TEXT_XL-HEAVY_FONT_WEIGHT": {
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "TEXT_XL-HEAVY_FONT_WEIGHT"
+    },
     "TEXT_XL_FONT_SIZE": {
       "value": "24",
       "type": "font-size",
@@ -1438,6 +1515,20 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_XL_FONT_WEIGHT"
+    },
+    "TEXT_XS-EMPHASIZED_FONT_SIZE": {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "TEXT_XS-EMPHASIZED_FONT_SIZE"
+    },
+    "TEXT_XS-EMPHASIZED_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_XS-EMPHASIZED_FONT_WEIGHT"
     },
     "TEXT_XS_FONT_SIZE": {
       "value": "12",
@@ -1453,6 +1544,34 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_XS_FONT_WEIGHT"
     },
+    "TEXT_XXL-EMPHASIZED_FONT_SIZE": {
+      "value": "32",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "TEXT_XXL-EMPHASIZED_FONT_SIZE"
+    },
+    "TEXT_XXL-EMPHASIZED_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_XXL-EMPHASIZED_FONT_WEIGHT"
+    },
+    "TEXT_XXL-HEAVY_FONT_SIZE": {
+      "value": "32",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "TEXT_XXL-HEAVY_FONT_SIZE"
+    },
+    "TEXT_XXL-HEAVY_FONT_WEIGHT": {
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "TEXT_XXL-HEAVY_FONT_WEIGHT"
+    },
     "TEXT_XXL_FONT_SIZE": {
       "value": "32",
       "type": "font-size",
@@ -1466,6 +1585,34 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_XXL_FONT_WEIGHT"
+    },
+    "TEXT_XXXL-EMPHASIZED_FONT_SIZE": {
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "TEXT_XXXL-EMPHASIZED_FONT_SIZE"
+    },
+    "TEXT_XXXL-EMPHASIZED_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_XXXL-EMPHASIZED_FONT_WEIGHT"
+    },
+    "TEXT_XXXL-HEAVY_FONT_SIZE": {
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "TEXT_XXXL-HEAVY_FONT_SIZE"
+    },
+    "TEXT_XXXL-HEAVY_FONT_WEIGHT": {
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "TEXT_XXXL-HEAVY_FONT_WEIGHT"
     },
     "TEXT_XXXL_FONT_SIZE": {
       "value": "40",
@@ -1732,11 +1879,14 @@
     "SPACING_SM",
     "SPACING_XL",
     "SPACING_XXL",
+    "TEXT_BASE-EMPHASIZED_FONT_SIZE",
+    "TEXT_BASE-EMPHASIZED_FONT_WEIGHT",
     "TEXT_BASE_FONT_SIZE",
     "TEXT_BASE_FONT_WEIGHT",
+    "TEXT_CAPS-EMPHASIZED_FONT_SIZE",
+    "TEXT_CAPS-EMPHASIZED_FONT_WEIGHT",
     "TEXT_CAPS_FONT_SIZE",
     "TEXT_CAPS_FONT_WEIGHT",
-    "TEXT_EMPHASIZED_FONT_WEIGHT",
     "TEXT_HERO-1_FONT_SIZE",
     "TEXT_HERO-1_FONT_WEIGHT",
     "TEXT_HERO-1_LETTER_SPACING",
@@ -1757,6 +1907,8 @@
     "TEXT_HERO-5_FONT_WEIGHT",
     "TEXT_HERO-5_LETTER_SPACING",
     "TEXT_HERO-5_LINE_HEIGHT",
+    "TEXT_LG-EMPHASIZED_FONT_SIZE",
+    "TEXT_LG-EMPHASIZED_FONT_WEIGHT",
     "TEXT_LG_FONT_SIZE",
     "TEXT_LG_FONT_WEIGHT",
     "TEXT_PRIMARY_DARK_COLOR",
@@ -1765,16 +1917,32 @@
     "TEXT_QUATERNARY_LIGHT_COLOR",
     "TEXT_SECONDARY_DARK_COLOR",
     "TEXT_SECONDARY_LIGHT_COLOR",
+    "TEXT_SM-EMPHASIZED_FONT_SIZE",
+    "TEXT_SM-EMPHASIZED_FONT_WEIGHT",
     "TEXT_SM_FONT_SIZE",
     "TEXT_SM_FONT_WEIGHT",
     "TEXT_TERTIARY_DARK_COLOR",
     "TEXT_TERTIARY_LIGHT_COLOR",
+    "TEXT_XL-EMPHASIZED_FONT_SIZE",
+    "TEXT_XL-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_XL-HEAVY_FONT_SIZE",
+    "TEXT_XL-HEAVY_FONT_WEIGHT",
     "TEXT_XL_FONT_SIZE",
     "TEXT_XL_FONT_WEIGHT",
+    "TEXT_XS-EMPHASIZED_FONT_SIZE",
+    "TEXT_XS-EMPHASIZED_FONT_WEIGHT",
     "TEXT_XS_FONT_SIZE",
     "TEXT_XS_FONT_WEIGHT",
+    "TEXT_XXL-EMPHASIZED_FONT_SIZE",
+    "TEXT_XXL-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_XXL-HEAVY_FONT_SIZE",
+    "TEXT_XXL-HEAVY_FONT_WEIGHT",
     "TEXT_XXL_FONT_SIZE",
     "TEXT_XXL_FONT_WEIGHT",
+    "TEXT_XXXL-EMPHASIZED_FONT_SIZE",
+    "TEXT_XXXL-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_XXXL-HEAVY_FONT_SIZE",
+    "TEXT_XXXL-HEAVY_FONT_WEIGHT",
     "TEXT_XXXL_FONT_SIZE",
     "TEXT_XXXL_FONT_WEIGHT",
     "BACKGROUND_ALTERNATIVE_COLOR",
