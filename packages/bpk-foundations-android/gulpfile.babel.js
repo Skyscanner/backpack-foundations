@@ -30,14 +30,9 @@ import jsonLint from 'gulp-jsonlint';
 import transformDarkValues from '../../utils/transformDarkValues';
 
 import bpkRawJson, { bpkRawJsonAndroid } from './formatters/bpk.raw.json';
-import bpkAndroid from './formatters/bpk.android.xml';
 
 const RAW_FORMATS = {
   android: ['raw.android.json'],
-};
-
-const PLATFORM_FORMATS = {
-  android: ['android.xml'],
 };
 
 const createTokenSets = (formats) =>
@@ -52,11 +47,9 @@ const createTokenSets = (formats) =>
   );
 
 const rawTokenSets = createTokenSets(RAW_FORMATS);
-const platformTokenSets = createTokenSets(PLATFORM_FORMATS);
 
 theo.registerFormat('raw.json', bpkRawJson);
 theo.registerFormat('raw.android.json', bpkRawJsonAndroid);
-theo.registerFormat('android.xml', bpkAndroid);
 
 theo.registerTransform('android', ['color/hex8rgba']);
 
@@ -107,15 +100,9 @@ const createTokens = (tokenSets, done) => {
 };
 
 const createRawTokens = (done) => createTokens(rawTokenSets, done);
-const createPlatformTokens = (done) => createTokens(platformTokenSets, done);
 
 gulp.task('tokens:raw', createRawTokens);
 
-gulp.task('tokens:platform', createPlatformTokens);
-
-gulp.task(
-  'tokens',
-  gulp.series(gulp.parallel('clean', 'lint'), 'tokens:raw', 'tokens:platform'),
-);
+gulp.task('tokens', gulp.series(gulp.parallel('clean', 'lint'), 'tokens:raw'));
 
 gulp.task('default', gulp.series('tokens'));
