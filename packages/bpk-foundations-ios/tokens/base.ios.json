@@ -1342,20 +1342,6 @@
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XL}",
-      "name": "textXlFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textXlFontWeight"
-    },
-    {
-      "value": "24",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XL}",
       "name": "textXlHeavyFontSize"
     },
     {
@@ -1364,6 +1350,20 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "textXlHeavyFontWeight"
+    },
+    {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "textXlFontSize"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textXlFontWeight"
     },
     {
       "value": null,
@@ -1426,20 +1426,6 @@
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXL}",
-      "name": "textXxlFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textXxlFontWeight"
-    },
-    {
-      "value": "32",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XXL}",
       "name": "textXxlHeavyFontSize"
     },
     {
@@ -1448,6 +1434,20 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "textXxlHeavyFontWeight"
+    },
+    {
+      "value": "32",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "textXxlFontSize"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textXxlFontWeight"
     },
     {
       "value": null,
@@ -1475,20 +1475,6 @@
       "type": "font-size",
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_XXXL}",
-      "name": "textXxxlFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textXxxlFontWeight"
-    },
-    {
-      "value": "40",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XXXL}",
       "name": "textXxxlHeavyFontSize"
     },
     {
@@ -1497,6 +1483,20 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "textXxxlHeavyFontWeight"
+    },
+    {
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "textXxxlFontSize"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textXxxlFontWeight"
     },
     {
       "value": null,
