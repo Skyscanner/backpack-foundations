@@ -5,6 +5,7 @@
     "@skyscanner/bpk-foundations-common/app/colors.json",
     "@skyscanner/bpk-foundations-common/app/spacing.json",
     "@skyscanner/bpk-foundations-common/app/typography.json",
+    "@skyscanner/bpk-foundations-common/app/legacy-typography.json",
     "@skyscanner/bpk-foundations-common/base/animations.json",
     "@skyscanner/bpk-foundations-common/base/colors.json"
   ],
