@@ -119,13 +119,28 @@
       "type": "size",
       "category": "typesettings"
     },
+    "LINE_HEIGHT_BASE-TIGHT": {
+      "value": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
     "LINE_HEIGHT_LG": {
       "value": "{!LINE_HEIGHT_LG}",
       "type": "size",
       "category": "typesettings"
     },
+    "LINE_HEIGHT_LG-TIGHT": {
+      "value": "{!LINE_HEIGHT_LG-TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
     "LINE_HEIGHT_XL": {
       "value": "{!LINE_HEIGHT_XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "LINE_HEIGHT_XL-TIGHT": {
+      "value": "{!LINE_HEIGHT_XL-TIGHT}",
       "type": "size",
       "category": "typesettings"
     },
@@ -353,6 +368,186 @@
       "value": "{!FONT_WEIGHT_BLACK}",
       "type": "string",
       "category": "font-weights"
+    },
+    "TEXT_CAPTION_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XS}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_CAPTION_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_CAPTION_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XS}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_FOOTNOTE_FONT_SIZE": {
+      "value": "{!FONT_SIZE_SM}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_FOOTNOTE_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_FOOTNOTE_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_SM}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_LABEL-2_FONT_SIZE": {
+      "value": "{!FONT_SIZE_SM}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_LABEL-2_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_LABEL-2_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_SM}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_LABEL-1_FONT_SIZE": {
+      "value": "{!FONT_SIZE_BASE}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_LABEL-1_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_LABEL-1_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_BASE}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_BODY-DEFAULT_FONT_SIZE": {
+      "value": "{!FONT_SIZE_BASE}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_BODY-DEFAULT_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_BODY-DEFAULT_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_BASE}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_HEADING-5_FONT_SIZE": {
+      "value": "{!FONT_SIZE_BASE}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_HEADING-5_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_HEADING-5_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_BODY-LONGFORM_FONT_SIZE": {
+      "value": "{!FONT_SIZE_LG}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_BODY-LONGFORM_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_BODY-LONGFORM_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_LG}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_HEADING-4_FONT_SIZE": {
+      "value": "{!FONT_SIZE_LG}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_HEADING-4_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_HEADING-4_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_LG-TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_SUBHEADING_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XL}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_SUBHEADING_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_SUBHEADING_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_HEADING-3_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XL}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_HEADING-3_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_HEADING-3_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XL-TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_HEADING-2_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XXL}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_HEADING-2_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_HEADING-2_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XXL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_HEADING-1_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XXXL}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_HEADING-1_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_HEADING-1_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XXXL}",
+      "type": "size",
+      "category": "typesettings"
     },
     "TEXT_HERO-5_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXXXL}",
