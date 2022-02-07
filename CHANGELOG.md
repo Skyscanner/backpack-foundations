@@ -1,3 +1,17 @@
+# 2022-02-07
+
+**Fixed:**
+
+- @skyscanner/bpk-foundations-common: 2.2.0 => 2.2.1
+  - Add deprecation flag to old typography style tokens for apps
+
+- @skyscanner/bpk-foundations-ios: 2.2.0 => 2.2.1
+  - Add deprecation flag to old typography style tokens
+
+- @skyscanner/bpk-foundations-android: 3.2.0 => 3.2.1
+  - Add deprecation flag to old typography style tokens
+
+
 # 2022-01-28
 
 **Added:**
