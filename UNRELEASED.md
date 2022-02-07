@@ -1,16 +1,10 @@
-**Added:**
-- @skyscanner/bpk-foundations-commons:
-  - Added new style tokens
-  - Updated line heights
+**Fixed:**
+
+- @skyscanner/bpk-foundations-common:
+  - Add deprecation flag to old typography style tokens for apps
 
 - @skyscanner/bpk-foundations-ios:
-  - Added new style tokens
-  - Updated line heights
+  - Add deprecation flag to old typography style tokens
 
 - @skyscanner/bpk-foundations-android:
-  - Added new style tokens
-  - Updated line heights
-
-**Fixed:**
-- @skyscanner/bpk-foundations-android:
-  - Remove unused xml token file to avoid confusion
+  - Add deprecation flag to old typography style tokens

@@ -1,4 +1,24 @@
+# 2022-01-28
+
+**Added:**
+- @skyscanner/bpk-foundations-commons: 2.1.0 => 2.2.0
+  - Added new style tokens
+  - Updated line heights
+
+- @skyscanner/bpk-foundations-ios: 2.1.0 => 2.2.0
+  - Added new style tokens
+  - Updated line heights
+
+- @skyscanner/bpk-foundations-android: 3.1.1 => 3.2.0
+  - Added new style tokens
+  - Updated line heights
+
+**Fixed:**
+- @skyscanner/bpk-foundations-android: 3.1.1 => 3.2.0
+  - Remove unused xml token file to avoid confusion
+
 # 2022-01-27
+
 **Fixed:**
 - @skyscanner/bpk-foundations-android: 3.1.0 => 3.1.1
   - Included originalTag where needed in xml version for tokens

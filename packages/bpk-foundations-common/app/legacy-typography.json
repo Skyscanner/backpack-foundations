@@ -8,257 +8,308 @@
     "FONT_SIZE_CAPS": {
       "value": "{!FONT_SIZE_CAPS}",
       "type": "font-size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_CAPS_FONT_SIZE": {
       "value": "{!FONT_SIZE_CAPS}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_CAPS_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_CAPS-EMPHASIZED_FONT_SIZE": {
       "value": "{!FONT_SIZE_CAPS}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_CAPS-EMPHASIZED_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XS_FONT_SIZE": {
       "value": "{!FONT_SIZE_XS}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XS_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_XS}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_XS_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XS-EMPHASIZED_FONT_SIZE": {
       "value": "{!FONT_SIZE_XS}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XS-EMPHASIZED_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_XS}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_XS-EMPHASIZED_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_SM_FONT_SIZE": {
       "value": "{!FONT_SIZE_SM}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_SM_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_SM}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_SM_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_SM-EMPHASIZED_FONT_SIZE": {
       "value": "{!FONT_SIZE_SM}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_SM-EMPHASIZED_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_SM}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_SM-EMPHASIZED_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_BASE_FONT_SIZE": {
       "value": "{!FONT_SIZE_BASE}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_BASE_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_BASE}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_BASE_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_BASE-EMPHASIZED_FONT_SIZE": {
       "value": "{!FONT_SIZE_BASE}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_BASE-EMPHASIZED_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_BASE-TIGHT}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_BASE-EMPHASIZED_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_LG_FONT_SIZE": {
       "value": "{!FONT_SIZE_LG}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_LG_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_LG}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_LG_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_LG-EMPHASIZED_FONT_SIZE": {
       "value": "{!FONT_SIZE_LG}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_LG-EMPHASIZED_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_LG-TIGHT}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_LG-EMPHASIZED_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XL_FONT_SIZE": {
       "value": "{!FONT_SIZE_XL}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XL_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_XL}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_XL_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XL-EMPHASIZED_FONT_SIZE": {
       "value": "{!FONT_SIZE_XL}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XL-EMPHASIZED_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_XL-TIGHT}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_XL-EMPHASIZED_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XL-HEAVY_FONT_SIZE": {
       "value": "{!FONT_SIZE_XL}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XL-HEAVY_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BLACK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XXL_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXL}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XXL_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XXL-EMPHASIZED_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXL}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XXL-EMPHASIZED_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_XXL}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_XXL-EMPHASIZED_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XXL-HEAVY_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXL}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XXL-HEAVY_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BLACK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XXXL_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXXL}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XXXL_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOOK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XXXL-EMPHASIZED_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXXL}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XXXL-EMPHASIZED_LINE_HEIGHT": {
       "value": "{!LINE_HEIGHT_XXXL}",
       "type": "size",
-      "category": "typesettings"
+      "category": "typesettings",
+      "deprecated": true
     },
     "TEXT_XXXL-EMPHASIZED_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     },
     "TEXT_XXXL-HEAVY_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXXL}",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "TEXT_XXXL-HEAVY_FONT_WEIGHT": {
       "value": "{!FONT_WEIGHT_BLACK}",
       "type": "string",
-      "category": "font-weights"
+      "category": "font-weights",
+      "deprecated": true
     }
   }
 }
