@@ -44,6 +44,8 @@
     "SPACING_LG_V2": "1.5rem",
     "SPACING_XL_V2": "2rem",
     "SPACING_XXL_V2": "2.5rem",
+    "SPACING_XXXL_V2": "4rem",
+    "SPACING_XXXXL_V2": "6rem",
     "SPACING_XS": ".375rem",
     "SPACING_SM": ".75rem",
     "SPACING_MD": "1.125rem",
