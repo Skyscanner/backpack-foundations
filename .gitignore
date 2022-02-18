@@ -6,5 +6,3 @@ npm-debug.*
 lerna-debug.log
 sassdoc-data.json
 yarn.lock
-
-bpk-tokens
