@@ -72,6 +72,14 @@
       "value": "@function bpk-spacing-xxl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_XXL_V2}; } @return {!SPACING_XXL}; }",
       "type": "function"
     },
+    "SPACING_FUNCTION_XXXL": {
+      "value": "@function bpk-spacing-xxxl() { @return {!SPACING_XXXL_V2}; }",
+      "type": "function"
+    },
+    "SPACING_FUNCTION_XXXXL": {
+      "value": "@function bpk-spacing-xxxxl() { @return {!SPACING_XXXXL_V2}; }",
+      "type": "function"
+    },
     "SPACING_XXL": {
       "value": "{!SPACING_XXL}"
     },

@@ -180,8 +180,14 @@
     "FONT_SIZE_LG": {
       "value": "1.25rem"
     },
+    "SPACING_XXXL_V2": {
+      "value": "4rem"
+    },
     "SPACING_XL_V2": {
       "value": "2rem"
+    },
+    "SPACING_XXXXL_V2": {
+      "value": "6rem"
     },
     "SPACING_XXL_V2": {
       "value": "2.5rem"
@@ -2372,6 +2378,13 @@
       "originalValue": "{!SPACING_LG} * 2",
       "name": "RATING_LG_HEIGHT"
     },
+    "SPACING_FUNCTION_XXXXL": {
+      "type": "function",
+      "category": "spacings",
+      "value": "@function bpk-spacing-xxxxl() { @return 6rem; }",
+      "originalValue": "@function bpk-spacing-xxxxl() { @return {!SPACING_XXXXL_V2}; }",
+      "name": "SPACING_FUNCTION_XXXXL"
+    },
     "SPACING_FUNCTION_XXL": {
       "type": "function",
       "category": "spacings",
@@ -2533,6 +2546,13 @@
       "value": "@function bpk-spacing-xl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2rem; } @return 2.250rem; }",
       "originalValue": "@function bpk-spacing-xl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_XL_V2}; } @return {!SPACING_XL}; }",
       "name": "SPACING_FUNCTION_XL"
+    },
+    "SPACING_FUNCTION_XXXL": {
+      "type": "function",
+      "category": "spacings",
+      "value": "@function bpk-spacing-xxxl() { @return 4rem; }",
+      "originalValue": "@function bpk-spacing-xxxl() { @return {!SPACING_XXXL_V2}; }",
+      "name": "SPACING_FUNCTION_XXXL"
     },
     "STATE_SELECTED_BACKGROUND_COLOR": {
       "type": "color",

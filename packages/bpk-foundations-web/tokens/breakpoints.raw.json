@@ -180,8 +180,14 @@
     "FONT_SIZE_LG": {
       "value": "1.25rem"
     },
+    "SPACING_XXXL_V2": {
+      "value": "4rem"
+    },
     "SPACING_XL_V2": {
       "value": "2rem"
+    },
+    "SPACING_XXXXL_V2": {
+      "value": "6rem"
     },
     "SPACING_XXL_V2": {
       "value": "2.5rem"

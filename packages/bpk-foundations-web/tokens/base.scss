@@ -764,6 +764,10 @@ $bpk-spacing-base-v-2: 1rem;
 /// @group spacings
 @function bpk-spacing-xxl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2.5rem; } @return 2.625rem; }
 /// @group spacings
+@function bpk-spacing-xxxl() { @return 4rem; }
+/// @group spacings
+@function bpk-spacing-xxxxl() { @return 6rem; }
+/// @group spacings
 $bpk-spacing-icon-text: .5rem;
 /// @group spacings
 $bpk-spacing-lg: 1.875rem;
