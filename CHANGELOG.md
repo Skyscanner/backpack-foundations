@@ -1,3 +1,12 @@
+# 2022-02-18
+
+**Added:**
+
+@skyscanner/bpk-foundations-web: 5.1.1 => 5.2.0
+  - Added two new spacing sizes:
+    - `bpk-spacing-xxxl()`
+    - `bpk-spacing-xxxxl()`
+
 # 2022-02-07
 
 **Fixed:**
