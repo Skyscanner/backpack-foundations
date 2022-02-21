@@ -1,6 +1,7 @@
 .DS_Store
 .idea
 .vscode
+/dist-sassdoc
 node_modules
 npm-debug.*
 lerna-debug.log

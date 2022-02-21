@@ -37,3 +37,19 @@ jobs:
         run: |
           nvm use
           npm test
+      
+      - name: Build Sass docs
+        if: github.ref == 'refs/heads/main'
+        run: |
+          nvm use
+          npm run sassdoc
+
+      - name: Deploy Sass docs to backpack.github.io, if on main branch
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
+          publish_dir: dist-sassdoc/
+          keep_files: false
+          external_repository: backpack/sassdoc
+          publish_branch: main
