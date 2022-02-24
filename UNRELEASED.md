@@ -5,7 +5,7 @@
         - `$bpk-text-{size}-font-size`, `$bpk-text-{size}-font-weight`, `$bpk-text-{size}-line-height`, `$bpk-text-{size}-letter-spacing`, where *size* is one of: `xs`, `sm`, `base`, `lg`, `xl`, `xxl`, `xxxl`, `xxxxl`, `xxxxxl`.
         - `$bpk-h-{size}-font-size`, `$bpk-h-{size}-font-weight`, `$bpk-h-{size}-line-height`, where *size* is one of: `1`, `2`, `3`, `4`, `5`, `6`.
         
-        To migrate, use one of the backpack mixins instead. See below for an example.
+        To migrate, use the BpkText component or a backpack mixin instead. See below for an example.
     
         ```scss
         /* Old */
