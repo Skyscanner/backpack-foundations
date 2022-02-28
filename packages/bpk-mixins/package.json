@@ -1,6 +1,6 @@
 {
   "name": "bpk-mixins",
-  "version": "26.1.0",
+  "version": "26.1.1",
   "description": "Sass mixins and variables for Backpack.",
   "license": "Apache-2.0",
   "repository": {
@@ -14,11 +14,10 @@
   },
   "gitHead": "5c156b97cb0ba5e75851d3c763334578714c895e",
   "dependencies": {
-    "@skyscanner/bpk-foundations-web": "^5.0.0",
-    "@skyscanner/bpk-svgs": "^14.0.19"
+    "@skyscanner/bpk-foundations-web": "^5.3.0",
+    "@skyscanner/bpk-svgs": "^14.1.3"
   },
   "peerDependencies": {
     "node-sass": "^4.12.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
-  },
-  "devDependencies": {}
+  }
 }
