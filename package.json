@@ -36,7 +36,7 @@
     "preinstall": "npx ensure-node-env",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\"",
     "release": "lerna bootstrap && npm run build && npm test && lerna publish",
-    "sassdoc": "sassdoc {packages/bpk-mixins/src/**/*,packages/bpk-svgs/dist/*,packages/bpk-foundations-web/tokens/base.default}.scss",
+    "sassdoc": "sassdoc {packages/bpk-mixins/src/**/*,packages/bpk-svgs/dist/*,packages/bpk-foundations-web/tokens/base.default}.scss -d dist-sassdoc -v --strict",
     "test": "npm run lint && npm run jest && npm run flow"
   },
   "jest": {
