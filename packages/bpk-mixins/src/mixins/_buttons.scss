@@ -34,11 +34,11 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-button {
   display: inline-block;
+  min-height: $bpk-button-height;
   margin: 0;
   padding: 0 bpk-spacing-base();
   border: 0;
   border-radius: $bpk-button-border-radius;
-  min-height: $bpk-button-height;
   background-image: linear-gradient(
     -180deg,
     $bpk-button-gradient-start-color 0%,
@@ -129,7 +129,7 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-button--large {
   min-height: $bpk-button-large-height;
-  
+
   @include bpk-heading-4;
 }
 
