@@ -35,9 +35,10 @@ $bpk-spacing-v2: true;
 @mixin bpk-button {
   display: inline-block;
   margin: 0;
-  padding: bpk-spacing-md() bpk-spacing-base();
+  padding: 0 bpk-spacing-base();
   border: 0;
   border-radius: $bpk-button-border-radius;
+  min-height: $bpk-button-height;
   background-image: linear-gradient(
     -180deg,
     $bpk-button-gradient-start-color 0%,
@@ -58,7 +59,6 @@ $bpk-spacing-v2: true;
   line-height: $bpk-button-line-height;
   text-align: $bpk-button-text-align;
   text-decoration: none;
-  box-shadow: $bpk-button-box-shadow;
   cursor: pointer;
   vertical-align: middle;
   user-select: none;
@@ -81,7 +81,6 @@ $bpk-spacing-v2: true;
 
   @include bpk-hover {
     background-image: $bpk-button-hover-background-image;
-    box-shadow: $bpk-button-hover-box-shadow;
 
     @include bpk-themeable-property(
       color,
@@ -97,7 +96,6 @@ $bpk-spacing-v2: true;
 
   &:active {
     background-image: $bpk-button-active-background-image;
-    box-shadow: $bpk-button-active-box-shadow;
 
     @include bpk-themeable-property(
       color,
@@ -115,7 +113,6 @@ $bpk-spacing-v2: true;
     background-color: $bpk-button-disabled-background-color;
     background-image: $bpk-button-disabled-background-image;
     color: $bpk-button-disabled-color;
-    box-shadow: $bpk-button-disabled-box-shadow;
     cursor: not-allowed;
   }
 }
@@ -131,10 +128,9 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--large {
-  padding: bpk-spacing-md() bpk-spacing-lg();
-  border-radius: $bpk-button-border-radius;
-  font-size: $bpk-button-large-font-size;
-  line-height: $bpk-button-large-line-height;
+  min-height: $bpk-button-large-height;
+  
+  @include bpk-heading-4;
 }
 
 /// Secondary button. Modifies the bpk-button mixin.
@@ -160,14 +156,9 @@ $bpk-spacing-v2: true;
     --bpk-button-secondary-background-color,
     $bpk-button-secondary-background-color
   );
-  @include bpk-border-lg($bpk-button-secondary-border-color);
-  @include bpk-border-lg(
-    var(--bpk-button-secondary-border-color, $bpk-button-secondary-border-color)
-  );
 
   @include bpk-hover {
     background-image: $bpk-button-secondary-hover-background-image;
-    box-shadow: $bpk-button-secondary-hover-box-shadow;
 
     @include bpk-themeable-property(
       color,
@@ -179,18 +170,10 @@ $bpk-spacing-v2: true;
       --bpk-button-secondary-hover-background-color,
       $bpk-button-secondary-hover-background-color
     );
-    @include bpk-border-lg($bpk-button-secondary-hover-border-color);
-    @include bpk-border-lg(
-      var(
-        --bpk-button-secondary-hover-border-color,
-        $bpk-button-secondary-hover-border-color
-      )
-    );
   }
 
   &:active {
     background-image: $bpk-button-secondary-active-background-image;
-    box-shadow: $bpk-button-secondary-active-box-shadow;
 
     @include bpk-themeable-property(
       color,
@@ -202,20 +185,12 @@ $bpk-spacing-v2: true;
       --bpk-button-secondary-active-background-color,
       $bpk-button-secondary-active-background-color
     );
-    @include bpk-border-xl($bpk-button-secondary-active-border-color);
-    @include bpk-border-xl(
-      var(
-        --bpk-button-secondary-active-border-color,
-        $bpk-button-secondary-active-border-color
-      )
-    );
   }
 
   &:disabled {
     background-color: $bpk-button-secondary-disabled-background-color;
     background-image: $bpk-button-secondary-disabled-background-image;
     color: $bpk-button-secondary-disabled-color;
-    box-shadow: $bpk-button-secondary-disabled-box-shadow;
   }
 }
 
@@ -242,17 +217,9 @@ $bpk-spacing-v2: true;
     --bpk-button-destructive-background-color,
     $bpk-button-destructive-background-color
   );
-  @include bpk-border-lg($bpk-button-destructive-border-color);
-  @include bpk-border-lg(
-    var(
-      --bpk-button-destructive-border-color,
-      $bpk-button-destructive-border-color
-    )
-  );
 
   @include bpk-hover {
     background-image: $bpk-button-destructive-hover-background-image;
-    box-shadow: $bpk-button-destructive-hover-box-shadow;
 
     @include bpk-themeable-property(
       color,
@@ -264,18 +231,9 @@ $bpk-spacing-v2: true;
       --bpk-button-destructive-hover-background-color,
       $bpk-button-destructive-hover-background-color
     );
-    @include bpk-border-lg($bpk-button-destructive-hover-border-color);
-    @include bpk-border-lg(
-      var(
-        --bpk-button-destructive-hover-border-color,
-        $bpk-button-destructive-hover-border-color
-      )
-    );
   }
 
   &:active {
-    box-shadow: $bpk-button-destructive-active-box-shadow;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-destructive-active-text-color,
@@ -286,20 +244,12 @@ $bpk-spacing-v2: true;
       --bpk-button-destructive-active-background-color,
       $bpk-button-destructive-active-background-color
     );
-    @include bpk-border-xl($bpk-button-destructive-active-border-color);
-    @include bpk-border-xl(
-      var(
-        --bpk-button-destructive-active-border-color,
-        $bpk-button-destructive-active-border-color
-      )
-    );
   }
 
   &:disabled {
     background-color: $bpk-button-destructive-disabled-background-color;
     background-image: $bpk-button-destructive-disabled-background-image;
     color: $bpk-button-destructive-disabled-color;
-    box-shadow: $bpk-button-destructive-disabled-box-shadow;
   }
 }
 
@@ -444,7 +394,7 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-button--icon-only {
   padding: bpk-spacing-md() ($bpk-one-pixel-rem * 11);
-  border-radius: 50%;
+  border-radius: $bpk-button-border-radius;
 }
 
 /// Large icon-only button. Modifies the bpk-button & bpk-button--large mixins.
@@ -461,7 +411,7 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-button--large-icon-only {
   padding: bpk-spacing-md() ($bpk-one-pixel-rem * 11);
-  border-radius: 50%;
+  border-radius: $bpk-button-border-radius;
 }
 
 /// Featured button. Modifies the bpk-button
@@ -504,7 +454,6 @@ $bpk-spacing-v2: true;
 
   @include bpk-hover {
     background-image: $bpk-button-featured-hover-background-image;
-    box-shadow: $bpk-button-featured-hover-box-shadow;
 
     @include bpk-themeable-property(
       color,
@@ -520,7 +469,6 @@ $bpk-spacing-v2: true;
 
   &:active {
     background-image: $bpk-button-featured-active-background-image;
-    box-shadow: $bpk-button-featured-active-box-shadow;
 
     @include bpk-themeable-property(
       color,
