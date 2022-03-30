@@ -345,47 +345,24 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--link {
-  padding-right: 0;
-  padding-left: 0;
-  border: 0;
+  $vertical-padding: $bpk-one-pixel-rem * 6;
+  $vertical-padding-large: $bpk-one-pixel-rem * 12;
+
   border-radius: 0;
   background: none; /* stylelint-disable-line order/order, order/properties-order */
-  background-color: transparent;
   font-weight: normal;
-  text-decoration: $bpk-link-text-decoration;
   box-shadow: none;
-  appearance: none;
 
-  @include bpk-themeable-property(color, --bpk-link-color, $bpk-link-color);
+  @include bpk-link;
+
+  padding: $vertical-padding 0; /* stylelint-disable-line order/order, order/properties-order */
 
   @include bpk-hover {
     background: none;
-    text-decoration: $bpk-link-hover-text-decoration;
-
-    @include bpk-themeable-property(
-      color,
-      --bpk-link-hover-color,
-      $bpk-link-hover-color
-    );
-  }
-
-  &:visited {
-    @include bpk-themeable-property(
-      color,
-      --bpk-link-visited-color,
-      $bpk-link-visited-color
-    );
   }
 
   &:active {
     background: none;
-    text-decoration: $bpk-link-hover-text-decoration;
-
-    @include bpk-themeable-property(
-      color,
-      --bpk-link-active-color,
-      $bpk-link-active-color
-    );
   }
 
   &:disabled {
@@ -393,21 +370,10 @@ $bpk-spacing-v2: true;
     color: $bpk-color-sky-gray-tint-04;
     text-decoration: none;
   }
-}
 
-/// Padded button. Modifies the bpk-button mixin.
-///
-/// @require {mixin} bpk-link
-///
-/// @example scss
-///   .selector {
-///     @include bpk-button();
-///     @include bpk-button--link();
-///     @include bpk-button--padded();
-///   }
-
-@mixin bpk-button--padded {
-  padding: bpk-spacing-md() bpk-spacing-base();
+  &-large {
+    padding: $vertical-padding-large 0;
+  }
 }
 
 /// Icon-only button. Modifies the bpk-button mixin.
