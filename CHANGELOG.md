@@ -1,3 +1,17 @@
+# 2022-03-30
+
+**Fixed:**
+
+- bpk-mixins: 27.0.0 => 28.0.0
+    - Fixed padding in icon-only buttons
+    - Restored vertical padding as it was causing the text inside anchor buttons to be misaligned due to the minimum height property which was previously added
+
+
+**Breaking:**
+- bpk-mixins: 27.0.0 => 28.0.0
+    - Introduced vertical padding in `bpk-button--link` mixin. If applying this mixin to a button, it will increase in height so needs to be check it does not alter layout
+    - `bpk-button--padded` mixin is deleted as link buttons come by default with padding
+
 # 2022-03-25
 
 **Breaking:**
