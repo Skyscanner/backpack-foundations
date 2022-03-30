@@ -36,7 +36,7 @@ $bpk-spacing-v2: true;
   display: inline-block;
   min-height: $bpk-button-height;
   margin: 0;
-  padding: 0 bpk-spacing-base();
+  padding: (6 * $bpk-one-pixel-rem) bpk-spacing-base();
   border: 0;
   border-radius: $bpk-button-border-radius;
   background-image: linear-gradient(
@@ -129,6 +129,7 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-button--large {
   min-height: $bpk-button-large-height;
+  padding: (12 * $bpk-one-pixel-rem) bpk-spacing-base();
 
   @include bpk-heading-4;
 }
@@ -344,13 +345,17 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--link {
-  padding: 0;
+  $vertical-padding: $bpk-one-pixel-rem * 6;
+  $vertical-padding-large: $bpk-one-pixel-rem * 12;
+
   border-radius: 0;
   background: none; /* stylelint-disable-line order/order, order/properties-order */
   font-weight: normal;
   box-shadow: none;
 
   @include bpk-link;
+
+  padding: $vertical-padding 0; /* stylelint-disable-line order/order, order/properties-order */
 
   @include bpk-hover {
     background: none;
@@ -365,21 +370,10 @@ $bpk-spacing-v2: true;
     color: $bpk-color-sky-gray-tint-04;
     text-decoration: none;
   }
-}
 
-/// Padded button. Modifies the bpk-button mixin.
-///
-/// @require {mixin} bpk-link
-///
-/// @example scss
-///   .selector {
-///     @include bpk-button();
-///     @include bpk-button--link();
-///     @include bpk-button--padded();
-///   }
-
-@mixin bpk-button--padded {
-  padding: bpk-spacing-md() bpk-spacing-base();
+  &-large {
+    padding: $vertical-padding-large 0;
+  }
 }
 
 /// Icon-only button. Modifies the bpk-button mixin.
@@ -393,7 +387,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--icon-only {
-  padding: bpk-spacing-md() ($bpk-one-pixel-rem * 11);
+  $horizontal-padding: $bpk-one-pixel-rem * 9; // 9px to add up to 36px width (like the height) using 18px icons
+
+  padding-right: $horizontal-padding;
+  padding-left: $horizontal-padding;
   border-radius: $bpk-button-border-radius;
 }
 
@@ -410,7 +407,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--large-icon-only {
-  padding: bpk-spacing-md() ($bpk-one-pixel-rem * 11);
+  $horizontal-padding: $bpk-one-pixel-rem * 12; // 12px to add up to 48px width (like the height) using 24px icons
+
+  padding-right: $horizontal-padding;
+  padding-left: $horizontal-padding;
   border-radius: $bpk-button-border-radius;
 }
 
