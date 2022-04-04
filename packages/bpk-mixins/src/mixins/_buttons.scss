@@ -134,6 +134,128 @@ $bpk-spacing-v2: true;
   @include bpk-heading-4;
 }
 
+/// PrimaryOnDark button. Modifies the bpk-button mixin.
+///
+/// @require {mixin} bpk-button
+///
+/// @example scss
+///   .selector {
+///     @include bpk-button();
+///     @include bpk-button--primary-on-dark();
+///   }
+
+@mixin bpk-button--primary-on-dark {
+  background-image: $bpk-button-primary-on-dark-background-image;
+
+  @include bpk-themeable-property(
+    color,
+    --bpk-button-primary-on-dark-text-color,
+    $bpk-button-primary-on-dark-color
+  );
+  @include bpk-themeable-property(
+    background-color,
+    --bpk-button-primary-on-dark-background-color,
+    $bpk-button-primary-on-dark-background-color
+  );
+
+  @include bpk-hover {
+    background-image: $bpk-button-primary-on-dark-hover-background-image;
+
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-primary-on-dark-hover-text-color,
+      $bpk-button-primary-on-dark-hover-color
+    );
+    @include bpk-themeable-property(
+      background-color,
+      --bpk-button-primary-on-dark-hover-background-color,
+      $bpk-button-primary-on-dark-hover-background-color
+    );
+  }
+
+  &:active {
+    background-image: $bpk-button-primary-on-dark-active-background-image;
+
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-primary-on-dark-active-text-color,
+      $bpk-button-primary-on-dark-active-color
+    );
+    @include bpk-themeable-property(
+      background-color,
+      --bpk-button-primary-on-dark-active-background-color,
+      $bpk-button-primary-on-dark-active-background-color
+    );
+  }
+
+  &:disabled {
+    background-color: $bpk-button-primary-on-dark-disabled-background-color;
+    background-image: $bpk-button-primary-on-dark-disabled-background-image;
+    color: $bpk-button-primary-on-dark-disabled-color;
+  }
+}
+
+/// PrimaryOnLight button. Modifies the bpk-button mixin.
+///
+/// @require {mixin} bpk-button
+///
+/// @example scss
+///   .selector {
+///     @include bpk-button();
+///     @include bpk-button--primary-on-light();
+///   }
+
+@mixin bpk-button--primary-on-light {
+  background-image: $bpk-button-primary-on-light-background-image;
+
+  @include bpk-themeable-property(
+    color,
+    --bpk-button-primary-on-light-text-color,
+    $bpk-button-primary-on-light-color
+  );
+  @include bpk-themeable-property(
+    background-color,
+    --bpk-button-primary-on-light-background-color,
+    $bpk-button-primary-on-light-background-color
+  );
+
+  @include bpk-hover {
+    background-image: $bpk-button-primary-on-light-hover-background-image;
+
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-primary-on-light-hover-text-color,
+      $bpk-button-primary-on-light-hover-color
+    );
+    @include bpk-themeable-property(
+      background-color,
+      --bpk-button-primary-on-light-hover-background-color,
+      $bpk-button-primary-on-light-hover-background-color
+    );
+  }
+
+  &:active {
+    background-image: $bpk-button-primary-on-light-active-background-image;
+
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-primary-on-light-active-text-color,
+      $bpk-button-primary-on-light-active-color
+    );
+    @include bpk-themeable-property(
+      background-color,
+      --bpk-button-primary-on-light-active-background-color,
+      $bpk-button-primary-on-light-active-background-color
+    );
+  }
+
+  &:disabled {
+    background-color: $bpk-button-primary-on-light-disabled-background-color;
+    background-image: $bpk-button-primary-on-light-disabled-background-image;
+    color: $bpk-button-primary-on-light-disabled-color;
+  }
+}
+
 /// Secondary button. Modifies the bpk-button mixin.
 ///
 /// @require {mixin} bpk-button
@@ -264,6 +386,7 @@ $bpk-spacing-v2: true;
 ///     @include bpk-button();
 ///     @include bpk-button--outline();
 ///   }
+/// @deprecated Use bpk-button--primary-on-dark or bpk-button--primary-on-light instead.
 
 @mixin bpk-button--outline {
   background-color: $bpk-button-outline-background-color;

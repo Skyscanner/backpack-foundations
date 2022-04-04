@@ -140,6 +140,30 @@ export const buttonOutlineHoverBorderOpacity = "0.5";
 export const buttonPaddingX = "1.125rem";
 export const buttonPaddingXIconOnly = ".5625rem";
 export const buttonPaddingY = ".375rem";
+export const buttonPrimaryOnDarkActiveBackgroundColor = "rgb(205, 205, 215)";
+export const buttonPrimaryOnDarkActiveBackgroundImage = "none";
+export const buttonPrimaryOnDarkActiveColor = "rgb(17, 18, 54)";
+export const buttonPrimaryOnDarkBackgroundColor = "rgb(255, 255, 255)";
+export const buttonPrimaryOnDarkBackgroundImage = "none";
+export const buttonPrimaryOnDarkColor = "rgb(17, 18, 54)";
+export const buttonPrimaryOnDarkDisabledBackgroundColor = "rgb(221, 221, 229)";
+export const buttonPrimaryOnDarkDisabledBackgroundImage = "none";
+export const buttonPrimaryOnDarkDisabledColor = "rgb(178, 178, 191)";
+export const buttonPrimaryOnDarkHoverBackgroundColor = "rgb(221, 221, 229)";
+export const buttonPrimaryOnDarkHoverBackgroundImage = "none";
+export const buttonPrimaryOnDarkHoverColor = "rgb(17, 18, 54)";
+export const buttonPrimaryOnLightActiveBackgroundColor = "rgb(104, 105, 127)";
+export const buttonPrimaryOnLightActiveBackgroundImage = "none";
+export const buttonPrimaryOnLightActiveColor = "rgb(255, 255, 255)";
+export const buttonPrimaryOnLightBackgroundColor = "rgb(17, 18, 54)";
+export const buttonPrimaryOnLightBackgroundImage = "none";
+export const buttonPrimaryOnLightColor = "rgb(255, 255, 255)";
+export const buttonPrimaryOnLightDisabledBackgroundColor = "rgb(221, 221, 229)";
+export const buttonPrimaryOnLightDisabledBackgroundImage = "none";
+export const buttonPrimaryOnLightDisabledColor = "rgb(178, 178, 191)";
+export const buttonPrimaryOnLightHoverBackgroundColor = "rgb(68, 69, 96)";
+export const buttonPrimaryOnLightHoverBackgroundImage = "none";
+export const buttonPrimaryOnLightHoverColor = "rgb(255, 255, 255)";
 export const buttonSecondaryActiveBackgroundColor = "rgb(178, 178, 191)";
 export const buttonSecondaryActiveBackgroundImage = "none";
 export const buttonSecondaryActiveBorderColor = "rgb(8, 78, 178)";
@@ -554,6 +578,30 @@ buttonOutlineHoverBorderOpacity,
 buttonPaddingX,
 buttonPaddingXIconOnly,
 buttonPaddingY,
+buttonPrimaryOnDarkActiveBackgroundColor,
+buttonPrimaryOnDarkActiveBackgroundImage,
+buttonPrimaryOnDarkActiveColor,
+buttonPrimaryOnDarkBackgroundColor,
+buttonPrimaryOnDarkBackgroundImage,
+buttonPrimaryOnDarkColor,
+buttonPrimaryOnDarkDisabledBackgroundColor,
+buttonPrimaryOnDarkDisabledBackgroundImage,
+buttonPrimaryOnDarkDisabledColor,
+buttonPrimaryOnDarkHoverBackgroundColor,
+buttonPrimaryOnDarkHoverBackgroundImage,
+buttonPrimaryOnDarkHoverColor,
+buttonPrimaryOnLightActiveBackgroundColor,
+buttonPrimaryOnLightActiveBackgroundImage,
+buttonPrimaryOnLightActiveColor,
+buttonPrimaryOnLightBackgroundColor,
+buttonPrimaryOnLightBackgroundImage,
+buttonPrimaryOnLightColor,
+buttonPrimaryOnLightDisabledBackgroundColor,
+buttonPrimaryOnLightDisabledBackgroundImage,
+buttonPrimaryOnLightDisabledColor,
+buttonPrimaryOnLightHoverBackgroundColor,
+buttonPrimaryOnLightHoverBackgroundImage,
+buttonPrimaryOnLightHoverColor,
 buttonSecondaryActiveBackgroundColor,
 buttonSecondaryActiveBackgroundImage,
 buttonSecondaryActiveBorderColor,
