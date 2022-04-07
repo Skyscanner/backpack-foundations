@@ -588,6 +588,13 @@
       "originalValue": "none",
       "name": "BUTTON_DISABLED_BACKGROUND_IMAGE"
     },
+    "BUTTON_PRIMARY_ON_DARK_HOVER_BACKGROUND_IMAGE": {
+      "category": "buttons",
+      "value": "none",
+      "type": "background-image",
+      "originalValue": "none",
+      "name": "BUTTON_PRIMARY_ON_DARK_HOVER_BACKGROUND_IMAGE"
+    },
     "BUTTON_DESTRUCTIVE_HOVER_BOX_SHADOW": {
       "category": "buttons",
       "value": "0 0 0 2px #d1435b inset",
@@ -618,6 +625,13 @@
       "originalValue": "none",
       "name": "BUTTON_BOX_SHADOW"
     },
+    "BUTTON_PRIMARY_ON_LIGHT_HOVER_COLOR": {
+      "category": "buttons",
+      "value": "rgb(255, 255, 255)",
+      "type": "color",
+      "originalValue": "{!WHITE}",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_HOVER_COLOR"
+    },
     "BUTTON_SELECTED_ACTIVE_COLOR": {
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
@@ -636,6 +650,7 @@
       "category": "buttons",
       "value": "rgba(0, 0, 0, 0)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "transparent",
       "name": "BUTTON_OUTLINE_ACTIVE_BACKGROUND_COLOR"
     },
@@ -652,6 +667,13 @@
       "type": "color",
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "BUTTON_SECONDARY_ACTIVE_COLOR"
+    },
+    "BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_COLOR": {
+      "category": "buttons",
+      "value": "rgb(221, 221, 229)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY_TINT_06}",
+      "name": "BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_COLOR"
     },
     "BUTTON_SECONDARY_BACKGROUND_IMAGE": {
       "category": "buttons",
@@ -671,6 +693,7 @@
       "category": "buttons",
       "value": "none",
       "type": "background-image",
+      "deprecated": true,
       "originalValue": "none",
       "name": "BUTTON_OUTLINE_DISABLED_BACKGROUND_IMAGE"
     },
@@ -681,6 +704,13 @@
       "deprecated": true,
       "originalValue": "0 0 0 3px {!PANJIN} inset",
       "name": "BUTTON_DESTRUCTIVE_ACTIVE_BOX_SHADOW"
+    },
+    "BUTTON_PRIMARY_ON_LIGHT_COLOR": {
+      "category": "buttons",
+      "value": "rgb(255, 255, 255)",
+      "type": "color",
+      "originalValue": "{!WHITE}",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_COLOR"
     },
     "BUTTON_SELECTED_HOVER_BACKGROUND_IMAGE": {
       "category": "buttons",
@@ -703,6 +733,13 @@
       "originalValue": "{!MONTEVERDE}",
       "name": "BUTTON_GRADIENT_START_COLOR"
     },
+    "BUTTON_PRIMARY_ON_LIGHT_ACTIVE_BACKGROUND_IMAGE": {
+      "category": "buttons",
+      "value": "none",
+      "type": "background-image",
+      "originalValue": "none",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_ACTIVE_BACKGROUND_IMAGE"
+    },
     "BUTTON_HOVER_BOX_SHADOW": {
       "category": "buttons",
       "value": "none",
@@ -715,6 +752,7 @@
       "category": "buttons",
       "value": "0.5",
       "type": "number",
+      "deprecated": true,
       "originalValue": "0.5",
       "name": "BUTTON_OUTLINE_HOVER_BORDER_OPACITY"
     },
@@ -732,6 +770,13 @@
       "originalValue": "none",
       "name": "BUTTON_SECONDARY_HOVER_BACKGROUND_IMAGE"
     },
+    "BUTTON_PRIMARY_ON_DARK_BACKGROUND_COLOR": {
+      "category": "buttons",
+      "value": "rgb(255, 255, 255)",
+      "type": "color",
+      "originalValue": "{!WHITE}",
+      "name": "BUTTON_PRIMARY_ON_DARK_BACKGROUND_COLOR"
+    },
     "BUTTON_FEATURED_ACTIVE_BACKGROUND_COLOR": {
       "category": "buttons",
       "value": "rgb(4, 39, 89)",
@@ -746,10 +791,18 @@
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "BUTTON_DISABLED_BACKGROUND_COLOR"
     },
+    "BUTTON_PRIMARY_ON_DARK_HOVER_BACKGROUND_COLOR": {
+      "category": "buttons",
+      "value": "rgb(221, 221, 229)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY_TINT_06}",
+      "name": "BUTTON_PRIMARY_ON_DARK_HOVER_BACKGROUND_COLOR"
+    },
     "BUTTON_SECONDARY_BORDER_COLOR": {
       "category": "buttons",
       "value": "rgb(221, 221, 229)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "BUTTON_SECONDARY_BORDER_COLOR"
     },
@@ -767,6 +820,13 @@
       "deprecated": true,
       "originalValue": "none",
       "name": "BUTTON_FEATURED_ACTIVE_BOX_SHADOW"
+    },
+    "BUTTON_PRIMARY_ON_LIGHT_ACTIVE_COLOR": {
+      "category": "buttons",
+      "value": "rgb(255, 255, 255)",
+      "type": "color",
+      "originalValue": "{!WHITE}",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_ACTIVE_COLOR"
     },
     "BUTTON_FEATURED_DISABLED_BACKGROUND_IMAGE": {
       "category": "buttons",
@@ -789,10 +849,18 @@
       "originalValue": "{!SKY_BLUE}",
       "name": "BUTTON_SELECTED_BACKGROUND_COLOR"
     },
+    "BUTTON_PRIMARY_ON_LIGHT_BACKGROUND_IMAGE": {
+      "category": "buttons",
+      "value": "none",
+      "type": "background-image",
+      "originalValue": "none",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_BACKGROUND_IMAGE"
+    },
     "BUTTON_OUTLINE_DISABLED_COLOR": {
       "category": "buttons",
       "value": "rgb(178, 178, 191)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "BUTTON_OUTLINE_DISABLED_COLOR"
     },
@@ -829,6 +897,7 @@
       "category": "buttons",
       "value": "rgb(221, 221, 229)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "BUTTON_OUTLINE_DISABLED_BACKGROUND_COLOR"
     },
@@ -851,6 +920,7 @@
       "category": "buttons",
       "value": "rgb(7, 112, 227)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "BUTTON_SECONDARY_HOVER_BORDER_COLOR"
     },
@@ -884,6 +954,13 @@
       "originalValue": "{!BORDER_RADIUS_PILL}",
       "name": "BUTTON_ICON_BORDER_RADIUS"
     },
+    "BUTTON_PRIMARY_ON_LIGHT_HOVER_BACKGROUND_IMAGE": {
+      "category": "buttons",
+      "value": "none",
+      "type": "background-image",
+      "originalValue": "none",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_HOVER_BACKGROUND_IMAGE"
+    },
     "BUTTON_SELECTED_COLOR": {
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
@@ -905,6 +982,20 @@
       "deprecated": true,
       "originalValue": ".5625rem",
       "name": "BUTTON_LARGE_PADDING_X_ICON_ONLY"
+    },
+    "BUTTON_PRIMARY_ON_LIGHT_ACTIVE_BACKGROUND_COLOR": {
+      "category": "buttons",
+      "value": "rgb(104, 105, 127)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY_TINT_02}",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_ACTIVE_BACKGROUND_COLOR"
+    },
+    "BUTTON_PRIMARY_ON_DARK_HOVER_COLOR": {
+      "category": "buttons",
+      "value": "rgb(17, 18, 54)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY}",
+      "name": "BUTTON_PRIMARY_ON_DARK_HOVER_COLOR"
     },
     "BUTTON_SECONDARY_HOVER_BACKGROUND_COLOR": {
       "category": "buttons",
@@ -932,6 +1023,7 @@
       "category": "buttons",
       "value": "none",
       "type": "box-shadow",
+      "deprecated": true,
       "originalValue": "none",
       "name": "BUTTON_OUTLINE_DISABLED_BOX_SHADOW"
     },
@@ -941,6 +1033,13 @@
       "type": "background-image",
       "originalValue": "{!SKY_BLUE}",
       "name": "BUTTON_FEATURED_BACKGROUND_IMAGE"
+    },
+    "BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_IMAGE": {
+      "category": "buttons",
+      "value": "none",
+      "type": "background-image",
+      "originalValue": "none",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_IMAGE"
     },
     "BUTTON_ICON_BORDER_RADIUS_LG": {
       "category": "buttons",
@@ -981,6 +1080,27 @@
       "originalValue": ".5625rem",
       "name": "BUTTON_PADDING_X_ICON_ONLY"
     },
+    "BUTTON_PRIMARY_ON_DARK_ACTIVE_BACKGROUND_IMAGE": {
+      "category": "buttons",
+      "value": "none",
+      "type": "background-image",
+      "originalValue": "none",
+      "name": "BUTTON_PRIMARY_ON_DARK_ACTIVE_BACKGROUND_IMAGE"
+    },
+    "BUTTON_PRIMARY_ON_DARK_COLOR": {
+      "category": "buttons",
+      "value": "rgb(17, 18, 54)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY}",
+      "name": "BUTTON_PRIMARY_ON_DARK_COLOR"
+    },
+    "BUTTON_PRIMARY_ON_LIGHT_BACKGROUND_COLOR": {
+      "category": "buttons",
+      "value": "rgb(17, 18, 54)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY}",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_BACKGROUND_COLOR"
+    },
     "BUTTON_FEATURED_HOVER_BACKGROUND_IMAGE": {
       "category": "buttons",
       "value": "none",
@@ -992,6 +1112,7 @@
       "category": "buttons",
       "value": "rgb(8, 78, 178)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "BUTTON_SECONDARY_ACTIVE_BORDER_COLOR"
     },
@@ -1016,6 +1137,13 @@
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "BUTTON_SECONDARY_ACTIVE_BACKGROUND_COLOR"
     },
+    "BUTTON_PRIMARY_ON_DARK_DISABLED_COLOR": {
+      "category": "buttons",
+      "value": "rgb(178, 178, 191)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY_TINT_04}",
+      "name": "BUTTON_PRIMARY_ON_DARK_DISABLED_COLOR"
+    },
     "BUTTON_DESTRUCTIVE_ACTIVE_COLOR": {
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
@@ -1027,6 +1155,7 @@
       "category": "buttons",
       "value": "none",
       "type": "background-image",
+      "deprecated": true,
       "originalValue": "none",
       "name": "BUTTON_OUTLINE_BACKGROUND_IMAGE"
     },
@@ -1043,6 +1172,13 @@
       "type": "size",
       "originalValue": "{!BUTTON_HEIGHT}",
       "name": "BUTTON_HEIGHT"
+    },
+    "BUTTON_PRIMARY_ON_LIGHT_HOVER_BACKGROUND_COLOR": {
+      "category": "buttons",
+      "value": "rgb(68, 69, 96)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY_TINT_01}",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_HOVER_BACKGROUND_COLOR"
     },
     "BUTTON_SECONDARY_DISABLED_BACKGROUND_IMAGE": {
       "category": "buttons",
@@ -1088,6 +1224,13 @@
       "originalValue": "{!SKY_BLUE}",
       "name": "BUTTON_FEATURED_BACKGROUND_COLOR"
     },
+    "BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_COLOR": {
+      "category": "buttons",
+      "value": "rgb(221, 221, 229)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY_TINT_06}",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_COLOR"
+    },
     "BUTTON_COLOR": {
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
@@ -1130,6 +1273,13 @@
       "originalValue": "{!BUTTON_LARGE_HEIGHT}",
       "name": "BUTTON_LARGE_HEIGHT"
     },
+    "BUTTON_PRIMARY_ON_DARK_ACTIVE_BACKGROUND_COLOR": {
+      "category": "buttons",
+      "value": "rgb(205, 205, 215)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY_TINT_05}",
+      "name": "BUTTON_PRIMARY_ON_DARK_ACTIVE_BACKGROUND_COLOR"
+    },
     "BUTTON_LARGE_PADDING_X": {
       "category": "buttons",
       "value": "1.5rem",
@@ -1149,6 +1299,7 @@
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BUTTON_OUTLINE_COLOR"
     },
@@ -1167,10 +1318,18 @@
       "originalValue": "{!SPACING_XS}",
       "name": "BUTTON_LARGE_PADDING_Y"
     },
+    "BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_IMAGE": {
+      "category": "buttons",
+      "value": "none",
+      "type": "background-image",
+      "originalValue": "none",
+      "name": "BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_IMAGE"
+    },
     "BUTTON_OUTLINE_BORDER_COLOR": {
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BUTTON_OUTLINE_BORDER_COLOR"
     },
@@ -1178,6 +1337,7 @@
       "category": "buttons",
       "value": "rgb(221, 221, 229)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "BUTTON_DESTRUCTIVE_BORDER_COLOR"
     },
@@ -1221,6 +1381,7 @@
       "category": "buttons",
       "value": "rgba(0, 0, 0, 0)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "transparent",
       "name": "BUTTON_OUTLINE_BACKGROUND_COLOR"
     },
@@ -1228,6 +1389,7 @@
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BUTTON_OUTLINE_HOVER_BORDER_COLOR"
     },
@@ -1235,8 +1397,23 @@
       "category": "buttons",
       "value": "rgb(209, 67, 91)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!PANJIN}",
       "name": "BUTTON_DESTRUCTIVE_HOVER_BORDER_COLOR"
+    },
+    "BUTTON_PRIMARY_ON_DARK_ACTIVE_COLOR": {
+      "category": "buttons",
+      "value": "rgb(17, 18, 54)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY}",
+      "name": "BUTTON_PRIMARY_ON_DARK_ACTIVE_COLOR"
+    },
+    "BUTTON_PRIMARY_ON_DARK_BACKGROUND_IMAGE": {
+      "category": "buttons",
+      "value": "none",
+      "type": "background-image",
+      "originalValue": "none",
+      "name": "BUTTON_PRIMARY_ON_DARK_BACKGROUND_IMAGE"
     },
     "BUTTON_SECONDARY_DISABLED_BACKGROUND_COLOR": {
       "category": "buttons",
@@ -1291,6 +1468,13 @@
       "originalValue": "none",
       "name": "BUTTON_SECONDARY_DISABLED_BOX_SHADOW"
     },
+    "BUTTON_PRIMARY_ON_LIGHT_DISABLED_COLOR": {
+      "category": "buttons",
+      "value": "rgb(178, 178, 191)",
+      "type": "color",
+      "originalValue": "{!SKY_GRAY_TINT_04}",
+      "name": "BUTTON_PRIMARY_ON_LIGHT_DISABLED_COLOR"
+    },
     "BUTTON_FEATURED_COLOR": {
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
@@ -1302,6 +1486,7 @@
       "category": "buttons",
       "value": "rgba(0, 0, 0, 0)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "transparent",
       "name": "BUTTON_OUTLINE_HOVER_BACKGROUND_COLOR"
     },
@@ -1330,6 +1515,7 @@
       "category": "buttons",
       "value": "rgb(209, 67, 91)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!PANJIN}",
       "name": "BUTTON_DESTRUCTIVE_ACTIVE_BORDER_COLOR"
     },
@@ -1337,6 +1523,7 @@
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BUTTON_OUTLINE_ACTIVE_BORDER_COLOR"
     },
