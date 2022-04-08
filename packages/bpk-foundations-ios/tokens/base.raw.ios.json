@@ -1779,6 +1779,27 @@
       "originalValue": "{!LINE_HEIGHT_SM}",
       "name": "TEXT_LABEL-2_LINE_HEIGHT"
     },
+    "TEXT_LABEL-3_FONT_SIZE": {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "TEXT_LABEL-3_FONT_SIZE"
+    },
+    "TEXT_LABEL-3_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_LABEL-3_FONT_WEIGHT"
+    },
+    "TEXT_LABEL-3_LINE_HEIGHT": {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "TEXT_LABEL-3_LINE_HEIGHT"
+    },
     "TEXT_LG-EMPHASIZED_FONT_SIZE": {
       "value": "20",
       "type": "font-size",
@@ -2577,6 +2598,9 @@
     "TEXT_LABEL-2_FONT_SIZE",
     "TEXT_LABEL-2_FONT_WEIGHT",
     "TEXT_LABEL-2_LINE_HEIGHT",
+    "TEXT_LABEL-3_FONT_SIZE",
+    "TEXT_LABEL-3_FONT_WEIGHT",
+    "TEXT_LABEL-3_LINE_HEIGHT",
     "TEXT_LG-EMPHASIZED_FONT_SIZE",
     "TEXT_LG-EMPHASIZED_FONT_WEIGHT",
     "TEXT_LG-EMPHASIZED_LINE_HEIGHT",
