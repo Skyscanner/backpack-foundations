@@ -202,6 +202,21 @@
       "type": "size",
       "category": "typesettings"
     },
+    "TEXT_LABEL-3_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XS}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_LABEL-3_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_LABEL-3_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XS}",
+      "type": "size",
+      "category": "typesettings"
+    },
     "TEXT_LABEL-2_FONT_SIZE": {
       "value": "{!FONT_SIZE_SM}",
       "type": "font-size",

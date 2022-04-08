@@ -1475,6 +1475,27 @@
       "name": "textLabel2LineHeight"
     },
     {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "textLabel3FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textLabel3FontWeight"
+    },
+    {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textLabel3LineHeight"
+    },
+    {
       "value": "20",
       "type": "font-size",
       "category": "font-sizes",
