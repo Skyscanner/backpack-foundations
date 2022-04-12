@@ -232,6 +232,14 @@ $bpk-button-large-padding-y: .375rem;
 /// @group buttons
 $bpk-button-line-height: 1.5rem;
 /// @group buttons
+$bpk-button-link-on-dark-active-color: rgba(255, 255, 255, 0.6);
+/// @group buttons
+$bpk-button-link-on-dark-color: rgb(255, 255, 255);
+/// @group buttons
+$bpk-button-link-on-dark-disabled-color: rgba(255, 255, 255, 0.2);
+/// @group buttons
+$bpk-button-link-on-dark-hover-color: rgba(255, 255, 255, 0.8);
+/// @group buttons
 $bpk-button-outline-active-background-color: rgba(0, 0, 0, 0);
 /// @group buttons
 $bpk-button-outline-active-border-color: rgb(255, 255, 255);
@@ -349,6 +357,30 @@ $bpk-button-secondary-hover-border-color: rgb(7, 112, 227);
 $bpk-button-secondary-hover-box-shadow: 0 0 0 2px #0770e3 inset;
 /// @group buttons
 $bpk-button-secondary-hover-color: rgb(8, 78, 178);
+/// @group buttons
+$bpk-button-secondary-on-dark-active-background-color: rgba(255, 255, 255, 0.2);
+/// @group buttons
+$bpk-button-secondary-on-dark-active-background-image: none;
+/// @group buttons
+$bpk-button-secondary-on-dark-active-color: rgb(255, 255, 255);
+/// @group buttons
+$bpk-button-secondary-on-dark-background-color: rgba(255, 255, 255, 0.1);
+/// @group buttons
+$bpk-button-secondary-on-dark-background-image: none;
+/// @group buttons
+$bpk-button-secondary-on-dark-color: rgb(255, 255, 255);
+/// @group buttons
+$bpk-button-secondary-on-dark-disabled-background-color: rgb(221, 221, 229);
+/// @group buttons
+$bpk-button-secondary-on-dark-disabled-background-image: none;
+/// @group buttons
+$bpk-button-secondary-on-dark-disabled-color: rgb(178, 178, 191);
+/// @group buttons
+$bpk-button-secondary-on-dark-hover-background-color: rgba(255, 255, 255, 0.15);
+/// @group buttons
+$bpk-button-secondary-on-dark-hover-background-image: none;
+/// @group buttons
+$bpk-button-secondary-on-dark-hover-color: rgb(255, 255, 255);
 /// @group buttons
 $bpk-button-selected-active-background-color: rgb(4, 39, 89);
 /// @group buttons

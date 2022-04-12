@@ -237,6 +237,54 @@
       "type": "box-shadow",
       "deprecated": true
     },
+    "BUTTON_SECONDARY_ON_DARK_COLOR": {
+      "value": "{!WHITE}",
+      "type": "color"
+    },
+    "BUTTON_SECONDARY_ON_DARK_BACKGROUND_COLOR": {
+      "value": "rgba(255, 255, 255, 0.1)",
+      "type": "color"
+    },
+    "BUTTON_SECONDARY_ON_DARK_BACKGROUND_IMAGE": {
+      "value": "none",
+      "type": "background-image"
+    },
+    "BUTTON_SECONDARY_ON_DARK_HOVER_COLOR": {
+      "value": "{!WHITE}",
+      "type": "color"
+    },
+    "BUTTON_SECONDARY_ON_DARK_HOVER_BACKGROUND_COLOR": {
+      "value": "rgba(255, 255, 255, 0.15)",
+      "type": "color"
+    },
+    "BUTTON_SECONDARY_ON_DARK_HOVER_BACKGROUND_IMAGE": {
+      "value": "none",
+      "type": "background-image"
+    },
+    "BUTTON_SECONDARY_ON_DARK_ACTIVE_COLOR": {
+      "value": "{!WHITE}",
+      "type": "color"
+    },
+    "BUTTON_SECONDARY_ON_DARK_ACTIVE_BACKGROUND_COLOR": {
+      "value": "rgba(255, 255, 255, 0.2)",
+      "type": "color"
+    },
+    "BUTTON_SECONDARY_ON_DARK_ACTIVE_BACKGROUND_IMAGE": {
+      "value": "none",
+      "type": "background-image"
+    },
+    "BUTTON_SECONDARY_ON_DARK_DISABLED_COLOR": {
+      "value": "{!SKY_GRAY_TINT_04}",
+      "type": "color"
+    },
+    "BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_COLOR": {
+      "value": "{!SKY_GRAY_TINT_06}",
+      "type": "color"
+    },
+    "BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_IMAGE": {
+      "value": "none",
+      "type": "background-image"
+    },
     "BUTTON_OUTLINE_COLOR": {
       "value": "{!WHITE}",
       "type": "color",
@@ -582,6 +630,22 @@
     "BUTTON_FEATURED_DISABLED_BACKGROUND_IMAGE": {
       "value": "none",
       "type": "background-image"
+    },
+    "BUTTON_LINK_ON_DARK_COLOR": {
+      "value": "{!WHITE}",
+      "type": "color"
+    },
+    "BUTTON_LINK_ON_DARK_HOVER_COLOR": {
+      "value": "rgba(255, 255, 255, 0.8)",
+      "type": "color"
+    },
+    "BUTTON_LINK_ON_DARK_ACTIVE_COLOR": {
+      "value": "rgba(255, 255, 255, 0.6)",
+      "type": "color"
+    },
+    "BUTTON_LINK_ON_DARK_DISABLED_COLOR": {
+      "value": "rgba(255, 255, 255, 0.2)",
+      "type": "color"
     }
   }
 }
