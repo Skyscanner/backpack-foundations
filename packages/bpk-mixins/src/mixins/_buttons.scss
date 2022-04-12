@@ -574,7 +574,6 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-button--link-on-dark {
   @include bpk-button--link;
-
   @include bpk-themeable-property(
     color,
     --bpk-button-link-on-dark-text-color,
