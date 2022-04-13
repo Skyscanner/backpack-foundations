@@ -1,9 +1,4 @@
 **Added:**
-- @skyscanner/bpk-foundations-commons
-  - Label 3 style
 
-- @skyscanner/bpk-foundations-ios
-  - Label 3 style
-
-- @skyscanner/bpk-foundations-android
-  - Label 3 style
+- bpk-mixins:
+    - Added new `bpk-label-3` typography mixin.
