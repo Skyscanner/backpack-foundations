@@ -124,6 +124,10 @@ export const buttonLargePaddingX = "1.5rem";
 export const buttonLargePaddingXIconOnly = ".5625rem";
 export const buttonLargePaddingY = ".375rem";
 export const buttonLineHeight = "1.5rem";
+export const buttonLinkOnDarkActiveColor = "rgba(255, 255, 255, 0.6)";
+export const buttonLinkOnDarkColor = "rgb(255, 255, 255)";
+export const buttonLinkOnDarkDisabledColor = "rgba(255, 255, 255, 0.2)";
+export const buttonLinkOnDarkHoverColor = "rgba(255, 255, 255, 0.8)";
 export const buttonOutlineActiveBackgroundColor = "rgba(0, 0, 0, 0)";
 export const buttonOutlineActiveBorderColor = "rgb(255, 255, 255)";
 export const buttonOutlineBackgroundColor = "rgba(0, 0, 0, 0)";
@@ -183,6 +187,18 @@ export const buttonSecondaryHoverBackgroundImage = "none";
 export const buttonSecondaryHoverBorderColor = "rgb(7, 112, 227)";
 export const buttonSecondaryHoverBoxShadow = "0 0 0 2px #0770e3 inset";
 export const buttonSecondaryHoverColor = "rgb(8, 78, 178)";
+export const buttonSecondaryOnDarkActiveBackgroundColor = "rgba(255, 255, 255, 0.2)";
+export const buttonSecondaryOnDarkActiveBackgroundImage = "none";
+export const buttonSecondaryOnDarkActiveColor = "rgb(255, 255, 255)";
+export const buttonSecondaryOnDarkBackgroundColor = "rgba(255, 255, 255, 0.1)";
+export const buttonSecondaryOnDarkBackgroundImage = "none";
+export const buttonSecondaryOnDarkColor = "rgb(255, 255, 255)";
+export const buttonSecondaryOnDarkDisabledBackgroundColor = "rgb(221, 221, 229)";
+export const buttonSecondaryOnDarkDisabledBackgroundImage = "none";
+export const buttonSecondaryOnDarkDisabledColor = "rgb(178, 178, 191)";
+export const buttonSecondaryOnDarkHoverBackgroundColor = "rgba(255, 255, 255, 0.15)";
+export const buttonSecondaryOnDarkHoverBackgroundImage = "none";
+export const buttonSecondaryOnDarkHoverColor = "rgb(255, 255, 255)";
 export const buttonSelectedActiveBackgroundColor = "rgb(4, 39, 89)";
 export const buttonSelectedActiveBackgroundImage = "none";
 export const buttonSelectedActiveBoxShadow = "none";
@@ -562,6 +578,10 @@ buttonLargePaddingX,
 buttonLargePaddingXIconOnly,
 buttonLargePaddingY,
 buttonLineHeight,
+buttonLinkOnDarkActiveColor,
+buttonLinkOnDarkColor,
+buttonLinkOnDarkDisabledColor,
+buttonLinkOnDarkHoverColor,
 buttonOutlineActiveBackgroundColor,
 buttonOutlineActiveBorderColor,
 buttonOutlineBackgroundColor,
@@ -621,6 +641,18 @@ buttonSecondaryHoverBackgroundImage,
 buttonSecondaryHoverBorderColor,
 buttonSecondaryHoverBoxShadow,
 buttonSecondaryHoverColor,
+buttonSecondaryOnDarkActiveBackgroundColor,
+buttonSecondaryOnDarkActiveBackgroundImage,
+buttonSecondaryOnDarkActiveColor,
+buttonSecondaryOnDarkBackgroundColor,
+buttonSecondaryOnDarkBackgroundImage,
+buttonSecondaryOnDarkColor,
+buttonSecondaryOnDarkDisabledBackgroundColor,
+buttonSecondaryOnDarkDisabledBackgroundImage,
+buttonSecondaryOnDarkDisabledColor,
+buttonSecondaryOnDarkHoverBackgroundColor,
+buttonSecondaryOnDarkHoverBackgroundImage,
+buttonSecondaryOnDarkHoverColor,
 buttonSelectedActiveBackgroundColor,
 buttonSelectedActiveBackgroundImage,
 buttonSelectedActiveBoxShadow,
