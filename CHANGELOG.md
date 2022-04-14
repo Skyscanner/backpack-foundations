@@ -1,3 +1,12 @@
+# 2022-04-14
+
+**Added:**
+
+- bpk-mixins:
+    - Added new `bpk-label-3` typography mixin.
+
+# 2022-04-13
+
 **Added:**
 
 - @skyscanner/bpk-foundations-web: 6.1.1 => 6.2.0
