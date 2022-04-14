@@ -435,6 +435,21 @@ $bpk-spacing-v2: true;
   );
 }
 
+/// Label-3 text style
+///
+/// @example scss
+///   .selector {
+///     @include bpk-label-3;
+///   }
+
+@mixin bpk-label-3 {
+  @include _bpk-text-factory(
+    $bpk-font-size-xs,
+    $bpk-line-height-xs,
+    $bpk-font-weight-bold
+  );
+}
+
 /// Default body text style
 ///
 /// @example scss
