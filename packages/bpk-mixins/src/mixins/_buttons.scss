@@ -317,6 +317,67 @@ $bpk-spacing-v2: true;
   }
 }
 
+/// Secondary on dark button. Modifies the bpk-button mixin.
+///
+/// @require {mixin} bpk-button
+///
+/// @example scss
+///   .selector {
+///     @include bpk-button();
+///     @include bpk-button--secondary-on-dark();
+///   }
+
+@mixin bpk-button--secondary-on-dark {
+  background-image: $bpk-button-secondary-on-dark-background-image;
+
+  @include bpk-themeable-property(
+    color,
+    --bpk-button-secondary-on-dark-text-color,
+    $bpk-button-secondary-on-dark-color
+  );
+  @include bpk-themeable-property(
+    background-color,
+    --bpk-button-secondary-on-dark-background-color,
+    $bpk-button-secondary-on-dark-background-color
+  );
+
+  @include bpk-hover {
+    background-image: $bpk-button-secondary-on-dark-hover-background-image;
+
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-secondary-on-dark-hover-text-color,
+      $bpk-button-secondary-on-dark-hover-color
+    );
+    @include bpk-themeable-property(
+      background-color,
+      --bpk-button-secondary-on-dark-hover-background-color,
+      $bpk-button-secondary-on-dark-hover-background-color
+    );
+  }
+
+  &:active {
+    background-image: $bpk-button-secondary-on-dark-active-background-image;
+
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-secondary-on-dark-active-text-color,
+      $bpk-button-secondary-on-dark-active-color
+    );
+    @include bpk-themeable-property(
+      background-color,
+      --bpk-button-secondary-on-dark-active-background-color,
+      $bpk-button-secondary-on-dark-active-background-color
+    );
+  }
+
+  &:disabled {
+    background-color: $bpk-button-secondary-on-dark-disabled-background-color;
+    background-image: $bpk-button-secondary-on-dark-disabled-background-image;
+    color: $bpk-button-secondary-on-dark-disabled-color;
+  }
+}
+
 /// Destructive button. Modifies the bpk-button & bpk-button--secondary mixins.
 ///
 /// @require {mixin} bpk-button
@@ -386,7 +447,7 @@ $bpk-spacing-v2: true;
 ///     @include bpk-button();
 ///     @include bpk-button--outline();
 ///   }
-/// @deprecated Use bpk-button--primary-on-dark or bpk-button--primary-on-light instead.
+/// @deprecated Use bpk-button--primary-on-dark, bpk-button--primary-on-light, or bpk-button--secondary-on-dark instead.
 
 @mixin bpk-button--outline {
   background-color: $bpk-button-outline-background-color;
@@ -482,10 +543,12 @@ $bpk-spacing-v2: true;
 
   @include bpk-hover {
     background: none;
+    text-decoration: none;
   }
 
   &:active {
     background: none;
+    text-decoration: none;
   }
 
   &:disabled {
@@ -496,6 +559,57 @@ $bpk-spacing-v2: true;
 
   &-large {
     padding: $vertical-padding-large 0;
+  }
+}
+
+/// Link on dark button. Modifies the bpk-button & bpk-button--link mixins.
+///
+/// @require {mixin} bpk-button
+
+/// @example scss
+///   .selector {
+///     @include bpk-button();
+///     @include bpk-button--link-on-dark();
+///   }
+
+@mixin bpk-button--link-on-dark {
+  @include bpk-button--link;
+  @include bpk-themeable-property(
+    color,
+    --bpk-button-link-on-dark-text-color,
+    $bpk-button-link-on-dark-color
+  );
+
+  @include bpk-hover {
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-link-on-dark-hover-text-color,
+      $bpk-button-link-on-dark-hover-color
+    );
+  }
+
+  &:active {
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-link-on-dark-active-text-color,
+      $bpk-button-link-on-dark-active-color
+    );
+  }
+
+  &:visited {
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-link-on-dark-text-color,
+      $bpk-button-link-on-dark-color
+    );
+  }
+
+  &:disabled {
+    @include bpk-themeable-property(
+      color,
+      --bpk-button-link-on-dark-disabled-color,
+      $bpk-button-link-on-dark-disabled-color
+    );
   }
 }
 

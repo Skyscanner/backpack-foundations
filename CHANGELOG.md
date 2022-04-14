@@ -1,3 +1,50 @@
+**Added:**
+
+- @skyscanner/bpk-foundations-web: 6.1.1 => 6.2.0
+    - Added tokens for the new `BpkButtonSecondaryOnDark` and `BpkButtonLinkOnDark` buttons:
+      - `BpkButtonSecondaryOnDark`: </br>
+        - Background colour: </br>
+            `$bpk-button-secondary-on-dark-background-color` </br>
+            `$bpk-button-secondary-on-dark-active-background-color` </br>
+            `$bpk-button-secondary-on-dark-hover-background-color` </br>
+            `$bpk-button-secondary-on-dark-disabled-background-color` </br>
+        - Background image: </br>
+            `$bpk-button-secondary-on-dark-background-image` </br>
+            `$bpk-button-secondary-on-dark-active-background-image` </br>
+            `$bpk-button-secondary-on-dark-hover-background-image` </br>
+            `$bpk-button-secondary-on-dark-disabled-background-image` </br>
+        - Text colour: </br>
+            `$bpk-button-secondary-on-dark-color` </br>
+            `$bpk-button-secondary-on-dark-active-color` </br>
+            `$bpk-button-secondary-on-dark-hover-color` </br>
+            `$bpk-button-secondary-on-dark-disabled-color` </br>
+      - `BpkButtonLinkOnDark`: </br>
+        - Text colour: </br>
+            `$bpk-button-link-on-dark-color` </br>
+            `$bpk-button-link-on-dark-active-color` </br>
+            `$bpk-button-link-on-dark-hover-color` </br>
+            `$bpk-button-link-on-dark-disabled-color` </br>
+
+- bpk-mixins: 28.1.1 => 28.2.0
+    - Added new mixins for the new `BpkButtonSecondaryOnDark` and `BpkButtonLinkonDark` buttons: `bpk-button--secondary-on-dark`, `bpk-button--link-on-dark`
+
+**Fixed:**
+- bpk-mixins: 28.1.1 => 28.2.0
+    - Remove underline from `BpkButtonLink` in hover and active state in `bpk-button--link`
+
+# 2022-04-08
+
+**Added:**
+
+- @skyscanner/bpk-foundations-commons: 2.2.1 => 2.3.0
+  - Label 3 style
+
+- @skyscanner/bpk-foundations-ios: 2.2.1 => 2.3.0
+  - Label 3 style
+
+- @skyscanner/bpk-foundations-android: 3.2.1 => 3.3.0
+  - Label 3 style
+
 # 2022-04-07
 
 **Added:**
