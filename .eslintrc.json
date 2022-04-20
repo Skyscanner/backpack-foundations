@@ -20,6 +20,11 @@
   "rules": {
     "prettier/prettier": "error",
     "import/no-extraneous-dependencies": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "eslint-comments/no-unused-disable": "off",
+    "import/order": "off",
+    "import/extensions": "off",
+    "sort-destructure-keys/sort-destructure-keys": "off",
+    "arrow-body-style": "off"
   }
 }

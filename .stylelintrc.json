@@ -17,6 +17,12 @@
     }],
     "function-url-quotes": null,
     "scss/operator-no-newline-after": null,
-    "backpack/use-typography-styles": null
+    "backpack/use-typography-styles": null,
+    "scss/no-global-function-names": null,
+    "scss/comment-no-empty": null,
+    "scss/double-slash-comment-empty-line-before": null,
+    "scss/at-import-partial-extension": null,
+    "value-keyword-case": null,
+    "scss/at-rule-conditional-no-parentheses": null
   }
 }
