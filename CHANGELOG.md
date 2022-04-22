@@ -1,3 +1,11 @@
+# 2022-04-22
+
+**Breaking:**
+
+- bpk-mixins: 28.3.0 => 29.0.0
+- bpk-stylesheets: 7.1.30 => 7.1.31
+  - Removed differing `typography` styles that were applied when on mobile devices to keep the same style as when on desktop.
+
 # 2022-04-14
 
 **Added:**
