@@ -588,14 +588,6 @@ $bpk-spacing-v2: true;
     $bpk-line-height-xxxl,
     $bpk-font-weight-bold
   );
-
-  @include bpk-breakpoint-mobile {
-    @include _bpk-text-factory(
-      $bpk-font-size-xxl,
-      $bpk-line-height-xxl,
-      $bpk-font-weight-bold
-    );
-  }
 }
 
 /// Level 2 heading.
@@ -611,14 +603,6 @@ $bpk-spacing-v2: true;
     $bpk-line-height-xxl,
     $bpk-font-weight-bold
   );
-
-  @include bpk-breakpoint-mobile {
-    @include _bpk-text-factory(
-      $bpk-font-size-xl,
-      $bpk-line-height-xl-tight,
-      $bpk-font-weight-bold
-    );
-  }
 }
 
 /// Level 3 heading.
@@ -634,14 +618,6 @@ $bpk-spacing-v2: true;
     $bpk-line-height-xl-tight,
     $bpk-font-weight-bold
   );
-
-  @include bpk-breakpoint-mobile {
-    @include _bpk-text-factory(
-      $bpk-font-size-lg,
-      $bpk-line-height-lg-tight,
-      $bpk-font-weight-bold
-    );
-  }
 }
 
 /// Level 4 heading.
@@ -657,14 +633,6 @@ $bpk-spacing-v2: true;
     $bpk-line-height-lg-tight,
     $bpk-font-weight-bold
   );
-
-  @include bpk-breakpoint-mobile {
-    @include _bpk-text-factory(
-      $bpk-font-size-base,
-      $bpk-line-height-base-tight,
-      $bpk-font-weight-bold
-    );
-  }
 }
 
 /// Level 5 heading.
@@ -1162,10 +1130,6 @@ $bpk-spacing-v2: true;
     margin-bottom: $bpk-spacing-sm;
 
     @include bpk-text-xxxxl;
-
-    @include bpk-breakpoint-mobile {
-      @include bpk-text-xxl;
-    }
   }
 
   h2 {
@@ -1174,10 +1138,6 @@ $bpk-spacing-v2: true;
     margin-bottom: $bpk-spacing-sm;
 
     @include bpk-text-xxl;
-
-    @include bpk-breakpoint-mobile {
-      @include bpk-text-xl;
-    }
   }
 
   h3 {
@@ -1186,11 +1146,6 @@ $bpk-spacing-v2: true;
     margin-bottom: $bpk-spacing-sm;
 
     @include bpk-text-xl;
-
-    @include bpk-breakpoint-mobile {
-      @include bpk-text-base;
-      @include bpk-text-bold;
-    }
   }
 
   h4 {
@@ -1199,11 +1154,6 @@ $bpk-spacing-v2: true;
     margin-bottom: $bpk-spacing-xs;
 
     @include bpk-text-base;
-
-    @include bpk-breakpoint-mobile {
-      @include bpk-text-xs;
-      @include bpk-text-bold;
-    }
   }
 
   h5 {
@@ -1212,11 +1162,6 @@ $bpk-spacing-v2: true;
     margin-bottom: $bpk-spacing-sm;
 
     @include bpk-text-xs;
-
-    @include bpk-breakpoint-mobile {
-      @include bpk-text-xs;
-      @include bpk-text-bold;
-    }
   }
 
   h6 {
@@ -1225,11 +1170,6 @@ $bpk-spacing-v2: true;
     margin-bottom: $bpk-spacing-sm;
 
     @include bpk-text-xs;
-
-    @include bpk-breakpoint-mobile {
-      @include bpk-text-xs;
-      @include bpk-text-bold;
-    }
   }
 
   a {
