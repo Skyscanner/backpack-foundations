@@ -3244,10 +3244,10 @@
       "name": "FONT_SIZE_ROOT"
     },
     "LIST_ITEM_MARGIN_BOTTOM": {
-      "value": "0",
+      "value": ".5rem",
       "type": "size",
       "category": "spacings",
-      "originalValue": "0",
+      "originalValue": "{!SPACING_MD_V2}",
       "name": "LIST_ITEM_MARGIN_BOTTOM"
     },
     "H1_FONT_WEIGHT": {

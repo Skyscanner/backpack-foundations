@@ -357,7 +357,7 @@
       "category": "spacings"
     },
     "LIST_ITEM_MARGIN_BOTTOM": {
-      "value": "0",
+      "value": "{!SPACING_MD_V2}",
       "type": "size",
       "category": "spacings"
     },

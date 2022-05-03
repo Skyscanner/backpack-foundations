@@ -376,7 +376,7 @@ module.exports = {
   linkWhiteColor: "rgb(255, 255, 255)",
   linkWhiteHoverColor: "rgb(255, 255, 255)",
   linkWhiteVisitedColor: "rgb(255, 255, 255)",
-  listItemMarginBottom: "0",
+  listItemMarginBottom: ".5rem",
   listItemMarginTop: "0",
   listMarginBottom: ".75rem",
   listMarginTop: "0",
