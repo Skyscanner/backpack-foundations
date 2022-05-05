@@ -332,22 +332,22 @@
       "category": "spacings"
     },
     "LIST_MARGIN_TOP": {
-      "value": "0",
+      "value": "{!SPACING_BASE_V2}",
       "type": "size",
       "category": "spacings"
     },
     "LIST_MARGIN_BOTTOM": {
-      "value": "{!SPACING_SM}",
+      "value": "{!SPACING_BASE_V2}",
       "type": "size",
       "category": "spacings"
     },
     "LIST_NESTED_MARGIN_TOP": {
-      "value": "0",
+      "value": "{!SPACING_SM_V2}",
       "type": "size",
       "category": "spacings"
     },
     "LIST_NESTED_MARGIN_BOTTOM": {
-      "value": "0",
+      "value": "{!SPACING_MD_V2}",
       "type": "size",
       "category": "spacings"
     },
@@ -357,7 +357,7 @@
       "category": "spacings"
     },
     "LIST_ITEM_MARGIN_BOTTOM": {
-      "value": "{!SPACING_MD_V2}",
+      "value": "{!SPACING_SM_V2}",
       "type": "size",
       "category": "spacings"
     },
