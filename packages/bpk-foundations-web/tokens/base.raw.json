@@ -2890,13 +2890,6 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "FONT_WEIGHT_BOOK"
     },
-    "LIST_NESTED_PADDING_BOTTOM": {
-      "value": ".25rem",
-      "type": "size",
-      "category": "spacings",
-      "originalValue": "{!SPACING_SM_V2}",
-      "name": "LIST_NESTED_PADDING_BOTTOM"
-    },
     "LINE_HEIGHT_XL_TIGHT": {
       "value": "1.75rem",
       "type": "size",
@@ -2911,13 +2904,6 @@
       "deprecated": true,
       "originalValue": "{!FONT_LINE_HEIGHT_XS}",
       "name": "TEXT_XS_LINE_HEIGHT"
-    },
-    "LIST_NESTED_PADDING_TOP": {
-      "value": ".5rem",
-      "type": "size",
-      "category": "spacings",
-      "originalValue": "{!SPACING_MD_V2}",
-      "name": "LIST_NESTED_PADDING_TOP"
     },
     "H5_LINE_HEIGHT": {
       "value": "1rem",

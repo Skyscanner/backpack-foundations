@@ -7,7 +7,6 @@
         - List margins:
             - `$bpk-list-margin-bottom`, `listMarginBottom`: `0.75rem` to `1rem`
             - `$bpk-list-margin-top`, `listMarginTop`: `0` to `1rem`
-    - Added nested list top and bottom padding.
 
 - bpk-mixins:
     - `bpk-list-item` mixin - added bottom margin 

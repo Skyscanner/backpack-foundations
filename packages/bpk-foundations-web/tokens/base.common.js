@@ -382,8 +382,6 @@ module.exports = {
   listMarginTop: "1rem",
   listNestedMarginBottom: "0",
   listNestedMarginTop: "0",
-  listNestedPaddingBottom: ".25rem",
-  listNestedPaddingTop: ".5rem",
   modalBackgroundColor: "rgb(255, 255, 255)",
   modalContentPadding: "1rem",
   modalHeaderPadding: ".75rem",
