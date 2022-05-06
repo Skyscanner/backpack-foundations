@@ -378,8 +378,10 @@ export const listItemMarginBottom = ".25rem";
 export const listItemMarginTop = "0";
 export const listMarginBottom = "1rem";
 export const listMarginTop = "1rem";
-export const listNestedMarginBottom = ".5rem";
-export const listNestedMarginTop = ".25rem";
+export const listNestedMarginBottom = "0";
+export const listNestedMarginTop = "0";
+export const listNestedPaddingBottom = ".25rem";
+export const listNestedPaddingTop = ".5rem";
 export const modalBackgroundColor = "rgb(255, 255, 255)";
 export const modalContentPadding = "1rem";
 export const modalHeaderPadding = ".75rem";
@@ -923,6 +925,8 @@ listMarginBottom,
 listMarginTop,
 listNestedMarginBottom,
 listNestedMarginTop,
+listNestedPaddingBottom,
+listNestedPaddingTop,
 onePixelRem,
 pMarginBottom,
 pMarginTop,

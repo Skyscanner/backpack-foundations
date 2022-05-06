@@ -2890,6 +2890,13 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "FONT_WEIGHT_BOOK"
     },
+    "LIST_NESTED_PADDING_BOTTOM": {
+      "value": ".25rem",
+      "type": "size",
+      "category": "spacings",
+      "originalValue": "{!SPACING_SM_V2}",
+      "name": "LIST_NESTED_PADDING_BOTTOM"
+    },
     "LINE_HEIGHT_XL_TIGHT": {
       "value": "1.75rem",
       "type": "size",
@@ -2904,6 +2911,13 @@
       "deprecated": true,
       "originalValue": "{!FONT_LINE_HEIGHT_XS}",
       "name": "TEXT_XS_LINE_HEIGHT"
+    },
+    "LIST_NESTED_PADDING_TOP": {
+      "value": ".5rem",
+      "type": "size",
+      "category": "spacings",
+      "originalValue": "{!SPACING_MD_V2}",
+      "name": "LIST_NESTED_PADDING_TOP"
     },
     "H5_LINE_HEIGHT": {
       "value": "1rem",
@@ -3137,10 +3151,10 @@
       "name": "TEXT_PRIMARY_LIGHT_COLOR"
     },
     "LIST_NESTED_MARGIN_TOP": {
-      "value": ".25rem",
+      "value": "0",
       "type": "size",
       "category": "spacings",
-      "originalValue": "{!SPACING_SM_V2}",
+      "originalValue": "0",
       "name": "LIST_NESTED_MARGIN_TOP"
     },
     "TEXT_XXXXL_FONT_SIZE": {
@@ -3296,10 +3310,10 @@
       "name": "H3_FONT_WEIGHT"
     },
     "LIST_NESTED_MARGIN_BOTTOM": {
-      "value": ".5rem",
+      "value": "0",
       "type": "size",
       "category": "spacings",
-      "originalValue": "{!SPACING_MD_V2}",
+      "originalValue": "0",
       "name": "LIST_NESTED_MARGIN_BOTTOM"
     },
     "H4_FONT_WEIGHT": {

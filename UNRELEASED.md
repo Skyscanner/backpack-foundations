@@ -4,14 +4,12 @@
     - Changed list margin tokens:
         - List item margins:
             - `$bpk-list-item-margin-bottom`, `listItemMarginBottom`: `0` to `0.25rem`
-        - Nested list margins:
-            - `$bpk-list-nested-margin-bottom`, `listNestedMarginBottom`: `0` to `0.5rem`
-            - `$bpk-list-nested-margin-top`, `listNestedMarginTop`: `0` to `0.25rem`
         - List margins:
             - `$bpk-list-margin-bottom`, `listMarginBottom`: `0.75rem` to `1rem`
             - `$bpk-list-margin-top`, `listMarginTop`: `0` to `1rem`
+    - Added nested list top and bottom padding.
 
 - bpk-mixins:
     - `bpk-list-item` mixin - added bottom margin 
-    - `bpk-list--nested` mixin - added top and bottom margins
+    - `bpk-list--nested` mixin - added top and bottom padding
     - `bpk-list` mixin - added top margin and changed bottom margin

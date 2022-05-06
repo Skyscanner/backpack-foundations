@@ -740,9 +740,13 @@ $bpk-list-margin-bottom: 1rem;
 /// @group spacings
 $bpk-list-margin-top: 1rem;
 /// @group spacings
-$bpk-list-nested-margin-bottom: .5rem;
+$bpk-list-nested-margin-bottom: 0;
 /// @group spacings
-$bpk-list-nested-margin-top: .25rem;
+$bpk-list-nested-margin-top: 0;
+/// @group spacings
+$bpk-list-nested-padding-bottom: .25rem;
+/// @group spacings
+$bpk-list-nested-padding-top: .5rem;
 /// @group modals
 $bpk-modal-background-color: rgb(255, 255, 255);
 /// @group modals

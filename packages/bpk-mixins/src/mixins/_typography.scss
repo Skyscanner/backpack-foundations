@@ -748,6 +748,8 @@ $bpk-spacing-v2: true;
 @mixin bpk-list--nested {
   margin-top: $bpk-list-nested-margin-top;
   margin-bottom: $bpk-list-nested-margin-bottom;
+  padding-top: bpk-spacing-md();
+  padding-bottom: bpk-spacing-sm();
 }
 
 /// List item.

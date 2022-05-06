@@ -342,12 +342,22 @@
       "category": "spacings"
     },
     "LIST_NESTED_MARGIN_TOP": {
-      "value": "{!SPACING_SM_V2}",
+      "value": "0",
       "type": "size",
       "category": "spacings"
     },
     "LIST_NESTED_MARGIN_BOTTOM": {
+      "value": "0",
+      "type": "size",
+      "category": "spacings"
+    },
+    "LIST_NESTED_PADDING_TOP": {
       "value": "{!SPACING_MD_V2}",
+      "type": "size",
+      "category": "spacings"
+    },
+    "LIST_NESTED_PADDING_BOTTOM": {
+      "value": "{!SPACING_SM_V2}",
       "type": "size",
       "category": "spacings"
     },
