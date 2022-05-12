@@ -19,13 +19,23 @@
  */
 
 module.exports = {
-  breakpointDesktop: "71.25rem",
-  breakpointMobile: "32.25rem",
-  breakpointQueryAboveDesktop: "(min-width: 71.3125rem)",
-  breakpointQueryAboveMobile: "(min-width: 32.3125rem)",
-  breakpointQueryAboveTablet: "(min-width: 50.3125rem)",
-  breakpointQueryMobile: "(max-width: 32.25rem)",
-  breakpointQueryTablet: "(max-width: 50.25rem)",
-  breakpointQueryTabletOnly: "(min-width: 32.3125rem) and (max-width: 50.25rem)",
-  breakpointTablet: "50.25rem"
+  breakpointDesktop: "80rem",
+  breakpointDesktopMargin: "1rem * 3",
+  breakpointMobile: "32rem",
+  breakpointMobileMargin: "1.5rem",
+  breakpointQueryAboveDesktop: "(min-width: 80.0625rem)",
+  breakpointQueryAboveMobile: "(min-width: 32.0625rem)",
+  breakpointQueryAboveTablet: "(min-width: 64.0625rem)",
+  breakpointQueryMobile: "(max-width: 32rem)",
+  breakpointQuerySmallMobile: "(max-width: 22.4375rem)",
+  breakpointQuerySmallTablet: "(max-width: 48rem)",
+  breakpointQuerySmallTabletOnly: "(min-width: 32.0625rem) and (max-width: 48rem)",
+  breakpointQueryTablet: "(max-width: 64rem)",
+  breakpointQueryTabletOnly: "(min-width: 32.0625rem) and (max-width: 64rem)",
+  breakpointSmallMobile: "22.4375rem",
+  breakpointSmallMobileMargin: "1rem",
+  breakpointSmallTablet: "48rem",
+  breakpointSmallTabletMargin: "1.5rem",
+  breakpointTablet: "64rem",
+  breakpointTabletMargin: "2rem"
 };

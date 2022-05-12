@@ -162,6 +162,9 @@
     "ONE_PIXEL_REM": {
       "value": ".0625rem"
     },
+    "BREAKPOINT_SMALL_MOBILE": {
+      "value": "22.4375rem"
+    },
     "FONT_WEIGHT_BLACK": {
       "value": "900"
     },
@@ -193,7 +196,10 @@
       "value": "2.5rem"
     },
     "BREAKPOINT_ABOVE_DESKTOP": {
-      "value": "71.3125rem"
+      "value": "80.0625rem"
+    },
+    "BREAKPOINT_SMALL_TABLET": {
+      "value": "48rem"
     },
     "SPACING_BASE": {
       "value": "1.5rem"
@@ -211,7 +217,7 @@
       "value": "900"
     },
     "BREAKPOINT_DESKTOP": {
-      "value": "71.25rem"
+      "value": "80rem"
     },
     "SPACING_BASE_V2": {
       "value": "1rem"
@@ -232,7 +238,7 @@
       "value": "2.250rem"
     },
     "BREAKPOINT_MOBILE": {
-      "value": "32.25rem"
+      "value": "32rem"
     },
     "SPACING_XXL": {
       "value": "2.625rem"
@@ -253,7 +259,7 @@
       "value": "4.5rem"
     },
     "BREAKPOINT_ABOVE_MOBILE": {
-      "value": "32.3125rem"
+      "value": "32.0625rem"
     },
     "BORDER_RADIUS_PILL": {
       "value": "1.125rem"
@@ -268,7 +274,7 @@
       "value": "0"
     },
     "BREAKPOINT_TABLET": {
-      "value": "50.25rem"
+      "value": "64rem"
     },
     "BUTTON_HEIGHT": {
       "value": "2.25rem"
@@ -277,7 +283,7 @@
       "value": ".25rem"
     },
     "BREAKPOINT_ABOVE_TABLET": {
-      "value": "50.3125rem"
+      "value": "64.0625rem"
     },
     "SPACING_SM": {
       "value": ".75rem"
@@ -490,66 +496,136 @@
     },
     "BREAKPOINT_QUERY_TABLET_ONLY": {
       "category": "breakpoints",
-      "value": "(min-width: 32.3125rem) and (max-width: 50.25rem)",
+      "value": "(min-width: 32.0625rem) and (max-width: 64rem)",
       "type": "media-query",
       "originalValue": "(min-width: {!BREAKPOINT_ABOVE_MOBILE}) and (max-width: {!BREAKPOINT_TABLET})",
       "name": "BREAKPOINT_QUERY_TABLET_ONLY"
     },
+    "BREAKPOINT_SMALL_TABLET_MARGIN": {
+      "category": "breakpoints",
+      "value": "1.5rem",
+      "type": "size",
+      "originalValue": "{!SPACING_LG_V2}",
+      "name": "BREAKPOINT_SMALL_TABLET_MARGIN"
+    },
+    "BREAKPOINT_QUERY_SMALL_TABLET": {
+      "category": "breakpoints",
+      "value": "(max-width: 48rem)",
+      "type": "media-query",
+      "originalValue": "(max-width: {!BREAKPOINT_SMALL_TABLET})",
+      "name": "BREAKPOINT_QUERY_SMALL_TABLET"
+    },
+    "BREAKPOINT_SMALL_MOBILE_MARGIN": {
+      "category": "breakpoints",
+      "value": "1rem",
+      "type": "size",
+      "originalValue": "{!SPACING_BASE_V2}",
+      "name": "BREAKPOINT_SMALL_MOBILE_MARGIN"
+    },
     "BREAKPOINT_QUERY_MOBILE": {
       "category": "breakpoints",
-      "value": "(max-width: 32.25rem)",
+      "value": "(max-width: 32rem)",
       "type": "media-query",
       "originalValue": "(max-width: {!BREAKPOINT_MOBILE})",
       "name": "BREAKPOINT_QUERY_MOBILE"
     },
+    "BREAKPOINT_QUERY_SMALL_TABLET_ONLY": {
+      "category": "breakpoints",
+      "value": "(min-width: 32.0625rem) and (max-width: 48rem)",
+      "type": "media-query",
+      "originalValue": "(min-width: {!BREAKPOINT_ABOVE_MOBILE}) and (max-width: {!BREAKPOINT_SMALL_TABLET})",
+      "name": "BREAKPOINT_QUERY_SMALL_TABLET_ONLY"
+    },
+    "BREAKPOINT_SMALL_MOBILE": {
+      "category": "breakpoints",
+      "value": "22.4375rem",
+      "type": "size",
+      "originalValue": "{!BREAKPOINT_SMALL_MOBILE}",
+      "name": "BREAKPOINT_SMALL_MOBILE"
+    },
     "BREAKPOINT_QUERY_ABOVE_MOBILE": {
       "category": "breakpoints",
-      "value": "(min-width: 32.3125rem)",
+      "value": "(min-width: 32.0625rem)",
       "type": "media-query",
       "originalValue": "(min-width: {!BREAKPOINT_ABOVE_MOBILE})",
       "name": "BREAKPOINT_QUERY_ABOVE_MOBILE"
     },
     "BREAKPOINT_QUERY_TABLET": {
       "category": "breakpoints",
-      "value": "(max-width: 50.25rem)",
+      "value": "(max-width: 64rem)",
       "type": "media-query",
       "originalValue": "(max-width: {!BREAKPOINT_TABLET})",
       "name": "BREAKPOINT_QUERY_TABLET"
     },
+    "BREAKPOINT_SMALL_TABLET": {
+      "category": "breakpoints",
+      "value": "48rem",
+      "type": "size",
+      "originalValue": "{!BREAKPOINT_SMALL_TABLET}",
+      "name": "BREAKPOINT_SMALL_TABLET"
+    },
     "BREAKPOINT_QUERY_ABOVE_TABLET": {
       "category": "breakpoints",
-      "value": "(min-width: 50.3125rem)",
+      "value": "(min-width: 64.0625rem)",
       "type": "media-query",
       "originalValue": "(min-width: {!BREAKPOINT_ABOVE_TABLET})",
       "name": "BREAKPOINT_QUERY_ABOVE_TABLET"
     },
     "BREAKPOINT_DESKTOP": {
       "category": "breakpoints",
-      "value": "71.25rem",
+      "value": "80rem",
       "type": "size",
       "originalValue": "{!BREAKPOINT_DESKTOP}",
       "name": "BREAKPOINT_DESKTOP"
     },
     "BREAKPOINT_MOBILE": {
       "category": "breakpoints",
-      "value": "32.25rem",
+      "value": "32rem",
       "type": "size",
       "originalValue": "{!BREAKPOINT_MOBILE}",
       "name": "BREAKPOINT_MOBILE"
     },
     "BREAKPOINT_TABLET": {
       "category": "breakpoints",
-      "value": "50.25rem",
+      "value": "64rem",
       "type": "size",
       "originalValue": "{!BREAKPOINT_TABLET}",
       "name": "BREAKPOINT_TABLET"
     },
     "BREAKPOINT_QUERY_ABOVE_DESKTOP": {
       "category": "breakpoints",
-      "value": "(min-width: 71.3125rem)",
+      "value": "(min-width: 80.0625rem)",
       "type": "media-query",
       "originalValue": "(min-width: {!BREAKPOINT_ABOVE_DESKTOP})",
       "name": "BREAKPOINT_QUERY_ABOVE_DESKTOP"
+    },
+    "BREAKPOINT_TABLET_MARGIN": {
+      "category": "breakpoints",
+      "value": "2rem",
+      "type": "size",
+      "originalValue": "{!SPACING_XL_V2}",
+      "name": "BREAKPOINT_TABLET_MARGIN"
+    },
+    "BREAKPOINT_MOBILE_MARGIN": {
+      "category": "breakpoints",
+      "value": "1.5rem",
+      "type": "size",
+      "originalValue": "{!SPACING_LG_V2}",
+      "name": "BREAKPOINT_MOBILE_MARGIN"
+    },
+    "BREAKPOINT_QUERY_SMALL_MOBILE": {
+      "category": "breakpoints",
+      "value": "(max-width: 22.4375rem)",
+      "type": "media-query",
+      "originalValue": "(max-width: {!BREAKPOINT_SMALL_MOBILE})",
+      "name": "BREAKPOINT_QUERY_SMALL_MOBILE"
+    },
+    "BREAKPOINT_DESKTOP_MARGIN": {
+      "category": "breakpoints",
+      "value": "1rem * 3",
+      "type": "size",
+      "originalValue": "{!SPACING_BASE_V2} * 3",
+      "name": "BREAKPOINT_DESKTOP_MARGIN"
     },
     "BUTTON_TEXT_ALIGN": {
       "category": "buttons",
@@ -2447,14 +2523,14 @@
     },
     "MODAL_MAX_WIDTH": {
       "category": "modals",
-      "value": "32.25rem",
+      "value": "32rem",
       "type": "size",
       "originalValue": "{!BREAKPOINT_MOBILE}",
       "name": "MODAL_MAX_WIDTH"
     },
     "MODAL_WIDE_MAX_WIDTH": {
       "category": "modals",
-      "value": "50.25rem",
+      "value": "64rem",
       "type": "size",
       "originalValue": "{!BREAKPOINT_TABLET}",
       "name": "MODAL_WIDE_MAX_WIDTH"

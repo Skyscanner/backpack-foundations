@@ -55,15 +55,25 @@ export const borderSizeXl = "3px";
 export const boxShadowLg = "0px 4px 14px 0px rgba(37,32,31,.25)";
 export const boxShadowSm = "0px 1px 3px 0px rgba(37,32,31,.3)";
 export const boxShadowXl = "0px 12px 50px 0px rgba(37,32,31,.25)";
-export const breakpointDesktop = "71.25rem";
-export const breakpointMobile = "32.25rem";
-export const breakpointQueryAboveDesktop = "(min-width: 71.3125rem)";
-export const breakpointQueryAboveMobile = "(min-width: 32.3125rem)";
-export const breakpointQueryAboveTablet = "(min-width: 50.3125rem)";
-export const breakpointQueryMobile = "(max-width: 32.25rem)";
-export const breakpointQueryTablet = "(max-width: 50.25rem)";
-export const breakpointQueryTabletOnly = "(min-width: 32.3125rem) and (max-width: 50.25rem)";
-export const breakpointTablet = "50.25rem";
+export const breakpointDesktop = "80rem";
+export const breakpointDesktopMargin = "1rem * 3";
+export const breakpointMobile = "32rem";
+export const breakpointMobileMargin = "1.5rem";
+export const breakpointQueryAboveDesktop = "(min-width: 80.0625rem)";
+export const breakpointQueryAboveMobile = "(min-width: 32.0625rem)";
+export const breakpointQueryAboveTablet = "(min-width: 64.0625rem)";
+export const breakpointQueryMobile = "(max-width: 32rem)";
+export const breakpointQuerySmallMobile = "(max-width: 22.4375rem)";
+export const breakpointQuerySmallTablet = "(max-width: 48rem)";
+export const breakpointQuerySmallTabletOnly = "(min-width: 32.0625rem) and (max-width: 48rem)";
+export const breakpointQueryTablet = "(max-width: 64rem)";
+export const breakpointQueryTabletOnly = "(min-width: 32.0625rem) and (max-width: 64rem)";
+export const breakpointSmallMobile = "22.4375rem";
+export const breakpointSmallMobileMargin = "1rem";
+export const breakpointSmallTablet = "48rem";
+export const breakpointSmallTabletMargin = "1.5rem";
+export const breakpointTablet = "64rem";
+export const breakpointTabletMargin = "2rem";
 export const buttonActiveBackgroundColor = "rgb(0, 106, 97)";
 export const buttonActiveBackgroundImage = "none";
 export const buttonActiveBoxShadow = "none";
@@ -384,9 +394,9 @@ export const modalBackgroundColor = "rgb(255, 255, 255)";
 export const modalContentPadding = "1rem";
 export const modalHeaderPadding = ".75rem";
 export const modalInitialOpacity = "0";
-export const modalMaxWidth = "32.25rem";
+export const modalMaxWidth = "32rem";
 export const modalOpacity = "1";
-export const modalWideMaxWidth = "50.25rem";
+export const modalWideMaxWidth = "64rem";
 export const onePixelRem = ".0625rem";
 export const panelBackgroundColor = "rgb(255, 255, 255)";
 export const panelBorderColor = "rgb(221, 221, 229)";
@@ -509,14 +519,24 @@ boxShadowXl,
 };
 export const breakpoints = {
 breakpointDesktop,
+breakpointDesktopMargin,
 breakpointMobile,
+breakpointMobileMargin,
 breakpointQueryAboveDesktop,
 breakpointQueryAboveMobile,
 breakpointQueryAboveTablet,
 breakpointQueryMobile,
+breakpointQuerySmallMobile,
+breakpointQuerySmallTablet,
+breakpointQuerySmallTabletOnly,
 breakpointQueryTablet,
 breakpointQueryTabletOnly,
+breakpointSmallMobile,
+breakpointSmallMobileMargin,
+breakpointSmallTablet,
+breakpointSmallTabletMargin,
 breakpointTablet,
+breakpointTabletMargin,
 };
 export const buttons = {
 buttonActiveBackgroundColor,
