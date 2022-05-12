@@ -1,3 +1,20 @@
+# 2022-05-12
+
+**Breaking:**
+
+- bpk-foundations-web: 6.2.0 => 7.0.0
+    - Changed list margin tokens:
+        - List item margins:
+            - `$bpk-list-item-margin-bottom`, `listItemMarginBottom`: `0` to `0.25rem`
+        - List margins:
+            - `$bpk-list-margin-bottom`, `listMarginBottom`: `0.75rem` to `1rem`
+            - `$bpk-list-margin-top`, `listMarginTop`: `0` to `1rem`
+
+- bpk-mixins: 29.0.0 => 30.0.0
+    - `bpk-list-item` mixin - added bottom margin 
+    - `bpk-list--nested` mixin - added top and bottom padding
+    - `bpk-list` mixin - added top margin and changed bottom margin
+
 # 2022-04-22
 
 **Breaking:**
