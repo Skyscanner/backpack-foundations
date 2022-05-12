@@ -35,7 +35,7 @@ module.exports = {
   breakpointSmallMobile: "22.4375rem",
   breakpointSmallMobileMargin: "1rem",
   breakpointSmallTablet: "48rem",
-  breakpointSmallTabletMargin: "2rem",
+  breakpointSmallTabletMargin: "1.5rem",
   breakpointTablet: "64rem",
   breakpointTabletMargin: "2rem"
 };

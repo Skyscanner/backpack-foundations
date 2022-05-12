@@ -503,9 +503,9 @@
     },
     "BREAKPOINT_SMALL_TABLET_MARGIN": {
       "category": "breakpoints",
-      "value": "2rem",
+      "value": "1.5rem",
       "type": "size",
-      "originalValue": "{!SPACING_XL_V2}",
+      "originalValue": "{!SPACING_LG_V2}",
       "name": "BREAKPOINT_SMALL_TABLET_MARGIN"
     },
     "BREAKPOINT_QUERY_SMALL_TABLET": {
