@@ -903,6 +903,9 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-table--alternate {
   @include bpk-border-sm($bpk-color-sky-gray-tint-04, '');
+
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
 }
 
 /// Table cell.

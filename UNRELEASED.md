@@ -11,6 +11,9 @@
         - `$bpk-breakpoint-query-mobile`, `breakpointQueryMobile`
         - `$bpk-breakpoint-query-tablet`, `breakpointQueryTablet`
         - `$bpk-breakpoint-query-tablet-only`, `breakpointQueryTabletOnly`
+    - Modal max width tokens are using breakpoint tokens under the hood and therefore the following tokens have also changed:
+        - `$bpk-modal-max-width`, `modalMaxWidth`
+        - `$bpk-modal-wide-max-width`, `modalWideMaxWidth`
 
 - bpk-mixins:
     - Updated breakpoint mixins:
