@@ -18,20 +18,40 @@
  * 
  */
 /// @group breakpoints
-$bpk-breakpoint-desktop: 71.25rem;
+$bpk-breakpoint-desktop: 80rem;
 /// @group breakpoints
-$bpk-breakpoint-mobile: 32.25rem;
+$bpk-breakpoint-desktop-margin: 1rem * 3;
 /// @group breakpoints
-$bpk-breakpoint-query-above-desktop: "(min-width: 71.3125rem)";
+$bpk-breakpoint-mobile: 32rem;
 /// @group breakpoints
-$bpk-breakpoint-query-above-mobile: "(min-width: 32.3125rem)";
+$bpk-breakpoint-mobile-margin: 1.5rem;
 /// @group breakpoints
-$bpk-breakpoint-query-above-tablet: "(min-width: 50.3125rem)";
+$bpk-breakpoint-query-above-desktop: "(min-width: 80.0625rem)";
 /// @group breakpoints
-$bpk-breakpoint-query-mobile: "(max-width: 32.25rem)";
+$bpk-breakpoint-query-above-mobile: "(min-width: 32.0625rem)";
 /// @group breakpoints
-$bpk-breakpoint-query-tablet: "(max-width: 50.25rem)";
+$bpk-breakpoint-query-above-tablet: "(min-width: 64.0625rem)";
 /// @group breakpoints
-$bpk-breakpoint-query-tablet-only: "(min-width: 32.3125rem) and (max-width: 50.25rem)";
+$bpk-breakpoint-query-mobile: "(max-width: 32rem)";
 /// @group breakpoints
-$bpk-breakpoint-tablet: 50.25rem;
+$bpk-breakpoint-query-small-mobile: "(max-width: 22.4375rem)";
+/// @group breakpoints
+$bpk-breakpoint-query-small-tablet: "(max-width: 48rem)";
+/// @group breakpoints
+$bpk-breakpoint-query-small-tablet-only: "(min-width: 32.0625rem) and (max-width: 48rem)";
+/// @group breakpoints
+$bpk-breakpoint-query-tablet: "(max-width: 64rem)";
+/// @group breakpoints
+$bpk-breakpoint-query-tablet-only: "(min-width: 32.0625rem) and (max-width: 64rem)";
+/// @group breakpoints
+$bpk-breakpoint-small-mobile: 22.4375rem;
+/// @group breakpoints
+$bpk-breakpoint-small-mobile-margin: 1rem;
+/// @group breakpoints
+$bpk-breakpoint-small-tablet: 48rem;
+/// @group breakpoints
+$bpk-breakpoint-small-tablet-margin: 2rem;
+/// @group breakpoints
+$bpk-breakpoint-tablet: 64rem;
+/// @group breakpoints
+$bpk-breakpoint-tablet-margin: 2rem;

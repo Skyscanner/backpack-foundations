@@ -94,23 +94,43 @@ $bpk-box-shadow-sm: 0px 1px 3px 0px rgba(37,32,31,.3);
 /// @group box-shadows
 $bpk-box-shadow-xl: 0px 12px 50px 0px rgba(37,32,31,.25);
 /// @group breakpoints
-$bpk-breakpoint-desktop: 71.25rem;
+$bpk-breakpoint-desktop: 80rem;
 /// @group breakpoints
-$bpk-breakpoint-mobile: 32.25rem;
+$bpk-breakpoint-desktop-margin: 1rem * 3;
 /// @group breakpoints
-$bpk-breakpoint-query-above-desktop: "(min-width: 71.3125rem)";
+$bpk-breakpoint-mobile: 32rem;
 /// @group breakpoints
-$bpk-breakpoint-query-above-mobile: "(min-width: 32.3125rem)";
+$bpk-breakpoint-mobile-margin: 1.5rem;
 /// @group breakpoints
-$bpk-breakpoint-query-above-tablet: "(min-width: 50.3125rem)";
+$bpk-breakpoint-query-above-desktop: "(min-width: 80.0625rem)";
 /// @group breakpoints
-$bpk-breakpoint-query-mobile: "(max-width: 32.25rem)";
+$bpk-breakpoint-query-above-mobile: "(min-width: 32.0625rem)";
 /// @group breakpoints
-$bpk-breakpoint-query-tablet: "(max-width: 50.25rem)";
+$bpk-breakpoint-query-above-tablet: "(min-width: 64.0625rem)";
 /// @group breakpoints
-$bpk-breakpoint-query-tablet-only: "(min-width: 32.3125rem) and (max-width: 50.25rem)";
+$bpk-breakpoint-query-mobile: "(max-width: 32rem)";
 /// @group breakpoints
-$bpk-breakpoint-tablet: 50.25rem;
+$bpk-breakpoint-query-small-mobile: "(max-width: 22.4375rem)";
+/// @group breakpoints
+$bpk-breakpoint-query-small-tablet: "(max-width: 48rem)";
+/// @group breakpoints
+$bpk-breakpoint-query-small-tablet-only: "(min-width: 32.0625rem) and (max-width: 48rem)";
+/// @group breakpoints
+$bpk-breakpoint-query-tablet: "(max-width: 64rem)";
+/// @group breakpoints
+$bpk-breakpoint-query-tablet-only: "(min-width: 32.0625rem) and (max-width: 64rem)";
+/// @group breakpoints
+$bpk-breakpoint-small-mobile: 22.4375rem;
+/// @group breakpoints
+$bpk-breakpoint-small-mobile-margin: 1rem;
+/// @group breakpoints
+$bpk-breakpoint-small-tablet: 48rem;
+/// @group breakpoints
+$bpk-breakpoint-small-tablet-margin: 2rem;
+/// @group breakpoints
+$bpk-breakpoint-tablet: 64rem;
+/// @group breakpoints
+$bpk-breakpoint-tablet-margin: 2rem;
 /// @group buttons
 $bpk-button-active-background-color: rgb(0, 106, 97);
 /// @group buttons
@@ -752,11 +772,11 @@ $bpk-modal-header-padding: .75rem;
 /// @group modals
 $bpk-modal-initial-opacity: 0;
 /// @group modals
-$bpk-modal-max-width: 32.25rem;
+$bpk-modal-max-width: 32rem;
 /// @group modals
 $bpk-modal-opacity: 1;
 /// @group modals
-$bpk-modal-wide-max-width: 50.25rem;
+$bpk-modal-wide-max-width: 64rem;
 /// @group spacings
 $bpk-one-pixel-rem: .0625rem;
 /// @group panels
