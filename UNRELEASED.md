@@ -2,15 +2,15 @@
 
 - bpk-foundations-web:
     - Updated breakpoint tokens:
-        - `breakpointMobile`
-        - `breakpointTablet`
-        - `breakpointDesktop`
-        - `breakpointQueryAboveMobile`
-        - `breakpointQueryAboveTablet`
-        - `breakpointQueryAboveDesktop`
-        - `breakpointQueryMobile`
-        - `breakpointQueryTablet`
-        - `breakpointQueryTabletOnly`
+        - `$bpk-breakpoint-mobile`, `breakpointMobile`
+        - `$bpk-breakpoint-tablet`, `breakpointTablet`
+        - `$bpk-breakpoint-desktop`, `breakpointDesktop`
+        - `$bpk-breakpoint-query-above-mobile`, `breakpointQueryAboveMobile`
+        - `$bpk-breakpoint-query-above-tablet`, `breakpointQueryAboveTablet`
+        - `$bpk-breakpoint-query-above-desktop`, `breakpointQueryAboveDesktop`
+        - `$bpk-breakpoint-query-mobile`, `breakpointQueryMobile`
+        - `$bpk-breakpoint-query-tablet`, `breakpointQueryTablet`
+        - `$bpk-breakpoint-query-tablet-only`, `breakpointQueryTabletOnly`
 
 - bpk-mixins:
     - Updated breakpoint mixins:
@@ -24,18 +24,18 @@
 
 - bpk-foundations-web:
     - Added new breakpoint tokens:
-        - `breakpointSmallMobile`
-        - `breakpointSmallTablet`
-        - `breakpointQuerySmallMobile`
-        - `breakpointQuerySmallTablet`
-        - `breakpointQuerySmallTabletOnly`
+        - `$bpk-breakpoint-small-mobile`, `breakpointSmallMobile`
+        - `$bpk-breakpoint-small-tablet`, `breakpointSmallTablet`
+        - `$bpk-breakpoint-query-small-mobile`, `breakpointQuerySmallMobile`
+        - `$bpk-breakpoint-query-small-tablet`, `breakpointQuerySmallTablet`
+        - `$bpk-breakpoint-query-small-tablet-only`, `breakpointQuerySmallTabletOnly`
 
     - Added new breakpoint margin tokens to be used as a white space on the left-and-right of the screen:
-        - `breakpointSmallMobileMargin`
-        - `breakpointMobileMargin`
-        - `breakpointSmallTabletMargin`
-        - `breakpointTabletMargin`
-        - `breakpointDesktopMargin`
+        - `$bpk-breakpoint-small-mobile-margin`, `breakpointSmallMobileMargin`
+        - `$bpk-breakpoint-mobile-margin`, `breakpointMobileMargin`
+        - `$bpk-breakpoint-small-tablet-margin`, `breakpointSmallTabletMargin`
+        - `$bpk-breakpoint-tablet-margin`, `breakpointTabletMargin`
+        - `$bpk-breakpoint-desktop-margin`, `breakpointDesktopMargin`
 
 - bpk-mixins:
     - Added new breakpoint mixins:
