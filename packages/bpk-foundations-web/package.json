@@ -1,6 +1,6 @@
 {
   "name": "@skyscanner/bpk-foundations-web",
-  "version": "6.2.0",
+  "version": "7.0.0",
   "description": "Common Backpack design tokens for colors, spacing, font, etc.",
   "license": "Apache-2.0",
   "repository": {
