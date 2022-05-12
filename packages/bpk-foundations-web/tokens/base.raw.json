@@ -3010,10 +3010,10 @@
       "name": "LINK_ALTERNATE_VISITED_COLOR"
     },
     "LIST_MARGIN_TOP": {
-      "value": "0",
+      "value": "1rem",
       "type": "size",
       "category": "spacings",
-      "originalValue": "0",
+      "originalValue": "{!SPACING_BASE_V2}",
       "name": "LIST_MARGIN_TOP"
     },
     "LINK_WHITE_ACTIVE_COLOR": {
@@ -3244,10 +3244,10 @@
       "name": "FONT_SIZE_ROOT"
     },
     "LIST_ITEM_MARGIN_BOTTOM": {
-      "value": "0",
+      "value": ".25rem",
       "type": "size",
       "category": "spacings",
-      "originalValue": "0",
+      "originalValue": "{!SPACING_SM_V2}",
       "name": "LIST_ITEM_MARGIN_BOTTOM"
     },
     "H1_FONT_WEIGHT": {
@@ -3451,10 +3451,10 @@
       "name": "H1_FONT_SIZE"
     },
     "LIST_MARGIN_BOTTOM": {
-      "value": ".75rem",
+      "value": "1rem",
       "type": "size",
       "category": "spacings",
-      "originalValue": "{!SPACING_SM}",
+      "originalValue": "{!SPACING_BASE_V2}",
       "name": "LIST_MARGIN_BOTTOM"
     },
     "TEXT_XS_LETTER_SPACING": {
