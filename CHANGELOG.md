@@ -2,6 +2,55 @@
 
 **Breaking:**
 
+- bpk-foundations-web: 7.0.0 => 8.0.0
+    - Updated breakpoint tokens. If you are using any of the following tokens, please ensure your component still looks good with the new breakpoints.
+        - `$bpk-breakpoint-mobile`, `breakpointMobile`
+        - `$bpk-breakpoint-tablet`, `breakpointTablet`
+        - `$bpk-breakpoint-desktop`, `breakpointDesktop`
+        - `$bpk-breakpoint-query-above-mobile`, `breakpointQueryAboveMobile`
+        - `$bpk-breakpoint-query-above-tablet`, `breakpointQueryAboveTablet`
+        - `$bpk-breakpoint-query-above-desktop`, `breakpointQueryAboveDesktop`
+        - `$bpk-breakpoint-query-mobile`, `breakpointQueryMobile`
+        - `$bpk-breakpoint-query-tablet`, `breakpointQueryTablet`
+        - `$bpk-breakpoint-query-tablet-only`, `breakpointQueryTabletOnly`
+    - Modal max width tokens are using breakpoint tokens under the hood and therefore the following tokens have also changed:
+        - `$bpk-modal-max-width`, `modalMaxWidth`
+        - `$bpk-modal-wide-max-width`, `modalWideMaxWidth`
+
+- bpk-mixins: 30.0.0 => 31.0.0
+    - Updated breakpoint mixins. If you are using any of the following mixins, please ensure your component still looks good with the new breakpoints.
+        - `bpk-breakpoint-mobile`
+        - `bpk-breakpoint-tablet`
+        - `bpk-breakpoint-tablet-only`
+        - `bpk-breakpoint-above-mobile`
+        - `bpk-breakpoint-above-tablet`
+
+**Added:**
+
+- bpk-foundations-web: 7.0.0 => 8.0.0
+    - Added new breakpoint tokens:
+        - `$bpk-breakpoint-small-mobile`, `breakpointSmallMobile`
+        - `$bpk-breakpoint-small-tablet`, `breakpointSmallTablet`
+        - `$bpk-breakpoint-query-small-mobile`, `breakpointQuerySmallMobile`
+        - `$bpk-breakpoint-query-small-tablet`, `breakpointQuerySmallTablet`
+        - `$bpk-breakpoint-query-small-tablet-only`, `breakpointQuerySmallTabletOnly`
+
+    - Added new breakpoint margin tokens that should be used as a white space on the left-and-right of the screen:
+        - `$bpk-breakpoint-small-mobile-margin`, `breakpointSmallMobileMargin`
+        - `$bpk-breakpoint-mobile-margin`, `breakpointMobileMargin`
+        - `$bpk-breakpoint-small-tablet-margin`, `breakpointSmallTabletMargin`
+        - `$bpk-breakpoint-tablet-margin`, `breakpointTabletMargin`
+        - `$bpk-breakpoint-desktop-margin`, `breakpointDesktopMargin`
+
+- bpk-mixins: 30.0.0 => 31.0.0
+    - Added new breakpoint mixins:
+        - `bpk-breakpoint-small-mobile`
+        - `bpk-breakpoint-small-tablet-only`
+
+# 2022-05-12
+
+**Breaking:**
+
 - bpk-foundations-web: 6.2.0 => 7.0.0
     - Changed list margin tokens:
         - List item margins:
