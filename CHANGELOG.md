@@ -1,3 +1,11 @@
+# 2022-05-24
+
+**Added:**
+
+- bpk-mixins: 31.0.0 => 31.1.0
+    - Added new breakpoint mixins:
+        - `bpk-breakpoint-small-tablet`
+
 # 2022-05-12
 
 **Breaking:**
