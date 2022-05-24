@@ -28,7 +28,7 @@
   @include bpk-grid__container;
 }
 
-/// Breakpoint to target small mobile viewports.
+/// Breakpoint to target up to and including small mobile viewports.
 ///
 /// @content
 ///
@@ -47,14 +47,14 @@
   }
 }
 
-/// Breakpoint to target mobile viewports.
+/// Breakpoint to target up to and including mobile viewports.
 ///
 /// @content
 ///
 /// @example scss
 ///   .selector {
 ///     @include bpk-breakpoint-mobile {
-///       /* mobile viewport scss goes here */
+///       /* up to and including mobile viewport scss goes here */
 ///     }
 ///
 ///     /* tablet & desktop viewport scss goes here */
@@ -66,26 +66,26 @@
   }
 }
 
-/// Breakpoint to target small tablet viewports.
+/// Breakpoint to target up to and including small tablet viewports.
 ///
 /// @content
 ///
 /// @example scss
 ///   .selector {
-///     @include bpk-breakpoint-small-tablet-only {
-///       /* small tablet viewport scss goes here */
+///     @include bpk-breakpoint-small-tablet {
+///       /* up to and including small tablet viewport scss goes here */
 ///     }
 ///
-///     /* mobile, larger tablet & desktop viewport scss goes here */
+///     /* larger tablet & desktop viewport scss goes here */
 ///   }
 
-@mixin bpk-breakpoint-small-tablet-only {
-  @media #{$bpk-breakpoint-query-small-tablet-only} {
+@mixin bpk-breakpoint-small-tablet {
+  @media #{$bpk-breakpoint-query-small-tablet} {
     @content;
   }
 }
 
-/// Breakpoint to target mobile & tablet viewports.
+/// Breakpoint to target up to and including tablet viewports.
 ///
 /// @content
 ///
@@ -104,7 +104,26 @@
   }
 }
 
-/// Breakpoint to target tablet viewports.
+/// Breakpoint to target only small tablet viewports.
+///
+/// @content
+///
+/// @example scss
+///   .selector {
+///     @include bpk-breakpoint-small-tablet-only {
+///       /* small tablet viewport scss goes here */
+///     }
+///
+///     /* mobile, larger tablet & desktop viewport scss goes here */
+///   }
+
+@mixin bpk-breakpoint-small-tablet-only {
+  @media #{$bpk-breakpoint-query-small-tablet-only} {
+    @content;
+  }
+}
+
+/// Breakpoint to target only tablet viewports.
 ///
 /// @content
 ///
