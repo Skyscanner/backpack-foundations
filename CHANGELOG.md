@@ -1,3 +1,10 @@
+# 2022-05-26
+
+**Fixed:**
+
+- bpk-mixins:
+    - Remove custom font weight from `bpk-button--link`.
+
 # 2022-05-24
 
 **Added:**
