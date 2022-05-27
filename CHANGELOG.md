@@ -203,20 +203,23 @@
     - Some button background and text colour tokens are changed. See below under colour changes for more details.
 
 - bpk-mixins: 26.1.1 => 27.0.0
-    - added minimum height `36px` for default and `48px` for large buttons
-    - changed radius from `.375rem` to `.5rem` for both default and large buttons
-    - changed radius of icon-only buttons from `50%` to `.5rem`
-    - L/R padding for large buttons was changed from `24px` to `16px`
-    - changed large buttons style to `heading-4`
-    - removed borders and box shadow from all buttons
-    - colour changes:
-        - Primary buttons:
-            - background colour in hover state is slightly changed
-        - Secondary buttons:
-            - background colour in default, hover, and pressed mode is changed
-            - text colour in default and hover state is changed
-        - Destructive buttons:
-            - background colour and text colour changed in default, hover, pressed mode
+    - `bpk-button`:
+      - added minimum height `36px`. This may cause some buttons to appear larger in height.
+      - changed button radius from `.375rem` to `.5rem`
+      - removed borders and box shadows from all buttons
+      - changed background colour in hover state
+    - `bpk-button--secondary`:
+      - changed background colour in default, hover, and pressed mode
+      - changed text colour in default and hover state
+    - `bpk-button--destructive`:
+      - changed background colour and text colour in default, hover, pressed mode
+    - `bpk-button--large`:
+      - added minimum height `48px`. This may cause some buttons to appear larger in height.
+      - changed radius from `.375rem` to `.5rem`
+      - L/R padding for large buttons was changed from `24px` to `16px`. This will cause large buttons to appear smaller in width.
+      - changed large buttons style to `heading-4`. This will cause the text to appear smaller.
+    - `bpk-button--icon-only`:
+      - changed radius of icon-only buttons from `50%` to `.5rem`. This changes the shape of icon-only buttons from round to more square-shaped.
 
 **Changed:**
 - @skyscanner/bpk-foundations-web: 5.3.0 => 6.0.0
