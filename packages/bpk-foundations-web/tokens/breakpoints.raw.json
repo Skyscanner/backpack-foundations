@@ -12,8 +12,17 @@
     "SKY_BLUE_TINT_03": {
       "value": "#cddff8"
     },
+    "YELLOW_MUTED": {
+      "value": "#FFEBD0"
+    },
+    "NIGHT_BLUE": {
+      "value": "#6D9FEB"
+    },
     "SKY_GRAY": {
       "value": "#111236"
+    },
+    "PINK_MUTED": {
+      "value": "#F6DDE1"
     },
     "NARA": {
       "value": "#ffe7e0"
@@ -27,11 +36,29 @@
     "BLACK_TINT_01": {
       "value": "#1D1B20"
     },
+    "NIGHT_PINK_FILL": {
+      "value": "#FFCADD"
+    },
     "ERFOUD": {
       "value": "#ffb54d"
     },
+    "NIGHT_GREEN_SPOT": {
+      "value": "#00A698"
+    },
+    "NIGHT_GREEN_FILL": {
+      "value": "#73CEC6"
+    },
+    "NIGHT_YELLOW_SPOT": {
+      "value": "#FFB54D"
+    },
+    "BLUE_MUTED": {
+      "value": "#D9F8FF"
+    },
     "BLACK_TINT_02": {
       "value": "#2C2C2E"
+    },
+    "NIGHT_YELLOW_FILL": {
+      "value": "#FBF1BB"
     },
     "BLACK_TINT_03": {
       "value": "#3A3A3C"
@@ -81,17 +108,47 @@
     "SKY_GRAY_TINT_06": {
       "value": "#DDDDE5"
     },
+    "CHARCOAL": {
+      "value": "#111236"
+    },
     "SKY_GRAY_TINT_07": {
       "value": "#F1F2F8"
+    },
+    "ORANGE": {
+      "value": "#FF7B59"
     },
     "PETRA": {
       "value": "#ffab95"
     },
+    "GREEN_MUTED": {
+      "value": "#D0EEEC"
+    },
     "ABISKO": {
       "value": "#5a489b"
     },
+    "GREY_1": {
+      "value": "#F1F2F8"
+    },
     "PANJIN": {
       "value": "#d1435b"
+    },
+    "GREY_2": {
+      "value": "#DDDDE5"
+    },
+    "NIGHT_BERRY_SPOT": {
+      "value": "#D1435B"
+    },
+    "GREY_3": {
+      "value": "#CDCDD7"
+    },
+    "YELLOW": {
+      "value": "#FEEB87"
+    },
+    "GREY_4": {
+      "value": "#68697F"
+    },
+    "ECO_GREEN": {
+      "value": "#0FA1A9"
     },
     "HILLIER": {
       "value": "#e18b96"
@@ -99,26 +156,65 @@
     "BAGAN": {
       "value": "#ffebd0"
     },
+    "PINK": {
+      "value": "#FFA3E5"
+    },
+    "BERRY": {
+      "value": "#D1435B"
+    },
+    "GREEN_BRIGHT": {
+      "value": "#93FFDE"
+    },
+    "DARK_SKY": {
+      "value": "#02122C"
+    },
     "SKY_BLUE": {
       "value": "#0770e3"
+    },
+    "NIGHT_GREY_1": {
+      "value": "#000000"
     },
     "BUNOL": {
       "value": "#ff7b59"
     },
+    "NIGHT_GREY_2": {
+      "value": "#2C2C2E"
+    },
+    "NIGHT_SKY": {
+      "value": "#054184"
+    },
     "SKY_BLUE_SHADE_01": {
       "value": "#084eb2"
+    },
+    "NIGHT_GREY_3": {
+      "value": "#636366"
     },
     "SKY_BLUE_SHADE_02": {
       "value": "#042759"
     },
+    "NIGHT_GREY_4": {
+      "value": "#8E8E93"
+    },
     "SKY_BLUE_SHADE_03": {
       "value": "#02122c"
+    },
+    "PURPLE": {
+      "value": "#8E47BA"
+    },
+    "GREEN_SPOT": {
+      "value": "#00A698"
     },
     "SKY_BLUE_TINT_01": {
       "value": "#6d9feb"
     },
+    "AMBER_SPOT": {
+      "value": "#FF9400"
+    },
     "SKY_BLUE_TINT_02": {
       "value": "#9dc0f2"
+    },
+    "BLUE_BRIGHT": {
+      "value": "#A1EEFF"
     },
     "VALENSOLE": {
       "value": "#a59bc8"
