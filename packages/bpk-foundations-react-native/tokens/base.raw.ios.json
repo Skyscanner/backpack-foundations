@@ -3,6 +3,9 @@
     "ABISKO": {
       "value": "#5a489b"
     },
+    "AMBER_SPOT": {
+      "value": "#FF9400"
+    },
     "ANIMATION_DURATION_BASE": {
       "value": "400ms"
     },
@@ -14,6 +17,9 @@
     },
     "BAGAN": {
       "value": "#ffebd0"
+    },
+    "BERRY": {
+      "value": "#D1435B"
     },
     "BLACK": {
       "value": "#000000"
@@ -35,6 +41,12 @@
     },
     "BLACK_TINT_06": {
       "value": "#8E8E93"
+    },
+    "BLUE_BRIGHT": {
+      "value": "#A1EEFF"
+    },
+    "BLUE_MUTED": {
+      "value": "#D9F8FF"
     },
     "BORDER_RADIUS_LG": {
       "value": 24
@@ -71,6 +83,15 @@
     },
     "CAROUSEL_INDICATOR_DOT_SIZE_SM": {
       "value": 2
+    },
+    "CHARCOAL": {
+      "value": "#111236"
+    },
+    "DARK_SKY": {
+      "value": "#02122C"
+    },
+    "ECO_GREEN": {
+      "value": "#0FA1A9"
     },
     "ERFOUD": {
       "value": "#ffb54d"
@@ -113,6 +134,27 @@
     },
     "GLENCOE": {
       "value": "#73cec6"
+    },
+    "GREEN_BRIGHT": {
+      "value": "#93FFDE"
+    },
+    "GREEN_MUTED": {
+      "value": "#D0EEEC"
+    },
+    "GREEN_SPOT": {
+      "value": "#00A698"
+    },
+    "GREY_1": {
+      "value": "#F1F2F8"
+    },
+    "GREY_2": {
+      "value": "#DDDDE5"
+    },
+    "GREY_3": {
+      "value": "#CDCDD7"
+    },
+    "GREY_4": {
+      "value": "#68697F"
     },
     "HARBOUR": {
       "value": "#f6dde1"
@@ -171,14 +213,62 @@
     "NARA": {
       "value": "#ffe7e0"
     },
+    "NIGHT_BERRY_SPOT": {
+      "value": "#D1435B"
+    },
+    "NIGHT_BLUE": {
+      "value": "#6D9FEB"
+    },
+    "NIGHT_GREEN_FILL": {
+      "value": "#73CEC6"
+    },
+    "NIGHT_GREEN_SPOT": {
+      "value": "#00A698"
+    },
+    "NIGHT_GREY_1": {
+      "value": "#000000"
+    },
+    "NIGHT_GREY_2": {
+      "value": "#2C2C2E"
+    },
+    "NIGHT_GREY_3": {
+      "value": "#636366"
+    },
+    "NIGHT_GREY_4": {
+      "value": "#8E8E93"
+    },
+    "NIGHT_PINK_FILL": {
+      "value": "#FFCADD"
+    },
+    "NIGHT_SKY": {
+      "value": "#054184"
+    },
+    "NIGHT_YELLOW_FILL": {
+      "value": "#FBF1BB"
+    },
+    "NIGHT_YELLOW_SPOT": {
+      "value": "#FFB54D"
+    },
+    "ORANGE": {
+      "value": "#FF7B59"
+    },
     "PANJIN": {
       "value": "#d1435b"
     },
     "PETRA": {
       "value": "#ffab95"
     },
+    "PINK": {
+      "value": "#FFA3E5"
+    },
+    "PINK_MUTED": {
+      "value": "#F6DDE1"
+    },
     "PRIMARY_GRADIENT_LIGHT": {
       "value": "#02DDD8"
+    },
+    "PURPLE": {
+      "value": "#8E47BA"
     },
     "SAGANO": {
       "value": "#d0eeec"
@@ -257,6 +347,12 @@
     },
     "WHITE": {
       "value": "#ffffff"
+    },
+    "YELLOW": {
+      "value": "#FEEB87"
+    },
+    "YELLOW_MUTED": {
+      "value": "#FFEBD0"
     }
   },
   "props": {
