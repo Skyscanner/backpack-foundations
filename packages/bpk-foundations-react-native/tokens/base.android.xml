@@ -61,6 +61,7 @@
   <color name="BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR" category="colors">#ffffffff</color>
   <color name="COLOR_WHITE" category="colors">#ffffffff</color>
   <color name="COLOR_BLACK_TINT_05" category="colors">#636366ff</color>
+  <color name="COLOR_NIGHT_BERRY_SPOT" category="colors">#d1435bff</color>
   <color name="COLOR_BLACK_TINT_06" category="colors">#8e8e93ff</color>
   <color name="COLOR_PANJIN" category="colors">#d1435bff</color>
   <color name="COLOR_SYSTEM_GREEN" category="colors">#00a698ff</color>
