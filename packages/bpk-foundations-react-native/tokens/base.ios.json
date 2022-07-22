@@ -477,12 +477,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#d1435bff",
-      "name": "colorNightBerrySpot"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#8e8e93ff",
       "name": "colorBlackTint06"
     },

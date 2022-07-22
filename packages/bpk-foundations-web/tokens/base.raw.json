@@ -2178,13 +2178,6 @@
       "originalValue": "{!SKY_BLUE}",
       "name": "PRIMARY_GRADIENT"
     },
-    "COLOR_NIGHT_BERRY_SPOT": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(209, 67, 91)",
-      "originalValue": "{!NIGHT_BERRY_SPOT}",
-      "name": "COLOR_NIGHT_BERRY_SPOT"
-    },
     "COLOR_PANJIN": {
       "type": "color",
       "category": "colors",
