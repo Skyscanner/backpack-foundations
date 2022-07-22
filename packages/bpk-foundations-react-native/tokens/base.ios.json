@@ -399,12 +399,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#ffcaddff",
-      "name": "colorNightPinkFill"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#111236ff",
       "name": "colorCharcoal"
     },
@@ -479,12 +473,6 @@
       "category": "colors",
       "value": "#636366ff",
       "name": "colorBlackTint05"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d1435bff",
-      "name": "colorNightBerrySpot"
     },
     {
       "type": "color",
@@ -573,6 +561,12 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#d1435bff",
+      "name": "colorNightBerry"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#d0eeecff",
       "name": "colorGreenMuted"
     },
@@ -635,6 +629,12 @@
       "category": "colors",
       "value": "#0fa1a9ff",
       "name": "colorEcoGreen"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffcaddff",
+      "name": "colorNightPink"
     },
     {
       "type": "color",

@@ -119,7 +119,7 @@ export const colorHillier = "rgb(225, 139, 150)";
 export const colorKolkata = "rgb(255, 148, 0)";
 export const colorMonteverde = "rgb(0, 166, 152)";
 export const colorNara = "rgb(255, 231, 224)";
-export const colorNightBerrySpot = "rgb(209, 67, 91)";
+export const colorNightBerry = "rgb(209, 67, 91)";
 export const colorNightBlue = "rgb(109, 159, 235)";
 export const colorNightGreenFill = "rgb(115, 206, 198)";
 export const colorNightGreenSpot = "rgb(0, 166, 152)";
@@ -127,7 +127,7 @@ export const colorNightGrey10 = "rgb(0, 0, 0)";
 export const colorNightGrey20 = "rgb(44, 44, 46)";
 export const colorNightGrey30 = "rgb(99, 99, 102)";
 export const colorNightGrey40 = "rgb(142, 142, 147)";
-export const colorNightPinkFill = "rgb(255, 202, 221)";
+export const colorNightPink = "rgb(255, 202, 221)";
 export const colorNightSky = "rgb(5, 65, 132)";
 export const colorNightYellowFill = "rgb(251, 241, 187)";
 export const colorNightYellowSpot = "rgb(255, 181, 77)";
@@ -347,7 +347,7 @@ colorHillier,
 colorKolkata,
 colorMonteverde,
 colorNara,
-colorNightBerrySpot,
+colorNightBerry,
 colorNightBlue,
 colorNightGreenFill,
 colorNightGreenSpot,
@@ -355,7 +355,7 @@ colorNightGrey10,
 colorNightGrey20,
 colorNightGrey30,
 colorNightGrey40,
-colorNightPinkFill,
+colorNightPink,
 colorNightSky,
 colorNightYellowFill,
 colorNightYellowSpot,

@@ -403,15 +403,15 @@
       "category": "colors",
       "value": "{!NIGHT_YELLOW_FILL}"
     },
-    "COLOR_NIGHT_BERRY_SPOT": {
+    "COLOR_NIGHT_BERRY": {
       "type": "color",
       "category": "colors",
-      "value": "{!NIGHT_BERRY_SPOT}"
+      "value": "{!NIGHT_BERRY}"
     },
-    "COLOR_NIGHT_PINK_FILL": {
+    "COLOR_NIGHT_PINK": {
       "type": "color",
       "category": "colors",
-      "value": "{!NIGHT_PINK_FILL}"
+      "value": "{!NIGHT_PINK}"
     },
     "COLOR_NIGHT_GREY_10": {
       "type": "color",

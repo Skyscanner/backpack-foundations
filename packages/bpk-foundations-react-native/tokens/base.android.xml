@@ -48,7 +48,6 @@
   <color name="COLOR_SKY_GRAY_TINT_06" category="colors">#dddde5ff</color>
   <color name="BACKGROUND_LIGHT_COLOR" category="colors">#ffffffff</color>
   <color name="COLOR_BLACK_TINT_01" category="colors">#1d1b20ff</color>
-  <color name="COLOR_NIGHT_PINK_FILL" category="colors">#ffcaddff</color>
   <color name="COLOR_CHARCOAL" category="colors">#111236ff</color>
   <color name="COLOR_SKY_GRAY_TINT_07" category="colors">#f1f2f8ff</color>
   <color name="COLOR_BLACK_TINT_02" category="colors">#2c2c2eff</color>
@@ -62,7 +61,6 @@
   <color name="BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR" category="colors">#ffffffff</color>
   <color name="COLOR_WHITE" category="colors">#ffffffff</color>
   <color name="COLOR_BLACK_TINT_05" category="colors">#636366ff</color>
-  <color name="COLOR_NIGHT_BERRY_SPOT" category="colors">#d1435bff</color>
   <color name="COLOR_BLACK_TINT_06" category="colors">#8e8e93ff</color>
   <color name="COLOR_PANJIN" category="colors">#d1435bff</color>
   <color name="COLOR_SYSTEM_GREEN" category="colors">#00a698ff</color>
@@ -77,6 +75,7 @@
   <color name="COLOR_PINK" category="colors">#ffa3e5ff</color>
   <color name="COLOR_GREEN_BRIGHT" category="colors">#93ffdeff</color>
   <color name="COLOR_PETRA" category="colors">#ffab95ff</color>
+  <color name="COLOR_NIGHT_BERRY" category="colors">#d1435bff</color>
   <color name="COLOR_GREEN_MUTED" category="colors">#d0eeecff</color>
   <color name="COLOR_DARK_SKY" category="colors">#02122cff</color>
   <color name="COLOR_SKY_BLUE" category="colors">#0770e3ff</color>
@@ -88,6 +87,7 @@
   <color name="COLOR_BAGAN" category="colors">#ffebd0ff</color>
   <color name="COLOR_NIGHT_GREY_40" category="colors">#8e8e93ff</color>
   <color name="COLOR_ECO_GREEN" category="colors">#0fa1a9ff</color>
+  <color name="COLOR_NIGHT_PINK" category="colors">#ffcaddff</color>
   <color name="COLOR_HILLIER" category="colors">#e18b96ff</color>
   <color name="COLOR_AMBER_SPOT" category="colors">#ff9400ff</color>
   <color name="COLOR_NIGHT_GREY_30" category="colors">#636366ff</color>

@@ -36,9 +36,6 @@
     "BLACK_TINT_01": {
       "value": "#1D1B20"
     },
-    "NIGHT_PINK_FILL": {
-      "value": "#FFCADD"
-    },
     "ERFOUD": {
       "value": "#ffb54d"
     },
@@ -126,11 +123,11 @@
     "ABISKO": {
       "value": "#5a489b"
     },
+    "NIGHT_BERRY": {
+      "value": "#D1435B"
+    },
     "PANJIN": {
       "value": "#d1435b"
-    },
-    "NIGHT_BERRY_SPOT": {
-      "value": "#D1435B"
     },
     "YELLOW": {
       "value": "#FEEB87"
@@ -194,6 +191,9 @@
     },
     "GREY_40": {
       "value": "#68697F"
+    },
+    "NIGHT_PINK": {
+      "value": "#FFCADD"
     },
     "GREY_30": {
       "value": "#CDCDD7"

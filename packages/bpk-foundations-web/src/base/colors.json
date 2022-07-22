@@ -189,11 +189,11 @@
     "COLOR_NIGHT_YELLOW_FILL": {
       "value": "{!NIGHT_YELLOW_FILL}"
     },
-    "COLOR_NIGHT_BERRY_SPOT": {
-      "value": "{!NIGHT_BERRY_SPOT}"
+    "COLOR_NIGHT_BERRY": {
+      "value": "{!NIGHT_BERRY}"
     },
-    "COLOR_NIGHT_PINK_FILL": {
-      "value": "{!NIGHT_PINK_FILL}"
+    "COLOR_NIGHT_PINK": {
+      "value": "{!NIGHT_PINK}"
     },
     "COLOR_NIGHT_GREY_10": {
       "value": "{!NIGHT_GREY_10}"

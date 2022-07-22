@@ -487,8 +487,8 @@
       "type": "color",
       "category": "colors",
       "value": "#d1435bff",
-      "originalValue": "{!NIGHT_BERRY_SPOT}",
-      "name": "colorNightBerrySpot"
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "colorNightBerry"
     },
     {
       "type": "color",
@@ -543,8 +543,8 @@
       "type": "color",
       "category": "colors",
       "value": "#ffcaddff",
-      "originalValue": "{!NIGHT_PINK_FILL}",
-      "name": "colorNightPinkFill"
+      "originalValue": "{!NIGHT_PINK}",
+      "name": "colorNightPink"
     },
     {
       "type": "color",

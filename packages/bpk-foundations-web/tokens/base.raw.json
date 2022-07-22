@@ -36,9 +36,6 @@
     "BLACK_TINT_01": {
       "value": "#1D1B20"
     },
-    "NIGHT_PINK_FILL": {
-      "value": "#FFCADD"
-    },
     "ERFOUD": {
       "value": "#ffb54d"
     },
@@ -126,11 +123,11 @@
     "ABISKO": {
       "value": "#5a489b"
     },
+    "NIGHT_BERRY": {
+      "value": "#D1435B"
+    },
     "PANJIN": {
       "value": "#d1435b"
-    },
-    "NIGHT_BERRY_SPOT": {
-      "value": "#D1435B"
     },
     "YELLOW": {
       "value": "#FEEB87"
@@ -194,6 +191,9 @@
     },
     "GREY_40": {
       "value": "#68697F"
+    },
+    "NIGHT_PINK": {
+      "value": "#FFCADD"
     },
     "GREY_30": {
       "value": "#CDCDD7"
@@ -2115,13 +2115,6 @@
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_LIGHT_COLOR"
     },
-    "COLOR_NIGHT_PINK_FILL": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(255, 202, 221)",
-      "originalValue": "{!NIGHT_PINK_FILL}",
-      "name": "COLOR_NIGHT_PINK_FILL"
-    },
     "COLOR_CHARCOAL": {
       "type": "color",
       "category": "colors",
@@ -2184,13 +2177,6 @@
       "value": "#0770e3",
       "originalValue": "{!SKY_BLUE}",
       "name": "PRIMARY_GRADIENT"
-    },
-    "COLOR_NIGHT_BERRY_SPOT": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(209, 67, 91)",
-      "originalValue": "{!NIGHT_BERRY_SPOT}",
-      "name": "COLOR_NIGHT_BERRY_SPOT"
     },
     "COLOR_PANJIN": {
       "type": "color",
@@ -2262,6 +2248,13 @@
       "originalValue": "{!PETRA}",
       "name": "COLOR_PETRA"
     },
+    "COLOR_NIGHT_BERRY": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(209, 67, 91)",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "COLOR_NIGHT_BERRY"
+    },
     "COLOR_GREEN_MUTED": {
       "type": "color",
       "category": "colors",
@@ -2317,6 +2310,13 @@
       "value": "rgb(15, 161, 169)",
       "originalValue": "{!ECO_GREEN}",
       "name": "COLOR_ECO_GREEN"
+    },
+    "COLOR_NIGHT_PINK": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 202, 221)",
+      "originalValue": "{!NIGHT_PINK}",
+      "name": "COLOR_NIGHT_PINK"
     },
     "COLOR_HILLIER": {
       "type": "color",
