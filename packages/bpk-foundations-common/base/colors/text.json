@@ -1,0 +1,65 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "type": "color",
+    "category": "text-colors"
+  },
+  "props": {
+    "TEXT_PRIMARY_LIGHT_COLOR": {
+      "value": "{!SKY_GRAY}"
+    },
+    "TEXT_SECONDARY_LIGHT_COLOR": {
+      "value": "{!SKY_GRAY_TINT_02}"
+    },
+    "TEXT_TERTIARY_LIGHT_COLOR": {
+      "value": "{!SKY_GRAY_TINT_03}"
+    },
+    "TEXT_QUATERNARY_LIGHT_COLOR": {
+      "value": "{!SKY_GRAY_TINT_03}"
+    },
+    "TEXT_PRIMARY_DARK_COLOR": {
+      "value": "{!WHITE}"
+    },
+    "TEXT_SECONDARY_DARK_COLOR": {
+      "value": "{!SKY_GRAY_TINT_04}"
+    },
+    "TEXT_TERTIARY_DARK_COLOR": {
+      "value": "{!BLACK_TINT_06}"
+    },
+    "TEXT_QUATERNARY_DARK_COLOR": {
+      "value": "{!BLACK_TINT_06}"
+    },
+    "TEXT_PRIMARY_DAY": {
+      "value": "{!CHARCOAL}"
+    },
+    "TEXT_PRIMARY_NIGHT": {
+      "value": "{!WHITE}"
+    },
+    "TEXT_SECONDARY_DAY": {
+      "value": "{!GREY_40}"
+    },
+    "TEXT_SECONDARY_NIGHT": {
+      "value": "{!NIGHT_GREY_40}"
+    },
+    "TEXT_DISABLED_DAY": {
+      "value": "{!BLACK}"
+    },
+    "TEXT_DISABLED_NIGHT": {
+      "value": "{!WHITE}"
+    },
+    "TEXT_ERROR_DAY": {
+      "value": "{!BERRY}"
+    },
+    "TEXT_ERROR_NIGHT": {
+      "value": "{!NIGHT_BERRY}"
+    },
+    "TEXT_LINK_DAY": {
+      "value": "{!SKY_BLUE}"
+    },
+    "TEXT_LINK_NIGHT": {
+      "value": "{!NIGHT_BLUE}"
+    }
+  }
+}

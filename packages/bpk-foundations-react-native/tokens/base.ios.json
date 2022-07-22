@@ -1,6 +1,876 @@
 {
   "properties": [
     {
+      "type": "color",
+      "category": "colors",
+      "value": "#68697fff",
+      "name": "colorGrey40"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#02122cff",
+      "name": "colorSkyBlueShade03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0770e3ff",
+      "name": "colorPrimaryGradientLight"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#00a698ff",
+      "name": "colorNightGreenSpot"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cdcdd7ff",
+      "name": "colorGrey30"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffb54dff",
+      "name": "colorErfoud"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#73cec6ff",
+      "name": "colorNightGreenFill"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#dddde5ff",
+      "name": "colorGrey20"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d9f8ffff",
+      "name": "colorBlueMuted"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#a59bc8ff",
+      "name": "colorValensole"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#00a698ff",
+      "name": "colorMonteverde"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "colorGrey10"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#a1eeffff",
+      "name": "colorBlueBright"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#444560ff",
+      "name": "colorSkyGrayTint01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "name": "colorBlack"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#68697fff",
+      "name": "colorSkyGrayTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d0eeecff",
+      "name": "colorSagano"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8f90a0ff",
+      "name": "colorSkyGrayTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#b2b2bfff",
+      "name": "colorSkyGrayTint04"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f6dde1ff",
+      "name": "colorHarbour"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cdcdd7ff",
+      "name": "colorSkyGrayTint05"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#dddde5ff",
+      "name": "colorSkyGrayTint06"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#1d1b20ff",
+      "name": "colorBlackTint01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#111236ff",
+      "name": "colorCharcoal"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "colorSkyGrayTint07"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#2c2c2eff",
+      "name": "colorBlackTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffb54dff",
+      "name": "colorNightYellowSpot"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ff7b59ff",
+      "name": "colorOrange"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#5a489bff",
+      "name": "colorAbisko"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#3a3a3cff",
+      "name": "colorBlackTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#fbf1bbff",
+      "name": "colorNightYellowFill"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#48484aff",
+      "name": "colorBlackTint04"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "colorWhite"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#636366ff",
+      "name": "colorBlackTint05"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "name": "colorBlackTint06"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d1435bff",
+      "name": "colorPanjin"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ff9400ff",
+      "name": "colorKolkata"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#73cec6ff",
+      "name": "colorGlencoe"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#e1ddecff",
+      "name": "colorTochigi"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#feeb87ff",
+      "name": "colorYellow"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffa3e5ff",
+      "name": "colorPink"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#93ffdeff",
+      "name": "colorGreenBright"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffab95ff",
+      "name": "colorPetra"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d1435bff",
+      "name": "colorNightBerry"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d0eeecff",
+      "name": "colorGreenMuted"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#02122cff",
+      "name": "colorDarkSky"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0770e3ff",
+      "name": "colorSkyBlue"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e47baff",
+      "name": "colorPurple"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffebd0ff",
+      "name": "colorBagan"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "name": "colorNightGrey40"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0fa1a9ff",
+      "name": "colorEcoGreen"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffcaddff",
+      "name": "colorNightPink"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#e18b96ff",
+      "name": "colorHillier"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ff9400ff",
+      "name": "colorAmberSpot"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#636366ff",
+      "name": "colorNightGrey30"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#6d9febff",
+      "name": "colorSkyBlueTint01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d1435bff",
+      "name": "colorBerry"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#00a698ff",
+      "name": "colorGreenSpot"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#2c2c2eff",
+      "name": "colorNightGrey20"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#9dc0f2ff",
+      "name": "colorSkyBlueTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffebd0ff",
+      "name": "colorYellowMuted"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ff7b59ff",
+      "name": "colorBunol"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "name": "colorNightGrey10"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cddff8ff",
+      "name": "colorSkyBlueTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#111236ff",
+      "name": "colorSkyGray"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#6d9febff",
+      "name": "colorNightBlue"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#054184ff",
+      "name": "colorNightSky"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffe7e0ff",
+      "name": "colorNara"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#084eb2ff",
+      "name": "colorSkyBlueShade01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f6dde1ff",
+      "name": "colorPinkMuted"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#042759ff",
+      "name": "colorSkyBlueShade02"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#ffffffff",
+      "name": "canvasDay"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#000000ff",
+      "name": "canvasNight"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#f1f2f8ff",
+      "name": "canvasContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#2c2c2eff",
+      "name": "canvasContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0fa1a9ff",
+      "name": "coreEcoDay"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0fa1a9ff",
+      "name": "coreEcoNight"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0770e3ff",
+      "name": "coreAccentDay"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#6d9febff",
+      "name": "coreAccentNight"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#02122cff",
+      "name": "corePrimaryDay"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#054184ff",
+      "name": "corePrimaryNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#00a698ff",
+      "name": "statusSuccessSpotNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#73cec6ff",
+      "name": "statusSuccessFillNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#00a698ff",
+      "name": "statusSuccessSpotDay"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d0eeecff",
+      "name": "statusSuccessFillDay"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d1435bff",
+      "name": "statusDangerSpotNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffb54dff",
+      "name": "statusWarningSpotNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffcaddff",
+      "name": "statusDangerFillNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#fbf1bbff",
+      "name": "statusWarningFillNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d1435bff",
+      "name": "statusDangerSpotDay"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ff9400ff",
+      "name": "statusWarningSpotDay"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#f6dde1ff",
+      "name": "statusDangerFillDay"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffebd0ff",
+      "name": "statusWarningFillDay"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#02122cff",
+      "name": "surfaceContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#2c2c2eff",
+      "name": "surfaceContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffffff",
+      "name": "surfaceDefaultDay"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#2c2c2eff",
+      "name": "surfaceDefaultNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffffff",
+      "name": "surfaceElevatedDay"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#1b2839ff",
+      "name": "surfaceElevatedNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#dddde5ff",
+      "name": "surfaceHighlightDay"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#73cec6ff",
+      "name": "surfaceHighlightNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#6d9febff",
+      "name": "textLinkNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "textDisabledNight"
+    },
+    {
+      "value": "#ffffffff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textPrimaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#0770e3ff",
+      "name": "textLinkDay"
+    },
+    {
+      "value": "#8e8e93ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textQuaternaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "textPrimaryNight"
+    },
+    {
+      "value": "#8f90a0ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textQuaternaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#000000ff",
+      "name": "textDisabledDay"
+    },
+    {
+      "value": "#111236ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textPrimaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "name": "textPrimaryDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#d1435bff",
+      "name": "textErrorNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#d1435bff",
+      "name": "textErrorDay"
+    },
+    {
+      "value": "#8e8e93ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textTertiaryDarkColor"
+    },
+    {
+      "value": "#8e8e93ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textSecondaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
+      "name": "textSecondaryNight"
+    },
+    {
+      "value": "#68697fff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textSecondaryLightColor"
+    },
+    {
+      "value": "#8f90a0ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textTertiaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#68697fff",
+      "name": "textSecondaryDay"
+    },
+    {
+      "type": "color",
+      "category": "scrim-colors",
+      "value": "#cdcdd7ff",
+      "name": "scrimDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#3a3a3cff",
+      "name": "backgroundElevation03DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#2c2c2eff",
+      "name": "backgroundElevation02DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#48484aff",
+      "name": "lineDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#1d1b20ff",
+      "name": "backgroundElevation01DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#1d1b20ff",
+      "name": "backgroundAlternativeSecondaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "backgroundLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "name": "backgroundDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "backgroundAlternativeSecondaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#636366ff",
+      "name": "lineNight"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#00a698ff",
+      "name": "colorSystemGreen"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "backgroundElevation01LightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cdcdd7ff",
+      "name": "lineLightColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "backgroundElevation02LightColor"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#cdcdd7ff",
+      "name": "lineDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "backgroundElevation03LightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#2c2c2eff",
+      "name": "backgroundTertiaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#1d1b20ff",
+      "name": "backgroundSecondaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "backgroundAlternativeLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#6d9febff",
+      "name": "primaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d1435bff",
+      "name": "colorSystemRed"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "name": "backgroundAlternativeDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0770e3ff",
+      "name": "primaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "name": "backgroundTertiaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "backgroundSecondaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "scrim-colors",
+      "value": "#636366ff",
+      "name": "scrimNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -223,564 +1093,6 @@
       "name": "carouselIndicatorDotSizeBase"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#68697fff",
-      "name": "colorGrey40"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#02122cff",
-      "name": "colorSkyBlueShade03"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0770e3ff",
-      "name": "colorPrimaryGradientLight"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#00a698ff",
-      "name": "colorNightGreenSpot"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#cdcdd7ff",
-      "name": "colorGrey30"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffb54dff",
-      "name": "colorErfoud"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#73cec6ff",
-      "name": "colorNightGreenFill"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#dddde5ff",
-      "name": "colorGrey20"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d9f8ffff",
-      "name": "colorBlueMuted"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#a59bc8ff",
-      "name": "colorValensole"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#00a698ff",
-      "name": "colorMonteverde"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#3a3a3cff",
-      "name": "backgroundElevation03DarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f1f2f8ff",
-      "name": "colorGrey10"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#a1eeffff",
-      "name": "colorBlueBright"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#444560ff",
-      "name": "colorSkyGrayTint01"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#000000ff",
-      "name": "colorBlack"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#2c2c2eff",
-      "name": "backgroundElevation02DarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#68697fff",
-      "name": "colorSkyGrayTint02"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#48484aff",
-      "name": "lineDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#1d1b20ff",
-      "name": "backgroundElevation01DarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d0eeecff",
-      "name": "colorSagano"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#8f90a0ff",
-      "name": "colorSkyGrayTint03"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#b2b2bfff",
-      "name": "colorSkyGrayTint04"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f6dde1ff",
-      "name": "colorHarbour"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#cdcdd7ff",
-      "name": "colorSkyGrayTint05"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#1d1b20ff",
-      "name": "backgroundAlternativeSecondaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#dddde5ff",
-      "name": "colorSkyGrayTint06"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "name": "backgroundLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#1d1b20ff",
-      "name": "colorBlackTint01"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#111236ff",
-      "name": "colorCharcoal"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f1f2f8ff",
-      "name": "colorSkyGrayTint07"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#2c2c2eff",
-      "name": "colorBlackTint02"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffb54dff",
-      "name": "colorNightYellowSpot"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ff7b59ff",
-      "name": "colorOrange"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#5a489bff",
-      "name": "colorAbisko"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#000000ff",
-      "name": "backgroundDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#3a3a3cff",
-      "name": "colorBlackTint03"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#fbf1bbff",
-      "name": "colorNightYellowFill"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#48484aff",
-      "name": "colorBlackTint04"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "name": "backgroundAlternativeSecondaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "name": "colorWhite"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#636366ff",
-      "name": "colorBlackTint05"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e8e93ff",
-      "name": "colorBlackTint06"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d1435bff",
-      "name": "colorPanjin"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#00a698ff",
-      "name": "colorSystemGreen"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ff9400ff",
-      "name": "colorKolkata"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#73cec6ff",
-      "name": "colorGlencoe"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "name": "backgroundElevation01LightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#e1ddecff",
-      "name": "colorTochigi"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#cdcdd7ff",
-      "name": "lineLightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "name": "backgroundElevation02LightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#feeb87ff",
-      "name": "colorYellow"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "name": "backgroundElevation03LightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffa3e5ff",
-      "name": "colorPink"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#93ffdeff",
-      "name": "colorGreenBright"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffab95ff",
-      "name": "colorPetra"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d1435bff",
-      "name": "colorNightBerry"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d0eeecff",
-      "name": "colorGreenMuted"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#02122cff",
-      "name": "colorDarkSky"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0770e3ff",
-      "name": "colorSkyBlue"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#2c2c2eff",
-      "name": "backgroundTertiaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#1d1b20ff",
-      "name": "backgroundSecondaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f1f2f8ff",
-      "name": "backgroundAlternativeLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#6d9febff",
-      "name": "primaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e47baff",
-      "name": "colorPurple"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffebd0ff",
-      "name": "colorBagan"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e8e93ff",
-      "name": "colorNightGrey40"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0fa1a9ff",
-      "name": "colorEcoGreen"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffcaddff",
-      "name": "colorNightPink"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#e18b96ff",
-      "name": "colorHillier"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ff9400ff",
-      "name": "colorAmberSpot"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#636366ff",
-      "name": "colorNightGrey30"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#6d9febff",
-      "name": "colorSkyBlueTint01"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d1435bff",
-      "name": "colorBerry"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#00a698ff",
-      "name": "colorGreenSpot"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#2c2c2eff",
-      "name": "colorNightGrey20"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#9dc0f2ff",
-      "name": "colorSkyBlueTint02"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffebd0ff",
-      "name": "colorYellowMuted"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ff7b59ff",
-      "name": "colorBunol"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#000000ff",
-      "name": "colorNightGrey10"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#cddff8ff",
-      "name": "colorSkyBlueTint03"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#111236ff",
-      "name": "colorSkyGray"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d1435bff",
-      "name": "colorSystemRed"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#6d9febff",
-      "name": "colorNightBlue"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#000000ff",
-      "name": "backgroundAlternativeDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0770e3ff",
-      "name": "primaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "name": "backgroundTertiaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#054184ff",
-      "name": "colorNightSky"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffe7e0ff",
-      "name": "colorNara"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#084eb2ff",
-      "name": "colorSkyBlueShade01"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f6dde1ff",
-      "name": "colorPinkMuted"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f1f2f8ff",
-      "name": "backgroundSecondaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#042759ff",
-      "name": "colorSkyBlueShade02"
-    },
-    {
       "type": "size",
       "category": "spacings",
       "value": "4",
@@ -926,12 +1238,6 @@
       "name": "fontSizeSm"
     },
     {
-      "value": "#ffffffff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textPrimaryDarkColor"
-    },
-    {
       "value": "12",
       "type": "font-size",
       "category": "typesettings",
@@ -944,12 +1250,6 @@
       "name": "letterSpacingXxxl"
     },
     {
-      "value": "#8e8e93ff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textQuaternaryDarkColor"
-    },
-    {
       "value": "null",
       "type": "letter-spacing",
       "category": "letter-spacings",
@@ -960,18 +1260,6 @@
       "type": "font-size",
       "category": "typesettings",
       "name": "fontSizeLg"
-    },
-    {
-      "value": "#8f90a0ff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textQuaternaryLightColor"
-    },
-    {
-      "value": "#111236ff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textPrimaryLightColor"
     },
     {
       "value": "400",
@@ -1034,12 +1322,6 @@
       "name": "fontFamily"
     },
     {
-      "value": "#8e8e93ff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textTertiaryDarkColor"
-    },
-    {
       "value": "400",
       "type": "string",
       "category": "font-weights",
@@ -1082,12 +1364,6 @@
       "name": "letterSpacingXxl"
     },
     {
-      "value": "#8e8e93ff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textSecondaryDarkColor"
-    },
-    {
       "value": "24",
       "type": "font-size",
       "category": "font-sizes",
@@ -1122,12 +1398,6 @@
       "type": "string",
       "category": "font-weights",
       "name": "textEmphasizedFontWeight"
-    },
-    {
-      "value": "#68697fff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textSecondaryLightColor"
     },
     {
       "value": "0",
@@ -1172,12 +1442,6 @@
       "name": "textLgFontSize"
     },
     {
-      "value": "#8f90a0ff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textTertiaryLightColor"
-    },
-    {
       "value": "43",
       "type": "size",
       "category": "typesettings",
@@ -1188,6 +1452,34 @@
       "type": "font-size",
       "category": "font-sizes",
       "name": "textXsFontSize"
+    },
+    {
+      "value": "#111236ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textPrimaryColor",
+      "darkValue": "#ffffffff"
+    },
+    {
+      "value": "#8f90a0ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textQuaternaryColor",
+      "darkValue": "#8e8e93ff"
+    },
+    {
+      "value": "#8f90a0ff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textTertiaryColor",
+      "darkValue": "#8e8e93ff"
+    },
+    {
+      "value": "#68697fff",
+      "type": "color",
+      "category": "text-colors",
+      "name": "textSecondaryColor",
+      "darkValue": "#8e8e93ff"
     },
     {
       "type": "color",
@@ -1258,34 +1550,6 @@
       "value": "#0770e3ff",
       "name": "primaryColor",
       "darkValue": "#6d9febff"
-    },
-    {
-      "value": "#111236ff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textPrimaryColor",
-      "darkValue": "#ffffffff"
-    },
-    {
-      "value": "#8f90a0ff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textQuaternaryColor",
-      "darkValue": "#8e8e93ff"
-    },
-    {
-      "value": "#8f90a0ff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textTertiaryColor",
-      "darkValue": "#8e8e93ff"
-    },
-    {
-      "value": "#68697fff",
-      "type": "color",
-      "category": "text-colors",
-      "name": "textSecondaryColor",
-      "darkValue": "#8e8e93ff"
     }
   ]
 }

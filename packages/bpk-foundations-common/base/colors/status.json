@@ -1,0 +1,47 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "type": "color",
+    "category": "status-colors"
+  },
+  "props": {
+    "STATUS_DANGER_FILL_DAY": {
+      "value": "{!PINK_MUTED}"
+    },
+    "STATUS_DANGER_FILL_NIGHT": {
+      "value": "{!NIGHT_PINK}"
+    },
+    "STATUS_DANGER_SPOT_DAY": {
+      "value": "{!BERRY}"
+    },
+    "STATUS_DANGER_SPOT_NIGHT": {
+      "value": "{!NIGHT_BERRY}"
+    },
+    "STATUS_SUCCESS_FILL_DAY": {
+      "value": "{!GREEN_MUTED}"
+    },
+    "STATUS_SUCCESS_FILL_NIGHT": {
+      "value": "{!NIGHT_GREEN_FILL}"
+    },
+    "STATUS_SUCCESS_SPOT_DAY": {
+      "value": "{!GREEN_SPOT}"
+    },
+    "STATUS_SUCCESS_SPOT_NIGHT": {
+      "value": "{!NIGHT_GREEN_SPOT}"
+    },
+    "STATUS_WARNING_FILL_DAY": {
+      "value": "{!YELLOW_MUTED}"
+    },
+    "STATUS_WARNING_FILL_NIGHT": {
+      "value": "{!NIGHT_YELLOW_FILL}"
+    },
+    "STATUS_WARNING_SPOT_DAY": {
+      "value": "{!AMBER_SPOT}"
+    },
+    "STATUS_WARNING_SPOT_NIGHT": {
+      "value": "{!NIGHT_YELLOW_SPOT}"
+    }
+  }
+}

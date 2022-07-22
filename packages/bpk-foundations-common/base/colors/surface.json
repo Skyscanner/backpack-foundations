@@ -1,0 +1,35 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "type": "color",
+    "category": "surface-colors"
+  },
+  "props": {
+    "SURFACE_CONTRAST_DAY": {
+      "value": "{!DARK_SKY}"
+    },
+    "SURFACE_CONTRAST_NIGHT": {
+      "value": "{!NIGHT_GREY_20}"
+    },
+    "SURFACE_DEFAULT_DAY": {
+      "value": "{!WHITE}"
+    },
+    "SURFACE_DEFAULT_NIGHT": {
+      "value": "{!NIGHT_GREY_20}"
+    },
+    "SURFACE_ELEVATED_DAY": {
+      "value": "{!WHITE}"
+    },
+    "SURFACE_ELEVATED_NIGHT": {
+      "value": "{!NIGHT_GREY_25}"
+    },
+    "SURFACE_HIGHLIGHT_DAY": {
+      "value": "{!GREY_20}"
+    },
+    "SURFACE_HIGHLIGHT_NIGHT": {
+      "value": "{!NIGHT_GREEN_FILL}"
+    }
+  }
+}

@@ -20,10 +20,21 @@
 export const autosuggestListBackgroundColor = "rgb(255, 255, 255)";
 export const autosuggestListItemActiveBackgroundColor = "rgb(221, 221, 229)";
 export const autosuggestListItemHighlightedBackgroundColor = "rgb(241, 242, 248)";
+export const backgroundAlternativeDarkColor = "rgb(0, 0, 0)";
 export const backgroundAlternativeLightColor = "rgb(241, 242, 248)";
+export const backgroundAlternativeSecondaryDarkColor = "rgb(29, 27, 32)";
 export const backgroundAlternativeSecondaryLightColor = "rgb(255, 255, 255)";
+export const backgroundDarkColor = "rgb(0, 0, 0)";
+export const backgroundElevation01DarkColor = "rgb(29, 27, 32)";
+export const backgroundElevation01LightColor = "rgb(255, 255, 255)";
+export const backgroundElevation02DarkColor = "rgb(44, 44, 46)";
+export const backgroundElevation02LightColor = "rgb(255, 255, 255)";
+export const backgroundElevation03DarkColor = "rgb(58, 58, 60)";
+export const backgroundElevation03LightColor = "rgb(255, 255, 255)";
 export const backgroundLightColor = "rgb(255, 255, 255)";
+export const backgroundSecondaryDarkColor = "rgb(29, 27, 32)";
 export const backgroundSecondaryLightColor = "rgb(241, 242, 248)";
+export const backgroundTertiaryDarkColor = "rgb(44, 44, 46)";
 export const backgroundTertiaryLightColor = "rgb(255, 255, 255)";
 export const badgeBackgroundColor = "rgb(255, 181, 77)";
 export const badgeCenteredVerticalAlign = "text-bottom";
@@ -241,6 +252,10 @@ export const calendarNavIconDisabledFill = "rgb(221, 221, 229)";
 export const calendarNavIconFill = "rgb(7, 112, 227)";
 export const calendarNavIconHoverFill = "rgb(8, 78, 178)";
 export const calendarPadding = ".75rem";
+export const canvasContrastDay = "rgb(241, 242, 248)";
+export const canvasContrastNight = "rgb(44, 44, 46)";
+export const canvasDay = "rgb(255, 255, 255)";
+export const canvasNight = "rgb(0, 0, 0)";
 export const cardBackgroundColor = "rgb(255, 255, 255)";
 export const cardColor = "rgb(17, 18, 54)";
 export const cardPadding = "1rem";
@@ -249,6 +264,13 @@ export const colorAbisko = "rgb(90, 72, 155)";
 export const colorAmberSpot = "rgb(255, 148, 0)";
 export const colorBagan = "rgb(255, 235, 208)";
 export const colorBerry = "rgb(209, 67, 91)";
+export const colorBlack = "rgb(0, 0, 0)";
+export const colorBlackTint01 = "rgb(29, 27, 32)";
+export const colorBlackTint02 = "rgb(44, 44, 46)";
+export const colorBlackTint03 = "rgb(58, 58, 60)";
+export const colorBlackTint04 = "rgb(72, 72, 74)";
+export const colorBlackTint05 = "rgb(99, 99, 102)";
+export const colorBlackTint06 = "rgb(142, 142, 147)";
 export const colorBlueBright = "rgb(161, 238, 255)";
 export const colorBlueMuted = "rgb(217, 248, 255)";
 export const colorBunol = "rgb(255, 123, 89)";
@@ -311,6 +333,12 @@ export const colorValensole = "rgb(165, 155, 200)";
 export const colorWhite = "rgb(255, 255, 255)";
 export const colorYellow = "rgb(254, 235, 135)";
 export const colorYellowMuted = "rgb(255, 235, 208)";
+export const coreAccentDay = "rgb(7, 112, 227)";
+export const coreAccentNight = "rgb(109, 159, 235)";
+export const coreEcoDay = "rgb(15, 161, 169)";
+export const coreEcoNight = "rgb(15, 161, 169)";
+export const corePrimaryDay = "rgb(2, 18, 44)";
+export const corePrimaryNight = "rgb(5, 65, 132)";
 export const durationBase = "400ms";
 export const durationSm = "200ms";
 export const durationXs = "50ms";
@@ -386,6 +414,8 @@ export const labelDisabledColor = "rgb(178, 178, 191)";
 export const labelFontSize = ".75rem";
 export const labelLineHeight = "1rem";
 export const letterSpacingTight = "-0.02em";
+export const lineDarkColor = "rgb(72, 72, 74)";
+export const lineDay = "rgb(205, 205, 215)";
 export const lineHeight6Xl = "5.25rem";
 export const lineHeight7Xl = "6rem";
 export const lineHeight8Xl = "7.5rem";
@@ -402,6 +432,7 @@ export const lineHeightXxxl = "3rem";
 export const lineHeightXxxxl = "3.5rem";
 export const lineHeightXxxxxl = "4.5rem";
 export const lineLightColor = "rgb(205, 205, 215)";
+export const lineNight = "rgb(99, 99, 102)";
 export const linkActiveColor = "rgb(4, 39, 89)";
 export const linkAlternateActiveColor = "rgb(221, 221, 229)";
 export const linkAlternateColor = "rgb(255, 255, 255)";
@@ -433,6 +464,7 @@ export const onePixelRem = ".0625rem";
 export const panelBackgroundColor = "rgb(255, 255, 255)";
 export const panelBorderColor = "rgb(221, 221, 229)";
 export const panelPadding = ".75rem";
+export const primaryDarkColor = "rgb(109, 159, 235)";
 export const primaryGradient = "#0770e3";
 export const primaryLightColor = "rgb(7, 112, 227)";
 export const pMarginBottom = ".75rem";
@@ -448,8 +480,10 @@ export const requiredColor = "rgb(209, 67, 91)";
 export const scrimBackgroundColor = "rgb(178, 178, 191)";
 export const scrimDarkBackgroundColor = "rgb(17, 18, 54)";
 export const scrimDarkOpacity = ".95";
+export const scrimDay = "rgb(205, 205, 215)";
 export const scrimInitialOpacity = "0";
 export const scrimMobileOpacity = "1";
+export const scrimNight = "rgb(99, 99, 102)";
 export const scrimOpacity = ".7";
 export const selectBorder = "solid .0625rem #B2B2BF";
 export const selectBorderRadius = ".25rem";
@@ -479,22 +513,56 @@ export const spacingXs = ".375rem";
 export const spacingXxl = "2.625rem";
 export const spacingXxlV2 = "2.5rem";
 export const stateSelectedBackgroundColor = "rgb(8, 78, 178)";
+export const statusDangerFillDay = "rgb(246, 221, 225)";
+export const statusDangerFillNight = "rgb(255, 202, 221)";
+export const statusDangerSpotDay = "rgb(209, 67, 91)";
+export const statusDangerSpotNight = "rgb(209, 67, 91)";
+export const statusSuccessFillDay = "rgb(208, 238, 236)";
+export const statusSuccessFillNight = "rgb(115, 206, 198)";
+export const statusSuccessSpotDay = "rgb(0, 166, 152)";
+export const statusSuccessSpotNight = "rgb(0, 166, 152)";
+export const statusWarningFillDay = "rgb(255, 235, 208)";
+export const statusWarningFillNight = "rgb(251, 241, 187)";
+export const statusWarningSpotDay = "rgb(255, 148, 0)";
+export const statusWarningSpotNight = "rgb(255, 181, 77)";
+export const surfaceContrastDay = "rgb(2, 18, 44)";
+export const surfaceContrastNight = "rgb(44, 44, 46)";
+export const surfaceDefaultDay = "rgb(255, 255, 255)";
+export const surfaceDefaultNight = "rgb(44, 44, 46)";
+export const surfaceElevatedDay = "rgb(255, 255, 255)";
+export const surfaceElevatedNight = "rgb(27, 40, 57)";
+export const surfaceHighlightDay = "rgb(221, 221, 229)";
+export const surfaceHighlightNight = "rgb(115, 206, 198)";
 export const textareaMinHeight = "2.625rem * 2";
 export const textBaseFontSize = "1rem";
 export const textBaseFontWeight = "400";
 export const textBaseLetterSpacing = "normal";
 export const textBaseLineHeight = "1.5rem";
+export const textDisabledDay = "rgb(0, 0, 0)";
+export const textDisabledNight = "rgb(255, 255, 255)";
+export const textErrorDay = "rgb(209, 67, 91)";
+export const textErrorNight = "rgb(209, 67, 91)";
 export const textLgFontSize = "1.25rem";
 export const textLgFontWeight = "400";
 export const textLgLetterSpacing = "normal";
 export const textLgLineHeight = "1.75rem";
+export const textLinkDay = "rgb(7, 112, 227)";
+export const textLinkNight = "rgb(109, 159, 235)";
+export const textPrimaryDarkColor = "rgb(255, 255, 255)";
+export const textPrimaryDay = "rgb(17, 18, 54)";
 export const textPrimaryLightColor = "rgb(17, 18, 54)";
+export const textPrimaryNight = "rgb(255, 255, 255)";
+export const textQuaternaryDarkColor = "rgb(142, 142, 147)";
 export const textQuaternaryLightColor = "rgb(143, 144, 160)";
-export const textSecondaryLightColor = "rgb(68, 69, 96)";
+export const textSecondaryDarkColor = "rgb(178, 178, 191)";
+export const textSecondaryDay = "rgb(104, 105, 127)";
+export const textSecondaryLightColor = "rgb(104, 105, 127)";
+export const textSecondaryNight = "rgb(142, 142, 147)";
 export const textSmFontSize = ".875rem";
 export const textSmFontWeight = "400";
 export const textSmLetterSpacing = "normal";
 export const textSmLineHeight = "1.25rem";
+export const textTertiaryDarkColor = "rgb(142, 142, 147)";
 export const textTertiaryLightColor = "rgb(143, 144, 160)";
 export const textXlFontSize = "1.5rem";
 export const textXlFontWeight = "400";
@@ -740,21 +808,39 @@ calendarNavIconFill,
 calendarNavIconHoverFill,
 calendarPadding,
 };
+export const canvasColors = {
+canvasContrastDay,
+canvasContrastNight,
+canvasDay,
+canvasNight,
+};
 export const cards = {
 cardBackgroundColor,
 cardColor,
 cardPadding,
 };
 export const colors = {
+backgroundAlternativeDarkColor,
 backgroundAlternativeLightColor,
+backgroundAlternativeSecondaryDarkColor,
 backgroundAlternativeSecondaryLightColor,
+backgroundDarkColor,
 backgroundLightColor,
+backgroundSecondaryDarkColor,
 backgroundSecondaryLightColor,
+backgroundTertiaryDarkColor,
 backgroundTertiaryLightColor,
 colorAbisko,
 colorAmberSpot,
 colorBagan,
 colorBerry,
+colorBlack,
+colorBlackTint01,
+colorBlackTint02,
+colorBlackTint03,
+colorBlackTint04,
+colorBlackTint05,
+colorBlackTint06,
 colorBlueBright,
 colorBlueMuted,
 colorBunol,
@@ -817,9 +903,19 @@ colorValensole,
 colorWhite,
 colorYellow,
 colorYellowMuted,
+lineDarkColor,
 lineLightColor,
+primaryDarkColor,
 primaryGradient,
 primaryLightColor,
+};
+export const coreColors = {
+coreAccentDay,
+coreAccentNight,
+coreEcoDay,
+coreEcoNight,
+corePrimaryDay,
+corePrimaryNight,
 };
 export const flare = {
 flareCornerRadius,
@@ -926,6 +1022,10 @@ textXlLetterSpacing,
 textXsLetterSpacing,
 textXxlLetterSpacing,
 };
+export const lineColors = {
+lineDay,
+lineNight,
+};
 export const lineHeights = {
 h1LineHeight,
 h2LineHeight,
@@ -989,6 +1089,10 @@ ratingLgWidth,
 ratingSmHeight,
 ratingSmWidth,
 };
+export const scrimColors = {
+scrimDay,
+scrimNight,
+};
 export const scrims = {
 scrimBackgroundColor,
 scrimDarkBackgroundColor,
@@ -1029,7 +1133,37 @@ spacingXxlV2,
 export const states = {
 stateSelectedBackgroundColor,
 };
+export const statusColors = {
+statusDangerFillDay,
+statusDangerFillNight,
+statusDangerSpotDay,
+statusDangerSpotNight,
+statusSuccessFillDay,
+statusSuccessFillNight,
+statusSuccessSpotDay,
+statusSuccessSpotNight,
+statusWarningFillDay,
+statusWarningFillNight,
+statusWarningSpotDay,
+statusWarningSpotNight,
+};
+export const surfaceColors = {
+surfaceContrastDay,
+surfaceContrastNight,
+surfaceDefaultDay,
+surfaceDefaultNight,
+surfaceElevatedDay,
+surfaceElevatedNight,
+surfaceHighlightDay,
+surfaceHighlightNight,
+};
 export const textColors = {
+backgroundElevation01DarkColor,
+backgroundElevation01LightColor,
+backgroundElevation02DarkColor,
+backgroundElevation02LightColor,
+backgroundElevation03DarkColor,
+backgroundElevation03LightColor,
 fontColorBase,
 linkActiveColor,
 linkAlternateActiveColor,
@@ -1043,9 +1177,23 @@ linkWhiteActiveColor,
 linkWhiteColor,
 linkWhiteHoverColor,
 linkWhiteVisitedColor,
+textDisabledDay,
+textDisabledNight,
+textErrorDay,
+textErrorNight,
+textLinkDay,
+textLinkNight,
+textPrimaryDarkColor,
+textPrimaryDay,
 textPrimaryLightColor,
+textPrimaryNight,
+textQuaternaryDarkColor,
 textQuaternaryLightColor,
+textSecondaryDarkColor,
+textSecondaryDay,
 textSecondaryLightColor,
+textSecondaryNight,
+textTertiaryDarkColor,
 textTertiaryLightColor,
 };
 export const textDecorations = {
