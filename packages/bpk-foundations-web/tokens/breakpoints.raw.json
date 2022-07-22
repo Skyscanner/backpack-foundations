@@ -126,26 +126,14 @@
     "ABISKO": {
       "value": "#5a489b"
     },
-    "GREY_1": {
-      "value": "#F1F2F8"
-    },
     "PANJIN": {
       "value": "#d1435b"
-    },
-    "GREY_2": {
-      "value": "#DDDDE5"
     },
     "NIGHT_BERRY_SPOT": {
       "value": "#D1435B"
     },
-    "GREY_3": {
-      "value": "#CDCDD7"
-    },
     "YELLOW": {
       "value": "#FEEB87"
-    },
-    "GREY_4": {
-      "value": "#68697F"
     },
     "ECO_GREEN": {
       "value": "#0FA1A9"
@@ -156,8 +144,14 @@
     "BAGAN": {
       "value": "#ffebd0"
     },
+    "NIGHT_GREY_40": {
+      "value": "#8E8E93"
+    },
     "PINK": {
       "value": "#FFA3E5"
+    },
+    "NIGHT_GREY_30": {
+      "value": "#636366"
     },
     "BERRY": {
       "value": "#D1435B"
@@ -165,20 +159,20 @@
     "GREEN_BRIGHT": {
       "value": "#93FFDE"
     },
+    "NIGHT_GREY_20": {
+      "value": "#2C2C2E"
+    },
     "DARK_SKY": {
       "value": "#02122C"
     },
     "SKY_BLUE": {
       "value": "#0770e3"
     },
-    "NIGHT_GREY_1": {
-      "value": "#000000"
-    },
     "BUNOL": {
       "value": "#ff7b59"
     },
-    "NIGHT_GREY_2": {
-      "value": "#2C2C2E"
+    "NIGHT_GREY_10": {
+      "value": "#000000"
     },
     "NIGHT_SKY": {
       "value": "#054184"
@@ -186,20 +180,23 @@
     "SKY_BLUE_SHADE_01": {
       "value": "#084eb2"
     },
-    "NIGHT_GREY_3": {
-      "value": "#636366"
-    },
     "SKY_BLUE_SHADE_02": {
       "value": "#042759"
-    },
-    "NIGHT_GREY_4": {
-      "value": "#8E8E93"
     },
     "SKY_BLUE_SHADE_03": {
       "value": "#02122c"
     },
+    "NIGHT_GREY_25": {
+      "value": "#1B2839"
+    },
     "PURPLE": {
       "value": "#8E47BA"
+    },
+    "GREY_40": {
+      "value": "#68697F"
+    },
+    "GREY_30": {
+      "value": "#CDCDD7"
     },
     "GREEN_SPOT": {
       "value": "#00A698"
@@ -210,6 +207,9 @@
     "AMBER_SPOT": {
       "value": "#FF9400"
     },
+    "GREY_20": {
+      "value": "#DDDDE5"
+    },
     "SKY_BLUE_TINT_02": {
       "value": "#9dc0f2"
     },
@@ -218,6 +218,9 @@
     },
     "VALENSOLE": {
       "value": "#a59bc8"
+    },
+    "GREY_10": {
+      "value": "#F1F2F8"
     },
     "BLACK": {
       "value": "#000000"

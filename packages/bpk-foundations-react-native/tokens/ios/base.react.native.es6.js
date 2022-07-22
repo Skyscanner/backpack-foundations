@@ -89,7 +89,9 @@ export const carouselIndicatorDotSizeBase = 6;
 export const carouselIndicatorDotSizeMd = 4;
 export const carouselIndicatorDotSizeSm = 2;
 export const colorAbisko = "rgb(90, 72, 155)";
+export const colorAmberSpot = "rgb(255, 148, 0)";
 export const colorBagan = "rgb(255, 235, 208)";
+export const colorBerry = "rgb(209, 67, 91)";
 export const colorBlack = "rgb(0, 0, 0)";
 export const colorBlackTint01 = "rgb(29, 27, 32)";
 export const colorBlackTint02 = "rgb(44, 44, 46)";
@@ -97,18 +99,49 @@ export const colorBlackTint03 = "rgb(58, 58, 60)";
 export const colorBlackTint04 = "rgb(72, 72, 74)";
 export const colorBlackTint05 = "rgb(99, 99, 102)";
 export const colorBlackTint06 = "rgb(142, 142, 147)";
+export const colorBlueBright = "rgb(161, 238, 255)";
+export const colorBlueMuted = "rgb(217, 248, 255)";
 export const colorBunol = "rgb(255, 123, 89)";
+export const colorCharcoal = "rgb(17, 18, 54)";
+export const colorDarkSky = "rgb(2, 18, 44)";
+export const colorEcoGreen = "rgb(15, 161, 169)";
 export const colorErfoud = "rgb(255, 181, 77)";
 export const colorGlencoe = "rgb(115, 206, 198)";
+export const colorGreenBright = "rgb(147, 255, 222)";
+export const colorGreenMuted = "rgb(208, 238, 236)";
+export const colorGreenSpot = "rgb(0, 166, 152)";
+export const colorGrey10 = "rgb(241, 242, 248)";
+export const colorGrey20 = "rgb(221, 221, 229)";
+export const colorGrey30 = "rgb(205, 205, 215)";
+export const colorGrey40 = "rgb(104, 105, 127)";
 export const colorHarbour = "rgb(246, 221, 225)";
 export const colorHillier = "rgb(225, 139, 150)";
 export const colorKolkata = "rgb(255, 148, 0)";
 export const colorMonteverde = "rgb(0, 166, 152)";
 export const colorNara = "rgb(255, 231, 224)";
+export const colorNightBerrySpot = "rgb(209, 67, 91)";
+export const colorNightBlue = "rgb(109, 159, 235)";
+export const colorNightGreenFill = "rgb(115, 206, 198)";
+export const colorNightGreenSpot = "rgb(0, 166, 152)";
+export const colorNightGrey10 = "rgb(0, 0, 0)";
+export const colorNightGrey20 = "rgb(44, 44, 46)";
+export const colorNightGrey30 = "rgb(99, 99, 102)";
+export const colorNightGrey40 = "rgb(142, 142, 147)";
+export const colorNightPinkFill = "rgb(255, 202, 221)";
+export const colorNightSky = "rgb(5, 65, 132)";
+export const colorNightYellowFill = "rgb(251, 241, 187)";
+export const colorNightYellowSpot = "rgb(255, 181, 77)";
+export const colorOrange = "rgb(255, 123, 89)";
 export const colorPanjin = "rgb(209, 67, 91)";
 export const colorPetra = "rgb(255, 171, 149)";
+export const colorPink = "rgb(255, 163, 229)";
+export const colorPinkMuted = "rgb(246, 221, 225)";
 export const colorPrimaryGradientLight = "rgb(7, 112, 227)";
+export const colorPurple = "rgb(142, 71, 186)";
 export const colorSagano = "rgb(208, 238, 236)";
+export const colorSky = {
+ dark: "rgb(2, 18, 44)",
+};
 export const colorSkyBlue = "rgb(7, 112, 227)";
 export const colorSkyBlueShade01 = "rgb(8, 78, 178)";
 export const colorSkyBlueShade02 = "rgb(4, 39, 89)";
@@ -129,6 +162,8 @@ export const colorSystemRed = "rgb(209, 67, 91)";
 export const colorTochigi = "rgb(225, 221, 236)";
 export const colorValensole = "rgb(165, 155, 200)";
 export const colorWhite = "rgb(255, 255, 255)";
+export const colorYellow = "rgb(254, 235, 135)";
+export const colorYellowMuted = "rgb(255, 235, 208)";
 export const cornerRadiusLg = 24;
 export const cornerRadiusMd = 12;
 export const cornerRadiusPill = 40;
@@ -282,7 +317,9 @@ backgroundSecondaryLightColor,
 backgroundTertiaryDarkColor,
 backgroundTertiaryLightColor,
 colorAbisko,
+colorAmberSpot,
 colorBagan,
+colorBerry,
 colorBlack,
 colorBlackTint01,
 colorBlackTint02,
@@ -290,17 +327,45 @@ colorBlackTint03,
 colorBlackTint04,
 colorBlackTint05,
 colorBlackTint06,
+colorBlueBright,
+colorBlueMuted,
 colorBunol,
+colorCharcoal,
+colorDarkSky,
+colorEcoGreen,
 colorErfoud,
 colorGlencoe,
+colorGreenBright,
+colorGreenMuted,
+colorGreenSpot,
+colorGrey10,
+colorGrey20,
+colorGrey30,
+colorGrey40,
 colorHarbour,
 colorHillier,
 colorKolkata,
 colorMonteverde,
 colorNara,
+colorNightBerrySpot,
+colorNightBlue,
+colorNightGreenFill,
+colorNightGreenSpot,
+colorNightGrey10,
+colorNightGrey20,
+colorNightGrey30,
+colorNightGrey40,
+colorNightPinkFill,
+colorNightSky,
+colorNightYellowFill,
+colorNightYellowSpot,
+colorOrange,
 colorPanjin,
 colorPetra,
+colorPink,
+colorPinkMuted,
 colorPrimaryGradientLight,
+colorPurple,
 colorSagano,
 colorSkyBlue,
 colorSkyBlueShade01,
@@ -322,6 +387,8 @@ colorSystemRed,
 colorTochigi,
 colorValensole,
 colorWhite,
+colorYellow,
+colorYellowMuted,
 lineDarkColor,
 lineLightColor,
 primaryDarkColor,
@@ -385,6 +452,7 @@ backgroundAlternativeSecondaryColor,
 backgroundColor,
 backgroundSecondaryColor,
 backgroundTertiaryColor,
+colorSky,
 lineColor,
 primaryColor,
 };
