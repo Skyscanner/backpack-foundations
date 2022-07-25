@@ -1,0 +1,23 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "type": "color",
+    "category": "canvas-colors"
+  },
+  "props": {
+    "CANVAS_DAY": {
+      "value": "{!WHITE}"
+    },
+    "CANVAS_NIGHT": {
+      "value": "{!NIGHT_GREY_10}"
+    },
+    "CANVAS_CONTRAST_DAY": {
+      "value": "{!GREY_10}"
+    },
+    "CANVAS_CONTRAST_NIGHT": {
+      "value": "{!NIGHT_GREY_20}"
+    }
+  }
+}

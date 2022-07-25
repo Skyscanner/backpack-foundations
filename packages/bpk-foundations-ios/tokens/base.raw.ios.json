@@ -265,7 +265,7 @@
       "value": "#6D9FEB"
     },
     "NIGHT_GREEN_FILL": {
-      "value": "#73CEC6"
+      "value": "#B1FFE7"
     },
     "NIGHT_GREEN_SPOT": {
       "value": "#00A698"
@@ -280,7 +280,7 @@
       "value": "#1B2839"
     },
     "NIGHT_GREY_30": {
-      "value": "#636366"
+      "value": "#48484A"
     },
     "NIGHT_GREY_40": {
       "value": "#8E8E93"
@@ -649,6 +649,34 @@
       "originalValue": "{!SPACING_MD}",
       "name": "BUTTON_PADDING_VERTICAL"
     },
+    "CANVAS_CONTRAST_DAY": {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#f1f2f8ff",
+      "originalValue": "{!GREY_10}",
+      "name": "CANVAS_CONTRAST_DAY"
+    },
+    "CANVAS_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#2c2c2eff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "CANVAS_CONTRAST_NIGHT"
+    },
+    "CANVAS_DAY": {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "CANVAS_DAY"
+    },
+    "CANVAS_NIGHT": {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#000000ff",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "CANVAS_NIGHT"
+    },
     "CAROUSEL_INDICATOR_DOT_SIZE_BASE": {
       "type": "size",
       "category": "carousel-indicator-dots",
@@ -904,7 +932,7 @@
     "COLOR_NIGHT_GREEN_FILL": {
       "type": "color",
       "category": "colors",
-      "value": "#73cec6ff",
+      "value": "#b1ffe7ff",
       "originalValue": "{!NIGHT_GREEN_FILL}",
       "name": "COLOR_NIGHT_GREEN_FILL"
     },
@@ -932,7 +960,7 @@
     "COLOR_NIGHT_GREY_30": {
       "type": "color",
       "category": "colors",
-      "value": "#636366ff",
+      "value": "#48484aff",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "COLOR_NIGHT_GREY_30"
     },
@@ -1181,6 +1209,48 @@
       "originalValue": "{!YELLOW_MUTED}",
       "name": "COLOR_YELLOW_MUTED"
     },
+    "CORE_ACCENT_DAY": {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0770e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "CORE_ACCENT_DAY"
+    },
+    "CORE_ACCENT_NIGHT": {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#6d9febff",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "CORE_ACCENT_NIGHT"
+    },
+    "CORE_ECO_DAY": {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0fa1a9ff",
+      "originalValue": "{!ECO_GREEN}",
+      "name": "CORE_ECO_DAY"
+    },
+    "CORE_ECO_NIGHT": {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0fa1a9ff",
+      "originalValue": "{!ECO_GREEN}",
+      "name": "CORE_ECO_NIGHT"
+    },
+    "CORE_PRIMARY_DAY": {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#02122cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "CORE_PRIMARY_DAY"
+    },
+    "CORE_PRIMARY_NIGHT": {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#054184ff",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "CORE_PRIMARY_NIGHT"
+    },
     "CORNER_RADIUS_LG": {
       "type": "size",
       "value": "24",
@@ -1385,6 +1455,13 @@
       "originalValue": "{!BLACK_TINT_04}",
       "name": "LINE_DARK_COLOR"
     },
+    "LINE_DAY": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#cdcdd7ff",
+      "originalValue": "{!GREY_30}",
+      "name": "LINE_DAY"
+    },
     "LINE_HEIGHT_5XL": {
       "value": "72",
       "type": "size",
@@ -1497,6 +1574,13 @@
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "LINE_LIGHT_COLOR"
     },
+    "LINE_NIGHT": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#48484aff",
+      "originalValue": "{!NIGHT_GREY_30}",
+      "name": "LINE_NIGHT"
+    },
     "PRIMARY_DARK_COLOR": {
       "type": "color",
       "category": "colors",
@@ -1510,6 +1594,20 @@
       "value": "#0770e3ff",
       "originalValue": "{!SKY_BLUE}",
       "name": "PRIMARY_LIGHT_COLOR"
+    },
+    "SCRIM_DAY": {
+      "type": "color",
+      "category": "scrim-colors",
+      "value": "#cdcdd7ff",
+      "originalValue": "{!GREY_30}",
+      "name": "SCRIM_DAY"
+    },
+    "SCRIM_NIGHT": {
+      "type": "color",
+      "category": "scrim-colors",
+      "value": "#48484aff",
+      "originalValue": "{!NIGHT_GREY_30}",
+      "name": "SCRIM_NIGHT"
     },
     "SHADOW_LG_COLOR": {
       "value": "#111236ff",
@@ -1636,6 +1734,146 @@
       "value": "40",
       "originalValue": "{!SPACING_XXL}",
       "name": "SPACING_XXL"
+    },
+    "STATUS_DANGER_FILL_DAY": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#f6dde1ff",
+      "originalValue": "{!PINK_MUTED}",
+      "name": "STATUS_DANGER_FILL_DAY"
+    },
+    "STATUS_DANGER_FILL_NIGHT": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffcaddff",
+      "originalValue": "{!NIGHT_PINK}",
+      "name": "STATUS_DANGER_FILL_NIGHT"
+    },
+    "STATUS_DANGER_SPOT_DAY": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d1435bff",
+      "originalValue": "{!BERRY}",
+      "name": "STATUS_DANGER_SPOT_DAY"
+    },
+    "STATUS_DANGER_SPOT_NIGHT": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d1435bff",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "STATUS_DANGER_SPOT_NIGHT"
+    },
+    "STATUS_SUCCESS_FILL_DAY": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d0eeecff",
+      "originalValue": "{!GREEN_MUTED}",
+      "name": "STATUS_SUCCESS_FILL_DAY"
+    },
+    "STATUS_SUCCESS_FILL_NIGHT": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#b1ffe7ff",
+      "originalValue": "{!NIGHT_GREEN_FILL}",
+      "name": "STATUS_SUCCESS_FILL_NIGHT"
+    },
+    "STATUS_SUCCESS_SPOT_DAY": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#00a698ff",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "STATUS_SUCCESS_SPOT_DAY"
+    },
+    "STATUS_SUCCESS_SPOT_NIGHT": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#00a698ff",
+      "originalValue": "{!NIGHT_GREEN_SPOT}",
+      "name": "STATUS_SUCCESS_SPOT_NIGHT"
+    },
+    "STATUS_WARNING_FILL_DAY": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffebd0ff",
+      "originalValue": "{!YELLOW_MUTED}",
+      "name": "STATUS_WARNING_FILL_DAY"
+    },
+    "STATUS_WARNING_FILL_NIGHT": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#fbf1bbff",
+      "originalValue": "{!NIGHT_YELLOW_FILL}",
+      "name": "STATUS_WARNING_FILL_NIGHT"
+    },
+    "STATUS_WARNING_SPOT_DAY": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ff9400ff",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "STATUS_WARNING_SPOT_DAY"
+    },
+    "STATUS_WARNING_SPOT_NIGHT": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffb54dff",
+      "originalValue": "{!NIGHT_YELLOW_SPOT}",
+      "name": "STATUS_WARNING_SPOT_NIGHT"
+    },
+    "SURFACE_CONTRAST_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#02122cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "SURFACE_CONTRAST_DAY"
+    },
+    "SURFACE_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#2c2c2eff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "SURFACE_CONTRAST_NIGHT"
+    },
+    "SURFACE_DEFAULT_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "SURFACE_DEFAULT_DAY"
+    },
+    "SURFACE_DEFAULT_NIGHT": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#2c2c2eff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "SURFACE_DEFAULT_NIGHT"
+    },
+    "SURFACE_ELEVATED_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "SURFACE_ELEVATED_DAY"
+    },
+    "SURFACE_ELEVATED_NIGHT": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#1b2839ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "SURFACE_ELEVATED_NIGHT"
+    },
+    "SURFACE_HIGHLIGHT_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#dddde5ff",
+      "originalValue": "{!GREY_20}",
+      "name": "SURFACE_HIGHLIGHT_DAY"
+    },
+    "SURFACE_HIGHLIGHT_NIGHT": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#b1ffe7ff",
+      "originalValue": "{!NIGHT_GREEN_FILL}",
+      "name": "SURFACE_HIGHLIGHT_NIGHT"
     },
     "TEXT_BASE-EMPHASIZED_FONT_SIZE": {
       "value": "16",
@@ -1793,6 +2031,34 @@
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XS}",
       "name": "TEXT_CAPTION_LINE_HEIGHT"
+    },
+    "TEXT_DISABLED_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#000000ff",
+      "originalValue": "{!BLACK}",
+      "name": "TEXT_DISABLED_DAY"
+    },
+    "TEXT_DISABLED_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_DISABLED_NIGHT"
+    },
+    "TEXT_ERROR_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#d1435bff",
+      "originalValue": "{!BERRY}",
+      "name": "TEXT_ERROR_DAY"
+    },
+    "TEXT_ERROR_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#d1435bff",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "TEXT_ERROR_NIGHT"
     },
     "TEXT_FOOTNOTE_FONT_SIZE": {
       "value": "14",
@@ -2178,47 +2444,90 @@
       "originalValue": "{!LINE_HEIGHT_LG}",
       "name": "TEXT_LG_LINE_HEIGHT"
     },
-    "TEXT_PRIMARY_DARK_COLOR": {
-      "value": "#ffffffff",
+    "TEXT_LINK_DAY": {
       "type": "color",
       "category": "text-colors",
+      "value": "#0770e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "TEXT_LINK_DAY"
+    },
+    "TEXT_LINK_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#6d9febff",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "TEXT_LINK_NIGHT"
+    },
+    "TEXT_PRIMARY_DARK_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "TEXT_PRIMARY_DARK_COLOR"
     },
-    "TEXT_PRIMARY_LIGHT_COLOR": {
-      "value": "#111236ff",
+    "TEXT_PRIMARY_DAY": {
       "type": "color",
       "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "TEXT_PRIMARY_DAY"
+    },
+    "TEXT_PRIMARY_LIGHT_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
       "originalValue": "{!SKY_GRAY}",
       "name": "TEXT_PRIMARY_LIGHT_COLOR"
     },
-    "TEXT_QUATERNARY_DARK_COLOR": {
-      "value": "#8e8e93ff",
+    "TEXT_PRIMARY_NIGHT": {
       "type": "color",
       "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_PRIMARY_NIGHT"
+    },
+    "TEXT_QUATERNARY_DARK_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
       "originalValue": "{!BLACK_TINT_06}",
       "name": "TEXT_QUATERNARY_DARK_COLOR"
     },
     "TEXT_QUATERNARY_LIGHT_COLOR": {
-      "value": "#8f90a0ff",
       "type": "color",
       "category": "text-colors",
+      "value": "#8f90a0ff",
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_QUATERNARY_LIGHT_COLOR"
     },
     "TEXT_SECONDARY_DARK_COLOR": {
-      "value": "#b2b2bfff",
       "type": "color",
       "category": "text-colors",
+      "value": "#b2b2bfff",
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_DARK_COLOR"
     },
-    "TEXT_SECONDARY_LIGHT_COLOR": {
-      "value": "#68697fff",
+    "TEXT_SECONDARY_DAY": {
       "type": "color",
       "category": "text-colors",
+      "value": "#68697fff",
+      "originalValue": "{!GREY_40}",
+      "name": "TEXT_SECONDARY_DAY"
+    },
+    "TEXT_SECONDARY_LIGHT_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#68697fff",
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "TEXT_SECONDARY_LIGHT_COLOR"
+    },
+    "TEXT_SECONDARY_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#b2b2bfff",
+      "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
+      "originalValue": "{!SKY_GRAY_TINT_04}",
+      "name": "TEXT_SECONDARY_NIGHT"
     },
     "TEXT_SM-EMPHASIZED_FONT_SIZE": {
       "value": "14",
@@ -2297,16 +2606,16 @@
       "name": "TEXT_SUBHEADING_LINE_HEIGHT"
     },
     "TEXT_TERTIARY_DARK_COLOR": {
-      "value": "#8e8e93ff",
       "type": "color",
       "category": "text-colors",
+      "value": "#8e8e93ff",
       "originalValue": "{!BLACK_TINT_06}",
       "name": "TEXT_TERTIARY_DARK_COLOR"
     },
     "TEXT_TERTIARY_LIGHT_COLOR": {
-      "value": "#8f90a0ff",
       "type": "color",
       "category": "text-colors",
+      "value": "#8f90a0ff",
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_TERTIARY_LIGHT_COLOR"
     },
@@ -2675,36 +2984,36 @@
       "originalDarkValue": "{!SKY_BLUE_TINT_01}"
     },
     "TEXT_PRIMARY_COLOR": {
-      "value": "#111236ff",
       "type": "color",
       "category": "text-colors",
+      "value": "#111236ff",
       "originalValue": "{!SKY_GRAY}",
       "name": "TEXT_PRIMARY_COLOR",
       "darkValue": "#ffffffff",
       "originalDarkValue": "{!WHITE}"
     },
     "TEXT_QUATERNARY_COLOR": {
-      "value": "#8f90a0ff",
       "type": "color",
       "category": "text-colors",
+      "value": "#8f90a0ff",
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_QUATERNARY_COLOR",
       "darkValue": "#8e8e93ff",
       "originalDarkValue": "{!BLACK_TINT_06}"
     },
     "TEXT_SECONDARY_COLOR": {
-      "value": "#68697fff",
       "type": "color",
       "category": "text-colors",
+      "value": "#68697fff",
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "TEXT_SECONDARY_COLOR",
       "darkValue": "#b2b2bfff",
       "originalDarkValue": "{!SKY_GRAY_TINT_04}"
     },
     "TEXT_TERTIARY_COLOR": {
-      "value": "#8f90a0ff",
       "type": "color",
       "category": "text-colors",
+      "value": "#8f90a0ff",
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_TERTIARY_COLOR",
       "darkValue": "#8e8e93ff",
@@ -2747,6 +3056,10 @@
     "BUTTON_LINE_HEIGHT_LARGE",
     "BUTTON_PADDING_HORIZONTAL",
     "BUTTON_PADDING_VERTICAL",
+    "CANVAS_CONTRAST_DAY",
+    "CANVAS_CONTRAST_NIGHT",
+    "CANVAS_DAY",
+    "CANVAS_NIGHT",
     "CAROUSEL_INDICATOR_DOT_SIZE_BASE",
     "CAROUSEL_INDICATOR_DOT_SIZE_MD",
     "CAROUSEL_INDICATOR_DOT_SIZE_SM",
@@ -2823,6 +3136,12 @@
     "COLOR_WHITE",
     "COLOR_YELLOW",
     "COLOR_YELLOW_MUTED",
+    "CORE_ACCENT_DAY",
+    "CORE_ACCENT_NIGHT",
+    "CORE_ECO_DAY",
+    "CORE_ECO_NIGHT",
+    "CORE_PRIMARY_DAY",
+    "CORE_PRIMARY_NIGHT",
     "CORNER_RADIUS_LG",
     "CORNER_RADIUS_MD",
     "CORNER_RADIUS_PILL",
@@ -2852,6 +3171,7 @@
     "LETTER_SPACING_XXL",
     "LETTER_SPACING_XXXL",
     "LINE_DARK_COLOR",
+    "LINE_DAY",
     "LINE_HEIGHT_5XL",
     "LINE_HEIGHT_6XL",
     "LINE_HEIGHT_7XL",
@@ -2868,8 +3188,11 @@
     "LINE_HEIGHT_XXXL",
     "LINE_HEIGHT_XXXXL",
     "LINE_LIGHT_COLOR",
+    "LINE_NIGHT",
     "PRIMARY_DARK_COLOR",
     "PRIMARY_LIGHT_COLOR",
+    "SCRIM_DAY",
+    "SCRIM_NIGHT",
     "SHADOW_LG_COLOR",
     "SHADOW_LG_OFFSET_HEIGHT",
     "SHADOW_LG_OFFSET_WIDTH",
@@ -2888,6 +3211,26 @@
     "SPACING_SM",
     "SPACING_XL",
     "SPACING_XXL",
+    "STATUS_DANGER_FILL_DAY",
+    "STATUS_DANGER_FILL_NIGHT",
+    "STATUS_DANGER_SPOT_DAY",
+    "STATUS_DANGER_SPOT_NIGHT",
+    "STATUS_SUCCESS_FILL_DAY",
+    "STATUS_SUCCESS_FILL_NIGHT",
+    "STATUS_SUCCESS_SPOT_DAY",
+    "STATUS_SUCCESS_SPOT_NIGHT",
+    "STATUS_WARNING_FILL_DAY",
+    "STATUS_WARNING_FILL_NIGHT",
+    "STATUS_WARNING_SPOT_DAY",
+    "STATUS_WARNING_SPOT_NIGHT",
+    "SURFACE_CONTRAST_DAY",
+    "SURFACE_CONTRAST_NIGHT",
+    "SURFACE_DEFAULT_DAY",
+    "SURFACE_DEFAULT_NIGHT",
+    "SURFACE_ELEVATED_DAY",
+    "SURFACE_ELEVATED_NIGHT",
+    "SURFACE_HIGHLIGHT_DAY",
+    "SURFACE_HIGHLIGHT_NIGHT",
     "TEXT_BASE-EMPHASIZED_FONT_SIZE",
     "TEXT_BASE-EMPHASIZED_FONT_WEIGHT",
     "TEXT_BASE-EMPHASIZED_LINE_HEIGHT",
@@ -2909,6 +3252,10 @@
     "TEXT_CAPTION_FONT_SIZE",
     "TEXT_CAPTION_FONT_WEIGHT",
     "TEXT_CAPTION_LINE_HEIGHT",
+    "TEXT_DISABLED_DAY",
+    "TEXT_DISABLED_NIGHT",
+    "TEXT_ERROR_DAY",
+    "TEXT_ERROR_NIGHT",
     "TEXT_FOOTNOTE_FONT_SIZE",
     "TEXT_FOOTNOTE_FONT_WEIGHT",
     "TEXT_FOOTNOTE_LINE_HEIGHT",
@@ -2963,12 +3310,18 @@
     "TEXT_LG_FONT_WEIGHT",
     "TEXT_LG_LETTER_SPACING",
     "TEXT_LG_LINE_HEIGHT",
+    "TEXT_LINK_DAY",
+    "TEXT_LINK_NIGHT",
     "TEXT_PRIMARY_DARK_COLOR",
+    "TEXT_PRIMARY_DAY",
     "TEXT_PRIMARY_LIGHT_COLOR",
+    "TEXT_PRIMARY_NIGHT",
     "TEXT_QUATERNARY_DARK_COLOR",
     "TEXT_QUATERNARY_LIGHT_COLOR",
     "TEXT_SECONDARY_DARK_COLOR",
+    "TEXT_SECONDARY_DAY",
     "TEXT_SECONDARY_LIGHT_COLOR",
+    "TEXT_SECONDARY_NIGHT",
     "TEXT_SM-EMPHASIZED_FONT_SIZE",
     "TEXT_SM-EMPHASIZED_FONT_WEIGHT",
     "TEXT_SM-EMPHASIZED_LINE_HEIGHT",

@@ -1,0 +1,29 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "type": "color",
+    "category": "core-colors"
+  },
+  "props": {
+    "CORE_ECO_DAY": {
+      "value": "{!ECO_GREEN}"
+    },
+    "CORE_ECO_NIGHT": {
+      "value": "{!ECO_GREEN}"
+    },
+    "CORE_ACCENT_DAY": {
+      "value": "{!SKY_BLUE}"
+    },
+    "CORE_ACCENT_NIGHT": {
+      "value": "{!NIGHT_BLUE}"
+    },
+    "CORE_PRIMARY_DAY": {
+      "value": "{!DARK_SKY}"
+    },
+    "CORE_PRIMARY_NIGHT": {
+      "value": "{!NIGHT_SKY}"
+    }
+  }
+}

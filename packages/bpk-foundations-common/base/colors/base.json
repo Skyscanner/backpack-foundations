@@ -1,0 +1,222 @@
+{
+  "imports": ["./aliases.json"],
+  "global": {
+    "type": "color",
+    "category": "colors"
+  },
+  "props": {
+    "COLOR_WHITE": {
+      "value": "{!WHITE}"
+    },
+    "COLOR_SKY_BLUE": {
+      "value": "{!SKY_BLUE}"
+    },
+    "COLOR_MONTEVERDE": {
+      "value": "{!MONTEVERDE}"
+    },
+    "COLOR_GLENCOE": {
+      "value": "{!GLENCOE}"
+    },
+    "COLOR_SAGANO": {
+      "value": "{!SAGANO}"
+    },
+    "COLOR_KOLKATA": {
+      "value": "{!KOLKATA}"
+    },
+    "COLOR_ERFOUD": {
+      "value": "{!ERFOUD}"
+    },
+    "COLOR_BAGAN": {
+      "value": "{!BAGAN}"
+    },
+    "COLOR_BUNOL": {
+      "value": "{!BUNOL}"
+    },
+    "COLOR_PETRA": {
+      "value": "{!PETRA}"
+    },
+    "COLOR_NARA": {
+      "value": "{!NARA}"
+    },
+    "COLOR_ABISKO": {
+      "value": "{!ABISKO}"
+    },
+    "COLOR_VALENSOLE": {
+      "value": "{!VALENSOLE}"
+    },
+    "COLOR_TOCHIGI": {
+      "value": "{!TOCHIGI}"
+    },
+    "COLOR_PANJIN": {
+      "value": "{!PANJIN}"
+    },
+    "COLOR_HILLIER": {
+      "value": "{!HILLIER}"
+    },
+    "COLOR_HARBOUR": {
+      "value": "{!HARBOUR}"
+    },
+    "COLOR_SKY_BLUE_SHADE_03": {
+      "value": "{!SKY_BLUE_SHADE_03}"
+    },
+    "COLOR_SKY_BLUE_SHADE_02": {
+      "value": "{!SKY_BLUE_SHADE_02}"
+    },
+    "COLOR_SKY_BLUE_SHADE_01": {
+      "value": "{!SKY_BLUE_SHADE_01}"
+    },
+    "COLOR_SKY_BLUE_TINT_01": {
+      "value": "{!SKY_BLUE_TINT_01}"
+    },
+    "COLOR_SKY_BLUE_TINT_02": {
+      "value": "{!SKY_BLUE_TINT_02}"
+    },
+    "COLOR_SKY_BLUE_TINT_03": {
+      "value": "{!SKY_BLUE_TINT_03}"
+    },
+    "COLOR_SKY_GRAY_TINT_07": {
+      "value": "{!SKY_GRAY_TINT_07}"
+    },
+    "COLOR_SKY_GRAY_TINT_06": {
+      "value": "{!SKY_GRAY_TINT_06}"
+    },
+    "COLOR_SKY_GRAY_TINT_05": {
+      "value": "{!SKY_GRAY_TINT_05}"
+    },
+    "COLOR_SKY_GRAY_TINT_04": {
+      "value": "{!SKY_GRAY_TINT_04}"
+    },
+    "COLOR_SKY_GRAY_TINT_03": {
+      "value": "{!SKY_GRAY_TINT_03}"
+    },
+    "COLOR_SKY_GRAY_TINT_02": {
+      "value": "{!SKY_GRAY_TINT_02}"
+    },
+    "COLOR_SKY_GRAY_TINT_01": {
+      "value": "{!SKY_GRAY_TINT_01}"
+    },
+    "COLOR_SKY_GRAY": {
+      "value": "{!SKY_GRAY}"
+    },
+    "COLOR_PRIMARY_GRADIENT_LIGHT": {
+      "value": "{!SKY_BLUE}"
+    },
+    "COLOR_BLACK": {
+      "value": "{!BLACK}"
+    },
+    "COLOR_BLACK_TINT_01": {
+      "value": "{!BLACK_TINT_01}"
+    },
+    "COLOR_BLACK_TINT_02": {
+      "value": "{!BLACK_TINT_02}"
+    },
+    "COLOR_BLACK_TINT_03": {
+      "value": "{!BLACK_TINT_03}"
+    },
+    "COLOR_BLACK_TINT_04": {
+      "value": "{!BLACK_TINT_04}"
+    },
+    "COLOR_BLACK_TINT_05": {
+      "value": "{!BLACK_TINT_05}"
+    },
+    "COLOR_BLACK_TINT_06": {
+      "value": "{!BLACK_TINT_06}"
+    },
+    "COLOR_DARK_SKY": {
+      "value": "{!DARK_SKY}"
+    },
+    "COLOR_ECO_GREEN": {
+      "value": "{!ECO_GREEN}"
+    },
+    "COLOR_GREEN_SPOT": {
+      "value": "{!GREEN_SPOT}"
+    },
+    "COLOR_GREEN_MUTED": {
+      "value": "{!GREEN_MUTED}"
+    },
+    "COLOR_AMBER_SPOT": {
+      "value": "{!AMBER_SPOT}"
+    },
+    "COLOR_YELLOW_MUTED": {
+      "value": "{!YELLOW_MUTED}"
+    },
+    "COLOR_BERRY": {
+      "value": "{!BERRY}"
+    },
+    "COLOR_PINK_MUTED": {
+      "value": "{!PINK_MUTED}"
+    },
+    "COLOR_GREY_10": {
+      "value": "{!GREY_10}"
+    },
+    "COLOR_GREY_20": {
+      "value": "{!GREY_20}"
+    },
+    "COLOR_GREY_30": {
+      "value": "{!GREY_30}"
+    },
+    "COLOR_GREY_40": {
+      "value": "{!GREY_40}"
+    },
+    "COLOR_CHARCOAL": {
+      "value": "{!CHARCOAL}"
+    },
+    "COLOR_NIGHT_SKY": {
+      "value": "{!NIGHT_SKY}"
+    },
+    "COLOR_NIGHT_BLUE": {
+      "value": "{!NIGHT_BLUE}"
+    },
+    "COLOR_NIGHT_GREEN_SPOT": {
+      "value": "{!NIGHT_GREEN_SPOT}"
+    },
+    "COLOR_NIGHT_GREEN_FILL": {
+      "value": "{!NIGHT_GREEN_FILL}"
+    },
+    "COLOR_NIGHT_YELLOW_SPOT": {
+      "value": "{!NIGHT_YELLOW_SPOT}"
+    },
+    "COLOR_NIGHT_YELLOW_FILL": {
+      "value": "{!NIGHT_YELLOW_FILL}"
+    },
+    "COLOR_NIGHT_BERRY": {
+      "value": "{!NIGHT_BERRY}"
+    },
+    "COLOR_NIGHT_PINK": {
+      "value": "{!NIGHT_PINK}"
+    },
+    "COLOR_NIGHT_GREY_10": {
+      "value": "{!NIGHT_GREY_10}"
+    },
+    "COLOR_NIGHT_GREY_20": {
+      "value": "{!NIGHT_GREY_20}"
+    },
+    "COLOR_NIGHT_GREY_30": {
+      "value": "{!NIGHT_GREY_30}"
+    },
+    "COLOR_NIGHT_GREY_40": {
+      "value": "{!NIGHT_GREY_40}"
+    },
+    "COLOR_BLUE_BRIGHT": {
+      "value": "{!BLUE_BRIGHT}"
+    },
+    "COLOR_BLUE_MUTED": {
+      "value": "{!BLUE_MUTED}"
+    },
+    "COLOR_GREEN_BRIGHT": {
+      "value": "{!GREEN_BRIGHT}"
+    },
+    "COLOR_PURPLE": {
+      "value": "{!PURPLE}"
+    },
+    "COLOR_PINK": {
+      "value": "{!PINK}"
+    },
+    "COLOR_ORANGE": {
+      "value": "{!ORANGE}"
+    },
+    "COLOR_YELLOW": {
+      "value": "{!YELLOW}"
+    }
+  }
+}

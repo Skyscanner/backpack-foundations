@@ -85,6 +85,10 @@ export const buttonHeight = 32;
 export const buttonLineHeightLarge = 4 * 12;
 export const buttonPaddingHorizontal = 4 * 3;
 export const buttonPaddingVertical = 8;
+export const canvasContrastDay = "rgb(241, 242, 248)";
+export const canvasContrastNight = "rgb(44, 44, 46)";
+export const canvasDay = "rgb(255, 255, 255)";
+export const canvasNight = "rgb(0, 0, 0)";
 export const carouselIndicatorDotSizeBase = 6;
 export const carouselIndicatorDotSizeMd = 4;
 export const carouselIndicatorDotSizeSm = 2;
@@ -121,11 +125,11 @@ export const colorMonteverde = "rgb(0, 166, 152)";
 export const colorNara = "rgb(255, 231, 224)";
 export const colorNightBerry = "rgb(209, 67, 91)";
 export const colorNightBlue = "rgb(109, 159, 235)";
-export const colorNightGreenFill = "rgb(115, 206, 198)";
+export const colorNightGreenFill = "rgb(177, 255, 231)";
 export const colorNightGreenSpot = "rgb(0, 166, 152)";
 export const colorNightGrey10 = "rgb(0, 0, 0)";
 export const colorNightGrey20 = "rgb(44, 44, 46)";
-export const colorNightGrey30 = "rgb(99, 99, 102)";
+export const colorNightGrey30 = "rgb(72, 72, 74)";
 export const colorNightGrey40 = "rgb(142, 142, 147)";
 export const colorNightPink = "rgb(255, 202, 221)";
 export const colorNightSky = "rgb(5, 65, 132)";
@@ -164,6 +168,12 @@ export const colorValensole = "rgb(165, 155, 200)";
 export const colorWhite = "rgb(255, 255, 255)";
 export const colorYellow = "rgb(254, 235, 135)";
 export const colorYellowMuted = "rgb(255, 235, 208)";
+export const coreAccentDay = "rgb(7, 112, 227)";
+export const coreAccentNight = "rgb(109, 159, 235)";
+export const coreEcoDay = "rgb(15, 161, 169)";
+export const coreEcoNight = "rgb(15, 161, 169)";
+export const corePrimaryDay = "rgb(2, 18, 44)";
+export const corePrimaryNight = "rgb(5, 65, 132)";
 export const cornerRadiusLg = 24;
 export const cornerRadiusMd = 12;
 export const cornerRadiusPill = 40;
@@ -191,6 +201,7 @@ export const lineColor = {
  light: "rgb(205, 205, 215)",
 };
 export const lineDarkColor = "rgb(72, 72, 74)";
+export const lineDay = "rgb(205, 205, 215)";
 export const lineHeightBase = 19;
 export const lineHeightLg = 24;
 export const lineHeightSm = 17;
@@ -198,12 +209,15 @@ export const lineHeightXl = 29;
 export const lineHeightXs = 14;
 export const lineHeightXxl = 43;
 export const lineLightColor = "rgb(205, 205, 215)";
+export const lineNight = "rgb(72, 72, 74)";
 export const primaryColor = {
  dark: "rgb(109, 159, 235)",
  light: "rgb(7, 112, 227)",
 };
 export const primaryDarkColor = "rgb(109, 159, 235)";
 export const primaryLightColor = "rgb(7, 112, 227)";
+export const scrimDay = "rgb(205, 205, 215)";
+export const scrimNight = "rgb(72, 72, 74)";
 export const shadowLgColor = "rgb(17, 18, 54)";
 export const shadowLgOffsetHeight = 4;
 export const shadowLgOffsetWidth = 0;
@@ -222,23 +236,51 @@ export const spacingNone = 0;
 export const spacingSm = 4;
 export const spacingXl = 32;
 export const spacingXxl = 40;
+export const statusDangerFillDay = "rgb(246, 221, 225)";
+export const statusDangerFillNight = "rgb(255, 202, 221)";
+export const statusDangerSpotDay = "rgb(209, 67, 91)";
+export const statusDangerSpotNight = "rgb(209, 67, 91)";
+export const statusSuccessFillDay = "rgb(208, 238, 236)";
+export const statusSuccessFillNight = "rgb(177, 255, 231)";
+export const statusSuccessSpotDay = "rgb(0, 166, 152)";
+export const statusSuccessSpotNight = "rgb(0, 166, 152)";
+export const statusWarningFillDay = "rgb(255, 235, 208)";
+export const statusWarningFillNight = "rgb(251, 241, 187)";
+export const statusWarningSpotDay = "rgb(255, 148, 0)";
+export const statusWarningSpotNight = "rgb(255, 181, 77)";
+export const surfaceContrastDay = "rgb(2, 18, 44)";
+export const surfaceContrastNight = "rgb(44, 44, 46)";
+export const surfaceDefaultDay = "rgb(255, 255, 255)";
+export const surfaceDefaultNight = "rgb(44, 44, 46)";
+export const surfaceElevatedDay = "rgb(255, 255, 255)";
+export const surfaceElevatedNight = "rgb(27, 40, 57)";
+export const surfaceHighlightDay = "rgb(221, 221, 229)";
+export const surfaceHighlightNight = "rgb(177, 255, 231)";
 export const textBaseFontSize = 16;
 export const textBaseFontWeight = "400";
 export const textBaseLetterSpacing = 0.12;
 export const textCapsFontSize = 10;
 export const textCapsFontWeight = "400";
 export const textCapsLetterSpacing = 0.28;
+export const textDisabledDay = "rgb(0, 0, 0)";
+export const textDisabledNight = "rgb(255, 255, 255)";
 export const textEmphasizedFontWeight = "700";
+export const textErrorDay = "rgb(209, 67, 91)";
+export const textErrorNight = "rgb(209, 67, 91)";
 export const textHeavyFontWeight = "800";
 export const textLgFontSize = 20;
 export const textLgFontWeight = "400";
 export const textLgLetterSpacing = null;
+export const textLinkDay = "rgb(7, 112, 227)";
+export const textLinkNight = "rgb(109, 159, 235)";
 export const textPrimaryColor = {
  dark: "rgb(255, 255, 255)",
  light: "rgb(17, 18, 54)",
 };
 export const textPrimaryDarkColor = "rgb(255, 255, 255)";
+export const textPrimaryDay = "rgb(17, 18, 54)";
 export const textPrimaryLightColor = "rgb(17, 18, 54)";
+export const textPrimaryNight = "rgb(255, 255, 255)";
 export const textQuaternaryColor = {
  dark: "rgb(142, 142, 147)",
  light: "rgb(143, 144, 160)",
@@ -250,7 +292,9 @@ export const textSecondaryColor = {
  light: "rgb(104, 105, 127)",
 };
 export const textSecondaryDarkColor = "rgb(142, 142, 147)";
+export const textSecondaryDay = "rgb(104, 105, 127)";
 export const textSecondaryLightColor = "rgb(104, 105, 127)";
+export const textSecondaryNight = "rgb(178, 178, 191)";
 export const textSmFontSize = 14;
 export const textSmFontWeight = "400";
 export const textSmLetterSpacing = 0.154;
@@ -299,6 +343,12 @@ shadowSmOffsetHeight,
 shadowSmOffsetWidth,
 shadowSmOpacity,
 shadowSmRadius,
+};
+export const canvasColors = {
+canvasContrastDay,
+canvasContrastNight,
+canvasDay,
+canvasNight,
 };
 export const carouselIndicatorDots = {
 carouselIndicatorDotSizeBase,
@@ -394,6 +444,14 @@ lineLightColor,
 primaryDarkColor,
 primaryLightColor,
 };
+export const coreColors = {
+coreAccentDay,
+coreAccentNight,
+coreEcoDay,
+coreEcoNight,
+corePrimaryDay,
+corePrimaryNight,
+};
 export const fontSizes = {
 textBaseFontSize,
 textCapsFontSize,
@@ -434,6 +492,10 @@ textXsLetterSpacing,
 textXxlLetterSpacing,
 textXxxlLetterSpacing,
 };
+export const lineColors = {
+lineDay,
+lineNight,
+};
 export const radii = {
 borderRadiusLg,
 borderRadiusMd,
@@ -445,6 +507,10 @@ cornerRadiusMd,
 cornerRadiusPill,
 cornerRadiusSm,
 cornerRadiusXs,
+};
+export const scrimColors = {
+scrimDay,
+scrimNight,
 };
 export const semanticColors = {
 backgroundAlternativeColor,
@@ -480,6 +546,30 @@ spacingSm,
 spacingXl,
 spacingXxl,
 };
+export const statusColors = {
+statusDangerFillDay,
+statusDangerFillNight,
+statusDangerSpotDay,
+statusDangerSpotNight,
+statusSuccessFillDay,
+statusSuccessFillNight,
+statusSuccessSpotDay,
+statusSuccessSpotNight,
+statusWarningFillDay,
+statusWarningFillNight,
+statusWarningSpotDay,
+statusWarningSpotNight,
+};
+export const surfaceColors = {
+surfaceContrastDay,
+surfaceContrastNight,
+surfaceDefaultDay,
+surfaceDefaultNight,
+surfaceElevatedDay,
+surfaceElevatedNight,
+surfaceHighlightDay,
+surfaceHighlightNight,
+};
 export const textColors = {
 backgroundElevation01DarkColor,
 backgroundElevation01LightColor,
@@ -487,12 +577,22 @@ backgroundElevation02DarkColor,
 backgroundElevation02LightColor,
 backgroundElevation03DarkColor,
 backgroundElevation03LightColor,
+textDisabledDay,
+textDisabledNight,
+textErrorDay,
+textErrorNight,
+textLinkDay,
+textLinkNight,
 textPrimaryDarkColor,
+textPrimaryDay,
 textPrimaryLightColor,
+textPrimaryNight,
 textQuaternaryDarkColor,
 textQuaternaryLightColor,
 textSecondaryDarkColor,
+textSecondaryDay,
 textSecondaryLightColor,
+textSecondaryNight,
 textTertiaryDarkColor,
 textTertiaryLightColor,
 };

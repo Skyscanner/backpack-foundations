@@ -17,6 +17,38 @@
  * limitations under the License.
  * 
  */
+/// @group colors
+$bpk-background-alternative-dark-color: rgb(0, 0, 0);
+/// @group colors
+$bpk-background-alternative-light-color: rgb(241, 242, 248);
+/// @group colors
+$bpk-background-alternative-secondary-dark-color: rgb(29, 27, 32);
+/// @group colors
+$bpk-background-alternative-secondary-light-color: rgb(255, 255, 255);
+/// @group colors
+$bpk-background-dark-color: rgb(0, 0, 0);
+/// @group text-colors
+$bpk-background-elevation-01-dark-color: rgb(29, 27, 32);
+/// @group text-colors
+$bpk-background-elevation-01-light-color: rgb(255, 255, 255);
+/// @group text-colors
+$bpk-background-elevation-02-dark-color: rgb(44, 44, 46);
+/// @group text-colors
+$bpk-background-elevation-02-light-color: rgb(255, 255, 255);
+/// @group text-colors
+$bpk-background-elevation-03-dark-color: rgb(58, 58, 60);
+/// @group text-colors
+$bpk-background-elevation-03-light-color: rgb(255, 255, 255);
+/// @group colors
+$bpk-background-light-color: rgb(255, 255, 255);
+/// @group colors
+$bpk-background-secondary-dark-color: rgb(29, 27, 32);
+/// @group colors
+$bpk-background-secondary-light-color: rgb(241, 242, 248);
+/// @group colors
+$bpk-background-tertiary-dark-color: rgb(44, 44, 46);
+/// @group colors
+$bpk-background-tertiary-light-color: rgb(255, 255, 255);
 /// @group breakpoints
 $bpk-breakpoint-desktop: 80rem;
 /// @group breakpoints
@@ -55,3 +87,261 @@ $bpk-breakpoint-small-tablet-margin: 1.5rem;
 $bpk-breakpoint-tablet: 64rem;
 /// @group breakpoints
 $bpk-breakpoint-tablet-margin: 2rem;
+/// @group canvas-colors
+$bpk-canvas-contrast-day: rgb(241, 242, 248);
+/// @group canvas-colors
+$bpk-canvas-contrast-night: rgb(44, 44, 46);
+/// @group canvas-colors
+$bpk-canvas-day: rgb(255, 255, 255);
+/// @group canvas-colors
+$bpk-canvas-night: rgb(0, 0, 0);
+/// @group colors
+$bpk-color-abisko: rgb(90, 72, 155);
+/// @group colors
+$bpk-color-amber-spot: rgb(255, 148, 0);
+/// @group colors
+$bpk-color-bagan: rgb(255, 235, 208);
+/// @group colors
+$bpk-color-berry: rgb(209, 67, 91);
+/// @group colors
+$bpk-color-black: rgb(0, 0, 0);
+/// @group colors
+$bpk-color-black-tint-01: rgb(29, 27, 32);
+/// @group colors
+$bpk-color-black-tint-02: rgb(44, 44, 46);
+/// @group colors
+$bpk-color-black-tint-03: rgb(58, 58, 60);
+/// @group colors
+$bpk-color-black-tint-04: rgb(72, 72, 74);
+/// @group colors
+$bpk-color-black-tint-05: rgb(99, 99, 102);
+/// @group colors
+$bpk-color-black-tint-06: rgb(142, 142, 147);
+/// @group colors
+$bpk-color-blue-bright: rgb(161, 238, 255);
+/// @group colors
+$bpk-color-blue-muted: rgb(217, 248, 255);
+/// @group colors
+$bpk-color-bunol: rgb(255, 123, 89);
+/// @group colors
+$bpk-color-charcoal: rgb(17, 18, 54);
+/// @group colors
+$bpk-color-dark-sky: rgb(2, 18, 44);
+/// @group colors
+$bpk-color-eco-green: rgb(15, 161, 169);
+/// @group colors
+$bpk-color-erfoud: rgb(255, 181, 77);
+/// @group colors
+$bpk-color-glencoe: rgb(115, 206, 198);
+/// @group colors
+$bpk-color-green-bright: rgb(147, 255, 222);
+/// @group colors
+$bpk-color-green-muted: rgb(208, 238, 236);
+/// @group colors
+$bpk-color-green-spot: rgb(0, 166, 152);
+/// @group colors
+$bpk-color-grey-10: rgb(241, 242, 248);
+/// @group colors
+$bpk-color-grey-20: rgb(221, 221, 229);
+/// @group colors
+$bpk-color-grey-30: rgb(205, 205, 215);
+/// @group colors
+$bpk-color-grey-40: rgb(104, 105, 127);
+/// @group colors
+$bpk-color-harbour: rgb(246, 221, 225);
+/// @group colors
+$bpk-color-hillier: rgb(225, 139, 150);
+/// @group colors
+$bpk-color-kolkata: rgb(255, 148, 0);
+/// @group colors
+$bpk-color-monteverde: rgb(0, 166, 152);
+/// @group colors
+$bpk-color-nara: rgb(255, 231, 224);
+/// @group colors
+$bpk-color-night-berry: rgb(209, 67, 91);
+/// @group colors
+$bpk-color-night-blue: rgb(109, 159, 235);
+/// @group colors
+$bpk-color-night-green-fill: rgb(177, 255, 231);
+/// @group colors
+$bpk-color-night-green-spot: rgb(0, 166, 152);
+/// @group colors
+$bpk-color-night-grey-10: rgb(0, 0, 0);
+/// @group colors
+$bpk-color-night-grey-20: rgb(44, 44, 46);
+/// @group colors
+$bpk-color-night-grey-30: rgb(72, 72, 74);
+/// @group colors
+$bpk-color-night-grey-40: rgb(142, 142, 147);
+/// @group colors
+$bpk-color-night-pink: rgb(255, 202, 221);
+/// @group colors
+$bpk-color-night-sky: rgb(5, 65, 132);
+/// @group colors
+$bpk-color-night-yellow-fill: rgb(251, 241, 187);
+/// @group colors
+$bpk-color-night-yellow-spot: rgb(255, 181, 77);
+/// @group colors
+$bpk-color-orange: rgb(255, 123, 89);
+/// @group colors
+$bpk-color-panjin: rgb(209, 67, 91);
+/// @group colors
+$bpk-color-petra: rgb(255, 171, 149);
+/// @group colors
+$bpk-color-pink: rgb(255, 163, 229);
+/// @group colors
+$bpk-color-pink-muted: rgb(246, 221, 225);
+/// @group colors
+$bpk-color-primary-gradient-light: rgb(7, 112, 227);
+/// @group colors
+$bpk-color-purple: rgb(142, 71, 186);
+/// @group colors
+$bpk-color-sagano: rgb(208, 238, 236);
+/// @group colors
+$bpk-color-sky-blue: rgb(7, 112, 227);
+/// @group colors
+$bpk-color-sky-blue-shade-01: rgb(8, 78, 178);
+/// @group colors
+$bpk-color-sky-blue-shade-02: rgb(4, 39, 89);
+/// @group colors
+$bpk-color-sky-blue-shade-03: rgb(2, 18, 44);
+/// @group colors
+$bpk-color-sky-blue-tint-01: rgb(109, 159, 235);
+/// @group colors
+$bpk-color-sky-blue-tint-02: rgb(157, 192, 242);
+/// @group colors
+$bpk-color-sky-blue-tint-03: rgb(205, 223, 248);
+/// @group colors
+$bpk-color-sky-gray: rgb(17, 18, 54);
+/// @group colors
+$bpk-color-sky-gray-tint-01: rgb(68, 69, 96);
+/// @group colors
+$bpk-color-sky-gray-tint-02: rgb(104, 105, 127);
+/// @group colors
+$bpk-color-sky-gray-tint-03: rgb(143, 144, 160);
+/// @group colors
+$bpk-color-sky-gray-tint-04: rgb(178, 178, 191);
+/// @group colors
+$bpk-color-sky-gray-tint-05: rgb(205, 205, 215);
+/// @group colors
+$bpk-color-sky-gray-tint-06: rgb(221, 221, 229);
+/// @group colors
+$bpk-color-sky-gray-tint-07: rgb(241, 242, 248);
+/// @group colors
+$bpk-color-system-green: rgb(0, 166, 152);
+/// @group colors
+$bpk-color-system-red: rgb(209, 67, 91);
+/// @group colors
+$bpk-color-tochigi: rgb(225, 221, 236);
+/// @group colors
+$bpk-color-valensole: rgb(165, 155, 200);
+/// @group colors
+$bpk-color-white: rgb(255, 255, 255);
+/// @group colors
+$bpk-color-yellow: rgb(254, 235, 135);
+/// @group colors
+$bpk-color-yellow-muted: rgb(255, 235, 208);
+/// @group core-colors
+$bpk-core-accent-day: rgb(7, 112, 227);
+/// @group core-colors
+$bpk-core-accent-night: rgb(109, 159, 235);
+/// @group core-colors
+$bpk-core-eco-day: rgb(15, 161, 169);
+/// @group core-colors
+$bpk-core-eco-night: rgb(15, 161, 169);
+/// @group core-colors
+$bpk-core-primary-day: rgb(2, 18, 44);
+/// @group core-colors
+$bpk-core-primary-night: rgb(5, 65, 132);
+/// @group colors
+$bpk-line-dark-color: rgb(72, 72, 74);
+/// @group line-colors
+$bpk-line-day: rgb(205, 205, 215);
+/// @group colors
+$bpk-line-light-color: rgb(205, 205, 215);
+/// @group line-colors
+$bpk-line-night: rgb(72, 72, 74);
+/// @group colors
+$bpk-primary-dark-color: rgb(109, 159, 235);
+/// @group colors
+$bpk-primary-light-color: rgb(7, 112, 227);
+/// @group scrim-colors
+$bpk-scrim-day: rgb(205, 205, 215);
+/// @group scrim-colors
+$bpk-scrim-night: rgb(72, 72, 74);
+/// @group status-colors
+$bpk-status-danger-fill-day: rgb(246, 221, 225);
+/// @group status-colors
+$bpk-status-danger-fill-night: rgb(255, 202, 221);
+/// @group status-colors
+$bpk-status-danger-spot-day: rgb(209, 67, 91);
+/// @group status-colors
+$bpk-status-danger-spot-night: rgb(209, 67, 91);
+/// @group status-colors
+$bpk-status-success-fill-day: rgb(208, 238, 236);
+/// @group status-colors
+$bpk-status-success-fill-night: rgb(177, 255, 231);
+/// @group status-colors
+$bpk-status-success-spot-day: rgb(0, 166, 152);
+/// @group status-colors
+$bpk-status-success-spot-night: rgb(0, 166, 152);
+/// @group status-colors
+$bpk-status-warning-fill-day: rgb(255, 235, 208);
+/// @group status-colors
+$bpk-status-warning-fill-night: rgb(251, 241, 187);
+/// @group status-colors
+$bpk-status-warning-spot-day: rgb(255, 148, 0);
+/// @group status-colors
+$bpk-status-warning-spot-night: rgb(255, 181, 77);
+/// @group surface-colors
+$bpk-surface-contrast-day: rgb(2, 18, 44);
+/// @group surface-colors
+$bpk-surface-contrast-night: rgb(44, 44, 46);
+/// @group surface-colors
+$bpk-surface-default-day: rgb(255, 255, 255);
+/// @group surface-colors
+$bpk-surface-default-night: rgb(44, 44, 46);
+/// @group surface-colors
+$bpk-surface-elevated-day: rgb(255, 255, 255);
+/// @group surface-colors
+$bpk-surface-elevated-night: rgb(27, 40, 57);
+/// @group surface-colors
+$bpk-surface-highlight-day: rgb(221, 221, 229);
+/// @group surface-colors
+$bpk-surface-highlight-night: rgb(177, 255, 231);
+/// @group text-colors
+$bpk-text-disabled-day: rgb(0, 0, 0);
+/// @group text-colors
+$bpk-text-disabled-night: rgb(255, 255, 255);
+/// @group text-colors
+$bpk-text-error-day: rgb(209, 67, 91);
+/// @group text-colors
+$bpk-text-error-night: rgb(209, 67, 91);
+/// @group text-colors
+$bpk-text-link-day: rgb(7, 112, 227);
+/// @group text-colors
+$bpk-text-link-night: rgb(109, 159, 235);
+/// @group text-colors
+$bpk-text-primary-dark-color: rgb(255, 255, 255);
+/// @group text-colors
+$bpk-text-primary-day: rgb(17, 18, 54);
+/// @group text-colors
+$bpk-text-primary-light-color: rgb(17, 18, 54);
+/// @group text-colors
+$bpk-text-primary-night: rgb(255, 255, 255);
+/// @group text-colors
+$bpk-text-quaternary-dark-color: rgb(142, 142, 147);
+/// @group text-colors
+$bpk-text-quaternary-light-color: rgb(143, 144, 160);
+/// @group text-colors
+$bpk-text-secondary-dark-color: rgb(178, 178, 191);
+/// @group text-colors
+$bpk-text-secondary-day: rgb(104, 105, 127);
+/// @group text-colors
+$bpk-text-secondary-light-color: rgb(104, 105, 127);
+/// @group text-colors
+$bpk-text-secondary-night: rgb(178, 178, 191);
+/// @group text-colors
+$bpk-text-tertiary-dark-color: rgb(142, 142, 147);
+/// @group text-colors
+$bpk-text-tertiary-light-color: rgb(143, 144, 160);
