@@ -241,7 +241,7 @@
       "value": "#6D9FEB"
     },
     "NIGHT_GREEN_FILL": {
-      "value": "#73CEC6"
+      "value": "#B1FFE7"
     },
     "NIGHT_GREEN_SPOT": {
       "value": "#00A698"
@@ -256,7 +256,7 @@
       "value": "#1B2839"
     },
     "NIGHT_GREY_30": {
-      "value": "#636366"
+      "value": "#48484A"
     },
     "NIGHT_GREY_40": {
       "value": "#8E8E93"
@@ -887,7 +887,7 @@
     "COLOR_NIGHT_GREEN_FILL": {
       "type": "color",
       "category": "colors",
-      "value": "#73cec6ff",
+      "value": "#b1ffe7ff",
       "originalValue": "{!NIGHT_GREEN_FILL}",
       "name": "COLOR_NIGHT_GREEN_FILL"
     },
@@ -915,7 +915,7 @@
     "COLOR_NIGHT_GREY_30": {
       "type": "color",
       "category": "colors",
-      "value": "#636366ff",
+      "value": "#48484aff",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "COLOR_NIGHT_GREY_30"
     },
@@ -1447,7 +1447,7 @@
     "LINE_NIGHT": {
       "type": "color",
       "category": "line-colors",
-      "value": "#636366ff",
+      "value": "#48484aff",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "LINE_NIGHT"
     },
@@ -1475,7 +1475,7 @@
     "SCRIM_NIGHT": {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#636366ff",
+      "value": "#48484aff",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "SCRIM_NIGHT"
     },
@@ -1573,7 +1573,7 @@
     "STATUS_SUCCESS_FILL_NIGHT": {
       "type": "color",
       "category": "status-colors",
-      "value": "#73cec6ff",
+      "value": "#b1ffe7ff",
       "originalValue": "{!NIGHT_GREEN_FILL}",
       "name": "STATUS_SUCCESS_FILL_NIGHT"
     },
@@ -1671,7 +1671,7 @@
     "SURFACE_HIGHLIGHT_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#73cec6ff",
+      "value": "#b1ffe7ff",
       "originalValue": "{!NIGHT_GREEN_FILL}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
     },
@@ -1853,8 +1853,9 @@
     "TEXT_SECONDARY_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "#8e8e93ff",
-      "originalValue": "{!NIGHT_GREY_40}",
+      "value": "#b2b2bfff",
+      "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
+      "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_NIGHT"
     },
     "TEXT_SM_FONT_SIZE": {

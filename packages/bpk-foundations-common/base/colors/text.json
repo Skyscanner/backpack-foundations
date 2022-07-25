@@ -41,7 +41,8 @@
       "value": "{!GREY_40}"
     },
     "TEXT_SECONDARY_NIGHT": {
-      "value": "{!NIGHT_GREY_40}"
+      "value": "{!SKY_GRAY_TINT_04}",
+      "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values"
     },
     "TEXT_DISABLED_DAY": {
       "value": "{!BLACK}"

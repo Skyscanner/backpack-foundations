@@ -39,7 +39,7 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#73cec6ff",
+      "value": "#b1ffe7ff",
       "name": "colorNightGreenFill"
     },
     {
@@ -327,7 +327,7 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#636366ff",
+      "value": "#48484aff",
       "name": "colorNightGrey30"
     },
     {
@@ -495,7 +495,7 @@
     {
       "type": "color",
       "category": "status-colors",
-      "value": "#73cec6ff",
+      "value": "#b1ffe7ff",
       "name": "statusSuccessFillNight"
     },
     {
@@ -603,7 +603,7 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#73cec6ff",
+      "value": "#b1ffe7ff",
       "name": "surfaceHighlightNight"
     },
     {
@@ -693,7 +693,8 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#8e8e93ff",
+      "value": "#b2b2bfff",
+      "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
       "name": "textSecondaryNight"
     },
     {
@@ -771,7 +772,7 @@
     {
       "type": "color",
       "category": "line-colors",
-      "value": "#636366ff",
+      "value": "#48484aff",
       "name": "lineNight"
     },
     {
@@ -867,7 +868,7 @@
     {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#636366ff",
+      "value": "#48484aff",
       "name": "scrimNight"
     },
     {

@@ -43,7 +43,7 @@
       "value": "#00A698"
     },
     "NIGHT_GREEN_FILL": {
-      "value": "#73CEC6"
+      "value": "#B1FFE7"
     },
     "NIGHT_YELLOW_SPOT": {
       "value": "#FFB54D"
@@ -148,7 +148,7 @@
       "value": "#FFA3E5"
     },
     "NIGHT_GREY_30": {
-      "value": "#636366"
+      "value": "#48484A"
     },
     "BERRY": {
       "value": "#D1435B"
@@ -491,7 +491,7 @@
     "COLOR_NIGHT_GREEN_FILL": {
       "type": "color",
       "category": "colors",
-      "value": "rgb(115, 206, 198)",
+      "value": "rgb(177, 255, 231)",
       "originalValue": "{!NIGHT_GREEN_FILL}",
       "name": "COLOR_NIGHT_GREEN_FILL"
     },
@@ -827,7 +827,7 @@
     "COLOR_NIGHT_GREY_30": {
       "type": "color",
       "category": "colors",
-      "value": "rgb(99, 99, 102)",
+      "value": "rgb(72, 72, 74)",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "COLOR_NIGHT_GREY_30"
     },
@@ -1023,7 +1023,7 @@
     "STATUS_SUCCESS_FILL_NIGHT": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(115, 206, 198)",
+      "value": "rgb(177, 255, 231)",
       "originalValue": "{!NIGHT_GREEN_FILL}",
       "name": "STATUS_SUCCESS_FILL_NIGHT"
     },
@@ -1149,7 +1149,7 @@
     "SURFACE_HIGHLIGHT_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(115, 206, 198)",
+      "value": "rgb(177, 255, 231)",
       "originalValue": "{!NIGHT_GREEN_FILL}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
     },
@@ -1254,8 +1254,9 @@
     "TEXT_SECONDARY_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(142, 142, 147)",
-      "originalValue": "{!NIGHT_GREY_40}",
+      "value": "rgb(178, 178, 191)",
+      "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
+      "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_NIGHT"
     },
     "TEXT_SECONDARY_LIGHT_COLOR": {
@@ -1345,7 +1346,7 @@
     "LINE_NIGHT": {
       "type": "color",
       "category": "line-colors",
-      "value": "rgb(99, 99, 102)",
+      "value": "rgb(72, 72, 74)",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "LINE_NIGHT"
     },
@@ -1457,7 +1458,7 @@
     "SCRIM_NIGHT": {
       "type": "color",
       "category": "scrim-colors",
-      "value": "rgb(99, 99, 102)",
+      "value": "rgb(72, 72, 74)",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "SCRIM_NIGHT"
     },
