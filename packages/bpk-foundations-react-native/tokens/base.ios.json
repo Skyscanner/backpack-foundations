@@ -225,6 +225,12 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#68697fff",
+      "name": "colorGrey40"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#02122cff",
       "name": "colorSkyBlueShade03"
     },
@@ -237,8 +243,38 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#00a698ff",
+      "name": "colorNightGreenSpot"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cdcdd7ff",
+      "name": "colorGrey30"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#ffb54dff",
       "name": "colorErfoud"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#73cec6ff",
+      "name": "colorNightGreenFill"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#dddde5ff",
+      "name": "colorGrey20"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d9f8ffff",
+      "name": "colorBlueMuted"
     },
     {
       "type": "color",
@@ -257,6 +293,18 @@
       "category": "text-colors",
       "value": "#3a3a3cff",
       "name": "backgroundElevation03DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "name": "colorGrey10"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#a1eeffff",
+      "name": "colorBlueBright"
     },
     {
       "type": "color",
@@ -351,6 +399,12 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#111236ff",
+      "name": "colorCharcoal"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#f1f2f8ff",
       "name": "colorSkyGrayTint07"
     },
@@ -359,6 +413,18 @@
       "category": "colors",
       "value": "#2c2c2eff",
       "name": "colorBlackTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffb54dff",
+      "name": "colorNightYellowSpot"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ff7b59ff",
+      "name": "colorOrange"
     },
     {
       "type": "color",
@@ -377,6 +443,12 @@
       "category": "colors",
       "value": "#3a3a3cff",
       "name": "colorBlackTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#fbf1bbff",
+      "name": "colorNightYellowFill"
     },
     {
       "type": "color",
@@ -458,6 +530,12 @@
     },
     {
       "type": "color",
+      "category": "colors",
+      "value": "#feeb87ff",
+      "name": "colorYellow"
+    },
+    {
+      "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
       "name": "backgroundElevation03LightColor"
@@ -465,8 +543,38 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#ffa3e5ff",
+      "name": "colorPink"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#93ffdeff",
+      "name": "colorGreenBright"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#ffab95ff",
       "name": "colorPetra"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d1435bff",
+      "name": "colorNightBerry"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d0eeecff",
+      "name": "colorGreenMuted"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#02122cff",
+      "name": "colorDarkSky"
     },
     {
       "type": "color",
@@ -501,8 +609,32 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#8e47baff",
+      "name": "colorPurple"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#ffebd0ff",
       "name": "colorBagan"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "name": "colorNightGrey40"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0fa1a9ff",
+      "name": "colorEcoGreen"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffcaddff",
+      "name": "colorNightPink"
     },
     {
       "type": "color",
@@ -513,8 +645,38 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#ff9400ff",
+      "name": "colorAmberSpot"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#636366ff",
+      "name": "colorNightGrey30"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#6d9febff",
       "name": "colorSkyBlueTint01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d1435bff",
+      "name": "colorBerry"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#00a698ff",
+      "name": "colorGreenSpot"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#2c2c2eff",
+      "name": "colorNightGrey20"
     },
     {
       "type": "color",
@@ -525,8 +687,20 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#ffebd0ff",
+      "name": "colorYellowMuted"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#ff7b59ff",
       "name": "colorBunol"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "name": "colorNightGrey10"
     },
     {
       "type": "color",
@@ -549,6 +723,12 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#6d9febff",
+      "name": "colorNightBlue"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#000000ff",
       "name": "backgroundAlternativeDarkColor"
     },
@@ -567,6 +747,12 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#054184ff",
+      "name": "colorNightSky"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#ffe7e0ff",
       "name": "colorNara"
     },
@@ -575,6 +761,12 @@
       "category": "colors",
       "value": "#084eb2ff",
       "name": "colorSkyBlueShade01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f6dde1ff",
+      "name": "colorPinkMuted"
     },
     {
       "type": "color",

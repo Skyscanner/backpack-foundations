@@ -36,9 +36,6 @@
     "BLACK_TINT_01": {
       "value": "#1D1B20"
     },
-    "NIGHT_PINK_FILL": {
-      "value": "#FFCADD"
-    },
     "ERFOUD": {
       "value": "#ffb54d"
     },
@@ -126,26 +123,14 @@
     "ABISKO": {
       "value": "#5a489b"
     },
-    "GREY_1": {
-      "value": "#F1F2F8"
+    "NIGHT_BERRY": {
+      "value": "#D1435B"
     },
     "PANJIN": {
       "value": "#d1435b"
     },
-    "GREY_2": {
-      "value": "#DDDDE5"
-    },
-    "NIGHT_BERRY_SPOT": {
-      "value": "#D1435B"
-    },
-    "GREY_3": {
-      "value": "#CDCDD7"
-    },
     "YELLOW": {
       "value": "#FEEB87"
-    },
-    "GREY_4": {
-      "value": "#68697F"
     },
     "ECO_GREEN": {
       "value": "#0FA1A9"
@@ -156,8 +141,14 @@
     "BAGAN": {
       "value": "#ffebd0"
     },
+    "NIGHT_GREY_40": {
+      "value": "#8E8E93"
+    },
     "PINK": {
       "value": "#FFA3E5"
+    },
+    "NIGHT_GREY_30": {
+      "value": "#636366"
     },
     "BERRY": {
       "value": "#D1435B"
@@ -165,20 +156,20 @@
     "GREEN_BRIGHT": {
       "value": "#93FFDE"
     },
+    "NIGHT_GREY_20": {
+      "value": "#2C2C2E"
+    },
     "DARK_SKY": {
       "value": "#02122C"
     },
     "SKY_BLUE": {
       "value": "#0770e3"
     },
-    "NIGHT_GREY_1": {
-      "value": "#000000"
-    },
     "BUNOL": {
       "value": "#ff7b59"
     },
-    "NIGHT_GREY_2": {
-      "value": "#2C2C2E"
+    "NIGHT_GREY_10": {
+      "value": "#000000"
     },
     "NIGHT_SKY": {
       "value": "#054184"
@@ -186,20 +177,26 @@
     "SKY_BLUE_SHADE_01": {
       "value": "#084eb2"
     },
-    "NIGHT_GREY_3": {
-      "value": "#636366"
-    },
     "SKY_BLUE_SHADE_02": {
       "value": "#042759"
-    },
-    "NIGHT_GREY_4": {
-      "value": "#8E8E93"
     },
     "SKY_BLUE_SHADE_03": {
       "value": "#02122c"
     },
+    "NIGHT_GREY_25": {
+      "value": "#1B2839"
+    },
     "PURPLE": {
       "value": "#8E47BA"
+    },
+    "GREY_40": {
+      "value": "#68697F"
+    },
+    "NIGHT_PINK": {
+      "value": "#FFCADD"
+    },
+    "GREY_30": {
+      "value": "#CDCDD7"
     },
     "GREEN_SPOT": {
       "value": "#00A698"
@@ -210,6 +207,9 @@
     "AMBER_SPOT": {
       "value": "#FF9400"
     },
+    "GREY_20": {
+      "value": "#DDDDE5"
+    },
     "SKY_BLUE_TINT_02": {
       "value": "#9dc0f2"
     },
@@ -218,6 +218,9 @@
     },
     "VALENSOLE": {
       "value": "#a59bc8"
+    },
+    "GREY_10": {
+      "value": "#F1F2F8"
     },
     "BLACK": {
       "value": "#000000"
@@ -1958,6 +1961,13 @@
       "originalValue": "{!SPACING_BASE_V2}",
       "name": "CARD_PADDING"
     },
+    "COLOR_GREY_40": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(104, 105, 127)",
+      "originalValue": "{!GREY_40}",
+      "name": "COLOR_GREY_40"
+    },
     "COLOR_SKY_BLUE_SHADE_03": {
       "type": "color",
       "category": "colors",
@@ -1972,12 +1982,47 @@
       "originalValue": "{!SKY_BLUE}",
       "name": "COLOR_PRIMARY_GRADIENT_LIGHT"
     },
+    "COLOR_NIGHT_GREEN_SPOT": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(0, 166, 152)",
+      "originalValue": "{!NIGHT_GREEN_SPOT}",
+      "name": "COLOR_NIGHT_GREEN_SPOT"
+    },
+    "COLOR_GREY_30": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(205, 205, 215)",
+      "originalValue": "{!GREY_30}",
+      "name": "COLOR_GREY_30"
+    },
     "COLOR_ERFOUD": {
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 181, 77)",
       "originalValue": "{!ERFOUD}",
       "name": "COLOR_ERFOUD"
+    },
+    "COLOR_NIGHT_GREEN_FILL": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(115, 206, 198)",
+      "originalValue": "{!NIGHT_GREEN_FILL}",
+      "name": "COLOR_NIGHT_GREEN_FILL"
+    },
+    "COLOR_GREY_20": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(221, 221, 229)",
+      "originalValue": "{!GREY_20}",
+      "name": "COLOR_GREY_20"
+    },
+    "COLOR_BLUE_MUTED": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(217, 248, 255)",
+      "originalValue": "{!BLUE_MUTED}",
+      "name": "COLOR_BLUE_MUTED"
     },
     "COLOR_VALENSOLE": {
       "type": "color",
@@ -1992,6 +2037,20 @@
       "value": "rgb(0, 166, 152)",
       "originalValue": "{!MONTEVERDE}",
       "name": "COLOR_MONTEVERDE"
+    },
+    "COLOR_GREY_10": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(241, 242, 248)",
+      "originalValue": "{!GREY_10}",
+      "name": "COLOR_GREY_10"
+    },
+    "COLOR_BLUE_BRIGHT": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(161, 238, 255)",
+      "originalValue": "{!BLUE_BRIGHT}",
+      "name": "COLOR_BLUE_BRIGHT"
     },
     "COLOR_SKY_GRAY_TINT_01": {
       "type": "color",
@@ -2056,6 +2115,13 @@
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_LIGHT_COLOR"
     },
+    "COLOR_CHARCOAL": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(17, 18, 54)",
+      "originalValue": "{!CHARCOAL}",
+      "name": "COLOR_CHARCOAL"
+    },
     "COLOR_SKY_GRAY_TINT_07": {
       "type": "color",
       "category": "colors",
@@ -2063,12 +2129,33 @@
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "COLOR_SKY_GRAY_TINT_07"
     },
+    "COLOR_NIGHT_YELLOW_SPOT": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 181, 77)",
+      "originalValue": "{!NIGHT_YELLOW_SPOT}",
+      "name": "COLOR_NIGHT_YELLOW_SPOT"
+    },
+    "COLOR_ORANGE": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 123, 89)",
+      "originalValue": "{!ORANGE}",
+      "name": "COLOR_ORANGE"
+    },
     "COLOR_ABISKO": {
       "type": "color",
       "category": "colors",
       "value": "rgb(90, 72, 155)",
       "originalValue": "{!ABISKO}",
       "name": "COLOR_ABISKO"
+    },
+    "COLOR_NIGHT_YELLOW_FILL": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(251, 241, 187)",
+      "originalValue": "{!NIGHT_YELLOW_FILL}",
+      "name": "COLOR_NIGHT_YELLOW_FILL"
     },
     "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR": {
       "type": "color",
@@ -2133,12 +2220,54 @@
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "LINE_LIGHT_COLOR"
     },
+    "COLOR_YELLOW": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(254, 235, 135)",
+      "originalValue": "{!YELLOW}",
+      "name": "COLOR_YELLOW"
+    },
+    "COLOR_PINK": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 163, 229)",
+      "originalValue": "{!PINK}",
+      "name": "COLOR_PINK"
+    },
+    "COLOR_GREEN_BRIGHT": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(147, 255, 222)",
+      "originalValue": "{!GREEN_BRIGHT}",
+      "name": "COLOR_GREEN_BRIGHT"
+    },
     "COLOR_PETRA": {
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 171, 149)",
       "originalValue": "{!PETRA}",
       "name": "COLOR_PETRA"
+    },
+    "COLOR_NIGHT_BERRY": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(209, 67, 91)",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "COLOR_NIGHT_BERRY"
+    },
+    "COLOR_GREEN_MUTED": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(208, 238, 236)",
+      "originalValue": "{!GREEN_MUTED}",
+      "name": "COLOR_GREEN_MUTED"
+    },
+    "COLOR_DARK_SKY": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(2, 18, 44)",
+      "originalValue": "{!DARK_SKY}",
+      "name": "COLOR_DARK_SKY"
     },
     "COLOR_SKY_BLUE": {
       "type": "color",
@@ -2154,12 +2283,40 @@
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "BACKGROUND_ALTERNATIVE_LIGHT_COLOR"
     },
+    "COLOR_PURPLE": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(142, 71, 186)",
+      "originalValue": "{!PURPLE}",
+      "name": "COLOR_PURPLE"
+    },
     "COLOR_BAGAN": {
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 235, 208)",
       "originalValue": "{!BAGAN}",
       "name": "COLOR_BAGAN"
+    },
+    "COLOR_NIGHT_GREY_40": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(142, 142, 147)",
+      "originalValue": "{!NIGHT_GREY_40}",
+      "name": "COLOR_NIGHT_GREY_40"
+    },
+    "COLOR_ECO_GREEN": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(15, 161, 169)",
+      "originalValue": "{!ECO_GREEN}",
+      "name": "COLOR_ECO_GREEN"
+    },
+    "COLOR_NIGHT_PINK": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 202, 221)",
+      "originalValue": "{!NIGHT_PINK}",
+      "name": "COLOR_NIGHT_PINK"
     },
     "COLOR_HILLIER": {
       "type": "color",
@@ -2168,12 +2325,47 @@
       "originalValue": "{!HILLIER}",
       "name": "COLOR_HILLIER"
     },
+    "COLOR_AMBER_SPOT": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 148, 0)",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "COLOR_AMBER_SPOT"
+    },
+    "COLOR_NIGHT_GREY_30": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(99, 99, 102)",
+      "originalValue": "{!NIGHT_GREY_30}",
+      "name": "COLOR_NIGHT_GREY_30"
+    },
     "COLOR_SKY_BLUE_TINT_01": {
       "type": "color",
       "category": "colors",
       "value": "rgb(109, 159, 235)",
       "originalValue": "{!SKY_BLUE_TINT_01}",
       "name": "COLOR_SKY_BLUE_TINT_01"
+    },
+    "COLOR_BERRY": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(209, 67, 91)",
+      "originalValue": "{!BERRY}",
+      "name": "COLOR_BERRY"
+    },
+    "COLOR_GREEN_SPOT": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(0, 166, 152)",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "COLOR_GREEN_SPOT"
+    },
+    "COLOR_NIGHT_GREY_20": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(44, 44, 46)",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "COLOR_NIGHT_GREY_20"
     },
     "COLOR_SKY_BLUE_TINT_02": {
       "type": "color",
@@ -2182,12 +2374,26 @@
       "originalValue": "{!SKY_BLUE_TINT_02}",
       "name": "COLOR_SKY_BLUE_TINT_02"
     },
+    "COLOR_YELLOW_MUTED": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 235, 208)",
+      "originalValue": "{!YELLOW_MUTED}",
+      "name": "COLOR_YELLOW_MUTED"
+    },
     "COLOR_BUNOL": {
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 123, 89)",
       "originalValue": "{!BUNOL}",
       "name": "COLOR_BUNOL"
+    },
+    "COLOR_NIGHT_GREY_10": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(0, 0, 0)",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "COLOR_NIGHT_GREY_10"
     },
     "COLOR_SKY_BLUE_TINT_03": {
       "type": "color",
@@ -2210,6 +2416,13 @@
       "originalValue": "{!PANJIN}",
       "name": "COLOR_SYSTEM_RED"
     },
+    "COLOR_NIGHT_BLUE": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(109, 159, 235)",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "COLOR_NIGHT_BLUE"
+    },
     "PRIMARY_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
@@ -2224,6 +2437,13 @@
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_TERTIARY_LIGHT_COLOR"
     },
+    "COLOR_NIGHT_SKY": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(5, 65, 132)",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "COLOR_NIGHT_SKY"
+    },
     "COLOR_NARA": {
       "type": "color",
       "category": "colors",
@@ -2237,6 +2457,13 @@
       "value": "rgb(8, 78, 178)",
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "COLOR_SKY_BLUE_SHADE_01"
+    },
+    "COLOR_PINK_MUTED": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(246, 221, 225)",
+      "originalValue": "{!PINK_MUTED}",
+      "name": "COLOR_PINK_MUTED"
     },
     "BACKGROUND_SECONDARY_LIGHT_COLOR": {
       "type": "color",
