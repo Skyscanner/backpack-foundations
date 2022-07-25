@@ -1,3 +1,19 @@
+# 2022-07-25
+
+**Added:**
+
+`@skyscanner/bpk-foundations-common: 2.3.0 => 2.4.0`<br />
+`@skyscanner/bpk-foundations-android: 3.3.0 => 3.4.0`<br />
+`@skyscanner/bpk-foundations-ios: 2.3.0 => 2.4.0`<br />
+`@skyscanner/bpk-foundations-react-native: 1.2.2 => 1.3.0`<br />
+`@skyscanner/bpk-foundations-web: 8.0.0 => 8.1.0`
+  - Added new colour tokens in preparation for new colour updates. Currently these map to their equivelant old tokens. Except for `Eco Green`, `Night Sky`, `Night Yellow Fill` and `Night Pink Fill`, as these are new colours and don't have an old palette mapping.
+  - Added marcomms palette to colour set.
+
+`bpk-mixins: 31.1.1 => 31.1.2`<br />
+`bpk-stylesheets: 7.1.35 => 7.1.36`<br />
+`@skyscanner/bpk-svgs: 14.1.9 => 14.2.0`<br />
+  - Bumped `@skyscanner/bpk-foundations-web` dependency based on the above new version.
 # 2022-05-26
 
 **Fixed:**
