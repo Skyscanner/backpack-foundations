@@ -1,3 +1,21 @@
+# 2022-07-26
+
+**Added:**
+
+  `@skyscanner/bpk-svgs: 14.2.0 => 14.3.0`
+    - Updated account-circle icons 16px and 24px.
+    - Updated menu icons 16px and 24px.
+    - Updated search icons 16px and 24px.
+    - Updated face-id icon 24px.
+    - Updated fingerprint icon 24px.
+    - Added centre-location icons 16px and 24px.
+    - Added face-id icon 16px.
+    - Added fingerprint icon 16px.
+
+  `@skyscanner/bpk-foundations-android: 3.4.0 => 3.5.0`<br />
+  `@skyscanner/bpk-foundations-ios: 2.4.0 => 2.5.0`<br />
+  `@skyscanner/bpk-foundations-react-native: 1.3.0 => 1.4.0`
+    - Added new dynamic colours for using in apps for Light and Dark mode
 # 2022-07-25
 
 **Added:**
