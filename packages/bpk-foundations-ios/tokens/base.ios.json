@@ -2563,12 +2563,57 @@
     },
     {
       "type": "color",
+      "category": "canvas-colors",
+      "value": "#f1f2f8ff",
+      "originalValue": "{!GREY_10}",
+      "name": "canvasContrastColor",
+      "darkValue": "#2c2c2eff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "canvasColor",
+      "darkValue": "#000000ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0770e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "coreAccentColor",
+      "darkValue": "#6d9febff",
+      "originalDarkValue": "{!NIGHT_BLUE}"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0fa1a9ff",
+      "originalValue": "{!ECO_GREEN}",
+      "name": "coreEcoColor",
+      "darkValue": "#0fa1a9ff",
+      "originalDarkValue": "{!ECO_GREEN}"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#02122cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "corePrimaryColor",
+      "darkValue": "#054184ff",
+      "originalDarkValue": "{!NIGHT_SKY}"
+    },
+    {
+      "type": "color",
       "category": "colors",
       "value": "#cdcdd7ff",
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "lineColor",
       "darkValue": "#48484aff",
-      "originalDarkValue": "{!BLACK_TINT_04}"
+      "originalDarkValue": "{!NIGHT_GREY_30}"
     },
     {
       "type": "color",
@@ -2578,6 +2623,132 @@
       "name": "primaryColor",
       "darkValue": "#6d9febff",
       "originalDarkValue": "{!SKY_BLUE_TINT_01}"
+    },
+    {
+      "type": "color",
+      "category": "scrim-colors",
+      "value": "#cdcdd7ff",
+      "originalValue": "{!GREY_30}",
+      "name": "scrimColor",
+      "darkValue": "#48484aff",
+      "originalDarkValue": "{!NIGHT_GREY_30}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#f6dde1ff",
+      "originalValue": "{!PINK_MUTED}",
+      "name": "statusDangerFillColor",
+      "darkValue": "#ffcaddff",
+      "originalDarkValue": "{!NIGHT_PINK}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d1435bff",
+      "originalValue": "{!BERRY}",
+      "name": "statusDangerSpotColor",
+      "darkValue": "#d1435bff",
+      "originalDarkValue": "{!NIGHT_BERRY}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d0eeecff",
+      "originalValue": "{!GREEN_MUTED}",
+      "name": "statusSuccessFillColor",
+      "darkValue": "#b1ffe7ff",
+      "originalDarkValue": "{!NIGHT_GREEN_FILL}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#00a698ff",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "statusSuccessSpotColor",
+      "darkValue": "#00a698ff",
+      "originalDarkValue": "{!NIGHT_GREEN_SPOT}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffebd0ff",
+      "originalValue": "{!YELLOW_MUTED}",
+      "name": "statusWarningFillColor",
+      "darkValue": "#fbf1bbff",
+      "originalDarkValue": "{!NIGHT_YELLOW_FILL}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ff9400ff",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "statusWarningSpotColor",
+      "darkValue": "#ffb54dff",
+      "originalDarkValue": "{!NIGHT_YELLOW_SPOT}"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#02122cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "surfaceContrastColor",
+      "darkValue": "#2c2c2eff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "surfaceDefaultColor",
+      "darkValue": "#2c2c2eff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "surfaceElevatedColor",
+      "darkValue": "#1b2839ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#dddde5ff",
+      "originalValue": "{!GREY_20}",
+      "name": "surfaceHighlightColor",
+      "darkValue": "#b1ffe7ff",
+      "originalDarkValue": "{!NIGHT_GREEN_FILL}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#000000ff",
+      "originalValue": "{!BLACK}",
+      "name": "textDisabledColor",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#d1435bff",
+      "originalValue": "{!BERRY}",
+      "name": "textErrorColor",
+      "darkValue": "#d1435bff",
+      "originalDarkValue": "{!NIGHT_BERRY}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#0770e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "textLinkColor",
+      "darkValue": "#6d9febff",
+      "originalDarkValue": "{!NIGHT_BLUE}"
     },
     {
       "type": "color",

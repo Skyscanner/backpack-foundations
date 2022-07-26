@@ -61,6 +61,45 @@ const calculatePotentialMerges = (properties) => {
       }
       merges[newName].dark = p;
     }
+
+    // TODO: Once old colours (Dark and Light) have been removed from Backpack the above logic can be removed
+    // and only the below will need to exist
+
+    if (p.name && p.name.includes('Day')) {
+      const newName = p.name.replace('Day', 'Color');
+
+      if (!merges[newName]) {
+        merges[newName] = {};
+      }
+      merges[newName].light = p;
+    }
+
+    if (p.name && p.name.includes('Night')) {
+      const newName = p.name.replace('Night', 'Color');
+
+      if (!merges[newName]) {
+        merges[newName] = {};
+      }
+      merges[newName].dark = p;
+    }
+
+    if (p.name && p.name.includes('_DAY')) {
+      const newName = p.name.replace('_DAY', '_COLOR');
+
+      if (!merges[newName]) {
+        merges[newName] = {};
+      }
+      merges[newName].light = p;
+    }
+
+    if (p.name && p.name.includes('_NIGHT')) {
+      const newName = p.name.replace('_NIGHT', '_COLOR');
+
+      if (!merges[newName]) {
+        merges[newName] = {};
+      }
+      merges[newName].dark = p;
+    }
   });
 
   return merges;
