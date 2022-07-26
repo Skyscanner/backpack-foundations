@@ -1455,9 +1455,128 @@
       "name": "textXsFontSize"
     },
     {
-      "value": "#111236ff",
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#ffffffff",
+      "name": "canvasColor",
+      "darkValue": "#000000ff"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#f1f2f8ff",
+      "name": "canvasContrastColor",
+      "darkValue": "#2c2c2eff"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0fa1a9ff",
+      "name": "coreEcoColor",
+      "darkValue": "#0fa1a9ff"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#0770e3ff",
+      "name": "coreAccentColor",
+      "darkValue": "#6d9febff"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#02122cff",
+      "name": "corePrimaryColor",
+      "darkValue": "#054184ff"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#00a698ff",
+      "name": "statusSuccessSpotColor",
+      "darkValue": "#00a698ff"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d0eeecff",
+      "name": "statusSuccessFillColor",
+      "darkValue": "#b1ffe7ff"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d1435bff",
+      "name": "statusDangerSpotColor",
+      "darkValue": "#d1435bff"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ff9400ff",
+      "name": "statusWarningSpotColor",
+      "darkValue": "#ffb54dff"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#f6dde1ff",
+      "name": "statusDangerFillColor",
+      "darkValue": "#ffcaddff"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffebd0ff",
+      "name": "statusWarningFillColor",
+      "darkValue": "#fbf1bbff"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#02122cff",
+      "name": "surfaceContrastColor",
+      "darkValue": "#2c2c2eff"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffffff",
+      "name": "surfaceDefaultColor",
+      "darkValue": "#2c2c2eff"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffffff",
+      "name": "surfaceElevatedColor",
+      "darkValue": "#1b2839ff"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#dddde5ff",
+      "name": "surfaceHighlightColor",
+      "darkValue": "#b1ffe7ff"
+    },
+    {
       "type": "color",
       "category": "text-colors",
+      "value": "#0770e3ff",
+      "name": "textLinkColor",
+      "darkValue": "#6d9febff"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#000000ff",
+      "name": "textDisabledColor",
+      "darkValue": "#ffffffff"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
       "name": "textPrimaryColor",
       "darkValue": "#ffffffff"
     },
@@ -1469,6 +1588,13 @@
       "darkValue": "#8e8e93ff"
     },
     {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#d1435bff",
+      "name": "textErrorColor",
+      "darkValue": "#d1435bff"
+    },
+    {
       "value": "#8f90a0ff",
       "type": "color",
       "category": "text-colors",
@@ -1476,11 +1602,18 @@
       "darkValue": "#8e8e93ff"
     },
     {
-      "value": "#68697fff",
       "type": "color",
       "category": "text-colors",
+      "value": "#68697fff",
       "name": "textSecondaryColor",
-      "darkValue": "#8e8e93ff"
+      "darkValue": "#b2b2bfff"
+    },
+    {
+      "type": "color",
+      "category": "scrim-colors",
+      "value": "#cdcdd7ff",
+      "name": "scrimColor",
+      "darkValue": "#48484aff"
     },
     {
       "type": "color",
@@ -1498,7 +1631,7 @@
     },
     {
       "type": "color",
-      "category": "colors",
+      "category": "line-colors",
       "value": "#cdcdd7ff",
       "name": "lineColor",
       "darkValue": "#48484aff"
