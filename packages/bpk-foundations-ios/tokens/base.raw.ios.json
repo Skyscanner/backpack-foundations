@@ -957,6 +957,13 @@
       "originalValue": "{!NIGHT_GREY_20}",
       "name": "COLOR_NIGHT_GREY_20"
     },
+    "COLOR_NIGHT_GREY_25": {
+      "type": "color",
+      "category": "colors",
+      "value": "#1b2839ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "COLOR_NIGHT_GREY_25"
+    },
     "COLOR_NIGHT_GREY_30": {
       "type": "color",
       "category": "colors",
@@ -3271,6 +3278,7 @@
     "COLOR_NIGHT_GREEN_SPOT",
     "COLOR_NIGHT_GREY_10",
     "COLOR_NIGHT_GREY_20",
+    "COLOR_NIGHT_GREY_25",
     "COLOR_NIGHT_GREY_30",
     "COLOR_NIGHT_GREY_40",
     "COLOR_NIGHT_PINK",

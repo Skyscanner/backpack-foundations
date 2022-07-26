@@ -93,6 +93,7 @@ export const colorNightGreenFill = "rgb(177, 255, 231)";
 export const colorNightGreenSpot = "rgb(0, 166, 152)";
 export const colorNightGrey10 = "rgb(0, 0, 0)";
 export const colorNightGrey20 = "rgb(44, 44, 46)";
+export const colorNightGrey25 = "rgb(27, 40, 57)";
 export const colorNightGrey30 = "rgb(72, 72, 74)";
 export const colorNightGrey40 = "rgb(142, 142, 147)";
 export const colorNightPink = "rgb(255, 202, 221)";
@@ -256,6 +257,7 @@ colorNightGreenFill,
 colorNightGreenSpot,
 colorNightGrey10,
 colorNightGrey20,
+colorNightGrey25,
 colorNightGrey30,
 colorNightGrey40,
 colorNightPink,

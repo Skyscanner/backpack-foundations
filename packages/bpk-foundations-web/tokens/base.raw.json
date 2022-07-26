@@ -467,6 +467,13 @@
       "originalValue": "400ms",
       "name": "DURATION_BASE"
     },
+    "COLOR_NIGHT_GREY_25": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(27, 40, 57)",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "COLOR_NIGHT_GREY_25"
+    },
     "COLOR_GREY_40": {
       "type": "color",
       "category": "colors",

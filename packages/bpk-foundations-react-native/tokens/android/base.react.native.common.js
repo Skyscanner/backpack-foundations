@@ -95,6 +95,7 @@ module.exports = {
   colorNightGreenSpot: "rgb(0, 166, 152)",
   colorNightGrey10: "rgb(0, 0, 0)",
   colorNightGrey20: "rgb(44, 44, 46)",
+  colorNightGrey25: "rgb(27, 40, 57)",
   colorNightGrey30: "rgb(72, 72, 74)",
   colorNightGrey40: "rgb(142, 142, 147)",
   colorNightPink: "rgb(255, 202, 221)",

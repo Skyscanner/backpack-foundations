@@ -556,6 +556,13 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#1b2839ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "colorNightGrey25"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#48484aff",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "colorNightGrey30"
