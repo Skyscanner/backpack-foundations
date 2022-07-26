@@ -3,6 +3,12 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#1b2839ff",
+      "name": "colorNightGrey25"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#68697fff",
       "name": "colorGrey40"
     },

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+  <color name="COLOR_NIGHT_GREY_25" category="colors">#1b2839ff</color>
   <color name="COLOR_GREY_40" category="colors">#68697fff</color>
   <color name="COLOR_SKY_BLUE_SHADE_03" category="colors">#02122cff</color>
   <color name="COLOR_PRIMARY_GRADIENT_LIGHT" category="colors">#0770e3ff</color>
