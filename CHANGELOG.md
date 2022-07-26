@@ -1,5 +1,14 @@
 # 2022-07-26
 
+**Fixed:**
+
+`@skyscanner/bpk-foundations-common: 2.4.0 => 2.4.1`<br />
+`@skyscanner/bpk-foundations-android: 3.5.0 => 3.5.1`<br />
+`@skyscanner/bpk-foundations-ios: 2.5.0 => 2.5.1`<br />
+`@skyscanner/bpk-foundations-react-native: 1.4.0 => 1.4.1`<br />
+`@skyscanner/bpk-foundations-web: 8.1.0 => 8.1.1`<br />
+  - Exposed previously missing `NIGHT_GREY_25`.
+
 **Added:**
 
   `@skyscanner/bpk-svgs: 14.2.0 => 14.3.0`
