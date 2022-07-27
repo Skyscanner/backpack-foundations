@@ -94,6 +94,7 @@ export const colorAmberSpot = "rgb(255, 148, 0)";
 export const colorBagan = "rgb(255, 235, 208)";
 export const colorBerry = "rgb(209, 67, 91)";
 export const colorBlack = "rgb(0, 0, 0)";
+export const colorBlackAlpha20 = "rgb(178, 178, 191)";
 export const colorBlackTint01 = "rgb(29, 27, 32)";
 export const colorBlackTint02 = "rgb(44, 44, 46)";
 export const colorBlackTint03 = "rgb(58, 58, 60)";
@@ -141,6 +142,7 @@ export const colorPinkMuted = "rgb(246, 221, 225)";
 export const colorPrimaryGradientLight = "rgb(7, 112, 227)";
 export const colorPurple = "rgb(142, 71, 186)";
 export const colorSagano = "rgb(208, 238, 236)";
+export const colorScrim = "rgb(2, 18, 44)";
 export const colorSky = {
  dark: "rgb(2, 18, 44)",
 };
@@ -164,6 +166,8 @@ export const colorSystemRed = "rgb(209, 67, 91)";
 export const colorTochigi = "rgb(225, 221, 236)";
 export const colorValensole = "rgb(165, 155, 200)";
 export const colorWhite = "rgb(255, 255, 255)";
+export const colorWhiteAlpha20 = "rgb(142, 142, 147)";
+export const colorWhiteAlpha80 = "rgb(142, 142, 147)";
 export const colorYellow = "rgb(254, 235, 135)";
 export const colorYellowMuted = "rgb(255, 235, 208)";
 export const coreAccentDay = "rgb(7, 112, 227)";
@@ -217,8 +221,8 @@ export const primaryColor = {
 };
 export const primaryDarkColor = "rgb(109, 159, 235)";
 export const primaryLightColor = "rgb(7, 112, 227)";
-export const scrimDay = "rgb(205, 205, 215)";
-export const scrimNight = "rgb(72, 72, 74)";
+export const scrimDay = "rgb(2, 18, 44)";
+export const scrimNight = "rgb(2, 18, 44)";
 export const spacingBase = 16;
 export const spacingIconText = 8;
 export const spacingLg = 24;
@@ -253,8 +257,8 @@ export const textBaseLetterSpacing = -0.2;
 export const textCapsFontSize = 10;
 export const textCapsFontWeight = "400";
 export const textCapsLetterSpacing = 0.4;
-export const textDisabledDay = "rgb(0, 0, 0)";
-export const textDisabledNight = "rgb(255, 255, 255)";
+export const textDisabledDay = "rgb(178, 178, 191)";
+export const textDisabledNight = "rgb(142, 142, 147)";
 export const textEmphasizedFontWeight = "500";
 export const textErrorDay = "rgb(209, 67, 91)";
 export const textErrorNight = "rgb(209, 67, 91)";
@@ -271,6 +275,8 @@ export const textPrimaryDarkColor = "rgb(255, 255, 255)";
 export const textPrimaryDay = "rgb(17, 18, 54)";
 export const textPrimaryLightColor = "rgb(17, 18, 54)";
 export const textPrimaryNight = "rgb(255, 255, 255)";
+export const textPrimaryOnContrastDay = "rgb(255, 255, 255)";
+export const textPrimaryOnContrastNight = "rgb(255, 255, 255)";
 export const textQuaternaryColor = {
  dark: "rgb(142, 142, 147)",
  light: "rgb(143, 144, 160)",
@@ -285,6 +291,8 @@ export const textSecondaryDarkColor = "rgb(142, 142, 147)";
 export const textSecondaryDay = "rgb(104, 105, 127)";
 export const textSecondaryLightColor = "rgb(104, 105, 127)";
 export const textSecondaryNight = "rgb(178, 178, 191)";
+export const textSecondaryOnContrastDay = "rgb(142, 142, 147)";
+export const textSecondaryOnContrastNight = "rgb(142, 142, 147)";
 export const textSmFontSize = 14;
 export const textSmFontWeight = "400";
 export const textSmLetterSpacing = 0;
@@ -343,6 +351,7 @@ colorAmberSpot,
 colorBagan,
 colorBerry,
 colorBlack,
+colorBlackAlpha20,
 colorBlackTint01,
 colorBlackTint02,
 colorBlackTint03,
@@ -390,6 +399,7 @@ colorPinkMuted,
 colorPrimaryGradientLight,
 colorPurple,
 colorSagano,
+colorScrim,
 colorSkyBlue,
 colorSkyBlueShade01,
 colorSkyBlueShade02,
@@ -410,6 +420,8 @@ colorSystemRed,
 colorTochigi,
 colorValensole,
 colorWhite,
+colorWhiteAlpha20,
+colorWhiteAlpha80,
 colorYellow,
 colorYellowMuted,
 lineDarkColor,
@@ -562,12 +574,16 @@ textPrimaryDarkColor,
 textPrimaryDay,
 textPrimaryLightColor,
 textPrimaryNight,
+textPrimaryOnContrastDay,
+textPrimaryOnContrastNight,
 textQuaternaryDarkColor,
 textQuaternaryLightColor,
 textSecondaryDarkColor,
 textSecondaryDay,
 textSecondaryLightColor,
 textSecondaryNight,
+textSecondaryOnContrastDay,
+textSecondaryOnContrastNight,
 textTertiaryDarkColor,
 textTertiaryLightColor,
 };
@@ -632,3 +648,5 @@ export const surfaceHighlightColor = undefined;
 export const textDisabledColor = undefined;
 export const textErrorColor = undefined;
 export const textLinkColor = undefined;
+export const textPrimaryOnContrastColor = undefined;
+export const textSecondaryOnContrastColor = undefined;
