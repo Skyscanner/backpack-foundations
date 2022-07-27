@@ -1,6 +1,6 @@
 {
   "name": "bpk-stylesheets",
-  "version": "7.1.38",
+  "version": "7.1.39",
   "description": "Backpack's stylesheets.",
   "license": "Apache-2.0",
   "repository": {
@@ -17,8 +17,8 @@
   },
   "gitHead": "5c156b97cb0ba5e75851d3c763334578714c895e",
   "dependencies": {
-    "@skyscanner/bpk-foundations-web": "^8.1.1",
-    "bpk-mixins": "^31.1.4",
+    "@skyscanner/bpk-foundations-web": "^8.2.0",
+    "bpk-mixins": "^31.1.5",
     "normalize.css": "4.2.0"
   }
 }
