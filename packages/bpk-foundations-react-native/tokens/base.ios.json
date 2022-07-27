@@ -159,6 +159,12 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#02122cff",
+      "name": "colorScrim"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#2c2c2eff",
       "name": "colorBlackTint02"
     },
@@ -185,6 +191,12 @@
       "category": "colors",
       "value": "#3a3a3cff",
       "name": "colorBlackTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "name": "colorWhiteAlpha80"
     },
     {
       "type": "color",
@@ -245,6 +257,12 @@
       "category": "colors",
       "value": "#feeb87ff",
       "name": "colorYellow"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "name": "colorWhiteAlpha20"
     },
     {
       "type": "color",
@@ -353,6 +371,12 @@
       "category": "colors",
       "value": "#00a698ff",
       "name": "colorGreenSpot"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#b2b2bfff",
+      "name": "colorBlackAlpha20"
     },
     {
       "type": "color",
@@ -615,13 +639,20 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#8e8e93ff",
+      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
+      "name": "textSecondaryOnContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#6d9febff",
       "name": "textLinkNight"
     },
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
+      "value": "#8e8e93ff",
       "name": "textDisabledNight"
     },
     {
@@ -657,7 +688,7 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#000000ff",
+      "value": "#b2b2bfff",
       "name": "textDisabledDay"
     },
     {
@@ -665,6 +696,12 @@
       "type": "color",
       "category": "text-colors",
       "name": "textPrimaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "textPrimaryOnContrastNight"
     },
     {
       "type": "color",
@@ -677,6 +714,12 @@
       "category": "text-colors",
       "value": "#d1435bff",
       "name": "textErrorNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "textPrimaryOnContrastDay"
     },
     {
       "type": "color",
@@ -710,6 +753,12 @@
       "name": "textSecondaryLightColor"
     },
     {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
+      "name": "textSecondaryOnContrastNight"
+    },
+    {
       "value": "#8f90a0ff",
       "type": "color",
       "category": "text-colors",
@@ -724,7 +773,7 @@
     {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#cdcdd7ff",
+      "value": "#02122cff",
       "name": "scrimDay"
     },
     {
@@ -874,7 +923,7 @@
     {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#48484aff",
+      "value": "#02122cff",
       "name": "scrimNight"
     },
     {
@@ -1568,6 +1617,14 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#8e8e93ff",
+      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
+      "name": "textSecondaryOnContrastColor",
+      "darkValue": "#8e8e93ff"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#0770e3ff",
       "name": "textLinkColor",
       "darkValue": "#6d9febff"
@@ -1575,9 +1632,9 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#000000ff",
+      "value": "#b2b2bfff",
       "name": "textDisabledColor",
-      "darkValue": "#ffffffff"
+      "darkValue": "#8e8e93ff"
     },
     {
       "type": "color",
@@ -1592,6 +1649,13 @@
       "category": "text-colors",
       "name": "textQuaternaryColor",
       "darkValue": "#8e8e93ff"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "textPrimaryOnContrastColor",
+      "darkValue": "#ffffffff"
     },
     {
       "type": "color",
@@ -1617,9 +1681,9 @@
     {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#cdcdd7ff",
+      "value": "#02122cff",
       "name": "scrimColor",
-      "darkValue": "#48484aff"
+      "darkValue": "#02122cff"
     },
     {
       "type": "color",

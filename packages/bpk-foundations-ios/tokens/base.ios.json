@@ -332,6 +332,13 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#b2b2bfff",
+      "originalValue": "{!BLACK_ALPHA_20}",
+      "name": "colorBlackAlpha20"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#1d1b20ff",
       "originalValue": "{!BLACK_TINT_01}",
       "name": "colorBlackTint01"
@@ -661,6 +668,13 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#02122cff",
+      "originalValue": "{!SCRIM}",
+      "name": "colorScrim"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#0770e3ff",
       "originalValue": "{!SKY_BLUE}",
       "name": "colorSkyBlue"
@@ -797,6 +811,20 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "colorWhite"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "colorWhiteAlpha20"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "colorWhiteAlpha80"
     },
     {
       "type": "color",
@@ -1201,15 +1229,15 @@
     {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#cdcdd7ff",
-      "originalValue": "{!GREY_30}",
+      "value": "#02122cff",
+      "originalValue": "{!SCRIM}",
       "name": "scrimDay"
     },
     {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#48484aff",
-      "originalValue": "{!NIGHT_GREY_30}",
+      "value": "#02122cff",
+      "originalValue": "{!SCRIM}",
       "name": "scrimNight"
     },
     {
@@ -1638,15 +1666,15 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#000000ff",
-      "originalValue": "{!BLACK}",
+      "value": "#b2b2bfff",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "textDisabledDay"
     },
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
+      "value": "#8e8e93ff",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "textDisabledNight"
     },
     {
@@ -2092,6 +2120,20 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textPrimaryOnContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textPrimaryOnContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#8e8e93ff",
       "originalValue": "{!BLACK_TINT_06}",
       "name": "textQuaternaryDarkColor"
@@ -2131,6 +2173,21 @@
       "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "textSecondaryNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
+      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "textSecondaryOnContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
+      "originalValue": "{!NIGHT_GREY_40}",
+      "name": "textSecondaryOnContrastNight"
     },
     {
       "value": "14",
@@ -2634,11 +2691,11 @@
     {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#cdcdd7ff",
-      "originalValue": "{!GREY_30}",
+      "value": "#02122cff",
+      "originalValue": "{!SCRIM}",
       "name": "scrimColor",
-      "darkValue": "#48484aff",
-      "originalDarkValue": "{!NIGHT_GREY_30}"
+      "darkValue": "#02122cff",
+      "originalDarkValue": "{!SCRIM}"
     },
     {
       "type": "color",
@@ -2733,11 +2790,11 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#000000ff",
-      "originalValue": "{!BLACK}",
+      "value": "#b2b2bfff",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "textDisabledColor",
-      "darkValue": "#ffffffff",
-      "originalDarkValue": "{!WHITE}"
+      "darkValue": "#8e8e93ff",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
     },
     {
       "type": "color",
@@ -2769,6 +2826,15 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textPrimaryOnContrastColor",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#8f90a0ff",
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "textQuaternaryColor",
@@ -2783,6 +2849,16 @@
       "name": "textSecondaryColor",
       "darkValue": "#b2b2bfff",
       "originalDarkValue": "{!SKY_GRAY_TINT_04}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
+      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "textSecondaryOnContrastColor",
+      "darkValue": "#8e8e93ff",
+      "originalDarkValue": "{!NIGHT_GREY_40}"
     },
     {
       "type": "color",
