@@ -1,3 +1,16 @@
+# 2022-07-27
+
+**Added:**
+
+`@skyscanner/bpk-foundations-android: 3.5.1 => 3.6.0`<br />
+`@skyscanner/bpk-foundations-common: 2.4.1 => 2.5.0`<br />
+`@skyscanner/bpk-foundations-ios: 2.5.1 => 2.6.0`<br />
+`@skyscanner/bpk-foundations-react-native: 1.4.1 => 1.5.0`<br />
+`@skyscanner/bpk-foundations-web: 8.1.1 => 8.2.0`
+  - Added new alpha colours and scrim colour
+  - Updated `TEXT_DISABLED_DAY` & `TEXT_DISABLED_NIGHT` colours to correct colours
+  - Added text on contrast colours.
+
 # 2022-07-26
 
 **Fixed:**
