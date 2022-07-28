@@ -200,6 +200,18 @@
     "COLOR_NIGHT_GREY_40": {
       "value": "{!NIGHT_GREY_40}"
     },
+    "COLOR_WHITE_ALPHA_20": {
+      "value": "{!WHITE_ALPHA_20}"
+    },
+    "COLOR_WHITE_ALPHA_80": {
+      "value": "{!WHITE_ALPHA_80}"
+    },
+    "COLOR_BLACK_ALPHA_20": {
+      "value": "{!BLACK_ALPHA_20}"
+    },
+    "COLOR_SCRIM": {
+      "value": "{!SCRIM}"
+    },
     "COLOR_BLUE_BRIGHT": {
       "value": "{!BLUE_BRIGHT}"
     },

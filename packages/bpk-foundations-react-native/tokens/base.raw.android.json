@@ -24,6 +24,9 @@
     "BLACK": {
       "value": "#000000"
     },
+    "BLACK_ALPHA_20": {
+      "value": "#B2B2BF"
+    },
     "BLACK_TINT_01": {
       "value": "#1D1B20"
     },
@@ -297,6 +300,9 @@
     "SAGANO": {
       "value": "#d0eeec"
     },
+    "SCRIM": {
+      "value": "02122c"
+    },
     "SKY_BLUE": {
       "value": "#0770e3"
     },
@@ -371,6 +377,12 @@
     },
     "WHITE": {
       "value": "#ffffff"
+    },
+    "WHITE_ALPHA_20": {
+      "value": "#8E8E93"
+    },
+    "WHITE_ALPHA_80": {
+      "value": "#8E8E93"
     },
     "YELLOW": {
       "value": "#FEEB87"
@@ -687,6 +699,13 @@
       "value": "#000000ff",
       "originalValue": "{!BLACK}",
       "name": "COLOR_BLACK"
+    },
+    "COLOR_BLACK_ALPHA_20": {
+      "type": "color",
+      "category": "colors",
+      "value": "#b2b2bfff",
+      "originalValue": "{!BLACK_ALPHA_20}",
+      "name": "COLOR_BLACK_ALPHA_20"
     },
     "COLOR_BLACK_TINT_01": {
       "type": "color",
@@ -1017,6 +1036,13 @@
       "originalValue": "{!SAGANO}",
       "name": "COLOR_SAGANO"
     },
+    "COLOR_SCRIM": {
+      "type": "color",
+      "category": "colors",
+      "value": "#02122cff",
+      "originalValue": "{!SCRIM}",
+      "name": "COLOR_SCRIM"
+    },
     "COLOR_SKY_BLUE": {
       "type": "color",
       "category": "colors",
@@ -1156,6 +1182,20 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "COLOR_WHITE"
+    },
+    "COLOR_WHITE_ALPHA_20": {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "COLOR_WHITE_ALPHA_20"
+    },
+    "COLOR_WHITE_ALPHA_80": {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "COLOR_WHITE_ALPHA_80"
     },
     "COLOR_YELLOW": {
       "type": "color",
@@ -1475,15 +1515,15 @@
     "SCRIM_DAY": {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#cdcdd7ff",
-      "originalValue": "{!GREY_30}",
+      "value": "#02122cff",
+      "originalValue": "{!SCRIM}",
       "name": "SCRIM_DAY"
     },
     "SCRIM_NIGHT": {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#48484aff",
-      "originalValue": "{!NIGHT_GREY_30}",
+      "value": "#02122cff",
+      "originalValue": "{!SCRIM}",
       "name": "SCRIM_NIGHT"
     },
     "SPACING_BASE": {
@@ -1727,15 +1767,15 @@
     "TEXT_DISABLED_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "#000000ff",
-      "originalValue": "{!BLACK}",
+      "value": "#b2b2bfff",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "TEXT_DISABLED_DAY"
     },
     "TEXT_DISABLED_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
+      "value": "#8e8e93ff",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "TEXT_DISABLED_NIGHT"
     },
     "TEXT_EMPHASIZED_FONT_WEIGHT": {
@@ -1822,6 +1862,20 @@
       "originalValue": "{!WHITE}",
       "name": "TEXT_PRIMARY_NIGHT"
     },
+    "TEXT_PRIMARY_ON_CONTRAST_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_PRIMARY_ON_CONTRAST_DAY"
+    },
+    "TEXT_PRIMARY_ON_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_PRIMARY_ON_CONTRAST_NIGHT"
+    },
     "TEXT_QUATERNARY_DARK_COLOR": {
       "value": "#8e8e93ff",
       "type": "color",
@@ -1864,6 +1918,21 @@
       "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_NIGHT"
+    },
+    "TEXT_SECONDARY_ON_CONTRAST_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
+      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_DAY"
+    },
+    "TEXT_SECONDARY_ON_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
+      "originalValue": "{!NIGHT_GREY_40}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_NIGHT"
     },
     "TEXT_SM_FONT_SIZE": {
       "value": "14",
@@ -2122,11 +2191,11 @@
     "SCRIM_COLOR": {
       "type": "color",
       "category": "scrim-colors",
-      "value": "#cdcdd7ff",
-      "originalValue": "{!GREY_30}",
+      "value": "#02122cff",
+      "originalValue": "{!SCRIM}",
       "name": "SCRIM_COLOR",
-      "darkValue": "#48484aff",
-      "originalDarkValue": "{!NIGHT_GREY_30}"
+      "darkValue": "#02122cff",
+      "originalDarkValue": "{!SCRIM}"
     },
     "STATUS_DANGER_FILL_COLOR": {
       "type": "color",
@@ -2221,11 +2290,11 @@
     "TEXT_DISABLED_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "#000000ff",
-      "originalValue": "{!BLACK}",
+      "value": "#b2b2bfff",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "TEXT_DISABLED_COLOR",
-      "darkValue": "#ffffffff",
-      "originalDarkValue": "{!WHITE}"
+      "darkValue": "#8e8e93ff",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
     },
     "TEXT_ERROR_COLOR": {
       "type": "color",
@@ -2254,6 +2323,15 @@
       "darkValue": "#ffffffff",
       "originalDarkValue": "{!WHITE}"
     },
+    "TEXT_PRIMARY_ON_CONTRAST_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_PRIMARY_ON_CONTRAST_COLOR",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
+    },
     "TEXT_QUATERNARY_COLOR": {
       "value": "#8f90a0ff",
       "type": "color",
@@ -2271,6 +2349,16 @@
       "name": "TEXT_SECONDARY_COLOR",
       "darkValue": "#b2b2bfff",
       "originalDarkValue": "{!SKY_GRAY_TINT_04}"
+    },
+    "TEXT_SECONDARY_ON_CONTRAST_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
+      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_COLOR",
+      "darkValue": "#8e8e93ff",
+      "originalDarkValue": "{!NIGHT_GREY_40}"
     },
     "TEXT_TERTIARY_COLOR": {
       "value": "#8f90a0ff",
@@ -2327,6 +2415,7 @@
     "COLOR_BAGAN",
     "COLOR_BERRY",
     "COLOR_BLACK",
+    "COLOR_BLACK_ALPHA_20",
     "COLOR_BLACK_TINT_01",
     "COLOR_BLACK_TINT_02",
     "COLOR_BLACK_TINT_03",
@@ -2374,6 +2463,7 @@
     "COLOR_PRIMARY_GRADIENT_LIGHT",
     "COLOR_PURPLE",
     "COLOR_SAGANO",
+    "COLOR_SCRIM",
     "COLOR_SKY_BLUE",
     "COLOR_SKY_BLUE_SHADE_01",
     "COLOR_SKY_BLUE_SHADE_02",
@@ -2394,6 +2484,8 @@
     "COLOR_TOCHIGI",
     "COLOR_VALENSOLE",
     "COLOR_WHITE",
+    "COLOR_WHITE_ALPHA_20",
+    "COLOR_WHITE_ALPHA_80",
     "COLOR_YELLOW",
     "COLOR_YELLOW_MUTED",
     "CORE_ACCENT_DAY",
@@ -2489,12 +2581,16 @@
     "TEXT_PRIMARY_DAY",
     "TEXT_PRIMARY_LIGHT_COLOR",
     "TEXT_PRIMARY_NIGHT",
+    "TEXT_PRIMARY_ON_CONTRAST_DAY",
+    "TEXT_PRIMARY_ON_CONTRAST_NIGHT",
     "TEXT_QUATERNARY_DARK_COLOR",
     "TEXT_QUATERNARY_LIGHT_COLOR",
     "TEXT_SECONDARY_DARK_COLOR",
     "TEXT_SECONDARY_DAY",
     "TEXT_SECONDARY_LIGHT_COLOR",
     "TEXT_SECONDARY_NIGHT",
+    "TEXT_SECONDARY_ON_CONTRAST_DAY",
+    "TEXT_SECONDARY_ON_CONTRAST_NIGHT",
     "TEXT_SM_FONT_SIZE",
     "TEXT_SM_FONT_WEIGHT",
     "TEXT_SM_LETTER_SPACING",
@@ -2542,8 +2638,10 @@
     "TEXT_ERROR_COLOR",
     "TEXT_LINK_COLOR",
     "TEXT_PRIMARY_COLOR",
+    "TEXT_PRIMARY_ON_CONTRAST_COLOR",
     "TEXT_QUATERNARY_COLOR",
     "TEXT_SECONDARY_COLOR",
+    "TEXT_SECONDARY_ON_CONTRAST_COLOR",
     "TEXT_TERTIARY_COLOR"
   ]
 }

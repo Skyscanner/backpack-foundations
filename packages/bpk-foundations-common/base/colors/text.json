@@ -37,6 +37,12 @@
     "TEXT_PRIMARY_NIGHT": {
       "value": "{!WHITE}"
     },
+    "TEXT_PRIMARY_ON_CONTRAST_DAY": {
+      "value": "{!WHITE}"
+    },
+    "TEXT_PRIMARY_ON_CONTRAST_NIGHT": {
+      "value": "{!WHITE}"
+    },
     "TEXT_SECONDARY_DAY": {
       "value": "{!GREY_40}"
     },
@@ -44,11 +50,18 @@
       "value": "{!SKY_GRAY_TINT_04}",
       "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values"
     },
+    "TEXT_SECONDARY_ON_CONTRAST_DAY": {
+      "value": "{!WHITE_ALPHA_80}",
+      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is"
+    },
+    "TEXT_SECONDARY_ON_CONTRAST_NIGHT": {
+      "value": "{!NIGHT_GREY_40}"
+    },
     "TEXT_DISABLED_DAY": {
-      "value": "{!BLACK}"
+      "value": "{!BLACK_ALPHA_20}"
     },
     "TEXT_DISABLED_NIGHT": {
-      "value": "{!WHITE}"
+      "value": "{!WHITE_ALPHA_20}"
     },
     "TEXT_ERROR_DAY": {
       "value": "{!BERRY}"
