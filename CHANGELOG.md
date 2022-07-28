@@ -1,3 +1,16 @@
+# 2022-7-28
+
+**Fixed**
+
+`@skyscanner/bpk-svgs: 14.3.2 => 14.3.3`
+	- center-location icon was wrongfully added as centre-location
+
+`@skyscanner/bpk-foundations-android: 3.6.0 => 3.6.1`<br />
+`@skyscanner/bpk-foundations-common: 2.5.0 => 2.5.1`<br />
+`@skyscanner/bpk-foundations-ios: 2.6.0 => 2.6.1`<br />
+`@skyscanner/bpk-foundations-react-native: 1.5.0 => 1.5.1`<br />
+`@skyscanner/bpk-foundations-web: 8.2.0 => 8.2.1`
+  - Renamed `SCRIM` base colour to `BLACK_ALPHA_70` which causes clash with semantic `Scrim` token at generation.
 # 2022-07-27
 
 **Added:**
