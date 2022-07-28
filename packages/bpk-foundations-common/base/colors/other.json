@@ -34,12 +34,12 @@
     "SCRIM_DAY": {
       "type": "color",
       "category": "scrim-colors",
-      "value": "{!SCRIM}"
+      "value": "{!BLACK_ALPHA_70}"
     },
     "SCRIM_NIGHT": {
       "type": "color",
       "category": "scrim-colors",
-      "value": "{!SCRIM}"
+      "value": "{!BLACK_ALPHA_70}"
     },
     "PRIMARY_LIGHT_COLOR": {
       "type": "color",

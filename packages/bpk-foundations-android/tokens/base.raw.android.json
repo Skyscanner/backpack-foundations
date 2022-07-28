@@ -27,6 +27,9 @@
     "BLACK_ALPHA_20": {
       "value": "#B2B2BF"
     },
+    "BLACK_ALPHA_70": {
+      "value": "#02122c"
+    },
     "BLACK_TINT_01": {
       "value": "#1D1B20"
     },
@@ -323,9 +326,6 @@
     },
     "SAGANO": {
       "value": "#d0eeec"
-    },
-    "SCRIM": {
-      "value": "02122c"
     },
     "SKY_BLUE": {
       "value": "#0770e3"
@@ -731,6 +731,13 @@
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "COLOR_BLACK_ALPHA_20"
     },
+    "COLOR_BLACK_ALPHA_70": {
+      "type": "color",
+      "category": "colors",
+      "value": "#02122cff",
+      "originalValue": "{!BLACK_ALPHA_70}",
+      "name": "COLOR_BLACK_ALPHA_70"
+    },
     "COLOR_BLACK_TINT_01": {
       "type": "color",
       "category": "colors",
@@ -1059,13 +1066,6 @@
       "value": "#d0eeecff",
       "originalValue": "{!SAGANO}",
       "name": "COLOR_SAGANO"
-    },
-    "COLOR_SCRIM": {
-      "type": "color",
-      "category": "colors",
-      "value": "#02122cff",
-      "originalValue": "{!SCRIM}",
-      "name": "COLOR_SCRIM"
     },
     "COLOR_SKY_BLUE": {
       "type": "color",
@@ -1590,14 +1590,14 @@
       "type": "color",
       "category": "scrim-colors",
       "value": "#02122cff",
-      "originalValue": "{!SCRIM}",
+      "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_DAY"
     },
     "SCRIM_NIGHT": {
       "type": "color",
       "category": "scrim-colors",
       "value": "#02122cff",
-      "originalValue": "{!SCRIM}",
+      "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_NIGHT"
     },
     "SPACING_BASE": {
@@ -2904,10 +2904,10 @@
       "type": "color",
       "category": "scrim-colors",
       "value": "#02122cff",
-      "originalValue": "{!SCRIM}",
+      "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_COLOR",
       "darkValue": "#02122cff",
-      "originalDarkValue": "{!SCRIM}"
+      "originalDarkValue": "{!BLACK_ALPHA_70}"
     },
     "STATUS_DANGER_FILL_COLOR": {
       "type": "color",
@@ -3128,6 +3128,7 @@
     "COLOR_BERRY",
     "COLOR_BLACK",
     "COLOR_BLACK_ALPHA_20",
+    "COLOR_BLACK_ALPHA_70",
     "COLOR_BLACK_TINT_01",
     "COLOR_BLACK_TINT_02",
     "COLOR_BLACK_TINT_03",
@@ -3175,7 +3176,6 @@
     "COLOR_PRIMARY_GRADIENT_LIGHT",
     "COLOR_PURPLE",
     "COLOR_SAGANO",
-    "COLOR_SCRIM",
     "COLOR_SKY_BLUE",
     "COLOR_SKY_BLUE_SHADE_01",
     "COLOR_SKY_BLUE_SHADE_02",

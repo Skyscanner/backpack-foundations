@@ -26,7 +26,6 @@
   <color name="COLOR_BLACK_TINT_01" category="colors">#1d1b20ff</color>
   <color name="COLOR_CHARCOAL" category="colors">#111236ff</color>
   <color name="COLOR_SKY_GRAY_TINT_07" category="colors">#f1f2f8ff</color>
-  <color name="COLOR_SCRIM" category="colors">#02122cff</color>
   <color name="COLOR_BLACK_TINT_02" category="colors">#2c2c2eff</color>
   <color name="COLOR_NIGHT_YELLOW_SPOT" category="colors">#ffb54dff</color>
   <color name="COLOR_ORANGE" category="colors">#ff7b59ff</color>
@@ -51,6 +50,7 @@
   <color name="COLOR_GREEN_MUTED" category="colors">#d0eeecff</color>
   <color name="COLOR_DARK_SKY" category="colors">#02122cff</color>
   <color name="COLOR_SKY_BLUE" category="colors">#0770e3ff</color>
+  <color name="COLOR_BLACK_ALPHA_70" category="colors">#02122cff</color>
   <color name="COLOR_PURPLE" category="colors">#8e47baff</color>
   <color name="COLOR_BAGAN" category="colors">#ffebd0ff</color>
   <color name="COLOR_NIGHT_GREY_40" category="colors">#8e8e93ff</color>
