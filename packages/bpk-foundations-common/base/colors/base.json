@@ -209,8 +209,8 @@
     "COLOR_BLACK_ALPHA_20": {
       "value": "{!BLACK_ALPHA_20}"
     },
-    "COLOR_SCRIM": {
-      "value": "{!SCRIM}"
+    "COLOR_BLACK_ALPHA_70": {
+      "value": "{!BLACK_ALPHA_70}"
     },
     "COLOR_BLUE_BRIGHT": {
       "value": "{!BLUE_BRIGHT}"

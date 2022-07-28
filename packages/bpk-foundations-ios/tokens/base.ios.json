@@ -339,6 +339,13 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#02122cff",
+      "originalValue": "{!BLACK_ALPHA_70}",
+      "name": "colorBlackAlpha70"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#1d1b20ff",
       "originalValue": "{!BLACK_TINT_01}",
       "name": "colorBlackTint01"
@@ -664,13 +671,6 @@
       "value": "#d0eeecff",
       "originalValue": "{!SAGANO}",
       "name": "colorSagano"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#02122cff",
-      "originalValue": "{!SCRIM}",
-      "name": "colorScrim"
     },
     {
       "type": "color",
@@ -1230,14 +1230,14 @@
       "type": "color",
       "category": "scrim-colors",
       "value": "#02122cff",
-      "originalValue": "{!SCRIM}",
+      "originalValue": "{!BLACK_ALPHA_70}",
       "name": "scrimDay"
     },
     {
       "type": "color",
       "category": "scrim-colors",
       "value": "#02122cff",
-      "originalValue": "{!SCRIM}",
+      "originalValue": "{!BLACK_ALPHA_70}",
       "name": "scrimNight"
     },
     {
@@ -2692,10 +2692,10 @@
       "type": "color",
       "category": "scrim-colors",
       "value": "#02122cff",
-      "originalValue": "{!SCRIM}",
+      "originalValue": "{!BLACK_ALPHA_70}",
       "name": "scrimColor",
       "darkValue": "#02122cff",
-      "originalDarkValue": "{!SCRIM}"
+      "originalDarkValue": "{!BLACK_ALPHA_70}"
     },
     {
       "type": "color",

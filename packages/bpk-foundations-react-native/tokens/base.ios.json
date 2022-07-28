@@ -159,12 +159,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#02122cff",
-      "name": "colorScrim"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#2c2c2eff",
       "name": "colorBlackTint02"
     },
@@ -305,6 +299,12 @@
       "category": "colors",
       "value": "#0770e3ff",
       "name": "colorSkyBlue"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#02122cff",
+      "name": "colorBlackAlpha70"
     },
     {
       "type": "color",

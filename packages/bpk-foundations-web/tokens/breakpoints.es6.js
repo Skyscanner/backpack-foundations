@@ -62,6 +62,7 @@ export const colorBagan = "rgb(255, 235, 208)";
 export const colorBerry = "rgb(209, 67, 91)";
 export const colorBlack = "rgb(0, 0, 0)";
 export const colorBlackAlpha20 = "rgb(178, 178, 191)";
+export const colorBlackAlpha70 = "rgb(2, 18, 44)";
 export const colorBlackTint01 = "rgb(29, 27, 32)";
 export const colorBlackTint02 = "rgb(44, 44, 46)";
 export const colorBlackTint03 = "rgb(58, 58, 60)";
@@ -109,7 +110,6 @@ export const colorPinkMuted = "rgb(246, 221, 225)";
 export const colorPrimaryGradientLight = "rgb(7, 112, 227)";
 export const colorPurple = "rgb(142, 71, 186)";
 export const colorSagano = "rgb(208, 238, 236)";
-export const colorScrim = "rgb(2, 18, 44)";
 export const colorSkyBlue = "rgb(7, 112, 227)";
 export const colorSkyBlueShade01 = "rgb(8, 78, 178)";
 export const colorSkyBlueShade02 = "rgb(4, 39, 89)";
@@ -234,6 +234,7 @@ colorBagan,
 colorBerry,
 colorBlack,
 colorBlackAlpha20,
+colorBlackAlpha70,
 colorBlackTint01,
 colorBlackTint02,
 colorBlackTint03,
@@ -281,7 +282,6 @@ colorPinkMuted,
 colorPrimaryGradientLight,
 colorPurple,
 colorSagano,
-colorScrim,
 colorSkyBlue,
 colorSkyBlueShade01,
 colorSkyBlueShade02,
