@@ -1,0 +1,59 @@
+{
+  "global": {
+    "type": "color",
+    "category": "marcomms-colors"
+  },
+  "props": {
+    "MARCOMMS_DARK_SKY": {
+      "value": "#02122C"
+    },
+    "MARCOMMS_SKY_BLUE": {
+      "value": "#0770e3"
+    },
+    "MARCOMMS_BLUE_BRIGHT": {
+      "value": "#A1EEFF"
+    },
+    "MARCOMMS_BLUE_MUTED": {
+      "value": "#D9F8FF"
+    },
+    "MARCOMMS_ECO_GREEN": {
+      "value": "#0FA1A9"
+    },
+    "MARCOMMS_GREEN_BRIGHT": {
+      "value": "#93FFDE"
+    },
+    "MARCOMMS_GREEN_MUTED": {
+      "value": "#D0EEEC"
+    },
+    "MARCOMMS_PURPLE": {
+      "value": "#8E47BA"
+    },
+    "MARCOMMS_PINK": {
+      "value": "#FFA3E5"
+    },
+    "MARCOMMS_PINK_MUTED": {
+      "value": "#F6DDE1"
+    },
+    "MARCOMMS_BERRY": {
+      "value": "#D1435B"
+    },
+    "MARCOMMS_ORANGE": {
+      "value": "#FF7B59"
+    },
+    "MARCOMMS_YELLOW": {
+      "value": "#FEEB87"
+    },
+    "MARCOMMS_YELLOW_MUTED": {
+      "value": "#FFEBD0"
+    },
+    "MARCOMMS_WHITE": {
+      "value": "#ffffff"
+    },
+    "MARCOMMS_CHARCOAL": {
+      "value": "#111236"
+    },
+    "MARCOMMS_GREY_40": {
+      "value": "#68697F"
+    }
+  }
+}

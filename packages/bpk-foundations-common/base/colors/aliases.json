@@ -68,13 +68,6 @@
     "WHITE_ALPHA_20": "#8E8E93",
     "WHITE_ALPHA_80": "#8E8E93",
     "BLACK_ALPHA_20": "#B2B2BF",
-    "BLACK_ALPHA_70": "#02122c",
-    "BLUE_BRIGHT": "#A1EEFF",
-    "BLUE_MUTED": "#D9F8FF",
-    "GREEN_BRIGHT": "#93FFDE",
-    "PURPLE": "#8E47BA",
-    "PINK": "#FFA3E5",
-    "ORANGE": "#FF7B59",
-    "YELLOW": "#FEEB87"
+    "BLACK_ALPHA_70": "#02122c"
   }
 }

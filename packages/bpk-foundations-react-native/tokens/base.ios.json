@@ -57,12 +57,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#d9f8ffff",
-      "name": "colorBlueMuted"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#a59bc8ff",
       "name": "colorValensole"
     },
@@ -77,12 +71,6 @@
       "category": "colors",
       "value": "#f1f2f8ff",
       "name": "colorGrey10"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#a1eeffff",
-      "name": "colorBlueBright"
     },
     {
       "type": "color",
@@ -171,12 +159,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#ff7b59ff",
-      "name": "colorOrange"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#5a489bff",
       "name": "colorAbisko"
     },
@@ -249,26 +231,8 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#feeb87ff",
-      "name": "colorYellow"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#8e8e93ff",
       "name": "colorWhiteAlpha20"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffa3e5ff",
-      "name": "colorPink"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#93ffdeff",
-      "name": "colorGreenBright"
     },
     {
       "type": "color",
@@ -305,12 +269,6 @@
       "category": "colors",
       "value": "#02122cff",
       "name": "colorBlackAlpha70"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e47baff",
-      "name": "colorPurple"
     },
     {
       "type": "color",
@@ -925,6 +883,108 @@
       "category": "scrim-colors",
       "value": "#02122cff",
       "name": "scrimNight"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d1435bff",
+      "name": "marcommsBerry"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#111236ff",
+      "name": "marcommsCharcoal"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ff7b59ff",
+      "name": "marcommsOrange"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#68697fff",
+      "name": "marcommsGrey40"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#a1eeffff",
+      "name": "marcommsBlueBright"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#feeb87ff",
+      "name": "marcommsYellow"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#93ffdeff",
+      "name": "marcommsGreenBright"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffa3e5ff",
+      "name": "marcommsPink"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#0770e3ff",
+      "name": "marcommsSkyBlue"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#02122cff",
+      "name": "marcommsDarkSky"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#8e47baff",
+      "name": "marcommsPurple"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffffffff",
+      "name": "marcommsWhite"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffebd0ff",
+      "name": "marcommsYellowMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#f6dde1ff",
+      "name": "marcommsPinkMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d0eeecff",
+      "name": "marcommsGreenMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d9f8ffff",
+      "name": "marcommsBlueMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#0fa1a9ff",
+      "name": "marcommsEcoGreen"
     },
     {
       "type": "duration",

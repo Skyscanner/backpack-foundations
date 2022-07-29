@@ -388,20 +388,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#a1eeffff",
-      "originalValue": "{!BLUE_BRIGHT}",
-      "name": "colorBlueBright"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d9f8ffff",
-      "originalValue": "{!BLUE_MUTED}",
-      "name": "colorBlueMuted"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#ff7b59ff",
       "originalValue": "{!BUNOL}",
       "name": "colorBunol"
@@ -440,13 +426,6 @@
       "value": "#73cec6ff",
       "originalValue": "{!GLENCOE}",
       "name": "colorGlencoe"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#93ffdeff",
-      "originalValue": "{!GREEN_BRIGHT}",
-      "name": "colorGreenBright"
     },
     {
       "type": "color",
@@ -619,13 +598,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#ff7b59ff",
-      "originalValue": "{!ORANGE}",
-      "name": "colorOrange"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#d1435bff",
       "originalValue": "{!PANJIN}",
       "name": "colorPanjin"
@@ -640,13 +612,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#ffa3e5ff",
-      "originalValue": "{!PINK}",
-      "name": "colorPink"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#f6dde1ff",
       "originalValue": "{!PINK_MUTED}",
       "name": "colorPinkMuted"
@@ -657,13 +622,6 @@
       "value": "#0770e3ff",
       "originalValue": "{!SKY_BLUE}",
       "name": "colorPrimaryGradientLight"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e47baff",
-      "originalValue": "{!PURPLE}",
-      "name": "colorPurple"
     },
     {
       "type": "color",
@@ -825,13 +783,6 @@
       "value": "#8e8e93ff",
       "originalValue": "{!WHITE_ALPHA_80}",
       "name": "colorWhiteAlpha80"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#feeb87ff",
-      "originalValue": "{!YELLOW}",
-      "name": "colorYellow"
     },
     {
       "type": "color",
@@ -1211,6 +1162,125 @@
       "value": "#48484aff",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "lineNight"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d1435bff",
+      "originalValue": "#D1435B",
+      "name": "marcommsBerry"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#a1eeffff",
+      "originalValue": "#A1EEFF",
+      "name": "marcommsBlueBright"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d9f8ffff",
+      "originalValue": "#D9F8FF",
+      "name": "marcommsBlueMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#111236ff",
+      "originalValue": "#111236",
+      "name": "marcommsCharcoal"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#02122cff",
+      "originalValue": "#02122C",
+      "name": "marcommsDarkSky"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#0fa1a9ff",
+      "originalValue": "#0FA1A9",
+      "name": "marcommsEcoGreen"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#93ffdeff",
+      "originalValue": "#93FFDE",
+      "name": "marcommsGreenBright"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d0eeecff",
+      "originalValue": "#D0EEEC",
+      "name": "marcommsGreenMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#68697fff",
+      "originalValue": "#68697F",
+      "name": "marcommsGrey40"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ff7b59ff",
+      "originalValue": "#FF7B59",
+      "name": "marcommsOrange"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffa3e5ff",
+      "originalValue": "#FFA3E5",
+      "name": "marcommsPink"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#f6dde1ff",
+      "originalValue": "#F6DDE1",
+      "name": "marcommsPinkMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#8e47baff",
+      "originalValue": "#8E47BA",
+      "name": "marcommsPurple"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#0770e3ff",
+      "originalValue": "#0770e3",
+      "name": "marcommsSkyBlue"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffffffff",
+      "originalValue": "#ffffff",
+      "name": "marcommsWhite"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#feeb87ff",
+      "originalValue": "#FEEB87",
+      "name": "marcommsYellow"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffebd0ff",
+      "originalValue": "#FFEBD0",
+      "name": "marcommsYellowMuted"
     },
     {
       "type": "color",

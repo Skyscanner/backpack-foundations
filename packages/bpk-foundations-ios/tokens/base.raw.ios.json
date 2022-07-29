@@ -48,12 +48,6 @@
     "BLACK_TINT_06": {
       "value": "#8E8E93"
     },
-    "BLUE_BRIGHT": {
-      "value": "#A1EEFF"
-    },
-    "BLUE_MUTED": {
-      "value": "#D9F8FF"
-    },
     "BORDER_RADIUS_LG": {
       "value": 24
     },
@@ -155,9 +149,6 @@
     },
     "GLENCOE": {
       "value": "#73cec6"
-    },
-    "GREEN_BRIGHT": {
-      "value": "#93FFDE"
     },
     "GREEN_MUTED": {
       "value": "#D0EEEC"
@@ -303,26 +294,17 @@
     "NIGHT_YELLOW_SPOT": {
       "value": "#FFB54D"
     },
-    "ORANGE": {
-      "value": "#FF7B59"
-    },
     "PANJIN": {
       "value": "#d1435b"
     },
     "PETRA": {
       "value": "#ffab95"
     },
-    "PINK": {
-      "value": "#FFA3E5"
-    },
     "PINK_MUTED": {
       "value": "#F6DDE1"
     },
     "PRIMARY_GRADIENT_LIGHT": {
       "value": "#02DDD8"
-    },
-    "PURPLE": {
-      "value": "#8E47BA"
     },
     "SAGANO": {
       "value": "#d0eeec"
@@ -407,9 +389,6 @@
     },
     "WHITE_ALPHA_80": {
       "value": "#8E8E93"
-    },
-    "YELLOW": {
-      "value": "#FEEB87"
     },
     "YELLOW_MUTED": {
       "value": "#FFEBD0"
@@ -801,20 +780,6 @@
       "originalValue": "{!BLACK_TINT_06}",
       "name": "COLOR_BLACK_TINT_06"
     },
-    "COLOR_BLUE_BRIGHT": {
-      "type": "color",
-      "category": "colors",
-      "value": "#a1eeffff",
-      "originalValue": "{!BLUE_BRIGHT}",
-      "name": "COLOR_BLUE_BRIGHT"
-    },
-    "COLOR_BLUE_MUTED": {
-      "type": "color",
-      "category": "colors",
-      "value": "#d9f8ffff",
-      "originalValue": "{!BLUE_MUTED}",
-      "name": "COLOR_BLUE_MUTED"
-    },
     "COLOR_BUNOL": {
       "type": "color",
       "category": "colors",
@@ -856,13 +821,6 @@
       "value": "#73cec6ff",
       "originalValue": "{!GLENCOE}",
       "name": "COLOR_GLENCOE"
-    },
-    "COLOR_GREEN_BRIGHT": {
-      "type": "color",
-      "category": "colors",
-      "value": "#93ffdeff",
-      "originalValue": "{!GREEN_BRIGHT}",
-      "name": "COLOR_GREEN_BRIGHT"
     },
     "COLOR_GREEN_MUTED": {
       "type": "color",
@@ -1032,13 +990,6 @@
       "originalValue": "{!NIGHT_YELLOW_SPOT}",
       "name": "COLOR_NIGHT_YELLOW_SPOT"
     },
-    "COLOR_ORANGE": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ff7b59ff",
-      "originalValue": "{!ORANGE}",
-      "name": "COLOR_ORANGE"
-    },
     "COLOR_PANJIN": {
       "type": "color",
       "category": "colors",
@@ -1053,13 +1004,6 @@
       "originalValue": "{!PETRA}",
       "name": "COLOR_PETRA"
     },
-    "COLOR_PINK": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffa3e5ff",
-      "originalValue": "{!PINK}",
-      "name": "COLOR_PINK"
-    },
     "COLOR_PINK_MUTED": {
       "type": "color",
       "category": "colors",
@@ -1073,13 +1017,6 @@
       "value": "#0770e3ff",
       "originalValue": "{!SKY_BLUE}",
       "name": "COLOR_PRIMARY_GRADIENT_LIGHT"
-    },
-    "COLOR_PURPLE": {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e47baff",
-      "originalValue": "{!PURPLE}",
-      "name": "COLOR_PURPLE"
     },
     "COLOR_SAGANO": {
       "type": "color",
@@ -1241,13 +1178,6 @@
       "value": "#8e8e93ff",
       "originalValue": "{!WHITE_ALPHA_80}",
       "name": "COLOR_WHITE_ALPHA_80"
-    },
-    "COLOR_YELLOW": {
-      "type": "color",
-      "category": "colors",
-      "value": "#feeb87ff",
-      "originalValue": "{!YELLOW}",
-      "name": "COLOR_YELLOW"
     },
     "COLOR_YELLOW_MUTED": {
       "type": "color",
@@ -1627,6 +1557,125 @@
       "value": "#48484aff",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "LINE_NIGHT"
+    },
+    "MARCOMMS_BERRY": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d1435bff",
+      "originalValue": "#D1435B",
+      "name": "MARCOMMS_BERRY"
+    },
+    "MARCOMMS_BLUE_BRIGHT": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#a1eeffff",
+      "originalValue": "#A1EEFF",
+      "name": "MARCOMMS_BLUE_BRIGHT"
+    },
+    "MARCOMMS_BLUE_MUTED": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d9f8ffff",
+      "originalValue": "#D9F8FF",
+      "name": "MARCOMMS_BLUE_MUTED"
+    },
+    "MARCOMMS_CHARCOAL": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#111236ff",
+      "originalValue": "#111236",
+      "name": "MARCOMMS_CHARCOAL"
+    },
+    "MARCOMMS_DARK_SKY": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#02122cff",
+      "originalValue": "#02122C",
+      "name": "MARCOMMS_DARK_SKY"
+    },
+    "MARCOMMS_ECO_GREEN": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#0fa1a9ff",
+      "originalValue": "#0FA1A9",
+      "name": "MARCOMMS_ECO_GREEN"
+    },
+    "MARCOMMS_GREEN_BRIGHT": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#93ffdeff",
+      "originalValue": "#93FFDE",
+      "name": "MARCOMMS_GREEN_BRIGHT"
+    },
+    "MARCOMMS_GREEN_MUTED": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d0eeecff",
+      "originalValue": "#D0EEEC",
+      "name": "MARCOMMS_GREEN_MUTED"
+    },
+    "MARCOMMS_GREY_40": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#68697fff",
+      "originalValue": "#68697F",
+      "name": "MARCOMMS_GREY_40"
+    },
+    "MARCOMMS_ORANGE": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ff7b59ff",
+      "originalValue": "#FF7B59",
+      "name": "MARCOMMS_ORANGE"
+    },
+    "MARCOMMS_PINK": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffa3e5ff",
+      "originalValue": "#FFA3E5",
+      "name": "MARCOMMS_PINK"
+    },
+    "MARCOMMS_PINK_MUTED": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#f6dde1ff",
+      "originalValue": "#F6DDE1",
+      "name": "MARCOMMS_PINK_MUTED"
+    },
+    "MARCOMMS_PURPLE": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#8e47baff",
+      "originalValue": "#8E47BA",
+      "name": "MARCOMMS_PURPLE"
+    },
+    "MARCOMMS_SKY_BLUE": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#0770e3ff",
+      "originalValue": "#0770e3",
+      "name": "MARCOMMS_SKY_BLUE"
+    },
+    "MARCOMMS_WHITE": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffffffff",
+      "originalValue": "#ffffff",
+      "name": "MARCOMMS_WHITE"
+    },
+    "MARCOMMS_YELLOW": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#feeb87ff",
+      "originalValue": "#FEEB87",
+      "name": "MARCOMMS_YELLOW"
+    },
+    "MARCOMMS_YELLOW_MUTED": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffebd0ff",
+      "originalValue": "#FFEBD0",
+      "name": "MARCOMMS_YELLOW_MUTED"
     },
     "PRIMARY_DARK_COLOR": {
       "type": "color",
@@ -3342,15 +3391,12 @@
     "COLOR_BLACK_TINT_04",
     "COLOR_BLACK_TINT_05",
     "COLOR_BLACK_TINT_06",
-    "COLOR_BLUE_BRIGHT",
-    "COLOR_BLUE_MUTED",
     "COLOR_BUNOL",
     "COLOR_CHARCOAL",
     "COLOR_DARK_SKY",
     "COLOR_ECO_GREEN",
     "COLOR_ERFOUD",
     "COLOR_GLENCOE",
-    "COLOR_GREEN_BRIGHT",
     "COLOR_GREEN_MUTED",
     "COLOR_GREEN_SPOT",
     "COLOR_GREY_10",
@@ -3375,13 +3421,10 @@
     "COLOR_NIGHT_SKY",
     "COLOR_NIGHT_YELLOW_FILL",
     "COLOR_NIGHT_YELLOW_SPOT",
-    "COLOR_ORANGE",
     "COLOR_PANJIN",
     "COLOR_PETRA",
-    "COLOR_PINK",
     "COLOR_PINK_MUTED",
     "COLOR_PRIMARY_GRADIENT_LIGHT",
-    "COLOR_PURPLE",
     "COLOR_SAGANO",
     "COLOR_SKY_BLUE",
     "COLOR_SKY_BLUE_SHADE_01",
@@ -3405,7 +3448,6 @@
     "COLOR_WHITE",
     "COLOR_WHITE_ALPHA_20",
     "COLOR_WHITE_ALPHA_80",
-    "COLOR_YELLOW",
     "COLOR_YELLOW_MUTED",
     "CORE_ACCENT_DAY",
     "CORE_ACCENT_NIGHT",
@@ -3460,6 +3502,23 @@
     "LINE_HEIGHT_XXXXL",
     "LINE_LIGHT_COLOR",
     "LINE_NIGHT",
+    "MARCOMMS_BERRY",
+    "MARCOMMS_BLUE_BRIGHT",
+    "MARCOMMS_BLUE_MUTED",
+    "MARCOMMS_CHARCOAL",
+    "MARCOMMS_DARK_SKY",
+    "MARCOMMS_ECO_GREEN",
+    "MARCOMMS_GREEN_BRIGHT",
+    "MARCOMMS_GREEN_MUTED",
+    "MARCOMMS_GREY_40",
+    "MARCOMMS_ORANGE",
+    "MARCOMMS_PINK",
+    "MARCOMMS_PINK_MUTED",
+    "MARCOMMS_PURPLE",
+    "MARCOMMS_SKY_BLUE",
+    "MARCOMMS_WHITE",
+    "MARCOMMS_YELLOW",
+    "MARCOMMS_YELLOW_MUTED",
     "PRIMARY_DARK_COLOR",
     "PRIMARY_LIGHT_COLOR",
     "SCRIM_DAY",
