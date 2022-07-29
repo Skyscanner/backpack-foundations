@@ -122,10 +122,6 @@ $bpk-color-black-tint-05: rgb(99, 99, 102) !default;
 /// @group colors
 $bpk-color-black-tint-06: rgb(142, 142, 147) !default;
 /// @group colors
-$bpk-color-blue-bright: rgb(161, 238, 255) !default;
-/// @group colors
-$bpk-color-blue-muted: rgb(217, 248, 255) !default;
-/// @group colors
 $bpk-color-bunol: rgb(255, 123, 89) !default;
 /// @group colors
 $bpk-color-charcoal: rgb(17, 18, 54) !default;
@@ -137,8 +133,6 @@ $bpk-color-eco-green: rgb(15, 161, 169) !default;
 $bpk-color-erfoud: rgb(255, 181, 77) !default;
 /// @group colors
 $bpk-color-glencoe: rgb(115, 206, 198) !default;
-/// @group colors
-$bpk-color-green-bright: rgb(147, 255, 222) !default;
 /// @group colors
 $bpk-color-green-muted: rgb(208, 238, 236) !default;
 /// @group colors
@@ -188,19 +182,13 @@ $bpk-color-night-yellow-fill: rgb(251, 241, 187) !default;
 /// @group colors
 $bpk-color-night-yellow-spot: rgb(255, 181, 77) !default;
 /// @group colors
-$bpk-color-orange: rgb(255, 123, 89) !default;
-/// @group colors
 $bpk-color-panjin: rgb(209, 67, 91) !default;
 /// @group colors
 $bpk-color-petra: rgb(255, 171, 149) !default;
 /// @group colors
-$bpk-color-pink: rgb(255, 163, 229) !default;
-/// @group colors
 $bpk-color-pink-muted: rgb(246, 221, 225) !default;
 /// @group colors
 $bpk-color-primary-gradient-light: rgb(7, 112, 227) !default;
-/// @group colors
-$bpk-color-purple: rgb(142, 71, 186) !default;
 /// @group colors
 $bpk-color-sagano: rgb(208, 238, 236) !default;
 /// @group colors
@@ -248,8 +236,6 @@ $bpk-color-white-alpha-20: rgb(142, 142, 147) !default;
 /// @group colors
 $bpk-color-white-alpha-80: rgb(142, 142, 147) !default;
 /// @group colors
-$bpk-color-yellow: rgb(254, 235, 135) !default;
-/// @group colors
 $bpk-color-yellow-muted: rgb(255, 235, 208) !default;
 /// @group core-colors
 $bpk-core-accent-day: rgb(7, 112, 227) !default;
@@ -271,6 +257,40 @@ $bpk-line-day: rgb(205, 205, 215) !default;
 $bpk-line-light-color: rgb(205, 205, 215) !default;
 /// @group line-colors
 $bpk-line-night: rgb(72, 72, 74) !default;
+/// @group marcomms-colors
+$bpk-marcomms-berry: rgb(209, 67, 91) !default;
+/// @group marcomms-colors
+$bpk-marcomms-blue-bright: rgb(161, 238, 255) !default;
+/// @group marcomms-colors
+$bpk-marcomms-blue-muted: rgb(217, 248, 255) !default;
+/// @group marcomms-colors
+$bpk-marcomms-charcoal: rgb(17, 18, 54) !default;
+/// @group marcomms-colors
+$bpk-marcomms-dark-sky: rgb(2, 18, 44) !default;
+/// @group marcomms-colors
+$bpk-marcomms-eco-green: rgb(15, 161, 169) !default;
+/// @group marcomms-colors
+$bpk-marcomms-green-bright: rgb(147, 255, 222) !default;
+/// @group marcomms-colors
+$bpk-marcomms-green-muted: rgb(208, 238, 236) !default;
+/// @group marcomms-colors
+$bpk-marcomms-grey-40: rgb(104, 105, 127) !default;
+/// @group marcomms-colors
+$bpk-marcomms-orange: rgb(255, 123, 89) !default;
+/// @group marcomms-colors
+$bpk-marcomms-pink: rgb(255, 163, 229) !default;
+/// @group marcomms-colors
+$bpk-marcomms-pink-muted: rgb(246, 221, 225) !default;
+/// @group marcomms-colors
+$bpk-marcomms-purple: rgb(142, 71, 186) !default;
+/// @group marcomms-colors
+$bpk-marcomms-sky-blue: rgb(7, 112, 227) !default;
+/// @group marcomms-colors
+$bpk-marcomms-white: rgb(255, 255, 255) !default;
+/// @group marcomms-colors
+$bpk-marcomms-yellow: rgb(254, 235, 135) !default;
+/// @group marcomms-colors
+$bpk-marcomms-yellow-muted: rgb(255, 235, 208) !default;
 /// @group colors
 $bpk-primary-dark-color: rgb(109, 159, 235) !default;
 /// @group colors

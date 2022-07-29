@@ -9,11 +9,9 @@
   <color name="COLOR_ERFOUD" category="colors">#ffb54dff</color>
   <color name="COLOR_NIGHT_GREEN_FILL" category="colors">#b1ffe7ff</color>
   <color name="COLOR_GREY_20" category="colors">#dddde5ff</color>
-  <color name="COLOR_BLUE_MUTED" category="colors">#d9f8ffff</color>
   <color name="COLOR_VALENSOLE" category="colors">#a59bc8ff</color>
   <color name="COLOR_MONTEVERDE" category="colors">#00a698ff</color>
   <color name="COLOR_GREY_10" category="colors">#f1f2f8ff</color>
-  <color name="COLOR_BLUE_BRIGHT" category="colors">#a1eeffff</color>
   <color name="COLOR_SKY_GRAY_TINT_01" category="colors">#444560ff</color>
   <color name="COLOR_BLACK" category="colors">#000000ff</color>
   <color name="COLOR_SKY_GRAY_TINT_02" category="colors">#68697fff</color>
@@ -28,7 +26,6 @@
   <color name="COLOR_SKY_GRAY_TINT_07" category="colors">#f1f2f8ff</color>
   <color name="COLOR_BLACK_TINT_02" category="colors">#2c2c2eff</color>
   <color name="COLOR_NIGHT_YELLOW_SPOT" category="colors">#ffb54dff</color>
-  <color name="COLOR_ORANGE" category="colors">#ff7b59ff</color>
   <color name="COLOR_ABISKO" category="colors">#5a489bff</color>
   <color name="COLOR_BLACK_TINT_03" category="colors">#3a3a3cff</color>
   <color name="COLOR_WHITE_ALPHA_80" category="colors">#8e8e93ff</color>
@@ -41,17 +38,13 @@
   <color name="COLOR_KOLKATA" category="colors">#ff9400ff</color>
   <color name="COLOR_GLENCOE" category="colors">#73cec6ff</color>
   <color name="COLOR_TOCHIGI" category="colors">#e1ddecff</color>
-  <color name="COLOR_YELLOW" category="colors">#feeb87ff</color>
   <color name="COLOR_WHITE_ALPHA_20" category="colors">#8e8e93ff</color>
-  <color name="COLOR_PINK" category="colors">#ffa3e5ff</color>
-  <color name="COLOR_GREEN_BRIGHT" category="colors">#93ffdeff</color>
   <color name="COLOR_PETRA" category="colors">#ffab95ff</color>
   <color name="COLOR_NIGHT_BERRY" category="colors">#d1435bff</color>
   <color name="COLOR_GREEN_MUTED" category="colors">#d0eeecff</color>
   <color name="COLOR_DARK_SKY" category="colors">#02122cff</color>
   <color name="COLOR_SKY_BLUE" category="colors">#0770e3ff</color>
   <color name="COLOR_BLACK_ALPHA_70" category="colors">#02122cff</color>
-  <color name="COLOR_PURPLE" category="colors">#8e47baff</color>
   <color name="COLOR_BAGAN" category="colors">#ffebd0ff</color>
   <color name="COLOR_NIGHT_GREY_40" category="colors">#8e8e93ff</color>
   <color name="COLOR_ECO_GREEN" category="colors">#0fa1a9ff</color>
@@ -154,6 +147,23 @@
   <color name="BACKGROUND_TERTIARY_LIGHT_COLOR" category="colors">#ffffffff</color>
   <color name="BACKGROUND_SECONDARY_LIGHT_COLOR" category="colors">#f1f2f8ff</color>
   <color name="SCRIM_NIGHT" category="scrim-colors">#02122cff</color>
+  <color name="MARCOMMS_BERRY" category="marcomms-colors">#d1435bff</color>
+  <color name="MARCOMMS_CHARCOAL" category="marcomms-colors">#111236ff</color>
+  <color name="MARCOMMS_ORANGE" category="marcomms-colors">#ff7b59ff</color>
+  <color name="MARCOMMS_GREY_40" category="marcomms-colors">#68697fff</color>
+  <color name="MARCOMMS_BLUE_BRIGHT" category="marcomms-colors">#a1eeffff</color>
+  <color name="MARCOMMS_YELLOW" category="marcomms-colors">#feeb87ff</color>
+  <color name="MARCOMMS_GREEN_BRIGHT" category="marcomms-colors">#93ffdeff</color>
+  <color name="MARCOMMS_PINK" category="marcomms-colors">#ffa3e5ff</color>
+  <color name="MARCOMMS_SKY_BLUE" category="marcomms-colors">#0770e3ff</color>
+  <color name="MARCOMMS_DARK_SKY" category="marcomms-colors">#02122cff</color>
+  <color name="MARCOMMS_PURPLE" category="marcomms-colors">#8e47baff</color>
+  <color name="MARCOMMS_WHITE" category="marcomms-colors">#ffffffff</color>
+  <color name="MARCOMMS_YELLOW_MUTED" category="marcomms-colors">#ffebd0ff</color>
+  <color name="MARCOMMS_PINK_MUTED" category="marcomms-colors">#f6dde1ff</color>
+  <color name="MARCOMMS_GREEN_MUTED" category="marcomms-colors">#d0eeecff</color>
+  <color name="MARCOMMS_BLUE_MUTED" category="marcomms-colors">#d9f8ffff</color>
+  <color name="MARCOMMS_ECO_GREEN" category="marcomms-colors">#0fa1a9ff</color>
   <property name="ANIMATION_DURATION_XS" category="animations">50ms</property>
   <property name="ANIMATION_DURATION_SM" category="animations">200ms</property>
   <property name="ANIMATION_DURATION_BASE" category="animations">400ms</property>

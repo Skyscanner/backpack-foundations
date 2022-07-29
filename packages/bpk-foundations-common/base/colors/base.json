@@ -211,27 +211,6 @@
     },
     "COLOR_BLACK_ALPHA_70": {
       "value": "{!BLACK_ALPHA_70}"
-    },
-    "COLOR_BLUE_BRIGHT": {
-      "value": "{!BLUE_BRIGHT}"
-    },
-    "COLOR_BLUE_MUTED": {
-      "value": "{!BLUE_MUTED}"
-    },
-    "COLOR_GREEN_BRIGHT": {
-      "value": "{!GREEN_BRIGHT}"
-    },
-    "COLOR_PURPLE": {
-      "value": "{!PURPLE}"
-    },
-    "COLOR_PINK": {
-      "value": "{!PINK}"
-    },
-    "COLOR_ORANGE": {
-      "value": "{!ORANGE}"
-    },
-    "COLOR_YELLOW": {
-      "value": "{!YELLOW}"
     }
   }
 }

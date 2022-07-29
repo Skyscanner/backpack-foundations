@@ -6,6 +6,7 @@
     "./colors/status.json",
     "./colors/surface.json",
     "./colors/text.json",
-    "./colors/other.json"
+    "./colors/other.json",
+    "./colors/marcomms.json"
   ]
 }

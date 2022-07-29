@@ -48,9 +48,6 @@
     "NIGHT_YELLOW_SPOT": {
       "value": "#FFB54D"
     },
-    "BLUE_MUTED": {
-      "value": "#D9F8FF"
-    },
     "BLACK_TINT_02": {
       "value": "#2C2C2E"
     },
@@ -111,9 +108,6 @@
     "SKY_GRAY_TINT_07": {
       "value": "#F1F2F8"
     },
-    "ORANGE": {
-      "value": "#FF7B59"
-    },
     "PETRA": {
       "value": "#ffab95"
     },
@@ -132,9 +126,6 @@
     "PANJIN": {
       "value": "#d1435b"
     },
-    "YELLOW": {
-      "value": "#FEEB87"
-    },
     "WHITE_ALPHA_20": {
       "value": "#8E8E93"
     },
@@ -150,17 +141,11 @@
     "NIGHT_GREY_40": {
       "value": "#8E8E93"
     },
-    "PINK": {
-      "value": "#FFA3E5"
-    },
     "NIGHT_GREY_30": {
       "value": "#48484A"
     },
     "BERRY": {
       "value": "#D1435B"
-    },
-    "GREEN_BRIGHT": {
-      "value": "#93FFDE"
     },
     "NIGHT_GREY_20": {
       "value": "#2C2C2E"
@@ -195,9 +180,6 @@
     "NIGHT_GREY_25": {
       "value": "#1B2839"
     },
-    "PURPLE": {
-      "value": "#8E47BA"
-    },
     "GREY_40": {
       "value": "#68697F"
     },
@@ -224,9 +206,6 @@
     },
     "SKY_BLUE_TINT_02": {
       "value": "#9dc0f2"
-    },
-    "BLUE_BRIGHT": {
-      "value": "#A1EEFF"
     },
     "VALENSOLE": {
       "value": "#a59bc8"
@@ -521,13 +500,6 @@
       "originalValue": "{!GREY_20}",
       "name": "COLOR_GREY_20"
     },
-    "COLOR_BLUE_MUTED": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(217, 248, 255)",
-      "originalValue": "{!BLUE_MUTED}",
-      "name": "COLOR_BLUE_MUTED"
-    },
     "COLOR_VALENSOLE": {
       "type": "color",
       "category": "colors",
@@ -548,13 +520,6 @@
       "value": "rgb(241, 242, 248)",
       "originalValue": "{!GREY_10}",
       "name": "COLOR_GREY_10"
-    },
-    "COLOR_BLUE_BRIGHT": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(161, 238, 255)",
-      "originalValue": "{!BLUE_BRIGHT}",
-      "name": "COLOR_BLUE_BRIGHT"
     },
     "COLOR_SKY_GRAY_TINT_01": {
       "type": "color",
@@ -654,13 +619,6 @@
       "originalValue": "{!NIGHT_YELLOW_SPOT}",
       "name": "COLOR_NIGHT_YELLOW_SPOT"
     },
-    "COLOR_ORANGE": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(255, 123, 89)",
-      "originalValue": "{!ORANGE}",
-      "name": "COLOR_ORANGE"
-    },
     "COLOR_ABISKO": {
       "type": "color",
       "category": "colors",
@@ -745,33 +703,12 @@
       "originalValue": "{!TOCHIGI}",
       "name": "COLOR_TOCHIGI"
     },
-    "COLOR_YELLOW": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(254, 235, 135)",
-      "originalValue": "{!YELLOW}",
-      "name": "COLOR_YELLOW"
-    },
     "COLOR_WHITE_ALPHA_20": {
       "type": "color",
       "category": "colors",
       "value": "rgb(142, 142, 147)",
       "originalValue": "{!WHITE_ALPHA_20}",
       "name": "COLOR_WHITE_ALPHA_20"
-    },
-    "COLOR_PINK": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(255, 163, 229)",
-      "originalValue": "{!PINK}",
-      "name": "COLOR_PINK"
-    },
-    "COLOR_GREEN_BRIGHT": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(147, 255, 222)",
-      "originalValue": "{!GREEN_BRIGHT}",
-      "name": "COLOR_GREEN_BRIGHT"
     },
     "COLOR_PETRA": {
       "type": "color",
@@ -814,13 +751,6 @@
       "value": "rgb(2, 18, 44)",
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "COLOR_BLACK_ALPHA_70"
-    },
-    "COLOR_PURPLE": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(142, 71, 186)",
-      "originalValue": "{!PURPLE}",
-      "name": "COLOR_PURPLE"
     },
     "COLOR_BAGAN": {
       "type": "color",
@@ -1537,6 +1467,125 @@
       "value": "rgb(2, 18, 44)",
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_NIGHT"
+    },
+    "MARCOMMS_BERRY": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(209, 67, 91)",
+      "originalValue": "#D1435B",
+      "name": "MARCOMMS_BERRY"
+    },
+    "MARCOMMS_CHARCOAL": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(17, 18, 54)",
+      "originalValue": "#111236",
+      "name": "MARCOMMS_CHARCOAL"
+    },
+    "MARCOMMS_ORANGE": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(255, 123, 89)",
+      "originalValue": "#FF7B59",
+      "name": "MARCOMMS_ORANGE"
+    },
+    "MARCOMMS_GREY_40": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(104, 105, 127)",
+      "originalValue": "#68697F",
+      "name": "MARCOMMS_GREY_40"
+    },
+    "MARCOMMS_BLUE_BRIGHT": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(161, 238, 255)",
+      "originalValue": "#A1EEFF",
+      "name": "MARCOMMS_BLUE_BRIGHT"
+    },
+    "MARCOMMS_YELLOW": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(254, 235, 135)",
+      "originalValue": "#FEEB87",
+      "name": "MARCOMMS_YELLOW"
+    },
+    "MARCOMMS_GREEN_BRIGHT": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(147, 255, 222)",
+      "originalValue": "#93FFDE",
+      "name": "MARCOMMS_GREEN_BRIGHT"
+    },
+    "MARCOMMS_PINK": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(255, 163, 229)",
+      "originalValue": "#FFA3E5",
+      "name": "MARCOMMS_PINK"
+    },
+    "MARCOMMS_SKY_BLUE": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(7, 112, 227)",
+      "originalValue": "#0770e3",
+      "name": "MARCOMMS_SKY_BLUE"
+    },
+    "MARCOMMS_DARK_SKY": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(2, 18, 44)",
+      "originalValue": "#02122C",
+      "name": "MARCOMMS_DARK_SKY"
+    },
+    "MARCOMMS_PURPLE": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(142, 71, 186)",
+      "originalValue": "#8E47BA",
+      "name": "MARCOMMS_PURPLE"
+    },
+    "MARCOMMS_WHITE": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "#ffffff",
+      "name": "MARCOMMS_WHITE"
+    },
+    "MARCOMMS_YELLOW_MUTED": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(255, 235, 208)",
+      "originalValue": "#FFEBD0",
+      "name": "MARCOMMS_YELLOW_MUTED"
+    },
+    "MARCOMMS_PINK_MUTED": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(246, 221, 225)",
+      "originalValue": "#F6DDE1",
+      "name": "MARCOMMS_PINK_MUTED"
+    },
+    "MARCOMMS_GREEN_MUTED": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(208, 238, 236)",
+      "originalValue": "#D0EEEC",
+      "name": "MARCOMMS_GREEN_MUTED"
+    },
+    "MARCOMMS_BLUE_MUTED": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(217, 248, 255)",
+      "originalValue": "#D9F8FF",
+      "name": "MARCOMMS_BLUE_MUTED"
+    },
+    "MARCOMMS_ECO_GREEN": {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "rgb(15, 161, 169)",
+      "originalValue": "#0FA1A9",
+      "name": "MARCOMMS_ECO_GREEN"
     },
     "BREAKPOINT_QUERY_TABLET_ONLY": {
       "category": "breakpoints",
