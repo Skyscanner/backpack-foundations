@@ -9,3 +9,5 @@
   - Renamed `TEXT_PRIMARY_ON_CONTRAST_NIGHT` to `TEXT_PRIMARY_INVERSE_NIGHT`
   - Removed `TEXT_PRIMARY_ON_CONTRAST_DAY` and `TEXT_SECONDARY_ON_CONTRAST_NIGHT`
   - Added `TEXT_ON_LIGHT_DAY`, `TEXT_ON_LIGHT_NIGHT`, `TEXT_ON_DARK_DAY` and `TEXT_ON_DARK_NIGHT`
+
+- Removed base colour tokens from foundations to only expose semantic tokens for use by consumers.
