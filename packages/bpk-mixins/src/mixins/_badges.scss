@@ -43,8 +43,7 @@
   );
   @include bpk-border-radius-xs;
   @include bpk-text;
-  @include bpk-text--xs;
-  @include bpk-text--bold;
+  @include bpk-caption;
 
   // // HACK: Icons have an inline style attribute setting the height and width.
   // // so the only way to override this in CSS is to use !important.
