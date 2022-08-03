@@ -1,3 +1,17 @@
+# 2022-08-03
+
+**Changed:**
+
+`@skyscanner/bpk-foundations-android: 3.6.1 => 3.7.0`<br />
+`@skyscanner/bpk-foundations-common: 2.5.1 => 2.6.0`<br />
+`@skyscanner/bpk-foundations-ios: 2.6.1 => 2.7.0`<br />
+`@skyscanner/bpk-foundations-react-native: 1.5.1 => 1.6.0`
+ - @skyscanner/bpk-foundations-web: 8.2.1 => 8.3.0
+  - Separated Marcomms colours to separate colour set with `Marcomms` appended to it, for strict guidence on when to be utilised.
+
+`bpk-mixins: 31.1.6 => 31.2.0`
+  - Updated Badge mixins to use `bpk-caption` to use the caption styles.
+
 # 2022-7-28
 
 **Fixed**
