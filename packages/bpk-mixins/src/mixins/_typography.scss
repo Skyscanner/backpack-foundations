@@ -1059,7 +1059,6 @@ $bpk-spacing-v2: true;
 @mixin bpk-blockquote {
   margin: 0 0 bpk-spacing-base() 0;
   padding: bpk-spacing-lg();
-  background-color: $bpk-canvas-contrast-day;
 
   @include bpk-border-left-lg($bpk-core-accent-day);
   @include bpk-border-left-lg(
