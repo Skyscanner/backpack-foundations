@@ -11,11 +11,11 @@
       "type": "size"
     },
     "PANEL_BORDER_COLOR": {
-      "value": "{!SKY_GRAY_TINT_06}",
+      "value": "{!SURFACE_HIGHLIGHT_DAY}",
       "type": "color"
     },
     "PANEL_BACKGROUND_COLOR": {
-      "value": "{!WHITE}",
+      "value": "{!SURFACE_DEFAULT_DAY}",
       "type": "color"
     }
   }
