@@ -7,11 +7,11 @@
   },
   "props": {
     "CARD_BACKGROUND_COLOR": {
-      "value": "{!SURFACE_DEFAULT_DAY}",
+      "value": "{!WHITE}",
       "type": "color"
     },
     "CARD_COLOR": {
-      "value": "{!TEXT_PRIMARY_DAY}",
+      "value": "{!CHARCOAL}",
       "type": "color"
     },
     "CARD_PADDING": {
