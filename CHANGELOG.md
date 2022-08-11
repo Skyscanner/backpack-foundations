@@ -1,3 +1,20 @@
+# 2022-08-11
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-web: 8.3.0 => 8.4.0
+  - Changed `$bpk-card-color` token value
+
+- bpk-mixins: 31.2.0 => 31.3.0
+  - Changed text colour in `bpk-card` mixin
+  - Removed text colour property in `bpk-blockquote` mixin. Text colour will be inherited from the base stylesheet.
+  - Removed background colour property in `bpk-blockquote` mixin.
+
+**Added**
+
+- bpk-mixins: 31.2.0 => 31.3.0
+    - The `strong` badge theme has been added, which aligns to our APP implementations and better meets the needs of users.
+
 # 2022-08-03
 
 **Changed:**
