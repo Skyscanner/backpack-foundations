@@ -11,7 +11,7 @@
       "type": "size"
     },
     "PANEL_BORDER_COLOR": {
-      "value": "{!SKY_GRAY_TINT_06}",
+      "value": "{!GREY_20}",
       "type": "color"
     },
     "PANEL_BACKGROUND_COLOR": {

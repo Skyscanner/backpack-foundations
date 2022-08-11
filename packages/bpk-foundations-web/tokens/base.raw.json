@@ -3092,7 +3092,7 @@
       "category": "cards",
       "value": "rgb(17, 18, 54)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY}",
+      "originalValue": "{!CHARCOAL}",
       "name": "CARD_COLOR"
     },
     "CARD_PADDING": {
@@ -3663,7 +3663,7 @@
       "category": "panels",
       "value": "rgb(221, 221, 229)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_06}",
+      "originalValue": "{!GREY_20}",
       "name": "PANEL_BORDER_COLOR"
     },
     "PANEL_BACKGROUND_COLOR": {
