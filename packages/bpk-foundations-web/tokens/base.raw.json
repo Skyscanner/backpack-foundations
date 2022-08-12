@@ -3661,9 +3661,9 @@
     },
     "PANEL_BORDER_COLOR": {
       "category": "panels",
-      "value": "rgb(221, 221, 229)",
+      "value": "rgb(205, 205, 215)",
       "type": "color",
-      "originalValue": "{!GREY_20}",
+      "originalValue": "{!GREY_30}",
       "name": "PANEL_BORDER_COLOR"
     },
     "PANEL_BACKGROUND_COLOR": {
