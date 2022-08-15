@@ -1,3 +1,13 @@
+# 2022-08-15
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-web: 8.4.0 => 8.5.0
+  - Changed `$bpk-panel-border-color` token value
+
+- bpk-mixins: 31.3.0 => 31.4.0
+  - Changed border colour in `bpk-panel` mixin
+
 # 2022-08-11
 
 **Changed:**
