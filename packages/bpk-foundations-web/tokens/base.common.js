@@ -479,7 +479,7 @@ module.exports = {
   modalWideMaxWidth: "64rem",
   onePixelRem: ".0625rem",
   panelBackgroundColor: "rgb(255, 255, 255)",
-  panelBorderColor: "rgb(221, 221, 229)",
+  panelBorderColor: "rgb(205, 205, 215)",
   panelPadding: ".75rem",
   primaryDarkColor: "rgb(109, 159, 235)",
   primaryGradient: "#0770e3",
