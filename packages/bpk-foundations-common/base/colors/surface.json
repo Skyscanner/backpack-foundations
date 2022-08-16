@@ -29,7 +29,7 @@
       "value": "{!GREY_20}"
     },
     "SURFACE_HIGHLIGHT_NIGHT": {
-      "value": "{!NIGHT_GREEN_FILL}"
+      "value": "{!NIGHT_GREY_25}"
     }
   }
 }

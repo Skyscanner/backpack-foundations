@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-  <color name="COLOR_NIGHT_GREY_25" category="colors">#1b2839ff</color>
+  <color name="COLOR_NIGHT_GREY_25" category="colors">#2c2c2eff</color>
   <color name="COLOR_GREY_40" category="colors">#68697fff</color>
   <color name="COLOR_SKY_BLUE_SHADE_03" category="colors">#02122cff</color>
   <color name="COLOR_PRIMARY_GRADIENT_LIGHT" category="colors">#0770e3ff</color>
@@ -56,7 +56,7 @@
   <color name="COLOR_BERRY" category="colors">#d1435bff</color>
   <color name="COLOR_GREEN_SPOT" category="colors">#00a698ff</color>
   <color name="COLOR_BLACK_ALPHA_20" category="colors">#b2b2bfff</color>
-  <color name="COLOR_NIGHT_GREY_20" category="colors">#2c2c2eff</color>
+  <color name="COLOR_NIGHT_GREY_20" category="colors">#1d1b20ff</color>
   <color name="COLOR_SKY_BLUE_TINT_02" category="colors">#9dc0f2ff</color>
   <color name="COLOR_YELLOW_MUTED" category="colors">#ffebd0ff</color>
   <color name="COLOR_BUNOL" category="colors">#ff7b59ff</color>
@@ -72,7 +72,7 @@
   <color name="CANVAS_DAY" category="canvas-colors">#ffffffff</color>
   <color name="CANVAS_NIGHT" category="canvas-colors">#000000ff</color>
   <color name="CANVAS_CONTRAST_DAY" category="canvas-colors">#f1f2f8ff</color>
-  <color name="CANVAS_CONTRAST_NIGHT" category="canvas-colors">#2c2c2eff</color>
+  <color name="CANVAS_CONTRAST_NIGHT" category="canvas-colors">#1d1b20ff</color>
   <color name="CORE_ECO_DAY" category="core-colors">#0fa1a9ff</color>
   <color name="CORE_ECO_NIGHT" category="core-colors">#0fa1a9ff</color>
   <color name="CORE_ACCENT_DAY" category="core-colors">#0770e3ff</color>
@@ -92,13 +92,13 @@
   <color name="STATUS_DANGER_FILL_DAY" category="status-colors">#f6dde1ff</color>
   <color name="STATUS_WARNING_FILL_DAY" category="status-colors">#ffebd0ff</color>
   <color name="SURFACE_CONTRAST_DAY" category="surface-colors">#02122cff</color>
-  <color name="SURFACE_CONTRAST_NIGHT" category="surface-colors">#2c2c2eff</color>
+  <color name="SURFACE_CONTRAST_NIGHT" category="surface-colors">#1d1b20ff</color>
   <color name="SURFACE_DEFAULT_DAY" category="surface-colors">#ffffffff</color>
-  <color name="SURFACE_DEFAULT_NIGHT" category="surface-colors">#2c2c2eff</color>
+  <color name="SURFACE_DEFAULT_NIGHT" category="surface-colors">#1d1b20ff</color>
   <color name="SURFACE_ELEVATED_DAY" category="surface-colors">#ffffffff</color>
-  <color name="SURFACE_ELEVATED_NIGHT" category="surface-colors">#1b2839ff</color>
+  <color name="SURFACE_ELEVATED_NIGHT" category="surface-colors">#2c2c2eff</color>
   <color name="SURFACE_HIGHLIGHT_DAY" category="surface-colors">#dddde5ff</color>
-  <color name="SURFACE_HIGHLIGHT_NIGHT" category="surface-colors">#b1ffe7ff</color>
+  <color name="SURFACE_HIGHLIGHT_NIGHT" category="surface-colors">#2c2c2eff</color>
   <color name="TEXT_SECONDARY_ON_CONTRAST_DAY" category="text-colors">#8e8e93ff</color>
   <color name="TEXT_LINK_NIGHT" category="text-colors">#6d9febff</color>
   <color name="TEXT_DISABLED_NIGHT" category="text-colors">#8e8e93ff</color>
