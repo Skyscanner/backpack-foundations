@@ -1,3 +1,16 @@
+# 2022-08-17
+
+**Fixed:**
+
+`@skyscanner/bpk-foundations-common: 2.6.0 => 2.6.1`<br />
+`@skyscanner/bpk-foundations-android: 3.7.0 => 3.7.1`<br />
+`@skyscanner/bpk-foundations-ios: 2.7.0 => 2.7.1`<br />
+`@skyscanner/bpk-foundations-react-native: 1.6.0 => 1.6.1`<br />
+`@skyscanner/bpk-foundations-web: 8.5.0 => 8.5.1` <br />
+  - Map `NIGHT_GREY_20` to `##1D1B20`.
+  - Map `NIGHT_GREY_25` to `#2C2C2E`.
+  - Map `SURFACE_HIGHLIGHT_NIGHT` to `NIGHT_GREY_25`
+
 # 2022-08-15
 
 **Changed:**
