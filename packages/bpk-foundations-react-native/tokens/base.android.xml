@@ -99,7 +99,9 @@
   <color name="SURFACE_ELEVATED_NIGHT" category="surface-colors">#2c2c2eff</color>
   <color name="SURFACE_HIGHLIGHT_DAY" category="surface-colors">#dddde5ff</color>
   <color name="SURFACE_HIGHLIGHT_NIGHT" category="surface-colors">#2c2c2eff</color>
-  <color name="TEXT_SECONDARY_ON_CONTRAST_DAY" category="text-colors">#8e8e93ff</color>
+  <color name="TEXT_ON_DARK_DAY" category="text-colors">#ffffffff</color>
+  <color name="TEXT_ON_LIGHT_NIGHT" category="text-colors">#111236ff</color>
+  <color name="TEXT_ON_LIGHT_DAY" category="text-colors">#111236ff</color>
   <color name="TEXT_LINK_NIGHT" category="text-colors">#6d9febff</color>
   <color name="TEXT_DISABLED_NIGHT" category="text-colors">#8e8e93ff</color>
   <color name="TEXT_PRIMARY_DARK_COLOR" category="text-colors">#ffffffff</color>
@@ -109,16 +111,16 @@
   <color name="TEXT_QUATERNARY_LIGHT_COLOR" category="text-colors">#8f90a0ff</color>
   <color name="TEXT_DISABLED_DAY" category="text-colors">#b2b2bfff</color>
   <color name="TEXT_PRIMARY_LIGHT_COLOR" category="text-colors">#111236ff</color>
-  <color name="TEXT_PRIMARY_ON_CONTRAST_NIGHT" category="text-colors">#ffffffff</color>
   <color name="TEXT_PRIMARY_DAY" category="text-colors">#111236ff</color>
   <color name="TEXT_ERROR_NIGHT" category="text-colors">#d1435bff</color>
-  <color name="TEXT_PRIMARY_ON_CONTRAST_DAY" category="text-colors">#ffffffff</color>
   <color name="TEXT_ERROR_DAY" category="text-colors">#d1435bff</color>
   <color name="TEXT_TERTIARY_DARK_COLOR" category="text-colors">#8e8e93ff</color>
   <color name="TEXT_SECONDARY_DARK_COLOR" category="text-colors">#8e8e93ff</color>
+  <color name="TEXT_PRIMARY_INVERSE_NIGHT" category="text-colors">#111236ff</color>
   <color name="TEXT_SECONDARY_NIGHT" category="text-colors">#b2b2bfff</color>
+  <color name="TEXT_ON_DARK_NIGHT" category="text-colors">#ffffffff</color>
   <color name="TEXT_SECONDARY_LIGHT_COLOR" category="text-colors">#68697fff</color>
-  <color name="TEXT_SECONDARY_ON_CONTRAST_NIGHT" category="text-colors">#8e8e93ff</color>
+  <color name="TEXT_PRIMARY_INVERSE_DAY" category="text-colors">#ffffffff</color>
   <color name="TEXT_TERTIARY_LIGHT_COLOR" category="text-colors">#8f90a0ff</color>
   <color name="TEXT_SECONDARY_DAY" category="text-colors">#68697fff</color>
   <color name="SCRIM_DAY" category="scrim-colors">#02122cff</color>

@@ -597,9 +597,20 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#8e8e93ff",
-      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
-      "name": "textSecondaryOnContrastDay"
+      "value": "#ffffffff",
+      "name": "textOnDarkDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "name": "textOnLightNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "name": "textOnLightDay"
     },
     {
       "type": "color",
@@ -658,12 +669,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
-      "name": "textPrimaryOnContrastNight"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#111236ff",
       "name": "textPrimaryDay"
     },
@@ -672,12 +677,6 @@
       "category": "text-colors",
       "value": "#d1435bff",
       "name": "textErrorNight"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "name": "textPrimaryOnContrastDay"
     },
     {
       "type": "color",
@@ -700,9 +699,21 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#111236ff",
+      "name": "textPrimaryInverseNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#b2b2bfff",
       "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
       "name": "textSecondaryNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "textOnDarkNight"
     },
     {
       "value": "#68697fff",
@@ -713,8 +724,8 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#8e8e93ff",
-      "name": "textSecondaryOnContrastNight"
+      "value": "#ffffffff",
+      "name": "textPrimaryInverseDay"
     },
     {
       "value": "#8f90a0ff",
@@ -1677,10 +1688,16 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#8e8e93ff",
-      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
-      "name": "textSecondaryOnContrastColor",
-      "darkValue": "#8e8e93ff"
+      "value": "#ffffffff",
+      "name": "textOnDarkColor",
+      "darkValue": "#ffffffff"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "name": "textOnLightColor",
+      "darkValue": "#111236ff"
     },
     {
       "type": "color",
@@ -1713,13 +1730,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
-      "name": "textPrimaryOnContrastColor",
-      "darkValue": "#ffffffff"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#d1435bff",
       "name": "textErrorColor",
       "darkValue": "#d1435bff"
@@ -1737,6 +1747,13 @@
       "value": "#68697fff",
       "name": "textSecondaryColor",
       "darkValue": "#b2b2bfff"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "name": "textPrimaryInverseColor",
+      "darkValue": "#111236ff"
     },
     {
       "type": "color",

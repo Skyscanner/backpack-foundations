@@ -291,16 +291,28 @@ export const textLgFontWeight = "400";
 export const textLgLetterSpacing = null;
 export const textLinkDay = "rgb(7, 112, 227)";
 export const textLinkNight = "rgb(109, 159, 235)";
+export const textOnDarkDay = "rgb(255, 255, 255)";
+export const textOnDarkNight = "rgb(255, 255, 255)";
+export const textOnDay = {
+ dark: "rgb(255, 255, 255)",
+ light: "rgb(17, 18, 54)",
+};
+export const textOnLightDay = "rgb(17, 18, 54)";
+export const textOnLightNight = "rgb(17, 18, 54)";
+export const textOnNight = {
+ light: "rgb(17, 18, 54)",
+ dark: "rgb(255, 255, 255)",
+};
 export const textPrimaryColor = {
  dark: "rgb(255, 255, 255)",
  light: "rgb(17, 18, 54)",
 };
 export const textPrimaryDarkColor = "rgb(255, 255, 255)";
 export const textPrimaryDay = "rgb(17, 18, 54)";
+export const textPrimaryInverseDay = "rgb(255, 255, 255)";
+export const textPrimaryInverseNight = "rgb(17, 18, 54)";
 export const textPrimaryLightColor = "rgb(17, 18, 54)";
 export const textPrimaryNight = "rgb(255, 255, 255)";
-export const textPrimaryOnContrastDay = "rgb(255, 255, 255)";
-export const textPrimaryOnContrastNight = "rgb(255, 255, 255)";
 export const textQuaternaryColor = {
  dark: "rgb(142, 142, 147)",
  light: "rgb(143, 144, 160)",
@@ -315,8 +327,6 @@ export const textSecondaryDarkColor = "rgb(142, 142, 147)";
 export const textSecondaryDay = "rgb(104, 105, 127)";
 export const textSecondaryLightColor = "rgb(104, 105, 127)";
 export const textSecondaryNight = "rgb(178, 178, 191)";
-export const textSecondaryOnContrastDay = "rgb(142, 142, 147)";
-export const textSecondaryOnContrastNight = "rgb(142, 142, 147)";
 export const textSmFontSize = 14;
 export const textSmFontWeight = "400";
 export const textSmLetterSpacing = 0.154;
@@ -568,6 +578,8 @@ export const semanticTextColors = {
 backgroundElevation01Color,
 backgroundElevation02Color,
 backgroundElevation03Color,
+textOnDay,
+textOnNight,
 textPrimaryColor,
 textQuaternaryColor,
 textSecondaryColor,
@@ -625,20 +637,22 @@ textErrorDay,
 textErrorNight,
 textLinkDay,
 textLinkNight,
+textOnDarkDay,
+textOnDarkNight,
+textOnLightDay,
+textOnLightNight,
 textPrimaryDarkColor,
 textPrimaryDay,
+textPrimaryInverseDay,
+textPrimaryInverseNight,
 textPrimaryLightColor,
 textPrimaryNight,
-textPrimaryOnContrastDay,
-textPrimaryOnContrastNight,
 textQuaternaryDarkColor,
 textQuaternaryLightColor,
 textSecondaryDarkColor,
 textSecondaryDay,
 textSecondaryLightColor,
 textSecondaryNight,
-textSecondaryOnContrastDay,
-textSecondaryOnContrastNight,
 textTertiaryDarkColor,
 textTertiaryLightColor,
 };
@@ -692,5 +706,6 @@ export const surfaceHighlightColor = undefined;
 export const textDisabledColor = undefined;
 export const textErrorColor = undefined;
 export const textLinkColor = undefined;
-export const textPrimaryOnContrastColor = undefined;
-export const textSecondaryOnContrastColor = undefined;
+export const textOnDarkColor = undefined;
+export const textOnLightColor = undefined;
+export const textPrimaryInverseColor = undefined;

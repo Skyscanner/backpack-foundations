@@ -1151,13 +1151,26 @@
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
     },
-    "TEXT_SECONDARY_ON_CONTRAST_DAY": {
+    "TEXT_ON_DARK_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(142, 142, 147)",
-      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "TEXT_SECONDARY_ON_CONTRAST_DAY"
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_ON_DARK_DAY"
+    },
+    "TEXT_ON_LIGHT_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgb(17, 18, 54)",
+      "originalValue": "{!CHARCOAL}",
+      "name": "TEXT_ON_LIGHT_NIGHT"
+    },
+    "TEXT_ON_LIGHT_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgb(17, 18, 54)",
+      "originalValue": "{!CHARCOAL}",
+      "name": "TEXT_ON_LIGHT_DAY"
     },
     "TEXT_LINK_NIGHT": {
       "type": "color",
@@ -1222,13 +1235,6 @@
       "originalValue": "{!SKY_GRAY}",
       "name": "TEXT_PRIMARY_LIGHT_COLOR"
     },
-    "TEXT_PRIMARY_ON_CONTRAST_NIGHT": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "rgb(255, 255, 255)",
-      "originalValue": "{!WHITE}",
-      "name": "TEXT_PRIMARY_ON_CONTRAST_NIGHT"
-    },
     "TEXT_PRIMARY_DAY": {
       "type": "color",
       "category": "text-colors",
@@ -1242,13 +1248,6 @@
       "value": "rgb(209, 67, 91)",
       "originalValue": "{!NIGHT_BERRY}",
       "name": "TEXT_ERROR_NIGHT"
-    },
-    "TEXT_PRIMARY_ON_CONTRAST_DAY": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "rgb(255, 255, 255)",
-      "originalValue": "{!WHITE}",
-      "name": "TEXT_PRIMARY_ON_CONTRAST_DAY"
     },
     "TEXT_ERROR_DAY": {
       "type": "color",
@@ -1271,6 +1270,13 @@
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_DARK_COLOR"
     },
+    "TEXT_PRIMARY_INVERSE_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgb(17, 18, 54)",
+      "originalValue": "{!CHARCOAL}",
+      "name": "TEXT_PRIMARY_INVERSE_NIGHT"
+    },
     "TEXT_SECONDARY_NIGHT": {
       "type": "color",
       "category": "text-colors",
@@ -1279,6 +1285,13 @@
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_NIGHT"
     },
+    "TEXT_ON_DARK_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_ON_DARK_NIGHT"
+    },
     "TEXT_SECONDARY_LIGHT_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -1286,12 +1299,12 @@
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "TEXT_SECONDARY_LIGHT_COLOR"
     },
-    "TEXT_SECONDARY_ON_CONTRAST_NIGHT": {
+    "TEXT_PRIMARY_INVERSE_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(142, 142, 147)",
-      "originalValue": "{!NIGHT_GREY_40}",
-      "name": "TEXT_SECONDARY_ON_CONTRAST_NIGHT"
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_PRIMARY_INVERSE_DAY"
     },
     "TEXT_TERTIARY_LIGHT_COLOR": {
       "type": "color",
