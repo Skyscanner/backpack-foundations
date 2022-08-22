@@ -2407,6 +2407,34 @@
       "originalValue": "{!NIGHT_BLUE}",
       "name": "TEXT_LINK_NIGHT"
     },
+    "TEXT_ON_DARK_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_ON_DARK_DAY"
+    },
+    "TEXT_ON_DARK_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_ON_DARK_NIGHT"
+    },
+    "TEXT_ON_LIGHT_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "TEXT_ON_LIGHT_DAY"
+    },
+    "TEXT_ON_LIGHT_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "TEXT_ON_LIGHT_NIGHT"
+    },
     "TEXT_PRIMARY_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -2421,6 +2449,20 @@
       "originalValue": "{!CHARCOAL}",
       "name": "TEXT_PRIMARY_DAY"
     },
+    "TEXT_PRIMARY_INVERSE_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_PRIMARY_INVERSE_DAY"
+    },
+    "TEXT_PRIMARY_INVERSE_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "TEXT_PRIMARY_INVERSE_NIGHT"
+    },
     "TEXT_PRIMARY_LIGHT_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -2434,20 +2476,6 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "TEXT_PRIMARY_NIGHT"
-    },
-    "TEXT_PRIMARY_ON_CONTRAST_DAY": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "TEXT_PRIMARY_ON_CONTRAST_DAY"
-    },
-    "TEXT_PRIMARY_ON_CONTRAST_NIGHT": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "TEXT_PRIMARY_ON_CONTRAST_NIGHT"
     },
     "TEXT_QUATERNARY_DARK_COLOR": {
       "type": "color",
@@ -2491,21 +2519,6 @@
       "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_NIGHT"
-    },
-    "TEXT_SECONDARY_ON_CONTRAST_DAY": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#8e8e93ff",
-      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "TEXT_SECONDARY_ON_CONTRAST_DAY"
-    },
-    "TEXT_SECONDARY_ON_CONTRAST_NIGHT": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#8e8e93ff",
-      "originalValue": "{!NIGHT_GREY_40}",
-      "name": "TEXT_SECONDARY_ON_CONTRAST_NIGHT"
     },
     "TEXT_SM-EMPHASIZED_FONT_SIZE": {
       "value": "14",
@@ -3075,6 +3088,24 @@
       "darkValue": "#6d9febff",
       "originalDarkValue": "{!NIGHT_BLUE}"
     },
+    "TEXT_ON_DARK_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "TEXT_ON_DARK_COLOR",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
+    },
+    "TEXT_ON_LIGHT_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "TEXT_ON_LIGHT_COLOR",
+      "darkValue": "#111236ff",
+      "originalDarkValue": "{!CHARCOAL}"
+    },
     "TEXT_PRIMARY_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -3084,14 +3115,14 @@
       "darkValue": "#ffffffff",
       "originalDarkValue": "{!WHITE}"
     },
-    "TEXT_PRIMARY_ON_CONTRAST_COLOR": {
+    "TEXT_PRIMARY_INVERSE_COLOR": {
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
-      "name": "TEXT_PRIMARY_ON_CONTRAST_COLOR",
-      "darkValue": "#ffffffff",
-      "originalDarkValue": "{!WHITE}"
+      "name": "TEXT_PRIMARY_INVERSE_COLOR",
+      "darkValue": "#111236ff",
+      "originalDarkValue": "{!CHARCOAL}"
     },
     "TEXT_QUATERNARY_COLOR": {
       "type": "color",
@@ -3110,16 +3141,6 @@
       "name": "TEXT_SECONDARY_COLOR",
       "darkValue": "#b2b2bfff",
       "originalDarkValue": "{!SKY_GRAY_TINT_04}"
-    },
-    "TEXT_SECONDARY_ON_CONTRAST_COLOR": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#8e8e93ff",
-      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "TEXT_SECONDARY_ON_CONTRAST_COLOR",
-      "darkValue": "#8e8e93ff",
-      "originalDarkValue": "{!NIGHT_GREY_40}"
     },
     "TEXT_TERTIARY_COLOR": {
       "type": "color",
@@ -3417,20 +3438,22 @@
     "TEXT_LG_LINE_HEIGHT",
     "TEXT_LINK_DAY",
     "TEXT_LINK_NIGHT",
+    "TEXT_ON_DARK_DAY",
+    "TEXT_ON_DARK_NIGHT",
+    "TEXT_ON_LIGHT_DAY",
+    "TEXT_ON_LIGHT_NIGHT",
     "TEXT_PRIMARY_DARK_COLOR",
     "TEXT_PRIMARY_DAY",
+    "TEXT_PRIMARY_INVERSE_DAY",
+    "TEXT_PRIMARY_INVERSE_NIGHT",
     "TEXT_PRIMARY_LIGHT_COLOR",
     "TEXT_PRIMARY_NIGHT",
-    "TEXT_PRIMARY_ON_CONTRAST_DAY",
-    "TEXT_PRIMARY_ON_CONTRAST_NIGHT",
     "TEXT_QUATERNARY_DARK_COLOR",
     "TEXT_QUATERNARY_LIGHT_COLOR",
     "TEXT_SECONDARY_DARK_COLOR",
     "TEXT_SECONDARY_DAY",
     "TEXT_SECONDARY_LIGHT_COLOR",
     "TEXT_SECONDARY_NIGHT",
-    "TEXT_SECONDARY_ON_CONTRAST_DAY",
-    "TEXT_SECONDARY_ON_CONTRAST_NIGHT",
     "TEXT_SM-EMPHASIZED_FONT_SIZE",
     "TEXT_SM-EMPHASIZED_FONT_WEIGHT",
     "TEXT_SM-EMPHASIZED_LINE_HEIGHT",
@@ -3499,11 +3522,12 @@
     "TEXT_DISABLED_COLOR",
     "TEXT_ERROR_COLOR",
     "TEXT_LINK_COLOR",
+    "TEXT_ON_DARK_COLOR",
+    "TEXT_ON_LIGHT_COLOR",
     "TEXT_PRIMARY_COLOR",
-    "TEXT_PRIMARY_ON_CONTRAST_COLOR",
+    "TEXT_PRIMARY_INVERSE_COLOR",
     "TEXT_QUATERNARY_COLOR",
     "TEXT_SECONDARY_COLOR",
-    "TEXT_SECONDARY_ON_CONTRAST_COLOR",
     "TEXT_TERTIARY_COLOR"
   ]
 }

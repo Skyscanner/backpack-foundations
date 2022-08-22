@@ -2164,6 +2164,34 @@
       "category": "text-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
+      "name": "textOnDarkDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textOnDarkNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "textOnLightDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "textOnLightNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
       "name": "textPrimaryDarkColor"
     },
     {
@@ -2172,6 +2200,20 @@
       "value": "#111236ff",
       "originalValue": "{!CHARCOAL}",
       "name": "textPrimaryDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textPrimaryInverseDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "textPrimaryInverseNight"
     },
     {
       "type": "color",
@@ -2186,20 +2228,6 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "textPrimaryNight"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "textPrimaryOnContrastDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "textPrimaryOnContrastNight"
     },
     {
       "type": "color",
@@ -2243,21 +2271,6 @@
       "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "textSecondaryNight"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#8e8e93ff",
-      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "textSecondaryOnContrastDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#8e8e93ff",
-      "originalValue": "{!NIGHT_GREY_40}",
-      "name": "textSecondaryOnContrastNight"
     },
     {
       "value": "14",
@@ -2887,6 +2900,24 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textOnDarkColor",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "textOnLightColor",
+      "darkValue": "#111236ff",
+      "originalDarkValue": "{!CHARCOAL}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#111236ff",
       "originalValue": "{!SKY_GRAY}",
       "name": "textPrimaryColor",
@@ -2898,9 +2929,9 @@
       "category": "text-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
-      "name": "textPrimaryOnContrastColor",
-      "darkValue": "#ffffffff",
-      "originalDarkValue": "{!WHITE}"
+      "name": "textPrimaryInverseColor",
+      "darkValue": "#111236ff",
+      "originalDarkValue": "{!CHARCOAL}"
     },
     {
       "type": "color",
@@ -2919,16 +2950,6 @@
       "name": "textSecondaryColor",
       "darkValue": "#b2b2bfff",
       "originalDarkValue": "{!SKY_GRAY_TINT_04}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#8e8e93ff",
-      "comment": "This colour needs to be apply opacity to it but needs a better solution but shouldn't be in use in product so safe to leave as is",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "textSecondaryOnContrastColor",
-      "darkValue": "#8e8e93ff",
-      "originalDarkValue": "{!NIGHT_GREY_40}"
     },
     {
       "type": "color",

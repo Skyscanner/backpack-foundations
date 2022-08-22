@@ -352,17 +352,25 @@ $bpk-text-link-day: rgb(7, 112, 227);
 /// @group text-colors
 $bpk-text-link-night: rgb(109, 159, 235);
 /// @group text-colors
+$bpk-text-on-dark-day: rgb(255, 255, 255);
+/// @group text-colors
+$bpk-text-on-dark-night: rgb(255, 255, 255);
+/// @group text-colors
+$bpk-text-on-light-day: rgb(17, 18, 54);
+/// @group text-colors
+$bpk-text-on-light-night: rgb(17, 18, 54);
+/// @group text-colors
 $bpk-text-primary-dark-color: rgb(255, 255, 255);
 /// @group text-colors
 $bpk-text-primary-day: rgb(17, 18, 54);
 /// @group text-colors
+$bpk-text-primary-inverse-day: rgb(255, 255, 255);
+/// @group text-colors
+$bpk-text-primary-inverse-night: rgb(17, 18, 54);
+/// @group text-colors
 $bpk-text-primary-light-color: rgb(17, 18, 54);
 /// @group text-colors
 $bpk-text-primary-night: rgb(255, 255, 255);
-/// @group text-colors
-$bpk-text-primary-on-contrast-day: rgb(255, 255, 255);
-/// @group text-colors
-$bpk-text-primary-on-contrast-night: rgb(255, 255, 255);
 /// @group text-colors
 $bpk-text-quaternary-dark-color: rgb(142, 142, 147);
 /// @group text-colors
@@ -375,10 +383,6 @@ $bpk-text-secondary-day: rgb(104, 105, 127);
 $bpk-text-secondary-light-color: rgb(104, 105, 127);
 /// @group text-colors
 $bpk-text-secondary-night: rgb(178, 178, 191);
-/// @group text-colors
-$bpk-text-secondary-on-contrast-day: rgb(142, 142, 147);
-/// @group text-colors
-$bpk-text-secondary-on-contrast-night: rgb(142, 142, 147);
 /// @group text-colors
 $bpk-text-tertiary-dark-color: rgb(142, 142, 147);
 /// @group text-colors
