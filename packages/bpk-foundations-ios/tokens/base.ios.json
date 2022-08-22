@@ -304,13 +304,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#ff9400ff",
-      "originalValue": "{!AMBER_SPOT}",
-      "name": "colorAmberSpot"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#ffebd0ff",
       "originalValue": "{!BAGAN}",
       "name": "colorBagan"
@@ -318,30 +311,9 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#d1435bff",
-      "originalValue": "{!BERRY}",
-      "name": "colorBerry"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#000000ff",
       "originalValue": "{!BLACK}",
       "name": "colorBlack"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#b2b2bfff",
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "colorBlackAlpha20"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#02122cff",
-      "originalValue": "{!BLACK_ALPHA_70}",
-      "name": "colorBlackAlpha70"
     },
     {
       "type": "color",
@@ -395,27 +367,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#111236ff",
-      "originalValue": "{!CHARCOAL}",
-      "name": "colorCharcoal"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#02122cff",
-      "originalValue": "{!DARK_SKY}",
-      "name": "colorDarkSky"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0fa1a9ff",
-      "originalValue": "{!ECO_GREEN}",
-      "name": "colorEcoGreen"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#ffb54dff",
       "originalValue": "{!ERFOUD}",
       "name": "colorErfoud"
@@ -426,48 +377,6 @@
       "value": "#73cec6ff",
       "originalValue": "{!GLENCOE}",
       "name": "colorGlencoe"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d0eeecff",
-      "originalValue": "{!GREEN_MUTED}",
-      "name": "colorGreenMuted"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#00a698ff",
-      "originalValue": "{!GREEN_SPOT}",
-      "name": "colorGreenSpot"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f1f2f8ff",
-      "originalValue": "{!GREY_10}",
-      "name": "colorGrey10"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#dddde5ff",
-      "originalValue": "{!GREY_20}",
-      "name": "colorGrey20"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#cdcdd7ff",
-      "originalValue": "{!GREY_30}",
-      "name": "colorGrey30"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#68697fff",
-      "originalValue": "{!GREY_40}",
-      "name": "colorGrey40"
     },
     {
       "type": "color",
@@ -508,97 +417,6 @@
       "type": "color",
       "category": "colors",
       "value": "#d1435bff",
-      "originalValue": "{!NIGHT_BERRY}",
-      "name": "colorNightBerry"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#6d9febff",
-      "originalValue": "{!NIGHT_BLUE}",
-      "name": "colorNightBlue"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#b1ffe7ff",
-      "originalValue": "{!NIGHT_GREEN_FILL}",
-      "name": "colorNightGreenFill"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#00a698ff",
-      "originalValue": "{!NIGHT_GREEN_SPOT}",
-      "name": "colorNightGreenSpot"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#000000ff",
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "colorNightGrey10"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#1d1b20ff",
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "colorNightGrey20"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#2c2c2eff",
-      "originalValue": "{!NIGHT_GREY_25}",
-      "name": "colorNightGrey25"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#48484aff",
-      "originalValue": "{!NIGHT_GREY_30}",
-      "name": "colorNightGrey30"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e8e93ff",
-      "originalValue": "{!NIGHT_GREY_40}",
-      "name": "colorNightGrey40"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffcaddff",
-      "originalValue": "{!NIGHT_PINK}",
-      "name": "colorNightPink"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#054184ff",
-      "originalValue": "{!NIGHT_SKY}",
-      "name": "colorNightSky"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#fbf1bbff",
-      "originalValue": "{!NIGHT_YELLOW_FILL}",
-      "name": "colorNightYellowFill"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffb54dff",
-      "originalValue": "{!NIGHT_YELLOW_SPOT}",
-      "name": "colorNightYellowSpot"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d1435bff",
       "originalValue": "{!PANJIN}",
       "name": "colorPanjin"
     },
@@ -608,13 +426,6 @@
       "value": "#ffab95ff",
       "originalValue": "{!PETRA}",
       "name": "colorPetra"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f6dde1ff",
-      "originalValue": "{!PINK_MUTED}",
-      "name": "colorPinkMuted"
     },
     {
       "type": "color",
@@ -769,27 +580,6 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "colorWhite"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e8e93ff",
-      "originalValue": "{!WHITE_ALPHA_20}",
-      "name": "colorWhiteAlpha20"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e8e93ff",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "colorWhiteAlpha80"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffebd0ff",
-      "originalValue": "{!YELLOW_MUTED}",
-      "name": "colorYellowMuted"
     },
     {
       "type": "color",
