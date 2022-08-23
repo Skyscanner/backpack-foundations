@@ -1,3 +1,18 @@
+# 2022-08-23
+
+**Breaking:**
+
+`@skyscanner/bpk-foundations-common: 2.6.1 => 3.0.0`<br />
+`@skyscanner/bpk-foundations-android: 3.7.1 => 4.0.0`<br />
+`@skyscanner/bpk-foundations-ios: 2.7.1 => 3.0.0`<br />
+`@skyscanner/bpk-foundations-react-native: 1.6.1 => 2.0.0`<br />
+`@skyscanner/bpk-foundations-web: 8.5.1 => 9.0.0` <br />
+  - Renamed `TEXT_PRIMARY_ON_CONTRAST_DAY` to `TEXT_PRIMARY_INVERSE_DAY`
+  - Renamed `TEXT_PRIMARY_ON_CONTRAST_NIGHT` to `TEXT_PRIMARY_INVERSE_NIGHT`
+  - Removed `TEXT_PRIMARY_ON_CONTRAST_DAY` and `TEXT_SECONDARY_ON_CONTRAST_NIGHT`
+  - Added `TEXT_ON_LIGHT_DAY`, `TEXT_ON_LIGHT_NIGHT`, `TEXT_ON_DARK_DAY` and `TEXT_ON_DARK_NIGHT`
+  - Removed base colour tokens from foundations to only expose semantic tokens for use by consumers.
+
 # 2022-08-17
 
 **Fixed:**
