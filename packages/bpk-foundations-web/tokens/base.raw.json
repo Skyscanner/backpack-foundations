@@ -462,6 +462,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(2, 18, 44)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_03}",
       "name": "COLOR_SKY_BLUE_SHADE_03"
     },
@@ -469,6 +470,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(7, 112, 227)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "COLOR_PRIMARY_GRADIENT_LIGHT"
     },
@@ -476,6 +478,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 181, 77)",
+      "deprecated": true,
       "originalValue": "{!ERFOUD}",
       "name": "COLOR_ERFOUD"
     },
@@ -483,6 +486,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(165, 155, 200)",
+      "deprecated": true,
       "originalValue": "{!VALENSOLE}",
       "name": "COLOR_VALENSOLE"
     },
@@ -490,6 +494,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(0, 166, 152)",
+      "deprecated": true,
       "originalValue": "{!MONTEVERDE}",
       "name": "COLOR_MONTEVERDE"
     },
@@ -497,6 +502,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(68, 69, 96)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_01}",
       "name": "COLOR_SKY_GRAY_TINT_01"
     },
@@ -511,6 +517,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(104, 105, 127)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "COLOR_SKY_GRAY_TINT_02"
     },
@@ -518,6 +525,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(208, 238, 236)",
+      "deprecated": true,
       "originalValue": "{!SAGANO}",
       "name": "COLOR_SAGANO"
     },
@@ -525,6 +533,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(143, 144, 160)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "COLOR_SKY_GRAY_TINT_03"
     },
@@ -532,6 +541,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(178, 178, 191)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "COLOR_SKY_GRAY_TINT_04"
     },
@@ -539,6 +549,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(246, 221, 225)",
+      "deprecated": true,
       "originalValue": "{!HARBOUR}",
       "name": "COLOR_HARBOUR"
     },
@@ -546,6 +557,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(205, 205, 215)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "COLOR_SKY_GRAY_TINT_05"
     },
@@ -553,6 +565,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(221, 221, 229)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "COLOR_SKY_GRAY_TINT_06"
     },
@@ -560,6 +573,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(29, 27, 32)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "COLOR_BLACK_TINT_01"
     },
@@ -567,6 +581,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(241, 242, 248)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "COLOR_SKY_GRAY_TINT_07"
     },
@@ -574,6 +589,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(44, 44, 46)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_02}",
       "name": "COLOR_BLACK_TINT_02"
     },
@@ -581,6 +597,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(90, 72, 155)",
+      "deprecated": true,
       "originalValue": "{!ABISKO}",
       "name": "COLOR_ABISKO"
     },
@@ -588,6 +605,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(58, 58, 60)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_03}",
       "name": "COLOR_BLACK_TINT_03"
     },
@@ -595,6 +613,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(72, 72, 74)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_04}",
       "name": "COLOR_BLACK_TINT_04"
     },
@@ -609,6 +628,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(99, 99, 102)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_05}",
       "name": "COLOR_BLACK_TINT_05"
     },
@@ -616,6 +636,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(142, 142, 147)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "COLOR_BLACK_TINT_06"
     },
@@ -623,6 +644,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(209, 67, 91)",
+      "deprecated": true,
       "originalValue": "{!PANJIN}",
       "name": "COLOR_PANJIN"
     },
@@ -630,6 +652,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 148, 0)",
+      "deprecated": true,
       "originalValue": "{!KOLKATA}",
       "name": "COLOR_KOLKATA"
     },
@@ -637,6 +660,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(115, 206, 198)",
+      "deprecated": true,
       "originalValue": "{!GLENCOE}",
       "name": "COLOR_GLENCOE"
     },
@@ -644,6 +668,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(225, 221, 236)",
+      "deprecated": true,
       "originalValue": "{!TOCHIGI}",
       "name": "COLOR_TOCHIGI"
     },
@@ -651,6 +676,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 171, 149)",
+      "deprecated": true,
       "originalValue": "{!PETRA}",
       "name": "COLOR_PETRA"
     },
@@ -665,6 +691,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 235, 208)",
+      "deprecated": true,
       "originalValue": "{!BAGAN}",
       "name": "COLOR_BAGAN"
     },
@@ -672,6 +699,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(225, 139, 150)",
+      "deprecated": true,
       "originalValue": "{!HILLIER}",
       "name": "COLOR_HILLIER"
     },
@@ -679,6 +707,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(109, 159, 235)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_01}",
       "name": "COLOR_SKY_BLUE_TINT_01"
     },
@@ -686,6 +715,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(157, 192, 242)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_02}",
       "name": "COLOR_SKY_BLUE_TINT_02"
     },
@@ -693,6 +723,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 123, 89)",
+      "deprecated": true,
       "originalValue": "{!BUNOL}",
       "name": "COLOR_BUNOL"
     },
@@ -700,6 +731,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(205, 223, 248)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_03}",
       "name": "COLOR_SKY_BLUE_TINT_03"
     },
@@ -707,6 +739,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(17, 18, 54)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY}",
       "name": "COLOR_SKY_GRAY"
     },
@@ -714,6 +747,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 231, 224)",
+      "deprecated": true,
       "originalValue": "{!NARA}",
       "name": "COLOR_NARA"
     },
@@ -721,6 +755,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(8, 78, 178)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "COLOR_SKY_BLUE_SHADE_01"
     },
@@ -728,6 +763,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(4, 39, 89)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_02}",
       "name": "COLOR_SKY_BLUE_SHADE_02"
     },
@@ -980,6 +1016,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(255, 255, 255)",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "TEXT_PRIMARY_DARK_COLOR"
     },
@@ -994,6 +1031,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(142, 142, 147)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "TEXT_QUATERNARY_DARK_COLOR"
     },
@@ -1008,6 +1046,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(143, 144, 160)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_QUATERNARY_LIGHT_COLOR"
     },
@@ -1022,6 +1061,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(17, 18, 54)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY}",
       "name": "TEXT_PRIMARY_LIGHT_COLOR"
     },
@@ -1050,6 +1090,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(142, 142, 147)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "TEXT_TERTIARY_DARK_COLOR"
     },
@@ -1057,6 +1098,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(178, 178, 191)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_DARK_COLOR"
     },
@@ -1086,6 +1128,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(104, 105, 127)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "TEXT_SECONDARY_LIGHT_COLOR"
     },
@@ -1100,6 +1143,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(143, 144, 160)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_TERTIARY_LIGHT_COLOR"
     },
@@ -1121,6 +1165,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(58, 58, 60)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_03}",
       "name": "BACKGROUND_ELEVATION_03_DARK_COLOR"
     },
@@ -1128,6 +1173,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(44, 44, 46)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_02}",
       "name": "BACKGROUND_ELEVATION_02_DARK_COLOR"
     },
@@ -1135,6 +1181,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(72, 72, 74)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_04}",
       "name": "LINE_DARK_COLOR"
     },
@@ -1142,6 +1189,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(29, 27, 32)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "BACKGROUND_ELEVATION_01_DARK_COLOR"
     },
@@ -1149,6 +1197,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(29, 27, 32)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR"
     },
@@ -1156,6 +1205,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 255, 255)",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_LIGHT_COLOR"
     },
@@ -1163,6 +1213,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(0, 0, 0)",
+      "deprecated": true,
       "originalValue": "{!BLACK}",
       "name": "BACKGROUND_DARK_COLOR"
     },
@@ -1170,6 +1221,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 255, 255)",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR"
     },
@@ -1184,6 +1236,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(0, 166, 152)",
+      "deprecated": true,
       "originalValue": "{!MONTEVERDE}",
       "name": "COLOR_SYSTEM_GREEN"
     },
@@ -1191,6 +1244,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(255, 255, 255)",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_01_LIGHT_COLOR"
     },
@@ -1198,6 +1252,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(205, 205, 215)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "LINE_LIGHT_COLOR"
     },
@@ -1205,6 +1260,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(255, 255, 255)",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_02_LIGHT_COLOR"
     },
@@ -1219,6 +1275,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(255, 255, 255)",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_03_LIGHT_COLOR"
     },
@@ -1226,6 +1283,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(44, 44, 46)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_02}",
       "name": "BACKGROUND_TERTIARY_DARK_COLOR"
     },
@@ -1233,6 +1291,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(29, 27, 32)",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "BACKGROUND_SECONDARY_DARK_COLOR"
     },
@@ -1240,6 +1299,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(241, 242, 248)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "BACKGROUND_ALTERNATIVE_LIGHT_COLOR"
     },
@@ -1247,6 +1307,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(109, 159, 235)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_01}",
       "name": "PRIMARY_DARK_COLOR"
     },
@@ -1254,6 +1315,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(209, 67, 91)",
+      "deprecated": true,
       "originalValue": "{!PANJIN}",
       "name": "COLOR_SYSTEM_RED"
     },
@@ -1261,6 +1323,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(0, 0, 0)",
+      "deprecated": true,
       "originalValue": "{!BLACK}",
       "name": "BACKGROUND_ALTERNATIVE_DARK_COLOR"
     },
@@ -1268,6 +1331,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(7, 112, 227)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "PRIMARY_LIGHT_COLOR"
     },
@@ -1275,6 +1339,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 255, 255)",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_TERTIARY_LIGHT_COLOR"
     },
@@ -1282,6 +1347,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(241, 242, 248)",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "BACKGROUND_SECONDARY_LIGHT_COLOR"
     },

@@ -4,36 +4,42 @@
       "type": "color",
       "category": "colors",
       "value": "#02122cff",
+      "deprecated": true,
       "name": "colorSkyBlueShade03"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#0770e3ff",
+      "deprecated": true,
       "name": "colorPrimaryGradientLight"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#ffb54dff",
+      "deprecated": true,
       "name": "colorErfoud"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#a59bc8ff",
+      "deprecated": true,
       "name": "colorValensole"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#00a698ff",
+      "deprecated": true,
       "name": "colorMonteverde"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#444560ff",
+      "deprecated": true,
       "name": "colorSkyGrayTint01"
     },
     {
@@ -46,78 +52,91 @@
       "type": "color",
       "category": "colors",
       "value": "#68697fff",
+      "deprecated": true,
       "name": "colorSkyGrayTint02"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#d0eeecff",
+      "deprecated": true,
       "name": "colorSagano"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "name": "colorSkyGrayTint03"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#b2b2bfff",
+      "deprecated": true,
       "name": "colorSkyGrayTint04"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#f6dde1ff",
+      "deprecated": true,
       "name": "colorHarbour"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#cdcdd7ff",
+      "deprecated": true,
       "name": "colorSkyGrayTint05"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#dddde5ff",
+      "deprecated": true,
       "name": "colorSkyGrayTint06"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "name": "colorBlackTint01"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "name": "colorSkyGrayTint07"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#2c2c2eff",
+      "deprecated": true,
       "name": "colorBlackTint02"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#5a489bff",
+      "deprecated": true,
       "name": "colorAbisko"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#3a3a3cff",
+      "deprecated": true,
       "name": "colorBlackTint03"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#48484aff",
+      "deprecated": true,
       "name": "colorBlackTint04"
     },
     {
@@ -130,42 +149,49 @@
       "type": "color",
       "category": "colors",
       "value": "#636366ff",
+      "deprecated": true,
       "name": "colorBlackTint05"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#8e8e93ff",
+      "deprecated": true,
       "name": "colorBlackTint06"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#d1435bff",
+      "deprecated": true,
       "name": "colorPanjin"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#ff9400ff",
+      "deprecated": true,
       "name": "colorKolkata"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#73cec6ff",
+      "deprecated": true,
       "name": "colorGlencoe"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#e1ddecff",
+      "deprecated": true,
       "name": "colorTochigi"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#ffab95ff",
+      "deprecated": true,
       "name": "colorPetra"
     },
     {
@@ -178,60 +204,70 @@
       "type": "color",
       "category": "colors",
       "value": "#ffebd0ff",
+      "deprecated": true,
       "name": "colorBagan"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#e18b96ff",
+      "deprecated": true,
       "name": "colorHillier"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#6d9febff",
+      "deprecated": true,
       "name": "colorSkyBlueTint01"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#9dc0f2ff",
+      "deprecated": true,
       "name": "colorSkyBlueTint02"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#ff7b59ff",
+      "deprecated": true,
       "name": "colorBunol"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#cddff8ff",
+      "deprecated": true,
       "name": "colorSkyBlueTint03"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#111236ff",
+      "deprecated": true,
       "name": "colorSkyGray"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#ffe7e0ff",
+      "deprecated": true,
       "name": "colorNara"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#084eb2ff",
+      "deprecated": true,
       "name": "colorSkyBlueShade01"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#042759ff",
+      "deprecated": true,
       "name": "colorSkyBlueShade02"
     },
     {
@@ -569,48 +605,56 @@
       "type": "color",
       "category": "text-colors",
       "value": "#3a3a3cff",
+      "deprecated": true,
       "name": "backgroundElevation03DarkColor"
     },
     {
       "type": "color",
       "category": "text-colors",
       "value": "#2c2c2eff",
+      "deprecated": true,
       "name": "backgroundElevation02DarkColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#48484aff",
+      "deprecated": true,
       "name": "lineDarkColor"
     },
     {
       "type": "color",
       "category": "text-colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "name": "backgroundElevation01DarkColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "name": "backgroundAlternativeSecondaryDarkColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundLightColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#000000ff",
+      "deprecated": true,
       "name": "backgroundDarkColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundAlternativeSecondaryLightColor"
     },
     {
@@ -623,24 +667,28 @@
       "type": "color",
       "category": "colors",
       "value": "#00a698ff",
+      "deprecated": true,
       "name": "colorSystemGreen"
     },
     {
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundElevation01LightColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#cdcdd7ff",
+      "deprecated": true,
       "name": "lineLightColor"
     },
     {
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundElevation02LightColor"
     },
     {
@@ -653,60 +701,70 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundElevation03LightColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#2c2c2eff",
+      "deprecated": true,
       "name": "backgroundTertiaryDarkColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "name": "backgroundSecondaryDarkColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "name": "backgroundAlternativeLightColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#6d9febff",
+      "deprecated": true,
       "name": "primaryDarkColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#d1435bff",
+      "deprecated": true,
       "name": "colorSystemRed"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#000000ff",
+      "deprecated": true,
       "name": "backgroundAlternativeDarkColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#0770e3ff",
+      "deprecated": true,
       "name": "primaryLightColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundTertiaryLightColor"
     },
     {
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "name": "backgroundSecondaryLightColor"
     },
     {
@@ -1586,6 +1644,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundElevation03Color",
       "darkValue": "#3a3a3cff"
     },
@@ -1593,6 +1652,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundElevation02Color",
       "darkValue": "#2c2c2eff"
     },
@@ -1607,6 +1667,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundElevation01Color",
       "darkValue": "#1d1b20ff"
     },
@@ -1614,6 +1675,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundAlternativeSecondaryColor",
       "darkValue": "#1d1b20ff"
     },
@@ -1621,6 +1683,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundColor",
       "darkValue": "#000000ff"
     },
@@ -1628,6 +1691,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "name": "backgroundTertiaryColor",
       "darkValue": "#2c2c2eff"
     },
@@ -1635,6 +1699,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "name": "backgroundSecondaryColor",
       "darkValue": "#1d1b20ff"
     },
@@ -1642,6 +1707,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "name": "backgroundAlternativeColor",
       "darkValue": "#000000ff"
     },
@@ -1649,6 +1715,7 @@
       "type": "color",
       "category": "colors",
       "value": "#0770e3ff",
+      "deprecated": true,
       "name": "primaryColor",
       "darkValue": "#6d9febff"
     }
