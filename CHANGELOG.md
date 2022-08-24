@@ -1,3 +1,17 @@
+# 2022-08-24
+
+**Changed:**
+
+`@skyscanner/bpk-foundations-android: 4.0.0 => 4.1.0`<br />
+`@skyscanner/bpk-foundations-common: 3.0.0 => 3.1.0`<br />
+`@skyscanner/bpk-foundations-ios: 3.0.0 => 3.1.0`<br />
+`@skyscanner/bpk-foundations-react-native: 2.0.0 => 2.1.0`<br />
+`@skyscanner/bpk-foundations-web: 9.0.0 => 9.1.0`<br />
+`bpk-mixins: 31.5.0 => 31.6.0`<br />
+`bpk-stylesheets: 7.1.45 => 7.2.0`<br />
+`@skyscanner/bpk-svgs: 14.3.8 => 14.4.0`<br />
+  - Deprecated all the old colour tokens from the old colour system in prepareation for the new colours. You will see warning in code mentioning these have been deprecated but further comms to swap to, to follow.
+
 # 2022-08-23
 
 **Breaking:**
