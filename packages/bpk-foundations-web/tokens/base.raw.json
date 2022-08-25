@@ -2825,6 +2825,7 @@
       "category": "calendar",
       "value": "rgb(7, 112, 227)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "CALENDAR_DAY_SELECTED_BACKGROUND_COLOR"
     },

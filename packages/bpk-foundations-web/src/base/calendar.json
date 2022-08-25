@@ -28,7 +28,8 @@
     },
     "CALENDAR_DAY_SELECTED_BACKGROUND_COLOR": {
       "value": "{!SKY_BLUE}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_FOCUSED_COLOR": {
       "value": "{!SKY_BLUE}",

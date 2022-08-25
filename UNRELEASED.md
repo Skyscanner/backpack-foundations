@@ -11,3 +11,4 @@
     - `$bpk-calendar-day-disabled-color`
     - `$bpk-calendar-day-hover-color`
     - `$bpk-calendar-day-selected-background-color`
+  - Deprecated `$bpk-calendar-day-selected-background-color` token
