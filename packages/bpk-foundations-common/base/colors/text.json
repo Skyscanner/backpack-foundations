@@ -8,28 +8,36 @@
   },
   "props": {
     "TEXT_PRIMARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY}"
+      "value": "{!SKY_GRAY}",
+      "deprecated": true
     },
     "TEXT_SECONDARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY_TINT_02}"
+      "value": "{!SKY_GRAY_TINT_02}",
+      "deprecated": true
     },
     "TEXT_TERTIARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY_TINT_03}"
+      "value": "{!SKY_GRAY_TINT_03}",
+      "deprecated": true
     },
     "TEXT_QUATERNARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY_TINT_03}"
+      "value": "{!SKY_GRAY_TINT_03}",
+      "deprecated": true
     },
     "TEXT_PRIMARY_DARK_COLOR": {
-      "value": "{!WHITE}"
+      "value": "{!WHITE}",
+      "deprecated": true
     },
     "TEXT_SECONDARY_DARK_COLOR": {
-      "value": "{!SKY_GRAY_TINT_04}"
+      "value": "{!SKY_GRAY_TINT_04}",
+      "deprecated": true
     },
     "TEXT_TERTIARY_DARK_COLOR": {
-      "value": "{!BLACK_TINT_06}"
+      "value": "{!BLACK_TINT_06}",
+      "deprecated": true
     },
     "TEXT_QUATERNARY_DARK_COLOR": {
-      "value": "{!BLACK_TINT_06}"
+      "value": "{!BLACK_TINT_06}",
+      "deprecated": true
     },
     "TEXT_PRIMARY_DAY": {
       "value": "{!CHARCOAL}"

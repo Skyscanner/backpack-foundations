@@ -420,6 +420,7 @@
       "type": "color",
       "category": "colors",
       "value": "#000000ff",
+      "deprecated": true,
       "originalValue": "{!BLACK}",
       "name": "BACKGROUND_ALTERNATIVE_DARK_COLOR"
     },
@@ -427,6 +428,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "BACKGROUND_ALTERNATIVE_LIGHT_COLOR"
     },
@@ -434,6 +436,7 @@
       "type": "color",
       "category": "colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR"
     },
@@ -441,6 +444,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR"
     },
@@ -448,6 +452,7 @@
       "type": "color",
       "category": "colors",
       "value": "#000000ff",
+      "deprecated": true,
       "originalValue": "{!BLACK}",
       "name": "BACKGROUND_DARK_COLOR"
     },
@@ -455,6 +460,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "BACKGROUND_ELEVATION_01_DARK_COLOR"
     },
@@ -462,6 +468,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_01_LIGHT_COLOR"
     },
@@ -469,6 +476,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#2c2c2eff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_02}",
       "name": "BACKGROUND_ELEVATION_02_DARK_COLOR"
     },
@@ -476,6 +484,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_02_LIGHT_COLOR"
     },
@@ -483,6 +492,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#3a3a3cff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_03}",
       "name": "BACKGROUND_ELEVATION_03_DARK_COLOR"
     },
@@ -490,6 +500,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_03_LIGHT_COLOR"
     },
@@ -497,6 +508,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_LIGHT_COLOR"
     },
@@ -504,6 +516,7 @@
       "type": "color",
       "category": "colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "BACKGROUND_SECONDARY_DARK_COLOR"
     },
@@ -511,6 +524,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "BACKGROUND_SECONDARY_LIGHT_COLOR"
     },
@@ -518,6 +532,7 @@
       "type": "color",
       "category": "colors",
       "value": "#2c2c2eff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_02}",
       "name": "BACKGROUND_TERTIARY_DARK_COLOR"
     },
@@ -525,6 +540,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_TERTIARY_LIGHT_COLOR"
     },
@@ -693,6 +709,7 @@
       "type": "color",
       "category": "colors",
       "value": "#5a489bff",
+      "deprecated": true,
       "originalValue": "{!ABISKO}",
       "name": "COLOR_ABISKO"
     },
@@ -700,6 +717,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffebd0ff",
+      "deprecated": true,
       "originalValue": "{!BAGAN}",
       "name": "COLOR_BAGAN"
     },
@@ -714,6 +732,7 @@
       "type": "color",
       "category": "colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "COLOR_BLACK_TINT_01"
     },
@@ -721,6 +740,7 @@
       "type": "color",
       "category": "colors",
       "value": "#2c2c2eff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_02}",
       "name": "COLOR_BLACK_TINT_02"
     },
@@ -728,6 +748,7 @@
       "type": "color",
       "category": "colors",
       "value": "#3a3a3cff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_03}",
       "name": "COLOR_BLACK_TINT_03"
     },
@@ -735,6 +756,7 @@
       "type": "color",
       "category": "colors",
       "value": "#48484aff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_04}",
       "name": "COLOR_BLACK_TINT_04"
     },
@@ -742,6 +764,7 @@
       "type": "color",
       "category": "colors",
       "value": "#636366ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_05}",
       "name": "COLOR_BLACK_TINT_05"
     },
@@ -749,6 +772,7 @@
       "type": "color",
       "category": "colors",
       "value": "#8e8e93ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "COLOR_BLACK_TINT_06"
     },
@@ -756,6 +780,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ff7b59ff",
+      "deprecated": true,
       "originalValue": "{!BUNOL}",
       "name": "COLOR_BUNOL"
     },
@@ -763,6 +788,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffb54dff",
+      "deprecated": true,
       "originalValue": "{!ERFOUD}",
       "name": "COLOR_ERFOUD"
     },
@@ -770,6 +796,7 @@
       "type": "color",
       "category": "colors",
       "value": "#73cec6ff",
+      "deprecated": true,
       "originalValue": "{!GLENCOE}",
       "name": "COLOR_GLENCOE"
     },
@@ -777,6 +804,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f6dde1ff",
+      "deprecated": true,
       "originalValue": "{!HARBOUR}",
       "name": "COLOR_HARBOUR"
     },
@@ -784,6 +812,7 @@
       "type": "color",
       "category": "colors",
       "value": "#e18b96ff",
+      "deprecated": true,
       "originalValue": "{!HILLIER}",
       "name": "COLOR_HILLIER"
     },
@@ -791,6 +820,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ff9400ff",
+      "deprecated": true,
       "originalValue": "{!KOLKATA}",
       "name": "COLOR_KOLKATA"
     },
@@ -798,6 +828,7 @@
       "type": "color",
       "category": "colors",
       "value": "#00a698ff",
+      "deprecated": true,
       "originalValue": "{!MONTEVERDE}",
       "name": "COLOR_MONTEVERDE"
     },
@@ -805,6 +836,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffe7e0ff",
+      "deprecated": true,
       "originalValue": "{!NARA}",
       "name": "COLOR_NARA"
     },
@@ -812,6 +844,7 @@
       "type": "color",
       "category": "colors",
       "value": "#d1435bff",
+      "deprecated": true,
       "originalValue": "{!PANJIN}",
       "name": "COLOR_PANJIN"
     },
@@ -819,6 +852,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffab95ff",
+      "deprecated": true,
       "originalValue": "{!PETRA}",
       "name": "COLOR_PETRA"
     },
@@ -826,6 +860,7 @@
       "type": "color",
       "category": "colors",
       "value": "#0770e3ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "COLOR_PRIMARY_GRADIENT_LIGHT"
     },
@@ -833,6 +868,7 @@
       "type": "color",
       "category": "colors",
       "value": "#d0eeecff",
+      "deprecated": true,
       "originalValue": "{!SAGANO}",
       "name": "COLOR_SAGANO"
     },
@@ -847,6 +883,7 @@
       "type": "color",
       "category": "colors",
       "value": "#084eb2ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "COLOR_SKY_BLUE_SHADE_01"
     },
@@ -854,6 +891,7 @@
       "type": "color",
       "category": "colors",
       "value": "#042759ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_02}",
       "name": "COLOR_SKY_BLUE_SHADE_02"
     },
@@ -861,6 +899,7 @@
       "type": "color",
       "category": "colors",
       "value": "#02122cff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_03}",
       "name": "COLOR_SKY_BLUE_SHADE_03"
     },
@@ -868,6 +907,7 @@
       "type": "color",
       "category": "colors",
       "value": "#6d9febff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_01}",
       "name": "COLOR_SKY_BLUE_TINT_01"
     },
@@ -875,6 +915,7 @@
       "type": "color",
       "category": "colors",
       "value": "#9dc0f2ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_02}",
       "name": "COLOR_SKY_BLUE_TINT_02"
     },
@@ -882,6 +923,7 @@
       "type": "color",
       "category": "colors",
       "value": "#cddff8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_03}",
       "name": "COLOR_SKY_BLUE_TINT_03"
     },
@@ -889,6 +931,7 @@
       "type": "color",
       "category": "colors",
       "value": "#111236ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY}",
       "name": "COLOR_SKY_GRAY"
     },
@@ -896,6 +939,7 @@
       "type": "color",
       "category": "colors",
       "value": "#444560ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_01}",
       "name": "COLOR_SKY_GRAY_TINT_01"
     },
@@ -903,6 +947,7 @@
       "type": "color",
       "category": "colors",
       "value": "#68697fff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "COLOR_SKY_GRAY_TINT_02"
     },
@@ -910,6 +955,7 @@
       "type": "color",
       "category": "colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "COLOR_SKY_GRAY_TINT_03"
     },
@@ -917,6 +963,7 @@
       "type": "color",
       "category": "colors",
       "value": "#b2b2bfff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "COLOR_SKY_GRAY_TINT_04"
     },
@@ -924,6 +971,7 @@
       "type": "color",
       "category": "colors",
       "value": "#cdcdd7ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "COLOR_SKY_GRAY_TINT_05"
     },
@@ -931,6 +979,7 @@
       "type": "color",
       "category": "colors",
       "value": "#dddde5ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "COLOR_SKY_GRAY_TINT_06"
     },
@@ -938,6 +987,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "COLOR_SKY_GRAY_TINT_07"
     },
@@ -945,6 +995,7 @@
       "type": "color",
       "category": "colors",
       "value": "#00a698ff",
+      "deprecated": true,
       "originalValue": "{!MONTEVERDE}",
       "name": "COLOR_SYSTEM_GREEN"
     },
@@ -952,6 +1003,7 @@
       "type": "color",
       "category": "colors",
       "value": "#d1435bff",
+      "deprecated": true,
       "originalValue": "{!PANJIN}",
       "name": "COLOR_SYSTEM_RED"
     },
@@ -959,6 +1011,7 @@
       "type": "color",
       "category": "colors",
       "value": "#e1ddecff",
+      "deprecated": true,
       "originalValue": "{!TOCHIGI}",
       "name": "COLOR_TOCHIGI"
     },
@@ -966,6 +1019,7 @@
       "type": "color",
       "category": "colors",
       "value": "#a59bc8ff",
+      "deprecated": true,
       "originalValue": "{!VALENSOLE}",
       "name": "COLOR_VALENSOLE"
     },
@@ -1219,6 +1273,7 @@
       "type": "color",
       "category": "colors",
       "value": "#48484aff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_04}",
       "name": "LINE_DARK_COLOR"
     },
@@ -1338,6 +1393,7 @@
       "type": "color",
       "category": "colors",
       "value": "#cdcdd7ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "LINE_LIGHT_COLOR"
     },
@@ -1471,6 +1527,7 @@
       "type": "color",
       "category": "colors",
       "value": "#6d9febff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_01}",
       "name": "PRIMARY_DARK_COLOR"
     },
@@ -1478,6 +1535,7 @@
       "type": "color",
       "category": "colors",
       "value": "#0770e3ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "PRIMARY_LIGHT_COLOR"
     },
@@ -2376,6 +2434,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "TEXT_PRIMARY_DARK_COLOR"
     },
@@ -2404,6 +2463,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#111236ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY}",
       "name": "TEXT_PRIMARY_LIGHT_COLOR"
     },
@@ -2418,6 +2478,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8e8e93ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "TEXT_QUATERNARY_DARK_COLOR"
     },
@@ -2425,6 +2486,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_QUATERNARY_LIGHT_COLOR"
     },
@@ -2432,6 +2494,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#b2b2bfff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "TEXT_SECONDARY_DARK_COLOR"
     },
@@ -2446,6 +2509,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#68697fff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "TEXT_SECONDARY_LIGHT_COLOR"
     },
@@ -2537,6 +2601,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8e8e93ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "TEXT_TERTIARY_DARK_COLOR"
     },
@@ -2544,6 +2609,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_TERTIARY_LIGHT_COLOR"
     },
@@ -2825,6 +2891,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "BACKGROUND_ALTERNATIVE_COLOR",
       "darkValue": "#000000ff",
@@ -2834,6 +2901,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ALTERNATIVE_SECONDARY_COLOR",
       "darkValue": "#1d1b20ff",
@@ -2843,6 +2911,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_COLOR",
       "darkValue": "#000000ff",
@@ -2852,6 +2921,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_01_COLOR",
       "darkValue": "#1d1b20ff",
@@ -2861,6 +2931,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_02_COLOR",
       "darkValue": "#2c2c2eff",
@@ -2870,6 +2941,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_03_COLOR",
       "darkValue": "#3a3a3cff",
@@ -2879,6 +2951,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "BACKGROUND_SECONDARY_COLOR",
       "darkValue": "#1d1b20ff",
@@ -2888,6 +2961,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_TERTIARY_COLOR",
       "darkValue": "#2c2c2eff",
@@ -2942,6 +3016,7 @@
       "type": "color",
       "category": "colors",
       "value": "#cdcdd7ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "LINE_COLOR",
       "darkValue": "#48484aff",
@@ -2951,6 +3026,7 @@
       "type": "color",
       "category": "colors",
       "value": "#0770e3ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "PRIMARY_COLOR",
       "darkValue": "#6d9febff",
@@ -3104,6 +3180,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#111236ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY}",
       "name": "TEXT_PRIMARY_COLOR",
       "darkValue": "#ffffffff",
@@ -3122,6 +3199,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_QUATERNARY_COLOR",
       "darkValue": "#8e8e93ff",
@@ -3131,6 +3209,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#68697fff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "TEXT_SECONDARY_COLOR",
       "darkValue": "#b2b2bfff",
@@ -3140,6 +3219,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "TEXT_TERTIARY_COLOR",
       "darkValue": "#8e8e93ff",

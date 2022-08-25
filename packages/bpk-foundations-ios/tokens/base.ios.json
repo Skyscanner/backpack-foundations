@@ -25,6 +25,7 @@
       "type": "color",
       "category": "colors",
       "value": "#000000ff",
+      "deprecated": true,
       "originalValue": "{!BLACK}",
       "name": "backgroundAlternativeDarkColor"
     },
@@ -32,6 +33,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "backgroundAlternativeLightColor"
     },
@@ -39,6 +41,7 @@
       "type": "color",
       "category": "colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "backgroundAlternativeSecondaryDarkColor"
     },
@@ -46,6 +49,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundAlternativeSecondaryLightColor"
     },
@@ -53,6 +57,7 @@
       "type": "color",
       "category": "colors",
       "value": "#000000ff",
+      "deprecated": true,
       "originalValue": "{!BLACK}",
       "name": "backgroundDarkColor"
     },
@@ -60,6 +65,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "backgroundElevation01DarkColor"
     },
@@ -67,6 +73,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundElevation01LightColor"
     },
@@ -74,6 +81,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#2c2c2eff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_02}",
       "name": "backgroundElevation02DarkColor"
     },
@@ -81,6 +89,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundElevation02LightColor"
     },
@@ -88,6 +97,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#3a3a3cff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_03}",
       "name": "backgroundElevation03DarkColor"
     },
@@ -95,6 +105,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundElevation03LightColor"
     },
@@ -102,6 +113,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundLightColor"
     },
@@ -109,6 +121,7 @@
       "type": "color",
       "category": "colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "backgroundSecondaryDarkColor"
     },
@@ -116,6 +129,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "backgroundSecondaryLightColor"
     },
@@ -123,6 +137,7 @@
       "type": "color",
       "category": "colors",
       "value": "#2c2c2eff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_02}",
       "name": "backgroundTertiaryDarkColor"
     },
@@ -130,6 +145,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundTertiaryLightColor"
     },
@@ -298,6 +314,7 @@
       "type": "color",
       "category": "colors",
       "value": "#5a489bff",
+      "deprecated": true,
       "originalValue": "{!ABISKO}",
       "name": "colorAbisko"
     },
@@ -305,6 +322,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffebd0ff",
+      "deprecated": true,
       "originalValue": "{!BAGAN}",
       "name": "colorBagan"
     },
@@ -319,6 +337,7 @@
       "type": "color",
       "category": "colors",
       "value": "#1d1b20ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_01}",
       "name": "colorBlackTint01"
     },
@@ -326,6 +345,7 @@
       "type": "color",
       "category": "colors",
       "value": "#2c2c2eff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_02}",
       "name": "colorBlackTint02"
     },
@@ -333,6 +353,7 @@
       "type": "color",
       "category": "colors",
       "value": "#3a3a3cff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_03}",
       "name": "colorBlackTint03"
     },
@@ -340,6 +361,7 @@
       "type": "color",
       "category": "colors",
       "value": "#48484aff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_04}",
       "name": "colorBlackTint04"
     },
@@ -347,6 +369,7 @@
       "type": "color",
       "category": "colors",
       "value": "#636366ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_05}",
       "name": "colorBlackTint05"
     },
@@ -354,6 +377,7 @@
       "type": "color",
       "category": "colors",
       "value": "#8e8e93ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "colorBlackTint06"
     },
@@ -361,6 +385,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ff7b59ff",
+      "deprecated": true,
       "originalValue": "{!BUNOL}",
       "name": "colorBunol"
     },
@@ -368,6 +393,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffb54dff",
+      "deprecated": true,
       "originalValue": "{!ERFOUD}",
       "name": "colorErfoud"
     },
@@ -375,6 +401,7 @@
       "type": "color",
       "category": "colors",
       "value": "#73cec6ff",
+      "deprecated": true,
       "originalValue": "{!GLENCOE}",
       "name": "colorGlencoe"
     },
@@ -382,6 +409,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f6dde1ff",
+      "deprecated": true,
       "originalValue": "{!HARBOUR}",
       "name": "colorHarbour"
     },
@@ -389,6 +417,7 @@
       "type": "color",
       "category": "colors",
       "value": "#e18b96ff",
+      "deprecated": true,
       "originalValue": "{!HILLIER}",
       "name": "colorHillier"
     },
@@ -396,6 +425,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ff9400ff",
+      "deprecated": true,
       "originalValue": "{!KOLKATA}",
       "name": "colorKolkata"
     },
@@ -403,6 +433,7 @@
       "type": "color",
       "category": "colors",
       "value": "#00a698ff",
+      "deprecated": true,
       "originalValue": "{!MONTEVERDE}",
       "name": "colorMonteverde"
     },
@@ -410,6 +441,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffe7e0ff",
+      "deprecated": true,
       "originalValue": "{!NARA}",
       "name": "colorNara"
     },
@@ -417,6 +449,7 @@
       "type": "color",
       "category": "colors",
       "value": "#d1435bff",
+      "deprecated": true,
       "originalValue": "{!PANJIN}",
       "name": "colorPanjin"
     },
@@ -424,6 +457,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffab95ff",
+      "deprecated": true,
       "originalValue": "{!PETRA}",
       "name": "colorPetra"
     },
@@ -431,6 +465,7 @@
       "type": "color",
       "category": "colors",
       "value": "#0770e3ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "colorPrimaryGradientLight"
     },
@@ -438,6 +473,7 @@
       "type": "color",
       "category": "colors",
       "value": "#d0eeecff",
+      "deprecated": true,
       "originalValue": "{!SAGANO}",
       "name": "colorSagano"
     },
@@ -452,6 +488,7 @@
       "type": "color",
       "category": "colors",
       "value": "#084eb2ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "colorSkyBlueShade01"
     },
@@ -459,6 +496,7 @@
       "type": "color",
       "category": "colors",
       "value": "#042759ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_02}",
       "name": "colorSkyBlueShade02"
     },
@@ -466,6 +504,7 @@
       "type": "color",
       "category": "colors",
       "value": "#02122cff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_03}",
       "name": "colorSkyBlueShade03"
     },
@@ -473,6 +512,7 @@
       "type": "color",
       "category": "colors",
       "value": "#6d9febff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_01}",
       "name": "colorSkyBlueTint01"
     },
@@ -480,6 +520,7 @@
       "type": "color",
       "category": "colors",
       "value": "#9dc0f2ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_02}",
       "name": "colorSkyBlueTint02"
     },
@@ -487,6 +528,7 @@
       "type": "color",
       "category": "colors",
       "value": "#cddff8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_03}",
       "name": "colorSkyBlueTint03"
     },
@@ -494,6 +536,7 @@
       "type": "color",
       "category": "colors",
       "value": "#111236ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY}",
       "name": "colorSkyGray"
     },
@@ -501,6 +544,7 @@
       "type": "color",
       "category": "colors",
       "value": "#444560ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_01}",
       "name": "colorSkyGrayTint01"
     },
@@ -508,6 +552,7 @@
       "type": "color",
       "category": "colors",
       "value": "#68697fff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "colorSkyGrayTint02"
     },
@@ -515,6 +560,7 @@
       "type": "color",
       "category": "colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "colorSkyGrayTint03"
     },
@@ -522,6 +568,7 @@
       "type": "color",
       "category": "colors",
       "value": "#b2b2bfff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "colorSkyGrayTint04"
     },
@@ -529,6 +576,7 @@
       "type": "color",
       "category": "colors",
       "value": "#cdcdd7ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "colorSkyGrayTint05"
     },
@@ -536,6 +584,7 @@
       "type": "color",
       "category": "colors",
       "value": "#dddde5ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "colorSkyGrayTint06"
     },
@@ -543,6 +592,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "colorSkyGrayTint07"
     },
@@ -550,6 +600,7 @@
       "type": "color",
       "category": "colors",
       "value": "#00a698ff",
+      "deprecated": true,
       "originalValue": "{!MONTEVERDE}",
       "name": "colorSystemGreen"
     },
@@ -557,6 +608,7 @@
       "type": "color",
       "category": "colors",
       "value": "#d1435bff",
+      "deprecated": true,
       "originalValue": "{!PANJIN}",
       "name": "colorSystemRed"
     },
@@ -564,6 +616,7 @@
       "type": "color",
       "category": "colors",
       "value": "#e1ddecff",
+      "deprecated": true,
       "originalValue": "{!TOCHIGI}",
       "name": "colorTochigi"
     },
@@ -571,6 +624,7 @@
       "type": "color",
       "category": "colors",
       "value": "#a59bc8ff",
+      "deprecated": true,
       "originalValue": "{!VALENSOLE}",
       "name": "colorValensole"
     },
@@ -824,6 +878,7 @@
       "type": "color",
       "category": "colors",
       "value": "#48484aff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_04}",
       "name": "lineDarkColor"
     },
@@ -943,6 +998,7 @@
       "type": "color",
       "category": "colors",
       "value": "#cdcdd7ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "lineLightColor"
     },
@@ -1076,6 +1132,7 @@
       "type": "color",
       "category": "colors",
       "value": "#6d9febff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_01}",
       "name": "primaryDarkColor"
     },
@@ -1083,6 +1140,7 @@
       "type": "color",
       "category": "colors",
       "value": "#0770e3ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "primaryLightColor"
     },
@@ -1981,6 +2039,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "textPrimaryDarkColor"
     },
@@ -2009,6 +2068,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#111236ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY}",
       "name": "textPrimaryLightColor"
     },
@@ -2023,6 +2083,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8e8e93ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "textQuaternaryDarkColor"
     },
@@ -2030,6 +2091,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "textQuaternaryLightColor"
     },
@@ -2037,6 +2099,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#b2b2bfff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "textSecondaryDarkColor"
     },
@@ -2051,6 +2114,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#68697fff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "textSecondaryLightColor"
     },
@@ -2142,6 +2206,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8e8e93ff",
+      "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "textTertiaryDarkColor"
     },
@@ -2149,6 +2214,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "textTertiaryLightColor"
     },
@@ -2430,6 +2496,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "backgroundAlternativeColor",
       "darkValue": "#000000ff",
@@ -2439,6 +2506,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundAlternativeSecondaryColor",
       "darkValue": "#1d1b20ff",
@@ -2448,6 +2516,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundColor",
       "darkValue": "#000000ff",
@@ -2457,6 +2526,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundElevation01Color",
       "darkValue": "#1d1b20ff",
@@ -2466,6 +2536,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundElevation02Color",
       "darkValue": "#2c2c2eff",
@@ -2475,6 +2546,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundElevation03Color",
       "darkValue": "#3a3a3cff",
@@ -2484,6 +2556,7 @@
       "type": "color",
       "category": "colors",
       "value": "#f1f2f8ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "backgroundSecondaryColor",
       "darkValue": "#1d1b20ff",
@@ -2493,6 +2566,7 @@
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundTertiaryColor",
       "darkValue": "#2c2c2eff",
@@ -2547,6 +2621,7 @@
       "type": "color",
       "category": "colors",
       "value": "#cdcdd7ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_05}",
       "name": "lineColor",
       "darkValue": "#48484aff",
@@ -2556,6 +2631,7 @@
       "type": "color",
       "category": "colors",
       "value": "#0770e3ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "primaryColor",
       "darkValue": "#6d9febff",
@@ -2709,6 +2785,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#111236ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY}",
       "name": "textPrimaryColor",
       "darkValue": "#ffffffff",
@@ -2727,6 +2804,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "textQuaternaryColor",
       "darkValue": "#8e8e93ff",
@@ -2736,6 +2814,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#68697fff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "textSecondaryColor",
       "darkValue": "#b2b2bfff",
@@ -2745,6 +2824,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#8f90a0ff",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "textTertiaryColor",
       "darkValue": "#8e8e93ff",
