@@ -4,22 +4,26 @@
     "COLOR_SYSTEM_RED": {
       "type": "color",
       "category": "colors",
-      "value": "{!PANJIN}"
+      "value": "{!PANJIN}",
+      "deprecated": true
     },
     "COLOR_SYSTEM_GREEN": {
       "type": "color",
       "category": "colors",
-      "value": "{!MONTEVERDE}"
+      "value": "{!MONTEVERDE}",
+      "deprecated": true
     },
     "LINE_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!SKY_GRAY_TINT_05}"
+      "value": "{!SKY_GRAY_TINT_05}",
+      "deprecated": true
     },
     "LINE_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK_TINT_04}"
+      "value": "{!BLACK_TINT_04}",
+      "deprecated": true
     },
     "LINE_DAY": {
       "type": "color",
@@ -44,92 +48,110 @@
     "PRIMARY_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!SKY_BLUE}"
+      "value": "{!SKY_BLUE}",
+      "deprecated": true
     },
     "PRIMARY_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!SKY_BLUE_TINT_01}"
+      "value": "{!SKY_BLUE_TINT_01}",
+      "deprecated": true
     },
     "BACKGROUND_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!WHITE}"
+      "value": "{!WHITE}",
+      "deprecated": true
     },
     "BACKGROUND_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK}"
+      "value": "{!BLACK}",
+      "deprecated": true
     },
     "BACKGROUND_ALTERNATIVE_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!SKY_GRAY_TINT_07}"
+      "value": "{!SKY_GRAY_TINT_07}",
+      "deprecated": true
     },
     "BACKGROUND_ALTERNATIVE_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK}"
+      "value": "{!BLACK}",
+      "deprecated": true
     },
     "BACKGROUND_SECONDARY_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!SKY_GRAY_TINT_07}"
+      "value": "{!SKY_GRAY_TINT_07}",
+      "deprecated": true
     },
     "BACKGROUND_SECONDARY_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK_TINT_01}"
+      "value": "{!BLACK_TINT_01}",
+      "deprecated": true
     },
     "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!WHITE}"
+      "value": "{!WHITE}",
+      "deprecated": true
     },
     "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK_TINT_01}"
+      "value": "{!BLACK_TINT_01}",
+      "deprecated": true
     },
     "BACKGROUND_TERTIARY_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!WHITE}"
+      "value": "{!WHITE}",
+      "deprecated": true
     },
     "BACKGROUND_TERTIARY_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK_TINT_02}"
+      "value": "{!BLACK_TINT_02}",
+      "deprecated": true
     },
     "BACKGROUND_ELEVATION_01_LIGHT_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "{!WHITE}"
+      "value": "{!WHITE}",
+      "deprecated": true
     },
     "BACKGROUND_ELEVATION_01_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "{!BLACK_TINT_01}"
+      "value": "{!BLACK_TINT_01}",
+      "deprecated": true
     },
     "BACKGROUND_ELEVATION_02_LIGHT_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "{!WHITE}"
+      "value": "{!WHITE}",
+      "deprecated": true
     },
     "BACKGROUND_ELEVATION_02_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "{!BLACK_TINT_02}"
+      "value": "{!BLACK_TINT_02}",
+      "deprecated": true
     },
     "BACKGROUND_ELEVATION_03_LIGHT_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "{!WHITE}"
+      "value": "{!WHITE}",
+      "deprecated": true
     },
     "BACKGROUND_ELEVATION_03_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "{!BLACK_TINT_03}"
+      "value": "{!BLACK_TINT_03}",
+      "deprecated": true
     }
   }
 }
