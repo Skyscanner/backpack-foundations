@@ -1,3 +1,21 @@
+# 2022-08-25
+
+**Changed:**
+
+- `@skyscanner/bpk-foundations-web 9.1.0 => 9.2.0`:
+  - Changed calendar navigation icon colours:
+    - `$bpk-calendar-nav-icon-active-fill`
+    - `$bpk-calendar-nav-icon-disabled-fill`
+    - `$bpk-calendar-nav-icon-fill`
+    - `$bpk-calendar-nav-icon-hover-fill`
+  - Changed calendar date colours:
+    - `$bpk-calendar-day-active-background-color`
+    - `$bpk-calendar-day-disabled-color`
+    - `$bpk-calendar-day-hover-color`
+    - `$bpk-calendar-day-selected-background-color`
+  - Deprecated `$bpk-calendar-day-selected-background-color` token
+
+
 # 2022-08-24
 
 **Changed:**
