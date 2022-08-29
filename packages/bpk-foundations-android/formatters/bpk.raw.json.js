@@ -18,10 +18,8 @@
 
 import _ from 'lodash';
 
-import sortTokens from '../../../utils/formatters/sort-tokens';
-
 const bpkRawJson = (result) => {
-  const { aliases, props } = sortTokens(result.toJS());
+  const { aliases, props } = result.toJS();
   const propsObj = _.keyBy(props, 'name');
   const propKeys = Object.keys(propsObj);
 

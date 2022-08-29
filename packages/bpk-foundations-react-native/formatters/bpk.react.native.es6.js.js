@@ -21,7 +21,6 @@ import path from 'path';
 
 import _ from 'lodash';
 
-import sortTokens from '../../../utils/formatters/sort-tokens';
 import { blockComment } from '../../../utils/formatters/license-header';
 
 import adjustTypography from './adjust-typography';
@@ -129,7 +128,7 @@ const bpkReactNativeEs6Js = (result, platform) => {
     nullableTokenNames, // Tokens that only exist in this platform
   ] = extractPlatformSpecifcTokens(allTokens, platform);
 
-  const { props } = sortTokens(allTokens);
+  const { props } = allTokens;
 
   const categories = _(props)
     .map((prop) => prop.category)

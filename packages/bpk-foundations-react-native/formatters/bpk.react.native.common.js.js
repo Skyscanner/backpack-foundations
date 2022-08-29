@@ -18,7 +18,6 @@
 
 import _ from 'lodash';
 
-import sortTokens from '../../../utils/formatters/sort-tokens';
 import { blockComment } from '../../../utils/formatters/license-header';
 
 import adjustTypography from './adjust-typography';
@@ -28,7 +27,7 @@ export const tokenTemplate = ({ name, value, type }) =>
   `${_.camelCase(name)}: ${valueTemplate(value, type)}`;
 
 const bpkReactNativeCommon = (result, platform = 'other') => {
-  const { props } = sortTokens(result.toJS());
+  const { props } = result.toJS();
 
   const source = `
 module.exports = {

@@ -18,251 +18,127 @@
  * 
  */
 /// @group colors
-$bpk-background-alternative-dark-color: rgb(0, 0, 0) !default;
-/// @group colors
-$bpk-background-alternative-light-color: rgb(241, 242, 248) !default;
-/// @group colors
-$bpk-background-alternative-secondary-dark-color: rgb(29, 27, 32) !default;
-/// @group colors
-$bpk-background-alternative-secondary-light-color: rgb(255, 255, 255) !default;
-/// @group colors
-$bpk-background-dark-color: rgb(0, 0, 0) !default;
-/// @group text-colors
-$bpk-background-elevation-01-dark-color: rgb(29, 27, 32) !default;
-/// @group text-colors
-$bpk-background-elevation-01-light-color: rgb(255, 255, 255) !default;
-/// @group text-colors
-$bpk-background-elevation-02-dark-color: rgb(44, 44, 46) !default;
-/// @group text-colors
-$bpk-background-elevation-02-light-color: rgb(255, 255, 255) !default;
-/// @group text-colors
-$bpk-background-elevation-03-dark-color: rgb(58, 58, 60) !default;
-/// @group text-colors
-$bpk-background-elevation-03-light-color: rgb(255, 255, 255) !default;
-/// @group colors
-$bpk-background-light-color: rgb(255, 255, 255) !default;
-/// @group colors
-$bpk-background-secondary-dark-color: rgb(29, 27, 32) !default;
-/// @group colors
-$bpk-background-secondary-light-color: rgb(241, 242, 248) !default;
-/// @group colors
-$bpk-background-tertiary-dark-color: rgb(44, 44, 46) !default;
-/// @group colors
-$bpk-background-tertiary-light-color: rgb(255, 255, 255) !default;
-/// @group breakpoints
-$bpk-breakpoint-desktop: 80rem !default;
-/// @group breakpoints
-$bpk-breakpoint-desktop-margin: 1rem * 3 !default;
-/// @group breakpoints
-$bpk-breakpoint-mobile: 32rem !default;
-/// @group breakpoints
-$bpk-breakpoint-mobile-margin: 1.5rem !default;
-/// @group breakpoints
-$bpk-breakpoint-query-above-desktop: "(min-width: 80.0625rem)" !default;
-/// @group breakpoints
-$bpk-breakpoint-query-above-mobile: "(min-width: 32.0625rem)" !default;
-/// @group breakpoints
-$bpk-breakpoint-query-above-tablet: "(min-width: 64.0625rem)" !default;
-/// @group breakpoints
-$bpk-breakpoint-query-mobile: "(max-width: 32rem)" !default;
-/// @group breakpoints
-$bpk-breakpoint-query-small-mobile: "(max-width: 22.4375rem)" !default;
-/// @group breakpoints
-$bpk-breakpoint-query-small-tablet: "(max-width: 48rem)" !default;
-/// @group breakpoints
-$bpk-breakpoint-query-small-tablet-only: "(min-width: 32.0625rem) and (max-width: 48rem)" !default;
-/// @group breakpoints
-$bpk-breakpoint-query-tablet: "(max-width: 64rem)" !default;
-/// @group breakpoints
-$bpk-breakpoint-query-tablet-only: "(min-width: 32.0625rem) and (max-width: 64rem)" !default;
-/// @group breakpoints
-$bpk-breakpoint-small-mobile: 22.4375rem !default;
-/// @group breakpoints
-$bpk-breakpoint-small-mobile-margin: 1rem !default;
-/// @group breakpoints
-$bpk-breakpoint-small-tablet: 48rem !default;
-/// @group breakpoints
-$bpk-breakpoint-small-tablet-margin: 1.5rem !default;
-/// @group breakpoints
-$bpk-breakpoint-tablet: 64rem !default;
-/// @group breakpoints
-$bpk-breakpoint-tablet-margin: 2rem !default;
-/// @group canvas-colors
-$bpk-canvas-contrast-day: rgb(241, 242, 248) !default;
-/// @group canvas-colors
-$bpk-canvas-contrast-night: rgb(29, 27, 32) !default;
-/// @group canvas-colors
-$bpk-canvas-day: rgb(255, 255, 255) !default;
-/// @group canvas-colors
-$bpk-canvas-night: rgb(0, 0, 0) !default;
-/// @group colors
-$bpk-color-abisko: rgb(90, 72, 155) !default;
-/// @group colors
-$bpk-color-bagan: rgb(255, 235, 208) !default;
-/// @group colors
-$bpk-color-black: rgb(0, 0, 0) !default;
-/// @group colors
-$bpk-color-black-tint-01: rgb(29, 27, 32) !default;
-/// @group colors
-$bpk-color-black-tint-02: rgb(44, 44, 46) !default;
-/// @group colors
-$bpk-color-black-tint-03: rgb(58, 58, 60) !default;
-/// @group colors
-$bpk-color-black-tint-04: rgb(72, 72, 74) !default;
-/// @group colors
-$bpk-color-black-tint-05: rgb(99, 99, 102) !default;
-/// @group colors
-$bpk-color-black-tint-06: rgb(142, 142, 147) !default;
-/// @group colors
-$bpk-color-bunol: rgb(255, 123, 89) !default;
-/// @group colors
-$bpk-color-erfoud: rgb(255, 181, 77) !default;
-/// @group colors
-$bpk-color-glencoe: rgb(115, 206, 198) !default;
-/// @group colors
-$bpk-color-harbour: rgb(246, 221, 225) !default;
-/// @group colors
-$bpk-color-hillier: rgb(225, 139, 150) !default;
-/// @group colors
-$bpk-color-kolkata: rgb(255, 148, 0) !default;
-/// @group colors
-$bpk-color-monteverde: rgb(0, 166, 152) !default;
-/// @group colors
-$bpk-color-nara: rgb(255, 231, 224) !default;
-/// @group colors
-$bpk-color-panjin: rgb(209, 67, 91) !default;
-/// @group colors
-$bpk-color-petra: rgb(255, 171, 149) !default;
+$bpk-color-sky-blue-shade-03: rgb(2, 18, 44) !default;
 /// @group colors
 $bpk-color-primary-gradient-light: rgb(7, 112, 227) !default;
 /// @group colors
-$bpk-color-sagano: rgb(208, 238, 236) !default;
+$bpk-color-erfoud: rgb(255, 181, 77) !default;
 /// @group colors
-$bpk-color-sky-blue: rgb(7, 112, 227) !default;
+$bpk-color-valensole: rgb(165, 155, 200) !default;
 /// @group colors
-$bpk-color-sky-blue-shade-01: rgb(8, 78, 178) !default;
-/// @group colors
-$bpk-color-sky-blue-shade-02: rgb(4, 39, 89) !default;
-/// @group colors
-$bpk-color-sky-blue-shade-03: rgb(2, 18, 44) !default;
-/// @group colors
-$bpk-color-sky-blue-tint-01: rgb(109, 159, 235) !default;
-/// @group colors
-$bpk-color-sky-blue-tint-02: rgb(157, 192, 242) !default;
-/// @group colors
-$bpk-color-sky-blue-tint-03: rgb(205, 223, 248) !default;
-/// @group colors
-$bpk-color-sky-gray: rgb(17, 18, 54) !default;
+$bpk-color-monteverde: rgb(0, 166, 152) !default;
 /// @group colors
 $bpk-color-sky-gray-tint-01: rgb(68, 69, 96) !default;
 /// @group colors
+$bpk-color-black: rgb(0, 0, 0) !default;
+/// @group colors
 $bpk-color-sky-gray-tint-02: rgb(104, 105, 127) !default;
+/// @group colors
+$bpk-color-sagano: rgb(208, 238, 236) !default;
 /// @group colors
 $bpk-color-sky-gray-tint-03: rgb(143, 144, 160) !default;
 /// @group colors
 $bpk-color-sky-gray-tint-04: rgb(178, 178, 191) !default;
 /// @group colors
+$bpk-color-harbour: rgb(246, 221, 225) !default;
+/// @group colors
 $bpk-color-sky-gray-tint-05: rgb(205, 205, 215) !default;
 /// @group colors
 $bpk-color-sky-gray-tint-06: rgb(221, 221, 229) !default;
 /// @group colors
+$bpk-color-black-tint-01: rgb(29, 27, 32) !default;
+/// @group colors
 $bpk-color-sky-gray-tint-07: rgb(241, 242, 248) !default;
 /// @group colors
-$bpk-color-system-green: rgb(0, 166, 152) !default;
+$bpk-color-black-tint-02: rgb(44, 44, 46) !default;
 /// @group colors
-$bpk-color-system-red: rgb(209, 67, 91) !default;
+$bpk-color-abisko: rgb(90, 72, 155) !default;
+/// @group colors
+$bpk-color-black-tint-03: rgb(58, 58, 60) !default;
+/// @group colors
+$bpk-color-black-tint-04: rgb(72, 72, 74) !default;
+/// @group colors
+$bpk-color-white: rgb(255, 255, 255) !default;
+/// @group colors
+$bpk-color-black-tint-05: rgb(99, 99, 102) !default;
+/// @group colors
+$bpk-color-black-tint-06: rgb(142, 142, 147) !default;
+/// @group colors
+$bpk-color-panjin: rgb(209, 67, 91) !default;
+/// @group colors
+$bpk-color-kolkata: rgb(255, 148, 0) !default;
+/// @group colors
+$bpk-color-glencoe: rgb(115, 206, 198) !default;
 /// @group colors
 $bpk-color-tochigi: rgb(225, 221, 236) !default;
 /// @group colors
-$bpk-color-valensole: rgb(165, 155, 200) !default;
+$bpk-color-petra: rgb(255, 171, 149) !default;
 /// @group colors
-$bpk-color-white: rgb(255, 255, 255) !default;
-/// @group core-colors
-$bpk-core-accent-day: rgb(7, 112, 227) !default;
-/// @group core-colors
-$bpk-core-accent-night: rgb(109, 159, 235) !default;
+$bpk-color-sky-blue: rgb(7, 112, 227) !default;
+/// @group colors
+$bpk-color-bagan: rgb(255, 235, 208) !default;
+/// @group colors
+$bpk-color-hillier: rgb(225, 139, 150) !default;
+/// @group colors
+$bpk-color-sky-blue-tint-01: rgb(109, 159, 235) !default;
+/// @group colors
+$bpk-color-sky-blue-tint-02: rgb(157, 192, 242) !default;
+/// @group colors
+$bpk-color-bunol: rgb(255, 123, 89) !default;
+/// @group colors
+$bpk-color-sky-blue-tint-03: rgb(205, 223, 248) !default;
+/// @group colors
+$bpk-color-sky-gray: rgb(17, 18, 54) !default;
+/// @group colors
+$bpk-color-nara: rgb(255, 231, 224) !default;
+/// @group colors
+$bpk-color-sky-blue-shade-01: rgb(8, 78, 178) !default;
+/// @group colors
+$bpk-color-sky-blue-shade-02: rgb(4, 39, 89) !default;
+/// @group canvas-colors
+$bpk-canvas-day: rgb(255, 255, 255) !default;
+/// @group canvas-colors
+$bpk-canvas-night: rgb(0, 0, 0) !default;
+/// @group canvas-colors
+$bpk-canvas-contrast-day: rgb(241, 242, 248) !default;
+/// @group canvas-colors
+$bpk-canvas-contrast-night: rgb(29, 27, 32) !default;
 /// @group core-colors
 $bpk-core-eco-day: rgb(15, 161, 169) !default;
 /// @group core-colors
 $bpk-core-eco-night: rgb(15, 161, 169) !default;
 /// @group core-colors
+$bpk-core-accent-day: rgb(7, 112, 227) !default;
+/// @group core-colors
+$bpk-core-accent-night: rgb(109, 159, 235) !default;
+/// @group core-colors
 $bpk-core-primary-day: rgb(2, 18, 44) !default;
 /// @group core-colors
 $bpk-core-primary-night: rgb(5, 65, 132) !default;
-/// @group colors
-$bpk-line-dark-color: rgb(72, 72, 74) !default;
-/// @group line-colors
-$bpk-line-day: rgb(205, 205, 215) !default;
-/// @group colors
-$bpk-line-light-color: rgb(205, 205, 215) !default;
-/// @group line-colors
-$bpk-line-night: rgb(72, 72, 74) !default;
-/// @group marcomms-colors
-$bpk-marcomms-berry: rgb(209, 67, 91) !default;
-/// @group marcomms-colors
-$bpk-marcomms-blue-bright: rgb(161, 238, 255) !default;
-/// @group marcomms-colors
-$bpk-marcomms-blue-muted: rgb(217, 248, 255) !default;
-/// @group marcomms-colors
-$bpk-marcomms-charcoal: rgb(17, 18, 54) !default;
-/// @group marcomms-colors
-$bpk-marcomms-dark-sky: rgb(2, 18, 44) !default;
-/// @group marcomms-colors
-$bpk-marcomms-eco-green: rgb(15, 161, 169) !default;
-/// @group marcomms-colors
-$bpk-marcomms-green-bright: rgb(147, 255, 222) !default;
-/// @group marcomms-colors
-$bpk-marcomms-green-muted: rgb(208, 238, 236) !default;
-/// @group marcomms-colors
-$bpk-marcomms-grey-40: rgb(104, 105, 127) !default;
-/// @group marcomms-colors
-$bpk-marcomms-orange: rgb(255, 123, 89) !default;
-/// @group marcomms-colors
-$bpk-marcomms-pink: rgb(255, 163, 229) !default;
-/// @group marcomms-colors
-$bpk-marcomms-pink-muted: rgb(246, 221, 225) !default;
-/// @group marcomms-colors
-$bpk-marcomms-purple: rgb(142, 71, 186) !default;
-/// @group marcomms-colors
-$bpk-marcomms-sky-blue: rgb(7, 112, 227) !default;
-/// @group marcomms-colors
-$bpk-marcomms-white: rgb(255, 255, 255) !default;
-/// @group marcomms-colors
-$bpk-marcomms-yellow: rgb(254, 235, 135) !default;
-/// @group marcomms-colors
-$bpk-marcomms-yellow-muted: rgb(255, 235, 208) !default;
-/// @group colors
-$bpk-primary-dark-color: rgb(109, 159, 235) !default;
-/// @group colors
-$bpk-primary-light-color: rgb(7, 112, 227) !default;
-/// @group scrim-colors
-$bpk-scrim-day: rgb(2, 18, 44) !default;
-/// @group scrim-colors
-$bpk-scrim-night: rgb(2, 18, 44) !default;
 /// @group status-colors
-$bpk-status-danger-fill-day: rgb(246, 221, 225) !default;
-/// @group status-colors
-$bpk-status-danger-fill-night: rgb(255, 202, 221) !default;
-/// @group status-colors
-$bpk-status-danger-spot-day: rgb(209, 67, 91) !default;
-/// @group status-colors
-$bpk-status-danger-spot-night: rgb(209, 67, 91) !default;
-/// @group status-colors
-$bpk-status-success-fill-day: rgb(208, 238, 236) !default;
+$bpk-status-success-spot-night: rgb(0, 166, 152) !default;
 /// @group status-colors
 $bpk-status-success-fill-night: rgb(177, 255, 231) !default;
 /// @group status-colors
 $bpk-status-success-spot-day: rgb(0, 166, 152) !default;
 /// @group status-colors
-$bpk-status-success-spot-night: rgb(0, 166, 152) !default;
+$bpk-status-success-fill-day: rgb(208, 238, 236) !default;
 /// @group status-colors
-$bpk-status-warning-fill-day: rgb(255, 235, 208) !default;
+$bpk-status-danger-spot-night: rgb(209, 67, 91) !default;
+/// @group status-colors
+$bpk-status-warning-spot-night: rgb(255, 181, 77) !default;
+/// @group status-colors
+$bpk-status-danger-fill-night: rgb(255, 202, 221) !default;
 /// @group status-colors
 $bpk-status-warning-fill-night: rgb(251, 241, 187) !default;
 /// @group status-colors
+$bpk-status-danger-spot-day: rgb(209, 67, 91) !default;
+/// @group status-colors
 $bpk-status-warning-spot-day: rgb(255, 148, 0) !default;
 /// @group status-colors
-$bpk-status-warning-spot-night: rgb(255, 181, 77) !default;
+$bpk-status-danger-fill-day: rgb(246, 221, 225) !default;
+/// @group status-colors
+$bpk-status-warning-fill-day: rgb(255, 235, 208) !default;
 /// @group surface-colors
 $bpk-surface-contrast-day: rgb(2, 18, 44) !default;
 /// @group surface-colors
@@ -280,50 +156,174 @@ $bpk-surface-highlight-day: rgb(221, 221, 229) !default;
 /// @group surface-colors
 $bpk-surface-highlight-night: rgb(44, 44, 46) !default;
 /// @group text-colors
-$bpk-text-disabled-day: rgb(178, 178, 191) !default;
-/// @group text-colors
-$bpk-text-disabled-night: rgb(142, 142, 147) !default;
-/// @group text-colors
-$bpk-text-error-day: rgb(209, 67, 91) !default;
-/// @group text-colors
-$bpk-text-error-night: rgb(209, 67, 91) !default;
-/// @group text-colors
-$bpk-text-link-day: rgb(7, 112, 227) !default;
-/// @group text-colors
-$bpk-text-link-night: rgb(109, 159, 235) !default;
-/// @group text-colors
 $bpk-text-on-dark-day: rgb(255, 255, 255) !default;
-/// @group text-colors
-$bpk-text-on-dark-night: rgb(255, 255, 255) !default;
-/// @group text-colors
-$bpk-text-on-light-day: rgb(17, 18, 54) !default;
 /// @group text-colors
 $bpk-text-on-light-night: rgb(17, 18, 54) !default;
 /// @group text-colors
+$bpk-text-on-light-day: rgb(17, 18, 54) !default;
+/// @group text-colors
+$bpk-text-link-night: rgb(109, 159, 235) !default;
+/// @group text-colors
+$bpk-text-disabled-night: rgb(142, 142, 147) !default;
+/// @group text-colors
 $bpk-text-primary-dark-color: rgb(255, 255, 255) !default;
 /// @group text-colors
-$bpk-text-primary-day: rgb(17, 18, 54) !default;
-/// @group text-colors
-$bpk-text-primary-inverse-day: rgb(255, 255, 255) !default;
-/// @group text-colors
-$bpk-text-primary-inverse-night: rgb(17, 18, 54) !default;
-/// @group text-colors
-$bpk-text-primary-light-color: rgb(17, 18, 54) !default;
-/// @group text-colors
-$bpk-text-primary-night: rgb(255, 255, 255) !default;
+$bpk-text-link-day: rgb(7, 112, 227) !default;
 /// @group text-colors
 $bpk-text-quaternary-dark-color: rgb(142, 142, 147) !default;
 /// @group text-colors
+$bpk-text-primary-night: rgb(255, 255, 255) !default;
+/// @group text-colors
 $bpk-text-quaternary-light-color: rgb(143, 144, 160) !default;
 /// @group text-colors
-$bpk-text-secondary-dark-color: rgb(178, 178, 191) !default;
+$bpk-text-disabled-day: rgb(178, 178, 191) !default;
 /// @group text-colors
-$bpk-text-secondary-day: rgb(104, 105, 127) !default;
+$bpk-text-primary-light-color: rgb(17, 18, 54) !default;
 /// @group text-colors
-$bpk-text-secondary-light-color: rgb(104, 105, 127) !default;
+$bpk-text-primary-day: rgb(17, 18, 54) !default;
 /// @group text-colors
-$bpk-text-secondary-night: rgb(178, 178, 191) !default;
+$bpk-text-error-night: rgb(209, 67, 91) !default;
+/// @group text-colors
+$bpk-text-error-day: rgb(209, 67, 91) !default;
 /// @group text-colors
 $bpk-text-tertiary-dark-color: rgb(142, 142, 147) !default;
 /// @group text-colors
+$bpk-text-secondary-dark-color: rgb(178, 178, 191) !default;
+/// @group text-colors
+$bpk-text-primary-inverse-night: rgb(17, 18, 54) !default;
+/// @group text-colors
+$bpk-text-secondary-night: rgb(178, 178, 191) !default;
+/// @group text-colors
+$bpk-text-on-dark-night: rgb(255, 255, 255) !default;
+/// @group text-colors
+$bpk-text-secondary-light-color: rgb(104, 105, 127) !default;
+/// @group text-colors
+$bpk-text-primary-inverse-day: rgb(255, 255, 255) !default;
+/// @group text-colors
 $bpk-text-tertiary-light-color: rgb(143, 144, 160) !default;
+/// @group text-colors
+$bpk-text-secondary-day: rgb(104, 105, 127) !default;
+/// @group scrim-colors
+$bpk-scrim-day: rgb(2, 18, 44) !default;
+/// @group text-colors
+$bpk-background-elevation-03-dark-color: rgb(58, 58, 60) !default;
+/// @group text-colors
+$bpk-background-elevation-02-dark-color: rgb(44, 44, 46) !default;
+/// @group colors
+$bpk-line-dark-color: rgb(72, 72, 74) !default;
+/// @group text-colors
+$bpk-background-elevation-01-dark-color: rgb(29, 27, 32) !default;
+/// @group colors
+$bpk-background-alternative-secondary-dark-color: rgb(29, 27, 32) !default;
+/// @group colors
+$bpk-background-light-color: rgb(255, 255, 255) !default;
+/// @group colors
+$bpk-background-dark-color: rgb(0, 0, 0) !default;
+/// @group colors
+$bpk-background-alternative-secondary-light-color: rgb(255, 255, 255) !default;
+/// @group line-colors
+$bpk-line-night: rgb(72, 72, 74) !default;
+/// @group colors
+$bpk-color-system-green: rgb(0, 166, 152) !default;
+/// @group text-colors
+$bpk-background-elevation-01-light-color: rgb(255, 255, 255) !default;
+/// @group colors
+$bpk-line-light-color: rgb(205, 205, 215) !default;
+/// @group text-colors
+$bpk-background-elevation-02-light-color: rgb(255, 255, 255) !default;
+/// @group line-colors
+$bpk-line-day: rgb(205, 205, 215) !default;
+/// @group text-colors
+$bpk-background-elevation-03-light-color: rgb(255, 255, 255) !default;
+/// @group colors
+$bpk-background-tertiary-dark-color: rgb(44, 44, 46) !default;
+/// @group colors
+$bpk-background-secondary-dark-color: rgb(29, 27, 32) !default;
+/// @group colors
+$bpk-background-alternative-light-color: rgb(241, 242, 248) !default;
+/// @group colors
+$bpk-primary-dark-color: rgb(109, 159, 235) !default;
+/// @group colors
+$bpk-color-system-red: rgb(209, 67, 91) !default;
+/// @group colors
+$bpk-background-alternative-dark-color: rgb(0, 0, 0) !default;
+/// @group colors
+$bpk-primary-light-color: rgb(7, 112, 227) !default;
+/// @group colors
+$bpk-background-tertiary-light-color: rgb(255, 255, 255) !default;
+/// @group colors
+$bpk-background-secondary-light-color: rgb(241, 242, 248) !default;
+/// @group scrim-colors
+$bpk-scrim-night: rgb(2, 18, 44) !default;
+/// @group marcomms-colors
+$bpk-marcomms-berry: rgb(209, 67, 91) !default;
+/// @group marcomms-colors
+$bpk-marcomms-charcoal: rgb(17, 18, 54) !default;
+/// @group marcomms-colors
+$bpk-marcomms-orange: rgb(255, 123, 89) !default;
+/// @group marcomms-colors
+$bpk-marcomms-grey-40: rgb(104, 105, 127) !default;
+/// @group marcomms-colors
+$bpk-marcomms-blue-bright: rgb(161, 238, 255) !default;
+/// @group marcomms-colors
+$bpk-marcomms-yellow: rgb(254, 235, 135) !default;
+/// @group marcomms-colors
+$bpk-marcomms-green-bright: rgb(147, 255, 222) !default;
+/// @group marcomms-colors
+$bpk-marcomms-pink: rgb(255, 163, 229) !default;
+/// @group marcomms-colors
+$bpk-marcomms-sky-blue: rgb(7, 112, 227) !default;
+/// @group marcomms-colors
+$bpk-marcomms-dark-sky: rgb(2, 18, 44) !default;
+/// @group marcomms-colors
+$bpk-marcomms-purple: rgb(142, 71, 186) !default;
+/// @group marcomms-colors
+$bpk-marcomms-white: rgb(255, 255, 255) !default;
+/// @group marcomms-colors
+$bpk-marcomms-yellow-muted: rgb(255, 235, 208) !default;
+/// @group marcomms-colors
+$bpk-marcomms-pink-muted: rgb(246, 221, 225) !default;
+/// @group marcomms-colors
+$bpk-marcomms-green-muted: rgb(208, 238, 236) !default;
+/// @group marcomms-colors
+$bpk-marcomms-blue-muted: rgb(217, 248, 255) !default;
+/// @group marcomms-colors
+$bpk-marcomms-eco-green: rgb(15, 161, 169) !default;
+/// @group breakpoints
+$bpk-breakpoint-query-tablet-only: "(min-width: 32.0625rem) and (max-width: 64rem)" !default;
+/// @group breakpoints
+$bpk-breakpoint-small-tablet-margin: 1.5rem !default;
+/// @group breakpoints
+$bpk-breakpoint-query-small-tablet: "(max-width: 48rem)" !default;
+/// @group breakpoints
+$bpk-breakpoint-small-mobile-margin: 1rem !default;
+/// @group breakpoints
+$bpk-breakpoint-query-mobile: "(max-width: 32rem)" !default;
+/// @group breakpoints
+$bpk-breakpoint-query-small-tablet-only: "(min-width: 32.0625rem) and (max-width: 48rem)" !default;
+/// @group breakpoints
+$bpk-breakpoint-small-mobile: 22.4375rem !default;
+/// @group breakpoints
+$bpk-breakpoint-query-above-mobile: "(min-width: 32.0625rem)" !default;
+/// @group breakpoints
+$bpk-breakpoint-query-tablet: "(max-width: 64rem)" !default;
+/// @group breakpoints
+$bpk-breakpoint-small-tablet: 48rem !default;
+/// @group breakpoints
+$bpk-breakpoint-query-above-tablet: "(min-width: 64.0625rem)" !default;
+/// @group breakpoints
+$bpk-breakpoint-desktop: 80rem !default;
+/// @group breakpoints
+$bpk-breakpoint-mobile: 32rem !default;
+/// @group breakpoints
+$bpk-breakpoint-tablet: 64rem !default;
+/// @group breakpoints
+$bpk-breakpoint-query-above-desktop: "(min-width: 80.0625rem)" !default;
+/// @group breakpoints
+$bpk-breakpoint-tablet-margin: 2rem !default;
+/// @group breakpoints
+$bpk-breakpoint-mobile-margin: 1.5rem !default;
+/// @group breakpoints
+$bpk-breakpoint-query-small-mobile: "(max-width: 22.4375rem)" !default;
+/// @group breakpoints
+$bpk-breakpoint-desktop-margin: 1rem * 3 !default;

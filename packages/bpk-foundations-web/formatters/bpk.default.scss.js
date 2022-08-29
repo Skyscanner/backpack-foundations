@@ -18,7 +18,6 @@
 
 import _ from 'lodash';
 
-import sortTokens from '../../../utils/formatters/sort-tokens';
 import { blockComment } from '../../../utils/formatters/license-header';
 
 import { sassDocTemplate, nameTemplate, valueTemplate } from './bpk.scss';
@@ -41,7 +40,7 @@ export const template = ({ category, name, value, type }) =>
   })}`;
 
 export default (result) => {
-  const { props } = sortTokens(result.toJS());
+  const { props } = result.toJS();
 
   return [blockComment, _.map(props, (prop) => template(prop)).join('\n')].join(
     '\n',
