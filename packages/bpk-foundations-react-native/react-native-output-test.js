@@ -71,6 +71,6 @@ describe('React Native output', () => {
       ...ANDROID_ONLY_PROPS,
     );
     const iosCommonProps = _(iosTokens.propKeys).without(...IOS_ONLY_PROPS);
-    expect(androidCommonProps).toEqual(iosCommonProps);
+    expect(androidCommonProps.sort()).toEqual(iosCommonProps.sort());
   });
 });

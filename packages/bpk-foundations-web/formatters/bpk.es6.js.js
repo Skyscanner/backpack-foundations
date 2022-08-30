@@ -18,7 +18,6 @@
 
 import _ from 'lodash';
 
-import sortTokens from '../../../utils/formatters/sort-tokens';
 import { blockComment } from '../../../utils/formatters/license-header';
 
 export const tokenTemplate = ({ name, value, type }) => {
@@ -35,7 +34,7 @@ ${_.map(props, (prop) => `${_.camelCase(prop.name)},`).join('\n')}
 };`;
 
 export default (result) => {
-  const { props } = sortTokens(result.toJS());
+  const { props } = result.toJS();
 
   const categories = _(props)
     .map((prop) => prop.category)

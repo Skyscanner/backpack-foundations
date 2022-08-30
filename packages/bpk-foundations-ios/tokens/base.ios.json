@@ -1,504 +1,1021 @@
 {
   "properties": [
     {
-      "type": "duration",
-      "value": "400ms",
-      "category": "animations",
-      "originalValue": "{!ANIMATION_DURATION_BASE}",
-      "name": "animationDurationBase"
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHeading4FontWeight"
     },
     {
-      "type": "duration",
-      "value": "200ms",
-      "category": "animations",
-      "originalValue": "{!ANIMATION_DURATION_SM}",
-      "name": "animationDurationSm"
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHeading5FontWeight"
     },
     {
-      "type": "duration",
-      "value": "50ms",
-      "category": "animations",
-      "originalValue": "{!ANIMATION_DURATION_XS}",
-      "name": "animationDurationXs"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#000000ff",
-      "deprecated": true,
-      "originalValue": "{!BLACK}",
-      "name": "backgroundAlternativeDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f1f2f8ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_07}",
-      "name": "backgroundAlternativeLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#1d1b20ff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_01}",
-      "name": "backgroundAlternativeSecondaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundAlternativeSecondaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#000000ff",
-      "deprecated": true,
-      "originalValue": "{!BLACK}",
-      "name": "backgroundDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#1d1b20ff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_01}",
-      "name": "backgroundElevation01DarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation01LightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#2c2c2eff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_02}",
-      "name": "backgroundElevation02DarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation02LightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#3a3a3cff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_03}",
-      "name": "backgroundElevation03DarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation03LightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#1d1b20ff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_01}",
-      "name": "backgroundSecondaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f1f2f8ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_07}",
-      "name": "backgroundSecondaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#2c2c2eff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_02}",
-      "name": "backgroundTertiaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundTertiaryLightColor"
-    },
-    {
+      "value": "48",
       "type": "size",
-      "value": "24",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_LG}",
-      "name": "borderRadiusLg"
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXL}",
+      "name": "lineHeightXxxl"
     },
     {
-      "type": "size",
-      "value": "12",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_MD}",
-      "name": "borderRadiusMd"
-    },
-    {
-      "type": "size",
-      "value": "40",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL}",
-      "name": "borderRadiusPill"
-    },
-    {
-      "type": "size",
-      "value": "8",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_SM}",
-      "name": "borderRadiusSm"
-    },
-    {
-      "type": "size",
-      "value": "4",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_XS}",
-      "name": "borderRadiusXs"
-    },
-    {
-      "type": "size",
-      "value": "2",
-      "category": "borders",
-      "originalValue": "{!BORDER_SIZE_LG}",
-      "name": "borderSizeLg"
-    },
-    {
-      "type": "size",
-      "value": "1",
-      "category": "borders",
-      "originalValue": "{!BORDER_SIZE_SM}",
-      "name": "borderSizeSm"
-    },
-    {
-      "type": "size",
-      "value": "3",
-      "category": "borders",
-      "originalValue": "{!BORDER_SIZE_XL}",
-      "name": "borderSizeXl"
-    },
-    {
-      "type": "size",
-      "value": "2",
-      "category": "borders",
-      "originalValue": "{!BORDER_SIZE_LG}",
-      "name": "borderWidthLg"
-    },
-    {
-      "type": "size",
-      "value": "1",
-      "category": "borders",
-      "originalValue": "{!BORDER_SIZE_SM}",
-      "name": "borderWidthSm"
-    },
-    {
-      "type": "size",
-      "value": "3",
-      "category": "borders",
-      "originalValue": "{!BORDER_SIZE_XL}",
-      "name": "borderWidthXl"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "2",
-      "originalValue": "{!BORDER_SIZE_LG}",
-      "name": "buttonBorderWidth"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
       "value": "32",
-      "originalValue": "{!SPACING_XL}",
-      "name": "buttonHeight"
-    },
-    {
       "type": "size",
-      "category": "spacings",
-      "value": "4 * 12",
-      "originalValue": "{!SPACING_SM} * 12",
-      "name": "buttonLineHeightLarge"
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XL}",
+      "name": "lineHeightXl"
     },
     {
+      "value": "24",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "fontSizeXl"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textBodyLongformFontWeight"
+    },
+    {
+      "value": "120",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_8XL}",
+      "name": "textHero1FontSize"
+    },
+    {
+      "value": "40",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "fontSizeXxxl"
+    },
+    {
+      "value": "120",
       "type": "size",
-      "category": "spacings",
-      "value": "4 * 3",
-      "originalValue": "{!SPACING_SM} * 3",
-      "name": "buttonPaddingHorizontal"
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_8XL}",
+      "name": "textHero1LineHeight"
     },
     {
+      "value": "96",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_7XL}",
+      "name": "textHero2FontSize"
+    },
+    {
+      "value": "76",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_6XL}",
+      "name": "textHero3FontSize"
+    },
+    {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "textFootnoteFontSize"
+    },
+    {
+      "value": "96",
       "type": "size",
-      "category": "spacings",
-      "value": "8",
-      "originalValue": "{!SPACING_MD}",
-      "name": "buttonPaddingVertical"
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_7XL}",
+      "name": "textHero2LineHeight"
     },
     {
-      "type": "color",
-      "category": "canvas-colors",
-      "value": "#f1f2f8ff",
-      "originalValue": "{!GREY_10}",
-      "name": "canvasContrastDay"
-    },
-    {
-      "type": "color",
-      "category": "canvas-colors",
-      "value": "#1d1b20ff",
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "canvasContrastNight"
-    },
-    {
-      "type": "color",
-      "category": "canvas-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "canvasDay"
-    },
-    {
-      "type": "color",
-      "category": "canvas-colors",
-      "value": "#000000ff",
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "canvasNight"
-    },
-    {
+      "value": "84",
       "type": "size",
-      "category": "carousel-indicator-dots",
-      "value": "6",
-      "originalValue": "{!CAROUSEL_INDICATOR_DOT_SIZE_BASE}",
-      "name": "carouselIndicatorDotSizeBase"
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_6XL}",
+      "name": "textHero3LineHeight"
     },
     {
+      "value": "64",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_5XL}",
+      "name": "textHero4FontSize"
+    },
+    {
+      "value": "20",
       "type": "size",
-      "category": "carousel-indicator-dots",
-      "value": "4",
-      "originalValue": "{!CAROUSEL_INDICATOR_DOT_SIZE_MD}",
-      "name": "carouselIndicatorDotSizeMd"
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "textFootnoteLineHeight"
     },
     {
+      "value": "72",
       "type": "size",
-      "category": "carousel-indicator-dots",
-      "value": "2",
-      "originalValue": "{!CAROUSEL_INDICATOR_DOT_SIZE_SM}",
-      "name": "carouselIndicatorDotSizeSm"
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_5XL}",
+      "name": "textHero4LineHeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#5a489bff",
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "textCaptionFontSize"
+    },
+    {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "textSubheadingFontSize"
+    },
+    {
+      "value": "48",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXXL}",
+      "name": "textHero5FontSize"
+    },
+    {
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "textHeading1FontSize"
+    },
+    {
+      "value": "32",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "textHeading2FontSize"
+    },
+    {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textCaptionLineHeight"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "lineHeightSm"
+    },
+    {
+      "value": "32",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XL}",
+      "name": "textSubheadingLineHeight"
+    },
+    {
+      "value": "48",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXL}",
+      "name": "textHeading1LineHeight"
+    },
+    {
+      "value": "56",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "textHero5LineHeight"
+    },
+    {
+      "value": "40",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXL}",
+      "name": "textHeading2LineHeight"
+    },
+    {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG}",
+      "name": "lineHeightLg"
+    },
+    {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "lineHeightXs"
+    },
+    {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "textHeading3FontSize"
+    },
+    {
+      "value": "14",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "fontSizeSm"
+    },
+    {
+      "value": "12",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "fontSizeXs"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "letterSpacingTight"
+    },
+    {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "textHeading4FontSize"
+    },
+    {
+      "value": "20",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "fontSizeLg"
+    },
+    {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
+      "name": "textHeading3LineHeight"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textHeading5FontSize"
+    },
+    {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
+      "name": "textHeading4LineHeight"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "name": "textHeading5LineHeight"
+    },
+    {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "textBodyLongformFontSize"
+    },
+    {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG}",
+      "name": "textBodyLongformLineHeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textLabel1FontWeight"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "name": "lineHeightBaseTight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textLabel2FontWeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textLabel3FontWeight"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textBodyDefaultFontWeight"
+    },
+    {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
+      "name": "lineHeightXlTight"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero5LetterSpacing"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero4LetterSpacing"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero3LetterSpacing"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero2LetterSpacing"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textLabel1FontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero1FontWeight"
+    },
+    {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "textLabel2FontSize"
+    },
+    {
+      "value": "-0.02",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_TIGHT}",
+      "name": "textHero1LetterSpacing"
+    },
+    {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE}",
+      "name": "textLabel1LineHeight"
+    },
+    {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
+      "name": "lineHeightLgTight"
+    },
+    {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "textLabel3FontSize"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textBodyDefaultFontSize"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "textLabel2LineHeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero2FontWeight"
+    },
+    {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textLabel3LineHeight"
+    },
+    {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE}",
+      "name": "textBodyDefaultLineHeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero3FontWeight"
+    },
+    {
+      "value": "64",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_5XL}",
+      "name": "fontSize5Xl"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textFootnoteFontWeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero4FontWeight"
+    },
+    {
+      "value": "76",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_6XL}",
+      "name": "fontSize6Xl"
+    },
+    {
+      "value": "72",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_5XL}",
+      "name": "lineHeight5Xl"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textCaptionFontWeight"
+    },
+    {
+      "value": "96",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_7XL}",
+      "name": "fontSize7Xl"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textSubheadingFontWeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHero5FontWeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHeading1FontWeight"
+    },
+    {
+      "value": "84",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_6XL}",
+      "name": "lineHeight6Xl"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHeading2FontWeight"
+    },
+    {
+      "value": "120",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_8XL}",
+      "name": "fontSize8Xl"
+    },
+    {
+      "value": "32",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "fontSizeXxl"
+    },
+    {
+      "value": "48",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_XXXXL}",
+      "name": "fontSizeXxxxl"
+    },
+    {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE}",
+      "name": "lineHeightBase"
+    },
+    {
+      "value": "96",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_7XL}",
+      "name": "lineHeight7Xl"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textHeading3FontWeight"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "fontSizeBase"
+    },
+    {
+      "value": "120",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_8XL}",
+      "name": "lineHeight8Xl"
+    },
+    {
+      "value": "40",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXL}",
+      "name": "lineHeightXxl"
+    },
+    {
+      "value": "56",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "lineHeightXxxxl"
+    },
+    {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
       "deprecated": true,
-      "originalValue": "{!ABISKO}",
-      "name": "colorAbisko"
+      "originalValue": "{!LINE_HEIGHT_LG}",
+      "name": "textLgLineHeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffebd0ff",
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
       "deprecated": true,
-      "originalValue": "{!BAGAN}",
-      "name": "colorBagan"
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textXsLineHeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#000000ff",
-      "originalValue": "{!BLACK}",
-      "name": "colorBlack"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#1d1b20ff",
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!BLACK_TINT_01}",
-      "name": "colorBlackTint01"
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textXxlFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#2c2c2eff",
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!BLACK_TINT_02}",
-      "name": "colorBlackTint02"
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textCapsEmphasizedFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#3a3a3cff",
+      "value": "10",
+      "type": "font-size",
+      "category": "font-sizes",
       "deprecated": true,
-      "originalValue": "{!BLACK_TINT_03}",
-      "name": "colorBlackTint03"
+      "originalValue": "{!FONT_SIZE_CAPS}",
+      "name": "textCapsFontSize"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#48484aff",
+      "value": "32",
+      "type": "font-size",
+      "category": "font-sizes",
       "deprecated": true,
-      "originalValue": "{!BLACK_TINT_04}",
-      "name": "colorBlackTint04"
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "textXxlHeavyFontSize"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#636366ff",
+      "value": "32",
+      "type": "font-size",
+      "category": "font-sizes",
       "deprecated": true,
-      "originalValue": "{!BLACK_TINT_05}",
-      "name": "colorBlackTint05"
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "textXxlEmphasizedFontSize"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#8e8e93ff",
+      "value": "40",
+      "type": "size",
+      "category": "typesettings",
       "deprecated": true,
-      "originalValue": "{!BLACK_TINT_06}",
-      "name": "colorBlackTint06"
+      "originalValue": "{!LINE_HEIGHT_XXL}",
+      "name": "textXxlEmphasizedLineHeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#ff7b59ff",
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!BUNOL}",
-      "name": "colorBunol"
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "textXxxlHeavyFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffb54dff",
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!ERFOUD}",
-      "name": "colorErfoud"
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "textXlHeavyFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#73cec6ff",
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!GLENCOE}",
-      "name": "colorGlencoe"
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textLgEmphasizedFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#f6dde1ff",
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!HARBOUR}",
-      "name": "colorHarbour"
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textXsEmphasizedFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#e18b96ff",
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!HILLIER}",
-      "name": "colorHillier"
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textBaseFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#ff9400ff",
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!KOLKATA}",
-      "name": "colorKolkata"
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textSmEmphasizedFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#00a698ff",
+      "value": "32",
+      "type": "font-size",
+      "category": "font-sizes",
       "deprecated": true,
-      "originalValue": "{!MONTEVERDE}",
-      "name": "colorMonteverde"
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "textXxlFontSize"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffe7e0ff",
+      "value": "10",
+      "type": "font-size",
+      "category": "font-sizes",
       "deprecated": true,
-      "originalValue": "{!NARA}",
-      "name": "colorNara"
+      "originalValue": "{!FONT_SIZE_CAPS}",
+      "name": "textCapsEmphasizedFontSize"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#d1435bff",
+      "value": "10",
+      "type": "font-size",
+      "category": "typesettings",
       "deprecated": true,
-      "originalValue": "{!PANJIN}",
-      "name": "colorPanjin"
+      "originalValue": "{!FONT_SIZE_CAPS}",
+      "name": "fontSizeCaps"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffab95ff",
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!PETRA}",
-      "name": "colorPetra"
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textXlFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#0770e3ff",
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "colorPrimaryGradientLight"
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textXxxlFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#d0eeecff",
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!SAGANO}",
-      "name": "colorSagano"
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textXxxlEmphasizedFontWeight"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#0770e3ff",
-      "originalValue": "{!SKY_BLUE}",
-      "name": "colorSkyBlue"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#084eb2ff",
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
       "deprecated": true,
-      "originalValue": "{!SKY_BLUE_SHADE_01}",
-      "name": "colorSkyBlueShade01"
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "textXxxlHeavyFontSize"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#042759ff",
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
       "deprecated": true,
-      "originalValue": "{!SKY_BLUE_SHADE_02}",
-      "name": "colorSkyBlueShade02"
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textXlEmphasizedFontWeight"
+    },
+    {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "textXlHeavyFontSize"
+    },
+    {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "textXsEmphasizedFontSize"
+    },
+    {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "textLgEmphasizedFontSize"
+    },
+    {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
+      "name": "textLgEmphasizedLineHeight"
+    },
+    {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textXsEmphasizedLineHeight"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textSmFontWeight"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textBaseFontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textBaseEmphasizedFontWeight"
+    },
+    {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "textSmEmphasizedFontSize"
+    },
+    {
+      "value": "24",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_BASE}",
+      "name": "textBaseLineHeight"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "textSmEmphasizedLineHeight"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textLgFontWeight"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textXsFontWeight"
+    },
+    {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "textXlFontSize"
+    },
+    {
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "textXxxlFontSize"
+    },
+    {
+      "value": "32",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_XL}",
+      "name": "textXlLineHeight"
+    },
+    {
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "textXxxlEmphasizedFontSize"
+    },
+    {
+      "value": "24",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_XL}",
+      "name": "textXlEmphasizedFontSize"
+    },
+    {
+      "value": "48",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_XXXL}",
+      "name": "textXxxlEmphasizedLineHeight"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textCapsFontWeight"
+    },
+    {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
+      "name": "textXlEmphasizedLineHeight"
+    },
+    {
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "textXxlHeavyFontWeight"
+    },
+    {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "textSmFontSize"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textBaseEmphasizedFontSize"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textXxlEmphasizedFontWeight"
+    },
+    {
+      "value": "20",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_LG}",
+      "name": "textLgFontSize"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "textSmLineHeight"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "name": "textBaseEmphasizedLineHeight"
+    },
+    {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "textXsFontSize"
     },
     {
       "type": "color",
@@ -511,34 +1028,34 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#6d9febff",
+      "value": "#0770e3ff",
       "deprecated": true,
-      "originalValue": "{!SKY_BLUE_TINT_01}",
-      "name": "colorSkyBlueTint01"
+      "originalValue": "{!SKY_BLUE}",
+      "name": "colorPrimaryGradientLight"
     },
     {
       "type": "color",
       "category": "colors",
-      "value": "#9dc0f2ff",
+      "value": "#ffb54dff",
       "deprecated": true,
-      "originalValue": "{!SKY_BLUE_TINT_02}",
-      "name": "colorSkyBlueTint02"
+      "originalValue": "{!ERFOUD}",
+      "name": "colorErfoud"
     },
     {
       "type": "color",
       "category": "colors",
-      "value": "#cddff8ff",
+      "value": "#a59bc8ff",
       "deprecated": true,
-      "originalValue": "{!SKY_BLUE_TINT_03}",
-      "name": "colorSkyBlueTint03"
+      "originalValue": "{!VALENSOLE}",
+      "name": "colorValensole"
     },
     {
       "type": "color",
       "category": "colors",
-      "value": "#111236ff",
+      "value": "#00a698ff",
       "deprecated": true,
-      "originalValue": "{!SKY_GRAY}",
-      "name": "colorSkyGray"
+      "originalValue": "{!MONTEVERDE}",
+      "name": "colorMonteverde"
     },
     {
       "type": "color",
@@ -551,10 +1068,25 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#000000ff",
+      "originalValue": "{!BLACK}",
+      "name": "colorBlack"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#68697fff",
       "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "colorSkyGrayTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d0eeecff",
+      "deprecated": true,
+      "originalValue": "{!SAGANO}",
+      "name": "colorSagano"
     },
     {
       "type": "color",
@@ -575,6 +1107,14 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#f6dde1ff",
+      "deprecated": true,
+      "originalValue": "{!HARBOUR}",
+      "name": "colorHarbour"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#cdcdd7ff",
       "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_05}",
@@ -591,6 +1131,14 @@
     {
       "type": "color",
       "category": "colors",
+      "value": "#1d1b20ff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_01}",
+      "name": "colorBlackTint01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#f1f2f8ff",
       "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
@@ -599,10 +1147,57 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#00a698ff",
+      "value": "#2c2c2eff",
       "deprecated": true,
-      "originalValue": "{!MONTEVERDE}",
-      "name": "colorSystemGreen"
+      "originalValue": "{!BLACK_TINT_02}",
+      "name": "colorBlackTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#5a489bff",
+      "deprecated": true,
+      "originalValue": "{!ABISKO}",
+      "name": "colorAbisko"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#3a3a3cff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_03}",
+      "name": "colorBlackTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#48484aff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_04}",
+      "name": "colorBlackTint04"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "colorWhite"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#636366ff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_05}",
+      "name": "colorBlackTint05"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#8e8e93ff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_06}",
+      "name": "colorBlackTint06"
     },
     {
       "type": "color",
@@ -610,7 +1205,23 @@
       "value": "#d1435bff",
       "deprecated": true,
       "originalValue": "{!PANJIN}",
-      "name": "colorSystemRed"
+      "name": "colorPanjin"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ff9400ff",
+      "deprecated": true,
+      "originalValue": "{!KOLKATA}",
+      "name": "colorKolkata"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#73cec6ff",
+      "deprecated": true,
+      "originalValue": "{!GLENCOE}",
+      "name": "colorGlencoe"
     },
     {
       "type": "color",
@@ -623,31 +1234,125 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#a59bc8ff",
+      "value": "#ffab95ff",
       "deprecated": true,
-      "originalValue": "{!VALENSOLE}",
-      "name": "colorValensole"
+      "originalValue": "{!PETRA}",
+      "name": "colorPetra"
     },
     {
       "type": "color",
       "category": "colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "colorWhite"
-    },
-    {
-      "type": "color",
-      "category": "core-colors",
       "value": "#0770e3ff",
       "originalValue": "{!SKY_BLUE}",
-      "name": "coreAccentDay"
+      "name": "colorSkyBlue"
     },
     {
       "type": "color",
-      "category": "core-colors",
+      "category": "colors",
+      "value": "#ffebd0ff",
+      "deprecated": true,
+      "originalValue": "{!BAGAN}",
+      "name": "colorBagan"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#e18b96ff",
+      "deprecated": true,
+      "originalValue": "{!HILLIER}",
+      "name": "colorHillier"
+    },
+    {
+      "type": "color",
+      "category": "colors",
       "value": "#6d9febff",
-      "originalValue": "{!NIGHT_BLUE}",
-      "name": "coreAccentNight"
+      "deprecated": true,
+      "originalValue": "{!SKY_BLUE_TINT_01}",
+      "name": "colorSkyBlueTint01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#9dc0f2ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_BLUE_TINT_02}",
+      "name": "colorSkyBlueTint02"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ff7b59ff",
+      "deprecated": true,
+      "originalValue": "{!BUNOL}",
+      "name": "colorBunol"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cddff8ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_BLUE_TINT_03}",
+      "name": "colorSkyBlueTint03"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#111236ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY}",
+      "name": "colorSkyGray"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffe7e0ff",
+      "deprecated": true,
+      "originalValue": "{!NARA}",
+      "name": "colorNara"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#084eb2ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_BLUE_SHADE_01}",
+      "name": "colorSkyBlueShade01"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#042759ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_BLUE_SHADE_02}",
+      "name": "colorSkyBlueShade02"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "canvasDay"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#000000ff",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "canvasNight"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#f1f2f8ff",
+      "originalValue": "{!GREY_10}",
+      "name": "canvasContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "canvas-colors",
+      "value": "#1d1b20ff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "canvasContrastNight"
     },
     {
       "type": "color",
@@ -666,6 +1371,20 @@
     {
       "type": "color",
       "category": "core-colors",
+      "value": "#0770e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "coreAccentDay"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
+      "value": "#6d9febff",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "coreAccentNight"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
       "value": "#02122cff",
       "originalValue": "{!DARK_SKY}",
       "name": "corePrimaryDay"
@@ -678,646 +1397,11 @@
       "name": "corePrimaryNight"
     },
     {
-      "type": "size",
-      "value": "24",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_LG}",
-      "name": "cornerRadiusLg"
-    },
-    {
-      "type": "size",
-      "value": "12",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_MD}",
-      "name": "cornerRadiusMd"
-    },
-    {
-      "type": "size",
-      "value": "40",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL}",
-      "name": "cornerRadiusPill"
-    },
-    {
-      "type": "size",
-      "value": "8",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_SM}",
-      "name": "cornerRadiusSm"
-    },
-    {
-      "type": "size",
-      "value": "4",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_XS}",
-      "name": "cornerRadiusXs"
-    },
-    {
-      "value": "\"System\"",
-      "type": "font",
-      "category": "typesettings",
-      "originalValue": "{!FONT_FAMILY}",
-      "name": "fontFamily"
-    },
-    {
-      "value": "64",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_5XL}",
-      "name": "fontSize5Xl"
-    },
-    {
-      "value": "76",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_6XL}",
-      "name": "fontSize6Xl"
-    },
-    {
-      "value": "96",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_7XL}",
-      "name": "fontSize7Xl"
-    },
-    {
-      "value": "120",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_8XL}",
-      "name": "fontSize8Xl"
-    },
-    {
-      "value": "16",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_BASE}",
-      "name": "fontSizeBase"
-    },
-    {
-      "value": "10",
-      "type": "font-size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_CAPS}",
-      "name": "fontSizeCaps"
-    },
-    {
-      "value": "20",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_LG}",
-      "name": "fontSizeLg"
-    },
-    {
-      "value": "14",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_SM}",
-      "name": "fontSizeSm"
-    },
-    {
-      "value": "24",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_XL}",
-      "name": "fontSizeXl"
-    },
-    {
-      "value": "12",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_XS}",
-      "name": "fontSizeXs"
-    },
-    {
-      "value": "32",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_XXL}",
-      "name": "fontSizeXxl"
-    },
-    {
-      "value": "40",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_XXXL}",
-      "name": "fontSizeXxxl"
-    },
-    {
-      "value": "48",
-      "type": "font-size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_SIZE_XXXXL}",
-      "name": "fontSizeXxxxl"
-    },
-    {
-      "value": 0.12,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_BASE}",
-      "name": "letterSpacingBase"
-    },
-    {
-      "value": 0.28,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_CAPS}",
-      "name": "letterSpacingCaps"
-    },
-    {
-      "value": null,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_LG}",
-      "name": "letterSpacingLg"
-    },
-    {
-      "value": 0.154,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_SM}",
-      "name": "letterSpacingSm"
-    },
-    {
-      "value": "-0.02",
-      "type": "letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_TIGHT}",
-      "name": "letterSpacingTight"
-    },
-    {
-      "value": null,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_XL}",
-      "name": "letterSpacingXl"
-    },
-    {
-      "value": 0,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_XS}",
-      "name": "letterSpacingXs"
-    },
-    {
-      "value": null,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_XXL}",
-      "name": "letterSpacingXxl"
-    },
-    {
-      "value": null,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_XXXL}",
-      "name": "letterSpacingXxxl"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#48484aff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_04}",
-      "name": "lineDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "line-colors",
-      "value": "#cdcdd7ff",
-      "originalValue": "{!GREY_30}",
-      "name": "lineDay"
-    },
-    {
-      "value": "72",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_5XL}",
-      "name": "lineHeight5Xl"
-    },
-    {
-      "value": "84",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_6XL}",
-      "name": "lineHeight6Xl"
-    },
-    {
-      "value": "96",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_7XL}",
-      "name": "lineHeight7Xl"
-    },
-    {
-      "value": "120",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_8XL}",
-      "name": "lineHeight8Xl"
-    },
-    {
-      "value": "24",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_BASE}",
-      "name": "lineHeightBase"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
-      "name": "lineHeightBaseTight"
-    },
-    {
-      "value": "28",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_LG}",
-      "name": "lineHeightLg"
-    },
-    {
-      "value": "24",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
-      "name": "lineHeightLgTight"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_SM}",
-      "name": "lineHeightSm"
-    },
-    {
-      "value": "32",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XL}",
-      "name": "lineHeightXl"
-    },
-    {
-      "value": "28",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
-      "name": "lineHeightXlTight"
-    },
-    {
-      "value": "16",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XS}",
-      "name": "lineHeightXs"
-    },
-    {
-      "value": "40",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XXL}",
-      "name": "lineHeightXxl"
-    },
-    {
-      "value": "48",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XXXL}",
-      "name": "lineHeightXxxl"
-    },
-    {
-      "value": "56",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XXXXL}",
-      "name": "lineHeightXxxxl"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#cdcdd7ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_05}",
-      "name": "lineLightColor"
-    },
-    {
-      "type": "color",
-      "category": "line-colors",
-      "value": "#48484aff",
-      "originalValue": "{!NIGHT_GREY_30}",
-      "name": "lineNight"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#d1435bff",
-      "originalValue": "#D1435B",
-      "name": "marcommsBerry"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#a1eeffff",
-      "originalValue": "#A1EEFF",
-      "name": "marcommsBlueBright"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#d9f8ffff",
-      "originalValue": "#D9F8FF",
-      "name": "marcommsBlueMuted"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#111236ff",
-      "originalValue": "#111236",
-      "name": "marcommsCharcoal"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#02122cff",
-      "originalValue": "#02122C",
-      "name": "marcommsDarkSky"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#0fa1a9ff",
-      "originalValue": "#0FA1A9",
-      "name": "marcommsEcoGreen"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#93ffdeff",
-      "originalValue": "#93FFDE",
-      "name": "marcommsGreenBright"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#d0eeecff",
-      "originalValue": "#D0EEEC",
-      "name": "marcommsGreenMuted"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#68697fff",
-      "originalValue": "#68697F",
-      "name": "marcommsGrey40"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#ff7b59ff",
-      "originalValue": "#FF7B59",
-      "name": "marcommsOrange"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#ffa3e5ff",
-      "originalValue": "#FFA3E5",
-      "name": "marcommsPink"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#f6dde1ff",
-      "originalValue": "#F6DDE1",
-      "name": "marcommsPinkMuted"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#8e47baff",
-      "originalValue": "#8E47BA",
-      "name": "marcommsPurple"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#0770e3ff",
-      "originalValue": "#0770e3",
-      "name": "marcommsSkyBlue"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#ffffffff",
-      "originalValue": "#ffffff",
-      "name": "marcommsWhite"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#feeb87ff",
-      "originalValue": "#FEEB87",
-      "name": "marcommsYellow"
-    },
-    {
-      "type": "color",
-      "category": "marcomms-colors",
-      "value": "#ffebd0ff",
-      "originalValue": "#FFEBD0",
-      "name": "marcommsYellowMuted"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#6d9febff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE_TINT_01}",
-      "name": "primaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0770e3ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "primaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "scrim-colors",
-      "value": "#02122cff",
-      "originalValue": "{!BLACK_ALPHA_70}",
-      "name": "scrimDay"
-    },
-    {
-      "type": "color",
-      "category": "scrim-colors",
-      "value": "#02122cff",
-      "originalValue": "{!BLACK_ALPHA_70}",
-      "name": "scrimNight"
-    },
-    {
-      "value": "#111236ff",
-      "type": "color",
-      "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "shadowLgColor"
-    },
-    {
-      "value": 4,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 4,
-      "name": "shadowLgOffsetHeight"
-    },
-    {
-      "value": 0,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 0,
-      "name": "shadowLgOffsetWidth"
-    },
-    {
-      "value": 0.15,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 0.15,
-      "name": "shadowLgOpacity"
-    },
-    {
-      "value": 16,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 16,
-      "name": "shadowLgRadius"
-    },
-    {
-      "value": "#111236ff",
-      "type": "color",
-      "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "shadowSmColor"
-    },
-    {
-      "value": 1,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 1,
-      "name": "shadowSmOffsetHeight"
-    },
-    {
-      "value": 0,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 0,
-      "name": "shadowSmOffsetWidth"
-    },
-    {
-      "value": 0.15,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 0.15,
-      "name": "shadowSmOpacity"
-    },
-    {
-      "value": 3,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 3,
-      "name": "shadowSmRadius"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "16",
-      "originalValue": "{!SPACING_BASE}",
-      "name": "spacingBase"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "8",
-      "originalValue": "{!SPACING_MD}",
-      "name": "spacingIconText"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "24",
-      "originalValue": "{!SPACING_LG}",
-      "name": "spacingLg"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "8",
-      "originalValue": "{!SPACING_MD}",
-      "name": "spacingMd"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "0",
-      "originalValue": "{!SPACING_NONE}",
-      "name": "spacingNone"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "4",
-      "originalValue": "{!SPACING_SM}",
-      "name": "spacingSm"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "32",
-      "originalValue": "{!SPACING_XL}",
-      "name": "spacingXl"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "40",
-      "originalValue": "{!SPACING_XXL}",
-      "name": "spacingXxl"
-    },
-    {
       "type": "color",
       "category": "status-colors",
-      "value": "#f6dde1ff",
-      "originalValue": "{!PINK_MUTED}",
-      "name": "statusDangerFillDay"
-    },
-    {
-      "type": "color",
-      "category": "status-colors",
-      "value": "#ffcaddff",
-      "originalValue": "{!NIGHT_PINK}",
-      "name": "statusDangerFillNight"
-    },
-    {
-      "type": "color",
-      "category": "status-colors",
-      "value": "#d1435bff",
-      "originalValue": "{!BERRY}",
-      "name": "statusDangerSpotDay"
-    },
-    {
-      "type": "color",
-      "category": "status-colors",
-      "value": "#d1435bff",
-      "originalValue": "{!NIGHT_BERRY}",
-      "name": "statusDangerSpotNight"
-    },
-    {
-      "type": "color",
-      "category": "status-colors",
-      "value": "#d0eeecff",
-      "originalValue": "{!GREEN_MUTED}",
-      "name": "statusSuccessFillDay"
+      "value": "#00a698ff",
+      "originalValue": "{!NIGHT_GREEN_SPOT}",
+      "name": "statusSuccessSpotNight"
     },
     {
       "type": "color",
@@ -1336,16 +1420,30 @@
     {
       "type": "color",
       "category": "status-colors",
-      "value": "#00a698ff",
-      "originalValue": "{!NIGHT_GREEN_SPOT}",
-      "name": "statusSuccessSpotNight"
+      "value": "#d0eeecff",
+      "originalValue": "{!GREEN_MUTED}",
+      "name": "statusSuccessFillDay"
     },
     {
       "type": "color",
       "category": "status-colors",
-      "value": "#ffebd0ff",
-      "originalValue": "{!YELLOW_MUTED}",
-      "name": "statusWarningFillDay"
+      "value": "#d1435bff",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "statusDangerSpotNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffb54dff",
+      "originalValue": "{!NIGHT_YELLOW_SPOT}",
+      "name": "statusWarningSpotNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffcaddff",
+      "originalValue": "{!NIGHT_PINK}",
+      "name": "statusDangerFillNight"
     },
     {
       "type": "color",
@@ -1357,6 +1455,13 @@
     {
       "type": "color",
       "category": "status-colors",
+      "value": "#d1435bff",
+      "originalValue": "{!BERRY}",
+      "name": "statusDangerSpotDay"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
       "value": "#ff9400ff",
       "originalValue": "{!AMBER_SPOT}",
       "name": "statusWarningSpotDay"
@@ -1364,9 +1469,16 @@
     {
       "type": "color",
       "category": "status-colors",
-      "value": "#ffb54dff",
-      "originalValue": "{!NIGHT_YELLOW_SPOT}",
-      "name": "statusWarningSpotNight"
+      "value": "#f6dde1ff",
+      "originalValue": "{!PINK_MUTED}",
+      "name": "statusDangerFillDay"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffebd0ff",
+      "originalValue": "{!YELLOW_MUTED}",
+      "name": "statusWarningFillDay"
     },
     {
       "type": "color",
@@ -1425,589 +1537,6 @@
       "name": "surfaceHighlightNight"
     },
     {
-      "value": "16",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_BASE}",
-      "name": "textBaseEmphasizedFontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textBaseEmphasizedFontWeight"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
-      "name": "textBaseEmphasizedLineHeight"
-    },
-    {
-      "value": "16",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_BASE}",
-      "name": "textBaseFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textBaseFontWeight"
-    },
-    {
-      "value": 0.12,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_BASE}",
-      "name": "textBaseLetterSpacing"
-    },
-    {
-      "value": "24",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_BASE}",
-      "name": "textBaseLineHeight"
-    },
-    {
-      "value": "16",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_BASE}",
-      "name": "textBodyDefaultFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textBodyDefaultFontWeight"
-    },
-    {
-      "value": "24",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_BASE}",
-      "name": "textBodyDefaultLineHeight"
-    },
-    {
-      "value": "20",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_LG}",
-      "name": "textBodyLongformFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textBodyLongformFontWeight"
-    },
-    {
-      "value": "28",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_LG}",
-      "name": "textBodyLongformLineHeight"
-    },
-    {
-      "value": "10",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_CAPS}",
-      "name": "textCapsEmphasizedFontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textCapsEmphasizedFontWeight"
-    },
-    {
-      "value": "10",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_CAPS}",
-      "name": "textCapsFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textCapsFontWeight"
-    },
-    {
-      "value": 0.28,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_CAPS}",
-      "name": "textCapsLetterSpacing"
-    },
-    {
-      "value": "12",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XS}",
-      "name": "textCaptionFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textCaptionFontWeight"
-    },
-    {
-      "value": "16",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XS}",
-      "name": "textCaptionLineHeight"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#b2b2bfff",
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textDisabledDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#8e8e93ff",
-      "originalValue": "{!WHITE_ALPHA_20}",
-      "name": "textDisabledNight"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#d1435bff",
-      "originalValue": "{!BERRY}",
-      "name": "textErrorDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#d1435bff",
-      "originalValue": "{!NIGHT_BERRY}",
-      "name": "textErrorNight"
-    },
-    {
-      "value": "14",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_SM}",
-      "name": "textFootnoteFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textFootnoteFontWeight"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_SM}",
-      "name": "textFootnoteLineHeight"
-    },
-    {
-      "value": "40",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XXXL}",
-      "name": "textHeading1FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHeading1FontWeight"
-    },
-    {
-      "value": "48",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XXXL}",
-      "name": "textHeading1LineHeight"
-    },
-    {
-      "value": "32",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XXL}",
-      "name": "textHeading2FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHeading2FontWeight"
-    },
-    {
-      "value": "40",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XXL}",
-      "name": "textHeading2LineHeight"
-    },
-    {
-      "value": "24",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XL}",
-      "name": "textHeading3FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHeading3FontWeight"
-    },
-    {
-      "value": "28",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
-      "name": "textHeading3LineHeight"
-    },
-    {
-      "value": "20",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_LG}",
-      "name": "textHeading4FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHeading4FontWeight"
-    },
-    {
-      "value": "24",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
-      "name": "textHeading4LineHeight"
-    },
-    {
-      "value": "16",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_BASE}",
-      "name": "textHeading5FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHeading5FontWeight"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
-      "name": "textHeading5LineHeight"
-    },
-    {
-      "value": "120",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_8XL}",
-      "name": "textHero1FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHero1FontWeight"
-    },
-    {
-      "value": "-0.02",
-      "type": "letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_TIGHT}",
-      "name": "textHero1LetterSpacing"
-    },
-    {
-      "value": "120",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_8XL}",
-      "name": "textHero1LineHeight"
-    },
-    {
-      "value": "96",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_7XL}",
-      "name": "textHero2FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHero2FontWeight"
-    },
-    {
-      "value": "-0.02",
-      "type": "letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_TIGHT}",
-      "name": "textHero2LetterSpacing"
-    },
-    {
-      "value": "96",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_7XL}",
-      "name": "textHero2LineHeight"
-    },
-    {
-      "value": "76",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_6XL}",
-      "name": "textHero3FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHero3FontWeight"
-    },
-    {
-      "value": "-0.02",
-      "type": "letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_TIGHT}",
-      "name": "textHero3LetterSpacing"
-    },
-    {
-      "value": "84",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_6XL}",
-      "name": "textHero3LineHeight"
-    },
-    {
-      "value": "64",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_5XL}",
-      "name": "textHero4FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHero4FontWeight"
-    },
-    {
-      "value": "-0.02",
-      "type": "letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_TIGHT}",
-      "name": "textHero4LetterSpacing"
-    },
-    {
-      "value": "72",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_5XL}",
-      "name": "textHero4LineHeight"
-    },
-    {
-      "value": "48",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XXXXL}",
-      "name": "textHero5FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textHero5FontWeight"
-    },
-    {
-      "value": "-0.02",
-      "type": "letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_TIGHT}",
-      "name": "textHero5LetterSpacing"
-    },
-    {
-      "value": "56",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XXXXL}",
-      "name": "textHero5LineHeight"
-    },
-    {
-      "value": "16",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_BASE}",
-      "name": "textLabel1FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textLabel1FontWeight"
-    },
-    {
-      "value": "24",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_BASE}",
-      "name": "textLabel1LineHeight"
-    },
-    {
-      "value": "14",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_SM}",
-      "name": "textLabel2FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textLabel2FontWeight"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_SM}",
-      "name": "textLabel2LineHeight"
-    },
-    {
-      "value": "12",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XS}",
-      "name": "textLabel3FontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textLabel3FontWeight"
-    },
-    {
-      "value": "16",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XS}",
-      "name": "textLabel3LineHeight"
-    },
-    {
-      "value": "20",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_LG}",
-      "name": "textLgEmphasizedFontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textLgEmphasizedFontWeight"
-    },
-    {
-      "value": "24",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
-      "name": "textLgEmphasizedLineHeight"
-    },
-    {
-      "value": "20",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_LG}",
-      "name": "textLgFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textLgFontWeight"
-    },
-    {
-      "value": null,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_LG}",
-      "name": "textLgLetterSpacing"
-    },
-    {
-      "value": "28",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_LG}",
-      "name": "textLgLineHeight"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#0770e3ff",
-      "originalValue": "{!SKY_BLUE}",
-      "name": "textLinkDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#6d9febff",
-      "originalValue": "{!NIGHT_BLUE}",
-      "name": "textLinkNight"
-    },
-    {
       "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
@@ -2017,9 +1546,9 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "textOnDarkNight"
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "textOnLightNight"
     },
     {
       "type": "color",
@@ -2031,9 +1560,16 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#111236ff",
-      "originalValue": "{!CHARCOAL}",
-      "name": "textOnLightNight"
+      "value": "#6d9febff",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "textLinkNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#8e8e93ff",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "textDisabledNight"
     },
     {
       "type": "color",
@@ -2046,38 +1582,9 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#111236ff",
-      "originalValue": "{!CHARCOAL}",
-      "name": "textPrimaryDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "textPrimaryInverseDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#111236ff",
-      "originalValue": "{!CHARCOAL}",
-      "name": "textPrimaryInverseNight"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#111236ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY}",
-      "name": "textPrimaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "textPrimaryNight"
+      "value": "#0770e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "textLinkDay"
     },
     {
       "type": "color",
@@ -2086,6 +1593,13 @@
       "deprecated": true,
       "originalValue": "{!BLACK_TINT_06}",
       "name": "textQuaternaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textPrimaryNight"
     },
     {
       "type": "color",
@@ -2099,108 +1613,37 @@
       "type": "color",
       "category": "text-colors",
       "value": "#b2b2bfff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_04}",
-      "name": "textSecondaryDarkColor"
+      "originalValue": "{!BLACK_ALPHA_20}",
+      "name": "textDisabledDay"
     },
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#68697fff",
-      "originalValue": "{!GREY_40}",
-      "name": "textSecondaryDay"
+      "value": "#111236ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY}",
+      "name": "textPrimaryLightColor"
     },
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#68697fff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_02}",
-      "name": "textSecondaryLightColor"
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "textPrimaryDay"
     },
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#b2b2bfff",
-      "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
-      "originalValue": "{!SKY_GRAY_TINT_04}",
-      "name": "textSecondaryNight"
+      "value": "#d1435bff",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "textErrorNight"
     },
     {
-      "value": "14",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_SM}",
-      "name": "textSmEmphasizedFontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textSmEmphasizedFontWeight"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_SM}",
-      "name": "textSmEmphasizedLineHeight"
-    },
-    {
-      "value": "14",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_SM}",
-      "name": "textSmFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textSmFontWeight"
-    },
-    {
-      "value": 0.154,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_SM}",
-      "name": "textSmLetterSpacing"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_SM}",
-      "name": "textSmLineHeight"
-    },
-    {
-      "value": "24",
-      "type": "font-size",
-      "category": "font-sizes",
-      "originalValue": "{!FONT_SIZE_XL}",
-      "name": "textSubheadingFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textSubheadingFontWeight"
-    },
-    {
-      "value": "32",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!LINE_HEIGHT_XL}",
-      "name": "textSubheadingLineHeight"
+      "type": "color",
+      "category": "text-colors",
+      "value": "#d1435bff",
+      "originalValue": "{!BERRY}",
+      "name": "textErrorDay"
     },
     {
       "type": "color",
@@ -2213,262 +1656,708 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#b2b2bfff",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY_TINT_04}",
+      "name": "textSecondaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "textPrimaryInverseNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#b2b2bfff",
+      "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
+      "originalValue": "{!SKY_GRAY_TINT_04}",
+      "name": "textSecondaryNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textOnDarkNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#68697fff",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY_TINT_02}",
+      "name": "textSecondaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textPrimaryInverseDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#8f90a0ff",
       "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_03}",
       "name": "textTertiaryLightColor"
     },
     {
-      "value": "24",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XL}",
-      "name": "textXlEmphasizedFontSize"
+      "type": "color",
+      "category": "text-colors",
+      "value": "#68697fff",
+      "originalValue": "{!GREY_40}",
+      "name": "textSecondaryDay"
     },
     {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textXlEmphasizedFontWeight"
+      "type": "color",
+      "category": "scrim-colors",
+      "value": "#02122cff",
+      "originalValue": "{!BLACK_ALPHA_70}",
+      "name": "scrimDay"
     },
     {
-      "value": "28",
+      "type": "color",
+      "category": "text-colors",
+      "value": "#3a3a3cff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_03}",
+      "name": "backgroundElevation03DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#2c2c2eff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_02}",
+      "name": "backgroundElevation02DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#48484aff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_04}",
+      "name": "lineDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#1d1b20ff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_01}",
+      "name": "backgroundElevation01DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#1d1b20ff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_01}",
+      "name": "backgroundAlternativeSecondaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "deprecated": true,
+      "originalValue": "{!BLACK}",
+      "name": "backgroundDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundAlternativeSecondaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#48484aff",
+      "originalValue": "{!NIGHT_GREY_30}",
+      "name": "lineNight"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#00a698ff",
+      "deprecated": true,
+      "originalValue": "{!MONTEVERDE}",
+      "name": "colorSystemGreen"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundElevation01LightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#cdcdd7ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY_TINT_05}",
+      "name": "lineLightColor"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundElevation02LightColor"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#cdcdd7ff",
+      "originalValue": "{!GREY_30}",
+      "name": "lineDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundElevation03LightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#2c2c2eff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_02}",
+      "name": "backgroundTertiaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#1d1b20ff",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_01}",
+      "name": "backgroundSecondaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "name": "backgroundAlternativeLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#6d9febff",
+      "deprecated": true,
+      "originalValue": "{!SKY_BLUE_TINT_01}",
+      "name": "primaryDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#d1435bff",
+      "deprecated": true,
+      "originalValue": "{!PANJIN}",
+      "name": "colorSystemRed"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#000000ff",
+      "deprecated": true,
+      "originalValue": "{!BLACK}",
+      "name": "backgroundAlternativeDarkColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0770e3ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_BLUE}",
+      "name": "primaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundTertiaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "name": "backgroundSecondaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "scrim-colors",
+      "value": "#02122cff",
+      "originalValue": "{!BLACK_ALPHA_70}",
+      "name": "scrimNight"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d1435bff",
+      "originalValue": "#D1435B",
+      "name": "marcommsBerry"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#111236ff",
+      "originalValue": "#111236",
+      "name": "marcommsCharcoal"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ff7b59ff",
+      "originalValue": "#FF7B59",
+      "name": "marcommsOrange"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#68697fff",
+      "originalValue": "#68697F",
+      "name": "marcommsGrey40"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#a1eeffff",
+      "originalValue": "#A1EEFF",
+      "name": "marcommsBlueBright"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#feeb87ff",
+      "originalValue": "#FEEB87",
+      "name": "marcommsYellow"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#93ffdeff",
+      "originalValue": "#93FFDE",
+      "name": "marcommsGreenBright"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffa3e5ff",
+      "originalValue": "#FFA3E5",
+      "name": "marcommsPink"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#0770e3ff",
+      "originalValue": "#0770e3",
+      "name": "marcommsSkyBlue"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#02122cff",
+      "originalValue": "#02122C",
+      "name": "marcommsDarkSky"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#8e47baff",
+      "originalValue": "#8E47BA",
+      "name": "marcommsPurple"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffffffff",
+      "originalValue": "#ffffff",
+      "name": "marcommsWhite"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#ffebd0ff",
+      "originalValue": "#FFEBD0",
+      "name": "marcommsYellowMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#f6dde1ff",
+      "originalValue": "#F6DDE1",
+      "name": "marcommsPinkMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d0eeecff",
+      "originalValue": "#D0EEEC",
+      "name": "marcommsGreenMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#d9f8ffff",
+      "originalValue": "#D9F8FF",
+      "name": "marcommsBlueMuted"
+    },
+    {
+      "type": "color",
+      "category": "marcomms-colors",
+      "value": "#0fa1a9ff",
+      "originalValue": "#0FA1A9",
+      "name": "marcommsEcoGreen"
+    },
+    {
+      "type": "duration",
+      "value": "50ms",
+      "category": "animations",
+      "originalValue": "{!ANIMATION_DURATION_XS}",
+      "name": "animationDurationXs"
+    },
+    {
+      "type": "duration",
+      "value": "200ms",
+      "category": "animations",
+      "originalValue": "{!ANIMATION_DURATION_SM}",
+      "name": "animationDurationSm"
+    },
+    {
+      "type": "duration",
+      "value": "400ms",
+      "category": "animations",
+      "originalValue": "{!ANIMATION_DURATION_BASE}",
+      "name": "animationDurationBase"
+    },
+    {
       "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
-      "name": "textXlEmphasizedLineHeight"
+      "value": "3",
+      "category": "borders",
+      "originalValue": "{!BORDER_SIZE_XL}",
+      "name": "borderWidthXl"
     },
     {
-      "value": "24",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XL}",
-      "name": "textXlHeavyFontSize"
-    },
-    {
-      "value": "900",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BLACK}",
-      "name": "textXlHeavyFontWeight"
-    },
-    {
-      "value": "24",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XL}",
-      "name": "textXlFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textXlFontWeight"
-    },
-    {
-      "value": null,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_XL}",
-      "name": "textXlLetterSpacing"
-    },
-    {
-      "value": "32",
       "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_XL}",
-      "name": "textXlLineHeight"
+      "value": "1",
+      "category": "borders",
+      "originalValue": "{!BORDER_SIZE_SM}",
+      "name": "borderSizeSm"
     },
     {
+      "type": "size",
+      "value": "2",
+      "category": "borders",
+      "originalValue": "{!BORDER_SIZE_LG}",
+      "name": "borderSizeLg"
+    },
+    {
+      "type": "size",
+      "value": "1",
+      "category": "borders",
+      "originalValue": "{!BORDER_SIZE_SM}",
+      "name": "borderWidthSm"
+    },
+    {
+      "type": "size",
+      "value": "2",
+      "category": "borders",
+      "originalValue": "{!BORDER_SIZE_LG}",
+      "name": "borderWidthLg"
+    },
+    {
+      "type": "size",
       "value": "12",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XS}",
-      "name": "textXsEmphasizedFontSize"
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_MD}",
+      "name": "borderRadiusMd"
     },
     {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textXsEmphasizedFontWeight"
-    },
-    {
-      "value": "16",
       "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_XS}",
-      "name": "textXsEmphasizedLineHeight"
+      "value": "40",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_PILL}",
+      "name": "borderRadiusPill"
     },
     {
+      "type": "size",
+      "value": "8",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_SM}",
+      "name": "borderRadiusSm"
+    },
+    {
+      "type": "size",
+      "value": "4",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_XS}",
+      "name": "borderRadiusXs"
+    },
+    {
+      "type": "size",
+      "value": "24",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_LG}",
+      "name": "borderRadiusLg"
+    },
+    {
+      "type": "size",
       "value": "12",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XS}",
-      "name": "textXsFontSize"
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_MD}",
+      "name": "cornerRadiusMd"
     },
     {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textXsFontWeight"
+      "type": "size",
+      "value": "40",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_PILL}",
+      "name": "cornerRadiusPill"
+    },
+    {
+      "type": "size",
+      "value": "8",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_SM}",
+      "name": "cornerRadiusSm"
+    },
+    {
+      "type": "size",
+      "value": "4",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_XS}",
+      "name": "cornerRadiusXs"
+    },
+    {
+      "type": "size",
+      "value": "24",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_LG}",
+      "name": "cornerRadiusLg"
+    },
+    {
+      "type": "size",
+      "value": "3",
+      "category": "borders",
+      "originalValue": "{!BORDER_SIZE_XL}",
+      "name": "borderSizeXl"
     },
     {
       "value": 0,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_XS}",
-      "name": "textXsLetterSpacing"
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 0,
+      "name": "shadowSmOffsetWidth"
     },
     {
+      "value": 0.15,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 0.15,
+      "name": "shadowSmOpacity"
+    },
+    {
+      "value": 0.15,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 0.15,
+      "name": "shadowLgOpacity"
+    },
+    {
+      "value": 1,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 1,
+      "name": "shadowSmOffsetHeight"
+    },
+    {
+      "value": 4,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 4,
+      "name": "shadowLgOffsetHeight"
+    },
+    {
+      "value": 16,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 16,
+      "name": "shadowLgRadius"
+    },
+    {
+      "value": 3,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 3,
+      "name": "shadowSmRadius"
+    },
+    {
+      "value": "#111236ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!SKY_GRAY}",
+      "name": "shadowSmColor"
+    },
+    {
+      "value": "#111236ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!SKY_GRAY}",
+      "name": "shadowLgColor"
+    },
+    {
+      "value": 0,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 0,
+      "name": "shadowLgOffsetWidth"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "2",
+      "originalValue": "{!BORDER_SIZE_LG}",
+      "name": "buttonBorderWidth"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "32",
+      "originalValue": "{!SPACING_XL}",
+      "name": "buttonHeight"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "4 * 3",
+      "originalValue": "{!SPACING_SM} * 3",
+      "name": "buttonPaddingHorizontal"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "4 * 12",
+      "originalValue": "{!SPACING_SM} * 12",
+      "name": "buttonLineHeightLarge"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "8",
+      "originalValue": "{!SPACING_MD}",
+      "name": "buttonPaddingVertical"
+    },
+    {
+      "type": "size",
+      "category": "carousel-indicator-dots",
+      "value": "2",
+      "originalValue": "{!CAROUSEL_INDICATOR_DOT_SIZE_SM}",
+      "name": "carouselIndicatorDotSizeSm"
+    },
+    {
+      "type": "size",
+      "category": "carousel-indicator-dots",
+      "value": "4",
+      "originalValue": "{!CAROUSEL_INDICATOR_DOT_SIZE_MD}",
+      "name": "carouselIndicatorDotSizeMd"
+    },
+    {
+      "type": "size",
+      "category": "carousel-indicator-dots",
+      "value": "6",
+      "originalValue": "{!CAROUSEL_INDICATOR_DOT_SIZE_BASE}",
+      "name": "carouselIndicatorDotSizeBase"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "4",
+      "originalValue": "{!SPACING_SM}",
+      "name": "spacingSm"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "8",
+      "originalValue": "{!SPACING_MD}",
+      "name": "spacingMd"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
       "value": "16",
+      "originalValue": "{!SPACING_BASE}",
+      "name": "spacingBase"
+    },
+    {
       "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_XS}",
-      "name": "textXsLineHeight"
+      "category": "spacings",
+      "value": "24",
+      "originalValue": "{!SPACING_LG}",
+      "name": "spacingLg"
     },
     {
-      "value": "32",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XXL}",
-      "name": "textXxlEmphasizedFontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textXxlEmphasizedFontWeight"
-    },
-    {
-      "value": "40",
       "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_XXL}",
-      "name": "textXxlEmphasizedLineHeight"
-    },
-    {
+      "category": "spacings",
       "value": "32",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XXL}",
-      "name": "textXxlHeavyFontSize"
+      "originalValue": "{!SPACING_XL}",
+      "name": "spacingXl"
     },
     {
-      "value": "900",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BLACK}",
-      "name": "textXxlHeavyFontWeight"
-    },
-    {
-      "value": "32",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XXL}",
-      "name": "textXxlFontSize"
-    },
-    {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textXxlFontWeight"
-    },
-    {
-      "value": null,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_XXL}",
-      "name": "textXxlLetterSpacing"
-    },
-    {
-      "value": "40",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XXXL}",
-      "name": "textXxxlEmphasizedFontSize"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textXxxlEmphasizedFontWeight"
-    },
-    {
-      "value": "48",
       "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_XXXL}",
-      "name": "textXxxlEmphasizedLineHeight"
-    },
-    {
+      "category": "spacings",
       "value": "40",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XXXL}",
-      "name": "textXxxlHeavyFontSize"
+      "originalValue": "{!SPACING_XXL}",
+      "name": "spacingXxl"
     },
     {
-      "value": "900",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BLACK}",
-      "name": "textXxxlHeavyFontWeight"
+      "type": "size",
+      "category": "spacings",
+      "value": "0",
+      "originalValue": "{!SPACING_NONE}",
+      "name": "spacingNone"
     },
     {
-      "value": "40",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XXXL}",
-      "name": "textXxxlFontSize"
+      "type": "size",
+      "category": "spacings",
+      "value": "8",
+      "originalValue": "{!SPACING_MD}",
+      "name": "spacingIconText"
     },
     {
-      "value": "400",
-      "type": "string",
-      "category": "font-weights",
+      "category": "touchables",
+      "value": "0.15",
+      "type": "number",
       "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOOK}",
-      "name": "textXxxlFontWeight"
-    },
-    {
-      "value": null,
-      "type": "legacy-letter-spacing",
-      "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_XXXL}",
-      "name": "textXxxlLetterSpacing"
+      "originalValue": "0.15",
+      "name": "underlayOpacity"
     },
     {
       "category": "touchables",
@@ -2485,101 +2374,123 @@
       "name": "touchableOverlayOpacity"
     },
     {
-      "category": "touchables",
-      "value": "0.15",
-      "type": "number",
-      "deprecated": true,
-      "originalValue": "0.15",
-      "name": "underlayOpacity"
+      "value": null,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XXXL}",
+      "name": "textXxxlLetterSpacing"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#f1f2f8ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_07}",
-      "name": "backgroundAlternativeColor",
-      "darkValue": "#000000ff",
-      "originalDarkValue": "{!BLACK}"
+      "value": null,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XL}",
+      "name": "textXlLetterSpacing"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundAlternativeSecondaryColor",
-      "darkValue": "#1d1b20ff",
-      "originalDarkValue": "{!BLACK_TINT_01}"
+      "value": 0.12,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_BASE}",
+      "name": "letterSpacingBase"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundColor",
-      "darkValue": "#000000ff",
-      "originalDarkValue": "{!BLACK}"
+      "value": 0.12,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_BASE}",
+      "name": "textBaseLetterSpacing"
     },
     {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation01Color",
-      "darkValue": "#1d1b20ff",
-      "originalDarkValue": "{!BLACK_TINT_01}"
+      "value": null,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XXXL}",
+      "name": "letterSpacingXxxl"
     },
     {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation02Color",
-      "darkValue": "#2c2c2eff",
-      "originalDarkValue": "{!BLACK_TINT_02}"
+      "value": null,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XL}",
+      "name": "letterSpacingXl"
     },
     {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation03Color",
-      "darkValue": "#3a3a3cff",
-      "originalDarkValue": "{!BLACK_TINT_03}"
+      "value": null,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XXL}",
+      "name": "textXxlLetterSpacing"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#f1f2f8ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_07}",
-      "name": "backgroundSecondaryColor",
-      "darkValue": "#1d1b20ff",
-      "originalDarkValue": "{!BLACK_TINT_01}"
+      "value": 0.154,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_SM}",
+      "name": "letterSpacingSm"
     },
     {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundTertiaryColor",
-      "darkValue": "#2c2c2eff",
-      "originalDarkValue": "{!BLACK_TINT_02}"
+      "value": null,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_LG}",
+      "name": "letterSpacingLg"
     },
     {
-      "type": "color",
-      "category": "canvas-colors",
-      "value": "#f1f2f8ff",
-      "originalValue": "{!GREY_10}",
-      "name": "canvasContrastColor",
-      "darkValue": "#1d1b20ff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
+      "value": 0,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XS}",
+      "name": "letterSpacingXs"
+    },
+    {
+      "value": "\"System\"",
+      "type": "font",
+      "category": "typesettings",
+      "originalValue": "{!FONT_FAMILY}",
+      "name": "fontFamily"
+    },
+    {
+      "value": 0.28,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_CAPS}",
+      "name": "textCapsLetterSpacing"
+    },
+    {
+      "value": 0.28,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_CAPS}",
+      "name": "letterSpacingCaps"
+    },
+    {
+      "value": null,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XXL}",
+      "name": "letterSpacingXxl"
+    },
+    {
+      "value": 0,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XS}",
+      "name": "textXsLetterSpacing"
+    },
+    {
+      "value": null,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_LG}",
+      "name": "textLgLetterSpacing"
+    },
+    {
+      "value": 0.154,
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_SM}",
+      "name": "textSmLetterSpacing"
     },
     {
       "type": "color",
@@ -2592,12 +2503,12 @@
     },
     {
       "type": "color",
-      "category": "core-colors",
-      "value": "#0770e3ff",
-      "originalValue": "{!SKY_BLUE}",
-      "name": "coreAccentColor",
-      "darkValue": "#6d9febff",
-      "originalDarkValue": "{!NIGHT_BLUE}"
+      "category": "canvas-colors",
+      "value": "#f1f2f8ff",
+      "originalValue": "{!GREY_10}",
+      "name": "canvasContrastColor",
+      "darkValue": "#1d1b20ff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
     },
     {
       "type": "color",
@@ -2611,67 +2522,20 @@
     {
       "type": "color",
       "category": "core-colors",
+      "value": "#0770e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "coreAccentColor",
+      "darkValue": "#6d9febff",
+      "originalDarkValue": "{!NIGHT_BLUE}"
+    },
+    {
+      "type": "color",
+      "category": "core-colors",
       "value": "#02122cff",
       "originalValue": "{!DARK_SKY}",
       "name": "corePrimaryColor",
       "darkValue": "#054184ff",
       "originalDarkValue": "{!NIGHT_SKY}"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#cdcdd7ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_05}",
-      "name": "lineColor",
-      "darkValue": "#48484aff",
-      "originalDarkValue": "{!NIGHT_GREY_30}"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0770e3ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "primaryColor",
-      "darkValue": "#6d9febff",
-      "originalDarkValue": "{!SKY_BLUE_TINT_01}"
-    },
-    {
-      "type": "color",
-      "category": "scrim-colors",
-      "value": "#02122cff",
-      "originalValue": "{!BLACK_ALPHA_70}",
-      "name": "scrimColor",
-      "darkValue": "#02122cff",
-      "originalDarkValue": "{!BLACK_ALPHA_70}"
-    },
-    {
-      "type": "color",
-      "category": "status-colors",
-      "value": "#f6dde1ff",
-      "originalValue": "{!PINK_MUTED}",
-      "name": "statusDangerFillColor",
-      "darkValue": "#ffcaddff",
-      "originalDarkValue": "{!NIGHT_PINK}"
-    },
-    {
-      "type": "color",
-      "category": "status-colors",
-      "value": "#d1435bff",
-      "originalValue": "{!BERRY}",
-      "name": "statusDangerSpotColor",
-      "darkValue": "#d1435bff",
-      "originalDarkValue": "{!NIGHT_BERRY}"
-    },
-    {
-      "type": "color",
-      "category": "status-colors",
-      "value": "#d0eeecff",
-      "originalValue": "{!GREEN_MUTED}",
-      "name": "statusSuccessFillColor",
-      "darkValue": "#b1ffe7ff",
-      "originalDarkValue": "{!NIGHT_GREEN_FILL}"
     },
     {
       "type": "color",
@@ -2685,11 +2549,20 @@
     {
       "type": "color",
       "category": "status-colors",
-      "value": "#ffebd0ff",
-      "originalValue": "{!YELLOW_MUTED}",
-      "name": "statusWarningFillColor",
-      "darkValue": "#fbf1bbff",
-      "originalDarkValue": "{!NIGHT_YELLOW_FILL}"
+      "value": "#d0eeecff",
+      "originalValue": "{!GREEN_MUTED}",
+      "name": "statusSuccessFillColor",
+      "darkValue": "#b1ffe7ff",
+      "originalDarkValue": "{!NIGHT_GREEN_FILL}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#d1435bff",
+      "originalValue": "{!BERRY}",
+      "name": "statusDangerSpotColor",
+      "darkValue": "#d1435bff",
+      "originalDarkValue": "{!NIGHT_BERRY}"
     },
     {
       "type": "color",
@@ -2699,6 +2572,24 @@
       "name": "statusWarningSpotColor",
       "darkValue": "#ffb54dff",
       "originalDarkValue": "{!NIGHT_YELLOW_SPOT}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#f6dde1ff",
+      "originalValue": "{!PINK_MUTED}",
+      "name": "statusDangerFillColor",
+      "darkValue": "#ffcaddff",
+      "originalDarkValue": "{!NIGHT_PINK}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#ffebd0ff",
+      "originalValue": "{!YELLOW_MUTED}",
+      "name": "statusWarningFillColor",
+      "darkValue": "#fbf1bbff",
+      "originalDarkValue": "{!NIGHT_YELLOW_FILL}"
     },
     {
       "type": "color",
@@ -2739,33 +2630,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#b2b2bfff",
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textDisabledColor",
-      "darkValue": "#8e8e93ff",
-      "originalDarkValue": "{!WHITE_ALPHA_20}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#d1435bff",
-      "originalValue": "{!BERRY}",
-      "name": "textErrorColor",
-      "darkValue": "#d1435bff",
-      "originalDarkValue": "{!NIGHT_BERRY}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#0770e3ff",
-      "originalValue": "{!SKY_BLUE}",
-      "name": "textLinkColor",
-      "darkValue": "#6d9febff",
-      "originalDarkValue": "{!NIGHT_BLUE}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "textOnDarkColor",
@@ -2784,21 +2648,29 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#111236ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY}",
-      "name": "textPrimaryColor",
-      "darkValue": "#ffffffff",
-      "originalDarkValue": "{!WHITE}"
+      "value": "#0770e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "textLinkColor",
+      "darkValue": "#6d9febff",
+      "originalDarkValue": "{!NIGHT_BLUE}"
     },
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "textPrimaryInverseColor",
-      "darkValue": "#111236ff",
-      "originalDarkValue": "{!CHARCOAL}"
+      "value": "#b2b2bfff",
+      "originalValue": "{!BLACK_ALPHA_20}",
+      "name": "textDisabledColor",
+      "darkValue": "#8e8e93ff",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#111236ff",
+      "originalValue": "{!CHARCOAL}",
+      "name": "textPrimaryColor",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
     },
     {
       "type": "color",
@@ -2813,12 +2685,11 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#68697fff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_02}",
-      "name": "textSecondaryColor",
-      "darkValue": "#b2b2bfff",
-      "originalDarkValue": "{!SKY_GRAY_TINT_04}"
+      "value": "#d1435bff",
+      "originalValue": "{!BERRY}",
+      "name": "textErrorColor",
+      "darkValue": "#d1435bff",
+      "originalDarkValue": "{!NIGHT_BERRY}"
     },
     {
       "type": "color",
@@ -2829,6 +2700,132 @@
       "name": "textTertiaryColor",
       "darkValue": "#8e8e93ff",
       "originalDarkValue": "{!BLACK_TINT_06}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#68697fff",
+      "originalValue": "{!GREY_40}",
+      "name": "textSecondaryColor",
+      "darkValue": "#b2b2bfff",
+      "originalDarkValue": "{!SKY_GRAY_TINT_04}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textPrimaryInverseColor",
+      "darkValue": "#111236ff",
+      "originalDarkValue": "{!CHARCOAL}"
+    },
+    {
+      "type": "color",
+      "category": "scrim-colors",
+      "value": "#02122cff",
+      "originalValue": "{!BLACK_ALPHA_70}",
+      "name": "scrimColor",
+      "darkValue": "#02122cff",
+      "originalDarkValue": "{!BLACK_ALPHA_70}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundElevation03Color",
+      "darkValue": "#3a3a3cff",
+      "originalDarkValue": "{!BLACK_TINT_03}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundElevation02Color",
+      "darkValue": "#2c2c2eff",
+      "originalDarkValue": "{!BLACK_TINT_02}"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#cdcdd7ff",
+      "originalValue": "{!GREY_30}",
+      "name": "lineColor",
+      "darkValue": "#48484aff",
+      "originalDarkValue": "{!NIGHT_GREY_30}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundElevation01Color",
+      "darkValue": "#1d1b20ff",
+      "originalDarkValue": "{!BLACK_TINT_01}"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundAlternativeSecondaryColor",
+      "darkValue": "#1d1b20ff",
+      "originalDarkValue": "{!BLACK_TINT_01}"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundColor",
+      "darkValue": "#000000ff",
+      "originalDarkValue": "{!BLACK}"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "deprecated": true,
+      "originalValue": "{!WHITE}",
+      "name": "backgroundTertiaryColor",
+      "darkValue": "#2c2c2eff",
+      "originalDarkValue": "{!BLACK_TINT_02}"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "name": "backgroundSecondaryColor",
+      "darkValue": "#1d1b20ff",
+      "originalDarkValue": "{!BLACK_TINT_01}"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#f1f2f8ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "name": "backgroundAlternativeColor",
+      "darkValue": "#000000ff",
+      "originalDarkValue": "{!BLACK}"
+    },
+    {
+      "type": "color",
+      "category": "colors",
+      "value": "#0770e3ff",
+      "deprecated": true,
+      "originalValue": "{!SKY_BLUE}",
+      "name": "primaryColor",
+      "darkValue": "#6d9febff",
+      "originalDarkValue": "{!SKY_BLUE_TINT_01}"
     }
   ]
 }
