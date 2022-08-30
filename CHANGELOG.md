@@ -1,3 +1,13 @@
+# 2022-08-30
+
+**Fixed:**
+
+- `@skyscanner/bpk-foundations-android: 4.1.0 => 4.1.1`<br />
+- `@skyscanner/bpk-foundations-ios: 3.1.0 => 3.1.1`<br />
+- `@skyscanner/bpk-foundations-react-native: 2.1.0 => 2.1.1`<br />
+- `@skyscanner/bpk-foundations-web: 9.2.0 => 9.2.1`<br />
+  - Fixed an issue whereby tokens in the new colour system are marked `deprecated`. This is due to the tokens being sorted so when the old colours came after the new colours it would override the details in the combined semantic tokens.
+
 # 2022-08-25
 
 **Changed:**
