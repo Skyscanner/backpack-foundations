@@ -3278,21 +3278,21 @@
       "type": "color",
       "category": "horizontal-nav",
       "value": "rgb(104, 105, 127)",
-      "originalValue": "{!SKY_GRAY_TINT_02}",
+      "originalValue": "{!GREY_40}",
       "name": "HORIZONTAL_NAV_LINK_COLOR"
     },
     "HORIZONTAL_NAV_LINK_HOVER_COLOR": {
       "type": "color",
       "category": "horizontal-nav",
-      "value": "rgb(68, 69, 96)",
-      "originalValue": "{!SKY_GRAY_TINT_01}",
+      "value": "rgb(104, 105, 127)",
+      "originalValue": "{!GREY_40}",
       "name": "HORIZONTAL_NAV_LINK_HOVER_COLOR"
     },
     "HORIZONTAL_NAV_LINK_ACTIVE_COLOR": {
       "type": "color",
       "category": "horizontal-nav",
-      "value": "rgb(17, 18, 54)",
-      "originalValue": "{!SKY_GRAY}",
+      "value": "rgb(104, 105, 127)",
+      "originalValue": "{!GREY_40}",
       "name": "HORIZONTAL_NAV_LINK_ACTIVE_COLOR"
     },
     "HORIZONTAL_NAV_LINK_SELECTED_COLOR": {

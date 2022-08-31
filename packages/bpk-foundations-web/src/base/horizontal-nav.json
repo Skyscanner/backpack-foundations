@@ -8,13 +8,13 @@
   },
   "props": {
     "HORIZONTAL_NAV_LINK_COLOR": {
-      "value": "{!SKY_GRAY_TINT_02}"
+      "value": "{!GREY_40}"
     },
     "HORIZONTAL_NAV_LINK_HOVER_COLOR": {
-      "value": "{!SKY_GRAY_TINT_01}"
+      "value": "{!GREY_40}"
     },
     "HORIZONTAL_NAV_LINK_ACTIVE_COLOR": {
-      "value": "{!SKY_GRAY}"
+      "value": "{!GREY_40}"
     },
     "HORIZONTAL_NAV_LINK_SELECTED_COLOR": {
       "value": "{!SKY_BLUE}"
