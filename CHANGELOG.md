@@ -1,3 +1,10 @@
+# 2022-08-31
+
+**Changed:**
+
+- @skyscanner/bpk-foundations-web: 9.2.1 => 9.3.0
+  - Changed `$bpk-horizontal-nav-link-hover-color` and `$bpk-horizontal-nav-link-active-color` token values
+
 # 2022-08-30
 
 **Fixed:**
