@@ -31,7 +31,7 @@
       "type": "size"
     },
     "INPUT_BORDER": {
-      "value": "solid {!ONE_PIXEL_REM} {!SKY_GRAY_TINT_04}",
+      "value": "solid {!ONE_PIXEL_REM} {!GREY_30}",
       "type": "border"
     },
     "INPUT_BORDER_RADIUS": {
@@ -43,19 +43,19 @@
       "type": "background"
     },
     "INPUT_COLOR": {
-      "value": "{!SKY_GRAY}",
+      "value": "{!CHARCOAL}",
       "type": "color"
     },
     "INPUT_PLACEHOLDER_COLOR": {
-      "value": "{!SKY_GRAY_TINT_02}",
+      "value": "{!BLACK_ALPHA_20}",
       "type": "color"
     },
     "INPUT_DISABLED_BORDER_COLOR": {
-      "value": "{!SKY_GRAY_TINT_07}",
+      "value": "{!GREY_10}",
       "type": "color"
     },
     "INPUT_DISABLED_COLOR": {
-      "value": "{!SKY_GRAY_TINT_04}",
+      "value": "{!BLACK_ALPHA_20}",
       "type": "color"
     },
     "INPUT_LARGE_HEIGHT": {
@@ -117,11 +117,11 @@
       "deprecated": true
     },
     "LABEL_COLOR": {
-      "value": "{!SKY_GRAY}",
+      "value": "{!CHARCOAL}",
       "type": "color"
     },
     "LABEL_DISABLED_COLOR": {
-      "value": "{!SKY_GRAY_TINT_04}",
+      "value": "{!BLACK_ALPHA_20}",
       "type": "color"
     },
     "LABEL_FONT_SIZE": {
@@ -133,7 +133,7 @@
       "type": "number"
     },
     "FORM_VALIDATION_COLOR": {
-      "value": "{!PANJIN}",
+      "value": "{!BERRY}",
       "type": "color"
     },
     "FORM_VALIDATION_ARROW_SIZE": {
@@ -147,7 +147,7 @@
       "deprecated": true
     },
     "REQUIRED_COLOR": {
-      "value": "{!PANJIN}",
+      "value": "{!BERRY}",
       "type": "color"
     }
   }

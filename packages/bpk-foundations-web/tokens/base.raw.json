@@ -3016,16 +3016,16 @@
     },
     "INPUT_BORDER": {
       "category": "forms",
-      "value": "solid .0625rem #B2B2BF",
+      "value": "solid .0625rem #CDCDD7",
       "type": "border",
-      "originalValue": "solid {!ONE_PIXEL_REM} {!SKY_GRAY_TINT_04}",
+      "originalValue": "solid {!ONE_PIXEL_REM} {!GREY_30}",
       "name": "INPUT_BORDER"
     },
     "INPUT_PLACEHOLDER_COLOR": {
       "category": "forms",
-      "value": "rgb(104, 105, 127)",
+      "value": "rgb(178, 178, 191)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_02}",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "INPUT_PLACEHOLDER_COLOR"
     },
     "FORM_VALIDATION_ARROW_SIZE": {
@@ -3061,7 +3061,7 @@
       "category": "forms",
       "value": "rgb(209, 67, 91)",
       "type": "color",
-      "originalValue": "{!PANJIN}",
+      "originalValue": "{!BERRY}",
       "name": "REQUIRED_COLOR"
     },
     "SELECT_PADDING_TOP": {
@@ -3105,7 +3105,7 @@
       "category": "forms",
       "value": "rgb(178, 178, 191)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_04}",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "LABEL_DISABLED_COLOR"
     },
     "SELECT_PADDING_RIGHT": {
@@ -3128,7 +3128,7 @@
       "category": "forms",
       "value": "rgb(17, 18, 54)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY}",
+      "originalValue": "{!CHARCOAL}",
       "name": "INPUT_COLOR"
     },
     "SELECT_BORDER": {
@@ -3163,7 +3163,7 @@
       "category": "forms",
       "value": "rgb(178, 178, 191)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_04}",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "INPUT_DISABLED_COLOR"
     },
     "INPUT_PADDING_X": {
@@ -3206,14 +3206,14 @@
       "category": "forms",
       "value": "rgb(17, 18, 54)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY}",
+      "originalValue": "{!CHARCOAL}",
       "name": "LABEL_COLOR"
     },
     "FORM_VALIDATION_COLOR": {
       "category": "forms",
       "value": "rgb(209, 67, 91)",
       "type": "color",
-      "originalValue": "{!PANJIN}",
+      "originalValue": "{!BERRY}",
       "name": "FORM_VALIDATION_COLOR"
     },
     "TEXTAREA_MIN_HEIGHT": {
@@ -3243,7 +3243,7 @@
       "category": "forms",
       "value": "rgb(241, 242, 248)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "originalValue": "{!GREY_10}",
       "name": "INPUT_DISABLED_BORDER_COLOR"
     },
     "GRID_COLUMNS": {
