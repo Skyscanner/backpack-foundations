@@ -113,7 +113,7 @@ $bpk-spacing-v2: true;
 @mixin bpk-input--invalid {
   padding-right: bpk-spacing-xl();
   background: $bpk-input-background
-    url(map-get($bpk-icons-sm, exclamation-circle-panjin)) no-repeat right
+    url(map-get($bpk-icons-sm, exclamation-circle-berry)) no-repeat right
     bpk-spacing-md() center;
   background-size: $bpk-icon-size-sm $bpk-icon-size-sm;
 
@@ -1004,7 +1004,7 @@ $bpk-spacing-v2: true;
 @mixin bpk-textarea--invalid {
   padding-right: bpk-spacing-xl();
   background: $bpk-input-background
-    url(map-get($bpk-icons-sm, exclamation-circle-panjin)) no-repeat right
+    url(map-get($bpk-icons-sm, exclamation-circle-berry)) no-repeat right
     bpk-spacing-md() center;
 
   @include bpk-themeable-property(
