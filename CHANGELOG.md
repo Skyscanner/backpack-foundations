@@ -5,6 +5,11 @@
 - @skyscanner/bpk-svgs: 14.4.4 => 14.5.0
   - New pre-coloured branded icons for use in Sass/CSS.
 
+**Patched:**
+
+- bpk-mixins: 31.6.5 => 31.6.6
+  - Corrected to new `bpk-input--valid` icon.
+
 # 2022-09-08
 
 **Changed:**
