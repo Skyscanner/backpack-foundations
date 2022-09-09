@@ -89,7 +89,7 @@ $bpk-spacing-v2: true;
 @mixin bpk-input--valid {
   padding-right: bpk-spacing-xl();
   background: $bpk-input-background
-    url(map-get($bpk-icons-sm, tick-circle-monteverde)) no-repeat right
+    url(map-get($bpk-icons-sm, tick-circle-green-spot)) no-repeat right
     bpk-spacing-md() center;
   background-size: $bpk-icon-size-sm $bpk-icon-size-sm;
 
