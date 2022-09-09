@@ -1,3 +1,10 @@
+# 2022-09-09
+
+**Added:**
+
+- @skyscanner/bpk-svgs: 14.4.4 => 14.5.0
+  - New pre-coloured branded icons for use in Sass/CSS.
+
 # 2022-09-08
 
 **Changed:**
