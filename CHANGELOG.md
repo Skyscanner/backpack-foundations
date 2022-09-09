@@ -1,3 +1,14 @@
+# 2022-09-08
+
+**Changed:**
+
+- bpk-foundations-web: 9.3.0 => 9.4.0
+  - Updated `$bpk-input-border`, `$bpk-input-color`, `$bpk-input-placeholder-color`, `$bpk-input-disabled-border-color`, `$bpk-input-disabled-color`, `$bpk-label-color`, `$bpk-label-disabled-color`, `$bpk-form-validation-color`, `$bpk-required-color` tokens to use new colour tokens to prepare for new colour rollout.
+
+- bpk-mixins: 31.6.3 => 31.6.4
+  - Changed `bpk-input` mixins to use semantic tokens
+  - Changed `bpk-textarea` mixins to use semantic tokens
+
 # 2022-08-31
 
 **Changed:**
