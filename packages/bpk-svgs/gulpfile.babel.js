@@ -29,6 +29,7 @@ import svgmin from 'gulp-svgmin';
 import concat from 'gulp-concat';
 import merge from 'merge-stream';
 import tinycolor from 'tinycolor2';
+import baseColors from '@skyscanner/bpk-foundations-common/base/colors/aliases.json';
 import tokens from '@skyscanner/bpk-foundations-web/tokens/base.raw.json';
 import iconfont from 'gulp-iconfont';
 
@@ -52,19 +53,8 @@ const smallIconPxSize = remToPx(smallIconSize);
 const largeIconSize = tokens.props.ICON_SIZE_LG.value;
 const largeIconPxSize = remToPx(largeIconSize);
 
-const colors = _(tokens.props)
-  .filter({ category: 'colors', type: 'color' })
-  .filter((color) => {
-    // We don't want to generate SVGs for colors that begine with Background or Line as these are not meant for icons.
-    // We want it for raw colors only.
-    if (color.name.startsWith('BACKGROUND') || color.name.startsWith('LINE')) {
-      return false;
-    }
-    return color;
-  })
-  .keyBy('name')
-  .mapValues('value')
-  .mapKeys((value, key) => _.kebabCase(key).replace('color-', ''))
+const colors = _(baseColors.aliases)
+  .mapKeys((value, key) => _.kebabCase(key).toLowerCase())
   .mapValues((value) => tinycolor(value).toHexString())
   .value();
 
