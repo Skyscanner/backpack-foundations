@@ -17,6 +17,12 @@
     "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT": {
       "value": "#002854"
     },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY": {
+      "value": "#05203C"
+    },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT": {
+      "value": "#054184"
+    },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
       "value": "#DDE1E4"
     },

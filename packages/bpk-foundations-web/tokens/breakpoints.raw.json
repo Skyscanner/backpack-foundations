@@ -1505,12 +1505,26 @@
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY"
     },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "rgb(5, 65, 132)",
+      "originalValue": "#054184",
+      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT"
+    },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "chip-colors",
       "value": "rgb(11, 17, 26)",
       "originalValue": "#0B111A",
       "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "rgb(5, 32, 60)",
+      "originalValue": "#05203C",
+      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY"
     },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
       "type": "color",

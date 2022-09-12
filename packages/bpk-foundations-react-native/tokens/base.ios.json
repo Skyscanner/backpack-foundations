@@ -920,8 +920,20 @@
     {
       "type": "color",
       "category": "chip-colors",
+      "value": "#054184ff",
+      "name": "privateChipDefaultOnBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "chip-colors",
       "value": "#0b111aff",
       "name": "privateChipDisabledBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#05203cff",
+      "name": "privateChipDefaultOnBackgroundDay"
     },
     {
       "type": "color",
@@ -1818,6 +1830,13 @@
       "value": "#dddde5ff",
       "name": "privateChipDefaultNormalBackgroundColor",
       "darkValue": "#0b121dff"
+    },
+    {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#05203cff",
+      "name": "privateChipDefaultOnBackgroundColor",
+      "darkValue": "#054184ff"
     },
     {
       "type": "color",

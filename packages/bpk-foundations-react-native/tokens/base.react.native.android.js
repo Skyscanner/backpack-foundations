@@ -161,7 +161,9 @@ export const privateChipOnDarkPressedBackgroundDay = "rgb(198, 204, 212)";
 export const privateChipDefaultNormalBackgroundNight = "rgb(11, 18, 29)";
 export const privateChipOnDarkOnBackgroundDay = "rgb(255, 255, 255)";
 export const privateChipDefaultNormalBackgroundDay = "rgb(221, 221, 229)";
+export const privateChipDefaultOnBackgroundNight = "rgb(5, 65, 132)";
 export const privateChipDisabledBackgroundNight = "rgb(11, 17, 26)";
+export const privateChipDefaultOnBackgroundDay = "rgb(5, 32, 60)";
 export const privateChipDisabledBackgroundDay = "rgb(221, 225, 228)";
 export const privateChipDefaultPressedBackgroundNight = "rgb(0, 40, 84)";
 export const privateChipDefaultPressedBackgroundDay = "rgb(198, 204, 212)";
@@ -363,7 +365,9 @@ privateChipOnDarkPressedBackgroundDay,
 privateChipDefaultNormalBackgroundNight,
 privateChipOnDarkOnBackgroundDay,
 privateChipDefaultNormalBackgroundDay,
+privateChipDefaultOnBackgroundNight,
 privateChipDisabledBackgroundNight,
+privateChipDefaultOnBackgroundDay,
 privateChipDisabledBackgroundDay,
 privateChipDefaultPressedBackgroundNight,
 privateChipDefaultPressedBackgroundDay,
@@ -685,5 +689,6 @@ export const privateChipOnDarkNormalBackgroundColor = undefined;
 export const privateChipOnDarkPressedBackgroundColor = undefined;
 export const privateChipOnDarkOnBackgroundColor = undefined;
 export const privateChipDefaultNormalBackgroundColor = undefined;
+export const privateChipDefaultOnBackgroundColor = undefined;
 export const privateChipDisabledBackgroundColor = undefined;
 export const privateChipDefaultPressedBackgroundColor = undefined;

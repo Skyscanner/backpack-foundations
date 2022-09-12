@@ -143,7 +143,9 @@
   <color name="PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY" category="chip-colors">#ffffffff</color>
   <color name="PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY" category="chip-colors">#dddde5ff</color>
+  <color name="PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT" category="chip-colors">#054184ff</color>
   <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT" category="chip-colors">#0b111aff</color>
+  <color name="PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY" category="chip-colors">#05203cff</color>
   <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_DAY" category="chip-colors">#dde1e4ff</color>
   <color name="PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT" category="chip-colors">#002854ff</color>
   <color name="PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY" category="chip-colors">#c6ccd4ff</color>

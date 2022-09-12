@@ -1431,12 +1431,26 @@
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY"
     },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#054184ff",
+      "originalValue": "#054184",
+      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT"
+    },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "chip-colors",
       "value": "#0b111aff",
       "originalValue": "#0B111A",
       "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#05203cff",
+      "originalValue": "#05203C",
+      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY"
     },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
       "type": "color",
@@ -2416,6 +2430,15 @@
       "darkValue": "#0b121dff",
       "originalDarkValue": "#0B121D"
     },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_COLOR": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#05203cff",
+      "originalValue": "#05203C",
+      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_COLOR",
+      "darkValue": "#054184ff",
+      "originalDarkValue": "#054184"
+    },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "chip-colors",
@@ -2579,7 +2602,9 @@
     "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT",
     "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY",
     "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY",
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT",
     "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT",
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY",
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY",
     "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT",
     "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY",
@@ -2707,6 +2732,7 @@
     "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_COLOR",
     "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_COLOR",
     "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_COLOR",
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_COLOR",
     "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR",
     "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_COLOR"
   ]
