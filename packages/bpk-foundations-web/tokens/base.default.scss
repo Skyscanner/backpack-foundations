@@ -295,6 +295,34 @@ $bpk-marcomms-green-muted: rgb(208, 238, 236) !default;
 $bpk-marcomms-blue-muted: rgb(217, 248, 255) !default;
 /// @group marcomms-colors
 $bpk-marcomms-eco-green: rgb(15, 161, 169) !default;
+/// @group chip-colors
+$bpk-private-chip-on-dark-normal-background-day: rgba(255, 255, 255, 0.2) !default;
+/// @group chip-colors
+$bpk-private-chip-on-dark-pressed-background-night: rgb(0, 40, 84) !default;
+/// @group chip-colors
+$bpk-private-chip-on-dark-on-background-night: rgb(11, 18, 29) !default;
+/// @group chip-colors
+$bpk-private-chip-on-dark-pressed-background-day: rgb(198, 204, 212) !default;
+/// @group chip-colors
+$bpk-private-chip-default-normal-background-night: rgb(11, 18, 29) !default;
+/// @group chip-colors
+$bpk-private-chip-on-dark-on-background-day: rgb(255, 255, 255) !default;
+/// @group chip-colors
+$bpk-private-chip-default-normal-background-day: rgb(221, 221, 229) !default;
+/// @group chip-colors
+$bpk-private-chip-default-on-background-night: rgb(5, 65, 132) !default;
+/// @group chip-colors
+$bpk-private-chip-disabled-background-night: rgb(11, 17, 26) !default;
+/// @group chip-colors
+$bpk-private-chip-default-on-background-day: rgb(5, 32, 60) !default;
+/// @group chip-colors
+$bpk-private-chip-disabled-background-day: rgb(221, 225, 228) !default;
+/// @group chip-colors
+$bpk-private-chip-default-pressed-background-night: rgb(0, 40, 84) !default;
+/// @group chip-colors
+$bpk-private-chip-default-pressed-background-day: rgb(198, 204, 212) !default;
+/// @group chip-colors
+$bpk-private-chip-on-dark-normal-background-night: rgb(11, 18, 29) !default;
 /// @group autosuggest
 $bpk-autosuggest-list-background-color: rgb(255, 255, 255) !default;
 /// @group autosuggest
