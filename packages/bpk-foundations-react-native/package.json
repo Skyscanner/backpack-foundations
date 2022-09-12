@@ -1,6 +1,6 @@
 {
   "name": "@skyscanner/bpk-foundations-react-native",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Common Backpack design tokens for colors, spacing, font, etc.",
   "license": "Apache-2.0",
   "repository": {
@@ -17,7 +17,7 @@
     "tokens": "gulp"
   },
   "dependencies": {
-    "@skyscanner/bpk-foundations-common": "^3.1.0",
+    "@skyscanner/bpk-foundations-common": "^3.1.1",
     "color": "^3.0.0"
   }
 }
