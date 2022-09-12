@@ -154,6 +154,18 @@ export const marcommsPinkMuted = "rgb(246, 221, 225)";
 export const marcommsGreenMuted = "rgb(208, 238, 236)";
 export const marcommsBlueMuted = "rgb(217, 248, 255)";
 export const marcommsEcoGreen = "rgb(15, 161, 169)";
+export const privateChipOnDarkNormalBackgroundDay = "rgba(255, 255, 255, 0.2)";
+export const privateChipOnDarkPressedBackgroundNight = "rgb(0, 40, 84)";
+export const privateChipOnDarkOnBackgroundNight = "rgb(11, 18, 29)";
+export const privateChipOnDarkPressedBackgroundDay = "rgb(198, 204, 212)";
+export const privateChipDefaultNormalBackgroundNight = "rgb(11, 18, 29)";
+export const privateChipOnDarkOnBackgroundDay = "rgb(255, 255, 255)";
+export const privateChipDefaultNormalBackgroundDay = "rgb(221, 221, 229)";
+export const privateChipDisabledBackgroundNight = "rgb(11, 17, 26)";
+export const privateChipDisabledBackgroundDay = "rgb(221, 225, 228)";
+export const privateChipDefaultPressedBackgroundNight = "rgb(0, 40, 84)";
+export const privateChipDefaultPressedBackgroundDay = "rgb(198, 204, 212)";
+export const privateChipOnDarkNormalBackgroundNight = "rgb(11, 18, 29)";
 export const animationDurationXs = 50;
 export const animationDurationSm = 200;
 export const animationDurationBase = 400;
@@ -304,6 +316,24 @@ export const primaryColor = {
 export const marcommsSky = {
  dark: "rgb(2, 18, 44)",
 };
+export const privateChipOnNormalBackgroundDay = {
+ dark: "rgba(255, 255, 255, 0.2)",
+};
+export const privateChipOnPressedBackgroundNight = {
+ dark: "rgb(0, 40, 84)",
+};
+export const privateChipOnOnBackgroundNight = {
+ dark: "rgb(11, 18, 29)",
+};
+export const privateChipOnPressedBackgroundDay = {
+ dark: "rgb(198, 204, 212)",
+};
+export const privateChipOnOnBackgroundDay = {
+ dark: "rgb(255, 255, 255)",
+};
+export const privateChipOnNormalBackgroundNight = {
+ dark: "rgb(11, 18, 29)",
+};
 export const animations = {
 animationDurationXs,
 animationDurationSm,
@@ -324,6 +354,20 @@ export const carouselIndicatorDots = {
 carouselIndicatorDotSizeSm,
 carouselIndicatorDotSizeMd,
 carouselIndicatorDotSizeBase,
+};
+export const chipColors = {
+privateChipOnDarkNormalBackgroundDay,
+privateChipOnDarkPressedBackgroundNight,
+privateChipOnDarkOnBackgroundNight,
+privateChipOnDarkPressedBackgroundDay,
+privateChipDefaultNormalBackgroundNight,
+privateChipOnDarkOnBackgroundDay,
+privateChipDefaultNormalBackgroundDay,
+privateChipDisabledBackgroundNight,
+privateChipDisabledBackgroundDay,
+privateChipDefaultPressedBackgroundNight,
+privateChipDefaultPressedBackgroundDay,
+privateChipOnDarkNormalBackgroundNight,
 };
 export const colors = {
 colorSkyBlueShade03,
@@ -470,6 +514,14 @@ borderRadiusPill,
 export const scrimColors = {
 scrimDay,
 scrimNight,
+};
+export const semanticChipColors = {
+privateChipOnNormalBackgroundDay,
+privateChipOnPressedBackgroundNight,
+privateChipOnOnBackgroundNight,
+privateChipOnPressedBackgroundDay,
+privateChipOnOnBackgroundDay,
+privateChipOnNormalBackgroundNight,
 };
 export const semanticColors = {
 lineColor,
@@ -629,3 +681,9 @@ export const textDisabledColor = undefined;
 export const textErrorColor = undefined;
 export const textPrimaryInverseColor = undefined;
 export const scrimColor = undefined;
+export const privateChipOnDarkNormalBackgroundColor = undefined;
+export const privateChipOnDarkPressedBackgroundColor = undefined;
+export const privateChipOnDarkOnBackgroundColor = undefined;
+export const privateChipDefaultNormalBackgroundColor = undefined;
+export const privateChipDisabledBackgroundColor = undefined;
+export const privateChipDefaultPressedBackgroundColor = undefined;

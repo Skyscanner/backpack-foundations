@@ -136,6 +136,18 @@
   <color name="MARCOMMS_GREEN_MUTED" category="marcomms-colors">#d0eeecff</color>
   <color name="MARCOMMS_BLUE_MUTED" category="marcomms-colors">#d9f8ffff</color>
   <color name="MARCOMMS_ECO_GREEN" category="marcomms-colors">#0fa1a9ff</color>
+  <color name="PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY" category="chip-colors">#ffffff33</color>
+  <color name="PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT" category="chip-colors">#002854ff</color>
+  <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
+  <color name="PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY" category="chip-colors">#c6ccd4ff</color>
+  <color name="PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
+  <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY" category="chip-colors">#ffffffff</color>
+  <color name="PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY" category="chip-colors">#dddde5ff</color>
+  <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT" category="chip-colors">#0b111aff</color>
+  <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_DAY" category="chip-colors">#dde1e4ff</color>
+  <color name="PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT" category="chip-colors">#002854ff</color>
+  <color name="PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY" category="chip-colors">#c6ccd4ff</color>
+  <color name="PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
   <property name="ANIMATION_DURATION_XS" category="animations">50ms</property>
   <property name="ANIMATION_DURATION_SM" category="animations">200ms</property>
   <property name="ANIMATION_DURATION_BASE" category="animations">400ms</property>

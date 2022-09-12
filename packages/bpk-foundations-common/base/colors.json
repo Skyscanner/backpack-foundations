@@ -7,6 +7,7 @@
     "./colors/surface.json",
     "./colors/text.json",
     "./colors/other.json",
-    "./colors/marcomms.json"
+    "./colors/marcomms.json",
+    "./colors/chip.json"
   ]
 }
