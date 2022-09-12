@@ -1584,16 +1584,16 @@
     },
     "AUTOSUGGEST_LIST_ITEM_ACTIVE_BACKGROUND_COLOR": {
       "category": "autosuggest",
-      "value": "rgb(221, 221, 229)",
+      "value": "rgb(241, 242, 248)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_06}",
+      "originalValue": "{!GREY_10}",
       "name": "AUTOSUGGEST_LIST_ITEM_ACTIVE_BACKGROUND_COLOR"
     },
     "AUTOSUGGEST_LIST_ITEM_HIGHLIGHTED_BACKGROUND_COLOR": {
       "category": "autosuggest",
       "value": "rgb(241, 242, 248)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "originalValue": "{!GREY_10}",
       "name": "AUTOSUGGEST_LIST_ITEM_HIGHLIGHTED_BACKGROUND_COLOR"
     },
     "BADGE_PADDING_Y": {

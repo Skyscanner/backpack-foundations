@@ -173,7 +173,7 @@ module.exports = {
   privateChipDefaultPressedBackgroundDay: "rgb(198, 204, 212)",
   privateChipOnDarkNormalBackgroundNight: "rgb(11, 18, 29)",
   autosuggestListBackgroundColor: "rgb(255, 255, 255)",
-  autosuggestListItemActiveBackgroundColor: "rgb(221, 221, 229)",
+  autosuggestListItemActiveBackgroundColor: "rgb(241, 242, 248)",
   autosuggestListItemHighlightedBackgroundColor: "rgb(241, 242, 248)",
   badgePaddingY: ".25rem",
   badgePaddingX: ".5rem",
