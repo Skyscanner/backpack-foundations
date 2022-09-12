@@ -2431,6 +2431,104 @@
       "originalValue": "#0FA1A9",
       "name": "MARCOMMS_ECO_GREEN"
     },
+    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#ffffff33",
+      "originalValue": "#FFFFFF33",
+      "name": "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY"
+    },
+    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#002854ff",
+      "originalValue": "#002854",
+      "name": "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#0b121dff",
+      "originalValue": "#0B121D",
+      "name": "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#c6ccd4ff",
+      "originalValue": "#C6CCD4",
+      "name": "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY"
+    },
+    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#0b121dff",
+      "originalValue": "#0B121D",
+      "name": "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY"
+    },
+    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#dddde5ff",
+      "originalValue": "{!GREY_20}",
+      "name": "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY"
+    },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#054184ff",
+      "originalValue": "#054184",
+      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#0b111aff",
+      "originalValue": "#0B111A",
+      "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#05203cff",
+      "originalValue": "#05203C",
+      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY"
+    },
+    "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#dde1e4ff",
+      "originalValue": "#DDE1E4",
+      "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY"
+    },
+    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#002854ff",
+      "originalValue": "#002854",
+      "name": "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#c6ccd4ff",
+      "originalValue": "#C6CCD4",
+      "name": "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY"
+    },
+    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#0b121dff",
+      "originalValue": "#0B121D",
+      "name": "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT"
+    },
     "ANIMATION_DURATION_XS": {
       "type": "duration",
       "value": "50ms",
@@ -3017,6 +3115,69 @@
       "name": "PRIMARY_COLOR",
       "darkValue": "#6d9febff",
       "originalDarkValue": "{!SKY_BLUE_TINT_01}"
+    },
+    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_COLOR": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#ffffff33",
+      "originalValue": "#FFFFFF33",
+      "name": "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_COLOR",
+      "darkValue": "#0b121dff",
+      "originalDarkValue": "#0B121D"
+    },
+    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_COLOR": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#c6ccd4ff",
+      "originalValue": "#C6CCD4",
+      "name": "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_COLOR",
+      "darkValue": "#002854ff",
+      "originalDarkValue": "#002854"
+    },
+    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_COLOR": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_COLOR",
+      "darkValue": "#0b121dff",
+      "originalDarkValue": "#0B121D"
+    },
+    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_COLOR": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#dddde5ff",
+      "originalValue": "{!GREY_20}",
+      "name": "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_COLOR",
+      "darkValue": "#0b121dff",
+      "originalDarkValue": "#0B121D"
+    },
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_COLOR": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#05203cff",
+      "originalValue": "#05203C",
+      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_COLOR",
+      "darkValue": "#054184ff",
+      "originalDarkValue": "#054184"
+    },
+    "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#dde1e4ff",
+      "originalValue": "#DDE1E4",
+      "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR",
+      "darkValue": "#0b111aff",
+      "originalDarkValue": "#0B111A"
+    },
+    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_COLOR": {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#c6ccd4ff",
+      "originalValue": "#C6CCD4",
+      "name": "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_COLOR",
+      "darkValue": "#002854ff",
+      "originalDarkValue": "#002854"
     }
   },
   "propKeys": [
@@ -3294,6 +3455,20 @@
     "MARCOMMS_GREEN_MUTED",
     "MARCOMMS_BLUE_MUTED",
     "MARCOMMS_ECO_GREEN",
+    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY",
+    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT",
+    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT",
+    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY",
+    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT",
+    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY",
+    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY",
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT",
+    "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT",
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY",
+    "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY",
+    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT",
+    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY",
+    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT",
     "ANIMATION_DURATION_XS",
     "ANIMATION_DURATION_SM",
     "ANIMATION_DURATION_BASE",
@@ -3365,6 +3540,13 @@
     "BACKGROUND_TERTIARY_COLOR",
     "BACKGROUND_SECONDARY_COLOR",
     "BACKGROUND_ALTERNATIVE_COLOR",
-    "PRIMARY_COLOR"
+    "PRIMARY_COLOR",
+    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_COLOR",
+    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_COLOR",
+    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_COLOR",
+    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_COLOR",
+    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_COLOR",
+    "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR",
+    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_COLOR"
   ]
 }
