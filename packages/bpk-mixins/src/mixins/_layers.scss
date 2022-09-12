@@ -33,7 +33,7 @@
 
 @mixin bpk-layer(
   $background-color: $bpk-color-white,
-  $border-color: $bpk-color-sky-gray-tint-06
+  $border-color: $bpk-surface-highlight-day
 ) {
   border: $bpk-one-pixel-rem solid $border-color;
   background-color: $background-color;

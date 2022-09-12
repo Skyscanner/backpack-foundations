@@ -159,7 +159,7 @@ module.exports = {
   marcommsBlueMuted: "rgb(217, 248, 255)",
   marcommsEcoGreen: "rgb(15, 161, 169)",
   autosuggestListBackgroundColor: "rgb(255, 255, 255)",
-  autosuggestListItemActiveBackgroundColor: "rgb(221, 221, 229)",
+  autosuggestListItemActiveBackgroundColor: "rgb(241, 242, 248)",
   autosuggestListItemHighlightedBackgroundColor: "rgb(241, 242, 248)",
   badgePaddingY: ".25rem",
   badgePaddingX: ".5rem",
