@@ -1,3 +1,18 @@
+# 2022-09-12
+
+**Changed:**
+
+- bpk-foundations-web: 9.4.0 => 9.5.0
+  - Changed background colour of autosuggest list item token `$bpk-autosuggest-list-item-active-background-color`
+
+**Added:**
+
+- `@skyscanner/bpk-foundations-android: 4.1.1 => 4.2.0`<br />
+- `@skyscanner/bpk-foundations-ios: 3.1.1 => 3.2.0`<br />
+- `@skyscanner/bpk-foundations-react-native: 2.1.1 => 2.2.0`<br />
+- `@skyscanner/bpk-foundations-web: 9.4.0 => 9.5.0`<br />
+  - Added private tokens for chip colours
+
 # 2022-09-09
 
 **Added:**
