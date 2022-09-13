@@ -92,7 +92,7 @@
       "type": "size"
     },
     "SELECT_BORDER": {
-      "value": "solid {!ONE_PIXEL_REM} {!GREY_20}",
+      "value": "solid {!ONE_PIXEL_REM} {!GREY_30}",
       "type": "border"
     },
     "SELECT_BORDER_RADIUS": {

@@ -401,7 +401,7 @@ module.exports = {
   selectPaddingRight: "1.875rem",
   selectLargeHeight: "2.625rem + .375rem",
   inputColor: "rgb(17, 18, 54)",
-  selectBorder: "solid .0625rem #DDDDE5",
+  selectBorder: "solid .0625rem #CDCDD7",
   inputBorderRadius: ".25rem",
   radioCheckedCircleColor: "rgb(7, 112, 227)",
   selectDisabledBorderColor: "rgb(221, 221, 229)",

@@ -3231,9 +3231,9 @@
     },
     "SELECT_BORDER": {
       "category": "forms",
-      "value": "solid .0625rem #DDDDE5",
+      "value": "solid .0625rem #CDCDD7",
       "type": "border",
-      "originalValue": "solid {!ONE_PIXEL_REM} {!GREY_20}",
+      "originalValue": "solid {!ONE_PIXEL_REM} {!GREY_30}",
       "name": "SELECT_BORDER"
     },
     "INPUT_BORDER_RADIUS": {
