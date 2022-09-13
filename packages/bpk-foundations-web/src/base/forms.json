@@ -92,7 +92,7 @@
       "type": "size"
     },
     "SELECT_BORDER": {
-      "value": "solid {!ONE_PIXEL_REM} {!SKY_GRAY_TINT_04}",
+      "value": "solid {!ONE_PIXEL_REM} {!GREY_30}",
       "type": "border"
     },
     "SELECT_BORDER_RADIUS": {
@@ -100,15 +100,15 @@
       "type": "radius"
     },
     "SELECT_COLOR": {
-      "value": "{!SKY_GRAY}",
+      "value": "{!CHARCOAL}",
       "type": "color"
     },
     "SELECT_DISABLED_BORDER_COLOR": {
-      "value": "{!SKY_GRAY_TINT_07}",
+      "value": "{!GREY_20}",
       "type": "color"
     },
     "SELECT_DISABLED_COLOR": {
-      "value": "{!SKY_GRAY_TINT_04}",
+      "value": "{!BLACK_ALPHA_20}",
       "type": "color"
     },
     "SELECT_LARGE_HEIGHT": {
