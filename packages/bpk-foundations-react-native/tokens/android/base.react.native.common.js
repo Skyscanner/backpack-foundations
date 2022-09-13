@@ -157,7 +157,7 @@ module.exports = {
   marcommsEcoGreen: "rgb(15, 161, 169)",
   privateChipOnDarkNormalBackgroundDay: "rgba(255, 255, 255, 0.2)",
   privateChipOnDarkPressedBackgroundNight: "rgb(0, 40, 84)",
-  privateChipOnDarkOnBackgroundNight: "rgb(11, 18, 29)",
+  privateChipOnDarkOnBackgroundNight: "rgb(5, 65, 132)",
   privateChipOnDarkPressedBackgroundDay: "rgb(198, 204, 212)",
   privateChipDefaultNormalBackgroundNight: "rgb(11, 18, 29)",
   privateChipOnDarkOnBackgroundDay: "rgb(255, 255, 255)",
