@@ -565,7 +565,7 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-checkbox--white {
-  color: $bpk-color-white;
+  color: $bpk-surface-default-day;
 }
 
 /// Disabled form checkbox. Modifies the bpk-checkbox mixin.
@@ -595,7 +595,7 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-checkbox--invalid {
   input[type='checkbox'] {
-    border: ($bpk-one-pixel-rem * 3) solid $bpk-color-panjin;
+    border: ($bpk-one-pixel-rem * 3) solid $bpk-text-error-day;
   }
 }
 
@@ -613,7 +613,7 @@ $bpk-spacing-v2: true;
     content: '';
     transform: rotate(45deg);
     border-radius: $bpk-border-size-lg;
-    background-color: $bpk-color-white;
+    background-color: $bpk-text-primary-inverse-day;
   }
 
   &::before {
@@ -633,7 +633,7 @@ $bpk-spacing-v2: true;
   &:disabled {
     &::before,
     &::after {
-      background-color: $bpk-color-sky-gray-tint-04;
+      background-color: $bpk-text-disabled-day;
     }
   }
 }
@@ -655,7 +655,7 @@ $bpk-spacing-v2: true;
   height: $checkbox-input-size;
   margin: 0;
   padding: 0;
-  border: ($bpk-one-pixel-rem * 3) solid $bpk-color-sky-gray-tint-03;
+  border: ($bpk-one-pixel-rem * 3) solid $bpk-text-secondary-day;
   border-radius: ($bpk-one-pixel-rem * 4);
   cursor: pointer;
   vertical-align: text-bottom;
@@ -676,16 +676,16 @@ $bpk-spacing-v2: true;
     @include bpk-themeable-property(
       background-color,
       --bpk-checkbox-checked-color,
-      $bpk-color-sky-blue
+      $bpk-core-accent-day
     );
     @include bpk-themeable-property(
       border-color,
       --bpk-checkbox-checked-color,
-      $bpk-color-sky-blue
+      $bpk-core-accent-day
     );
 
     &:disabled {
-      border-color: $bpk-color-sky-gray-tint-04;
+      border-color: $bpk-text-disabled-day;
       background: none;
     }
   }
@@ -695,7 +695,7 @@ $bpk-spacing-v2: true;
   }
 
   &:disabled {
-    border-color: $bpk-color-sky-gray-tint-04;
+    border-color: $bpk-text-disabled-day;
   }
 }
 
@@ -753,10 +753,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-radio--white {
-  color: $bpk-color-white;
+  color: $bpk-text-primary-inverse-day;
 
   input[type='radio'] {
-    background: $bpk-color-white;
+    background: $bpk-text-primary-inverse-day;
   }
 }
 
@@ -772,7 +772,7 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-radio--invalid {
   input[type='radio'] {
-    @include _bpk-radio-border($bpk-color-panjin);
+    @include _bpk-radio-border($bpk-text-error-day);
   }
 }
 
@@ -797,7 +797,7 @@ $bpk-spacing-v2: true;
   vertical-align: text-bottom;
   appearance: none;
 
-  @include _bpk-radio-border($bpk-color-sky-gray-tint-03);
+  @include _bpk-radio-border($bpk-text-secondary-day);
 
   @include bpk-rtl {
     right: 0;
@@ -817,12 +817,12 @@ $bpk-spacing-v2: true;
     );
 
     &:disabled {
-      border-color: $bpk-color-sky-gray-tint-04;
+      border-color: $bpk-text-disabled-day;
     }
   }
 
   &:disabled {
-    border-color: $bpk-color-sky-gray-tint-04;
+    border-color: $bpk-text-disabled-day;
   }
 }
 
