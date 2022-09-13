@@ -1473,8 +1473,8 @@
     "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "chip-colors",
-      "value": "rgb(11, 18, 29)",
-      "originalValue": "#0B121D",
+      "value": "rgb(5, 65, 132)",
+      "originalValue": "#054184",
       "name": "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT"
     },
     "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY": {

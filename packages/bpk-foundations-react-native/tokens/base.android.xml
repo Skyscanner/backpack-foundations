@@ -138,7 +138,7 @@
   <color name="MARCOMMS_ECO_GREEN" category="marcomms-colors">#0fa1a9ff</color>
   <color name="PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY" category="chip-colors">#ffffff33</color>
   <color name="PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT" category="chip-colors">#002854ff</color>
-  <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
+  <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT" category="chip-colors">#054184ff</color>
   <color name="PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY" category="chip-colors">#c6ccd4ff</color>
   <color name="PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY" category="chip-colors">#ffffffff</color>

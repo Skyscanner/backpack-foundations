@@ -156,7 +156,7 @@ export const marcommsBlueMuted = "rgb(217, 248, 255)";
 export const marcommsEcoGreen = "rgb(15, 161, 169)";
 export const privateChipOnDarkNormalBackgroundDay = "rgba(255, 255, 255, 0.2)";
 export const privateChipOnDarkPressedBackgroundNight = "rgb(0, 40, 84)";
-export const privateChipOnDarkOnBackgroundNight = "rgb(11, 18, 29)";
+export const privateChipOnDarkOnBackgroundNight = "rgb(5, 65, 132)";
 export const privateChipOnDarkPressedBackgroundDay = "rgb(198, 204, 212)";
 export const privateChipDefaultNormalBackgroundNight = "rgb(11, 18, 29)";
 export const privateChipOnDarkOnBackgroundDay = "rgb(255, 255, 255)";
@@ -339,7 +339,7 @@ export const privateChipOnPressedBackgroundNight = {
  dark: "rgb(0, 40, 84)",
 };
 export const privateChipOnOnBackgroundNight = {
- dark: "rgb(11, 18, 29)",
+ dark: "rgb(5, 65, 132)",
 };
 export const privateChipOnPressedBackgroundDay = {
  dark: "rgb(198, 204, 212)",

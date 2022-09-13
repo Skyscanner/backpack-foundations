@@ -2053,8 +2053,8 @@
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#0b121dff",
-      "originalValue": "#0B121D",
+      "value": "#054184ff",
+      "originalValue": "#054184",
       "name": "privateChipOnDarkOnBackgroundNight"
     },
     {
@@ -2949,8 +2949,8 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "privateChipOnDarkOnBackgroundColor",
-      "darkValue": "#0b121dff",
-      "originalDarkValue": "#0B121D"
+      "darkValue": "#054184ff",
+      "originalDarkValue": "#054184"
     },
     {
       "type": "color",
