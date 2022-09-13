@@ -338,8 +338,8 @@ $bpk-spacing-v2: true;
   padding-right: bpk-spacing-xl();
   border: $bpk-select-border;
   border-radius: $bpk-select-border-radius;
-  background: $bpk-color-white
-    url(map-get($bpk-icons-sm, arrow-down-sky-gray-tint-01)) no-repeat right
+  background: $bpk-surface-default-day
+    url(map-get($bpk-icons-sm, arrow-down-charcoal)) no-repeat right
     bpk-spacing-md() center;
   background-size: $bpk-input-height / 2;
   color: $bpk-select-color;
@@ -361,8 +361,8 @@ $bpk-spacing-v2: true;
 
   &:disabled {
     border-color: $bpk-select-disabled-border-color;
-    background: $bpk-color-white
-      url(map-get($bpk-icons-sm, arrow-down-sky-gray-tint-04)) no-repeat right
+    background: $bpk-surface-default-day
+      url(map-get($bpk-icons-sm, arrow-down-black-alpha-20)) no-repeat right
       bpk-spacing-md() center;
     background-size: $bpk-input-height / 2;
     color: $bpk-select-disabled-color;
@@ -384,8 +384,8 @@ $bpk-spacing-v2: true;
   height: $bpk-input-large-height;
   padding: bpk-spacing-md() bpk-spacing-xxl() bpk-spacing-md()
     bpk-spacing-base();
-  background: $bpk-color-white
-    url(map-get($bpk-icons-sm, arrow-down-sky-gray-tint-01)) no-repeat right
+  background: $bpk-surface-default-day
+    url(map-get($bpk-icons-sm, arrow-down-charcoal)) no-repeat right
     bpk-spacing-base() center;
 
   @include bpk-rtl {
@@ -490,8 +490,8 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-select--invalid {
   padding-right: bpk-spacing-xl();
-  background: $bpk-color-white
-    url(map-get($bpk-icons-sm, arrow-down-sky-gray-tint-01)) no-repeat right
+  background: $bpk-surface-default-day
+    url(map-get($bpk-icons-sm, arrow-down-charcoal)) no-repeat right
     bpk-spacing-md() center;
   background-size: $bpk-input-height / 2;
 

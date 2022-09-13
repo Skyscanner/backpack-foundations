@@ -3109,7 +3109,7 @@
       "category": "forms",
       "value": "rgb(17, 18, 54)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY}",
+      "originalValue": "{!CHARCOAL}",
       "name": "SELECT_COLOR"
     },
     "INPUT_BORDER": {
@@ -3152,7 +3152,7 @@
       "category": "forms",
       "value": "rgb(178, 178, 191)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_04}",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "SELECT_DISABLED_COLOR"
     },
     "REQUIRED_COLOR": {
@@ -3231,9 +3231,9 @@
     },
     "SELECT_BORDER": {
       "category": "forms",
-      "value": "solid .0625rem #B2B2BF",
+      "value": "solid .0625rem #DDDDE5",
       "type": "border",
-      "originalValue": "solid {!ONE_PIXEL_REM} {!SKY_GRAY_TINT_04}",
+      "originalValue": "solid {!ONE_PIXEL_REM} {!GREY_20}",
       "name": "SELECT_BORDER"
     },
     "INPUT_BORDER_RADIUS": {
@@ -3252,9 +3252,9 @@
     },
     "SELECT_DISABLED_BORDER_COLOR": {
       "category": "forms",
-      "value": "rgb(241, 242, 248)",
+      "value": "rgb(221, 221, 229)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "originalValue": "{!GREY_20}",
       "name": "SELECT_DISABLED_BORDER_COLOR"
     },
     "INPUT_DISABLED_COLOR": {
