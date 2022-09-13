@@ -2,6 +2,17 @@
 
 **Changed:**
 
+- bpk-foundations-web: 9.5.1 => 9.6.0
+    - Update select tokens `$bpk-select-border` and `$bpk-select-disabled-border-color` to use semantic colour tokens
+
+- bpk-mixins: 31.6.8 => 31.7.0
+    - Update select mixins `bpk-select`, `bpk-select--large`, `bpk-select--invalid` to use semantic colour tokens
+    - Updated Radio and Checkbox mixins to use new semantic tokens.
+
+# 2022-09-13
+
+**Changed:**
+
 - `@skyscanner/bpk-foundations-android: 4.2.0 => 4.2.1`<br />
 - `@skyscanner/bpk-foundations-ios: 3.2.0 => 3.2.1`<br />
 - `@skyscanner/bpk-foundations-react-native: 2.2.0 => 2.2.1`<br />
