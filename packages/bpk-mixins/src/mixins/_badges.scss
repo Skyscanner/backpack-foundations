@@ -35,13 +35,12 @@
   padding: $bpk-badge-padding-y $bpk-badge-padding-x;
   align-items: center;
   color: $bpk-text-primary-day;
-  
+
   @include bpk-themeable-property(
     background-color,
     --bpk-badge-background-color,
     $bpk-badge-background-color
   );
-
   @include bpk-border-radius-xs;
   @include bpk-text;
   @include bpk-caption;
