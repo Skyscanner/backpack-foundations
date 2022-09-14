@@ -34,7 +34,7 @@
   display: inline-flex;
   padding: $bpk-badge-padding-y $bpk-badge-padding-x;
   align-items: center;
-  color: $bpk-text-primary-day;
+  color: $bpk-text-on-light-day;
 
   @include bpk-themeable-property(
     background-color,
@@ -167,6 +167,8 @@
 
 @mixin bpk-badge--light {
   background-color: $bpk-surface-highlight-day;
+  color: $bpk-text-primary-day;
+  fill: $bpk-text-primary-day;
 }
 
 /// Inverse badge. Modifies the bpk-badge mixin.
@@ -181,6 +183,8 @@
 
 @mixin bpk-badge--inverse {
   background-color: $bpk-surface-default-day;
+  color: $bpk-text-primary-day;
+  fill: $bpk-text-primary-day;
 }
 
 /// Outline badge. Modifies the bpk-badge mixin.
