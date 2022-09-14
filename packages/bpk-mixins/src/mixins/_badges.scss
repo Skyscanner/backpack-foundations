@@ -34,13 +34,14 @@
   display: inline-flex;
   padding: $bpk-badge-padding-y $bpk-badge-padding-x;
   align-items: center;
-  color: $bpk-font-color-base;
-
+  color: $bpk-text-primary-day;
+  
   @include bpk-themeable-property(
     background-color,
     --bpk-badge-background-color,
     $bpk-badge-background-color
   );
+
   @include bpk-border-radius-xs;
   @include bpk-text;
   @include bpk-caption;
@@ -133,7 +134,7 @@
   @include bpk-themeable-property(
     background-color,
     --bpk-badge-success-background-color,
-    $bpk-color-glencoe
+    $bpk-status-success-fill-day
   );
 }
 
@@ -148,13 +149,10 @@
 ///   }
 
 @mixin bpk-badge--destructive {
-  color: $bpk-color-white;
-  fill: $bpk-color-white;
-
   @include bpk-themeable-property(
     background-color,
     --bpk-badge-destructive-background-color,
-    $bpk-color-panjin
+    $bpk-status-danger-fill-day
   );
 }
 
@@ -169,8 +167,7 @@
 ///   }
 
 @mixin bpk-badge--light {
-  background-color: $bpk-color-sky-gray-tint-07;
-  fill: $bpk-color-sky-gray;
+  background-color: $bpk-surface-highlight-day;
 }
 
 /// Inverse badge. Modifies the bpk-badge mixin.
@@ -184,8 +181,7 @@
 ///   }
 
 @mixin bpk-badge--inverse {
-  background-color: $bpk-color-white;
-  fill: $bpk-color-sky-gray;
+  background-color: $bpk-surface-default-day;
 }
 
 /// Outline badge. Modifies the bpk-badge mixin.
@@ -200,9 +196,9 @@
 
 @mixin bpk-badge--outline {
   background-color: transparent;
-  color: $bpk-color-white;
-  box-shadow: inset 0 0 0 $bpk-border-size-sm $bpk-color-white;
-  fill: $bpk-color-white;
+  color: $bpk-text-on-dark-day;
+  box-shadow: inset 0 0 0 $bpk-border-size-sm $bpk-text-on-dark-day;
+  fill: $bpk-text-on-dark-day;
 }
 
 /// Strong badge. Modifies the bpk-badge mixin.
@@ -216,7 +212,7 @@
 ///   }
 
 @mixin bpk-badge--strong {
-  background-color: $bpk-color-sky-blue-shade-03;
-  color: $bpk-color-white;
-  fill: $bpk-color-white;
+  background-color: $bpk-core-primary-day;
+  color: $bpk-text-primary-inverse-day;
+  fill: $bpk-text-primary-inverse-day;
 }
