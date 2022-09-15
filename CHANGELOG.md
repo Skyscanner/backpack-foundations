@@ -1,3 +1,13 @@
+# 2022-09-15
+
+**Breaking:**
+
+- bpk-foundations-web: 9.6.0 => 10.0.0
+    - Update badge token `$bpk-badge-background-color` to use semantic colour tokens
+
+- bpk-mixins: 31.7.0 => 32.0.0
+    - Update Badge mixins to use new semantic tokens
+
 # 2022-09-13
 
 **Changed:**
