@@ -177,7 +177,7 @@ module.exports = {
   autosuggestListItemHighlightedBackgroundColor: "rgb(241, 242, 248)",
   badgePaddingY: ".25rem",
   badgePaddingX: ".5rem",
-  badgeBackgroundColor: "rgb(255, 181, 77)",
+  badgeBackgroundColor: "rgb(255, 235, 208)",
   badgeCenteredVerticalAlign: "text-bottom",
   borderRadiusXs: ".25rem",
   borderRadiusSm: ".375rem",
