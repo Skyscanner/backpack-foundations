@@ -15,7 +15,7 @@
       "type": "size"
     },
     "BADGE_BACKGROUND_COLOR": {
-      "value": "{!YELLOW_MUTED}",
+      "value": "{!AMBER_SPOT}",
       "type": "color"
     },
     "BADGE_CENTERED_VERTICAL_ALIGN": {
