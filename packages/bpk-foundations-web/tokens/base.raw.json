@@ -3522,9 +3522,9 @@
     },
     "BANNER_ALERT_WARN_COLOR": {
       "category": "notifications",
-      "value": "rgb(255, 181, 77)",
+      "value": "rgb(255, 148, 0)",
       "type": "color",
-      "originalValue": "{!ERFOUD}",
+      "originalValue": "{!AMBER_SPOT}",
       "name": "BANNER_ALERT_WARN_COLOR"
     },
     "BANNER_ALERT_CHILDREN_PADDING_Y": {
@@ -3538,7 +3538,7 @@
       "category": "notifications",
       "value": "rgb(241, 242, 248)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_07}",
+      "originalValue": "{!GREY_10}",
       "name": "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR"
     },
     "BANNER_ALERT_BACKGROUND_COLOR": {
@@ -3552,6 +3552,7 @@
       "category": "notifications",
       "value": "rgb(90, 72, 155)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!ABISKO}",
       "name": "BANNER_ALERT_EVENT_COLOR"
     },
@@ -3582,42 +3583,42 @@
       "category": "notifications",
       "value": "rgb(0, 166, 152)",
       "type": "color",
-      "originalValue": "{!MONTEVERDE}",
+      "originalValue": "{!GREEN_SPOT}",
       "name": "BANNER_ALERT_SUCCESS_COLOR"
     },
     "BANNER_ALERT_NEUTRAL_COLOR": {
       "category": "notifications",
-      "value": "rgb(104, 105, 127)",
+      "value": "rgb(205, 205, 215)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_02}",
+      "originalValue": "{!GREY_30}",
       "name": "BANNER_ALERT_NEUTRAL_COLOR"
     },
     "BANNER_ALERT_ERROR_COLOR": {
       "category": "notifications",
       "value": "rgb(209, 67, 91)",
       "type": "color",
-      "originalValue": "{!PANJIN}",
+      "originalValue": "{!BERRY}",
       "name": "BANNER_ALERT_ERROR_COLOR"
     },
     "BANNER_ALERT_CHILDREN_COLOR": {
       "category": "notifications",
       "value": "rgb(104, 105, 127)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_02}",
+      "originalValue": "{!GREY_40}",
       "name": "BANNER_ALERT_CHILDREN_COLOR"
     },
     "BANNER_ALERT_EXPAND_ICON_FILL": {
       "category": "notifications",
-      "value": "rgb(68, 69, 96)",
+      "value": "rgb(104, 105, 127)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_01}",
+      "originalValue": "{!GREY_40}",
       "name": "BANNER_ALERT_EXPAND_ICON_FILL"
     },
     "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR": {
       "category": "notifications",
-      "value": "rgb(221, 221, 229)",
+      "value": "rgb(241, 242, 248)",
       "type": "color",
-      "originalValue": "{!SKY_GRAY_TINT_06}",
+      "originalValue": "{!GREY_10}",
       "name": "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR"
     },
     "PANEL_PADDING": {

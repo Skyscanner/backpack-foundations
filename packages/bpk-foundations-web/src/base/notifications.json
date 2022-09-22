@@ -21,11 +21,11 @@
       "deprecated": true
     },
     "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR": {
-      "value": "{!SKY_GRAY_TINT_07}",
+      "value": "{!GREY_10}",
       "type": "color"
     },
     "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR": {
-      "value": "{!SKY_GRAY_TINT_06}",
+      "value": "{!GREY_10}",
       "type": "color"
     },
     "BANNER_ALERT_PRIMARY_COLOR": {
@@ -33,27 +33,28 @@
       "type": "color"
     },
     "BANNER_ALERT_SUCCESS_COLOR": {
-      "value": "{!MONTEVERDE}",
+      "value": "{!GREEN_SPOT}",
       "type": "color"
     },
     "BANNER_ALERT_WARN_COLOR": {
-      "value": "{!ERFOUD}",
+      "value": "{!AMBER_SPOT}",
       "type": "color"
     },
     "BANNER_ALERT_ERROR_COLOR": {
-      "value": "{!PANJIN}",
+      "value": "{!BERRY}",
       "type": "color"
     },
     "BANNER_ALERT_NEUTRAL_COLOR": {
-      "value": "{!SKY_GRAY_TINT_02}",
+      "value": "{!GREY_30}",
       "type": "color"
     },
     "BANNER_ALERT_EVENT_COLOR": {
       "value": "{!ABISKO}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "BANNER_ALERT_EXPAND_ICON_FILL": {
-      "value": "{!SKY_GRAY_TINT_01}",
+      "value": "{!GREY_40}",
       "type": "color"
     },
     "BANNER_ALERT_CHILDREN_PADDING_Y": {
@@ -65,7 +66,7 @@
       "type": "size"
     },
     "BANNER_ALERT_CHILDREN_COLOR": {
-      "value": "{!SKY_GRAY_TINT_02}",
+      "value": "{!GREY_40}",
       "type": "color"
     }
   }
