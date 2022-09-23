@@ -1,3 +1,19 @@
+# 2022-09-23
+
+**Changed:**
+
+- bpk-foundations-web: 10.0.0 => 10.2.0
+    - Update banner alert tokens to use semantic colour tokens
+    - Deprecate `$bpk-banner-alert-event-color` token
+
+**Added:**
+
+- `@skyscanner/bpk-foundations-android:` 4.2.1 => 4.3.0 <br />
+- `@skyscanner/bpk-foundations-ios:` 3.2.1 => 3.3.0 <br />
+- `@skyscanner/bpk-foundations-react-native:` 2.2.1 => 2.3.0 <br />
+- `@skyscanner/bpk-foundations-web:` 10.0.0 => 10.2.0 <br />
+  - Added private tokens for button colours
+
 # 2022-09-15
 
 **Breaking:**
