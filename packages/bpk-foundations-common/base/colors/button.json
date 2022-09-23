@@ -125,6 +125,12 @@
       "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_NIGHT": {
         "value": "#243346"
       },
+      "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY": {
+        "value": "#D8085F"
+      },
+      "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_NIGHT": {
+        "value": "#FF649C"
+      },
       "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_DAY": {
         "value": "#E70866"
       },

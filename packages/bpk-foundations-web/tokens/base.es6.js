@@ -184,6 +184,7 @@ export const privateButtonSecondaryPressedBackgroundDay = "rgb(198, 204, 212)";
 export const privateButtonLinkNormalForegroundDay = "rgb(0, 98, 227)";
 export const privateButtonPrimaryOnDarkLoadingBackgroundDay = "rgb(203, 206, 210)";
 export const privateButtonPrimaryOnLightLoadingBackgroundNight = "rgb(21, 70, 121)";
+export const privateButtonDestructiveNormalForegroundNight = "rgb(255, 100, 156)";
 export const privateButtonLinkOnDarkDisabledForegroundDay = "rgba(255, 255, 255, 0.5)";
 export const privateButtonSecondaryLoadingBackgroundNight = "rgb(1, 9, 19)";
 export const privateButtonSecondaryNormalBackgroundDay = "rgb(224, 227, 229)";
@@ -194,6 +195,7 @@ export const privateButtonPrimaryOnLightLoadingBackgroundDay = "rgb(21, 70, 121)
 export const privateButtonSecondaryOnDarkPressedBackgroundNight = "rgb(1, 9, 19)";
 export const privateButtonSecondaryLoadingBackgroundDay = "rgb(198, 204, 212)";
 export const privateButtonFeaturedLoadingBackgroundNight = "rgb(209, 247, 255)";
+export const privateButtonDestructiveNormalForegroundDay = "rgb(216, 8, 95)";
 export const privateButtonPrimaryOnDarkNormalBackgroundDay = "rgb(255, 255, 255)";
 export const privateButtonLinkPressedForegroundNight = "rgb(209, 247, 255)";
 export const privateButtonSecondaryOnDarkPressedBackgroundDay = "rgb(1, 9, 19)";
@@ -716,6 +718,7 @@ privateButtonSecondaryPressedBackgroundDay,
 privateButtonLinkNormalForegroundDay,
 privateButtonPrimaryOnDarkLoadingBackgroundDay,
 privateButtonPrimaryOnLightLoadingBackgroundNight,
+privateButtonDestructiveNormalForegroundNight,
 privateButtonLinkOnDarkDisabledForegroundDay,
 privateButtonSecondaryLoadingBackgroundNight,
 privateButtonSecondaryNormalBackgroundDay,
@@ -726,6 +729,7 @@ privateButtonPrimaryOnLightLoadingBackgroundDay,
 privateButtonSecondaryOnDarkPressedBackgroundNight,
 privateButtonSecondaryLoadingBackgroundDay,
 privateButtonFeaturedLoadingBackgroundNight,
+privateButtonDestructiveNormalForegroundDay,
 privateButtonPrimaryOnDarkNormalBackgroundDay,
 privateButtonLinkPressedForegroundNight,
 privateButtonSecondaryOnDarkPressedBackgroundDay,

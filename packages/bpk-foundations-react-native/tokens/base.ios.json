@@ -1046,6 +1046,12 @@
     {
       "type": "color",
       "category": "button-colors",
+      "value": "#ff649cff",
+      "name": "privateButtonDestructiveNormalForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
       "value": "#ffffff80",
       "name": "privateButtonLinkOnDarkDisabledForegroundDay"
     },
@@ -1102,6 +1108,12 @@
       "category": "button-colors",
       "value": "#d1f7ffff",
       "name": "privateButtonFeaturedLoadingBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#d8085fff",
+      "name": "privateButtonDestructiveNormalForegroundDay"
     },
     {
       "type": "color",
@@ -2276,6 +2288,13 @@
       "value": "#154679ff",
       "name": "privateButtonPrimaryOnLightLoadingBackgroundColor",
       "darkValue": "#154679ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#d8085fff",
+      "name": "privateButtonDestructiveNormalForegroundColor",
+      "darkValue": "#ff649cff"
     },
     {
       "type": "color",
