@@ -960,6 +960,354 @@
       "name": "privateChipOnDarkNormalBackgroundNight"
     },
     {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#010913ff",
+      "name": "privateButtonSecondaryPressedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#84e9ffff",
+      "name": "privateButtonLinkNormalForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffff80",
+      "name": "privateButtonLinkOnDarkLoadingForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#cbced2ff",
+      "name": "privateButtonPrimaryOnDarkLoadingBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffff80",
+      "name": "privateButtonLinkOnDarkDisabledForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#243346ff",
+      "name": "privateButtonSecondaryNormalBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryOnLightPressedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#0062e3ff",
+      "name": "privateButtonFeaturedNormalBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#d1f7ffff",
+      "name": "privateButtonFeaturedPressedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#05203cff",
+      "name": "privateButtonPrimaryOnLightNormalBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#c6ccd4ff",
+      "name": "privateButtonSecondaryPressedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#0062e3ff",
+      "name": "privateButtonLinkNormalForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#cbced2ff",
+      "name": "privateButtonPrimaryOnDarkLoadingBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryOnLightLoadingBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffff80",
+      "name": "privateButtonLinkOnDarkDisabledForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#010913ff",
+      "name": "privateButtonSecondaryLoadingBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e0e3e5ff",
+      "name": "privateButtonSecondaryNormalBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#05203cff",
+      "name": "privateButtonPrimaryOnLightNormalBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffffff",
+      "name": "privateButtonPrimaryOnDarkNormalBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#084eb2ff",
+      "name": "privateButtonFeaturedPressedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryOnLightLoadingBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#010913ff",
+      "name": "privateButtonSecondaryOnDarkPressedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#c6ccd4ff",
+      "name": "privateButtonSecondaryLoadingBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#d1f7ffff",
+      "name": "privateButtonFeaturedLoadingBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffffff",
+      "name": "privateButtonPrimaryOnDarkNormalBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#d1f7ffff",
+      "name": "privateButtonLinkPressedForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#010913ff",
+      "name": "privateButtonSecondaryOnDarkPressedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e0e3e5ff",
+      "name": "privateButtonFeaturedLoadingBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#010913ff",
+      "name": "privateButtonSecondaryOnDarkLoadingBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonLinkPressedForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#243346ff",
+      "name": "privateButtonDestructiveNormalBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#054184ff",
+      "name": "privateButtonPrimaryNormalBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ff649cff",
+      "name": "privateButtonDestructivePressedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryPressedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#00000033",
+      "name": "privateButtonLinkLoadingForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#010913ff",
+      "name": "privateButtonSecondaryOnDarkLoadingBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#05203cff",
+      "name": "privateButtonPrimaryNormalBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e0e3e5ff",
+      "name": "privateButtonDestructiveNormalBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffff80",
+      "name": "privateButtonLinkOnDarkPressedForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e70866ff",
+      "name": "privateButtonDestructivePressedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryPressedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffffff",
+      "name": "privateButtonLinkOnDarkNormalForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#00000033",
+      "name": "privateButtonLinkLoadingForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ff649cff",
+      "name": "privateButtonDestructiveLoadingBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryLoadingBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#0b111aff",
+      "name": "privateButtonDisabledBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#243346ff",
+      "name": "privateButtonSecondaryOnDarkNormalBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffff80",
+      "name": "privateButtonLinkOnDarkPressedForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#cbced2ff",
+      "name": "privateButtonPrimaryOnDarkPressedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffffff",
+      "name": "privateButtonLinkOnDarkNormalForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryLoadingBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e70866ff",
+      "name": "privateButtonDestructiveLoadingBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffff80",
+      "name": "privateButtonLinkOnDarkLoadingForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#dde1e4ff",
+      "name": "privateButtonDisabledBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#243346ff",
+      "name": "privateButtonSecondaryOnDarkNormalBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#cbced2ff",
+      "name": "privateButtonPrimaryOnDarkPressedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryOnLightPressedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#84e9ffff",
+      "name": "privateButtonFeaturedNormalBackgroundNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -1851,6 +2199,209 @@
       "value": "#c6ccd4ff",
       "name": "privateChipDefaultPressedBackgroundColor",
       "darkValue": "#002854ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#c6ccd4ff",
+      "name": "privateButtonSecondaryPressedBackgroundColor",
+      "darkValue": "#010913ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#0062e3ff",
+      "name": "privateButtonLinkNormalForegroundColor",
+      "darkValue": "#84e9ffff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffff80",
+      "name": "privateButtonLinkOnDarkLoadingForegroundColor",
+      "darkValue": "#ffffff80"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#cbced2ff",
+      "name": "privateButtonPrimaryOnDarkLoadingBackgroundColor",
+      "darkValue": "#cbced2ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffff80",
+      "name": "privateButtonLinkOnDarkDisabledForegroundColor",
+      "darkValue": "#ffffff80"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e0e3e5ff",
+      "name": "privateButtonSecondaryNormalBackgroundColor",
+      "darkValue": "#243346ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryOnLightPressedBackgroundColor",
+      "darkValue": "#154679ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#0062e3ff",
+      "name": "privateButtonFeaturedNormalBackgroundColor",
+      "darkValue": "#84e9ffff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#084eb2ff",
+      "name": "privateButtonFeaturedPressedBackgroundColor",
+      "darkValue": "#d1f7ffff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#05203cff",
+      "name": "privateButtonPrimaryOnLightNormalBackgroundColor",
+      "darkValue": "#05203cff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryOnLightLoadingBackgroundColor",
+      "darkValue": "#154679ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#c6ccd4ff",
+      "name": "privateButtonSecondaryLoadingBackgroundColor",
+      "darkValue": "#010913ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffffff",
+      "name": "privateButtonPrimaryOnDarkNormalBackgroundColor",
+      "darkValue": "#ffffffff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#010913ff",
+      "name": "privateButtonSecondaryOnDarkPressedBackgroundColor",
+      "darkValue": "#010913ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e0e3e5ff",
+      "name": "privateButtonFeaturedLoadingBackgroundColor",
+      "darkValue": "#d1f7ffff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonLinkPressedForegroundColor",
+      "darkValue": "#d1f7ffff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#010913ff",
+      "name": "privateButtonSecondaryOnDarkLoadingBackgroundColor",
+      "darkValue": "#010913ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e0e3e5ff",
+      "name": "privateButtonDestructiveNormalBackgroundColor",
+      "darkValue": "#243346ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#05203cff",
+      "name": "privateButtonPrimaryNormalBackgroundColor",
+      "darkValue": "#054184ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e70866ff",
+      "name": "privateButtonDestructivePressedBackgroundColor",
+      "darkValue": "#ff649cff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryPressedBackgroundColor",
+      "darkValue": "#154679ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#00000033",
+      "name": "privateButtonLinkLoadingForegroundColor",
+      "darkValue": "#00000033"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffff80",
+      "name": "privateButtonLinkOnDarkPressedForegroundColor",
+      "darkValue": "#ffffff80"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#ffffffff",
+      "name": "privateButtonLinkOnDarkNormalForegroundColor",
+      "darkValue": "#ffffffff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#e70866ff",
+      "name": "privateButtonDestructiveLoadingBackgroundColor",
+      "darkValue": "#ff649cff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#154679ff",
+      "name": "privateButtonPrimaryLoadingBackgroundColor",
+      "darkValue": "#154679ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#dde1e4ff",
+      "name": "privateButtonDisabledBackgroundColor",
+      "darkValue": "#0b111aff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#243346ff",
+      "name": "privateButtonSecondaryOnDarkNormalBackgroundColor",
+      "darkValue": "#243346ff"
+    },
+    {
+      "type": "color",
+      "category": "button-colors",
+      "value": "#cbced2ff",
+      "name": "privateButtonPrimaryOnDarkPressedBackgroundColor",
+      "darkValue": "#cbced2ff"
     }
   ]
 }
