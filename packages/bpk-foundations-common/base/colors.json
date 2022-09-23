@@ -8,6 +8,7 @@
     "./colors/text.json",
     "./colors/other.json",
     "./colors/marcomms.json",
-    "./colors/chip.json"
+    "./colors/chip.json",
+    "./colors/button.json"
   ]
 }

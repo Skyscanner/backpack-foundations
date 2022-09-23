@@ -1,0 +1,190 @@
+{
+    "imports": ["./aliases.json"],
+    "global": {
+      "type": "color",
+      "category": "button-colors"
+    },
+    "props": {
+      "PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY": {
+       "value": "#DDE1E4"
+      },
+      "PRIVATE_BUTTON_DISABLED_BACKGROUND_NIGHT": {
+        "value": "#0B111A"
+      },
+      "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_DAY": {
+        "value": "#05203C"
+      },
+      "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_NIGHT": {
+        "value": "#054184"
+      },
+      "PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_DAY": {
+        "value": "#154679"
+      },
+      "PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_NIGHT": {
+        "value": "#154679"
+      },
+      "PRIVATE_BUTTON_PRIMARY_LOADING_BACKGROUND_DAY": {
+        "value": "#154679"
+      },
+      "PRIVATE_BUTTON_PRIMARY_LOADING_BACKGROUND_NIGHT": {
+        "value": "#154679"
+      },
+      "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY": {
+        "value": "#E0E3E5"
+      },
+      "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_NIGHT": {
+        "value": "#243346"
+      },
+      "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY": {
+        "value": "#C6CCD4"
+      },
+      "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT": {
+        "value": "#010913"
+      },
+      "PRIVATE_BUTTON_SECONDARY_LOADING_BACKGROUND_DAY": {
+        "value": "#C6CCD4"
+      },
+      "PRIVATE_BUTTON_SECONDARY_LOADING_BACKGROUND_NIGHT": {
+        "value": "#010913"
+      },
+      "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_DAY": {
+        "value": "#0062E3"
+      },
+      "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT": {
+        "value": "#84E9FF"
+      },
+      "PRIVATE_BUTTON_FEATURED_PRESSED_BACKGROUND_DAY": {
+        "value": "#084EB2"
+      },
+      "PRIVATE_BUTTON_FEATURED_PRESSED_BACKGROUND_NIGHT": {
+        "value": "#D1F7FF"
+      },
+      "PRIVATE_BUTTON_FEATURED_LOADING_BACKGROUND_DAY": {
+        "value": "#E0E3E5"
+      },
+      "PRIVATE_BUTTON_FEATURED_LOADING_BACKGROUND_NIGHT": {
+        "value": "#D1F7FF"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_DAY": {
+        "value": "#FFFFFF"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
+        "value": "#FFFFFF"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
+        "value": "#CBCED2"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
+        "value": "#CBCED2"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_DARK_LOADING_BACKGROUND_DAY": {
+        "value": "#CBCED2"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_DARK_LOADING_BACKGROUND_NIGHT": {
+        "value": "#CBCED2"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_DAY": {
+        "value": "#05203C"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_NIGHT": {
+        "value": "#05203C"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_DAY": {
+        "value": "#154679"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT": {
+        "value": "#154679"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_LOADING_BACKGROUND_DAY": {
+        "value": "#154679"
+      },
+      "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_LOADING_BACKGROUND_NIGHT": {
+        "value": "#154679"
+      },
+      "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_DAY": {
+        "value": "#243346"
+      },
+      "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
+        "value": "#243346"
+      },
+      "PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
+        "value": "#010913"
+      },
+      "PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
+        "value": "#010913"
+      },
+      "PRIVATE_BUTTON_SECONDARY_ON_DARK_LOADING_BACKGROUND_DAY": {
+        "value": "#010913"
+      },
+      "PRIVATE_BUTTON_SECONDARY_ON_DARK_LOADING_BACKGROUND_NIGHT": {
+        "value": "#010913"
+      },
+      "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY": {
+        "value": "#E0E3E5"
+      },
+      "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_NIGHT": {
+        "value": "#243346"
+      },
+      "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY": {
+        "value": "#D8085F"
+      },
+      "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_NIGHT": {
+        "value": "#FF649C"
+      },
+      "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_DAY": {
+        "value": "#E70866"
+      },
+      "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_NIGHT": {
+        "value": "#FF649C"
+      },
+      "PRIVATE_BUTTON_DESTRUCTIVE_LOADING_BACKGROUND_DAY": {
+        "value": "#E70866"
+      },
+      "PRIVATE_BUTTON_DESTRUCTIVE_LOADING_BACKGROUND_NIGHT": {
+        "value": "#FF649C"
+      },
+      "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_DAY": {
+        "value": "#0062E3"
+      },
+      "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_NIGHT": {
+        "value": "#84E9FF"
+      },
+      "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_DAY": {
+        "value": "#154679"
+      },
+      "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_NIGHT": {
+        "value": "#D1F7FF"
+      },
+      "PRIVATE_BUTTON_LINK_LOADING_FOREGROUND_DAY": {
+        "value": "#00000033"
+      },
+      "PRIVATE_BUTTON_LINK_LOADING_FOREGROUND_NIGHT": {
+        "value": "#00000033"
+      },
+      "PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_DAY": {
+        "value": "#FFFFFF"
+      },
+      "PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_NIGHT": {
+        "value": "#FFFFFF"
+      },
+      "PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_DAY": {
+        "value": "#FFFFFF80"
+      },
+      "PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_NIGHT": {
+        "value": "#FFFFFF80"
+      },
+      "PRIVATE_BUTTON_LINK_ON_DARK_LOADING_FOREGROUND_DAY": {
+        "value": "#FFFFFF80"
+      },
+      "PRIVATE_BUTTON_LINK_ON_DARK_LOADING_FOREGROUND_NIGHT": {
+        "value": "#FFFFFF80"
+      },
+      "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_DAY": {
+        "value": "#FFFFFF80"
+      },
+      "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
+        "value": "#FFFFFF80"
+      }
+    }
+  }
+  
