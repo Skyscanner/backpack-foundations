@@ -1320,6 +1320,30 @@
       "name": "privateButtonFeaturedNormalBackgroundNight"
     },
     {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff00",
+      "name": "privateSkeletonShimmerStartEndDay"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#00000000",
+      "name": "privateSkeletonShimmerStartEndNight"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff99",
+      "name": "privateSkeletonShimmerCenterDay"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#00000033",
+      "name": "privateSkeletonShimmerCenterNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -2421,6 +2445,20 @@
       "value": "#cbced2ff",
       "name": "privateButtonPrimaryOnDarkPressedBackgroundColor",
       "darkValue": "#cbced2ff"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff00",
+      "name": "privateSkeletonShimmerStartEndColor",
+      "darkValue": "#00000000"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff99",
+      "name": "privateSkeletonShimmerCenterColor",
+      "darkValue": "#00000033"
     }
   ]
 }

@@ -1995,6 +1995,34 @@
       "originalValue": "#84E9FF",
       "name": "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT"
     },
+    "PRIVATE_SKELETON_SHIMMER_START_END_DAY": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "rgba(255, 255, 255, 0)",
+      "originalValue": "#FFFFFF00",
+      "name": "PRIVATE_SKELETON_SHIMMER_START_END_DAY"
+    },
+    "PRIVATE_SKELETON_SHIMMER_START_END_NIGHT": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "rgba(0, 0, 0, 0)",
+      "originalValue": "#00000000",
+      "name": "PRIVATE_SKELETON_SHIMMER_START_END_NIGHT"
+    },
+    "PRIVATE_SKELETON_SHIMMER_CENTER_DAY": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "rgba(255, 255, 255, 0.6)",
+      "originalValue": "#FFFFFF99",
+      "name": "PRIVATE_SKELETON_SHIMMER_CENTER_DAY"
+    },
+    "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "rgba(0, 0, 0, 0.2)",
+      "originalValue": "#00000033",
+      "name": "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT"
+    },
     "AUTOSUGGEST_LIST_BACKGROUND_COLOR": {
       "category": "autosuggest",
       "value": "rgb(255, 255, 255)",

@@ -228,6 +228,10 @@ export const privateButtonSecondaryOnDarkNormalBackgroundDay = "rgb(36, 51, 70)"
 export const privateButtonPrimaryOnDarkPressedBackgroundDay = "rgb(203, 206, 210)";
 export const privateButtonPrimaryOnLightPressedBackgroundNight = "rgb(21, 70, 121)";
 export const privateButtonFeaturedNormalBackgroundNight = "rgb(132, 233, 255)";
+export const privateSkeletonShimmerStartEndDay = "rgba(255, 255, 255, 0)";
+export const privateSkeletonShimmerStartEndNight = "rgba(0, 0, 0, 0)";
+export const privateSkeletonShimmerCenterDay = "rgba(255, 255, 255, 0.6)";
+export const privateSkeletonShimmerCenterNight = "rgba(0, 0, 0, 0.2)";
 export const animationDurationXs = 50;
 export const animationDurationSm = 200;
 export const animationDurationBase = 400;
@@ -787,6 +791,12 @@ backgroundElevation03Color,
 backgroundElevation02Color,
 backgroundElevation01Color,
 };
+export const skeletonColors = {
+privateSkeletonShimmerStartEndDay,
+privateSkeletonShimmerStartEndNight,
+privateSkeletonShimmerCenterDay,
+privateSkeletonShimmerCenterNight,
+};
 export const spacings = {
 buttonBorderWidth,
 buttonHeight,
@@ -948,3 +958,5 @@ export const privateButtonPrimaryLoadingBackgroundColor = undefined;
 export const privateButtonDisabledBackgroundColor = undefined;
 export const privateButtonSecondaryOnDarkNormalBackgroundColor = undefined;
 export const privateButtonPrimaryOnDarkPressedBackgroundColor = undefined;
+export const privateSkeletonShimmerStartEndColor = undefined;
+export const privateSkeletonShimmerCenterColor = undefined;

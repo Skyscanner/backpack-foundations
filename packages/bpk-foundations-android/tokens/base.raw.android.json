@@ -2949,6 +2949,34 @@
       "originalValue": "#84E9FF",
       "name": "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT"
     },
+    "PRIVATE_SKELETON_SHIMMER_START_END_DAY": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff00",
+      "originalValue": "#FFFFFF00",
+      "name": "PRIVATE_SKELETON_SHIMMER_START_END_DAY"
+    },
+    "PRIVATE_SKELETON_SHIMMER_START_END_NIGHT": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#00000000",
+      "originalValue": "#00000000",
+      "name": "PRIVATE_SKELETON_SHIMMER_START_END_NIGHT"
+    },
+    "PRIVATE_SKELETON_SHIMMER_CENTER_DAY": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff99",
+      "originalValue": "#FFFFFF99",
+      "name": "PRIVATE_SKELETON_SHIMMER_CENTER_DAY"
+    },
+    "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#00000033",
+      "originalValue": "#00000033",
+      "name": "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT"
+    },
     "ANIMATION_DURATION_XS": {
       "type": "duration",
       "value": "50ms",
@@ -3868,6 +3896,24 @@
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_COLOR",
       "darkValue": "#cbced2ff",
       "originalDarkValue": "#CBCED2"
+    },
+    "PRIVATE_SKELETON_SHIMMER_START_END_COLOR": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff00",
+      "originalValue": "#FFFFFF00",
+      "name": "PRIVATE_SKELETON_SHIMMER_START_END_COLOR",
+      "darkValue": "#00000000",
+      "originalDarkValue": "#00000000"
+    },
+    "PRIVATE_SKELETON_SHIMMER_CENTER_COLOR": {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff99",
+      "originalValue": "#FFFFFF99",
+      "name": "PRIVATE_SKELETON_SHIMMER_CENTER_COLOR",
+      "darkValue": "#00000033",
+      "originalDarkValue": "#00000033"
     }
   },
   "propKeys": [
@@ -4219,6 +4265,10 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY",
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT",
     "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT",
+    "PRIVATE_SKELETON_SHIMMER_START_END_DAY",
+    "PRIVATE_SKELETON_SHIMMER_START_END_NIGHT",
+    "PRIVATE_SKELETON_SHIMMER_CENTER_DAY",
+    "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT",
     "ANIMATION_DURATION_XS",
     "ANIMATION_DURATION_SM",
     "ANIMATION_DURATION_BASE",
@@ -4327,6 +4377,8 @@
     "PRIVATE_BUTTON_PRIMARY_LOADING_BACKGROUND_COLOR",
     "PRIVATE_BUTTON_DISABLED_BACKGROUND_COLOR",
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_COLOR",
-    "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_COLOR"
+    "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_COLOR",
+    "PRIVATE_SKELETON_SHIMMER_START_END_COLOR",
+    "PRIVATE_SKELETON_SHIMMER_CENTER_COLOR"
   ]
 }

@@ -2555,6 +2555,34 @@
       "name": "privateButtonFeaturedNormalBackgroundNight"
     },
     {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff00",
+      "originalValue": "#FFFFFF00",
+      "name": "privateSkeletonShimmerStartEndDay"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#00000000",
+      "originalValue": "#00000000",
+      "name": "privateSkeletonShimmerStartEndNight"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff99",
+      "originalValue": "#FFFFFF99",
+      "name": "privateSkeletonShimmerCenterDay"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#00000033",
+      "originalValue": "#00000033",
+      "name": "privateSkeletonShimmerCenterNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -3677,6 +3705,24 @@
       "name": "privateButtonPrimaryOnDarkPressedBackgroundColor",
       "darkValue": "#cbced2ff",
       "originalDarkValue": "#CBCED2"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff00",
+      "originalValue": "#FFFFFF00",
+      "name": "privateSkeletonShimmerStartEndColor",
+      "darkValue": "#00000000",
+      "originalDarkValue": "#00000000"
+    },
+    {
+      "type": "color",
+      "category": "skeleton-colors",
+      "value": "#ffffff99",
+      "originalValue": "#FFFFFF99",
+      "name": "privateSkeletonShimmerCenterColor",
+      "darkValue": "#00000033",
+      "originalDarkValue": "#00000033"
     }
   ]
 }
