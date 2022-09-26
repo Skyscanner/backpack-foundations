@@ -1,0 +1,21 @@
+{
+  "imports": ["./aliases.json"],
+  "global": {
+    "type": "color",
+    "category": "skeleton-colors"
+  },
+  "props": {
+    "PRIVATE_SKELETON_SHIMMER_START_END_DAY": {
+      "value": "#FFFFFF00"
+    },
+    "PRIVATE_SKELETON_SHIMMER_START_END_NIGHT": {
+      "value": "#00000000"
+    },
+    "PRIVATE_SKELETON_SHIMMER_CENTER_DAY": {
+      "value": "#FFFFFF99"
+    },
+    "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT": {
+      "value": "#00000033"
+    },
+  }
+}

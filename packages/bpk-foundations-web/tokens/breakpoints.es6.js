@@ -227,6 +227,10 @@ export const privateButtonSecondaryOnDarkNormalBackgroundDay = "rgb(36, 51, 70)"
 export const privateButtonPrimaryOnDarkPressedBackgroundDay = "rgb(203, 206, 210)";
 export const privateButtonPrimaryOnLightPressedBackgroundNight = "rgb(21, 70, 121)";
 export const privateButtonFeaturedNormalBackgroundNight = "rgb(132, 233, 255)";
+export const privateSkeletonShimmerStartEndDay = "rgba(255, 255, 255, 0)";
+export const privateSkeletonShimmerStartEndNight = "rgba(0, 0, 0, 0)";
+export const privateSkeletonShimmerCenterDay = "rgba(255, 255, 255, 0.6)";
+export const privateSkeletonShimmerCenterNight = "rgba(0, 0, 0, 0.2)";
 export const breakpointQueryTabletOnly = "(min-width: 32.0625rem) and (max-width: 64rem)";
 export const breakpointSmallTabletMargin = "1.5rem";
 export const breakpointQuerySmallTablet = "(max-width: 48rem)";
@@ -442,6 +446,12 @@ marcommsEcoGreen,
 export const scrimColors = {
 scrimDay,
 scrimNight,
+};
+export const skeletonColors = {
+privateSkeletonShimmerStartEndDay,
+privateSkeletonShimmerStartEndNight,
+privateSkeletonShimmerCenterDay,
+privateSkeletonShimmerCenterNight,
 };
 export const statusColors = {
 statusSuccessSpotNight,
