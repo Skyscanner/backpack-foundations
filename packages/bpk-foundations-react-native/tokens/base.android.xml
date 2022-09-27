@@ -172,7 +172,7 @@
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT" category="button-colors">#00000033</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_DAY" category="button-colors">#0b111aff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_NIGHT" category="button-colors">#010913ff</color>
-  <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY" category="button-colors">#d8085fff</color>
+  <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY" category="button-colors">#c80456ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_DAY" category="button-colors">#ffffffff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_DAY" category="button-colors">#00000033</color>
   <color name="PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_NIGHT" category="button-colors">#d1f7ffff</color>
