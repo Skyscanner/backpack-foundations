@@ -1,5 +1,17 @@
 # 2022-09-27
 
+**Changed:**
+
+- `@skyscanner/bpk-foundations-common: 3.2.0 => 3.2.1` <br />
+- `@skyscanner/bpk-foundations-android: 4.4.0 => 4.4.1` <br />
+- `@skyscanner/bpk-foundations-ios: 3.4.0 => 3.4.1` <br />
+- `@skyscanner/bpk-foundations-react-native 2.4.0 => 2.4.1:` <br />
+- `@skyscanner/bpk-foundations-web: 10.3.0 => 10.3.1` <br />
+  - Updated button destructive foreground colour
+
+
+# 2022-09-27
+
 **Added:**
 
 - `@skyscanner/bpk-foundations-common: 3.1.3 => 3.2.0` <br />
@@ -360,7 +372,7 @@
             - `$bpk-list-margin-top`, `listMarginTop`: `0` to `1rem`
 
 - bpk-mixins: 29.0.0 => 30.0.0
-    - `bpk-list-item` mixin - added bottom margin 
+    - `bpk-list-item` mixin - added bottom margin
     - `bpk-list--nested` mixin - added top and bottom padding
     - `bpk-list` mixin - added top margin and changed bottom margin
 
@@ -518,9 +530,9 @@
     - The following Sass tokens are deprecated:
         - `$bpk-text-{size}-font-size`, `$bpk-text-{size}-font-weight`, `$bpk-text-{size}-line-height`, `$bpk-text-{size}-letter-spacing`, where *size* is one of: `xs`, `sm`, `base`, `lg`, `xl`, `xxl`, `xxxl`, `xxxxl`, `xxxxxl`.
         - `$bpk-h-{size}-font-size`, `$bpk-h-{size}-font-weight`, `$bpk-h-{size}-line-height`, where *size* is one of: `1`, `2`, `3`, `4`, `5`, `6`.
-        
+
         To migrate, use the BpkText component or a backpack mixin instead. See below for an example.
-    
+
         ```scss
         /* Old */
         .my-class {
@@ -544,7 +556,7 @@
         - `text{size}FontSize` => `fontSize{size}`
         - `text{size}LineHeight` => `lineHeight{size}`
         - `text{size}FontWeight` => `fontWeightBook`
-        
+
         where *size* is one of: `Xs`, `Sm`, `Base`, `Lg`, `Xl`, `Xxl`, `Xxxl`, `Xxxxl`, `Xxxxxl`.
 
 # 2022-02-18
