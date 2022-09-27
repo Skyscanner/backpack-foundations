@@ -1732,8 +1732,8 @@
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(216, 8, 95)",
-      "originalValue": "#D8085F",
+      "value": "rgb(200, 4, 86)",
+      "originalValue": "#C80456",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_DAY": {

@@ -126,7 +126,7 @@
         "value": "#243346"
       },
       "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY": {
-        "value": "#D8085F"
+        "value": "#C80456"
       },
       "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_NIGHT": {
         "value": "#FF649C"
@@ -169,4 +169,3 @@
       }
     }
   }
-  

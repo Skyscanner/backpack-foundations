@@ -194,7 +194,7 @@ module.exports = {
   privateButtonPrimaryOnDarkDisabledForegroundNight: "rgba(0, 0, 0, 0.2)",
   privateButtonSecondaryOnDarkDisabledBackgroundDay: "rgb(11, 17, 26)",
   privateButtonSecondaryOnDarkPressedBackgroundNight: "rgb(1, 9, 19)",
-  privateButtonDestructiveNormalForegroundDay: "rgb(216, 8, 95)",
+  privateButtonDestructiveNormalForegroundDay: "rgb(200, 4, 86)",
   privateButtonPrimaryOnDarkNormalBackgroundDay: "rgb(255, 255, 255)",
   privateButtonPrimaryOnDarkDisabledForegroundDay: "rgba(0, 0, 0, 0.2)",
   privateButtonLinkPressedForegroundNight: "rgb(209, 247, 255)",

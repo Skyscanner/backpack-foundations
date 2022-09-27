@@ -1094,7 +1094,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#d8085fff",
+      "value": "#c80456ff",
       "name": "privateButtonDestructiveNormalForegroundDay"
     },
     {
@@ -2273,7 +2273,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#d8085fff",
+      "value": "#c80456ff",
       "name": "privateButtonDestructiveNormalForegroundColor",
       "darkValue": "#ff649cff"
     },
