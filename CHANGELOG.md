@@ -1,3 +1,16 @@
+# 2022-09-27
+
+**Added:**
+
+- `@skyscanner/bpk-foundations-common: 3.1.3 => 3.2.0` <br />
+- `@skyscanner/bpk-foundations-android: 4.3.0 => 4.4.0` <br />
+- `@skyscanner/bpk-foundations-ios: 3.3.0 => 3.4.0` <br />
+- `@skyscanner/bpk-foundations-react-native: 2.3.0 => 2.4.0` <br />
+- `@skyscanner/bpk-foundations-web: 10.2.0 => 10.3.0` <br />
+  - Added private tokens for skeleton shimmer colours
+  - Updated private tokens for button colours
+
+
 # 2022-09-23
 
 **Changed:**
