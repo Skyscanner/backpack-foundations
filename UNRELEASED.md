@@ -3,3 +3,4 @@
 - `@skyscanner/bpk-foundations-react-native:` <br />
 - `@skyscanner/bpk-foundations-web:` <br />
   - Added private tokens for skeleton shimmer colours
+  - Updated private tokens for button colours

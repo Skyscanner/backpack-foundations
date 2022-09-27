@@ -328,11 +328,7 @@ $bpk-private-button-secondary-pressed-background-night: rgb(1, 9, 19) !default;
 /// @group button-colors
 $bpk-private-button-link-normal-foreground-night: rgb(132, 233, 255) !default;
 /// @group button-colors
-$bpk-private-button-link-on-dark-loading-foreground-day: rgba(255, 255, 255, 0.5) !default;
-/// @group button-colors
-$bpk-private-button-primary-on-dark-loading-background-night: rgb(203, 206, 210) !default;
-/// @group button-colors
-$bpk-private-button-link-on-dark-disabled-foreground-night: rgba(255, 255, 255, 0.5) !default;
+$bpk-private-button-link-on-dark-disabled-foreground-night: rgba(255, 255, 255, 0.2) !default;
 /// @group button-colors
 $bpk-private-button-secondary-normal-background-night: rgb(36, 51, 70) !default;
 /// @group button-colors
@@ -348,43 +344,41 @@ $bpk-private-button-secondary-pressed-background-day: rgb(198, 204, 212) !defaul
 /// @group button-colors
 $bpk-private-button-link-normal-foreground-day: rgb(0, 98, 227) !default;
 /// @group button-colors
-$bpk-private-button-primary-on-dark-loading-background-day: rgb(203, 206, 210) !default;
+$bpk-private-button-primary-on-light-disabled-foreground-night: rgba(0, 0, 0, 0.2) !default;
 /// @group button-colors
-$bpk-private-button-primary-on-light-loading-background-night: rgb(21, 70, 121) !default;
+$bpk-private-button-secondary-on-dark-disabled-background-night: rgb(11, 17, 26) !default;
 /// @group button-colors
 $bpk-private-button-destructive-normal-foreground-night: rgb(255, 100, 156) !default;
 /// @group button-colors
-$bpk-private-button-link-on-dark-disabled-foreground-day: rgba(255, 255, 255, 0.5) !default;
-/// @group button-colors
-$bpk-private-button-secondary-loading-background-night: rgb(1, 9, 19) !default;
+$bpk-private-button-link-on-dark-disabled-foreground-day: rgba(255, 255, 255, 0.2) !default;
 /// @group button-colors
 $bpk-private-button-secondary-normal-background-day: rgb(224, 227, 229) !default;
 /// @group button-colors
 $bpk-private-button-primary-on-light-normal-background-day: rgb(5, 32, 60) !default;
 /// @group button-colors
+$bpk-private-button-primary-on-light-disabled-foreground-day: rgba(0, 0, 0, 0.2) !default;
+/// @group button-colors
 $bpk-private-button-primary-on-dark-normal-background-night: rgb(255, 255, 255) !default;
 /// @group button-colors
-$bpk-private-button-featured-pressed-background-day: rgb(8, 78, 178) !default;
+$bpk-private-button-featured-pressed-background-day: rgb(2, 77, 175) !default;
 /// @group button-colors
-$bpk-private-button-primary-on-light-loading-background-day: rgb(21, 70, 121) !default;
+$bpk-private-button-primary-on-dark-disabled-foreground-night: rgba(0, 0, 0, 0.2) !default;
+/// @group button-colors
+$bpk-private-button-secondary-on-dark-disabled-background-day: rgb(11, 17, 26) !default;
 /// @group button-colors
 $bpk-private-button-secondary-on-dark-pressed-background-night: rgb(1, 9, 19) !default;
-/// @group button-colors
-$bpk-private-button-secondary-loading-background-day: rgb(198, 204, 212) !default;
-/// @group button-colors
-$bpk-private-button-featured-loading-background-night: rgb(209, 247, 255) !default;
 /// @group button-colors
 $bpk-private-button-destructive-normal-foreground-day: rgb(216, 8, 95) !default;
 /// @group button-colors
 $bpk-private-button-primary-on-dark-normal-background-day: rgb(255, 255, 255) !default;
 /// @group button-colors
+$bpk-private-button-primary-on-dark-disabled-foreground-day: rgba(0, 0, 0, 0.2) !default;
+/// @group button-colors
 $bpk-private-button-link-pressed-foreground-night: rgb(209, 247, 255) !default;
 /// @group button-colors
 $bpk-private-button-secondary-on-dark-pressed-background-day: rgb(1, 9, 19) !default;
 /// @group button-colors
-$bpk-private-button-featured-loading-background-day: rgb(224, 227, 229) !default;
-/// @group button-colors
-$bpk-private-button-secondary-on-dark-loading-background-night: rgb(1, 9, 19) !default;
+$bpk-private-button-primary-on-light-disabled-background-night: rgb(221, 225, 228) !default;
 /// @group button-colors
 $bpk-private-button-link-pressed-foreground-day: rgb(21, 70, 121) !default;
 /// @group button-colors
@@ -396,9 +390,9 @@ $bpk-private-button-destructive-pressed-background-night: rgb(255, 100, 156) !de
 /// @group button-colors
 $bpk-private-button-primary-pressed-background-night: rgb(21, 70, 121) !default;
 /// @group button-colors
-$bpk-private-button-link-loading-foreground-night: rgba(0, 0, 0, 0.2) !default;
+$bpk-private-button-primary-on-light-disabled-background-day: rgb(221, 225, 228) !default;
 /// @group button-colors
-$bpk-private-button-secondary-on-dark-loading-background-day: rgb(1, 9, 19) !default;
+$bpk-private-button-primary-on-dark-disabled-background-night: rgb(221, 225, 228) !default;
 /// @group button-colors
 $bpk-private-button-primary-normal-background-day: rgb(5, 32, 60) !default;
 /// @group button-colors
@@ -410,17 +404,15 @@ $bpk-private-button-destructive-pressed-background-day: rgb(231, 8, 102) !defaul
 /// @group button-colors
 $bpk-private-button-primary-pressed-background-day: rgb(21, 70, 121) !default;
 /// @group button-colors
+$bpk-private-button-primary-on-dark-disabled-background-day: rgb(221, 225, 228) !default;
+/// @group button-colors
 $bpk-private-button-link-on-dark-normal-foreground-night: rgb(255, 255, 255) !default;
-/// @group button-colors
-$bpk-private-button-link-loading-foreground-day: rgba(0, 0, 0, 0.2) !default;
-/// @group button-colors
-$bpk-private-button-destructive-loading-background-night: rgb(255, 100, 156) !default;
-/// @group button-colors
-$bpk-private-button-primary-loading-background-night: rgb(21, 70, 121) !default;
 /// @group button-colors
 $bpk-private-button-disabled-background-night: rgb(11, 17, 26) !default;
 /// @group button-colors
 $bpk-private-button-secondary-on-dark-normal-background-night: rgb(36, 51, 70) !default;
+/// @group button-colors
+$bpk-private-button-secondary-on-dark-disabled-foreground-night: rgba(255, 255, 255, 0.2) !default;
 /// @group button-colors
 $bpk-private-button-link-on-dark-pressed-foreground-day: rgba(255, 255, 255, 0.5) !default;
 /// @group button-colors
@@ -428,15 +420,11 @@ $bpk-private-button-primary-on-dark-pressed-background-night: rgb(203, 206, 210)
 /// @group button-colors
 $bpk-private-button-link-on-dark-normal-foreground-day: rgb(255, 255, 255) !default;
 /// @group button-colors
-$bpk-private-button-primary-loading-background-day: rgb(21, 70, 121) !default;
-/// @group button-colors
-$bpk-private-button-destructive-loading-background-day: rgb(231, 8, 102) !default;
-/// @group button-colors
-$bpk-private-button-link-on-dark-loading-foreground-night: rgba(255, 255, 255, 0.5) !default;
-/// @group button-colors
 $bpk-private-button-disabled-background-day: rgb(221, 225, 228) !default;
 /// @group button-colors
 $bpk-private-button-secondary-on-dark-normal-background-day: rgb(36, 51, 70) !default;
+/// @group button-colors
+$bpk-private-button-secondary-on-dark-disabled-foreground-day: rgba(255, 255, 255, 0.2) !default;
 /// @group button-colors
 $bpk-private-button-primary-on-dark-pressed-background-day: rgb(203, 206, 210) !default;
 /// @group button-colors
