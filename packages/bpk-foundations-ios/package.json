@@ -1,6 +1,6 @@
 {
   "name": "@skyscanner/bpk-foundations-ios",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Common Backpack design tokens for colors, spacing, font, etc.",
   "license": "Apache-2.0",
   "repository": {
@@ -17,7 +17,7 @@
     "tokens": "gulp"
   },
   "dependencies": {
-    "@skyscanner/bpk-foundations-common": "^3.1.3",
+    "@skyscanner/bpk-foundations-common": "^3.2.0",
     "color": "^3.0.0"
   }
 }
