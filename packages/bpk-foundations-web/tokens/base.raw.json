@@ -4421,10 +4421,10 @@
       "name": "LIST_MARGIN_TOP"
     },
     "LINK_WHITE_ACTIVE_COLOR": {
-      "value": "rgb(221, 221, 229)",
+      "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
-      "originalValue": "{!SKY_GRAY_TINT_06}",
+      "originalValue": "{!WHITE}",
       "name": "LINK_WHITE_ACTIVE_COLOR"
     },
     "LINK_WHITE_HOVER_COLOR": {
@@ -4597,10 +4597,10 @@
       "name": "TEXT_XL_FONT_WEIGHT"
     },
     "LINK_ACTIVE_COLOR": {
-      "value": "rgb(4, 39, 89)",
+      "value": "rgb(7, 112, 227)",
       "type": "color",
       "category": "text-colors",
-      "originalValue": "{!SKY_BLUE_SHADE_02}",
+      "originalValue": "{!SKY_BLUE}",
       "name": "LINK_ACTIVE_COLOR"
     },
     "TEXT_XXXXXL_FONT_WEIGHT": {
@@ -4671,10 +4671,10 @@
       "name": "P_MARGIN_TOP"
     },
     "LINK_ALTERNATE_ACTIVE_COLOR": {
-      "value": "rgb(221, 221, 229)",
+      "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
-      "originalValue": "{!SKY_GRAY_TINT_06}",
+      "originalValue": "{!WHITE}",
       "name": "LINK_ALTERNATE_ACTIVE_COLOR"
     },
     "H3_FONT_WEIGHT": {
@@ -4826,10 +4826,10 @@
       "name": "LINK_HOVER_TEXT_DECORATION"
     },
     "LINK_HOVER_COLOR": {
-      "value": "rgb(8, 78, 178)",
+      "value": "rgb(7, 112, 227)",
       "type": "color",
       "category": "text-colors",
-      "originalValue": "{!SKY_BLUE_SHADE_01}",
+      "originalValue": "{!SKY_BLUE}",
       "name": "LINK_HOVER_COLOR"
     },
     "H1_FONT_SIZE": {
