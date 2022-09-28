@@ -1,3 +1,11 @@
+# 2022-09-28
+
+**Changed:**
+
+- bpk-mixins: 32.0.4 => 32.1.0
+    - Change colours to semantic tokens in `bpk-table` mixins
+    - Change text style in `bpk-table__cell--head` mixin. This will change the weight of the text in the header cells of the table.
+
 # 2022-09-27
 
 **Changed:**
