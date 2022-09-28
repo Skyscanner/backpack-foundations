@@ -891,7 +891,7 @@ $bpk-spacing-v2: true;
   border-collapse: collapse;
   table-layout: fixed;
 
-  @include bpk-border-sm($bpk-color-sky-gray-tint-06, '');
+  @include bpk-border-sm($bpk-line-day, '');
 }
 
 /// Alternate table style.
@@ -904,7 +904,7 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-table--alternate {
-  @include bpk-border-sm($bpk-color-sky-gray-tint-04, '');
+  @include bpk-border-sm($bpk-line-day, '');
 }
 
 /// Table cell.
@@ -929,9 +929,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-table__cell--head {
-  background-color: $bpk-color-sky-gray-tint-07;
-  font-weight: normal;
+  background-color: $bpk-canvas-contrast-day;
   text-align: left;
+
+  @include bpk-label-1;
 
   @include bpk-rtl {
     text-align: right;
@@ -949,7 +950,7 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-table__cell--head-alternate {
-  background-color: $bpk-color-white;
+  background-color: $bpk-canvas-day;
   text-align: left;
 
   @include bpk-text--bold;
