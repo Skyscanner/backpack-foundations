@@ -1,3 +1,16 @@
+# 2022-09-29
+
+**Changed:**
+
+- bpk-foundations-web: 10.3.1 => 10.4.0
+    - Update link tokens to semantic colours:
+        - `$bpk-link-alternate-active-color`
+        - `$bpk-link-active-color`
+        - `$bpk-link-white-active-color`
+        - `$bpk-link-hover-color`
+- bpk-mixins: 32.1.0 => 32.2.0
+    - Update `bpk-link`, `bpk-link--active`, `bpk-link--alternate`, `bpk-link--white` mixins to use semantic colours
+
 # 2022-09-28
 
 **Changed:**
