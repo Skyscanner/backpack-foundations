@@ -372,7 +372,7 @@
       "category": "text-decorations"
     },
     "LINK_HOVER_COLOR": {
-      "value": "{!SKY_BLUE_SHADE_01}",
+      "value": "{!SKY_BLUE}",
       "type": "color",
       "category": "text-colors"
     },
@@ -382,7 +382,7 @@
       "category": "text-decorations"
     },
     "LINK_ACTIVE_COLOR": {
-      "value": "{!SKY_BLUE_SHADE_02}",
+      "value": "{!SKY_BLUE}",
       "type": "color",
       "category": "text-colors"
     },
@@ -402,7 +402,7 @@
       "category": "text-colors"
     },
     "LINK_WHITE_ACTIVE_COLOR": {
-      "value": "{!SKY_GRAY_TINT_06}",
+      "value": "{!WHITE}",
       "type": "color",
       "category": "text-colors"
     },
@@ -422,7 +422,7 @@
       "category": "text-colors"
     },
     "LINK_ALTERNATE_ACTIVE_COLOR": {
-      "value": "{!SKY_GRAY_TINT_06}",
+      "value": "{!WHITE}",
       "type": "color",
       "category": "text-colors"
     },
