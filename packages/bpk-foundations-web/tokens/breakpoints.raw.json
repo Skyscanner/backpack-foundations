@@ -13,16 +13,16 @@
       "value": "#cddff8"
     },
     "YELLOW_MUTED": {
-      "value": "#FFEBD0"
+      "value": "#FFF7CF"
     },
     "NIGHT_BLUE": {
-      "value": "#6D9FEB"
+      "value": "#84E9FF"
     },
     "SKY_GRAY": {
       "value": "#111236"
     },
     "PINK_MUTED": {
-      "value": "#F6DDE1"
+      "value": "#FFE9F9"
     },
     "NARA": {
       "value": "#ffe7e0"
@@ -40,13 +40,13 @@
       "value": "#ffb54d"
     },
     "NIGHT_GREEN_SPOT": {
-      "value": "#00A698"
+      "value": "#62F1C6"
     },
     "NIGHT_GREEN_FILL": {
       "value": "#B1FFE7"
     },
     "NIGHT_YELLOW_SPOT": {
-      "value": "#FFB54D"
+      "value": "#FEEB87"
     },
     "BLACK_TINT_02": {
       "value": "#2C2C2E"
@@ -103,7 +103,7 @@
       "value": "#DDDDE5"
     },
     "CHARCOAL": {
-      "value": "#111236"
+      "value": "#161616"
     },
     "SKY_GRAY_TINT_07": {
       "value": "#F1F2F8"
@@ -112,22 +112,22 @@
       "value": "#ffab95"
     },
     "GREEN_MUTED": {
-      "value": "#D0EEEC"
+      "value": "#D4FFF2"
     },
     "WHITE_ALPHA_80": {
-      "value": "#8E8E93"
+      "value": "#FFFFFFCC"
     },
     "ABISKO": {
       "value": "#5a489b"
     },
     "NIGHT_BERRY": {
-      "value": "#D1435B"
+      "value": "#FF649C"
     },
     "PANJIN": {
       "value": "#d1435b"
     },
     "WHITE_ALPHA_20": {
-      "value": "#8E8E93"
+      "value": "#FFFFFF33"
     },
     "ECO_GREEN": {
       "value": "#0FA1A9"
@@ -139,28 +139,28 @@
       "value": "#ffebd0"
     },
     "NIGHT_GREY_40": {
-      "value": "#8E8E93"
+      "value": "#BDC4CB"
     },
     "NIGHT_GREY_30": {
-      "value": "#48484A"
+      "value": "#44505F"
     },
     "BERRY": {
-      "value": "#D1435B"
+      "value": "#E70866"
     },
     "NIGHT_GREY_20": {
-      "value": "#1D1B20"
+      "value": "#131D2B"
     },
     "DARK_SKY": {
-      "value": "#02122C"
+      "value": "#05203C"
     },
     "SKY_BLUE": {
-      "value": "#0770e3"
+      "value": "#0062E3"
     },
     "BUNOL": {
       "value": "#ff7b59"
     },
     "NIGHT_GREY_10": {
-      "value": "#000000"
+      "value": "#010913"
     },
     "NIGHT_SKY": {
       "value": "#054184"
@@ -169,7 +169,7 @@
       "value": "#084eb2"
     },
     "BLACK_ALPHA_70": {
-      "value": "#02122c"
+      "value": "#000000B3"
     },
     "SKY_BLUE_SHADE_02": {
       "value": "#042759"
@@ -178,31 +178,31 @@
       "value": "#02122c"
     },
     "NIGHT_GREY_25": {
-      "value": "#2C2C2E"
+      "value": "#243346"
     },
     "GREY_40": {
-      "value": "#68697F"
+      "value": "#545860"
     },
     "NIGHT_PINK": {
       "value": "#FFCADD"
     },
     "GREY_30": {
-      "value": "#CDCDD7"
+      "value": "#C2C9CD"
     },
     "GREEN_SPOT": {
-      "value": "#00A698"
+      "value": "#0C838A"
     },
     "SKY_BLUE_TINT_01": {
       "value": "#6d9feb"
     },
     "AMBER_SPOT": {
-      "value": "#FF9400"
+      "value": "#F55D42"
     },
     "GREY_20": {
-      "value": "#DDDDE5"
+      "value": "#E0E3E5"
     },
     "BLACK_ALPHA_20": {
-      "value": "#B2B2BF"
+      "value": "#00000033"
     },
     "SKY_BLUE_TINT_02": {
       "value": "#9dc0f2"
@@ -211,7 +211,7 @@
       "value": "#a59bc8"
     },
     "GREY_10": {
-      "value": "#F1F2F8"
+      "value": "#EFF1F2"
     },
     "BLACK": {
       "value": "#000000"
@@ -446,7 +446,7 @@
       "name": "COLOR_SKY_BLUE_SHADE_03"
     },
     "COLOR_PRIMARY_GRADIENT_LIGHT": {
-      "value": "rgb(7, 112, 227)",
+      "value": "rgb(0, 98, 227)",
       "deprecated": true,
       "type": "color",
       "category": "colors",
@@ -488,7 +488,7 @@
     "COLOR_BLACK": {
       "type": "color",
       "category": "colors",
-      "value": "rgb(0, 0, 0)",
+      "value": "rgb(1, 9, 19)",
       "originalValue": "{!BLACK}",
       "name": "COLOR_BLACK"
     },
@@ -662,7 +662,7 @@
     "COLOR_SKY_BLUE": {
       "type": "color",
       "category": "colors",
-      "value": "rgb(7, 112, 227)",
+      "value": "rgb(0, 98, 227)",
       "originalValue": "{!SKY_BLUE}",
       "name": "COLOR_SKY_BLUE"
     },
@@ -756,21 +756,21 @@
     "CANVAS_NIGHT": {
       "type": "color",
       "category": "canvas-colors",
-      "value": "rgb(0, 0, 0)",
+      "value": "rgb(1, 9, 19)",
       "originalValue": "{!NIGHT_GREY_10}",
       "name": "CANVAS_NIGHT"
     },
     "CANVAS_CONTRAST_DAY": {
       "type": "color",
       "category": "canvas-colors",
-      "value": "rgb(241, 242, 248)",
+      "value": "rgb(239, 241, 242)",
       "originalValue": "{!GREY_10}",
       "name": "CANVAS_CONTRAST_DAY"
     },
     "CANVAS_CONTRAST_NIGHT": {
       "type": "color",
       "category": "canvas-colors",
-      "value": "rgb(29, 27, 32)",
+      "value": "rgb(19, 29, 43)",
       "originalValue": "{!NIGHT_GREY_20}",
       "name": "CANVAS_CONTRAST_NIGHT"
     },
@@ -791,21 +791,21 @@
     "CORE_ACCENT_DAY": {
       "type": "color",
       "category": "core-colors",
-      "value": "rgb(7, 112, 227)",
+      "value": "rgb(0, 98, 227)",
       "originalValue": "{!SKY_BLUE}",
       "name": "CORE_ACCENT_DAY"
     },
     "CORE_ACCENT_NIGHT": {
       "type": "color",
       "category": "core-colors",
-      "value": "rgb(109, 159, 235)",
+      "value": "rgb(132, 233, 255)",
       "originalValue": "{!NIGHT_BLUE}",
       "name": "CORE_ACCENT_NIGHT"
     },
     "CORE_PRIMARY_DAY": {
       "type": "color",
       "category": "core-colors",
-      "value": "rgb(2, 18, 44)",
+      "value": "rgb(5, 32, 60)",
       "originalValue": "{!DARK_SKY}",
       "name": "CORE_PRIMARY_DAY"
     },
@@ -819,7 +819,7 @@
     "STATUS_SUCCESS_SPOT_NIGHT": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(0, 166, 152)",
+      "value": "rgb(98, 241, 198)",
       "originalValue": "{!NIGHT_GREEN_SPOT}",
       "name": "STATUS_SUCCESS_SPOT_NIGHT"
     },
@@ -833,28 +833,28 @@
     "STATUS_SUCCESS_SPOT_DAY": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(0, 166, 152)",
+      "value": "rgb(12, 131, 138)",
       "originalValue": "{!GREEN_SPOT}",
       "name": "STATUS_SUCCESS_SPOT_DAY"
     },
     "STATUS_SUCCESS_FILL_DAY": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(208, 238, 236)",
+      "value": "rgb(212, 255, 242)",
       "originalValue": "{!GREEN_MUTED}",
       "name": "STATUS_SUCCESS_FILL_DAY"
     },
     "STATUS_DANGER_SPOT_NIGHT": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(209, 67, 91)",
+      "value": "rgb(255, 100, 156)",
       "originalValue": "{!NIGHT_BERRY}",
       "name": "STATUS_DANGER_SPOT_NIGHT"
     },
     "STATUS_WARNING_SPOT_NIGHT": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(255, 181, 77)",
+      "value": "rgb(254, 235, 135)",
       "originalValue": "{!NIGHT_YELLOW_SPOT}",
       "name": "STATUS_WARNING_SPOT_NIGHT"
     },
@@ -875,42 +875,42 @@
     "STATUS_DANGER_SPOT_DAY": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(209, 67, 91)",
+      "value": "rgb(231, 8, 102)",
       "originalValue": "{!BERRY}",
       "name": "STATUS_DANGER_SPOT_DAY"
     },
     "STATUS_WARNING_SPOT_DAY": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(255, 148, 0)",
+      "value": "rgb(245, 93, 66)",
       "originalValue": "{!AMBER_SPOT}",
       "name": "STATUS_WARNING_SPOT_DAY"
     },
     "STATUS_DANGER_FILL_DAY": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(246, 221, 225)",
+      "value": "rgb(255, 233, 249)",
       "originalValue": "{!PINK_MUTED}",
       "name": "STATUS_DANGER_FILL_DAY"
     },
     "STATUS_WARNING_FILL_DAY": {
       "type": "color",
       "category": "status-colors",
-      "value": "rgb(255, 235, 208)",
+      "value": "rgb(255, 247, 207)",
       "originalValue": "{!YELLOW_MUTED}",
       "name": "STATUS_WARNING_FILL_DAY"
     },
     "SURFACE_CONTRAST_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(2, 18, 44)",
+      "value": "rgb(5, 32, 60)",
       "originalValue": "{!DARK_SKY}",
       "name": "SURFACE_CONTRAST_DAY"
     },
     "SURFACE_CONTRAST_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(29, 27, 32)",
+      "value": "rgb(19, 29, 43)",
       "originalValue": "{!NIGHT_GREY_20}",
       "name": "SURFACE_CONTRAST_NIGHT"
     },
@@ -924,7 +924,7 @@
     "SURFACE_DEFAULT_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(29, 27, 32)",
+      "value": "rgb(19, 29, 43)",
       "originalValue": "{!NIGHT_GREY_20}",
       "name": "SURFACE_DEFAULT_NIGHT"
     },
@@ -938,21 +938,21 @@
     "SURFACE_ELEVATED_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(44, 44, 46)",
+      "value": "rgb(36, 51, 70)",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_ELEVATED_NIGHT"
     },
     "SURFACE_HIGHLIGHT_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(221, 221, 229)",
+      "value": "rgb(224, 227, 229)",
       "originalValue": "{!GREY_20}",
       "name": "SURFACE_HIGHLIGHT_DAY"
     },
     "SURFACE_HIGHLIGHT_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(44, 44, 46)",
+      "value": "rgb(36, 51, 70)",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
     },
@@ -966,28 +966,28 @@
     "TEXT_ON_LIGHT_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(17, 18, 54)",
+      "value": "rgb(22, 22, 22)",
       "originalValue": "{!CHARCOAL}",
       "name": "TEXT_ON_LIGHT_NIGHT"
     },
     "TEXT_ON_LIGHT_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(17, 18, 54)",
+      "value": "rgb(22, 22, 22)",
       "originalValue": "{!CHARCOAL}",
       "name": "TEXT_ON_LIGHT_DAY"
     },
     "TEXT_LINK_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(109, 159, 235)",
+      "value": "rgb(132, 233, 255)",
       "originalValue": "{!NIGHT_BLUE}",
       "name": "TEXT_LINK_NIGHT"
     },
     "TEXT_DISABLED_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(142, 142, 147)",
+      "value": "rgba(255, 255, 255, 0.2)",
       "originalValue": "{!WHITE_ALPHA_20}",
       "name": "TEXT_DISABLED_NIGHT"
     },
@@ -1002,7 +1002,7 @@
     "TEXT_LINK_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(7, 112, 227)",
+      "value": "rgb(0, 98, 227)",
       "originalValue": "{!SKY_BLUE}",
       "name": "TEXT_LINK_DAY"
     },
@@ -1032,7 +1032,7 @@
     "TEXT_DISABLED_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(178, 178, 191)",
+      "value": "rgba(0, 0, 0, 0.2)",
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "TEXT_DISABLED_DAY"
     },
@@ -1047,21 +1047,21 @@
     "TEXT_PRIMARY_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(17, 18, 54)",
+      "value": "rgb(22, 22, 22)",
       "originalValue": "{!CHARCOAL}",
       "name": "TEXT_PRIMARY_DAY"
     },
     "TEXT_ERROR_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(209, 67, 91)",
+      "value": "rgb(255, 100, 156)",
       "originalValue": "{!NIGHT_BERRY}",
       "name": "TEXT_ERROR_NIGHT"
     },
     "TEXT_ERROR_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(209, 67, 91)",
+      "value": "rgb(231, 8, 102)",
       "originalValue": "{!BERRY}",
       "name": "TEXT_ERROR_DAY"
     },
@@ -1084,16 +1084,15 @@
     "TEXT_PRIMARY_INVERSE_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(17, 18, 54)",
+      "value": "rgb(22, 22, 22)",
       "originalValue": "{!CHARCOAL}",
       "name": "TEXT_PRIMARY_INVERSE_NIGHT"
     },
     "TEXT_SECONDARY_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(178, 178, 191)",
-      "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values",
-      "originalValue": "{!SKY_GRAY_TINT_04}",
+      "value": "rgb(189, 196, 203)",
+      "originalValue": "{!NIGHT_GREY_40}",
       "name": "TEXT_SECONDARY_NIGHT"
     },
     "TEXT_ON_DARK_NIGHT": {
@@ -1129,14 +1128,14 @@
     "TEXT_SECONDARY_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(104, 105, 127)",
+      "value": "rgb(84, 88, 96)",
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_DAY"
     },
     "SCRIM_DAY": {
       "type": "color",
       "category": "scrim-colors",
-      "value": "rgb(2, 18, 44)",
+      "value": "rgba(0, 0, 0, 0.7)",
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_DAY"
     },
@@ -1207,7 +1206,7 @@
     "LINE_NIGHT": {
       "type": "color",
       "category": "line-colors",
-      "value": "rgb(72, 72, 74)",
+      "value": "rgb(68, 80, 95)",
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "LINE_NIGHT"
     },
@@ -1246,7 +1245,7 @@
     "LINE_DAY": {
       "type": "color",
       "category": "line-colors",
-      "value": "rgb(205, 205, 215)",
+      "value": "rgb(194, 201, 205)",
       "originalValue": "{!GREY_30}",
       "name": "LINE_DAY"
     },
@@ -1309,7 +1308,7 @@
     "PRIMARY_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "rgb(7, 112, 227)",
+      "value": "rgb(0, 98, 227)",
       "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "PRIMARY_LIGHT_COLOR"
@@ -1333,22 +1332,22 @@
     "SCRIM_NIGHT": {
       "type": "color",
       "category": "scrim-colors",
-      "value": "rgb(2, 18, 44)",
+      "value": "rgba(0, 0, 0, 0.7)",
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_NIGHT"
     },
     "MARCOMMS_BERRY": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(209, 67, 91)",
-      "originalValue": "#D1435B",
+      "value": "rgb(231, 8, 102)",
+      "originalValue": "#E70866",
       "name": "MARCOMMS_BERRY"
     },
     "MARCOMMS_CHARCOAL": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(17, 18, 54)",
-      "originalValue": "#111236",
+      "value": "rgb(22, 22, 22)",
+      "originalValue": "#161616",
       "name": "MARCOMMS_CHARCOAL"
     },
     "MARCOMMS_ORANGE": {
@@ -1361,8 +1360,8 @@
     "MARCOMMS_GREY_40": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(104, 105, 127)",
-      "originalValue": "#68697F",
+      "value": "rgb(84, 88, 96)",
+      "originalValue": "#545860",
       "name": "MARCOMMS_GREY_40"
     },
     "MARCOMMS_BLUE_BRIGHT": {
@@ -1396,15 +1395,15 @@
     "MARCOMMS_SKY_BLUE": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(7, 112, 227)",
-      "originalValue": "#0770e3",
+      "value": "rgb(0, 98, 227)",
+      "originalValue": "#0062E3",
       "name": "MARCOMMS_SKY_BLUE"
     },
     "MARCOMMS_DARK_SKY": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(2, 18, 44)",
-      "originalValue": "#02122C",
+      "value": "rgb(5, 32, 60)",
+      "originalValue": "#05203C",
       "name": "MARCOMMS_DARK_SKY"
     },
     "MARCOMMS_PURPLE": {
@@ -1424,22 +1423,22 @@
     "MARCOMMS_YELLOW_MUTED": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(255, 235, 208)",
-      "originalValue": "#FFEBD0",
+      "value": "rgb(255, 247, 207)",
+      "originalValue": "#FFF7CF",
       "name": "MARCOMMS_YELLOW_MUTED"
     },
     "MARCOMMS_PINK_MUTED": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(246, 221, 225)",
-      "originalValue": "#F6DDE1",
+      "value": "rgb(255, 233, 249)",
+      "originalValue": "#FFE9F9",
       "name": "MARCOMMS_PINK_MUTED"
     },
     "MARCOMMS_GREEN_MUTED": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(208, 238, 236)",
-      "originalValue": "#D0EEEC",
+      "value": "rgb(212, 255, 242)",
+      "originalValue": "#D4FFF2",
       "name": "MARCOMMS_GREEN_MUTED"
     },
     "MARCOMMS_BLUE_MUTED": {
@@ -1460,7 +1459,7 @@
       "type": "color",
       "category": "chip-colors",
       "value": "rgba(255, 255, 255, 0.2)",
-      "originalValue": "#FFFFFF33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY"
     },
     "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
@@ -1474,7 +1473,7 @@
       "type": "color",
       "category": "chip-colors",
       "value": "rgb(5, 65, 132)",
-      "originalValue": "#054184",
+      "originalValue": "{!NIGHT_SKY}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT"
     },
     "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY": {
@@ -1501,7 +1500,7 @@
     "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY": {
       "type": "color",
       "category": "chip-colors",
-      "value": "rgb(221, 221, 229)",
+      "value": "rgb(224, 227, 229)",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY"
     },
@@ -1523,7 +1522,7 @@
       "type": "color",
       "category": "chip-colors",
       "value": "rgb(5, 32, 60)",
-      "originalValue": "#05203C",
+      "originalValue": "{!DARK_SKY}",
       "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY"
     },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
@@ -1565,21 +1564,21 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(132, 233, 255)",
-      "originalValue": "#84E9FF",
+      "originalValue": "{!NIGHT_BLUE}",
       "name": "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
       "value": "rgba(255, 255, 255, 0.2)",
-      "originalValue": "#FFFFFF33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
       "value": "rgb(36, 51, 70)",
-      "originalValue": "#243346",
+      "originalValue": "{!NIGHT_GREY_25}",
       "name": "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_DAY": {
@@ -1593,7 +1592,7 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(0, 98, 227)",
-      "originalValue": "#0062E3",
+      "originalValue": "{!SKY_BLUE}",
       "name": "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_FEATURED_PRESSED_BACKGROUND_NIGHT": {
@@ -1607,7 +1606,7 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(5, 32, 60)",
-      "originalValue": "#05203C",
+      "originalValue": "{!DARK_SKY}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY": {
@@ -1621,14 +1620,14 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(0, 98, 227)",
-      "originalValue": "#0062E3",
+      "originalValue": "{!SKY_BLUE}",
       "name": "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
       "value": "rgba(0, 0, 0, 0.2)",
-      "originalValue": "#00000033",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
@@ -1642,42 +1641,42 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(255, 100, 156)",
-      "originalValue": "#FF649C",
+      "originalValue": "{!NIGHT_BERRY}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
       "value": "rgba(255, 255, 255, 0.2)",
-      "originalValue": "#FFFFFF33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
       "value": "rgb(224, 227, 229)",
-      "originalValue": "#E0E3E5",
+      "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
       "value": "rgb(5, 32, 60)",
-      "originalValue": "#05203C",
+      "originalValue": "{!DARK_SKY}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
       "value": "rgba(0, 0, 0, 0.2)",
-      "originalValue": "#00000033",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
       "value": "rgb(255, 255, 255)",
-      "originalValue": "#FFFFFF",
+      "originalValue": "{!WHITE}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_FEATURED_PRESSED_BACKGROUND_DAY": {
@@ -1690,8 +1689,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgba(0, 0, 0, 0.2)",
-      "originalValue": "#00000033",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
@@ -1719,14 +1718,14 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(255, 255, 255)",
-      "originalValue": "#FFFFFF",
+      "originalValue": "{!WHITE}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgba(0, 0, 0, 0.2)",
-      "originalValue": "#00000033",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_NIGHT": {
@@ -1761,21 +1760,21 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(36, 51, 70)",
-      "originalValue": "#243346",
+      "originalValue": "{!NIGHT_GREY_25}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
       "value": "rgb(5, 65, 132)",
-      "originalValue": "#054184",
+      "originalValue": "{!NIGHT_SKY}",
       "name": "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
       "value": "rgb(255, 100, 156)",
-      "originalValue": "#FF649C",
+      "originalValue": "{!NIGHT_BERRY}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_NIGHT": {
@@ -1803,14 +1802,14 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(5, 32, 60)",
-      "originalValue": "#05203C",
+      "originalValue": "{!DARK_SKY}",
       "name": "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
       "value": "rgb(224, 227, 229)",
-      "originalValue": "#E0E3E5",
+      "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_NIGHT": {
@@ -1845,7 +1844,7 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(255, 255, 255)",
-      "originalValue": "#FFFFFF",
+      "originalValue": "{!WHITE}",
       "name": "PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_DISABLED_BACKGROUND_NIGHT": {
@@ -1859,14 +1858,14 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(36, 51, 70)",
-      "originalValue": "#243346",
+      "originalValue": "{!NIGHT_GREY_25}",
       "name": "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
       "value": "rgba(255, 255, 255, 0.2)",
-      "originalValue": "#FFFFFF33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_DAY": {
@@ -1887,7 +1886,7 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(255, 255, 255)",
-      "originalValue": "#FFFFFF",
+      "originalValue": "{!WHITE}",
       "name": "PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY": {
@@ -1901,14 +1900,14 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(36, 51, 70)",
-      "originalValue": "#243346",
+      "originalValue": "{!NIGHT_GREY_25}",
       "name": "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
       "value": "rgba(255, 255, 255, 0.2)",
-      "originalValue": "#FFFFFF33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
@@ -1929,7 +1928,7 @@
       "type": "color",
       "category": "button-colors",
       "value": "rgb(132, 233, 255)",
-      "originalValue": "#84E9FF",
+      "originalValue": "{!NIGHT_BLUE}",
       "name": "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_SKELETON_SHIMMER_START_END_DAY": {
@@ -1957,7 +1956,7 @@
       "type": "color",
       "category": "skeleton-colors",
       "value": "rgba(0, 0, 0, 0.2)",
-      "originalValue": "#00000033",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT"
     },
     "BREAKPOINT_QUERY_TABLET_ONLY": {

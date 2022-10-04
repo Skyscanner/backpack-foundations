@@ -18,140 +18,140 @@
  * limitations under the License.
  * 
  */
-export const colorSkyBlueShade03 = "rgb(2, 18, 44)";
-export const colorPrimaryGradientLight = "rgb(7, 112, 227)";
-export const colorErfoud = "rgb(255, 181, 77)";
-export const colorValensole = "rgb(165, 155, 200)";
-export const colorMonteverde = "rgb(0, 166, 152)";
-export const colorSkyGrayTint01 = "rgb(68, 69, 96)";
-export const colorBlack = "rgb(0, 0, 0)";
-export const colorSkyGrayTint02 = "rgb(104, 105, 127)";
-export const colorSagano = "rgb(208, 238, 236)";
-export const colorSkyGrayTint03 = "rgb(143, 144, 160)";
-export const colorSkyGrayTint04 = "rgb(178, 178, 191)";
-export const colorHarbour = "rgb(246, 221, 225)";
-export const colorSkyGrayTint05 = "rgb(205, 205, 215)";
-export const colorSkyGrayTint06 = "rgb(221, 221, 229)";
-export const colorBlackTint01 = "rgb(29, 27, 32)";
-export const colorSkyGrayTint07 = "rgb(241, 242, 248)";
-export const colorBlackTint02 = "rgb(44, 44, 46)";
-export const colorAbisko = "rgb(90, 72, 155)";
-export const colorBlackTint03 = "rgb(58, 58, 60)";
-export const colorBlackTint04 = "rgb(72, 72, 74)";
+export const colorSkyBlueShade03 = "rgb(5, 32, 60)";
+export const colorPrimaryGradientLight = "rgb(0, 98, 227)";
+export const colorErfoud = "rgb(254, 235, 135)";
+export const colorValensole = "rgb(224, 227, 229)";
+export const colorMonteverde = "rgb(12, 131, 138)";
+export const colorSkyGrayTint01 = "rgb(84, 88, 96)";
+export const colorBlack = "rgb(1, 9, 19)";
+export const colorSkyGrayTint02 = "rgb(84, 88, 96)";
+export const colorSagano = "rgb(212, 255, 242)";
+export const colorSkyGrayTint03 = "rgb(84, 88, 96)";
+export const colorSkyGrayTint04 = "rgb(194, 201, 205)";
+export const colorHarbour = "rgb(255, 233, 249)";
+export const colorSkyGrayTint05 = "rgb(194, 201, 205)";
+export const colorSkyGrayTint06 = "rgb(224, 227, 229)";
+export const colorBlackTint01 = "rgb(19, 29, 43)";
+export const colorSkyGrayTint07 = "rgb(239, 241, 242)";
+export const colorBlackTint02 = "rgb(19, 29, 43)";
+export const colorAbisko = "rgb(5, 32, 60)";
+export const colorBlackTint03 = "rgb(36, 51, 70)";
+export const colorBlackTint04 = "rgb(68, 80, 95)";
 export const colorWhite = "rgb(255, 255, 255)";
-export const colorBlackTint05 = "rgb(99, 99, 102)";
-export const colorBlackTint06 = "rgb(142, 142, 147)";
-export const colorPanjin = "rgb(209, 67, 91)";
-export const colorKolkata = "rgb(255, 148, 0)";
-export const colorGlencoe = "rgb(115, 206, 198)";
-export const colorTochigi = "rgb(225, 221, 236)";
-export const colorPetra = "rgb(255, 171, 149)";
-export const colorSkyBlue = "rgb(7, 112, 227)";
-export const colorBagan = "rgb(255, 235, 208)";
-export const colorHillier = "rgb(225, 139, 150)";
-export const colorSkyBlueTint01 = "rgb(109, 159, 235)";
-export const colorSkyBlueTint02 = "rgb(157, 192, 242)";
-export const colorBunol = "rgb(255, 123, 89)";
-export const colorSkyBlueTint03 = "rgb(205, 223, 248)";
-export const colorSkyGray = "rgb(17, 18, 54)";
-export const colorNara = "rgb(255, 231, 224)";
-export const colorSkyBlueShade01 = "rgb(8, 78, 178)";
-export const colorSkyBlueShade02 = "rgb(4, 39, 89)";
+export const colorBlackTint05 = "rgb(68, 80, 95)";
+export const colorBlackTint06 = "rgb(189, 196, 203)";
+export const colorPanjin = "rgb(231, 8, 102)";
+export const colorKolkata = "rgb(245, 93, 66)";
+export const colorGlencoe = "rgb(98, 241, 198)";
+export const colorTochigi = "rgb(239, 241, 242)";
+export const colorPetra = "rgb(254, 235, 135)";
+export const colorSkyBlue = "rgb(0, 98, 227)";
+export const colorBagan = "rgb(255, 247, 207)";
+export const colorHillier = "rgb(255, 100, 156)";
+export const colorSkyBlueTint01 = "rgb(132, 233, 255)";
+export const colorSkyBlueTint02 = "rgb(224, 227, 229)";
+export const colorBunol = "rgb(245, 93, 66)";
+export const colorSkyBlueTint03 = "rgb(224, 227, 229)";
+export const colorSkyGray = "rgb(22, 22, 22)";
+export const colorNara = "rgb(255, 247, 207)";
+export const colorSkyBlueShade01 = "rgb(0, 98, 227)";
+export const colorSkyBlueShade02 = "rgb(5, 32, 60)";
 export const canvasDay = "rgb(255, 255, 255)";
-export const canvasNight = "rgb(0, 0, 0)";
-export const canvasContrastDay = "rgb(241, 242, 248)";
-export const canvasContrastNight = "rgb(29, 27, 32)";
+export const canvasNight = "rgb(1, 9, 19)";
+export const canvasContrastDay = "rgb(239, 241, 242)";
+export const canvasContrastNight = "rgb(19, 29, 43)";
 export const coreEcoDay = "rgb(15, 161, 169)";
 export const coreEcoNight = "rgb(15, 161, 169)";
-export const coreAccentDay = "rgb(7, 112, 227)";
-export const coreAccentNight = "rgb(109, 159, 235)";
-export const corePrimaryDay = "rgb(2, 18, 44)";
+export const coreAccentDay = "rgb(0, 98, 227)";
+export const coreAccentNight = "rgb(132, 233, 255)";
+export const corePrimaryDay = "rgb(5, 32, 60)";
 export const corePrimaryNight = "rgb(5, 65, 132)";
-export const statusSuccessSpotNight = "rgb(0, 166, 152)";
+export const statusSuccessSpotNight = "rgb(98, 241, 198)";
 export const statusSuccessFillNight = "rgb(177, 255, 231)";
-export const statusSuccessSpotDay = "rgb(0, 166, 152)";
-export const statusSuccessFillDay = "rgb(208, 238, 236)";
-export const statusDangerSpotNight = "rgb(209, 67, 91)";
-export const statusWarningSpotNight = "rgb(255, 181, 77)";
+export const statusSuccessSpotDay = "rgb(12, 131, 138)";
+export const statusSuccessFillDay = "rgb(212, 255, 242)";
+export const statusDangerSpotNight = "rgb(255, 100, 156)";
+export const statusWarningSpotNight = "rgb(254, 235, 135)";
 export const statusDangerFillNight = "rgb(255, 202, 221)";
 export const statusWarningFillNight = "rgb(251, 241, 187)";
-export const statusDangerSpotDay = "rgb(209, 67, 91)";
-export const statusWarningSpotDay = "rgb(255, 148, 0)";
-export const statusDangerFillDay = "rgb(246, 221, 225)";
-export const statusWarningFillDay = "rgb(255, 235, 208)";
-export const surfaceContrastDay = "rgb(2, 18, 44)";
-export const surfaceContrastNight = "rgb(29, 27, 32)";
+export const statusDangerSpotDay = "rgb(231, 8, 102)";
+export const statusWarningSpotDay = "rgb(245, 93, 66)";
+export const statusDangerFillDay = "rgb(255, 233, 249)";
+export const statusWarningFillDay = "rgb(255, 247, 207)";
+export const surfaceContrastDay = "rgb(5, 32, 60)";
+export const surfaceContrastNight = "rgb(19, 29, 43)";
 export const surfaceDefaultDay = "rgb(255, 255, 255)";
-export const surfaceDefaultNight = "rgb(29, 27, 32)";
+export const surfaceDefaultNight = "rgb(19, 29, 43)";
 export const surfaceElevatedDay = "rgb(255, 255, 255)";
-export const surfaceElevatedNight = "rgb(44, 44, 46)";
-export const surfaceHighlightDay = "rgb(221, 221, 229)";
-export const surfaceHighlightNight = "rgb(44, 44, 46)";
+export const surfaceElevatedNight = "rgb(36, 51, 70)";
+export const surfaceHighlightDay = "rgb(224, 227, 229)";
+export const surfaceHighlightNight = "rgb(36, 51, 70)";
 export const textOnDarkDay = "rgb(255, 255, 255)";
-export const textOnLightNight = "rgb(17, 18, 54)";
-export const textOnLightDay = "rgb(17, 18, 54)";
-export const textLinkNight = "rgb(109, 159, 235)";
-export const textDisabledNight = "rgb(142, 142, 147)";
+export const textOnLightNight = "rgb(22, 22, 22)";
+export const textOnLightDay = "rgb(22, 22, 22)";
+export const textLinkNight = "rgb(132, 233, 255)";
+export const textDisabledNight = "rgba(255, 255, 255, 0.2)";
 export const textPrimaryDarkColor = "rgb(255, 255, 255)";
-export const textLinkDay = "rgb(7, 112, 227)";
-export const textQuaternaryDarkColor = "rgb(142, 142, 147)";
+export const textLinkDay = "rgb(0, 98, 227)";
+export const textQuaternaryDarkColor = "rgb(189, 196, 203)";
 export const textPrimaryNight = "rgb(255, 255, 255)";
-export const textQuaternaryLightColor = "rgb(143, 144, 160)";
-export const textDisabledDay = "rgb(178, 178, 191)";
-export const textPrimaryLightColor = "rgb(17, 18, 54)";
-export const textPrimaryDay = "rgb(17, 18, 54)";
-export const textErrorNight = "rgb(209, 67, 91)";
-export const textErrorDay = "rgb(209, 67, 91)";
-export const textTertiaryDarkColor = "rgb(142, 142, 147)";
-export const textSecondaryDarkColor = "rgb(142, 142, 147)";
-export const textPrimaryInverseNight = "rgb(17, 18, 54)";
-export const textSecondaryNight = "rgb(178, 178, 191)";
+export const textQuaternaryLightColor = "rgb(84, 88, 96)";
+export const textDisabledDay = "rgba(0, 0, 0, 0.2)";
+export const textPrimaryLightColor = "rgb(22, 22, 22)";
+export const textPrimaryDay = "rgb(22, 22, 22)";
+export const textErrorNight = "rgb(255, 100, 156)";
+export const textErrorDay = "rgb(231, 8, 102)";
+export const textTertiaryDarkColor = "rgb(189, 196, 203)";
+export const textSecondaryDarkColor = "rgb(189, 196, 203)";
+export const textPrimaryInverseNight = "rgb(22, 22, 22)";
+export const textSecondaryNight = "rgb(189, 196, 203)";
 export const textOnDarkNight = "rgb(255, 255, 255)";
-export const textSecondaryLightColor = "rgb(104, 105, 127)";
+export const textSecondaryLightColor = "rgb(84, 88, 96)";
 export const textPrimaryInverseDay = "rgb(255, 255, 255)";
-export const textTertiaryLightColor = "rgb(143, 144, 160)";
-export const textSecondaryDay = "rgb(104, 105, 127)";
-export const scrimDay = "rgb(2, 18, 44)";
-export const backgroundElevation03DarkColor = "rgb(58, 58, 60)";
-export const backgroundElevation02DarkColor = "rgb(44, 44, 46)";
-export const lineDarkColor = "rgb(72, 72, 74)";
-export const backgroundElevation01DarkColor = "rgb(29, 27, 32)";
-export const backgroundAlternativeSecondaryDarkColor = "rgb(29, 27, 32)";
+export const textTertiaryLightColor = "rgb(84, 88, 96)";
+export const textSecondaryDay = "rgb(84, 88, 96)";
+export const scrimDay = "rgba(0, 0, 0, 0.7)";
+export const backgroundElevation03DarkColor = "rgb(36, 51, 70)";
+export const backgroundElevation02DarkColor = "rgb(36, 51, 70)";
+export const lineDarkColor = "rgb(68, 80, 95)";
+export const backgroundElevation01DarkColor = "rgb(19, 29, 43)";
+export const backgroundAlternativeSecondaryDarkColor = "rgb(1, 9, 19)";
 export const backgroundLightColor = "rgb(255, 255, 255)";
-export const backgroundDarkColor = "rgb(0, 0, 0)";
+export const backgroundDarkColor = "rgb(1, 9, 19)";
 export const backgroundAlternativeSecondaryLightColor = "rgb(255, 255, 255)";
-export const lineNight = "rgb(72, 72, 74)";
-export const colorSystemGreen = "rgb(0, 166, 152)";
+export const lineNight = "rgb(68, 80, 95)";
+export const colorSystemGreen = "rgb(12, 131, 138)";
 export const backgroundElevation01LightColor = "rgb(255, 255, 255)";
-export const lineLightColor = "rgb(205, 205, 215)";
+export const lineLightColor = "rgb(194, 201, 205)";
 export const backgroundElevation02LightColor = "rgb(255, 255, 255)";
-export const lineDay = "rgb(205, 205, 215)";
+export const lineDay = "rgb(194, 201, 205)";
 export const backgroundElevation03LightColor = "rgb(255, 255, 255)";
-export const backgroundTertiaryDarkColor = "rgb(44, 44, 46)";
-export const backgroundSecondaryDarkColor = "rgb(29, 27, 32)";
-export const backgroundAlternativeLightColor = "rgb(241, 242, 248)";
-export const primaryDarkColor = "rgb(109, 159, 235)";
-export const colorSystemRed = "rgb(209, 67, 91)";
-export const backgroundAlternativeDarkColor = "rgb(0, 0, 0)";
-export const primaryLightColor = "rgb(7, 112, 227)";
+export const backgroundTertiaryDarkColor = "rgb(1, 9, 19)";
+export const backgroundSecondaryDarkColor = "rgb(19, 29, 43)";
+export const backgroundAlternativeLightColor = "rgb(239, 241, 242)";
+export const primaryDarkColor = "rgb(132, 233, 255)";
+export const colorSystemRed = "rgb(231, 8, 102)";
+export const backgroundAlternativeDarkColor = "rgb(19, 29, 43)";
+export const primaryLightColor = "rgb(0, 98, 227)";
 export const backgroundTertiaryLightColor = "rgb(255, 255, 255)";
-export const backgroundSecondaryLightColor = "rgb(241, 242, 248)";
-export const scrimNight = "rgb(2, 18, 44)";
-export const marcommsBerry = "rgb(209, 67, 91)";
-export const marcommsCharcoal = "rgb(17, 18, 54)";
+export const backgroundSecondaryLightColor = "rgb(239, 241, 242)";
+export const scrimNight = "rgba(0, 0, 0, 0.7)";
+export const marcommsBerry = "rgb(231, 8, 102)";
+export const marcommsCharcoal = "rgb(22, 22, 22)";
 export const marcommsOrange = "rgb(255, 123, 89)";
-export const marcommsGrey40 = "rgb(104, 105, 127)";
+export const marcommsGrey40 = "rgb(84, 88, 96)";
 export const marcommsBlueBright = "rgb(161, 238, 255)";
 export const marcommsYellow = "rgb(254, 235, 135)";
 export const marcommsGreenBright = "rgb(147, 255, 222)";
 export const marcommsPink = "rgb(255, 163, 229)";
-export const marcommsSkyBlue = "rgb(7, 112, 227)";
-export const marcommsDarkSky = "rgb(2, 18, 44)";
+export const marcommsSkyBlue = "rgb(0, 98, 227)";
+export const marcommsDarkSky = "rgb(5, 32, 60)";
 export const marcommsPurple = "rgb(142, 71, 186)";
 export const marcommsWhite = "rgb(255, 255, 255)";
-export const marcommsYellowMuted = "rgb(255, 235, 208)";
-export const marcommsPinkMuted = "rgb(246, 221, 225)";
-export const marcommsGreenMuted = "rgb(208, 238, 236)";
+export const marcommsYellowMuted = "rgb(255, 247, 207)";
+export const marcommsPinkMuted = "rgb(255, 233, 249)";
+export const marcommsGreenMuted = "rgb(212, 255, 242)";
 export const marcommsBlueMuted = "rgb(217, 248, 255)";
 export const marcommsEcoGreen = "rgb(15, 161, 169)";
 export const privateChipOnDarkNormalBackgroundDay = "rgba(255, 255, 255, 0.2)";
@@ -160,7 +160,7 @@ export const privateChipOnDarkOnBackgroundNight = "rgb(5, 65, 132)";
 export const privateChipOnDarkPressedBackgroundDay = "rgb(198, 204, 212)";
 export const privateChipDefaultNormalBackgroundNight = "rgb(11, 18, 29)";
 export const privateChipOnDarkOnBackgroundDay = "rgb(255, 255, 255)";
-export const privateChipDefaultNormalBackgroundDay = "rgb(221, 221, 229)";
+export const privateChipDefaultNormalBackgroundDay = "rgb(224, 227, 229)";
 export const privateChipDefaultOnBackgroundNight = "rgb(5, 65, 132)";
 export const privateChipDisabledBackgroundNight = "rgb(11, 17, 26)";
 export const privateChipDefaultOnBackgroundDay = "rgb(5, 32, 60)";
@@ -187,12 +187,12 @@ export const privateButtonPrimaryOnLightNormalBackgroundDay = "rgb(5, 32, 60)";
 export const privateButtonPrimaryOnLightDisabledForegroundDay = "rgba(0, 0, 0, 0.2)";
 export const privateButtonPrimaryOnDarkNormalBackgroundNight = "rgb(255, 255, 255)";
 export const privateButtonFeaturedPressedBackgroundDay = "rgb(2, 77, 175)";
-export const privateButtonPrimaryOnDarkDisabledForegroundNight = "rgba(0, 0, 0, 0.2)";
+export const privateButtonPrimaryOnDarkDisabledForegroundNight = "rgba(255, 255, 255, 0.2)";
 export const privateButtonSecondaryOnDarkDisabledBackgroundDay = "rgb(11, 17, 26)";
 export const privateButtonSecondaryOnDarkPressedBackgroundNight = "rgb(1, 9, 19)";
 export const privateButtonDestructiveNormalForegroundDay = "rgb(200, 4, 86)";
 export const privateButtonPrimaryOnDarkNormalBackgroundDay = "rgb(255, 255, 255)";
-export const privateButtonPrimaryOnDarkDisabledForegroundDay = "rgba(0, 0, 0, 0.2)";
+export const privateButtonPrimaryOnDarkDisabledForegroundDay = "rgba(255, 255, 255, 0.2)";
 export const privateButtonLinkPressedForegroundNight = "rgb(209, 247, 255)";
 export const privateButtonSecondaryOnDarkPressedBackgroundDay = "rgb(1, 9, 19)";
 export const privateButtonPrimaryOnLightDisabledBackgroundNight = "rgb(221, 225, 228)";
@@ -252,8 +252,8 @@ export const shadowSmOffsetHeight = 1;
 export const shadowLgOffsetHeight = 4;
 export const shadowLgRadius = 16;
 export const shadowSmRadius = 3;
-export const shadowSmColor = "rgb(17, 18, 54)";
-export const shadowLgColor = "rgb(17, 18, 54)";
+export const shadowSmColor = "rgb(22, 22, 22)";
+export const shadowLgColor = "rgb(22, 22, 22)";
 export const shadowLgOffsetWidth = 0;
 export const buttonBorderWidth = 2;
 export const buttonHeight = 32;
@@ -272,7 +272,7 @@ export const spacingXxl = 40;
 export const spacingNone = 0;
 export const spacingIconText = 8;
 export const underlayOpacity = 0.15;
-export const touchableOverlayColor = "rgb(17, 18, 54)";
+export const touchableOverlayColor = "rgb(22, 22, 22)";
 export const touchableOverlayOpacity = 0.15;
 export const lineHeightXl = 29;
 export const fontSizeXl = 24;
@@ -325,70 +325,70 @@ export const lineHeightXxl = 43;
 export const textXsFontSize = 12;
 export const textOnDay = {
  dark: "rgb(255, 255, 255)",
- light: "rgb(17, 18, 54)",
+ light: "rgb(22, 22, 22)",
 };
 export const textOnNight = {
- light: "rgb(17, 18, 54)",
+ light: "rgb(22, 22, 22)",
  dark: "rgb(255, 255, 255)",
 };
 export const textPrimaryColor = {
  dark: "rgb(255, 255, 255)",
- light: "rgb(17, 18, 54)",
+ light: "rgb(22, 22, 22)",
 };
 export const textQuaternaryColor = {
- dark: "rgb(142, 142, 147)",
- light: "rgb(143, 144, 160)",
+ dark: "rgb(189, 196, 203)",
+ light: "rgb(84, 88, 96)",
 };
 export const textTertiaryColor = {
- dark: "rgb(142, 142, 147)",
- light: "rgb(143, 144, 160)",
+ dark: "rgb(189, 196, 203)",
+ light: "rgb(84, 88, 96)",
 };
 export const textSecondaryColor = {
- dark: "rgb(142, 142, 147)",
- light: "rgb(104, 105, 127)",
+ dark: "rgb(189, 196, 203)",
+ light: "rgb(84, 88, 96)",
 };
 export const backgroundElevation03Color = {
- dark: "rgb(58, 58, 60)",
+ dark: "rgb(36, 51, 70)",
  light: "rgb(255, 255, 255)",
 };
 export const backgroundElevation02Color = {
- dark: "rgb(44, 44, 46)",
+ dark: "rgb(36, 51, 70)",
  light: "rgb(255, 255, 255)",
 };
 export const lineColor = {
- dark: "rgb(72, 72, 74)",
- light: "rgb(205, 205, 215)",
+ dark: "rgb(68, 80, 95)",
+ light: "rgb(194, 201, 205)",
 };
 export const backgroundElevation01Color = {
- dark: "rgb(29, 27, 32)",
+ dark: "rgb(19, 29, 43)",
  light: "rgb(255, 255, 255)",
 };
 export const backgroundAlternativeSecondaryColor = {
- dark: "rgb(29, 27, 32)",
+ dark: "rgb(1, 9, 19)",
  light: "rgb(255, 255, 255)",
 };
 export const backgroundColor = {
  light: "rgb(255, 255, 255)",
- dark: "rgb(0, 0, 0)",
+ dark: "rgb(1, 9, 19)",
 };
 export const backgroundTertiaryColor = {
- dark: "rgb(44, 44, 46)",
+ dark: "rgb(1, 9, 19)",
  light: "rgb(255, 255, 255)",
 };
 export const backgroundSecondaryColor = {
- dark: "rgb(29, 27, 32)",
- light: "rgb(241, 242, 248)",
+ dark: "rgb(19, 29, 43)",
+ light: "rgb(239, 241, 242)",
 };
 export const backgroundAlternativeColor = {
- light: "rgb(241, 242, 248)",
- dark: "rgb(0, 0, 0)",
+ light: "rgb(239, 241, 242)",
+ dark: "rgb(19, 29, 43)",
 };
 export const primaryColor = {
- dark: "rgb(109, 159, 235)",
- light: "rgb(7, 112, 227)",
+ dark: "rgb(132, 233, 255)",
+ light: "rgb(0, 98, 227)",
 };
 export const marcommsSky = {
- dark: "rgb(2, 18, 44)",
+ dark: "rgb(5, 32, 60)",
 };
 export const privateChipOnNormalBackgroundDay = {
  dark: "rgba(255, 255, 255, 0.2)",
@@ -421,7 +421,7 @@ export const privateButtonPrimaryOnNormalBackgroundNight = {
 };
 export const privateButtonPrimaryOnDisabledForegroundNight = {
  light: "rgba(0, 0, 0, 0.2)",
- dark: "rgba(0, 0, 0, 0.2)",
+ dark: "rgba(255, 255, 255, 0.2)",
 };
 export const privateButtonSecondaryOnDisabledBackgroundNight = {
  dark: "rgb(11, 17, 26)",
@@ -435,7 +435,7 @@ export const privateButtonPrimaryOnNormalBackgroundDay = {
 };
 export const privateButtonPrimaryOnDisabledForegroundDay = {
  light: "rgba(0, 0, 0, 0.2)",
- dark: "rgba(0, 0, 0, 0.2)",
+ dark: "rgba(255, 255, 255, 0.2)",
 };
 export const privateButtonSecondaryOnDisabledBackgroundDay = {
  dark: "rgb(11, 17, 26)",

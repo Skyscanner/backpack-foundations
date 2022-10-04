@@ -18,7 +18,7 @@
       "value": "#002854"
     },
     "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY": {
-      "value": "#05203C"
+      "value": "{!DARK_SKY}"
     },
     "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT": {
       "value": "#054184"
@@ -30,7 +30,7 @@
       "value": "#0B111A"
     },
     "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY": {
-      "value": "#FFFFFF33"
+      "value": "{!WHITE_ALPHA_20}"
     },
     "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
       "value": "#0B121D"
@@ -45,7 +45,7 @@
       "value": "{!WHITE}"
     },
     "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT": {
-      "value": "#054184"
+      "value": "{!NIGHT_SKY}"
     }
   }
 }

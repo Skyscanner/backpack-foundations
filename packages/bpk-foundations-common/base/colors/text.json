@@ -8,19 +8,19 @@
   },
   "props": {
     "TEXT_PRIMARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY}",
+      "value": "{!CHARCOAL}",
       "deprecated": true
     },
     "TEXT_SECONDARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY_TINT_02}",
+      "value": "{!GREY_40}",
       "deprecated": true
     },
     "TEXT_TERTIARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY_TINT_03}",
+      "value": "{!BLACK_ALPHA_20}",
       "deprecated": true
     },
     "TEXT_QUATERNARY_LIGHT_COLOR": {
-      "value": "{!SKY_GRAY_TINT_03}",
+      "value": "{!BLACK_ALPHA_20}",
       "deprecated": true
     },
     "TEXT_PRIMARY_DARK_COLOR": {
@@ -28,15 +28,15 @@
       "deprecated": true
     },
     "TEXT_SECONDARY_DARK_COLOR": {
-      "value": "{!SKY_GRAY_TINT_04}",
+      "value": "{!NIGHT_GREY_40}",
       "deprecated": true
     },
     "TEXT_TERTIARY_DARK_COLOR": {
-      "value": "{!BLACK_TINT_06}",
+      "value": "{!WHITE_ALPHA_20}",
       "deprecated": true
     },
     "TEXT_QUATERNARY_DARK_COLOR": {
-      "value": "{!BLACK_TINT_06}",
+      "value": "{!WHITE_ALPHA_20}",
       "deprecated": true
     },
     "TEXT_PRIMARY_DAY": {
@@ -55,8 +55,7 @@
       "value": "{!GREY_40}"
     },
     "TEXT_SECONDARY_NIGHT": {
-      "value": "{!SKY_GRAY_TINT_04}",
-      "comment": "This colour needs to be changed to NIGHT_GREY_40 when we set the new hex values"
+      "value": "{!NIGHT_GREY_40}"
     },
     "TEXT_DISABLED_DAY": {
       "value": "{!BLACK_ALPHA_20}"

@@ -15,7 +15,7 @@
       "value": "#FFFFFF99"
     },
     "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT": {
-      "value": "#00000033"
+      "value": "{!BLACK_ALPHA_20}"
     },
   }
 }

@@ -5,10 +5,10 @@
   },
   "props": {
     "MARCOMMS_DARK_SKY": {
-      "value": "#02122C"
+      "value": "#05203C"
     },
     "MARCOMMS_SKY_BLUE": {
-      "value": "#0770e3"
+      "value": "#0062E3"
     },
     "MARCOMMS_BLUE_BRIGHT": {
       "value": "#A1EEFF"
@@ -23,7 +23,7 @@
       "value": "#93FFDE"
     },
     "MARCOMMS_GREEN_MUTED": {
-      "value": "#D0EEEC"
+      "value": "#D4FFF2"
     },
     "MARCOMMS_PURPLE": {
       "value": "#8E47BA"
@@ -32,10 +32,10 @@
       "value": "#FFA3E5"
     },
     "MARCOMMS_PINK_MUTED": {
-      "value": "#F6DDE1"
+      "value": "#FFE9F9"
     },
     "MARCOMMS_BERRY": {
-      "value": "#D1435B"
+      "value": "#E70866"
     },
     "MARCOMMS_ORANGE": {
       "value": "#FF7B59"
@@ -44,16 +44,16 @@
       "value": "#FEEB87"
     },
     "MARCOMMS_YELLOW_MUTED": {
-      "value": "#FFEBD0"
+      "value": "#FFF7CF"
     },
     "MARCOMMS_WHITE": {
       "value": "#ffffff"
     },
     "MARCOMMS_CHARCOAL": {
-      "value": "#111236"
+      "value": "#161616"
     },
     "MARCOMMS_GREY_40": {
-      "value": "#68697F"
+      "value": "#545860"
     }
   }
 }
