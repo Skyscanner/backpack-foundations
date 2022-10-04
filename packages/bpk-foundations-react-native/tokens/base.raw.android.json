@@ -1917,7 +1917,7 @@
       "type": "color",
       "category": "skeleton-colors",
       "value": "#00000033",
-      "originalValue": "{!BLACK_ALPHA_20}",
+      "originalValue": "#00000033",
       "name": "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT"
     },
     "ANIMATION_DURATION_XS": {
@@ -3165,7 +3165,7 @@
       "originalValue": "#FFFFFF99",
       "name": "PRIVATE_SKELETON_SHIMMER_CENTER_COLOR",
       "darkValue": "#00000033",
-      "originalDarkValue": "{!BLACK_ALPHA_20}"
+      "originalDarkValue": "#00000033"
     }
   },
   "propKeys": [

@@ -2550,7 +2550,7 @@
       "type": "color",
       "category": "skeleton-colors",
       "value": "#00000033",
-      "originalValue": "{!BLACK_ALPHA_20}",
+      "originalValue": "#00000033",
       "name": "privateSkeletonShimmerCenterNight"
     },
     {
@@ -3675,7 +3675,7 @@
       "originalValue": "#FFFFFF99",
       "name": "privateSkeletonShimmerCenterColor",
       "darkValue": "#00000033",
-      "originalDarkValue": "{!BLACK_ALPHA_20}"
+      "originalDarkValue": "#00000033"
     }
   ]
 }

@@ -1,5 +1,4 @@
 {
-  "imports": ["./aliases.json"],
   "global": {
     "type": "color",
     "category": "skeleton-colors"
@@ -15,7 +14,7 @@
       "value": "#FFFFFF99"
     },
     "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT": {
-      "value": "{!BLACK_ALPHA_20}"
+      "value": "#00000033"
     },
   }
 }
