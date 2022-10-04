@@ -39,24 +39,7 @@ $bpk-spacing-v2: true;
   padding: (6 * $bpk-one-pixel-rem) bpk-spacing-base();
   border: 0;
   border-radius: $bpk-button-border-radius;
-  background-image: linear-gradient(
-    -180deg,
-    $bpk-private-button-primary-normal-background-day 0%,
-    $bpk-private-button-primary-normal-background-day 100%
-  );
-  background-image: linear-gradient(
-    -180deg,
-    var(
-        --bpk-button-primary-gradient-start-color,
-        $bpk-private-button-primary-normal-background-day
-      )
-      0%,
-    var(
-        --bpk-button-primary-gradient-end-color,
-        $bpk-private-button-primary-normal-background-day
-      )
-      100%
-  );
+  background-image: $bpk-private-button-primary-normal-background-day;
   font-size: $bpk-button-font-size;
   font-weight: $bpk-button-font-weight;
   line-height: $bpk-button-line-height;
@@ -669,19 +652,7 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-button--featured {
   background-image: $bpk-button-featured-background-image;
-  background-image: linear-gradient(
-    -180deg,
-    var(
-        --bpk-button-featured-gradient-start-color,
-        $bpk-private-button-featured-normal-background-day
-      )
-      0%,
-    var(
-        --bpk-button-featured-gradient-end-color,
-        $bpk-private-button-featured-normal-background-day
-      )
-      100%
-  );
+  background-image: $bpk-private-button-featured-normal-background-day;
 
   @include bpk-themeable-property(
     color,
