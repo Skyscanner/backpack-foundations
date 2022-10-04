@@ -1,7 +1,7 @@
 {
   "imports": [
     "@skyscanner/bpk-foundations-common/base/animations.json",
-    "@skyscanner/bpk-foundations-common/base/colors.json"
+    "./fork/colors.json"
   ],
   "aliases": {
     "BUTTON_FONT_SIZE": "1.1875rem",
