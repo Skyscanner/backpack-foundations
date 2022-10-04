@@ -51,7 +51,10 @@ $bpk-spacing-v2: true;
         $bpk-private-button-primary-normal-background-day
       )
       0%,
-    var(--bpk-button-primary-gradient-end-color, $bpk-private-button-primary-normal-background-day)
+    var(
+        --bpk-button-primary-gradient-end-color,
+        $bpk-private-button-primary-normal-background-day
+      )
       100%
   );
   font-size: $bpk-button-font-size;
@@ -543,14 +546,14 @@ $bpk-spacing-v2: true;
 
   @include bpk-hover {
     background: none;
-    text-decoration: none;
     color: $bpk-private-button-link-pressed-foreground-day;
+    text-decoration: none;
   }
 
   &:active {
     background: none;
-    text-decoration: none;
     color: $bpk-private-button-link-pressed-foreground-day;
+    text-decoration: none;
   }
 
   &:disabled {
