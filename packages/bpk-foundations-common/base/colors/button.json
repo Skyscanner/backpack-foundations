@@ -54,7 +54,7 @@
         "value": "{!WHITE}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
-        "value": "#CBCED2"
+        "value": "{!GREY_30}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
         "value": "{!GREY_30}"
@@ -72,16 +72,16 @@
         "value": "{!DARK_SKY_85}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
-        "value": "{!NIGHT_GREY_00}"
+        "value": "{!GREY_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
-        "value": "{!NIGHT_GREY_00}"
+        "value": "{!GREY_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_DAY": {
-        "value": "{!WHITE_ALPHA_20}"
+        "value": "{!BLACK_ALPHA_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
-        "value": "{!WHITE_ALPHA_20}"
+        "value": "{!BLACK_ALPHA_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY": {
         "value": "{!GREY_20}"
@@ -114,10 +114,10 @@
         "value": "{!WHITE_ALPHA_20}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
-        "value": "{!NIGHT_GREY_10}"
+        "value": "{!NIGHT_GREY_00}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
-        "value": "{!NIGHT_GREY_10}"
+        "value": "{!NIGHT_GREY_00}"
       },
       "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY": {
         "value": "{!GREY_20}"

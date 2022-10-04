@@ -181,7 +181,7 @@ export const privateButtonPrimaryOnLightNormalBackgroundNight = "rgb(5, 32, 60)"
 export const privateButtonSecondaryPressedBackgroundDay = "rgb(194, 201, 205)";
 export const privateButtonLinkNormalForegroundDay = "rgb(0, 98, 227)";
 export const privateButtonPrimaryOnLightDisabledForegroundNight = "rgba(0, 0, 0, 0.2)";
-export const privateButtonSecondaryOnDarkDisabledBackgroundNight = "rgb(1, 9, 19)";
+export const privateButtonSecondaryOnDarkDisabledBackgroundNight = "rgb(11, 18, 29)";
 export const privateButtonDestructiveNormalForegroundNight = "rgb(255, 100, 156)";
 export const privateButtonLinkOnDarkDisabledForegroundDay = "rgba(255, 255, 255, 0.2)";
 export const privateButtonSecondaryNormalBackgroundDay = "rgb(224, 227, 229)";
@@ -189,12 +189,12 @@ export const privateButtonPrimaryOnLightNormalBackgroundDay = "rgb(5, 32, 60)";
 export const privateButtonPrimaryOnLightDisabledForegroundDay = "rgba(0, 0, 0, 0.2)";
 export const privateButtonPrimaryOnDarkNormalBackgroundNight = "rgb(255, 255, 255)";
 export const privateButtonFeaturedPressedBackgroundDay = "rgb(2, 77, 175)";
-export const privateButtonPrimaryOnDarkDisabledForegroundNight = "rgba(255, 255, 255, 0.2)";
-export const privateButtonSecondaryOnDarkDisabledBackgroundDay = "rgb(1, 9, 19)";
+export const privateButtonPrimaryOnDarkDisabledForegroundNight = "rgba(0, 0, 0, 0.2)";
+export const privateButtonSecondaryOnDarkDisabledBackgroundDay = "rgb(11, 18, 29)";
 export const privateButtonSecondaryOnDarkPressedBackgroundNight = "rgb(1, 9, 19)";
 export const privateButtonDestructiveNormalForegroundDay = "rgb(200, 4, 86)";
 export const privateButtonPrimaryOnDarkNormalBackgroundDay = "rgb(255, 255, 255)";
-export const privateButtonPrimaryOnDarkDisabledForegroundDay = "rgba(255, 255, 255, 0.2)";
+export const privateButtonPrimaryOnDarkDisabledForegroundDay = "rgba(0, 0, 0, 0.2)";
 export const privateButtonLinkPressedForegroundNight = "rgb(209, 247, 255)";
 export const privateButtonSecondaryOnDarkPressedBackgroundDay = "rgb(1, 9, 19)";
 export const privateButtonPrimaryOnLightDisabledBackgroundNight = "rgb(224, 227, 229)";
@@ -204,13 +204,13 @@ export const privateButtonPrimaryNormalBackgroundNight = "rgb(5, 65, 132)";
 export const privateButtonDestructivePressedBackgroundNight = "rgb(255, 100, 156)";
 export const privateButtonPrimaryPressedBackgroundNight = "rgb(0, 43, 91)";
 export const privateButtonPrimaryOnLightDisabledBackgroundDay = "rgb(224, 227, 229)";
-export const privateButtonPrimaryOnDarkDisabledBackgroundNight = "rgb(11, 18, 29)";
+export const privateButtonPrimaryOnDarkDisabledBackgroundNight = "rgb(224, 227, 229)";
 export const privateButtonPrimaryNormalBackgroundDay = "rgb(5, 32, 60)";
 export const privateButtonDestructiveNormalBackgroundDay = "rgb(224, 227, 229)";
 export const privateButtonLinkOnDarkPressedForegroundNight = "rgba(255, 255, 255, 0.5)";
 export const privateButtonDestructivePressedBackgroundDay = "rgb(200, 4, 86)";
 export const privateButtonPrimaryPressedBackgroundDay = "rgb(21, 70, 121)";
-export const privateButtonPrimaryOnDarkDisabledBackgroundDay = "rgb(11, 18, 29)";
+export const privateButtonPrimaryOnDarkDisabledBackgroundDay = "rgb(224, 227, 229)";
 export const privateButtonLinkOnDarkNormalForegroundNight = "rgb(255, 255, 255)";
 export const privateButtonDisabledBackgroundNight = "rgb(11, 18, 29)";
 export const privateButtonSecondaryOnDarkNormalBackgroundNight = "rgb(36, 51, 70)";
@@ -221,7 +221,7 @@ export const privateButtonLinkOnDarkNormalForegroundDay = "rgb(255, 255, 255)";
 export const privateButtonDisabledBackgroundDay = "rgb(224, 227, 229)";
 export const privateButtonSecondaryOnDarkNormalBackgroundDay = "rgb(36, 51, 70)";
 export const privateButtonSecondaryOnDarkDisabledForegroundDay = "rgba(255, 255, 255, 0.2)";
-export const privateButtonPrimaryOnDarkPressedBackgroundDay = "rgb(203, 206, 210)";
+export const privateButtonPrimaryOnDarkPressedBackgroundDay = "rgb(194, 201, 205)";
 export const privateButtonPrimaryOnLightPressedBackgroundNight = "rgb(21, 70, 121)";
 export const privateButtonFeaturedNormalBackgroundNight = "rgb(132, 233, 255)";
 export const privateSkeletonShimmerStartEndDay = "rgba(255, 255, 255, 0)";
@@ -407,7 +407,7 @@ export const privateButtonLinkOnDisabledForegroundNight = {
 };
 export const privateButtonPrimaryOnPressedBackgroundDay = {
  light: "rgb(0, 0, 0)",
- dark: "rgb(203, 206, 210)",
+ dark: "rgb(194, 201, 205)",
 };
 export const privateButtonPrimaryOnNormalBackgroundNight = {
  light: "rgb(5, 32, 60)",
@@ -415,10 +415,10 @@ export const privateButtonPrimaryOnNormalBackgroundNight = {
 };
 export const privateButtonPrimaryOnDisabledForegroundNight = {
  light: "rgba(0, 0, 0, 0.2)",
- dark: "rgba(255, 255, 255, 0.2)",
+ dark: "rgba(0, 0, 0, 0.2)",
 };
 export const privateButtonSecondaryOnDisabledBackgroundNight = {
- dark: "rgb(1, 9, 19)",
+ dark: "rgb(11, 18, 29)",
 };
 export const privateButtonLinkOnDisabledForegroundDay = {
  dark: "rgba(255, 255, 255, 0.2)",
@@ -429,10 +429,10 @@ export const privateButtonPrimaryOnNormalBackgroundDay = {
 };
 export const privateButtonPrimaryOnDisabledForegroundDay = {
  light: "rgba(0, 0, 0, 0.2)",
- dark: "rgba(255, 255, 255, 0.2)",
+ dark: "rgba(0, 0, 0, 0.2)",
 };
 export const privateButtonSecondaryOnDisabledBackgroundDay = {
- dark: "rgb(1, 9, 19)",
+ dark: "rgb(11, 18, 29)",
 };
 export const privateButtonSecondaryOnPressedBackgroundNight = {
  dark: "rgb(1, 9, 19)",
@@ -442,11 +442,11 @@ export const privateButtonSecondaryOnPressedBackgroundDay = {
 };
 export const privateButtonPrimaryOnDisabledBackgroundNight = {
  light: "rgb(224, 227, 229)",
- dark: "rgb(11, 18, 29)",
+ dark: "rgb(224, 227, 229)",
 };
 export const privateButtonPrimaryOnDisabledBackgroundDay = {
  light: "rgb(224, 227, 229)",
- dark: "rgb(11, 18, 29)",
+ dark: "rgb(224, 227, 229)",
 };
 export const privateButtonLinkOnPressedForegroundNight = {
  dark: "rgba(255, 255, 255, 0.5)",

@@ -1668,8 +1668,8 @@
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(1, 9, 19)",
-      "originalValue": "{!NIGHT_GREY_10}",
+      "value": "rgb(11, 18, 29)",
+      "originalValue": "{!NIGHT_GREY_00}",
       "name": "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_NIGHT": {
@@ -1724,15 +1724,15 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgba(255, 255, 255, 0.2)",
-      "originalValue": "{!WHITE_ALPHA_20}",
+      "value": "rgba(0, 0, 0, 0.2)",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(1, 9, 19)",
-      "originalValue": "{!NIGHT_GREY_10}",
+      "value": "rgb(11, 18, 29)",
+      "originalValue": "{!NIGHT_GREY_00}",
       "name": "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
@@ -1759,8 +1759,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgba(255, 255, 255, 0.2)",
-      "originalValue": "{!WHITE_ALPHA_20}",
+      "value": "rgba(0, 0, 0, 0.2)",
+      "originalValue": "{!BLACK_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_NIGHT": {
@@ -1829,8 +1829,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(11, 18, 29)",
-      "originalValue": "{!NIGHT_GREY_00}",
+      "value": "rgb(224, 227, 229)",
+      "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_DAY": {
@@ -1871,8 +1871,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(11, 18, 29)",
-      "originalValue": "{!NIGHT_GREY_00}",
+      "value": "rgb(224, 227, 229)",
+      "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_NIGHT": {
@@ -1948,8 +1948,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(203, 206, 210)",
-      "originalValue": "#CBCED2",
+      "value": "rgb(194, 201, 205)",
+      "originalValue": "{!GREY_30}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT": {
