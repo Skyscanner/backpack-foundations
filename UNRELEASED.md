@@ -1,11 +1,8 @@
-**Breaking:**
+**Changed:**
 
 - bpk-foundations-web:
-    - Update Button tokens to use semantic colour tokens:
-        - `$bpk-button-secondary-active-color`
-        - `$bpk-button-secondary-hover-color`
-        - `$bpk-button-secondary-color`
-        - `$bpk-button-secondary-disabled-background-color`
+    - Deprecated all colour Button tokens `$bpk-button-*-color`, `$bpk-button-*-background-color`, `$bpk-button-*-background-image`
 
+**Breaking:**
 - bpk-mixins:
     - Update Button mixins to use new semantic tokens

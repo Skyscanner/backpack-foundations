@@ -39,7 +39,6 @@ $bpk-spacing-v2: true;
   padding: (6 * $bpk-one-pixel-rem) bpk-spacing-base();
   border: 0;
   border-radius: $bpk-button-border-radius;
-  background-image: $bpk-private-button-primary-normal-background-day;
   font-size: $bpk-button-font-size;
   font-weight: $bpk-button-font-weight;
   line-height: $bpk-button-line-height;
@@ -52,7 +51,7 @@ $bpk-spacing-v2: true;
   @include bpk-themeable-property(
     color,
     --bpk-button-primary-text-color,
-    $bpk-button-color
+    $bpk-text-on-dark-day
   );
   @include bpk-themeable-property(
     background-color,
@@ -66,12 +65,10 @@ $bpk-spacing-v2: true;
   );
 
   @include bpk-hover {
-    background-image: $bpk-button-hover-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-primary-hover-text-color,
-      $bpk-button-hover-color
+      $bpk-text-on-dark-day
     );
     @include bpk-themeable-property(
       background-color,
@@ -81,12 +78,10 @@ $bpk-spacing-v2: true;
   }
 
   &:active {
-    background-image: $bpk-button-active-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-primary-active-text-color,
-      $bpk-button-active-color
+      $bpk-text-on-dark-day
     );
     @include bpk-themeable-property(
       background-color,
@@ -97,8 +92,7 @@ $bpk-spacing-v2: true;
 
   &:disabled {
     background-color: $bpk-private-button-disabled-background-day;
-    background-image: $bpk-button-disabled-background-image;
-    color: $bpk-button-disabled-color;
+    color: $bpk-text-disabled-day;
     cursor: not-allowed;
   }
 }
@@ -131,12 +125,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--primary-on-dark {
-  background-image: $bpk-button-primary-on-dark-background-image;
-
   @include bpk-themeable-property(
     color,
     --bpk-button-primary-on-dark-text-color,
-    $bpk-button-primary-on-dark-color
+    $bpk-text-on-light-day
   );
   @include bpk-themeable-property(
     background-color,
@@ -145,12 +137,10 @@ $bpk-spacing-v2: true;
   );
 
   @include bpk-hover {
-    background-image: $bpk-button-primary-on-dark-hover-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-primary-on-dark-hover-text-color,
-      $bpk-button-primary-on-dark-hover-color
+      $bpk-text-on-light-day
     );
     @include bpk-themeable-property(
       background-color,
@@ -160,12 +150,10 @@ $bpk-spacing-v2: true;
   }
 
   &:active {
-    background-image: $bpk-button-primary-on-dark-active-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-primary-on-dark-active-text-color,
-      $bpk-button-primary-on-dark-active-color
+      $bpk-text-on-light-day
     );
     @include bpk-themeable-property(
       background-color,
@@ -176,7 +164,6 @@ $bpk-spacing-v2: true;
 
   &:disabled {
     background-color: $bpk-private-button-primary-on-dark-disabled-background-day;
-    background-image: $bpk-button-primary-on-dark-disabled-background-image;
     color: $bpk-private-button-primary-on-dark-disabled-foreground-day;
   }
 }
@@ -192,12 +179,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--primary-on-light {
-  background-image: $bpk-button-primary-on-light-background-image;
-
   @include bpk-themeable-property(
     color,
     --bpk-button-primary-on-light-text-color,
-    $bpk-button-primary-on-light-color
+    $bpk-text-on-dark-night
   );
   @include bpk-themeable-property(
     background-color,
@@ -206,12 +191,10 @@ $bpk-spacing-v2: true;
   );
 
   @include bpk-hover {
-    background-image: $bpk-button-primary-on-light-hover-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-primary-on-light-hover-text-color,
-      $bpk-button-primary-on-light-hover-color
+      $bpk-text-on-dark-night
     );
     @include bpk-themeable-property(
       background-color,
@@ -221,12 +204,10 @@ $bpk-spacing-v2: true;
   }
 
   &:active {
-    background-image: $bpk-button-primary-on-light-active-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-primary-on-light-active-text-color,
-      $bpk-button-primary-on-light-active-color
+      $bpk-text-on-dark-night
     );
     @include bpk-themeable-property(
       background-color,
@@ -237,7 +218,6 @@ $bpk-spacing-v2: true;
 
   &:disabled {
     background-color: $bpk-private-button-primary-on-light-disabled-background-day;
-    background-image: $bpk-button-primary-on-light-disabled-background-image;
     color: $bpk-private-button-primary-on-light-disabled-foreground-day;
   }
 }
@@ -253,12 +233,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--secondary {
-  background-image: $bpk-button-secondary-background-image;
-
   @include bpk-themeable-property(
     color,
     --bpk-button-secondary-text-color,
-    $bpk-button-secondary-color
+    $bpk-text-primary-day
   );
   @include bpk-themeable-property(
     background-color,
@@ -267,13 +245,11 @@ $bpk-spacing-v2: true;
   );
 
   @include bpk-hover {
-    background-image: $bpk-button-secondary-hover-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-secondary-hover-text-color,
-      $bpk-button-secondary-hover-color
-    );
+      $bpk-text-primary-day
+      );
     @include bpk-themeable-property(
       background-color,
       --bpk-button-secondary-hover-background-color,
@@ -282,24 +258,16 @@ $bpk-spacing-v2: true;
   }
 
   &:active {
-    background-image: $bpk-button-secondary-active-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-secondary-active-text-color,
-      $bpk-button-secondary-active-color
-    );
+      $bpk-text-primary-day
+      );
     @include bpk-themeable-property(
       background-color,
       --bpk-button-secondary-active-background-color,
       $bpk-private-button-secondary-pressed-background-day
     );
-  }
-
-  &:disabled {
-    background-color: $bpk-private-button-disabled-background-day;
-    background-image: $bpk-button-secondary-disabled-background-image;
-    color: $bpk-button-secondary-disabled-color;
   }
 }
 
@@ -314,12 +282,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--secondary-on-dark {
-  background-image: $bpk-button-secondary-on-dark-background-image;
-
   @include bpk-themeable-property(
     color,
     --bpk-button-secondary-on-dark-text-color,
-    $bpk-button-secondary-on-dark-color
+    $bpk-text-on-dark-day
   );
   @include bpk-themeable-property(
     background-color,
@@ -328,12 +294,10 @@ $bpk-spacing-v2: true;
   );
 
   @include bpk-hover {
-    background-image: $bpk-button-secondary-on-dark-hover-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-secondary-on-dark-hover-text-color,
-      $bpk-button-secondary-on-dark-hover-color
+      $bpk-text-on-dark-day
     );
     @include bpk-themeable-property(
       background-color,
@@ -343,12 +307,10 @@ $bpk-spacing-v2: true;
   }
 
   &:active {
-    background-image: $bpk-button-secondary-on-dark-active-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-secondary-on-dark-active-text-color,
-      $bpk-button-secondary-on-dark-active-color
+      $bpk-text-on-dark-day
     );
     @include bpk-themeable-property(
       background-color,
@@ -359,7 +321,6 @@ $bpk-spacing-v2: true;
 
   &:disabled {
     background-color: $bpk-private-button-secondary-on-dark-disabled-background-day;
-    background-image: $bpk-button-secondary-on-dark-disabled-background-image;
     color: $bpk-private-button-secondary-on-dark-disabled-foreground-day;
   }
 }
@@ -389,12 +350,10 @@ $bpk-spacing-v2: true;
   );
 
   @include bpk-hover {
-    background-image: $bpk-button-destructive-hover-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-destructive-hover-text-color,
-      $bpk-button-destructive-hover-color
+      $bpk-text-primary-inverse-day
     );
     @include bpk-themeable-property(
       background-color,
@@ -407,7 +366,7 @@ $bpk-spacing-v2: true;
     @include bpk-themeable-property(
       color,
       --bpk-button-destructive-active-text-color,
-      $bpk-button-destructive-active-color
+      $bpk-text-primary-inverse-day
     );
     @include bpk-themeable-property(
       background-color,
@@ -418,7 +377,6 @@ $bpk-spacing-v2: true;
 
   &:disabled {
     background-color: $bpk-private-button-disabled-background-day;
-    background-image: $bpk-button-destructive-disabled-background-image;
     color: $bpk-private-button-destructive-disabled-foreground-day;
   }
 }
@@ -651,13 +609,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--featured {
-  background-image: $bpk-button-featured-background-image;
-  background-image: $bpk-private-button-featured-normal-background-day;
-
   @include bpk-themeable-property(
     color,
     --bpk-button-featured-text-color,
-    $bpk-button-featured-color
+    $bpk-text-primary-inverse-day
   );
   @include bpk-themeable-property(
     background-color,
@@ -666,12 +621,10 @@ $bpk-spacing-v2: true;
   );
 
   @include bpk-hover {
-    background-image: $bpk-button-featured-hover-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-featured-hover-text-color,
-      $bpk-button-featured-hover-color
+      $bpk-text-primary-inverse-day
     );
     @include bpk-themeable-property(
       background-color,
@@ -681,22 +634,15 @@ $bpk-spacing-v2: true;
   }
 
   &:active {
-    background-image: $bpk-button-featured-active-background-image;
-
     @include bpk-themeable-property(
       color,
       --bpk-button-featured-active-text-color,
-      $bpk-button-featured-active-color
+      $bpk-text-primary-inverse-day
     );
     @include bpk-themeable-property(
       background-color,
       --bpk-button-featured-active-background-color,
       $bpk-private-button-featured-pressed-background-day
     );
-  }
-
-  &:disabled {
-    background-color: $bpk-private-button-disabled-background-day;
-    background-image: $bpk-button-featured-disabled-background-image;
   }
 }
