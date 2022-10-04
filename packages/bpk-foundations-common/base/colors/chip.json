@@ -9,37 +9,37 @@
       "value": "{!GREY_20}"
     },
     "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT": {
-      "value": "#0B121D"
+      "value": "{!NIGHT_GREY_00}"
     },
     "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY": {
-      "value": "#C6CCD4"
+      "value": "{!GREY_30}"
     },
     "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT": {
-      "value": "#002854"
+      "value": "{!NIGHT_BLUE_100}"
     },
     "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY": {
       "value": "{!DARK_SKY}"
     },
     "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT": {
-      "value": "#054184"
+      "value": "{!NIGHT_SKY}"
     },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
-      "value": "#DDE1E4"
+      "value": "{!GREY_20}"
     },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT": {
-      "value": "#0B111A"
+      "value": "{!NIGHT_GREY_00}"
     },
     "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY": {
       "value": "{!WHITE_ALPHA_20}"
     },
     "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
-      "value": "#0B121D"
+      "value": "{!NIGHT_GREY_00}"
     },
     "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY": {
-      "value": "#C6CCD4"
+      "value": "{!GREY_30}"
     },
     "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
-      "value": "#002854"
+      "value": "{!NIGHT_BLUE_100}"
     },
     "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY": {
       "value": "{!WHITE}"
