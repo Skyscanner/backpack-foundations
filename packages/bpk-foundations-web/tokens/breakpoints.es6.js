@@ -113,8 +113,10 @@ export const textSecondaryDay = "rgb(84, 88, 96)";
 export const scrimDay = "rgba(0, 0, 0, 0.7)";
 export const backgroundElevation03DarkColor = "rgb(58, 58, 60)";
 export const backgroundElevation02DarkColor = "rgb(44, 44, 46)";
+export const lineOnDarkNight = "rgb(68, 80, 95)";
 export const lineDarkColor = "rgb(72, 72, 74)";
 export const backgroundElevation01DarkColor = "rgb(29, 27, 32)";
+export const lineOnDarkDay = "rgba(255, 255, 255, 0.5)";
 export const backgroundAlternativeSecondaryDarkColor = "rgb(29, 27, 32)";
 export const backgroundLightColor = "rgb(255, 255, 255)";
 export const backgroundDarkColor = "rgb(0, 0, 0)";
@@ -409,6 +411,8 @@ corePrimaryDay,
 corePrimaryNight,
 };
 export const lineColors = {
+lineOnDarkNight,
+lineOnDarkDay,
 lineNight,
 lineDay,
 };

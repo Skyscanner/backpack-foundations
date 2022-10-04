@@ -2151,6 +2151,13 @@
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "BACKGROUND_ELEVATION_02_DARK_COLOR"
     },
+    "LINE_ON_DARK_NIGHT": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#44505fff",
+      "originalValue": "{!NIGHT_GREY_30}",
+      "name": "LINE_ON_DARK_NIGHT"
+    },
     "LINE_DARK_COLOR": {
       "type": "color",
       "category": "colors",
@@ -2166,6 +2173,13 @@
       "deprecated": true,
       "originalValue": "{!NIGHT_GREY_20}",
       "name": "BACKGROUND_ELEVATION_01_DARK_COLOR"
+    },
+    "LINE_ON_DARK_DAY": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "LINE_ON_DARK_DAY"
     },
     "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR": {
       "type": "color",
@@ -3667,6 +3681,15 @@
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
     },
+    "LINE_ON_DARK_COLOR": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "LINE_ON_DARK_COLOR",
+      "darkValue": "#44505fff",
+      "originalDarkValue": "{!NIGHT_GREY_30}"
+    },
     "LINE_COLOR": {
       "type": "color",
       "category": "line-colors",
@@ -4306,8 +4329,10 @@
     "SCRIM_DAY",
     "BACKGROUND_ELEVATION_03_DARK_COLOR",
     "BACKGROUND_ELEVATION_02_DARK_COLOR",
+    "LINE_ON_DARK_NIGHT",
     "LINE_DARK_COLOR",
     "BACKGROUND_ELEVATION_01_DARK_COLOR",
+    "LINE_ON_DARK_DAY",
     "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR",
     "BACKGROUND_LIGHT_COLOR",
     "BACKGROUND_DARK_COLOR",
@@ -4511,6 +4536,7 @@
     "SCRIM_COLOR",
     "BACKGROUND_ELEVATION_03_COLOR",
     "BACKGROUND_ELEVATION_02_COLOR",
+    "LINE_ON_DARK_COLOR",
     "LINE_COLOR",
     "BACKGROUND_ELEVATION_01_COLOR",
     "BACKGROUND_ALTERNATIVE_SECONDARY_COLOR",

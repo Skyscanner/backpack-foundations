@@ -1737,6 +1737,13 @@
     },
     {
       "type": "color",
+      "category": "line-colors",
+      "value": "#44505fff",
+      "originalValue": "{!NIGHT_GREY_30}",
+      "name": "lineOnDarkNight"
+    },
+    {
+      "type": "color",
       "category": "colors",
       "value": "#44505fff",
       "deprecated": true,
@@ -1750,6 +1757,13 @@
       "deprecated": true,
       "originalValue": "{!NIGHT_GREY_20}",
       "name": "backgroundElevation01DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "lineOnDarkDay"
     },
     {
       "type": "color",
@@ -3250,6 +3264,15 @@
       "name": "backgroundElevation02Color",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "lineOnDarkColor",
+      "darkValue": "#44505fff",
+      "originalDarkValue": "{!NIGHT_GREY_30}"
     },
     {
       "type": "color",

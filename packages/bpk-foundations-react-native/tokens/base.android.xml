@@ -96,8 +96,10 @@
   <color name="SCRIM_DAY" category="scrim-colors">#000000b3</color>
   <color name="BACKGROUND_ELEVATION_03_DARK_COLOR" category="text-colors">#243346ff</color>
   <color name="BACKGROUND_ELEVATION_02_DARK_COLOR" category="text-colors">#243346ff</color>
+  <color name="LINE_ON_DARK_NIGHT" category="line-colors">#44505fff</color>
   <color name="LINE_DARK_COLOR" category="colors">#44505fff</color>
   <color name="BACKGROUND_ELEVATION_01_DARK_COLOR" category="text-colors">#131d2bff</color>
+  <color name="LINE_ON_DARK_DAY" category="line-colors">#ffffff80</color>
   <color name="BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR" category="colors">#010913ff</color>
   <color name="BACKGROUND_LIGHT_COLOR" category="colors">#ffffffff</color>
   <color name="BACKGROUND_DARK_COLOR" category="colors">#010913ff</color>

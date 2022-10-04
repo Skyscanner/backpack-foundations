@@ -616,6 +616,12 @@
     },
     {
       "type": "color",
+      "category": "line-colors",
+      "value": "#44505fff",
+      "name": "lineOnDarkNight"
+    },
+    {
+      "type": "color",
       "category": "colors",
       "value": "#44505fff",
       "deprecated": true,
@@ -627,6 +633,12 @@
       "value": "#131d2bff",
       "deprecated": true,
       "name": "backgroundElevation01DarkColor"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#ffffff80",
+      "name": "lineOnDarkDay"
     },
     {
       "type": "color",
@@ -2086,6 +2098,13 @@
       "deprecated": true,
       "name": "backgroundElevation02Color",
       "darkValue": "#243346ff"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#ffffff80",
+      "name": "lineOnDarkColor",
+      "darkValue": "#44505fff"
     },
     {
       "type": "color",

@@ -114,8 +114,10 @@ export const textSecondaryDay = "rgb(84, 88, 96)";
 export const scrimDay = "rgba(0, 0, 0, 0.7)";
 export const backgroundElevation03DarkColor = "rgb(36, 51, 70)";
 export const backgroundElevation02DarkColor = "rgb(36, 51, 70)";
+export const lineOnDarkNight = "rgb(68, 80, 95)";
 export const lineDarkColor = "rgb(68, 80, 95)";
 export const backgroundElevation01DarkColor = "rgb(19, 29, 43)";
+export const lineOnDarkDay = "rgba(255, 255, 255, 0.5)";
 export const backgroundAlternativeSecondaryDarkColor = "rgb(1, 9, 19)";
 export const backgroundLightColor = "rgb(255, 255, 255)";
 export const backgroundDarkColor = "rgb(1, 9, 19)";
@@ -355,6 +357,9 @@ export const backgroundElevation02Color = {
  dark: "rgb(36, 51, 70)",
  light: "rgb(255, 255, 255)",
 };
+export const lineOnNight = {
+ dark: "rgb(68, 80, 95)",
+};
 export const lineColor = {
  dark: "rgb(68, 80, 95)",
  light: "rgb(194, 201, 205)",
@@ -362,6 +367,9 @@ export const lineColor = {
 export const backgroundElevation01Color = {
  dark: "rgb(19, 29, 43)",
  light: "rgb(255, 255, 255)",
+};
+export const lineOnDay = {
+ dark: "rgba(255, 255, 255, 0.5)",
 };
 export const backgroundAlternativeSecondaryColor = {
  dark: "rgb(1, 9, 19)",
@@ -696,6 +704,8 @@ textLgLetterSpacing,
 textSmLetterSpacing,
 };
 export const lineColors = {
+lineOnDarkNight,
+lineOnDarkDay,
 lineNight,
 lineDay,
 };
@@ -774,6 +784,10 @@ backgroundTertiaryColor,
 backgroundSecondaryColor,
 backgroundAlternativeColor,
 primaryColor,
+};
+export const semanticLineColors = {
+lineOnNight,
+lineOnDay,
 };
 export const semanticMarcommsColors = {
 marcommsSky,
@@ -919,6 +933,7 @@ export const textDisabledColor = undefined;
 export const textErrorColor = undefined;
 export const textPrimaryInverseColor = undefined;
 export const scrimColor = undefined;
+export const lineOnDarkColor = undefined;
 export const privateChipOnDarkNormalBackgroundColor = undefined;
 export const privateChipOnDarkPressedBackgroundColor = undefined;
 export const privateChipOnDarkOnBackgroundColor = undefined;

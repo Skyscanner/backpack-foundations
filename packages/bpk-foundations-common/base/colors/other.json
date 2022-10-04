@@ -35,6 +35,16 @@
       "category": "line-colors",
       "value": "{!NIGHT_GREY_30}"
     },
+    "LINE_ON_DARK_DAY": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "{!WHITE_ALPHA_50}"
+    },
+    "LINE_ON_DARK_NIGHT": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "{!NIGHT_GREY_30}"
+    },
     "SCRIM_DAY": {
       "type": "color",
       "category": "scrim-colors",
