@@ -1,14 +1,15 @@
 {
+  "imports": ["./aliases.json"],
   "global": {
     "type": "color",
     "category": "marcomms-colors"
   },
   "props": {
     "MARCOMMS_DARK_SKY": {
-      "value": "#05203C"
+      "value": "{!DARK_SKY}"
     },
     "MARCOMMS_SKY_BLUE": {
-      "value": "#0062E3"
+      "value": "{!SKY_BLUE}"
     },
     "MARCOMMS_BLUE_BRIGHT": {
       "value": "#A1EEFF"
@@ -17,13 +18,13 @@
       "value": "#D9F8FF"
     },
     "MARCOMMS_ECO_GREEN": {
-      "value": "#0FA1A9"
+      "value": "{!ECO_GREEN}"
     },
     "MARCOMMS_GREEN_BRIGHT": {
       "value": "#93FFDE"
     },
     "MARCOMMS_GREEN_MUTED": {
-      "value": "#D4FFF2"
+      "value": "{!GREEN_MUTED}"
     },
     "MARCOMMS_PURPLE": {
       "value": "#8E47BA"
@@ -32,10 +33,10 @@
       "value": "#FFA3E5"
     },
     "MARCOMMS_PINK_MUTED": {
-      "value": "#FFE9F9"
+      "value": "{!PINK_MUTED}"
     },
     "MARCOMMS_BERRY": {
-      "value": "#E70866"
+      "value": "{!BERRY}"
     },
     "MARCOMMS_ORANGE": {
       "value": "#FF7B59"
@@ -44,16 +45,16 @@
       "value": "#FEEB87"
     },
     "MARCOMMS_YELLOW_MUTED": {
-      "value": "#FFF7CF"
+      "value": "{!YELLOW_MUTED}"
     },
     "MARCOMMS_WHITE": {
-      "value": "#ffffff"
+      "value": "{!WHITE}"
     },
     "MARCOMMS_CHARCOAL": {
-      "value": "#161616"
+      "value": "{!CHARCOAL}"
     },
     "MARCOMMS_GREY_40": {
-      "value": "#545860"
+      "value": "{!GREY_40}"
     }
   }
 }

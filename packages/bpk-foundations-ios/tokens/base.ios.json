@@ -1934,14 +1934,14 @@
       "type": "color",
       "category": "marcomms-colors",
       "value": "#e70866ff",
-      "originalValue": "#E70866",
+      "originalValue": "{!BERRY}",
       "name": "marcommsBerry"
     },
     {
       "type": "color",
       "category": "marcomms-colors",
       "value": "#161616ff",
-      "originalValue": "#161616",
+      "originalValue": "{!CHARCOAL}",
       "name": "marcommsCharcoal"
     },
     {
@@ -1955,7 +1955,7 @@
       "type": "color",
       "category": "marcomms-colors",
       "value": "#545860ff",
-      "originalValue": "#545860",
+      "originalValue": "{!GREY_40}",
       "name": "marcommsGrey40"
     },
     {
@@ -1990,14 +1990,14 @@
       "type": "color",
       "category": "marcomms-colors",
       "value": "#0062e3ff",
-      "originalValue": "#0062E3",
+      "originalValue": "{!SKY_BLUE}",
       "name": "marcommsSkyBlue"
     },
     {
       "type": "color",
       "category": "marcomms-colors",
       "value": "#05203cff",
-      "originalValue": "#05203C",
+      "originalValue": "{!DARK_SKY}",
       "name": "marcommsDarkSky"
     },
     {
@@ -2011,28 +2011,28 @@
       "type": "color",
       "category": "marcomms-colors",
       "value": "#ffffffff",
-      "originalValue": "#ffffff",
+      "originalValue": "{!WHITE}",
       "name": "marcommsWhite"
     },
     {
       "type": "color",
       "category": "marcomms-colors",
       "value": "#fff7cfff",
-      "originalValue": "#FFF7CF",
+      "originalValue": "{!YELLOW_MUTED}",
       "name": "marcommsYellowMuted"
     },
     {
       "type": "color",
       "category": "marcomms-colors",
       "value": "#ffe9f9ff",
-      "originalValue": "#FFE9F9",
+      "originalValue": "{!PINK_MUTED}",
       "name": "marcommsPinkMuted"
     },
     {
       "type": "color",
       "category": "marcomms-colors",
       "value": "#d4fff2ff",
-      "originalValue": "#D4FFF2",
+      "originalValue": "{!GREEN_MUTED}",
       "name": "marcommsGreenMuted"
     },
     {
@@ -2046,7 +2046,7 @@
       "type": "color",
       "category": "marcomms-colors",
       "value": "#0fa1a9ff",
-      "originalValue": "#0FA1A9",
+      "originalValue": "{!ECO_GREEN}",
       "name": "marcommsEcoGreen"
     },
     {
