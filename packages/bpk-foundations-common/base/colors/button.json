@@ -66,7 +66,7 @@
         "value": "{!DARK_SKY}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_DAY": {
-        "value": "#{!DARK_SKY_85}"
+        "value": "{!DARK_SKY_85}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT": {
         "value": "{!DARK_SKY_85}"

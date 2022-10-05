@@ -2594,8 +2594,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#000000ff",
-      "originalValue": "#{!DARK_SKY_85}",
+      "value": "#154679ff",
+      "originalValue": "{!DARK_SKY_85}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_DAY": {
@@ -3871,8 +3871,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#000000ff",
-      "originalValue": "#{!DARK_SKY_85}",
+      "value": "#154679ff",
+      "originalValue": "{!DARK_SKY_85}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_COLOR",
       "darkValue": "#154679ff",
       "originalDarkValue": "{!DARK_SKY_85}"

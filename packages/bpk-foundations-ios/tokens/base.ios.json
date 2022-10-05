@@ -2178,8 +2178,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#000000ff",
-      "originalValue": "#{!DARK_SKY_85}",
+      "value": "#154679ff",
+      "originalValue": "{!DARK_SKY_85}",
       "name": "privateButtonPrimaryOnLightPressedBackgroundDay"
     },
     {
@@ -3455,8 +3455,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#000000ff",
-      "originalValue": "#{!DARK_SKY_85}",
+      "value": "#154679ff",
+      "originalValue": "{!DARK_SKY_85}",
       "name": "privateButtonPrimaryOnLightPressedBackgroundColor",
       "darkValue": "#154679ff",
       "originalDarkValue": "{!DARK_SKY_85}"

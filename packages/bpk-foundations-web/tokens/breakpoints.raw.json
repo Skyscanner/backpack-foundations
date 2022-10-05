@@ -1619,8 +1619,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(0, 0, 0)",
-      "originalValue": "#{!DARK_SKY_85}",
+      "value": "rgb(21, 70, 121)",
+      "originalValue": "{!DARK_SKY_85}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_DAY": {

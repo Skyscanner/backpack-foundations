@@ -997,7 +997,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#000000ff",
+      "value": "#154679ff",
       "name": "privateButtonPrimaryOnLightPressedBackgroundDay"
     },
     {
@@ -2249,7 +2249,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#000000ff",
+      "value": "#154679ff",
       "name": "privateButtonPrimaryOnLightPressedBackgroundColor",
       "darkValue": "#154679ff"
     },
