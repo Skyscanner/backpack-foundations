@@ -1,5 +1,4 @@
 {
-  "imports": ["./aliases.json"],
   "global": {
     "type": "color",
     "category": "skeleton-colors"

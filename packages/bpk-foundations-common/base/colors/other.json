@@ -4,25 +4,25 @@
     "COLOR_SYSTEM_RED": {
       "type": "color",
       "category": "colors",
-      "value": "{!PANJIN}",
+      "value": "{!BERRY}",
       "deprecated": true
     },
     "COLOR_SYSTEM_GREEN": {
       "type": "color",
       "category": "colors",
-      "value": "{!MONTEVERDE}",
+      "value": "{!GREEN_SPOT}",
       "deprecated": true
     },
     "LINE_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!SKY_GRAY_TINT_05}",
+      "value": "{!GREY_30}",
       "deprecated": true
     },
     "LINE_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK_TINT_04}",
+      "value": "{!NIGHT_GREY_30}",
       "deprecated": true
     },
     "LINE_DAY": {
@@ -31,6 +31,16 @@
       "value": "{!GREY_30}"
     },
     "LINE_NIGHT": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "{!NIGHT_GREY_30}"
+    },
+    "LINE_ON_DARK_DAY": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "{!WHITE_ALPHA_50}"
+    },
+    "LINE_ON_DARK_NIGHT": {
       "type": "color",
       "category": "line-colors",
       "value": "{!NIGHT_GREY_30}"
@@ -54,7 +64,7 @@
     "PRIMARY_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!SKY_BLUE_TINT_01}",
+      "value": "{!NIGHT_BLUE}",
       "deprecated": true
     },
     "BACKGROUND_LIGHT_COLOR": {
@@ -66,31 +76,31 @@
     "BACKGROUND_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK}",
+      "value": "{!NIGHT_GREY_10}",
       "deprecated": true
     },
     "BACKGROUND_ALTERNATIVE_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!SKY_GRAY_TINT_07}",
+      "value": "{!GREY_10}",
       "deprecated": true
     },
     "BACKGROUND_ALTERNATIVE_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK}",
+      "value": "{!NIGHT_GREY_20}",
       "deprecated": true
     },
     "BACKGROUND_SECONDARY_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!SKY_GRAY_TINT_07}",
+      "value": "{!GREY_10}",
       "deprecated": true
     },
     "BACKGROUND_SECONDARY_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK_TINT_01}",
+      "value": "{!NIGHT_GREY_20}",
       "deprecated": true
     },
     "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR": {
@@ -102,7 +112,7 @@
     "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK_TINT_01}",
+      "value": "{!NIGHT_GREY_10}",
       "deprecated": true
     },
     "BACKGROUND_TERTIARY_LIGHT_COLOR": {
@@ -114,7 +124,7 @@
     "BACKGROUND_TERTIARY_DARK_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "{!BLACK_TINT_02}",
+      "value": "{!NIGHT_GREY_10}",
       "deprecated": true
     },
     "BACKGROUND_ELEVATION_01_LIGHT_COLOR": {
@@ -126,7 +136,7 @@
     "BACKGROUND_ELEVATION_01_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "{!BLACK_TINT_01}",
+      "value": "{!NIGHT_GREY_20}",
       "deprecated": true
     },
     "BACKGROUND_ELEVATION_02_LIGHT_COLOR": {
@@ -138,7 +148,7 @@
     "BACKGROUND_ELEVATION_02_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "{!BLACK_TINT_02}",
+      "value": "{!NIGHT_GREY_25}",
       "deprecated": true
     },
     "BACKGROUND_ELEVATION_03_LIGHT_COLOR": {
@@ -150,7 +160,7 @@
     "BACKGROUND_ELEVATION_03_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "{!BLACK_TINT_03}",
+      "value": "{!NIGHT_GREY_25}",
       "deprecated": true
     }
   }

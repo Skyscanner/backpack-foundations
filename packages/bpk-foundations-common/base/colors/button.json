@@ -6,166 +6,166 @@
     },
     "props": {
       "PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY": {
-       "value": "#DDE1E4"
+       "value": "{!GREY_20}"
       },
       "PRIVATE_BUTTON_DISABLED_BACKGROUND_NIGHT": {
-        "value": "#0B111A"
+        "value": "{!NIGHT_GREY_00}"
       },
       "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_DAY": {
-        "value": "#05203C"
+        "value": "{!DARK_SKY}"
       },
       "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_NIGHT": {
-        "value": "#054184"
+        "value": "{!NIGHT_SKY}"
       },
       "PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_DAY": {
-        "value": "#154679"
+        "value": "{!DARK_SKY_85}"
       },
       "PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_NIGHT": {
-        "value": "#154679"
+        "value": "{!NIGHT_BLUE_100}"
       },
       "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY": {
-        "value": "#E0E3E5"
+        "value": "{!GREY_20}"
       },
       "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_NIGHT": {
-        "value": "#243346"
+        "value": "{!NIGHT_GREY_25}"
       },
       "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY": {
-        "value": "#C6CCD4"
+        "value": "{!GREY_30}"
       },
       "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT": {
-        "value": "#010913"
+        "value": "{!NIGHT_GREY_10}"
       },
       "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_DAY": {
-        "value": "#0062E3"
+        "value": "{!SKY_BLUE}"
       },
       "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT": {
-        "value": "#84E9FF"
+        "value": "{!NIGHT_BLUE}"
       },
       "PRIVATE_BUTTON_FEATURED_PRESSED_BACKGROUND_DAY": {
-        "value": "#024DAF"
+        "value": "{!SKY_BLUE_85}"
       },
       "PRIVATE_BUTTON_FEATURED_PRESSED_BACKGROUND_NIGHT": {
-        "value": "#D1F7FF"
+        "value": "{!NIGHT_BLUE_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_DAY": {
-        "value": "#FFFFFF"
+        "value": "{!WHITE}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
-        "value": "#FFFFFF"
+        "value": "{!WHITE}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
-        "value": "#CBCED2"
+        "value": "{!GREY_30}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
-        "value": "#CBCED2"
+        "value": "{!GREY_30}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_DAY": {
-        "value": "#05203C"
+        "value": "{!DARK_SKY}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_NIGHT": {
-        "value": "#05203C"
+        "value": "{!DARK_SKY}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_DAY": {
-        "value": "#154679"
+        "value": "{!DARK_SKY_85}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT": {
-        "value": "#154679"
+        "value": "{!DARK_SKY_85}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
-        "value": "#DDE1E4"
+        "value": "{!GREY_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
-        "value": "#DDE1E4"
+        "value": "{!GREY_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_DAY": {
-        "value": "#00000033"
+        "value": "{!BLACK_ALPHA_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
-        "value": "#00000033"
+        "value": "{!BLACK_ALPHA_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY": {
-        "value": "#DDE1E4"
+        "value": "{!GREY_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT": {
-        "value": "#DDE1E4"
+        "value": "{!GREY_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_DAY": {
-        "value": "#00000033"
+        "value": "{!BLACK_ALPHA_20}"
       },
       "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_NIGHT": {
-        "value": "#00000033"
+        "value": "{!BLACK_ALPHA_20}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_DAY": {
-        "value": "#243346"
+        "value": "{!NIGHT_GREY_25}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
-        "value": "#243346"
+        "value": "{!NIGHT_GREY_25}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
-        "value": "#010913"
+        "value": "{!NIGHT_GREY_10}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
-        "value": "#010913"
+        "value": "{!NIGHT_GREY_10}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_DAY": {
-        "value": "#FFFFFF33"
+        "value": "{!WHITE_ALPHA_20}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
-        "value": "#FFFFFF33"
+        "value": "{!WHITE_ALPHA_20}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
-        "value": "#0B111A"
+        "value": "{!NIGHT_GREY_00}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
-        "value": "#0B111A"
+        "value": "{!NIGHT_GREY_00}"
       },
       "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY": {
-        "value": "#E0E3E5"
+        "value": "{!GREY_20}"
       },
       "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_NIGHT": {
-        "value": "#243346"
+        "value": "{!NIGHT_GREY_25}"
       },
       "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY": {
-        "value": "#C80456"
+        "value": "{!BERRY_75}"
       },
       "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_NIGHT": {
-        "value": "#FF649C"
+        "value": "{!NIGHT_BERRY}"
       },
       "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_DAY": {
-        "value": "#E70866"
+        "value": "{!BERRY_75}"
       },
       "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_NIGHT": {
-        "value": "#FF649C"
+        "value": "{!NIGHT_BERRY}"
       },
       "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_DAY": {
-        "value": "#0062E3"
+        "value": "{!SKY_BLUE}"
       },
       "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_NIGHT": {
-        "value": "#84E9FF"
+        "value": "{!NIGHT_BLUE}"
       },
       "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_DAY": {
-        "value": "#154679"
+        "value": "{!DARK_SKY_85}"
       },
       "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_NIGHT": {
-        "value": "#D1F7FF"
+        "value": "{!NIGHT_BLUE_20}"
       },
       "PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_DAY": {
-        "value": "#FFFFFF"
+        "value": "{!WHITE}"
       },
       "PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_NIGHT": {
-        "value": "#FFFFFF"
+        "value": "{!WHITE}"
       },
       "PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_DAY": {
-        "value": "#FFFFFF80"
+        "value": "{!WHITE_ALPHA_50}"
       },
       "PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_NIGHT": {
-        "value": "#FFFFFF80"
+        "value": "{!WHITE_ALPHA_50}"
       },
       "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_DAY": {
-        "value": "#FFFFFF33"
+        "value": "{!WHITE_ALPHA_20}"
       },
       "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
-        "value": "#FFFFFF33"
+        "value": "{!WHITE_ALPHA_20}"
       }
     }
   }
