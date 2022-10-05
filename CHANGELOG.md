@@ -1,3 +1,18 @@
+# 2022-10-05
+
+**Breaking:**
+
+- `@skyscanner/bpk-foundations-common: 3.2.1 => 4.0.0` <br />
+- `@skyscanner/bpk-foundations-android: 4.4.1 => 5.0.0` <br />
+- `@skyscanner/bpk-foundations-ios: 3.4.1 => 4.0.0` <br />
+- `@skyscanner/bpk-foundations-react-native: 2.4.1 => 3.0.0` <br />
+- `@skyscanner/bpk-foundations-web: 10.4.0 => 11.0.0` <br />
+- `bpk-mixins: 32.2.0 => 33.0.0` <br />
+- `bpk-stylesheets: 7.2.16 => 8.0.0` <br />
+- `@skyscanner/bpk-svgs: 14.5.9 => 15.0.0` <br />
+  - Switch to new brand colours
+
+
 # 2022-09-29
 
 **Changed:**
