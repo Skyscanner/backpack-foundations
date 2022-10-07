@@ -142,7 +142,7 @@
   <color name="PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT" category="chip-colors">#002b5bff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT" category="chip-colors">#054184ff</color>
   <color name="PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY" category="chip-colors">#c2c9cdff</color>
-  <color name="PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
+  <color name="PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT" category="chip-colors">#243346ff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY" category="chip-colors">#ffffffff</color>
   <color name="PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY" category="chip-colors">#e0e3e5ff</color>
   <color name="PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT" category="chip-colors">#054184ff</color>
@@ -151,7 +151,7 @@
   <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_DAY" category="chip-colors">#e0e3e5ff</color>
   <color name="PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT" category="chip-colors">#002b5bff</color>
   <color name="PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY" category="chip-colors">#c2c9cdff</color>
-  <color name="PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
+  <color name="PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT" category="chip-colors">#243346ff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT" category="button-colors">#010913ff</color>
   <color name="PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_NIGHT" category="button-colors">#84e9ffff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_NIGHT" category="button-colors">#ffffff33</color>
