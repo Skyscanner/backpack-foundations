@@ -2080,8 +2080,8 @@
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#0b121dff",
-      "originalValue": "{!NIGHT_GREY_00}",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
       "name": "privateChipDefaultNormalBackgroundNight"
     },
     {
@@ -2143,8 +2143,8 @@
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#0b121dff",
-      "originalValue": "{!NIGHT_GREY_00}",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
       "name": "privateChipOnDarkNormalBackgroundNight"
     },
     {
@@ -3359,8 +3359,8 @@
       "value": "#ffffff33",
       "originalValue": "{!WHITE_ALPHA_20}",
       "name": "privateChipOnDarkNormalBackgroundColor",
-      "darkValue": "#0b121dff",
-      "originalDarkValue": "{!NIGHT_GREY_00}"
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
     },
     {
       "type": "color",
@@ -3386,8 +3386,8 @@
       "value": "#e0e3e5ff",
       "originalValue": "{!GREY_20}",
       "name": "privateChipDefaultNormalBackgroundColor",
-      "darkValue": "#0b121dff",
-      "originalDarkValue": "{!NIGHT_GREY_00}"
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
     },
     {
       "type": "color",
