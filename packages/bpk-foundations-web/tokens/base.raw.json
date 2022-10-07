@@ -2322,7 +2322,7 @@
     },
     "BUTTON_SECONDARY_ON_DARK_DISABLED_COLOR": {
       "category": "buttons",
-      "value": "rgb(178, 178, 191)",
+      "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
       "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
@@ -2650,7 +2650,7 @@
     },
     "BUTTON_DESTRUCTIVE_DISABLED_COLOR": {
       "category": "buttons",
-      "value": "rgb(178, 178, 191)",
+      "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
       "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
@@ -2823,7 +2823,7 @@
     },
     "BUTTON_PRIMARY_ON_DARK_HOVER_COLOR": {
       "category": "buttons",
-      "value": "rgb(17, 18, 54)",
+      "value": "rgb(22, 22, 22)",
       "type": "color",
       "deprecated": true,
       "originalValue": "{!CHARCOAL}",
@@ -2839,7 +2839,7 @@
     },
     "BUTTON_DISABLED_COLOR": {
       "category": "buttons",
-      "value": "rgb(178, 178, 191)",
+      "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
       "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
@@ -2935,7 +2935,7 @@
     },
     "BUTTON_PRIMARY_ON_DARK_COLOR": {
       "category": "buttons",
-      "value": "rgb(17, 18, 54)",
+      "value": "rgb(22, 22, 22)",
       "type": "color",
       "deprecated": true,
       "originalValue": "{!CHARCOAL}",
@@ -2999,7 +2999,7 @@
     },
     "BUTTON_PRIMARY_ON_DARK_DISABLED_COLOR": {
       "category": "buttons",
-      "value": "rgb(178, 178, 191)",
+      "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
       "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
@@ -3298,7 +3298,7 @@
     },
     "BUTTON_PRIMARY_ON_DARK_ACTIVE_COLOR": {
       "category": "buttons",
-      "value": "rgb(17, 18, 54)",
+      "value": "rgb(22, 22, 22)",
       "type": "color",
       "deprecated": true,
       "originalValue": "{!CHARCOAL}",
@@ -3370,7 +3370,7 @@
     },
     "BUTTON_PRIMARY_ON_LIGHT_DISABLED_COLOR": {
       "category": "buttons",
-      "value": "rgb(178, 178, 191)",
+      "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
       "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
