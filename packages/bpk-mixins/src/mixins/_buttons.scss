@@ -269,6 +269,11 @@ $bpk-spacing-v2: true;
       $bpk-private-button-secondary-pressed-background-day
     );
   }
+
+  &:disabled {
+    background-color: $bpk-private-button-disabled-background-day;
+    color: $bpk-text-disabled-day;
+  }
 }
 
 /// Secondary on dark button. Modifies the bpk-button mixin.
@@ -377,7 +382,7 @@ $bpk-spacing-v2: true;
 
   &:disabled {
     background-color: $bpk-private-button-disabled-background-day;
-    color: $bpk-private-button-destructive-disabled-foreground-day;
+    color: $bpk-text-disabled-day;
   }
 }
 
@@ -644,5 +649,10 @@ $bpk-spacing-v2: true;
       --bpk-button-featured-active-background-color,
       $bpk-private-button-featured-pressed-background-day
     );
+  }
+
+  &:disabled {
+    background-color: $bpk-private-button-disabled-background-day;
+    color: $bpk-text-disabled-day;
   }
 }
