@@ -1,3 +1,22 @@
+# 2022-10-11
+
+**Fixed:**
+
+- bpk-mixins: 34.0.0 => 34.0.1
+    - Fix colour in disabled Button mixins
+
+# 2022-10-07
+
+**Changed:**
+
+- bpk-foundations-web: 11.0.1 => 12.0.0
+    - Deprecated all colour Button tokens `$bpk-button-*-color`, `$bpk-button-*-background-color`, `$bpk-button-*-background-image`
+
+**Breaking:**
+
+- bpk-mixins: 33.0.1 => 34.0.0
+    - Update Button mixins to use new semantic tokens
+
 # 2022-10-07
 
 **Changed:**
