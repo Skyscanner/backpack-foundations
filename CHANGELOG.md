@@ -12,7 +12,7 @@
 
 **Fixed:**
 
-- @skyscanner/bpk-foundations-web: 12.0.0 => 12.0.1
+- @skyscanner/bpk-foundations-web: 12.0.0 => 12.0.2
   - Fixed incorrect colour for base font.
   - Deprecated previously missed `scrim` colours.
   - Deprecate unknown state token.
