@@ -10,6 +10,14 @@
 - bpk-mixins: 34.0.1 => 34.0.2
   - Updated `bpk-code` mixins to use new colours.
 
+**Fixed:**
+
+- @skyscanner/bpk-foundations-web: 12.0.0 => 12.0.1
+  - Fixed incorrect colour for base font.
+  - Deprecated previously missed `scrim` colours.
+  - Deprecate unknown state token.
+
+
 # 2022-10-11
 
 **Fixed:**
