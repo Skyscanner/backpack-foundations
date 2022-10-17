@@ -970,10 +970,9 @@ $bpk-spacing-v2: true;
 @mixin bpk-code {
   display: inline;
   padding: 0 $bpk-spacing-xs;
-  background-color: $bpk-color-sky-gray-tint-07;
-  color: $bpk-color-sky-gray-tint-01;
+  background-color: $bpk-surface-highlight-day;
+  color: $bpk-text-primary-day;
   text-align: left;
-  text-shadow: 0 $bpk-one-pixel-rem $bpk-color-white;
   white-space: nowrap;
   vertical-align: bottom;
 
@@ -993,7 +992,7 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-code--alternate {
-  background-color: $bpk-color-sky-blue-tint-03;
+  background-color: $bpk-canvas-contrast-day;
   text-shadow: none;
 }
 
@@ -1031,7 +1030,7 @@ $bpk-spacing-v2: true;
 @mixin bpk-code__pre {
   margin: 0 0 $bpk-spacing-sm;
   padding: $bpk-spacing-base;
-  background-color: $bpk-color-sky-gray-tint-07;
+  background-color: $bpk-surface-highlight-day;
 
   @include bpk-border-radius-xs;
 }
@@ -1047,7 +1046,7 @@ $bpk-spacing-v2: true;
 @mixin bpk-code__pre--alternate {
   background-color: transparent;
 
-  @include bpk-border-sm($bpk-color-sky-gray-tint-04);
+  @include bpk-border-sm($bpk-line-day);
 }
 
 /// Blockquote.
