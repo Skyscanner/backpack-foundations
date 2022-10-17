@@ -4001,6 +4001,7 @@
       "category": "scrims",
       "value": "rgb(178, 178, 191)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_04}",
       "name": "SCRIM_BACKGROUND_COLOR"
     },
@@ -4029,6 +4030,7 @@
       "category": "scrims",
       "value": "rgb(17, 18, 54)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_GRAY}",
       "name": "SCRIM_DARK_BACKGROUND_COLOR"
     },
@@ -4396,6 +4398,7 @@
       "type": "color",
       "category": "states",
       "value": "rgb(8, 78, 178)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "STATE_SELECTED_BACKGROUND_COLOR"
     },

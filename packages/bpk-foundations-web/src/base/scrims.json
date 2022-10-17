@@ -8,7 +8,8 @@
   "props": {
     "SCRIM_BACKGROUND_COLOR": {
       "value": "{!SKY_GRAY_TINT_04}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "SCRIM_INITIAL_OPACITY": {
       "value": "0",
@@ -24,7 +25,8 @@
     },
     "SCRIM_DARK_BACKGROUND_COLOR": {
       "value": "{!SKY_GRAY}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "SCRIM_DARK_OPACITY": {
       "value": ".95",
