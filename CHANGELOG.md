@@ -1,3 +1,15 @@
+# 2022-10-17
+
+**Added:**
+- @skyscanner/bpk-svgs: 15.0.2 => 15.1.0
+  - New small and large Baggage icons, these should be used in favour of previous baggage icons, which are now considered deprecated.
+    - `baggage-cabin-add`, `baggage-cabin-not-included`, `baggage-cabin`, `baggage-checked-add`, `baggage-checked-not-included`, `baggage-checked`, `baggage-generic`
+
+**Changed:**
+
+- bpk-mixins: 34.0.1 => 34.0.2
+  - Updated `bpk-code` mixins to use new colours.
+
 # 2022-10-11
 
 **Fixed:**
