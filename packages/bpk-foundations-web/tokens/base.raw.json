@@ -5024,10 +5024,10 @@
       "name": "FONT_WEIGHT_BOLD"
     },
     "FONT_COLOR_BASE": {
-      "value": "rgb(17, 18, 54)",
+      "value": "rgb(22, 22, 22)",
       "type": "color",
       "category": "text-colors",
-      "originalValue": "{!SKY_GRAY}",
+      "originalValue": "{!CHARCOAL}",
       "name": "FONT_COLOR_BASE"
     },
     "LINE_HEIGHT_BASE_TIGHT": {

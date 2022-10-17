@@ -9,29 +9,33 @@
       "category": "typesettings"
     },
     "FONT_COLOR_BASE": {
-      "value": "{!SKY_GRAY}",
+      "value": "{!CHARCOAL}",
       "type": "color",
       "category": "text-colors"
     },
     "TEXT_PRIMARY_LIGHT_COLOR": {
       "value": "{!SKY_GRAY}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "TEXT_SECONDARY_LIGHT_COLOR": {
       "value": "{!SKY_GRAY_TINT_01}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "TEXT_TERTIARY_LIGHT_COLOR": {
       "value": "{!SKY_GRAY_TINT_03}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "TEXT_QUATERNARY_LIGHT_COLOR": {
       "value": "{!SKY_GRAY_TINT_03}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINE_HEIGHT_XS": {
       "value": "{!FONT_LINE_HEIGHT_XS}",

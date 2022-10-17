@@ -625,7 +625,7 @@ module.exports = {
   fontSize6Xl: "4.75rem",
   fontFamilyBase: "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
   fontWeightBold: "700",
-  fontColorBase: "rgb(17, 18, 54)",
+  fontColorBase: "rgb(22, 22, 22)",
   lineHeightBaseTight: "1.25rem",
   linkTextDecoration: "none",
   fontSize7Xl: "6rem",
