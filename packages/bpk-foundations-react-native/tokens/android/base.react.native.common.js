@@ -61,7 +61,7 @@ module.exports = {
   canvasDay: "rgb(255, 255, 255)",
   canvasNight: "rgb(1, 9, 19)",
   canvasContrastDay: "rgb(239, 241, 242)",
-  canvasContrastNight: "rgb(19, 29, 43)",
+  canvasContrastNight: "rgb(1, 9, 19)",
   coreEcoDay: "rgb(15, 161, 169)",
   coreEcoNight: "rgb(15, 161, 169)",
   coreAccentDay: "rgb(0, 98, 227)",

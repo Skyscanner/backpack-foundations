@@ -42,7 +42,7 @@
   <color name="CANVAS_DAY" category="canvas-colors">#ffffffff</color>
   <color name="CANVAS_NIGHT" category="canvas-colors">#010913ff</color>
   <color name="CANVAS_CONTRAST_DAY" category="canvas-colors">#eff1f2ff</color>
-  <color name="CANVAS_CONTRAST_NIGHT" category="canvas-colors">#131d2bff</color>
+  <color name="CANVAS_CONTRAST_NIGHT" category="canvas-colors">#010913ff</color>
   <color name="CORE_ECO_DAY" category="core-colors">#0fa1a9ff</color>
   <color name="CORE_ECO_NIGHT" category="core-colors">#0fa1a9ff</color>
   <color name="CORE_ACCENT_DAY" category="core-colors">#0062e3ff</color>
