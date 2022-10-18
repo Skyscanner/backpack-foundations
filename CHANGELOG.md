@@ -1,3 +1,14 @@
+# 2022-10-18
+
+**Fixed**
+
+`@skyscanner/bpk-foundations-android: 5.0.1 => 5.0.2`
+`@skyscanner/bpk-foundations-common: 4.0.1 => 4.0.2`
+`@skyscanner/bpk-foundations-ios: 4.0.1 => 4.0.2`
+`@skyscanner/bpk-foundations-react-native: 3.0.1 => 3.0.2`
+`@skyscanner/bpk-foundations-web: 12.0.2 => 12.0.3`
+  - Change mapping for canvasContrast to NightGrey10 in night mode
+
 # 2022-10-17
 
 **Added:**
