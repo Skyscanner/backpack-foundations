@@ -125,16 +125,19 @@
       "deprecated": true
     },
     "BUTTON_FONT_SIZE": {
-      "value": "!{BUTTON_FONT_SIZE}",
-      "type": "size"
+      "value": "1.1875rem",
+      "type": "size",
+      "deprecated": true
     },
     "BUTTON_FONT_WEIGHT": {
       "value": "700",
-      "type": "number"
+      "type": "number",
+      "deprecated": true
     },
     "BUTTON_LINE_HEIGHT": {
       "value": "{!SPACING_BASE}",
-      "type": "number"
+      "type": "number",
+      "deprecated": true
     },
     "BUTTON_TEXT_ALIGN": {
       "value": "center",
@@ -161,11 +164,13 @@
     },
     "BUTTON_LARGE_FONT_SIZE": {
       "value": "{!FONT_SIZE_XL}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "BUTTON_LARGE_LINE_HEIGHT": {
       "value": "{!SPACING_LG_V2}",
-      "type": "number"
+      "type": "number",
+      "deprecated": true
     },
     "BUTTON_SECONDARY_BACKGROUND_COLOR": {
       "value": "{!SKY_GRAY_TINT_06}",

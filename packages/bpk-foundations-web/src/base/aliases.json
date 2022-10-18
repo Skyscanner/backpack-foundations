@@ -4,7 +4,6 @@
     "./fork/colors.json"
   ],
   "aliases": {
-    "BUTTON_FONT_SIZE": "1.1875rem",
     "BUTTON_HEIGHT": "2.25rem",
     "BUTTON_LARGE_HEIGHT": "3rem",
     "FONT_SIZE_XS": ".75rem",

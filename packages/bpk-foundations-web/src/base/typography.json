@@ -198,9 +198,10 @@
       "category": "letter-spacings"
     },
     "BUTTON_FONT_SIZE": {
-      "value": "{!BUTTON_FONT_SIZE}",
+      "value": "1.1875rem",
       "type": "font-size",
-      "category": "font-sizes"
+      "category": "font-sizes",
+      "deprecated": true
     },
     "H6_FONT_SIZE": {
       "value": "{!FONT_SIZE_XS}",
