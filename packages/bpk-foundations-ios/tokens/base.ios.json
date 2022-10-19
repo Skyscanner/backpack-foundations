@@ -1350,8 +1350,8 @@
     {
       "type": "color",
       "category": "canvas-colors",
-      "value": "#131d2bff",
-      "originalValue": "{!NIGHT_GREY_20}",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
       "name": "canvasContrastNight"
     },
     {
@@ -3024,8 +3024,8 @@
       "value": "#eff1f2ff",
       "originalValue": "{!GREY_10}",
       "name": "canvasContrastColor",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     {
       "type": "color",

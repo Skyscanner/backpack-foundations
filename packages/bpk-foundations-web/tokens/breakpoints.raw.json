@@ -791,8 +791,8 @@
     "CANVAS_CONTRAST_NIGHT": {
       "type": "color",
       "category": "canvas-colors",
-      "value": "rgb(19, 29, 43)",
-      "originalValue": "{!NIGHT_GREY_20}",
+      "value": "rgb(1, 9, 19)",
+      "originalValue": "{!NIGHT_GREY_10}",
       "name": "CANVAS_CONTRAST_NIGHT"
     },
     "CORE_ECO_DAY": {

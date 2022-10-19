@@ -1,14 +1,26 @@
-# 2022-10-05
+# 2022-10-19
 
 **Breaking:**
 
-- bpk-mixins: 34.0.4 => 35.0.0
+- bpk-mixins: 34.0.5 => 35.0.0
   - Deprecated `sass-functions.js` and remove `node-sass` peerDependency
   - Use `_svg-to-base64.scss` to do SVG => Base64
+
+# 2022-10-18
+
+**Fixed**
+
+`@skyscanner/bpk-foundations-android: 5.0.1 => 5.0.2`
+`@skyscanner/bpk-foundations-common: 4.0.1 => 4.0.2`
+`@skyscanner/bpk-foundations-ios: 4.0.1 => 4.0.2`
+`@skyscanner/bpk-foundations-react-native: 3.0.1 => 3.0.2`
+`@skyscanner/bpk-foundations-web: 12.0.2 => 12.0.3`
+  - Change mapping for canvasContrast to NightGrey10 in night mode
 
 # 2022-10-17
 
 **Added:**
+
 - @skyscanner/bpk-svgs: 15.0.2 => 15.1.0
   - New small and large Baggage icons, these should be used in favour of previous baggage icons, which are now considered deprecated.
     - `baggage-cabin-add`, `baggage-cabin-not-included`, `baggage-cabin`, `baggage-checked-add`, `baggage-checked-not-included`, `baggage-checked`, `baggage-generic`

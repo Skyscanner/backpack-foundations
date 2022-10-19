@@ -291,7 +291,7 @@
     {
       "type": "color",
       "category": "canvas-colors",
-      "value": "#131d2bff",
+      "value": "#010913ff",
       "name": "canvasContrastNight"
     },
     {
@@ -1913,7 +1913,7 @@
       "category": "canvas-colors",
       "value": "#eff1f2ff",
       "name": "canvasContrastColor",
-      "darkValue": "#131d2bff"
+      "darkValue": "#010913ff"
     },
     {
       "type": "color",
