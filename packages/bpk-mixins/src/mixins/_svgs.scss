@@ -78,18 +78,6 @@
 
 /// Icon.
 ///
-/// > **Note:** You will need to pass the sassFunction `encodebase64` to your node-sass process to use this mixin:
-/// >
-/// > ```js
-/// > var sass = require('node-sass');
-/// > var sassFunctions = require('bpk-mixins/sass-functions');
-/// > ...
-/// > sass.render({
-/// >   file: 'mysassfile.scss',
-/// >   functions: sassFunctions,
-/// > });
-/// > ```
-///
 /// @param {key} $icon
 /// @param {variable} $color
 /// @param {key} $size
