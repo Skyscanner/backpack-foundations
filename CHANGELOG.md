@@ -1,3 +1,11 @@
+# 2022-10-05
+
+**Breaking:**
+
+- bpk-mixins: 34.0.4 => 35.0.0
+  - Deprecated `sass-functions.js` and remove `node-sass` peerDependency
+  - Use `_svg-to-base64.scss` to do SVG => Base64
+
 # 2022-10-17
 
 **Added:**
