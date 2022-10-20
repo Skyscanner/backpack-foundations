@@ -39,15 +39,13 @@ $bpk-spacing-v2: true;
   padding: (6 * $bpk-one-pixel-rem) bpk-spacing-base();
   border: 0;
   border-radius: $bpk-button-border-radius;
-  font-size: $bpk-button-font-size;
-  font-weight: $bpk-button-font-weight;
-  line-height: $bpk-button-line-height;
   text-align: $bpk-button-text-align;
   text-decoration: none;
   cursor: pointer;
   vertical-align: middle;
   user-select: none;
 
+  @include bpk-label-1;
   @include bpk-themeable-property(
     color,
     --bpk-button-primary-text-color,
@@ -57,11 +55,6 @@ $bpk-spacing-v2: true;
     background-color,
     --bpk-button-primary-background-color,
     $bpk-private-button-primary-normal-background-day
-  );
-  @include bpk-themeable-property(
-    font-size,
-    --bpk-button-font-size,
-    $bpk-button-font-size
   );
 
   @include bpk-hover {
@@ -110,8 +103,6 @@ $bpk-spacing-v2: true;
 @mixin bpk-button--large {
   min-height: $bpk-button-large-height;
   padding: (12 * $bpk-one-pixel-rem) bpk-spacing-base();
-
-  @include bpk-heading-4;
 }
 
 /// PrimaryOnDark button. Modifies the bpk-button mixin.
