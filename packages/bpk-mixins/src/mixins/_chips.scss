@@ -24,143 +24,61 @@ $bpk-spacing-v2: true;
   padding: 0 bpk-spacing-base();
   align-items: center;
   border: none;
+  border-radius: $bpk-button-border-radius;
 
-  @include bpk-border-radius-pill;
+  &--on-dark {
+    background-color: $bpk-core-primary-day;
+    color: $bpk-text-on-dark-day;
 
-  &--light {
-    background-color: $bpk-color-white;
-    color: $bpk-color-sky-gray;
-
-    @include bpk-border-sm($bpk-color-sky-gray-tint-03);
+    @include bpk-border-sm($bpk-line-on-dark-day);
 
     @include bpk-hover {
-      background-color: $bpk-color-sky-gray-tint-07;
-    }
-
-    &:active:not(:disabled) {
-      background-color: $bpk-color-sky-gray-tint-06;
+      @include bpk-border-sm($bpk-surface-elevated-day);
     }
 
     &-selected {
       @include bpk-themeable-property(
         color,
-        --bpk-chip-light-selected-text-color,
-        $bpk-color-white
+        --bpk-chip-on-dark-selected-text-color,
+        $bpk-text-primary-day
       );
       @include bpk-themeable-property(
         background-color,
-        --bpk-chip-light-selected-background-color,
-        $bpk-color-sky-blue
+        --bpk-chip-on-dark-selected-background-color,
+        $bpk-surface-default-day
       );
       @include bpk-border-sm(transparent);
-
-      @include bpk-hover {
-        @include bpk-themeable-property(
-          background-color,
-          --bpk-chip-light-selected-hover-background-color,
-          $bpk-color-sky-blue-shade-01
-        );
-      }
-
-      &:active:not(:disabled) {
-        @include bpk-themeable-property(
-          background-color,
-          --bpk-chip-light-selected-active-background-color,
-          $bpk-color-sky-blue-shade-02
-        );
-      }
     }
   }
 
-  &--primary {
-    background-color: $bpk-color-sky-gray-tint-06;
-    color: $bpk-color-sky-gray;
+  &--default {
+    background-color: $bpk-surface-default-day;
+    color: $bpk-text-primary-day;
+
+    @include bpk-border-sm($bpk-line-day);
 
     @include bpk-hover {
-      background-color: $bpk-color-sky-gray-tint-05;
-    }
-
-    &:active:not(:disabled) {
-      background-color: $bpk-color-sky-gray-tint-04;
+      @include bpk-border-sm($bpk-surface-contrast-day);
     }
 
     &-selected {
       @include bpk-themeable-property(
         color,
-        --bpk-chip-primary-selected-text-color,
-        $bpk-color-white
+        --bpk-chip-default-selected-text-color,
+        $bpk-text-on-dark-day
       );
       @include bpk-themeable-property(
         background-color,
-        --bpk-chip-primary-selected-background-color,
-        $bpk-color-sky-blue
+        --bpk-chip-default-selected-background-color,
+        $bpk-core-primary-day
       );
       @include bpk-border-sm(transparent);
-
-      @include bpk-hover {
-        @include bpk-themeable-property(
-          background-color,
-          --bpk-chip-primary-selected-hover-background-color,
-          $bpk-color-sky-blue-shade-01
-        );
-      }
-
-      &:active:not(:disabled) {
-        @include bpk-themeable-property(
-          background-color,
-          --bpk-chip-primary-selected-active-background-color,
-          $bpk-color-sky-blue-shade-02
-        );
-      }
-    }
-  }
-
-  &--success {
-    background-color: $bpk-color-sky-gray-tint-06;
-    color: $bpk-color-sky-gray;
-
-    @include bpk-hover {
-      background-color: $bpk-color-sky-gray-tint-05;
-    }
-
-    &:active:not(:disabled) {
-      background-color: $bpk-color-sky-gray-tint-04;
-    }
-
-    &-selected {
-      @include bpk-themeable-property(
-        color,
-        --bpk-chip-success-selected-text-color,
-        $bpk-color-sky-gray
-      );
-      @include bpk-themeable-property(
-        background-color,
-        --bpk-chip-success-selected-background-color,
-        $bpk-color-glencoe
-      );
-
-      @include bpk-hover {
-        // There's no suitable token here, so we use darken.
-        @include bpk-themeable-property(
-          background-color,
-          --bpk-chip-success-selected-hover-background-color,
-          darken($bpk-color-glencoe, 10%)
-        );
-      }
-
-      &:active:not(:disabled) {
-        @include bpk-themeable-property(
-          background-color,
-          --bpk-chip-success-selected-active-background-color,
-          $bpk-color-monteverde
-        );
-      }
     }
   }
 
   &--disabled {
-    background-color: $bpk-color-sky-gray-tint-06;
-    color: $bpk-color-sky-gray-tint-05;
+    background-color: $bpk-private-chip-disabled-background-day;
+    color: $bpk-text-disabled-day;
 
     @include bpk-border-sm(transparent);
   }
