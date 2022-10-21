@@ -24,7 +24,7 @@ $bpk-spacing-v2: true;
   padding: 0 bpk-spacing-base();
   align-items: center;
   border: none;
-  border-radius: $bpk-button-border-radius;
+  border-radius: $bpk-border-radius-xs * 2;
 
   &--on-dark {
     background-color: $bpk-core-primary-day;
