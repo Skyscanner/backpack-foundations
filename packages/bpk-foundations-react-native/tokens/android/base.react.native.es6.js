@@ -89,6 +89,7 @@ export const surfaceHighlightDay = "rgb(224, 227, 229)";
 export const surfaceHighlightNight = "rgb(36, 51, 70)";
 export const textOnDarkDay = "rgb(255, 255, 255)";
 export const textOnLightNight = "rgb(22, 22, 22)";
+export const textDisabledOnDarkDay = "rgba(255, 255, 255, 0.5)";
 export const textOnLightDay = "rgb(22, 22, 22)";
 export const textLinkNight = "rgb(132, 233, 255)";
 export const textDisabledNight = "rgba(255, 255, 255, 0.2)";
@@ -109,6 +110,7 @@ export const textSecondaryNight = "rgb(189, 196, 203)";
 export const textOnDarkNight = "rgb(255, 255, 255)";
 export const textSecondaryLightColor = "rgb(84, 88, 96)";
 export const textPrimaryInverseDay = "rgb(255, 255, 255)";
+export const textDisabledOnDarkNight = "rgba(255, 255, 255, 0.5)";
 export const textTertiaryLightColor = "rgb(84, 88, 96)";
 export const textSecondaryDay = "rgb(84, 88, 96)";
 export const scrimDay = "rgba(0, 0, 0, 0.7)";
@@ -319,6 +321,9 @@ export const textOnNight = {
  light: "rgb(22, 22, 22)",
  dark: "rgb(255, 255, 255)",
 };
+export const textDisabledOnDay = {
+ dark: "rgba(255, 255, 255, 0.5)",
+};
 export const textPrimaryColor = {
  dark: "rgb(255, 255, 255)",
  light: "rgb(22, 22, 22)",
@@ -334,6 +339,9 @@ export const textTertiaryColor = {
 export const textSecondaryColor = {
  dark: "rgb(189, 196, 203)",
  light: "rgb(84, 88, 96)",
+};
+export const textDisabledOnNight = {
+ dark: "rgba(255, 255, 255, 0.5)",
 };
 export const backgroundElevation03Color = {
  dark: "rgb(36, 51, 70)",
@@ -768,10 +776,12 @@ marcommsSky,
 export const semanticTextColors = {
 textOnDay,
 textOnNight,
+textDisabledOnDay,
 textPrimaryColor,
 textQuaternaryColor,
 textTertiaryColor,
 textSecondaryColor,
+textDisabledOnNight,
 backgroundElevation03Color,
 backgroundElevation02Color,
 backgroundElevation01Color,
@@ -824,6 +834,7 @@ surfaceHighlightNight,
 export const textColors = {
 textOnDarkDay,
 textOnLightNight,
+textDisabledOnDarkDay,
 textOnLightDay,
 textLinkNight,
 textDisabledNight,
@@ -844,6 +855,7 @@ textSecondaryNight,
 textOnDarkNight,
 textSecondaryLightColor,
 textPrimaryInverseDay,
+textDisabledOnDarkNight,
 textTertiaryLightColor,
 textSecondaryDay,
 backgroundElevation03DarkColor,
@@ -912,6 +924,7 @@ export const surfaceElevatedColor = undefined;
 export const surfaceHighlightColor = undefined;
 export const textOnDarkColor = undefined;
 export const textOnLightColor = undefined;
+export const textDisabledOnDarkColor = undefined;
 export const textLinkColor = undefined;
 export const textDisabledColor = undefined;
 export const textErrorColor = undefined;
