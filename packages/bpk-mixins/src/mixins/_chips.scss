@@ -26,8 +26,12 @@ $bpk-spacing-v2: true;
   border: none;
   border-radius: $bpk-border-radius-xs * 2;
 
+  &--has-trailing {
+    padding-right: bpk-spacing-md();
+  }
+
   &--on-dark {
-    background-color: $bpk-core-primary-day;
+    background-color: transparent;
     color: $bpk-text-on-dark-day;
 
     @include bpk-border-sm($bpk-line-on-dark-day);
@@ -52,7 +56,7 @@ $bpk-spacing-v2: true;
   }
 
   &--default {
-    background-color: $bpk-surface-default-day;
+    background-color: transparent;
     color: $bpk-text-primary-day;
 
     @include bpk-border-sm($bpk-line-day);

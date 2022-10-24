@@ -1553,6 +1553,13 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "textDisabledOnDarkDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#161616ff",
       "originalValue": "{!CHARCOAL}",
       "name": "textOnLightDay"
@@ -1696,6 +1703,13 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "textPrimaryInverseDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "textDisabledOnDarkNight"
     },
     {
       "type": "color",
@@ -3161,6 +3175,15 @@
       "name": "textOnLightColor",
       "darkValue": "#161616ff",
       "originalDarkValue": "{!CHARCOAL}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "textDisabledOnDarkColor",
+      "darkValue": "#ffffff80",
+      "originalDarkValue": "{!WHITE_ALPHA_50}"
     },
     {
       "type": "color",
