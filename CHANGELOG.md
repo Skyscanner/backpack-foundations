@@ -1,3 +1,24 @@
+# 2022-10-21
+
+**Breaking:**
+
+- bpk-mixins: 34.0.5 => 35.0.0
+  - Switched `Button` mixins to use `label-1`
+
+**Changed**
+
+`@skyscanner/bpk-foundations-web: 12.0.3 => 12.1.0`
+- Deprecated the following: `BUTTON_FONT_SIZE`, `BUTTON_FONT_WEIGHT`, `BUTTON_LINE_HEIGHT`, `BUTTON_LARGE_FONT_SIZE`, `BUTTON_LARGE_LINE_HEIGHT`
+
+**Added:**
+
+`@skyscanner/bpk-foundations-android: 5.0.2 => 5.1.0` </br>
+`@skyscanner/bpk-foundations-common: 4.0.2 => 4.1.0` </br>
+`@skyscanner/bpk-foundations-ios: 4.0.2 => 4.1.0` </br>
+`@skyscanner/bpk-foundations-react-native: 3.0.2 => 3.1.0` </br>
+`@skyscanner/bpk-foundations-web: 12.0.3 => 12.1.0` </br>
+- Added new `TEXT_DISABLED_ON_DARK_DAY` and `TEXT_DISABLED_ON_DARK_NIGHT` tokens
+
 # 2022-10-18
 
 **Fixed**
