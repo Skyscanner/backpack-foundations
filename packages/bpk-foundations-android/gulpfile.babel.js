@@ -64,7 +64,7 @@ gulp.task('lint', () =>
 );
 
 const createTokens = (tokenSets, done) => {
-  const streams = tokenSets.map(({ platform, format, nest }) => {
+  const streams = tokenSets.map(({ format, nest, platform }) => {
     let outputPath = 'tokens';
 
     if (nest) {

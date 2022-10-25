@@ -87,9 +87,7 @@ const adjustTypographyIos = (aliases, prop) => {
   return { ...prop, value: adjustedValue };
 };
 
-const adjustTypography = (aliases, prop) => {
-  return adjustTypographyIos(aliases, prop);
-};
+const adjustTypography = (aliases, prop) => adjustTypographyIos(aliases, prop);
 
 export default adjustTypography;
 export { adjustTypographyIos };

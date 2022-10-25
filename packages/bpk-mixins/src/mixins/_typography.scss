@@ -43,11 +43,11 @@ $bpk-spacing-v2: true;
   font-size: $font-size;
   line-height: $line-height;
 
-  @if ($font-weight) {
+  @if $font-weight {
     font-weight: $font-weight;
   }
 
-  @if ($letter-spacing) {
+  @if $letter-spacing {
     letter-spacing: $letter-spacing;
   }
 }
@@ -325,6 +325,7 @@ $bpk-spacing-v2: true;
 @mixin bpk-text-xxxxxl {
   @include bpk-text--xxxxxl;
 }
+
 /// Bold text style
 ///
 /// @require {mixin} bpk-text

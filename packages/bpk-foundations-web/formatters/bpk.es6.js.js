@@ -20,7 +20,7 @@ import _ from 'lodash';
 
 import { blockComment } from '../../../utils/formatters/license-header';
 
-export const tokenTemplate = ({ name, value, type }) => {
+export const tokenTemplate = ({ name, type, value }) => {
   if (type === 'function') {
     return null;
   }
