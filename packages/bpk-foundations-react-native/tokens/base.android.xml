@@ -62,7 +62,7 @@
   <color name="STATUS_DANGER_FILL_DAY" category="status-colors">#ffe9f9ff</color>
   <color name="STATUS_WARNING_FILL_DAY" category="status-colors">#fff7cfff</color>
   <color name="SURFACE_CONTRAST_DAY" category="surface-colors">#05203cff</color>
-  <color name="SURFACE_CONTRAST_NIGHT" category="surface-colors">#131d2bff</color>
+  <color name="SURFACE_CONTRAST_NIGHT" category="surface-colors">#010913ff</color>
   <color name="SURFACE_DEFAULT_DAY" category="surface-colors">#ffffffff</color>
   <color name="SURFACE_DEFAULT_NIGHT" category="surface-colors">#131d2bff</color>
   <color name="SURFACE_ELEVATED_DAY" category="surface-colors">#ffffffff</color>

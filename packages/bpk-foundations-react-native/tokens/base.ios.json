@@ -411,7 +411,7 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#131d2bff",
+      "value": "#010913ff",
       "name": "surfaceContrastNight"
     },
     {
@@ -1995,7 +1995,7 @@
       "category": "surface-colors",
       "value": "#05203cff",
       "name": "surfaceContrastColor",
-      "darkValue": "#131d2bff"
+      "darkValue": "#010913ff"
     },
     {
       "type": "color",
