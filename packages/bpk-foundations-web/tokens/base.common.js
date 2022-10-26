@@ -84,7 +84,7 @@ module.exports = {
   statusDangerFillDay: "rgb(255, 233, 249)",
   statusWarningFillDay: "rgb(255, 247, 207)",
   surfaceContrastDay: "rgb(5, 32, 60)",
-  surfaceContrastNight: "rgb(19, 29, 43)",
+  surfaceContrastNight: "rgb(1, 9, 19)",
   surfaceDefaultDay: "rgb(255, 255, 255)",
   surfaceDefaultNight: "rgb(19, 29, 43)",
   surfaceElevatedDay: "rgb(255, 255, 255)",

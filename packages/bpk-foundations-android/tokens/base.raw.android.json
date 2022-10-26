@@ -1906,8 +1906,8 @@
     "SURFACE_CONTRAST_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#131d2bff",
-      "originalValue": "{!NIGHT_GREY_20}",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
       "name": "SURFACE_CONTRAST_NIGHT"
     },
     "SURFACE_DEFAULT_DAY": {
@@ -3340,8 +3340,8 @@
       "value": "#05203cff",
       "originalValue": "{!DARK_SKY}",
       "name": "SURFACE_CONTRAST_COLOR",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     "SURFACE_DEFAULT_COLOR": {
       "type": "color",

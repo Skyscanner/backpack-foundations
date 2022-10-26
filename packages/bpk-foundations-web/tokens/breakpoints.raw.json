@@ -928,8 +928,8 @@
     "SURFACE_CONTRAST_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(19, 29, 43)",
-      "originalValue": "{!NIGHT_GREY_20}",
+      "value": "rgb(1, 9, 19)",
+      "originalValue": "{!NIGHT_GREY_10}",
       "name": "SURFACE_CONTRAST_NIGHT"
     },
     "SURFACE_DEFAULT_DAY": {
