@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-@import '../bonds';
+@import '../bonds.scss';
 
 ////
 /// @group grids
@@ -177,7 +177,7 @@
     display: none;
   } @else {
     display: block;
-    width: percentage($size / $bpk-grid-columns);
+    width: math.percentage($size / $bpk-grid-columns);
   }
 }
 
@@ -231,10 +231,10 @@
       margin-right: 0;
     }
   } @else {
-    margin-left: percentage($size / $bpk-grid-columns);
+    margin-left: math.percentage($size / $bpk-grid-columns);
 
     @include bpk-rtl {
-      margin-right: percentage($size / $bpk-grid-columns);
+      margin-right: math.percentage($size / $bpk-grid-columns);
       margin-left: 0;
     }
   }

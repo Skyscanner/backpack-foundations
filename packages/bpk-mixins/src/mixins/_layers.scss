@@ -16,9 +16,9 @@
  * limitations under the License.
  */
 
-@import '../bonds';
-@import 'radii';
-@import 'shadows';
+@import '../bonds.scss';
+@import 'radii.scss';
+@import 'shadows.scss';
 
 ////
 /// @group layers
@@ -56,7 +56,7 @@
   &::before,
   &::after {
     position: absolute;
-    content: ' ';
+    content: '';
     display: block;
   }
 
