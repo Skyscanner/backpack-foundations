@@ -70,7 +70,7 @@
   <color name="SURFACE_HIGHLIGHT_DAY" category="surface-colors">#e0e3e5ff</color>
   <color name="SURFACE_HIGHLIGHT_NIGHT" category="surface-colors">#243346ff</color>
   <color name="TEXT_ON_DARK_DAY" category="text-colors">#ffffffff</color>
-  <color name="TEXT_ON_LIGHT_NIGHT" category="text-colors">#161616ff</color>
+  <color name="TEXT_ON_LIGHT_NIGHT" category="text-colors">#010913ff</color>
   <color name="TEXT_DISABLED_ON_DARK_DAY" category="text-colors">#ffffff80</color>
   <color name="TEXT_ON_LIGHT_DAY" category="text-colors">#161616ff</color>
   <color name="TEXT_LINK_NIGHT" category="text-colors">#84e9ffff</color>
@@ -87,7 +87,7 @@
   <color name="TEXT_ERROR_DAY" category="text-colors">#e70866ff</color>
   <color name="TEXT_TERTIARY_DARK_COLOR" category="text-colors">#bdc4cbff</color>
   <color name="TEXT_SECONDARY_DARK_COLOR" category="text-colors">#bdc4cbff</color>
-  <color name="TEXT_PRIMARY_INVERSE_NIGHT" category="text-colors">#161616ff</color>
+  <color name="TEXT_PRIMARY_INVERSE_NIGHT" category="text-colors">#010913ff</color>
   <color name="TEXT_SECONDARY_NIGHT" category="text-colors">#bdc4cbff</color>
   <color name="TEXT_ON_DARK_NIGHT" category="text-colors">#ffffffff</color>
   <color name="TEXT_SECONDARY_LIGHT_COLOR" category="text-colors">#545860ff</color>

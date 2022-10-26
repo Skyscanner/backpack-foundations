@@ -1546,8 +1546,8 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#161616ff",
-      "originalValue": "{!CHARCOAL}",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
       "name": "textOnLightNight"
     },
     {
@@ -1671,8 +1671,8 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#161616ff",
-      "originalValue": "{!CHARCOAL}",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
       "name": "textPrimaryInverseNight"
     },
     {
@@ -3173,8 +3173,8 @@
       "value": "#161616ff",
       "originalValue": "{!CHARCOAL}",
       "name": "textOnLightColor",
-      "darkValue": "#161616ff",
-      "originalDarkValue": "{!CHARCOAL}"
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     {
       "type": "color",
@@ -3256,8 +3256,8 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "textPrimaryInverseColor",
-      "darkValue": "#161616ff",
-      "originalDarkValue": "{!CHARCOAL}"
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     {
       "type": "color",
