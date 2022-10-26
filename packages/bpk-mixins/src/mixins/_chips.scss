@@ -27,12 +27,9 @@ $bpk-spacing-v2: true;
   border-radius: $bpk-border-radius-xs * 2;
 
   svg {
+    /* stylelint-disable declaration-no-important */
     width: 16 * $bpk-one-pixel-rem !important;
     height: 16 * $bpk-one-pixel-rem !important;
-  }
-
-  &--has-trailing {
-    padding-right: bpk-spacing-md();
   }
 
   &__leading-accessory-view {
@@ -46,7 +43,8 @@ $bpk-spacing-v2: true;
     display: inline-flex;
     fill: currentColor;
 
-    @include bpk-margin-leading(bpk-spacing-md());
+    @include bpk-margin-leading(bpk-spacing-md(), false);
+    @include bpk-margin-trailing(-1 * bpk-spacing-md(), false);
   }
 
   &--on-dark {
@@ -86,10 +84,6 @@ $bpk-spacing-v2: true;
     }
 
     &-dismissible {
-      &__trailing-accessory-view {
-        fill: $bpk-text-secondary-day;
-      }
-
       @include bpk-hover {
         svg {
           fill: currentColor;
@@ -100,6 +94,10 @@ $bpk-spacing-v2: true;
         svg {
           fill: currentColor;
         }
+      }
+
+      &__trailing-accessory-view {
+        fill: $bpk-text-secondary-day;
       }
     }
 
@@ -145,10 +143,6 @@ $bpk-spacing-v2: true;
     }
 
     &-dismissible {
-      &__trailing-accessory-view {
-        fill: $bpk-text-disabled-on-dark-day;
-      }
-
       @include bpk-hover {
         svg {
           fill: currentColor;
@@ -159,6 +153,10 @@ $bpk-spacing-v2: true;
         svg {
           fill: currentColor;
         }
+      }
+
+      &__trailing-accessory-view {
+        fill: $bpk-text-disabled-on-dark-day;
       }
     }
 
@@ -171,7 +169,7 @@ $bpk-spacing-v2: true;
     background-color: $bpk-surface-default-day;
     color: $bpk-text-primary-day;
 
-    @include bpk-box-shadow-sm();
+    @include bpk-box-shadow-sm;
 
     @include bpk-hover {
       background-color: $bpk-canvas-contrast-day;
@@ -211,12 +209,8 @@ $bpk-spacing-v2: true;
     }
 
     &-dismissible {
-      &__trailing-accessory-view {
-        fill: $bpk-text-disabled-on-dark-day;
-      }
-
       @include bpk-hover {
-        svg  {
+        svg {
           fill: currentColor;
         }
       }
@@ -226,10 +220,14 @@ $bpk-spacing-v2: true;
           fill: currentColor;
         }
       }
+
+      &__trailing-accessory-view {
+        fill: $bpk-text-disabled-on-dark-day;
+      }
     }
 
     &-disabled {
-      @include bpk-box-shadow-sm();
+      @include bpk-box-shadow-sm;
     }
   }
 
