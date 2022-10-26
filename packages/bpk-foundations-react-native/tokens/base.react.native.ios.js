@@ -88,7 +88,7 @@ export const surfaceElevatedNight = "rgb(36, 51, 70)";
 export const surfaceHighlightDay = "rgb(224, 227, 229)";
 export const surfaceHighlightNight = "rgb(36, 51, 70)";
 export const textOnDarkDay = "rgb(255, 255, 255)";
-export const textOnLightNight = "rgb(22, 22, 22)";
+export const textOnLightNight = "rgb(1, 9, 19)";
 export const textDisabledOnDarkDay = "rgba(255, 255, 255, 0.5)";
 export const textOnLightDay = "rgb(22, 22, 22)";
 export const textLinkNight = "rgb(132, 233, 255)";
@@ -105,7 +105,7 @@ export const textErrorNight = "rgb(255, 100, 156)";
 export const textErrorDay = "rgb(231, 8, 102)";
 export const textTertiaryDarkColor = "rgb(189, 196, 203)";
 export const textSecondaryDarkColor = "rgb(189, 196, 203)";
-export const textPrimaryInverseNight = "rgb(22, 22, 22)";
+export const textPrimaryInverseNight = "rgb(1, 9, 19)";
 export const textSecondaryNight = "rgb(189, 196, 203)";
 export const textOnDarkNight = "rgb(255, 255, 255)";
 export const textSecondaryLightColor = "rgb(84, 88, 96)";
@@ -332,7 +332,7 @@ export const textOnDay = {
  light: "rgb(22, 22, 22)",
 };
 export const textOnNight = {
- light: "rgb(22, 22, 22)",
+ light: "rgb(1, 9, 19)",
  dark: "rgb(255, 255, 255)",
 };
 export const textDisabledOnDay = {
