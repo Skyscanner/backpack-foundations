@@ -459,7 +459,7 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#161616ff",
+      "value": "#010913ff",
       "name": "textOnLightNight"
     },
     {
@@ -561,7 +561,7 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#161616ff",
+      "value": "#010913ff",
       "name": "textPrimaryInverseNight"
     },
     {
@@ -2030,7 +2030,7 @@
       "category": "text-colors",
       "value": "#161616ff",
       "name": "textOnLightColor",
-      "darkValue": "#161616ff"
+      "darkValue": "#010913ff"
     },
     {
       "type": "color",
@@ -2093,7 +2093,7 @@
       "category": "text-colors",
       "value": "#ffffffff",
       "name": "textPrimaryInverseColor",
-      "darkValue": "#161616ff"
+      "darkValue": "#010913ff"
     },
     {
       "type": "color",
