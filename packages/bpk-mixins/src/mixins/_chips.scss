@@ -86,13 +86,13 @@ $bpk-spacing-v2: true;
     &-dismissible {
       @include bpk-hover {
         svg {
-          fill: currentColor;
+          fill: currentcolor;
         }
       }
 
       &:active:not(:disabled) {
         svg {
-          fill: currentColor;
+          fill: currentcolor;
         }
       }
 
@@ -145,13 +145,13 @@ $bpk-spacing-v2: true;
     &-dismissible {
       @include bpk-hover {
         svg {
-          fill: currentColor;
+          fill: currentcolor;
         }
       }
 
       &:active:not(:disabled) {
         svg {
-          fill: currentColor;
+          fill: currentcolor;
         }
       }
 
@@ -211,13 +211,13 @@ $bpk-spacing-v2: true;
     &-dismissible {
       @include bpk-hover {
         svg {
-          fill: currentColor;
+          fill: currentcolor;
         }
       }
 
       &:active:not(:disabled) {
         svg {
-          fill: currentColor;
+          fill: currentcolor;
         }
       }
 
