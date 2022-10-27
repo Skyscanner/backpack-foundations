@@ -1,5 +1,17 @@
 # 2022-10-26
 
+**Breaking:**
+
+- bpk-mixins: 35.0.2 => 36.0.0
+  - Delete Chip's styles: `primary`, `success`, `light`
+
+**Added:**
+
+- bpk-mixins: 35.0.2 => 36.0.0
+  - Added Chip's styles: `default`, `onDark`, `onImage`
+
+# 2022-10-26
+
 **Fixed**
 
 `@skyscanner/bpk-foundations-android: 5.1.1 => 5.1.2`
