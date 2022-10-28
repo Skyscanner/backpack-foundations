@@ -22,10 +22,10 @@ import { blockComment } from '../../../utils/formatters/license-header';
 
 export const nameTemplate = ({ name }) => `$bpk-${_.kebabCase(name)}`;
 
-export const valueTemplate = ({ value, type }) =>
+export const valueTemplate = ({ type, value }) =>
   type === 'media-query' ? `"${value}"` : value;
 
-export const variableTemplate = ({ name, value, type }) => {
+export const variableTemplate = ({ name, type, value }) => {
   if (type === 'function') {
     return `${value}`;
   }
@@ -34,7 +34,7 @@ export const variableTemplate = ({ name, value, type }) => {
 
 export const sassDocTemplate = ({ category }) => `/// @group ${category}`;
 
-export const template = ({ category, name, value, type }) =>
+export const template = ({ category, name, type, value }) =>
   `${sassDocTemplate({ category })}\n${variableTemplate({
     name,
     value,

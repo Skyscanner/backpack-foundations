@@ -1,7 +1,7 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "skyscanner",
+    "@skyscanner/eslint-config-skyscanner",
     "plugin:flowtype/recommended"
   ],
   "plugins": [
@@ -20,6 +20,7 @@
   "rules": {
     "prettier/prettier": "error",
     "import/no-extraneous-dependencies": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "import/extensions": "off"
   }
 }
