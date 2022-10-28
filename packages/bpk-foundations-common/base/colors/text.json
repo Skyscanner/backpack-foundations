@@ -49,7 +49,7 @@
       "value": "{!WHITE}"
     },
     "TEXT_PRIMARY_INVERSE_NIGHT": {
-      "value": "{!CHARCOAL}"
+      "value": "{!NIGHT_GREY_10}"
     },
     "TEXT_SECONDARY_DAY": {
       "value": "{!GREY_40}"
@@ -85,7 +85,7 @@
       "value": "{!CHARCOAL}"
     },
     "TEXT_ON_LIGHT_NIGHT": {
-      "value": "{!CHARCOAL}"
+      "value": "{!NIGHT_GREY_10}"
     },
     "TEXT_ON_DARK_DAY": {
       "value": "{!WHITE}"

@@ -23,7 +23,7 @@ import { blockComment } from '../../../utils/formatters/license-header';
 import adjustTypography from './adjust-typography';
 import valueTemplate from './react-native-value-template';
 
-export const tokenTemplate = ({ name, value, type }) =>
+export const tokenTemplate = ({ name, type, value }) =>
   `${_.camelCase(name)}: ${valueTemplate(value, type)}`;
 
 const bpkReactNativeCommon = (result, platform = 'other') => {

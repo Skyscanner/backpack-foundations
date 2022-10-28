@@ -1906,8 +1906,8 @@
     "SURFACE_CONTRAST_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#131d2bff",
-      "originalValue": "{!NIGHT_GREY_20}",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
       "name": "SURFACE_CONTRAST_NIGHT"
     },
     "SURFACE_DEFAULT_DAY": {
@@ -1962,8 +1962,8 @@
     "TEXT_ON_LIGHT_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "#161616ff",
-      "originalValue": "{!CHARCOAL}",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
       "name": "TEXT_ON_LIGHT_NIGHT"
     },
     "TEXT_DISABLED_ON_DARK_DAY": {
@@ -2087,8 +2087,8 @@
     "TEXT_PRIMARY_INVERSE_NIGHT": {
       "type": "color",
       "category": "text-colors",
-      "value": "#161616ff",
-      "originalValue": "{!CHARCOAL}",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
       "name": "TEXT_PRIMARY_INVERSE_NIGHT"
     },
     "TEXT_SECONDARY_NIGHT": {
@@ -3544,8 +3544,8 @@
       "value": "#05203cff",
       "originalValue": "{!DARK_SKY}",
       "name": "SURFACE_CONTRAST_COLOR",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     "SURFACE_DEFAULT_COLOR": {
       "type": "color",
@@ -3589,8 +3589,8 @@
       "value": "#161616ff",
       "originalValue": "{!CHARCOAL}",
       "name": "TEXT_ON_LIGHT_COLOR",
-      "darkValue": "#161616ff",
-      "originalDarkValue": "{!CHARCOAL}"
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     "TEXT_DISABLED_ON_DARK_COLOR": {
       "type": "color",
@@ -3672,8 +3672,8 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "TEXT_PRIMARY_INVERSE_COLOR",
-      "darkValue": "#161616ff",
-      "originalDarkValue": "{!CHARCOAL}"
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     "SCRIM_COLOR": {
       "type": "color",

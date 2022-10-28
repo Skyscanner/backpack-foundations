@@ -22,7 +22,7 @@ import { blockComment } from '../../../utils/formatters/license-header';
 
 import { sassDocTemplate, nameTemplate, valueTemplate } from './bpk.scss';
 
-export const variableTemplate = ({ name, value, type }) => {
+export const variableTemplate = ({ name, type, value }) => {
   if (type === 'function') {
     return `${value}`;
   }
@@ -32,7 +32,7 @@ export const variableTemplate = ({ name, value, type }) => {
     type,
   })} !default;`;
 };
-export const template = ({ category, name, value, type }) =>
+export const template = ({ category, name, type, value }) =>
   `${sassDocTemplate({ category })}\n${variableTemplate({
     name,
     value,

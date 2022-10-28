@@ -38,7 +38,7 @@ export default function formatValue(value, type) {
     }
     case 'semantic': {
       const parsedValues = Object.keys(value).reduce((parsed, tokenKey) => {
-        const { value: currValue, type: currType } = value[tokenKey];
+        const { type: currType, value: currValue } = value[tokenKey];
         return `${parsed} ${tokenKey}: ${formatValue(currValue, currType)},\n`;
       }, '');
       formattedValue = `{\n${parsedValues}}`;

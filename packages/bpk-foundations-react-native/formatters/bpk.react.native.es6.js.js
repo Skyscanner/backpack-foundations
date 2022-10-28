@@ -44,7 +44,7 @@ const androidRawTokens = _.memoize(() =>
 
 const SEMANTIC_TOKEN_REGEX = /(.*)_(LIGHT|DARK)_(.*)/;
 
-const tokenTemplate = ({ name, value, type }) =>
+const tokenTemplate = ({ name, type, value }) =>
   `export const ${_.camelCase(name)} = ${
     value ? valueTemplate(value, type) : value
   };`;

@@ -26,9 +26,10 @@ import { flatten } from 'lodash';
 import gulpMerge from 'merge2';
 import jsonLint from 'gulp-jsonlint';
 
-import bpkScss from './formatters/bpk.scss';
 import bpkEs6Js from './formatters/bpk.es6.js';
 import bpkCommonJs from './formatters/bpk.common.js';
+
+import bpkScss from './formatters/bpk.scss';
 import bpkDefaultScss from './formatters/bpk.default.scss';
 
 const RAW_FORMATS = {
@@ -69,7 +70,7 @@ gulp.task('lint', () =>
 );
 
 const createTokens = (tokenSets, done) => {
-  const streams = tokenSets.map(({ platform, format, nest }) => {
+  const streams = tokenSets.map(({ format, nest, platform }) => {
     let outputPath = 'tokens';
 
     if (nest) {
