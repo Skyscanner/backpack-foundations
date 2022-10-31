@@ -19,8 +19,6 @@
   },
   "rules": {
     "prettier/prettier": "error",
-    "import/no-extraneous-dependencies": "off",
-    "react/jsx-filename-extension": "off",
-    "import/extensions": "off"
+    "import/no-extraneous-dependencies": "off"
   }
 }

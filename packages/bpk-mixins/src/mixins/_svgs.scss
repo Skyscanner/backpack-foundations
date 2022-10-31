@@ -16,9 +16,9 @@
  * limitations under the License.
  */
 
-@import '~@skyscanner/bpk-svgs/index';
-@import '../bonds';
-@import './utils';
+@import '~@skyscanner/bpk-svgs/index.scss';
+@import '../bonds.scss';
+@import './utils.scss';
 
 @keyframes bpk-keyframe-spin {
   100% {
@@ -124,7 +124,7 @@
   }
 
   $icon-size: if($size == large, $bpk-icon-size-lg, $bpk-icon-size-sm);
-  $raw-svg: map-get($icon-map, $icon);
+  $raw-svg: map.get($icon-map, $icon);
   $svg-string: str-replace($raw-svg, '$$COLOR$$', $color);
   $datauri: 'data:image/svg+xml;base64,' + encodebase64($svg-string);
 
