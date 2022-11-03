@@ -69,7 +69,7 @@ const svgoCommonPlugins = [
   { name: 'removeEmptyText' },
   { name: 'removeEditorsNSData' },
   { name: 'removeEmptyAttrs' },
-  { name: 'removeHiddenElems' }
+  { name: 'removeHiddenElems' },
 ];
 
 gulp.task('clean', () => del(['dist']));
