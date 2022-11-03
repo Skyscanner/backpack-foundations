@@ -60,15 +60,16 @@ const colors = _(baseColors.aliases)
   .value();
 
 const svgoCommonPlugins = [
-  { removeTitle: true },
-  { removeStyleElement: true },
-  { removeEmptyContainers: true },
-  { sortAttrs: true },
-  { removeUselessDefs: true },
-  { removeEmptyText: true },
-  { removeEditorsNSData: true },
-  { removeEmptyAttrs: true },
-  { removeHiddenElems: true },
+  { name: 'removeTitle' },
+  { name: 'preset-default' },
+  { name: 'removeStyleElement' },
+  { name: 'removeEmptyContainers' },
+  { name: 'sortAttrs' },
+  { name: 'removeUselessDefs' },
+  { name: 'removeEmptyText' },
+  { name: 'removeEditorsNSData' },
+  { name: 'removeEmptyAttrs' },
+  { name: 'removeHiddenElems' }
 ];
 
 gulp.task('clean', () => del(['dist']));
@@ -82,10 +83,12 @@ gulp.task('elements', () => {
     .pipe(chmod(0o644))
     .pipe(
       svgmin({
+        full: true,
         plugins: [
           ...svgoCommonPlugins,
           {
-            removeAttrs: {
+            name: 'removeAttrs',
+            params: {
               attrs: ['id', 'class', 'data-name'],
             },
           },
@@ -110,10 +113,12 @@ gulp.task('spinners', () => {
     .pipe(chmod(0o644))
     .pipe(
       svgmin({
+        full: true,
         plugins: [
           ...svgoCommonPlugins,
           {
-            removeAttrs: {
+            name: 'removeAttrs',
+            params: {
               attrs: ['id', 'class', 'data-name', 'fill', 'fill-rule'],
             },
           },
@@ -147,10 +152,12 @@ const optimiseSvgs = (size) =>
     .pipe(chmod(0o644))
     .pipe(
       svgmin({
+        full: true,
         plugins: [
           ...svgoCommonPlugins,
           {
-            removeAttrs: {
+            name: 'removeAttrs',
+            params: {
               attrs: [
                 'id',
                 'class',
@@ -164,7 +171,8 @@ const optimiseSvgs = (size) =>
             },
           },
           {
-            addAttributesToSVGElement: {
+            name: 'addAttributesToSVGElement',
+            params: {
               attribute: `viewBox="0 0 ${largeIconPxSize} ${largeIconPxSize}"`,
             },
           },
@@ -187,9 +195,11 @@ const iconReactComponents = (size) => {
     .pipe(clone())
     .pipe(
       svgmin({
+        full: true,
         plugins: [
           {
-            addAttributesToSVGElement: {
+            name: 'addAttributesToSVGElement',
+            params: {
               attribute: `width="${iconPxSize}" height="${iconPxSize}" ${styleAttribute}`,
             },
           },
@@ -204,9 +214,11 @@ const iconReactComponents = (size) => {
     .pipe(clone())
     .pipe(
       svgmin({
+        full: true,
         plugins: [
           {
-            addAttributesToSVGElement: {
+            name: 'addAttributesToSVGElement',
+            params: {
               attribute: `width="${iconPxSize}" height="${iconPxSize}"`,
             },
           },
@@ -222,9 +234,11 @@ const iconReactComponents = (size) => {
     .pipe(clone())
     .pipe(
       svgmin({
+        full: true,
         plugins: [
           {
-            addAttributesToSVGElement: {
+            name: 'addAttributesToSVGElement',
+            params: {
               attribute: `width="${iconPxSize}" height="${iconPxSize}"`,
             },
           },

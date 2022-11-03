@@ -75,7 +75,7 @@
     "gulp-iconfont": "^11.0.1",
     "gulp-jsonlint": "^1.2.2",
     "gulp-rename": "^2.0.0",
-    "gulp-svgmin": "^2.2.0",
+    "gulp-svgmin": "^4.0.0",
     "gulp-theo": "^2.0.0",
     "husky": "^4.0.2",
     "jest": "^24.8.0",
