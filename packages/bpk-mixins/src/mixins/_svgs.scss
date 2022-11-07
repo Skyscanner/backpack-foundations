@@ -124,7 +124,10 @@
   }
 
   $icon-size: if($size == large, $bpk-icon-size-lg, $bpk-icon-size-sm);
-  $raw-svg: map.get($icon-map, $icon);
+
+  /* Disabling rule here as this method is for newer sass versions that we don't yet support */
+  /* stylelint-disable-next-line scss/no-global-function-names */
+  $raw-svg: map-get($icon-map, $icon);
   $svg-string: str-replace($raw-svg, '$$COLOR$$', $color);
   $datauri: 'data:image/svg+xml;base64,' + encodebase64($svg-string);
 

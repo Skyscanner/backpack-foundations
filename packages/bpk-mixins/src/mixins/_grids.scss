@@ -177,7 +177,10 @@
     display: none;
   } @else {
     display: block;
-    width: math.percentage($size / $bpk-grid-columns);
+
+    /* Disabling rule here as this method is for newer sass versions that we don't yet support */
+    /* stylelint-disable-next-line scss/no-global-function-names */
+    width: percentage($size / $bpk-grid-columns);
   }
 }
 
@@ -231,10 +234,14 @@
       margin-right: 0;
     }
   } @else {
-    margin-left: math.percentage($size / $bpk-grid-columns);
+    /* Disabling rule here as this method is for newer sass versions that we don't yet support */
+    /* stylelint-disable-next-line scss/no-global-function-names */
+    margin-left: percentage($size / $bpk-grid-columns);
 
     @include bpk-rtl {
-      margin-right: math.percentage($size / $bpk-grid-columns);
+      /* Disabling rule here as this method is for newer sass versions that we don't yet support */
+      /* stylelint-disable-next-line scss/no-global-function-names */
+      margin-right: percentage($size / $bpk-grid-columns);
       margin-left: 0;
     }
   }
