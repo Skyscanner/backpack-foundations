@@ -207,7 +207,9 @@
 /// @param {string} $replace [''] - The string to replace $search.
 
 @function str-replace($string, $search, $replace: '') {
-  $index: string.index($string, $search);
+  /* Disabling rule here as the recommendation method is for newer sass versions that we don't yet support */
+  /* stylelint-disable-next-line scss/no-global-function-names */
+  $index: str-index($string, $search);
 
   @if $index {
     @return str-slice($string, 1, $index - 1) + $replace +
