@@ -2,7 +2,8 @@
 
 **Fixed:**
 
-- bpk-mixins: 36.0.2 => 36.0.3
+- bpk-mixins: 36.0.2 => 36.0.4
+		- Further reverting of recent stylelint changes as some new rules are suggesting things we don't currently support. 
     - Fix incorrect import of `_bonds.scss`
 
 # 2022-11-03
