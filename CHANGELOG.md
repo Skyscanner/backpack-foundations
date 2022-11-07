@@ -1,3 +1,17 @@
+# 2022-11-07
+
+**Fixed:**
+
+- bpk-mixins: 36.0.2 => 36.0.3
+    - Fix incorrect import of `_bonds.scss`
+
+# 2022-11-03
+
+**Fixed:**
+
+- @skyscanner/bpk-svgs: 15.2.0 => 15.2.1
+    - Bump `gulp-svgmin` to latest version to fix broken icons
+
 # 2022-10-26
 
 **Breaking:**
