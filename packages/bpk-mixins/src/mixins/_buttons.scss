@@ -566,7 +566,7 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--icon-only {
-  $horizontal-padding: $bpk-one-pixel-rem * 9; // 9px to add up to 36px width (like the height) using 18px icons
+  $horizontal-padding: ($bpk-button-height - $bpk-icon-size-sm) / 2; // extra padding so that the width will be the same size as the size using sm icons
 
   padding-right: $horizontal-padding;
   padding-left: $horizontal-padding;
@@ -586,7 +586,7 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-button--large-icon-only {
-  $horizontal-padding: $bpk-one-pixel-rem * 12; // 12px to add up to 48px width (like the height) using 24px icons
+  $horizontal-padding: ($bpk-button-large-height - $bpk-icon-size-lg) / 2; // extra padding so that the width will be the same size as the size using lg icons
 
   padding-right: $horizontal-padding;
   padding-left: $horizontal-padding;

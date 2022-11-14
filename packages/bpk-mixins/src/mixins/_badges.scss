@@ -44,14 +44,6 @@
   @include bpk-border-radius-xs;
   @include bpk-text;
   @include bpk-caption;
-
-  // // HACK: Icons have an inline style attribute setting the height and width.
-  // // so the only way to override this in CSS is to use !important.
-  > svg {
-    /* stylelint-disable declaration-no-important */
-    width: 16 * $bpk-one-pixel-rem !important;
-    height: 16 * $bpk-one-pixel-rem !important;
-  }
 }
 
 /// Centered badge. Modifies the bpk-badge mixin.

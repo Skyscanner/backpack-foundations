@@ -26,12 +26,6 @@ $bpk-spacing-v2: true;
   border: none;
   border-radius: $bpk-border-radius-xs * 2;
 
-  svg {
-    /* stylelint-disable declaration-no-important */
-    width: 16 * $bpk-one-pixel-rem !important;
-    height: 16 * $bpk-one-pixel-rem !important;
-  }
-
   &__leading-accessory-view {
     display: inline-flex;
     fill: currentcolor;

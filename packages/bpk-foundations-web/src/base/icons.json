@@ -5,7 +5,7 @@
   },
   "props": {
     "ICON_SIZE_SM": {
-      "value": "1.125rem"
+      "value": "1rem"
     },
     "ICON_SIZE_LG": {
       "value": "1.5rem"
