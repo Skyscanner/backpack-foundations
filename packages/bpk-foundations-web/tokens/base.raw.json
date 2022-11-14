@@ -3952,8 +3952,8 @@
     "ICON_SIZE_SM": {
       "type": "size",
       "category": "icons",
-      "value": "1.125rem",
-      "originalValue": "1.125rem",
+      "value": "1rem",
+      "originalValue": "1rem",
       "name": "ICON_SIZE_SM"
     },
     "ICON_SIZE_LG": {

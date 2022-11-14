@@ -38,7 +38,7 @@
 `@skyscanner/bpk-foundations-common: 4.1.1 => 4.1.2`
 `@skyscanner/bpk-foundations-ios: 4.1.1 => 4.1.2`
 `@skyscanner/bpk-foundations-react-native: 3.1.1 => 3.1.2`
-` @skyscanner/bpk-foundations-web: 12.1.1 => 12.1.2`
+`@skyscanner/bpk-foundations-web: 12.1.1 => 12.1.2`
   - Change mapping for textOnLight + textPrimaryInverse to NightGrey10 in night mode
 
 # 2022-10-25
