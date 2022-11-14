@@ -1,5 +1,13 @@
 # 2022-11-14
 
+**Breaking:**
+
+`@skyscanner/bpk-foundations-web`: 12.1.4 => 13.0.0
+`@skyscanner/bpk-svgs`: 15.2.1 => 16.0.0
+  - Change small icons size from 18px to 16px aligning web icons with apps.
+
+# 2022-11-14
+
 **Added:**
   - bpk-mixins: 36.0.4 => 36.1.0
     - Added new `brand` style for badges.
