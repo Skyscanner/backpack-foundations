@@ -220,3 +220,19 @@
   color: $bpk-text-primary-inverse-day;
   fill: $bpk-text-primary-inverse-day;
 }
+
+/// Brand badge. Modifies the bpk-badge mixin.
+///
+/// @require {mixin} bpk-badge
+///
+/// @example scss
+///   .selector {
+///     @include bpk-badge();
+///     @include bpk-badge--brand();
+///   }
+
+@mixin bpk-badge--brand {
+  background-color: $bpk-core-accent-day;
+  color: $bpk-text-primary-inverse-day;
+  fill: $bpk-text-primary-inverse-day;
+}
