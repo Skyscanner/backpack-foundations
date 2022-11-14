@@ -1,3 +1,8 @@
+# 2022-11-14
+
+**Added:**
+  - bpk-mixins: 36.0.4 => 36.1.0
+    - Added new `brand` style for badges.
 # 2022-11-07
 
 **Fixed:**
