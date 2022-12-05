@@ -1,0 +1,29 @@
+@import '../../../packages/bpk-mixins';
+
+.colour-container {
+    height:202px;
+    width:152px;
+    border-radius:12px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+    background-color: white;
+}
+
+.colour-swatch {
+    height:120px;
+    width:120px;
+    border-radius:8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.colour-name {
+    width: 120px;
+    margin: 10px auto;
+    font-family: $bpk-font-family-base;
+
+    @include bpk-caption;
+}
