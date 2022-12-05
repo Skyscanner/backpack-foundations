@@ -3651,6 +3651,7 @@
       "category": "forms",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "SELECT_COLOR"
     },
@@ -3665,6 +3666,7 @@
       "category": "forms",
       "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "INPUT_PLACEHOLDER_COLOR"
     },
@@ -3694,6 +3696,7 @@
       "category": "forms",
       "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "SELECT_DISABLED_COLOR"
     },
@@ -3701,6 +3704,7 @@
       "category": "forms",
       "value": "rgb(231, 8, 102)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!BERRY}",
       "name": "REQUIRED_COLOR"
     },
@@ -3716,6 +3720,7 @@
       "category": "forms",
       "value": ".75rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!FONT_SIZE_XS}",
       "name": "LABEL_FONT_SIZE"
     },
@@ -3723,6 +3728,7 @@
       "category": "forms",
       "value": "1rem",
       "type": "number",
+      "deprecated": true,
       "originalValue": "{!FONT_LINE_HEIGHT_XS}",
       "name": "LABEL_LINE_HEIGHT"
     },
@@ -3768,6 +3774,7 @@
       "category": "forms",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "INPUT_COLOR"
     },
@@ -3775,6 +3782,7 @@
       "category": "forms",
       "value": "solid .0625rem #C2C9CD",
       "type": "border",
+      "deprecated": true,
       "originalValue": "solid {!ONE_PIXEL_REM} {!GREY_30}",
       "name": "SELECT_BORDER"
     },
@@ -3789,6 +3797,7 @@
       "category": "forms",
       "value": "rgb(0, 98, 227)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "RADIO_CHECKED_CIRCLE_COLOR"
     },
@@ -3817,6 +3826,7 @@
       "category": "forms",
       "value": "rgb(0, 98, 227)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "CHECKBOX_CHECKED_TICK_COLOR"
     },
@@ -3846,6 +3856,7 @@
       "category": "forms",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "LABEL_COLOR"
     },

@@ -39,11 +39,11 @@ $bpk-spacing-v2: true;
   border: $bpk-input-border;
   border-radius: $bpk-input-border-radius;
   background: $bpk-input-background;
-  color: $bpk-input-color;
+  color: $bpk-text-primary-day;
   appearance: none;
 
   &::placeholder {
-    color: $bpk-input-placeholder-color;
+    color: $bpk-text-disabled-day;
   }
 
   &:disabled {
@@ -336,13 +336,13 @@ $bpk-spacing-v2: true;
   height: $bpk-input-height;
   padding: bpk-spacing-md() - (2 * $bpk-one-pixel-rem) bpk-spacing-md();
   padding-right: bpk-spacing-xl();
-  border: $bpk-select-border;
+  border: solid $bpk-one-pixel-rem $bpk-line-day;
   border-radius: $bpk-select-border-radius;
   background: $bpk-surface-default-day
     url(map-get($bpk-icons-sm, arrow-down-charcoal)) no-repeat right
     bpk-spacing-md() center;
   background-size: $bpk-input-height / 2;
-  color: $bpk-select-color;
+  color: $bpk-text-primary-day;
   line-height: ($bpk-line-height-base - (2 * $bpk-select-border-width));
   appearance: none;
 
@@ -360,12 +360,12 @@ $bpk-spacing-v2: true;
   }
 
   &:disabled {
-    border-color: $bpk-select-disabled-border-color;
+    border-color: $bpk-surface-highlight-day;
     background: $bpk-surface-default-day
       url(map-get($bpk-icons-sm, arrow-down-black-alpha-20)) no-repeat right
       bpk-spacing-md() center;
     background-size: $bpk-input-height / 2;
-    color: $bpk-select-disabled-color;
+    color: $bpk-text-disabled-day;
     cursor: not-allowed;
   }
 }
@@ -813,7 +813,7 @@ $bpk-spacing-v2: true;
     @include bpk-themeable-property(
       border-color,
       --bpk-radio-checked-color,
-      $bpk-radio-checked-circle-color
+      $bpk-core-accent-day
     );
 
     &:disabled {
@@ -835,10 +835,10 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-label {
   display: block;
-  color: $bpk-label-color;
-  font-size: $bpk-label-font-size;
+  color: $bpk-text-primary-day;
+  font-size: $bpk-font-size-xs;
   font-weight: $bpk-font-weight-bold;
-  line-height: $bpk-label-line-height;
+  line-height: $bpk-font-line-height-xs;
 }
 
 /// Invalid form label. Modifies the bpk-label mixin.
@@ -972,11 +972,11 @@ $bpk-spacing-v2: true;
   border: $bpk-input-border;
   border-radius: $bpk-input-border-radius;
   background: $bpk-input-background;
-  color: $bpk-input-color;
+  color: $bpk-text-primary-day;
   appearance: none;
 
   &::placeholder {
-    color: $bpk-input-placeholder-color;
+    color: $bpk-text-disabled-day;
   }
 
   &:disabled {

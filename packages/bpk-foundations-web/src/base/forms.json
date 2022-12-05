@@ -8,11 +8,13 @@
   "props": {
     "CHECKBOX_CHECKED_TICK_COLOR": {
       "value": "{!SKY_BLUE}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "RADIO_CHECKED_CIRCLE_COLOR": {
       "value": "{!SKY_BLUE}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "INPUT_HEIGHT": {
       "value": "{!BUTTON_HEIGHT}",
@@ -44,11 +46,13 @@
     },
     "INPUT_COLOR": {
       "value": "{!CHARCOAL}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "INPUT_PLACEHOLDER_COLOR": {
       "value": "{!BLACK_ALPHA_20}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "INPUT_DISABLED_BORDER_COLOR": {
       "value": "{!GREY_10}",
@@ -93,7 +97,8 @@
     },
     "SELECT_BORDER": {
       "value": "solid {!ONE_PIXEL_REM} {!GREY_30}",
-      "type": "border"
+      "type": "border",
+      "deprecated": true
     },
     "SELECT_BORDER_RADIUS": {
       "value": "{!BORDER_RADIUS_XS}",
@@ -101,7 +106,8 @@
     },
     "SELECT_COLOR": {
       "value": "{!CHARCOAL}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "SELECT_DISABLED_BORDER_COLOR": {
       "value": "{!GREY_20}",
@@ -109,7 +115,8 @@
     },
     "SELECT_DISABLED_COLOR": {
       "value": "{!BLACK_ALPHA_20}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "SELECT_LARGE_HEIGHT": {
       "value": "{!SPACING_XXL} + {!SPACING_XS}",
@@ -118,7 +125,8 @@
     },
     "LABEL_COLOR": {
       "value": "{!CHARCOAL}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "LABEL_DISABLED_COLOR": {
       "value": "{!BLACK_ALPHA_20}",
@@ -126,11 +134,13 @@
     },
     "LABEL_FONT_SIZE": {
       "value": "{!FONT_SIZE_XS}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "LABEL_LINE_HEIGHT": {
       "value": "{!FONT_LINE_HEIGHT_XS}",
-      "type": "number"
+      "type": "number",
+      "deprecated": true
     },
     "FORM_VALIDATION_COLOR": {
       "value": "{!BERRY}",
@@ -148,7 +158,8 @@
     },
     "REQUIRED_COLOR": {
       "value": "{!BERRY}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     }
   }
 }
