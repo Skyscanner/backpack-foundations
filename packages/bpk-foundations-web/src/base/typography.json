@@ -314,127 +314,151 @@
     "HEADING_MARGIN_TOP": {
       "value": "0",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "HEADING_MARGIN_BOTTOM": {
       "value": "{!SPACING_SM}",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "HEADING_CONTENT_MARGIN_TOP": {
-      "value": "{!SPACING_LG}",
+      "value": "{!SPACING_LG}", 
       "type": "size",
       "category": "spacings"
     },
     "P_MARGIN_TOP": {
       "value": "0",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "P_MARGIN_BOTTOM": {
       "value": "{!SPACING_SM}",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "LIST_MARGIN_TOP": {
       "value": "{!SPACING_BASE_V2}",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "LIST_MARGIN_BOTTOM": {
       "value": "{!SPACING_BASE_V2}",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "LIST_NESTED_MARGIN_TOP": {
       "value": "0",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "LIST_NESTED_MARGIN_BOTTOM": {
       "value": "0",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "LIST_ITEM_MARGIN_TOP": {
       "value": "0",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "LIST_ITEM_MARGIN_BOTTOM": {
       "value": "{!SPACING_SM_V2}",
       "type": "size",
-      "category": "spacings"
+      "category": "spacings",
+      "deprecated": true
     },
     "LINK_COLOR": {
       "value": "{!SKY_BLUE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_TEXT_DECORATION": {
       "value": "none",
       "type": "text-decoration",
-      "category": "text-decorations"
+      "category": "text-decorations",
+      "deprecated": true
     },
     "LINK_HOVER_COLOR": {
       "value": "{!SKY_BLUE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_HOVER_TEXT_DECORATION": {
       "value": "underline",
       "type": "text-decoration",
-      "category": "text-decorations"
+      "category": "text-decorations",
+      "deprecated": true
     },
     "LINK_ACTIVE_COLOR": {
       "value": "{!SKY_BLUE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_VISITED_COLOR": {
       "value": "{!SKY_BLUE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_WHITE_COLOR": {
       "value": "{!WHITE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_WHITE_HOVER_COLOR": {
       "value": "{!WHITE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_WHITE_ACTIVE_COLOR": {
       "value": "{!WHITE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_WHITE_VISITED_COLOR": {
       "value": "{!WHITE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_ALTERNATE_COLOR": {
       "value": "{!WHITE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_ALTERNATE_HOVER_COLOR": {
       "value": "{!WHITE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_ALTERNATE_ACTIVE_COLOR": {
       "value": "{!WHITE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "LINK_ALTERNATE_VISITED_COLOR": {
       "value": "{!WHITE}",
       "type": "color",
-      "category": "text-colors"
+      "category": "text-colors",
+      "deprecated": true
     },
     "TEXT_XS_FONT_SIZE": {
       "value": "{!FONT_SIZE_XS}",

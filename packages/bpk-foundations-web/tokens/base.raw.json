@@ -4468,6 +4468,7 @@
       "value": "0",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "0",
       "name": "HEADING_MARGIN_TOP"
     },
@@ -4549,6 +4550,7 @@
       "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "LINK_ALTERNATE_VISITED_COLOR"
     },
@@ -4556,6 +4558,7 @@
       "value": "1rem",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "{!SPACING_BASE_V2}",
       "name": "LIST_MARGIN_TOP"
     },
@@ -4563,6 +4566,7 @@
       "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "LINK_WHITE_ACTIVE_COLOR"
     },
@@ -4570,6 +4574,7 @@
       "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "LINK_WHITE_HOVER_COLOR"
     },
@@ -4627,6 +4632,7 @@
       "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "LINK_WHITE_COLOR"
     },
@@ -4655,6 +4661,7 @@
       "value": "rgb(0, 98, 227)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "LINK_VISITED_COLOR"
     },
@@ -4669,6 +4676,7 @@
       "value": "0",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "0",
       "name": "LIST_NESTED_MARGIN_TOP"
     },
@@ -4700,6 +4708,7 @@
       "value": ".75rem",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM}",
       "name": "P_MARGIN_BOTTOM"
     },
@@ -4739,6 +4748,7 @@
       "value": "rgb(0, 98, 227)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "LINK_ACTIVE_COLOR"
     },
@@ -4754,6 +4764,7 @@
       "value": "0",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "0",
       "name": "LIST_ITEM_MARGIN_TOP"
     },
@@ -4776,6 +4787,7 @@
       "value": ".25rem",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM_V2}",
       "name": "LIST_ITEM_MARGIN_BOTTOM"
     },
@@ -4791,6 +4803,7 @@
       "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "LINK_WHITE_VISITED_COLOR"
     },
@@ -4806,6 +4819,7 @@
       "value": "0",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "0",
       "name": "P_MARGIN_TOP"
     },
@@ -4813,6 +4827,7 @@
       "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "LINK_ALTERNATE_ACTIVE_COLOR"
     },
@@ -4828,6 +4843,7 @@
       "value": "0",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "0",
       "name": "LIST_NESTED_MARGIN_BOTTOM"
     },
@@ -4891,6 +4907,7 @@
       "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "LINK_ALTERNATE_HOVER_COLOR"
     },
@@ -4938,6 +4955,7 @@
       "value": "rgb(255, 255, 255)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "LINK_ALTERNATE_COLOR"
     },
@@ -4961,6 +4979,7 @@
       "value": "underline",
       "type": "text-decoration",
       "category": "text-decorations",
+      "deprecated": true,
       "originalValue": "underline",
       "name": "LINK_HOVER_TEXT_DECORATION"
     },
@@ -4968,6 +4987,7 @@
       "value": "rgb(0, 98, 227)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "LINK_HOVER_COLOR"
     },
@@ -4983,6 +5003,7 @@
       "value": "1rem",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "{!SPACING_BASE_V2}",
       "name": "LIST_MARGIN_BOTTOM"
     },
@@ -5057,6 +5078,7 @@
       "value": "none",
       "type": "text-decoration",
       "category": "text-decorations",
+      "deprecated": true,
       "originalValue": "none",
       "name": "LINK_TEXT_DECORATION"
     },
@@ -5147,6 +5169,7 @@
       "value": "rgb(0, 98, 227)",
       "type": "color",
       "category": "text-colors",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "LINK_COLOR"
     },
@@ -5199,6 +5222,7 @@
       "value": ".75rem",
       "type": "size",
       "category": "spacings",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM}",
       "name": "HEADING_MARGIN_BOTTOM"
     },
