@@ -1,3 +1,32 @@
+# 2022-12-8
+
+**Changed:**
+  - bpk-foundations-web: 13.0.0 => 13.1.0
+    - Deprecated form tokens as their usage is low and not widely used and using semantic tokens is preferred. The following are deprecated:
+      - `$bpk-checkbox-checked-tick-color`
+      - `$bpk-radio-checked-circle-color`
+      - `$bpk-input-color`
+      - `$bpk-input-placeholder-color`
+      - `$bpk-select-border`
+      - `$bpk-select-color`
+      - `$bpk-select-disabled-color`
+      - `$bpk-label-color`
+      - `$bpk-label-font-size`
+      - `$bpk-label-line-height`
+      - `$bpk-required-color`
+      - `$bpk-heading-margin-top`
+      - `$bpk-heading-margin-bottom`
+      - `$bpk-p-margin-top`
+      - `$bpk-p-margin-bottom`
+      - `$bpk-list-margin-top`
+      - `$bpk-list-margin-bottom`
+      - `$bpk-list-nested-margin-top`
+      - `$bpk-list-nested-margin-bottom`
+      - `$bpk-list-item-margin-top`
+      - `$bpk-list-item-margin-bottom`
+      - `$bpk-link-hover-text-decoration`
+      - `$bpk-link-*-color`
+
 # 2022-11-14
 
 **Breaking:**

@@ -324,7 +324,7 @@
       "deprecated": true
     },
     "HEADING_CONTENT_MARGIN_TOP": {
-      "value": "{!SPACING_LG}", 
+      "value": "{!SPACING_LG}",
       "type": "size",
       "category": "spacings"
     },
