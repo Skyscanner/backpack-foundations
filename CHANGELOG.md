@@ -1,4 +1,8 @@
-# 2022-12-8
+# 2022-12-08
+
+**Fixed:**
+  - bpk-mixins: 36.1.2 => 36.1.3
+    - Fix `bpk-label` mixin using incorrect line height token
 
 **Changed:**
   - bpk-foundations-web: 13.0.0 => 13.1.0
