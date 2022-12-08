@@ -1,14 +1,3 @@
-**Changed:**
-  - bpk-foundations-web:
-    - Deprecated form tokens as their usage is low and not widely used and using semantic tokens is preferred. The following are deprecated:
-      - `$bpk-checkbox-checked-tick-color`
-      - `$bpk-radio-checked-circle-color`
-      - `$bpk-input-color`
-      - `$bpk-input-placeholder-color`
-      - `$bpk-select-border`
-      - `$bpk-select-color`
-      - `$bpk-select-disabled-color`
-      - `bpk-label-color`
-      - `$bpk-label-font-size`
-      - `$bpk-label-line-height`
-      - `$bpk-required-color`
+**Fixed:**
+  - bpk-mixins:
+    - Fix `bpk-label` mixin using incorrect line height token
