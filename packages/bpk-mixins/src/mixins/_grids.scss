@@ -20,6 +20,7 @@
 
 ////
 /// @group grids
+/// @deprecated The grid mixins are deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience..
 ////
 
 /// Grid container.
@@ -30,6 +31,8 @@
 ///   }
 
 @mixin bpk-grid__container {
+  @warn 'bpk-grid__container is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   max-width: $bpk-breakpoint-desktop;
   margin: 0 auto;
   padding-right: $bpk-grid-container-mobile-padding;
@@ -52,6 +55,8 @@
 ///   }
 
 @mixin bpk-grid__container--debug {
+  @warn 'bpk-grid__container--debug is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   background-color: $bpk-color-sky-gray-tint-07;
 }
 
@@ -66,6 +71,8 @@
 ///   }
 
 @mixin bpk-grid__container--full-width {
+  @warn 'bpk-grid__container--full-width is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   max-width: 100%;
 }
 
@@ -77,6 +84,8 @@
 ///   }
 
 @mixin bpk-grid__row {
+  @warn 'bpk-grid__row is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   margin-right: -($bpk-grid-gutter / 2);
   margin-left: -($bpk-grid-gutter / 2);
 
@@ -94,6 +103,8 @@
 ///   }
 
 @mixin bpk-grid__row--padded {
+  @warn 'bpk-grid__row--padded is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   @include bpk-breakpoint-above-tablet {
     &:first-child {
       padding-top: $bpk-grid-gutter / 2;
@@ -113,6 +124,8 @@
 ///   }
 
 @mixin bpk-grid__column {
+  @warn 'bpk-grid__column is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   float: left;
   padding-right: $bpk-grid-gutter / 2;
   padding-left: $bpk-grid-gutter / 2;
@@ -133,6 +146,8 @@
 ///   }
 
 @mixin bpk-grid__column--padded {
+  @warn 'bpk-grid__column--padded is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   padding-top: $bpk-grid-gutter / 2;
   padding-bottom: $bpk-grid-gutter / 2;
 }
@@ -148,6 +163,8 @@
 ///   }
 
 @mixin bpk-grid__column--debug {
+  @warn 'bpk-grid__column--debug is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   padding: $bpk-grid-gutter / 2;
 }
 
@@ -159,6 +176,8 @@
 ///   }
 
 @mixin bpk-grid__column-debugger {
+  @warn 'bpk-grid__column-debugger is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   background-color: $bpk-color-white;
 }
 
@@ -173,6 +192,8 @@
 ///   }
 
 @mixin bpk-grid__column--($size) {
+  @warn 'bpk-grid__column--() is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   @if $size == 0 {
     display: none;
   } @else {
@@ -195,6 +216,8 @@
 ///   }
 
 @mixin bpk-grid__column--mobile-($size) {
+  @warn 'bpk-grid__column--mobile-() is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   @include bpk-breakpoint-mobile {
     @include bpk-grid__column--($size);
   }
@@ -211,6 +234,8 @@
 ///   }
 
 @mixin bpk-grid__column--tablet-($size) {
+  @warn 'bpk-grid__column--tablet-() is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   @include bpk-breakpoint-tablet {
     @include bpk-grid__column--($size);
   }
@@ -227,6 +252,8 @@
 ///   }
 
 @mixin bpk-grid__column--offset-($size) {
+  @warn 'bpk-grid__column--offset-() is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   @if $size == 0 {
     margin-left: 0;
 
@@ -258,6 +285,8 @@
 ///   }
 
 @mixin bpk-grid__column--offset-mobile-($size) {
+  @warn 'bpk-grid__column--offset-mobile-() is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   @include bpk-breakpoint-mobile {
     @include bpk-grid__column--offset-($size);
   }
@@ -274,6 +303,8 @@
 ///   }
 
 @mixin bpk-grid__column--offset-tablet-($size) {
+  @warn 'bpk-grid__column--offset-tablet-() is deprecated and no longer supported. Please use flexbox instead to achieve a better cross browser experience.';
+
   @include bpk-breakpoint-tablet {
     @include bpk-grid__column--offset-($size);
   }
