@@ -19,9 +19,6 @@
  */
 
 module.exports = {
-  durationXs: "50ms",
-  durationSm: "200ms",
-  durationBase: "400ms",
   colorSkyBlueShade03: "rgb(2, 18, 44)",
   colorPrimaryGradientLight: "rgb(0, 98, 227)",
   colorErfoud: "rgb(255, 181, 77)",
@@ -234,6 +231,9 @@ module.exports = {
   privateSkeletonShimmerStartEndNight: "rgba(0, 0, 0, 0)",
   privateSkeletonShimmerCenterDay: "rgba(255, 255, 255, 0.6)",
   privateSkeletonShimmerCenterNight: "rgba(0, 0, 0, 0.2)",
+  durationXs: "50ms",
+  durationSm: "200ms",
+  durationBase: "400ms",
   autosuggestListBackgroundColor: "rgb(255, 255, 255)",
   autosuggestListItemActiveBackgroundColor: "rgb(239, 241, 242)",
   autosuggestListItemHighlightedBackgroundColor: "rgb(239, 241, 242)",
