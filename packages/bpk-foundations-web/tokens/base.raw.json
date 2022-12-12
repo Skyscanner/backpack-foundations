@@ -3468,6 +3468,7 @@
       "category": "calendar",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "CALENDAR_DAY_SELECTED_COLOR"
     },
@@ -3475,6 +3476,7 @@
       "category": "calendar",
       "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "CALENDAR_DAY_DISABLED_COLOR"
     },
@@ -3482,20 +3484,22 @@
       "category": "calendar",
       "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "CALENDAR_DAY_OUTSIDE_COLOR"
     },
     "CALENDAR_DAY_SIZE": {
       "category": "calendar",
-      "value": "2.250rem",
+      "value": "2rem + .25rem",
       "type": "size",
-      "originalValue": "{!SPACING_XL}",
+      "originalValue": "{!SPACING_XL_V2} + {!SPACING_SM_V2}",
       "name": "CALENDAR_DAY_SIZE"
     },
     "CALENDAR_DAY_ACTIVE_BACKGROUND_COLOR": {
       "category": "calendar",
       "value": "rgb(239, 241, 242)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!GREY_10}",
       "name": "CALENDAR_DAY_ACTIVE_BACKGROUND_COLOR"
     },
@@ -3503,6 +3507,7 @@
       "category": "calendar",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "CALENDAR_NAV_ICON_FILL"
     },
@@ -3510,6 +3515,7 @@
       "category": "calendar",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "CALENDAR_DAY_ACTIVE_COLOR"
     },
@@ -3517,6 +3523,7 @@
       "category": "calendar",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "CALENDAR_NAV_ICON_HOVER_FILL"
     },
@@ -3524,6 +3531,7 @@
       "category": "calendar",
       "value": ".75rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM}",
       "name": "CALENDAR_PADDING"
     },
@@ -3539,6 +3547,7 @@
       "category": "calendar",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "CALENDAR_NAV_ICON_ACTIVE_FILL"
     },
@@ -3546,6 +3555,7 @@
       "category": "calendar",
       "value": "rgb(0, 98, 227)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "CALENDAR_DAY_FOCUSED_COLOR"
     },
@@ -3553,6 +3563,7 @@
       "category": "calendar",
       "value": "rgb(239, 241, 242)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!GREY_10}",
       "name": "CALENDAR_DAY_HOVER_BACKGROUND_COLOR"
     },
@@ -3560,6 +3571,7 @@
       "category": "calendar",
       "value": "rgb(0, 98, 227)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "CALENDAR_DAY_FOCUSED_BORDER_COLOR"
     },
@@ -3567,6 +3579,7 @@
       "category": "calendar",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "CALENDAR_DAY_HOVER_COLOR"
     },
@@ -3574,6 +3587,7 @@
       "category": "calendar",
       "value": "rgba(0, 0, 0, 0.2)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "CALENDAR_NAV_ICON_DISABLED_FILL"
     },
@@ -3581,6 +3595,7 @@
       "category": "calendar",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "CALENDAR_DAY_COLOR"
     },

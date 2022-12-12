@@ -1,0 +1,18 @@
+**Changed:**
+  - bpk-foundations-web:
+    - Deprecated calendar tokens as their usage is low and not widely used and using semantic tokens is preferred. The following are deprecated:
+      - `$bpk-calendar-padding`
+      - `$bpk-calendar-day-color`
+      - `$bpk-calendar-day-selected-color`
+      - `$bpk-calendar-day-focused-color`
+      - `$bpk-calendar-day-focused-border-color`
+      - `$bpk-calendar-day-hover-color`
+      - `$bpk-calendar-day-hover-background-color`
+      - `$bpk-calendar-day-active-color`
+      - `$bpk-calendar-day-active-background-color`
+      - `$bpk-calendar-day-disabled-color`
+      - `$bpk-calendar-day-outside-color`
+      - `$bpk-calendar-nav-icon-fill`
+      - `$bpk-calendar-nav-icon-hover-fill`
+      - `$bpk-calendar-nav-icon-active-fill`
+      - `$bpk-calendar-nav-icon-disabled-fill`
