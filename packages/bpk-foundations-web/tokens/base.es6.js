@@ -17,9 +17,6 @@
  * limitations under the License.
  * 
  */
-export const durationXs = "50ms";
-export const durationSm = "200ms";
-export const durationBase = "400ms";
 export const colorSkyBlueShade03 = "rgb(2, 18, 44)";
 export const colorPrimaryGradientLight = "rgb(0, 98, 227)";
 export const colorErfoud = "rgb(255, 181, 77)";
@@ -232,6 +229,9 @@ export const privateSkeletonShimmerStartEndDay = "rgba(255, 255, 255, 0)";
 export const privateSkeletonShimmerStartEndNight = "rgba(0, 0, 0, 0)";
 export const privateSkeletonShimmerCenterDay = "rgba(255, 255, 255, 0.6)";
 export const privateSkeletonShimmerCenterNight = "rgba(0, 0, 0, 0.2)";
+export const durationXs = "50ms";
+export const durationSm = "200ms";
+export const durationBase = "400ms";
 export const autosuggestListBackgroundColor = "rgb(255, 255, 255)";
 export const autosuggestListItemActiveBackgroundColor = "rgb(239, 241, 242)";
 export const autosuggestListItemHighlightedBackgroundColor = "rgb(239, 241, 242)";

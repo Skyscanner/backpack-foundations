@@ -17,12 +17,6 @@
  * limitations under the License.
  * 
  */
-/// @group animations
-$bpk-duration-xs: 50ms;
-/// @group animations
-$bpk-duration-sm: 200ms;
-/// @group animations
-$bpk-duration-base: 400ms;
 /// @group colors
 $bpk-color-sky-blue-shade-03: rgb(2, 18, 44);
 /// @group colors
@@ -447,6 +441,12 @@ $bpk-private-skeleton-shimmer-start-end-night: rgba(0, 0, 0, 0);
 $bpk-private-skeleton-shimmer-center-day: rgba(255, 255, 255, 0.6);
 /// @group skeleton-colors
 $bpk-private-skeleton-shimmer-center-night: rgba(0, 0, 0, 0.2);
+/// @group animations
+$bpk-duration-xs: 50ms;
+/// @group animations
+$bpk-duration-sm: 200ms;
+/// @group animations
+$bpk-duration-base: 400ms;
 /// @group autosuggest
 $bpk-autosuggest-list-background-color: rgb(255, 255, 255);
 /// @group autosuggest
