@@ -3899,6 +3899,7 @@
     },
     "GRID_COLUMNS": {
       "category": "grids",
+      "deprecated": true,
       "value": "12",
       "type": "number",
       "originalValue": "12",
@@ -3906,6 +3907,7 @@
     },
     "GRID_GUTTER": {
       "category": "grids",
+      "deprecated": true,
       "value": "1.5rem",
       "type": "size",
       "originalValue": "{!SPACING_BASE}",
@@ -3913,6 +3915,7 @@
     },
     "GRID_CONTAINER_PADDING": {
       "category": "grids",
+      "deprecated": true,
       "value": "1.5rem",
       "type": "size",
       "originalValue": "{!SPACING_BASE}",
@@ -3920,6 +3923,7 @@
     },
     "GRID_CONTAINER_MOBILE_PADDING": {
       "category": "grids",
+      "deprecated": true,
       "value": ".75rem",
       "type": "size",
       "originalValue": "{!SPACING_SM}",
