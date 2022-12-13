@@ -1,17 +1,20 @@
 {
+  "imports": [
+    "./aliases.json"
+  ],
   "global": {
-    "type": "time",
+    "type": "duration",
     "category": "animations"
   },
   "props": {
     "DURATION_XS": {
-    "value": "50ms"
+      "value": "{!ANIMATION_DURATION_XS}"
     },
     "DURATION_SM": {
-      "value": "200ms"
+      "value": "{!ANIMATION_DURATION_SM}"
     },
     "DURATION_BASE": {
-      "value": "400ms"
+      "value": "{!ANIMATION_DURATION_BASE}"
     }
   }
 }
