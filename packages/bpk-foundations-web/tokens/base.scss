@@ -826,7 +826,7 @@ $bpk-calendar-day-disabled-color: rgba(0, 0, 0, 0.2);
 /// @group calendar
 $bpk-calendar-day-outside-color: rgba(0, 0, 0, 0.2);
 /// @group calendar
-$bpk-calendar-day-size: 2.250rem;
+$bpk-calendar-day-size: 2rem + .25rem;
 /// @group calendar
 $bpk-calendar-day-active-background-color: rgb(239, 241, 242);
 /// @group calendar

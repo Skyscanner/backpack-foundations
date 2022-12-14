@@ -8,23 +8,26 @@
   "props": {
     "CALENDAR_PADDING": {
       "value": "{!SPACING_SM}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "CALENDAR_DAY_SPACING": {
       "value": "{!SPACING_MD_V2}",
       "type": "size"
     },
     "CALENDAR_DAY_SIZE": {
-      "value": "{!SPACING_XL}",
+      "value": "{!SPACING_XL_V2} + {!SPACING_SM_V2}",
       "type": "size"
     },
     "CALENDAR_DAY_COLOR": {
       "value": "{!CHARCOAL}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_SELECTED_COLOR": {
       "value": "{!WHITE}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_SELECTED_BACKGROUND_COLOR": {
       "value": "{!SKY_BLUE}",
@@ -33,51 +36,63 @@
     },
     "CALENDAR_DAY_FOCUSED_COLOR": {
       "value": "{!SKY_BLUE}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_FOCUSED_BORDER_COLOR": {
       "value": "{!SKY_BLUE}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_HOVER_COLOR": {
       "value": "{!CHARCOAL}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_HOVER_BACKGROUND_COLOR": {
       "value": "{!GREY_10}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_ACTIVE_COLOR": {
       "value": "{!CHARCOAL}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_ACTIVE_BACKGROUND_COLOR": {
       "value": "{!GREY_10}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_DISABLED_COLOR": {
       "value": "{!BLACK_ALPHA_20}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_DAY_OUTSIDE_COLOR": {
       "value": "{!BLACK_ALPHA_20}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_NAV_ICON_FILL": {
       "value": "{!CHARCOAL}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_NAV_ICON_HOVER_FILL": {
       "value": "{!CHARCOAL}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_NAV_ICON_ACTIVE_FILL": {
       "value": "{!CHARCOAL}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "CALENDAR_NAV_ICON_DISABLED_FILL": {
       "value": "{!BLACK_ALPHA_20}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     }
   }
 }
