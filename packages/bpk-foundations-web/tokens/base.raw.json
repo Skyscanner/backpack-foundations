@@ -455,27 +455,6 @@
     }
   },
   "props": {
-    "DURATION_XS": {
-      "type": "time",
-      "category": "animations",
-      "value": "50ms",
-      "originalValue": "50ms",
-      "name": "DURATION_XS"
-    },
-    "DURATION_SM": {
-      "type": "time",
-      "category": "animations",
-      "value": "200ms",
-      "originalValue": "200ms",
-      "name": "DURATION_SM"
-    },
-    "DURATION_BASE": {
-      "type": "time",
-      "category": "animations",
-      "value": "400ms",
-      "originalValue": "400ms",
-      "name": "DURATION_BASE"
-    },
     "COLOR_SKY_BLUE_SHADE_03": {
       "value": "rgb(2, 18, 44)",
       "deprecated": true,
@@ -2025,6 +2004,27 @@
       "value": "rgba(0, 0, 0, 0.2)",
       "originalValue": "#00000033",
       "name": "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT"
+    },
+    "DURATION_XS": {
+      "type": "duration",
+      "category": "animations",
+      "value": "50ms",
+      "originalValue": "{!ANIMATION_DURATION_XS}",
+      "name": "DURATION_XS"
+    },
+    "DURATION_SM": {
+      "type": "duration",
+      "category": "animations",
+      "value": "200ms",
+      "originalValue": "{!ANIMATION_DURATION_SM}",
+      "name": "DURATION_SM"
+    },
+    "DURATION_BASE": {
+      "type": "duration",
+      "category": "animations",
+      "value": "400ms",
+      "originalValue": "{!ANIMATION_DURATION_BASE}",
+      "name": "DURATION_BASE"
     },
     "AUTOSUGGEST_LIST_BACKGROUND_COLOR": {
       "category": "autosuggest",
@@ -3914,6 +3914,7 @@
     },
     "GRID_COLUMNS": {
       "category": "grids",
+      "deprecated": true,
       "value": "12",
       "type": "number",
       "originalValue": "12",
@@ -3921,6 +3922,7 @@
     },
     "GRID_GUTTER": {
       "category": "grids",
+      "deprecated": true,
       "value": "1.5rem",
       "type": "size",
       "originalValue": "{!SPACING_BASE}",
@@ -3928,6 +3930,7 @@
     },
     "GRID_CONTAINER_PADDING": {
       "category": "grids",
+      "deprecated": true,
       "value": "1.5rem",
       "type": "size",
       "originalValue": "{!SPACING_BASE}",
@@ -3935,6 +3938,7 @@
     },
     "GRID_CONTAINER_MOBILE_PADDING": {
       "category": "grids",
+      "deprecated": true,
       "value": ".75rem",
       "type": "size",
       "originalValue": "{!SPACING_SM}",
