@@ -3490,9 +3490,9 @@
     },
     "CALENDAR_DAY_SIZE": {
       "category": "calendar",
-      "value": "2rem + .25rem",
+      "value": "2.25rem",
       "type": "size",
-      "originalValue": "{!SPACING_XL_V2} + {!SPACING_SM_V2}",
+      "originalValue": "2.25rem",
       "name": "CALENDAR_DAY_SIZE"
     },
     "CALENDAR_DAY_ACTIVE_BACKGROUND_COLOR": {
