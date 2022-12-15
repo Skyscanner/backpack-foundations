@@ -1,5 +1,20 @@
 # 2022-12-15
 
+**Breaking:**
+
+  - `bpk-mixins`: 36.2.0 => 37.0.0
+    - Removed content container mixins. If you need to add margins/padding to the bottom of your text please use the Backpack spacing directly.
+      - `@mixin bpk-content-container`
+      - `@mixin bpk-content-container--bare-html`
+      - `@mixin bpk-content-container--bare-html-alternate`
+
+**Patch:**
+
+  - `@skyscanner/bpk-foundations-web`: 13.2.0 => 13.2.1
+    - Fix `calendarDaySize` token value to work with the existing bpk calendar utils
+
+# 2022-12-15
+
 **Changed:**
   - `@skyscanner/bpk-foundations-web`: 13.1.1 => 13.2.0
     - Deprecated calendar tokens as their usage is low and not widely used and using semantic tokens is preferred. The following are deprecated:
