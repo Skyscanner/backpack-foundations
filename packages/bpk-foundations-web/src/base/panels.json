@@ -8,7 +8,8 @@
   "props": {
     "PANEL_PADDING": {
       "value": "{!SPACING_SM}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "PANEL_BORDER_COLOR": {
       "value": "{!GREY_30}",
@@ -16,7 +17,8 @@
     },
     "PANEL_BACKGROUND_COLOR": {
       "value": "{!WHITE}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     }
   }
 }
