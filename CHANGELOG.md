@@ -1,3 +1,52 @@
+# 2022-12-15
+
+**Breaking:**
+
+  - `bpk-mixins`: 36.2.0 => 37.0.0
+    - Removed content container mixins. If you need to add margins/padding to the bottom of your text please use the Backpack spacing directly.
+      - `@mixin bpk-content-container`
+      - `@mixin bpk-content-container--bare-html`
+      - `@mixin bpk-content-container--bare-html-alternate`
+
+**Patch:**
+
+  - `@skyscanner/bpk-foundations-web`: 13.2.0 => 13.2.1
+    - Fix `calendarDaySize` token value to work with the existing bpk calendar utils
+
+# 2022-12-15
+
+**Changed:**
+  - `@skyscanner/bpk-foundations-web`: 13.1.1 => 13.2.0
+    - Deprecated calendar tokens as their usage is low and not widely used and using semantic tokens is preferred. The following are deprecated:
+      - `$bpk-calendar-padding`
+      - `$bpk-calendar-day-color`
+      - `$bpk-calendar-day-selected-color`
+      - `$bpk-calendar-day-focused-color`
+      - `$bpk-calendar-day-focused-border-color`
+      - `$bpk-calendar-day-hover-color`
+      - `$bpk-calendar-day-hover-background-color`
+      - `$bpk-calendar-day-active-color`
+      - `$bpk-calendar-day-active-background-color`
+      - `$bpk-calendar-day-disabled-color`
+      - `$bpk-calendar-day-outside-color`
+      - `$bpk-calendar-nav-icon-fill`
+      - `$bpk-calendar-nav-icon-hover-fill`
+      - `$bpk-calendar-nav-icon-active-fill`
+      - `$bpk-calendar-nav-icon-disabled-fill`
+
+    - Deprecated grid tokens as no longer supported.
+      - `$bpk-grid-columns`
+      - `$bpk-grid-gutter`
+      - `$bpk-grid-container-padding`
+      - `$bpk-grid-container-mobile-padding`
+
+  - `bpk-mixins`: 36.1.3 => 36.2.0
+    - Deprecated grid mixins as these are no longer supported due to the `BpkGrid` component being deprecated for a number of years.
+    
+**Patched:**
+  - `@skyscanner/bpk-foundations-web`: 13.1.1 => 13.2.0
+    - Change source of `animation` tokens to pull from `bpk-foundation-common`. Values are not changing so nothing for consumers to change.
+
 # 2022-12-08
 
 **Fixed:**
