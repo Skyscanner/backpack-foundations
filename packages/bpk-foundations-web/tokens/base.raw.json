@@ -3617,6 +3617,7 @@
       "category": "cards",
       "value": "rgb(22, 22, 22)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!CHARCOAL}",
       "name": "CARD_COLOR"
     },
@@ -4055,6 +4056,7 @@
       "category": "scrims",
       "value": "0",
       "type": "number",
+      "deprecated": true,
       "originalValue": "0",
       "name": "SCRIM_INITIAL_OPACITY"
     },
@@ -4062,6 +4064,7 @@
       "category": "scrims",
       "value": ".7",
       "type": "number",
+      "deprecated": true,
       "originalValue": ".7",
       "name": "SCRIM_OPACITY"
     },
@@ -4069,6 +4072,7 @@
       "category": "scrims",
       "value": "1",
       "type": "number",
+      "deprecated": true,
       "originalValue": "1",
       "name": "SCRIM_MOBILE_OPACITY"
     },
@@ -4084,6 +4088,7 @@
       "category": "scrims",
       "value": ".95",
       "type": "number",
+      "deprecated": true,
       "originalValue": ".95",
       "name": "SCRIM_DARK_OPACITY"
     },
@@ -4199,6 +4204,7 @@
       "category": "panels",
       "value": ".75rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM}",
       "name": "PANEL_PADDING"
     },
@@ -4213,6 +4219,7 @@
       "category": "panels",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "PANEL_BACKGROUND_COLOR"
     },
