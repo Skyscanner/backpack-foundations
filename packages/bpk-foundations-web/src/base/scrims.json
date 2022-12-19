@@ -13,15 +13,18 @@
     },
     "SCRIM_INITIAL_OPACITY": {
       "value": "0",
-      "type": "number"
+      "type": "number",
+      "deprecated": true
     },
     "SCRIM_OPACITY": {
       "value": ".7",
-      "type": "number"
+      "type": "number",
+      "deprecated": true
     },
     "SCRIM_MOBILE_OPACITY": {
       "value": "1",
-      "type": "number"
+      "type": "number",
+      "deprecated": true
     },
     "SCRIM_DARK_BACKGROUND_COLOR": {
       "value": "{!SKY_GRAY}",
@@ -30,7 +33,8 @@
     },
     "SCRIM_DARK_OPACITY": {
       "value": ".95",
-      "type": "number"
+      "type": "number",
+      "deprecated": true
     }
   }
 }

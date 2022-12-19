@@ -30,7 +30,7 @@
 ///   }
 @mixin bpk-panel {
   display: block;
-  background-color: $bpk-panel-background-color;
+  background-color: $bpk-card-background-color;
 
   @include bpk-border-sm($bpk-panel-border-color);
   @include bpk-border-radius-md;
@@ -46,7 +46,7 @@
 ///     @include bpk-panel--padded();
 ///   }
 @mixin bpk-panel--padded {
-  padding: $bpk-panel-padding;
+  padding: $bpk-card-padding;
 }
 
 /// Makes panel full width by removing left and right border.
