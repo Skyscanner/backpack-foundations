@@ -1,3 +1,15 @@
+# 2022-12-19
+
+**Changed:**
+- `@skyscanner/bpk-foundations-web`: 13.2.1 => 13.3.0
+    - Deprecate the following tokens as they are not widely used:
+        - scrim tokens `$bpk-scrim-opacity`, `$bpk-scrim-initial-opacity`, `$bpk-scrim-dark-opacity`, `$bpk-scrim-mobile-opacity`
+        - `$bpk-panel-padding` and `$bpk-panel-background-color`
+        - `$bpk-card-color`
+
+- `bpk-mixins`: 37.0.0 => 37.1.0
+    - `bpk-panel--padded` - change padding to `16px` to be consistent with card padding
+
 # 2022-12-15
 
 **Breaking:**
