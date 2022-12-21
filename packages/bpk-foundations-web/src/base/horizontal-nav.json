@@ -8,16 +8,20 @@
   },
   "props": {
     "HORIZONTAL_NAV_LINK_COLOR": {
-      "value": "{!GREY_40}"
+      "value": "{!GREY_40}",
+      "deprecated": true
     },
     "HORIZONTAL_NAV_LINK_HOVER_COLOR": {
-      "value": "{!GREY_40}"
+      "value": "{!GREY_40}",
+      "deprecated": true
     },
     "HORIZONTAL_NAV_LINK_ACTIVE_COLOR": {
-      "value": "{!GREY_40}"
+      "value": "{!GREY_40}",
+      "deprecated": true
     },
     "HORIZONTAL_NAV_LINK_SELECTED_COLOR": {
-      "value": "{!SKY_BLUE}"
+      "value": "{!SKY_BLUE}",
+      "deprecated": true
     },
     "HORIZONTAL_NAV_BAR_SELECTED_COLOR": {
       "value": "{!SKY_BLUE}"

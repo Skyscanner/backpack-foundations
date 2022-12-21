@@ -19,6 +19,8 @@
 @import '../bonds.scss';
 @import 'typography.scss';
 
+$bpk-spacing-v2: true;
+
 ////
 /// @group badges
 ////
@@ -32,14 +34,14 @@
 
 @mixin bpk-badge {
   display: inline-flex;
-  padding: $bpk-badge-padding-y $bpk-badge-padding-x;
+  padding: bpk-spacing-sm() bpk-spacing-md();
   align-items: center;
   color: $bpk-text-on-light-day;
 
   @include bpk-themeable-property(
     background-color,
     --bpk-badge-background-color,
-    $bpk-badge-background-color
+    $bpk-status-warning-fill-day
   );
   @include bpk-border-radius-xs;
   @include bpk-text;
@@ -57,7 +59,7 @@
 ///   }
 
 @mixin bpk-badge--centered {
-  vertical-align: $bpk-badge-centered-vertical-align;
+  vertical-align: text-bottom;
 }
 
 /// Right-docked badge. Modifies the bpk-badge mixin.

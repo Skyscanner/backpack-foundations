@@ -2030,6 +2030,7 @@
       "category": "autosuggest",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "AUTOSUGGEST_LIST_BACKGROUND_COLOR"
     },
@@ -2037,6 +2038,7 @@
       "category": "autosuggest",
       "value": "rgb(239, 241, 242)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!GREY_10}",
       "name": "AUTOSUGGEST_LIST_ITEM_ACTIVE_BACKGROUND_COLOR"
     },
@@ -2044,6 +2046,7 @@
       "category": "autosuggest",
       "value": "rgb(239, 241, 242)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!GREY_10}",
       "name": "AUTOSUGGEST_LIST_ITEM_HIGHLIGHTED_BACKGROUND_COLOR"
     },
@@ -2051,6 +2054,7 @@
       "category": "badges",
       "value": ".25rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM_V2}",
       "name": "BADGE_PADDING_Y"
     },
@@ -2058,6 +2062,7 @@
       "category": "badges",
       "value": ".5rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_MD_V2}",
       "name": "BADGE_PADDING_X"
     },
@@ -2065,6 +2070,7 @@
       "category": "badges",
       "value": "rgb(255, 247, 207)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!YELLOW_MUTED}",
       "name": "BADGE_BACKGROUND_COLOR"
     },
@@ -2072,6 +2078,7 @@
       "category": "badges",
       "value": "text-bottom",
       "type": "vertical-align",
+      "deprecated": true,
       "originalValue": "text-bottom",
       "name": "BADGE_CENTERED_VERTICAL_ALIGN"
     },
@@ -3949,6 +3956,7 @@
       "type": "color",
       "category": "horizontal-nav",
       "value": "rgb(84, 88, 96)",
+      "deprecated": true,
       "originalValue": "{!GREY_40}",
       "name": "HORIZONTAL_NAV_LINK_COLOR"
     },
@@ -3956,6 +3964,7 @@
       "type": "color",
       "category": "horizontal-nav",
       "value": "rgb(84, 88, 96)",
+      "deprecated": true,
       "originalValue": "{!GREY_40}",
       "name": "HORIZONTAL_NAV_LINK_HOVER_COLOR"
     },
@@ -3963,6 +3972,7 @@
       "type": "color",
       "category": "horizontal-nav",
       "value": "rgb(84, 88, 96)",
+      "deprecated": true,
       "originalValue": "{!GREY_40}",
       "name": "HORIZONTAL_NAV_LINK_ACTIVE_COLOR"
     },
@@ -3970,6 +3980,7 @@
       "type": "color",
       "category": "horizontal-nav",
       "value": "rgb(0, 98, 227)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "HORIZONTAL_NAV_LINK_SELECTED_COLOR"
     },
@@ -4096,6 +4107,7 @@
       "category": "notifications",
       "value": ".75rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_SM}",
       "name": "BANNER_ALERT_CHILDREN_PADDING_X"
     },
@@ -4110,6 +4122,7 @@
       "category": "notifications",
       "value": ".375rem",
       "type": "size",
+      "deprecated": true,
       "originalValue": "{!SPACING_XS}",
       "name": "BANNER_ALERT_CHILDREN_PADDING_Y"
     },
@@ -4124,6 +4137,7 @@
       "category": "notifications",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BANNER_ALERT_BACKGROUND_COLOR"
     },
@@ -4183,6 +4197,7 @@
       "category": "notifications",
       "value": "rgb(84, 88, 96)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!GREY_40}",
       "name": "BANNER_ALERT_CHILDREN_COLOR"
     },
@@ -4190,6 +4205,7 @@
       "category": "notifications",
       "value": "rgb(84, 88, 96)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!GREY_40}",
       "name": "BANNER_ALERT_EXPAND_ICON_FILL"
     },
