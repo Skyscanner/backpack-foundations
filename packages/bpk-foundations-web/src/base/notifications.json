@@ -8,7 +8,8 @@
   "props": {
     "BANNER_ALERT_BACKGROUND_COLOR": {
       "value": "{!WHITE}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "BANNER_ALERT_HEADER_PADDING_Y": {
       "value": "{!SPACING_XS}",
@@ -55,19 +56,23 @@
     },
     "BANNER_ALERT_EXPAND_ICON_FILL": {
       "value": "{!GREY_40}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "BANNER_ALERT_CHILDREN_PADDING_Y": {
       "value": "{!SPACING_XS}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "BANNER_ALERT_CHILDREN_PADDING_X": {
       "value": "{!SPACING_SM}",
-      "type": "size"
+      "type": "size",
+      "deprecated": true
     },
     "BANNER_ALERT_CHILDREN_COLOR": {
       "value": "{!GREY_40}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     }
   }
 }

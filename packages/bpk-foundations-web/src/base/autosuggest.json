@@ -8,15 +8,18 @@
   "props": {
     "AUTOSUGGEST_LIST_BACKGROUND_COLOR": {
       "value": "{!WHITE}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "AUTOSUGGEST_LIST_ITEM_ACTIVE_BACKGROUND_COLOR": {
       "value": "{!GREY_10}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     },
     "AUTOSUGGEST_LIST_ITEM_HIGHLIGHTED_BACKGROUND_COLOR": {
       "value": "{!GREY_10}",
-      "type": "color"
+      "type": "color",
+      "deprecated": true
     }
   }
 }
