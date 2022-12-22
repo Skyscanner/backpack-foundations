@@ -2296,6 +2296,7 @@
       "category": "buttons",
       "value": "center",
       "type": "text-align",
+      "deprecated": true,
       "originalValue": "center",
       "name": "BUTTON_TEXT_ALIGN"
     },
@@ -2367,6 +2368,7 @@
       "category": "buttons",
       "value": "#084eb2",
       "type": "background-image",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "BUTTON_SELECTED_BACKGROUND_IMAGE"
     },
@@ -2390,6 +2392,7 @@
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BUTTON_SELECTED_ACTIVE_COLOR"
     },
@@ -2509,6 +2512,7 @@
       "category": "buttons",
       "value": "none",
       "type": "background-image",
+      "deprecated": true,
       "originalValue": "none",
       "name": "BUTTON_SELECTED_HOVER_BACKGROUND_IMAGE"
     },
@@ -2644,6 +2648,7 @@
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BUTTON_SELECTED_HOVER_COLOR"
     },
@@ -2651,6 +2656,7 @@
       "category": "buttons",
       "value": "rgb(0, 98, 227)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "BUTTON_SELECTED_BACKGROUND_COLOR"
     },
@@ -2778,6 +2784,7 @@
       "category": "buttons",
       "value": "none",
       "type": "background-image",
+      "deprecated": true,
       "originalValue": "none",
       "name": "BUTTON_SELECTED_ACTIVE_BACKGROUND_IMAGE"
     },
@@ -2809,6 +2816,7 @@
       "category": "buttons",
       "value": "rgb(255, 255, 255)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BUTTON_SELECTED_COLOR"
     },
@@ -2816,6 +2824,7 @@
       "category": "buttons",
       "value": "rgb(8, 78, 178)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_01}",
       "name": "BUTTON_SELECTED_HOVER_BACKGROUND_COLOR"
     },
@@ -3055,6 +3064,7 @@
       "category": "buttons",
       "value": "rgb(4, 39, 89)",
       "type": "color",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE_SHADE_02}",
       "name": "BUTTON_SELECTED_ACTIVE_BACKGROUND_COLOR"
     },
