@@ -21,7 +21,7 @@
     "BORDER_RADIUS_LG": {
       "value": 24
     },
-    "BORDER_RADIUS_PILL": {
+    "BORDER_RADIUS_XL": {
       "value": 40
     },
     "CAROUSEL_INDICATOR_DOT_SIZE_SM": {
@@ -1980,7 +1980,7 @@
       "type": "size",
       "value": "40",
       "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL}",
+      "originalValue": "{!BORDER_RADIUS_XL}",
       "name": "BORDER_RADIUS_PILL"
     },
     "BORDER_RADIUS_SM": {
@@ -2015,7 +2015,7 @@
       "type": "size",
       "value": "40",
       "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL}",
+      "originalValue": "{!BORDER_RADIUS_XL}",
       "name": "CORNER_RADIUS_PILL"
     },
     "CORNER_RADIUS_SM": {

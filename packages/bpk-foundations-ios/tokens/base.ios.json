@@ -2625,17 +2625,17 @@
     },
     {
       "type": "size",
+      "value": "40",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_XL}",
+      "name": "borderRadiusXl"
+    },
+    {
+      "type": "size",
       "value": "12",
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_MD}",
       "name": "borderRadiusMd"
-    },
-    {
-      "type": "size",
-      "value": "40",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL}",
-      "name": "borderRadiusPill"
     },
     {
       "type": "size",
@@ -2660,17 +2660,17 @@
     },
     {
       "type": "size",
+      "value": "40",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_XL}",
+      "name": "cornerRadiusXl"
+    },
+    {
+      "type": "size",
       "value": "12",
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_MD}",
       "name": "cornerRadiusMd"
-    },
-    {
-      "type": "size",
-      "value": "40",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL}",
-      "name": "cornerRadiusPill"
     },
     {
       "type": "size",
