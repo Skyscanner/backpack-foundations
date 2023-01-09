@@ -2,9 +2,21 @@
 
 **Breaking:**
 
-`@skyscanner/bpk-foundations-android: `
-`@skyscanner/bpk-foundations-ios:`
+`@skyscanner/bpk-foundations-android`: 5.1.4 => 6.0.0
+`@skyscanner/bpk-foundations-ios`: 4.1.4 => 5.0.0
 - Renamed `BORDER_RADIUS_PILL` to `BORDER_RADIUS_XL`
+
+**Changed**
+
+`@skyscanner/bpk-foundations-web`: 13.5.0 => 13.6.0
+`bpk-mixins`: 37.1.2 => 37.2.0
+- Deprecate `bpk-border-radius-pill` and `bpk-border-radius-pill-lg` tokens
+- Add new `bpk-border-radius-xl` token
+- Update `bpk-border-radius-sm` from `6px` to `8px`
+
+`bpk-mixins`:
+- Deprecate `bpk-border-radius-pill` mixin. Use `bpk-border-radius-md` instead. Otherwise, check with your designer to choose any other supported radius.
+- Add new `bpk-border-radius-lg` and `bpk-border-radius-xl` mixins
 
 # 2022-12-22
 
