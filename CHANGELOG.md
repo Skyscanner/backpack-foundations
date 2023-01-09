@@ -1,3 +1,11 @@
+# 2023-01-09
+
+**Breaking:**
+
+`@skyscanner/bpk-foundations-android: `
+`@skyscanner/bpk-foundations-ios:`
+- Renamed `BORDER_RADIUS_PILL` to `BORDER_RADIUS_XL`
+
 # 2022-12-22
 
 **Changed:**
@@ -73,7 +81,7 @@
 
   - `bpk-mixins`: 36.1.3 => 36.2.0
     - Deprecated grid mixins as these are no longer supported due to the `BpkGrid` component being deprecated for a number of years.
-    
+
 **Patched:**
   - `@skyscanner/bpk-foundations-web`: 13.1.1 => 13.2.0
     - Change source of `animation` tokens to pull from `bpk-foundation-common`. Values are not changing so nothing for consumers to change.
@@ -129,7 +137,7 @@
 **Fixed:**
 
 - bpk-mixins: 36.0.2 => 36.0.4
-		- Further reverting of recent stylelint changes as some new rules are suggesting things we don't currently support. 
+		- Further reverting of recent stylelint changes as some new rules are suggesting things we don't currently support.
     - Fix incorrect import of `_bonds.scss`
 
 # 2022-11-03
