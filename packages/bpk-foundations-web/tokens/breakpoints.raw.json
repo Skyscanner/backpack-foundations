@@ -321,6 +321,9 @@
     "FONT_LINE_HEIGHT_BASE": {
       "value": "1.5rem"
     },
+    "BORDER_RADIUS_XL": {
+      "value": "2.5rem"
+    },
     "ZINDEX_AUTOSUGGEST": {
       "value": "900"
     },
@@ -376,7 +379,7 @@
       "value": "1.125rem"
     },
     "BORDER_RADIUS_SM": {
-      "value": ".375rem"
+      "value": ".5rem"
     },
     "SPACING_NONE": {
       "value": "0"
@@ -389,6 +392,9 @@
     },
     "BORDER_RADIUS_XS": {
       "value": ".25rem"
+    },
+    "BORDER_RADIUS_LG": {
+      "value": "1.5rem"
     },
     "BREAKPOINT_ABOVE_TABLET": {
       "value": "64.0625rem"

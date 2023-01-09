@@ -321,6 +321,9 @@
     "FONT_LINE_HEIGHT_BASE": {
       "value": "1.5rem"
     },
+    "BORDER_RADIUS_XL": {
+      "value": "2.5rem"
+    },
     "ZINDEX_AUTOSUGGEST": {
       "value": "900"
     },
@@ -376,7 +379,7 @@
       "value": "1.125rem"
     },
     "BORDER_RADIUS_SM": {
-      "value": ".375rem"
+      "value": ".5rem"
     },
     "SPACING_NONE": {
       "value": "0"
@@ -389,6 +392,9 @@
     },
     "BORDER_RADIUS_XS": {
       "value": ".25rem"
+    },
+    "BORDER_RADIUS_LG": {
+      "value": "1.5rem"
     },
     "BREAKPOINT_ABOVE_TABLET": {
       "value": "64.0625rem"
@@ -2082,41 +2088,6 @@
       "originalValue": "text-bottom",
       "name": "BADGE_CENTERED_VERTICAL_ALIGN"
     },
-    "BORDER_RADIUS_XS": {
-      "type": "size",
-      "value": ".25rem",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_XS}",
-      "name": "BORDER_RADIUS_XS"
-    },
-    "BORDER_RADIUS_SM": {
-      "type": "size",
-      "value": ".375rem",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_SM}",
-      "name": "BORDER_RADIUS_SM"
-    },
-    "BORDER_RADIUS_MD": {
-      "type": "size",
-      "value": ".75rem",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_MD}",
-      "name": "BORDER_RADIUS_MD"
-    },
-    "BORDER_RADIUS_PILL": {
-      "type": "size",
-      "value": "1.125rem",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL}",
-      "name": "BORDER_RADIUS_PILL"
-    },
-    "BORDER_RADIUS_PILL_LG": {
-      "type": "size",
-      "value": "1.3125rem",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL_LG}",
-      "name": "BORDER_RADIUS_PILL_LG"
-    },
     "BORDER_SIZE_SM": {
       "type": "size",
       "value": "1px",
@@ -2130,6 +2101,57 @@
       "category": "borders",
       "originalValue": "{!BORDER_SIZE_LG}",
       "name": "BORDER_SIZE_LG"
+    },
+    "BORDER_RADIUS_PILL_LG": {
+      "type": "size",
+      "value": "1.3125rem",
+      "category": "radii",
+      "deprecated": true,
+      "originalValue": "{!BORDER_RADIUS_PILL_LG}",
+      "name": "BORDER_RADIUS_PILL_LG"
+    },
+    "BORDER_RADIUS_XL": {
+      "type": "size",
+      "value": "2.5rem",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_XL}",
+      "name": "BORDER_RADIUS_XL"
+    },
+    "BORDER_RADIUS_MD": {
+      "type": "size",
+      "value": ".75rem",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_MD}",
+      "name": "BORDER_RADIUS_MD"
+    },
+    "BORDER_RADIUS_PILL": {
+      "type": "size",
+      "value": "1.125rem",
+      "category": "radii",
+      "deprecated": true,
+      "originalValue": "{!BORDER_RADIUS_PILL}",
+      "name": "BORDER_RADIUS_PILL"
+    },
+    "BORDER_RADIUS_SM": {
+      "type": "size",
+      "value": ".5rem",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_SM}",
+      "name": "BORDER_RADIUS_SM"
+    },
+    "BORDER_RADIUS_XS": {
+      "type": "size",
+      "value": ".25rem",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_XS}",
+      "name": "BORDER_RADIUS_XS"
+    },
+    "BORDER_RADIUS_LG": {
+      "type": "size",
+      "value": "1.5rem",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_LG}",
+      "name": "BORDER_RADIUS_LG"
     },
     "BORDER_SIZE_XL": {
       "type": "size",
