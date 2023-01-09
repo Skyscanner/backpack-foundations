@@ -55,12 +55,35 @@
   border-radius: $bpk-border-radius-md;
 }
 
+/// Large border radius.
+///
+/// @example scss
+///   .selector {
+///     @include bpk-border-radius-lg();
+///   }
+
+@mixin bpk-border-radius-lg {
+  border-radius: $bpk-border-radius-lg;
+}
+
+/// Extra large border radius.
+///
+/// @example scss
+///   .selector {
+///     @include bpk-border-radius-xl();
+///   }
+
+@mixin bpk-border-radius-xl {
+  border-radius: $bpk-border-radius-xl;
+}
+
 /// Pill shaped border radius.
 ///
 /// @example scss
 ///   .selector {
 ///     @include bpk-border-radius-pill();
 ///   }
+/// @deprecated Use bpk-border-radius-md instead. Otherwise, check with your designer to choose any other supported radius.
 
 @mixin bpk-border-radius-pill {
   border-radius: $bpk-border-radius-pill;

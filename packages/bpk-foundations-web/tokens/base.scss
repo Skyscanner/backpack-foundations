@@ -461,20 +461,24 @@ $bpk-badge-padding-x: .5rem;
 $bpk-badge-background-color: rgb(255, 247, 207);
 /// @group badges
 $bpk-badge-centered-vertical-align: text-bottom;
+/// @group borders
+$bpk-border-size-sm: 1px;
+/// @group borders
+$bpk-border-size-lg: 2px;
 /// @group radii
-$bpk-border-radius-xs: .25rem;
+$bpk-border-radius-pill-lg: 1.3125rem;
 /// @group radii
-$bpk-border-radius-sm: .375rem;
+$bpk-border-radius-xl: 2.5rem;
 /// @group radii
 $bpk-border-radius-md: .75rem;
 /// @group radii
 $bpk-border-radius-pill: 1.125rem;
 /// @group radii
-$bpk-border-radius-pill-lg: 1.3125rem;
-/// @group borders
-$bpk-border-size-sm: 1px;
-/// @group borders
-$bpk-border-size-lg: 2px;
+$bpk-border-radius-sm: .5rem;
+/// @group radii
+$bpk-border-radius-xs: .25rem;
+/// @group radii
+$bpk-border-radius-lg: 1.5rem;
 /// @group borders
 $bpk-border-size-xl: 3px;
 /// @group box-shadows

@@ -239,13 +239,15 @@ export const badgePaddingY = ".25rem";
 export const badgePaddingX = ".5rem";
 export const badgeBackgroundColor = "rgb(255, 247, 207)";
 export const badgeCenteredVerticalAlign = "text-bottom";
-export const borderRadiusXs = ".25rem";
-export const borderRadiusSm = ".375rem";
-export const borderRadiusMd = ".75rem";
-export const borderRadiusPill = "1.125rem";
-export const borderRadiusPillLg = "1.3125rem";
 export const borderSizeSm = "1px";
 export const borderSizeLg = "2px";
+export const borderRadiusPillLg = "1.3125rem";
+export const borderRadiusXl = "2.5rem";
+export const borderRadiusMd = ".75rem";
+export const borderRadiusPill = "1.125rem";
+export const borderRadiusSm = ".5rem";
+export const borderRadiusXs = ".25rem";
+export const borderRadiusLg = "1.5rem";
 export const borderSizeXl = "3px";
 export const boxShadowSm = "0px 1px 3px 0px rgba(37,32,31,.3)";
 export const boxShadowLg = "0px 4px 14px 0px rgba(37,32,31,.25)";
@@ -1203,11 +1205,13 @@ panelBorderColor,
 panelBackgroundColor,
 };
 export const radii = {
-borderRadiusXs,
-borderRadiusSm,
+borderRadiusPillLg,
+borderRadiusXl,
 borderRadiusMd,
 borderRadiusPill,
-borderRadiusPillLg,
+borderRadiusSm,
+borderRadiusXs,
+borderRadiusLg,
 };
 export const ratings = {
 ratingBaseWidth,
