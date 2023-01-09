@@ -10,8 +10,9 @@
 
 `@skyscanner/bpk-foundations-web`: 13.5.0 => 13.6.0
 `bpk-mixins`: 37.1.2 => 37.2.0
-- Deprecate `bpk-border-radius-pill` and `bpk-border-radius-pill-lg` tokens
-- Add new `bpk-border-radius-xl` token
+- Deprecate `bpk-border-radius-pill` token. Use `bpk-border-radius-md` instead. Otherwise, check with your designer to choose any other supported radius.
+- Deprecate `bpk-border-radius-pill-lg` token. Use `bpk-border-radius-lg` instead.
+- Add new `bpk-border-radius-lg`, `bpk-border-radius-xl` tokens
 - Update `bpk-border-radius-sm` from `6px` to `8px`
 
 `bpk-mixins`:
