@@ -35,7 +35,7 @@
       "category": "radii"
     },
     "BORDER_RADIUS_PILL": {
-      "value": "{!BORDER_RADIUS_PILL}",
+      "value": "{!BORDER_RADIUS_XL}",
       "category": "radii"
     }
   }

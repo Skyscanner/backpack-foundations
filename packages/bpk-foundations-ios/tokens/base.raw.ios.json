@@ -21,7 +21,7 @@
     "BORDER_RADIUS_LG": {
       "value": 24
     },
-    "BORDER_RADIUS_PILL": {
+    "BORDER_RADIUS_XL": {
       "value": 40
     },
     "CAROUSEL_INDICATOR_DOT_SIZE_SM": {
@@ -3039,19 +3039,19 @@
       "originalValue": "{!BORDER_SIZE_LG}",
       "name": "BORDER_WIDTH_LG"
     },
+    "BORDER_RADIUS_XL": {
+      "type": "size",
+      "value": "40",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_XL}",
+      "name": "BORDER_RADIUS_XL"
+    },
     "BORDER_RADIUS_MD": {
       "type": "size",
       "value": "12",
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_MD}",
       "name": "BORDER_RADIUS_MD"
-    },
-    "BORDER_RADIUS_PILL": {
-      "type": "size",
-      "value": "40",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL}",
-      "name": "BORDER_RADIUS_PILL"
     },
     "BORDER_RADIUS_SM": {
       "type": "size",
@@ -3074,19 +3074,19 @@
       "originalValue": "{!BORDER_RADIUS_LG}",
       "name": "BORDER_RADIUS_LG"
     },
+    "CORNER_RADIUS_XL": {
+      "type": "size",
+      "value": "40",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_XL}",
+      "name": "CORNER_RADIUS_XL"
+    },
     "CORNER_RADIUS_MD": {
       "type": "size",
       "value": "12",
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_MD}",
       "name": "CORNER_RADIUS_MD"
-    },
-    "CORNER_RADIUS_PILL": {
-      "type": "size",
-      "value": "40",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_PILL}",
-      "name": "CORNER_RADIUS_PILL"
     },
     "CORNER_RADIUS_SM": {
       "type": "size",
@@ -4476,13 +4476,13 @@
     "BORDER_SIZE_LG",
     "BORDER_WIDTH_SM",
     "BORDER_WIDTH_LG",
+    "BORDER_RADIUS_XL",
     "BORDER_RADIUS_MD",
-    "BORDER_RADIUS_PILL",
     "BORDER_RADIUS_SM",
     "BORDER_RADIUS_XS",
     "BORDER_RADIUS_LG",
+    "CORNER_RADIUS_XL",
     "CORNER_RADIUS_MD",
-    "CORNER_RADIUS_PILL",
     "CORNER_RADIUS_SM",
     "CORNER_RADIUS_XS",
     "CORNER_RADIUS_LG",

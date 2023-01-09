@@ -44,8 +44,8 @@
       "value": "{!BORDER_RADIUS_LG}",
       "category": "radii"
     },
-    "CORNER_RADIUS_PILL": {
-      "value": "{!BORDER_RADIUS_PILL}",
+    "CORNER_RADIUS_XL": {
+      "value": "{!BORDER_RADIUS_XL}",
       "category": "radii"
     },
     "BORDER_RADIUS_XS": {
@@ -64,8 +64,8 @@
       "value": "{!BORDER_RADIUS_LG}",
       "category": "radii"
     },
-    "BORDER_RADIUS_PILL": {
-      "value": "{!BORDER_RADIUS_PILL}",
+    "BORDER_RADIUS_XL": {
+      "value": "{!BORDER_RADIUS_XL}",
       "category": "radii"
     }
   }
