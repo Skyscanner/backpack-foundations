@@ -2,6 +2,7 @@ arrow-left
 arrow-right
 chevron-left
 chevron-right
+depart
 fast-track
 list
 long-arrow-left
@@ -9,6 +10,7 @@ long-arrow-right
 native-android--back
 native-android--forward
 policy
+return
 share
 star-half
 swap--horizontal
