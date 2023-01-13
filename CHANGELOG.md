@@ -1,3 +1,10 @@
+# 2023-01-13
+
+**Added:**
+
+`@skyscanner/bpk-svgs`: 16.0.8 => 16.1.0
+- Added automirror to `depart` and `return` icons for use on Android with RTL.`
+
 # 2023-01-09
 
 **Breaking:**
