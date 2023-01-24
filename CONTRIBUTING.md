@@ -65,13 +65,9 @@ We recommend that you install [a plugin to your editor](https://eslint.org/docs/
 
 ### Getting the code
 
-You should first fork the [foundations repo](https://github.com/Skyscanner/backpack-foundations/fork)
+> Skyscanner employees only
 
-Then you should pull code down using the following command
-
-```
-git clone https://github.com/YOUR_USERNAME/backpack-foundations.git
-```
+Please ensure you have push rights to this repository, rather than forking the repository for contributions. Follow the "Engineering Contribution" guide in the Backpack space in Confluence to get access.
 
 ### Install dependencies
 
@@ -108,9 +104,7 @@ Tokens are defined in the `src/base` directory. Tokens come in two layers: In `a
 
 > You should probably not touch `aliases.json`, as our color palette or grid rarely changes.
 
-#### Backpack documentation
 
-For documentation changes, please see our [Backpack docs repo](http://github.com/Skyscanner/backpack-docs).
 
 ## How to
 
@@ -119,7 +113,7 @@ For documentation changes, please see our [Backpack docs repo](http://github.com
 
 For anything non-trivial, we strongly recommend speaking to somebody from Koala before starting work on a PR. This lets us pass on any advice or knowledge we already have about the work you're proposing. It might even be something we're already working on. After this, follow the steps below.
 
-1. [Fork the repository](https://github.com/Skyscanner/backpack-foundations/fork).
+1. If you are a Skyscanner employee, follow the "Engineering Contribution" guide in the Backpack space in Confluence to get push rights to this repository. Otherwise, you should [fork the repository](https://github.com/Skyscanner/backpack-foundations/fork).
 2. Create a new branch.
 3. Make your changes.
 4. Commit and push your new branch.
@@ -142,6 +136,15 @@ You can also run the tests in 'watch mode', which means the process will continu
 </details>
 
 <details>
+<summary>Run the development environment</summary>
+
+We use [Storybook](https://storybook.js.org/) for our development environment. Run `npm storybook` to start the Storybook server, then go to [http://localhost:6006](http://localhost:6006) in a web browser to view it. We use Storybook to visualise any changes to our web tokens storing foundational design values such as spacing, colours etc.
+
+A story represents a category of tokens (and in the case of typography mixins) which store foundational design values such as spacing, colours etc.
+Any changes to an existing foundational token, or adding a new token to one of the existing categories will be automatically reflected in the story that corresponds to that category.
+Typography in Skyscanner is constructed in the form of Sass mixins. To add a new mixin you will have to manually add the name of the mixin in the list of existing styles which is stored in the typography stories folder.
+</details>
+<details>
 <summary>Run linters manually</summary>
 
 * `npm run lint` to lint both JS and SCSS.
@@ -155,7 +158,7 @@ You can also run the tests in 'watch mode', which means the process will continu
 <details>
 <summary>Publish packages (Koala squad members only)</summary>
 
-- Update the [unreleased changelog](/UNRELEASED.md) with every package that has changed, separating out `BRAKING`, `ADDED` and `FIXED` changes. See [`CHANGELOG_FORMAT.md`](https://github.com/Skyscanner/backpack/blob/main/CHANGELOG_FORMAT.md) for tips.
+- Update the [unreleased changelog](/UNRELEASED.md) with every package that has changed, separating out `BREAKING`, `ADDED` and `FIXED` changes. See [`CHANGELOG_FORMAT.md`](https://github.com/Skyscanner/backpack/blob/main/CHANGELOG_FORMAT.md) for tips.
   - Some useful commands for determining "what's changed?":
     - `npm run lerna updated`
     - `npm run lerna diff <package-name>`
