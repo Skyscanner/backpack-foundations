@@ -21,7 +21,6 @@ import WrapperPlugin from 'wrapper-webpack-plugin';
 
 import postCssPlugins from '../../scripts/postCssPlugins';
 
-import babelConfig from './base.babel.config';
 import { blockComment as licenseHeader } from './license-header';
 
 const path = require('path');
@@ -43,7 +42,6 @@ module.exports = {
         test: /\.[jt]sx?$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-        options: babelConfig,
       },
       {
         test: /\.scss$/,
