@@ -2,6 +2,7 @@
 .idea
 .vscode
 /dist-sassdoc
+/dist-storybook
 node_modules
 npm-debug.*
 lerna-debug.log
