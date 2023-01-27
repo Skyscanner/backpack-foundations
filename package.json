@@ -31,7 +31,7 @@
     "lint:js": "eslint . --ext js,jsx",
     "lint:js:fix": "eslint . --ext js,jsx --fix",
     "lint:scss": "stylelint 'packages/**/*.scss'",
-    "lint:scss:fix": "stylelint 'packages/**/*.scss' --fix",
+    "lint:scss:fix": "stylelint '{packages,stories/**}/**/*.scss' --fix",
     "postinstall": "npm run bootstrap",
     "preinstall": "npx ensure-node-env",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\"",
