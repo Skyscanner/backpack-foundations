@@ -22,20 +22,20 @@ import { textPrimaryDay } from '../../../packages/bpk-foundations-web/tokens/bas
 import './borders.scss';
 
 const createBorderObject = (size, name) => {
-    const borderContainer = document.createElement('div');
-    borderContainer.className = 'bpk-border-container';
+  const borderContainer = document.createElement('div');
+  borderContainer.className = 'bpk-border-container';
 
-    const borderObject = document.createElement('div');
-    borderObject.style.borderBottom = `${size} solid ${textPrimaryDay}`;
-    borderObject.className = 'bpk-border-object';
+  const borderObject = document.createElement('div');
+  borderObject.style.borderBottom = `${size} solid ${textPrimaryDay}`;
+  borderObject.className = 'bpk-border-object';
 
-    const borderName = document.createElement('div');
-    borderName.className = 'bpk-border-name';
-    borderName.innerText = name;
+  const borderName = document.createElement('div');
+  borderName.className = 'bpk-border-name';
+  borderName.innerText = name;
 
-    borderContainer.appendChild(borderObject);
-    borderContainer.appendChild(borderName);
-    return borderContainer;
+  borderContainer.appendChild(borderObject);
+  borderContainer.appendChild(borderName);
+  return borderContainer;
 };
 
 export default createBorderObject;

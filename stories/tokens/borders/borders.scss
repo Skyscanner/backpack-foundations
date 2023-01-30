@@ -16,21 +16,21 @@
  * limitations under the License.
  */
 
- @import '../../../packages/bpk-mixins/index.scss';
+@import '../../../packages/bpk-mixins/index.scss';
 
- .bpk-border-container {
-    margin: bpk-spacing-lg();
-    display: flex;
-    align-items: center;
+.bpk-border-container {
+  display: flex;
+  margin: bpk-spacing-lg();
+  align-items: center;
 }
 
- .bpk-border-object {
-    width: bpk-spacing-xxl() * 4;
- }
+.bpk-border-object {
+  width: bpk-spacing-xxl() * 4;
+}
 
- .bpk-border-name {
-    font-family: 'Space Mono', monospace;
-    margin: bpk-spacing-base();
+.bpk-border-name {
+  margin: bpk-spacing-base();
+  font-family: 'Space Mono', monospace;
 
-    @include bpk-caption;
- }
+  @include bpk-caption;
+}

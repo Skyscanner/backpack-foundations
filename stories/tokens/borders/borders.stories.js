@@ -16,25 +16,23 @@
  * limitations under the License.
  */
 
-import {
-    borders
-  } from '../../../packages/bpk-foundations-web/tokens/base.es6';
+import { borders } from '../../../packages/bpk-foundations-web/tokens/base.es6';
 
-  import createBorderObject from './borders';
+import createBorderObject from './borders';
 
-  export default {
-    title: 'Guidelines / Border',
-  };
+export default {
+  title: 'Guidelines / Border',
+};
 
-  const Template = () => {  
-    const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
+const Template = () => {
+  const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
 
-    Object.keys(borders).forEach((border) => {
-      const borderObject = createBorderObject(borders[border], border);
-      storyWrapper.appendChild(borderObject);
-      return storyWrapper;
-    });
+  Object.keys(borders).forEach((border) => {
+    const borderObject = createBorderObject(borders[border], border);
+    storyWrapper.appendChild(borderObject);
     return storyWrapper;
-  };
+  });
+  return storyWrapper;
+};
 
-  export const Border = Template.bind({});
+export const Border = Template.bind({});
