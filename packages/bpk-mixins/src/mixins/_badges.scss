@@ -36,13 +36,7 @@ $bpk-spacing-v2: true;
   display: inline-flex;
   padding: bpk-spacing-sm() bpk-spacing-md();
   align-items: center;
-  color: $bpk-text-on-light-day;
 
-  @include bpk-themeable-property(
-    background-color,
-    --bpk-badge-background-color,
-    $bpk-status-warning-fill-day
-  );
   @include bpk-border-radius-xs;
   @include bpk-text;
   @include bpk-caption;
@@ -114,6 +108,38 @@ $bpk-spacing-v2: true;
   }
 }
 
+/// Normal badge. Modifies the bpk-badge mixin.
+///
+/// @require {mixin} bpk-badge
+///
+/// @example scss
+///   .selector {
+///     @include bpk-badge();
+///     @include bpk-badge--normal();
+///   }
+
+@mixin bpk-badge--normal {
+  background-color: $bpk-surface-highlight-day;
+  color: $bpk-text-primary-day;
+  fill: $bpk-text-primary-day;
+}
+
+/// Warning badge. Modifies the bpk-badge mixin.
+///
+/// @require {mixin} bpk-badge
+///
+/// @example scss
+///   .selector {
+///     @include bpk-badge();
+///     @include bpk-badge--warning();
+///   }
+
+@mixin bpk-badge--warning {
+  background-color: $bpk-status-warning-fill-day;
+  color: $bpk-text-on-light-day;
+  fill: $bpk-text-on-light-day;
+}
+
 /// Success badge. Modifies the bpk-badge mixin.
 ///
 /// @require {mixin} bpk-badge
@@ -125,11 +151,25 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-badge--success {
-  @include bpk-themeable-property(
-    background-color,
-    --bpk-badge-success-background-color,
-    $bpk-status-success-fill-day
-  );
+  background-color: $bpk-status-success-fill-day;
+  color: $bpk-text-on-light-day;
+  fill: $bpk-text-on-light-day;
+}
+
+/// Critical badge. Modifies the bpk-badge mixin.
+///
+/// @require {mixin} bpk-badge
+///
+/// @example scss
+///   .selector {
+///     @include bpk-badge();
+///     @include bpk-badge--critical();
+///   }
+
+@mixin bpk-badge--critical {
+  background-color: $bpk-status-danger-fill-day;
+  color: $bpk-text-on-light-day;
+  fill: $bpk-text-on-light-day;
 }
 
 /// Destructive badge. Modifies the bpk-badge mixin.
@@ -143,6 +183,10 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-badge--destructive {
+  @warn 'bpk-badge--destructive is deprecated and replaced by bpk-badge--critical instead.';
+
+  color: $bpk-text-primary-day;
+
   @include bpk-themeable-property(
     background-color,
     --bpk-badge-destructive-background-color,
@@ -161,6 +205,8 @@ $bpk-spacing-v2: true;
 ///   }
 
 @mixin bpk-badge--light {
+  @warn 'bpk-badge--light is deprecated and replaced by bpk-badge--normal instead.';
+
   background-color: $bpk-surface-highlight-day;
   color: $bpk-text-primary-day;
   fill: $bpk-text-primary-day;
@@ -211,8 +257,8 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-badge--strong {
   background-color: $bpk-core-primary-day;
-  color: $bpk-text-primary-inverse-day;
-  fill: $bpk-text-primary-inverse-day;
+  color: $bpk-text-on-dark-day;
+  fill: $bpk-text-on-dark-day;
 }
 
 /// Brand badge. Modifies the bpk-badge mixin.
