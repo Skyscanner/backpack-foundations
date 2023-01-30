@@ -16,25 +16,26 @@
  * limitations under the License.
  */
 
-import {
-    animations
-  } from '../../../packages/bpk-foundations-web/tokens/base.es6';
-  
-  import createAnimationObject from './animations';
-  
-  export default {
-    title: 'Guidelines / Animation',
-  };
+import { animations } from '../../../packages/bpk-foundations-web/tokens/base.es6';
 
-  const Template = () => {  
-    const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
-  
-    Object.keys(animations).forEach((animation) => {
-      const animationObject = createAnimationObject(animations[animation], animation);
-      storyWrapper.appendChild(animationObject);
-      return storyWrapper;
-    });
+import createAnimationObject from './animations';
+
+export default {
+  title: 'Guidelines / Animation',
+};
+
+const Template = () => {
+  const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
+
+  Object.keys(animations).forEach((animation) => {
+    const animationObject = createAnimationObject(
+      animations[animation],
+      animation,
+    );
+    storyWrapper.appendChild(animationObject);
     return storyWrapper;
-  };
-  
-  export const Animation = Template.bind({});
+  });
+  return storyWrapper;
+};
+
+export const Animation = Template.bind({});

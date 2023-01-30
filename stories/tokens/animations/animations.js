@@ -21,20 +21,20 @@
 import './animations.scss';
 
 const createAnimationObject = (duration, name) => {
-    const animationContainer = document.createElement('div');
-    animationContainer.className = 'bpk-animation-container';
+  const animationContainer = document.createElement('div');
+  animationContainer.className = 'bpk-animation-container';
 
-    const animationObject = document.createElement('div');
-    animationObject.style.animationDuration = duration;
-    animationObject.className = 'bpk-animation-object';
+  const animationObject = document.createElement('div');
+  animationObject.style.animationDuration = duration;
+  animationObject.className = 'bpk-animation-object';
 
-    const animationName = document.createElement('div');
-    animationName.className = 'bpk-animation-name';
-    animationName.innerText = name;
+  const animationName = document.createElement('div');
+  animationName.className = 'bpk-animation-name';
+  animationName.innerText = name;
 
-    animationContainer.appendChild(animationObject);
-    animationContainer.appendChild(animationName);
-    return animationContainer;
+  animationContainer.appendChild(animationObject);
+  animationContainer.appendChild(animationName);
+  return animationContainer;
 };
 
 export default createAnimationObject;

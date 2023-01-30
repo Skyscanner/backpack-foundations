@@ -16,31 +16,37 @@
  * limitations under the License.
  */
 
- @import '../../../packages/bpk-mixins/index.scss';
-  
- .bpk-animation-container {
-    margin: bpk-spacing-lg();
+@import '../../../packages/bpk-mixins/index.scss';
+
+.bpk-animation-container {
+  margin: bpk-spacing-lg();
 }
 
- .bpk-animation-object {
-    width: bpk-spacing-lg() * 2;
-    height: bpk-spacing-lg() * 2;
-    border-radius: 50%;
-    background-color: $bpk-core-accent-day;
-    position: relative;
-    animation-name: bpk-keyframe-position-change;
- }
+.bpk-animation-object {
+  position: relative;
+  width: bpk-spacing-lg() * 2;
+  height: bpk-spacing-lg() * 2;
+  border-radius: 50%;
+  background-color: $bpk-core-accent-day;
+  animation-name: bpk-keyframe-position-change;
+}
 
- .bpk-animation-name {
-    margin-top: bpk-spacing-md();
-    font-family: 'Space Mono', monospace;
+.bpk-animation-name {
+  margin-top: bpk-spacing-md();
+  font-family: 'Space Mono', monospace;
 
-    @include bpk-caption;
- }
- 
+  @include bpk-caption;
+}
+
 /* The animation code */
 @keyframes bpk-keyframe-position-change {
-    from {left:0px; top:0px;}
-    to {left:200px; top:0px;}
+  from {
+    top: 0;
+    left: 0;
+  }
+
+  to {
+    top: 0;
+    left: 200px; /* stylelint-disable-line unit-disallowed-list */
+  }
 }
-  
