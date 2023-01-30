@@ -1,7 +1,7 @@
 /*
  * Backpack - Skyscanner's Design System
  *
- * Copyright 2016-2021 Skyscanner Ltd
+ * Copyright 2016 Skyscanner Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 
 @import '../../../packages/bpk-mixins/index.scss';
 
-.bpk-colour-container {
+.bpk-color-container {
   width: bpk-spacing-md() * 19;
   height: bpk-spacing-xxl() * 5;
   margin: bpk-spacing-base();
@@ -31,14 +31,14 @@
   @include bpk-border-sm($bpk-line-day);
 }
 
-.bpk-colour-swatch {
+.bpk-color-swatch {
   height: bpk-spacing-md() * 15;
   border-radius: $bpk-border-radius-sm;
 
   @include bpk-border-sm($bpk-line-day);
 }
 
-.bpk-colour-name {
+.bpk-color-name {
   margin-top: bpk-spacing-md();
   font-family: 'Space Mono', monospace;
   word-wrap: break-word;

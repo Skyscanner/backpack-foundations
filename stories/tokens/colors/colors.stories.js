@@ -1,7 +1,7 @@
 /*
  * Backpack - Skyscanner's Design System
  *
- * Copyright 2016-2021 Skyscanner Ltd
+ * Copyright 2016 Skyscanner Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,53 +25,53 @@ import {
   textColors,
 } from '../../../packages/bpk-foundations-web/tokens/base.es6';
 
-import createColourContainer from './colours';
+import createColorContainer from './colors';
 
 export default {
   title: 'Guidelines / Colour',
 };
 
 const Template = (args) => {
-  const { colourGroup } = args;
+  const { colorGroup } = args;
 
   const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
   storyWrapper.style.display = 'flex';
   storyWrapper.style.flexWrap = 'wrap';
 
-  Object.keys(colourGroup).forEach((colour) => {
-    const colourContainer = createColourContainer(colourGroup[colour], colour);
-    storyWrapper.appendChild(colourContainer);
+  Object.keys(colorGroup).forEach((color) => {
+    const colorContainer = createColorContainer(colorGroup[color], color);
+    storyWrapper.appendChild(colorContainer);
     return storyWrapper;
   });
   return storyWrapper;
 };
 
-export const CoreColour = Template.bind({});
-CoreColour.args = {
-  colourGroup: coreColors,
+export const CoreColor = Template.bind({});
+CoreColor.args = {
+  colorGroup: coreColors,
 };
 
-export const LineColour = Template.bind({});
-LineColour.args = {
-  colourGroup: lineColors,
+export const LineColor = Template.bind({});
+LineColor.args = {
+  colorGroup: lineColors,
 };
 
-export const MarcommsColour = Template.bind({});
-MarcommsColour.args = {
-  colourGroup: marcommsColors,
+export const MarcommsColor = Template.bind({});
+MarcommsColor.args = {
+  colorGroup: marcommsColors,
 };
 
-export const StatusColour = Template.bind({});
-StatusColour.args = {
-  colourGroup: statusColors,
+export const StatusColor = Template.bind({});
+StatusColor.args = {
+  colorGroup: statusColors,
 };
 
-export const SurfaceColour = Template.bind({});
-SurfaceColour.args = {
-  colourGroup: surfaceColors,
+export const SurfaceColor = Template.bind({});
+SurfaceColor.args = {
+  colorGroup: surfaceColors,
 };
 
-export const TextColour = Template.bind({});
-TextColour.args = {
-  colourGroup: textColors,
+export const TextColor = Template.bind({});
+TextColor.args = {
+  colorGroup: textColors,
 };
