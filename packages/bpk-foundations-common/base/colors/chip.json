@@ -5,22 +5,16 @@
     "category": "chip-colors"
   },
   "props": {
-    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY": {
-      "value": "{!GREY_20}"
+    "PRIVATE_CHIP_ON_DARK_PRESSED_STROKE_DAY": {
+      "value": "{!WHITE}"
     },
-    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT": {
-      "value": "{!NIGHT_GREY_25}"
+    "PRIVATE_CHIP_ON_DARK_PRESSED_STROKE_NIGHT": {
+      "value": "{!NIGHT_SKY}"
     },
-    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY": {
-      "value": "{!GREY_30}"
+    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY": {
+      "value": "{!WHITE}"
     },
-    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT": {
-      "value": "{!NIGHT_BLUE_100}"
-    },
-    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY": {
-      "value": "{!DARK_SKY}"
-    },
-    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT": {
+    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT": {
       "value": "{!NIGHT_SKY}"
     },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
@@ -29,23 +23,11 @@
     "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT": {
       "value": "{!NIGHT_GREY_00}"
     },
-    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY": {
-      "value": "{!WHITE_ALPHA_20}"
+    "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY": {
+      "value": "{!GREY_40}"
     },
-    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
-      "value": "{!NIGHT_GREY_25}"
+    "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT": {
+      "value": "{!WHITE_ALPHA_50}"
     },
-    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY": {
-      "value": "{!GREY_30}"
-    },
-    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
-      "value": "{!NIGHT_BLUE_100}"
-    },
-    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY": {
-      "value": "{!WHITE}"
-    },
-    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT": {
-      "value": "{!NIGHT_SKY}"
-    }
   }
 }

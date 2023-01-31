@@ -1507,40 +1507,19 @@
       "originalValue": "{!ECO_GREEN}",
       "name": "MARCOMMS_ECO_GREEN"
     },
-    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY": {
+    "PRIVATE_CHIP_ON_DARK_PRESSED_STROKE_DAY": {
       "type": "color",
       "category": "chip-colors",
-      "value": "rgba(255, 255, 255, 0.2)",
-      "originalValue": "{!WHITE_ALPHA_20}",
-      "name": "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_DAY"
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_CHIP_ON_DARK_PRESSED_STROKE_DAY"
     },
-    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
-      "type": "color",
-      "category": "chip-colors",
-      "value": "rgb(0, 43, 91)",
-      "originalValue": "{!NIGHT_BLUE_100}",
-      "name": "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_NIGHT"
-    },
-    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT": {
+    "PRIVATE_CHIP_ON_DARK_PRESSED_STROKE_NIGHT": {
       "type": "color",
       "category": "chip-colors",
       "value": "rgb(5, 65, 132)",
       "originalValue": "{!NIGHT_SKY}",
-      "name": "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT"
-    },
-    "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY": {
-      "type": "color",
-      "category": "chip-colors",
-      "value": "rgb(194, 201, 205)",
-      "originalValue": "{!GREY_30}",
-      "name": "PRIVATE_CHIP_ON_DARK_PRESSED_BACKGROUND_DAY"
-    },
-    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT": {
-      "type": "color",
-      "category": "chip-colors",
-      "value": "rgb(36, 51, 70)",
-      "originalValue": "{!NIGHT_GREY_25}",
-      "name": "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_NIGHT"
+      "name": "PRIVATE_CHIP_ON_DARK_PRESSED_STROKE_NIGHT"
     },
     "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY": {
       "type": "color",
@@ -1549,33 +1528,12 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY"
     },
-    "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY": {
-      "type": "color",
-      "category": "chip-colors",
-      "value": "rgb(224, 227, 229)",
-      "originalValue": "{!GREY_20}",
-      "name": "PRIVATE_CHIP_DEFAULT_NORMAL_BACKGROUND_DAY"
-    },
-    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT": {
+    "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "chip-colors",
       "value": "rgb(5, 65, 132)",
       "originalValue": "{!NIGHT_SKY}",
-      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_NIGHT"
-    },
-    "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT": {
-      "type": "color",
-      "category": "chip-colors",
-      "value": "rgb(11, 18, 29)",
-      "originalValue": "{!NIGHT_GREY_00}",
-      "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT"
-    },
-    "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY": {
-      "type": "color",
-      "category": "chip-colors",
-      "value": "rgb(5, 32, 60)",
-      "originalValue": "{!DARK_SKY}",
-      "name": "PRIVATE_CHIP_DEFAULT_ON_BACKGROUND_DAY"
+      "name": "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT"
     },
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
       "type": "color",
@@ -1584,26 +1542,26 @@
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY"
     },
-    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT": {
+    "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "chip-colors",
-      "value": "rgb(0, 43, 91)",
-      "originalValue": "{!NIGHT_BLUE_100}",
-      "name": "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_NIGHT"
+      "value": "rgb(11, 18, 29)",
+      "originalValue": "{!NIGHT_GREY_00}",
+      "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT"
     },
-    "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY": {
+    "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY": {
       "type": "color",
       "category": "chip-colors",
-      "value": "rgb(194, 201, 205)",
-      "originalValue": "{!GREY_30}",
-      "name": "PRIVATE_CHIP_DEFAULT_PRESSED_BACKGROUND_DAY"
+      "value": "rgb(84, 88, 96)",
+      "originalValue": "{!GREY_40}",
+      "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY"
     },
-    "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
+    "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT": {
       "type": "color",
       "category": "chip-colors",
-      "value": "rgb(36, 51, 70)",
-      "originalValue": "{!NIGHT_GREY_25}",
-      "name": "PRIVATE_CHIP_ON_DARK_NORMAL_BACKGROUND_NIGHT"
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT": {
       "type": "color",
