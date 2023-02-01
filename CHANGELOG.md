@@ -1,3 +1,19 @@
+# 2023-02-01
+
+**Breaking:**
+
+- `@skyscanner/bpk-foundations-android`: 6.0.0 => 7.0.0
+- `@skyscanner/bpk-foundations-common`: 5.0.0 => 6.0.0
+- `@skyscanner/bpk-foundations-ios`: 5.0.0 => 6.0.0
+- `@skyscanner/bpk-foundations-react-native`: 3.1.5 => 4.0.0
+- `@skyscanner/bpk-foundations-web:` 13.6.0 => 14.0.0
+- `bpk-mixins`: 38.0.0 => 39.0.0
+- `bpk-stylesheets`: 8.1.25 => 9.0.0
+- `@skyscanner/bpk-svgs`: 16.1.0 => 16.1.1
+  - Removed no longer required private chip Tokens - these should not be used outside of foundations, so should not affect anybody outside of Backpack
+  - Introduced new private chip tokens based on latest designs
+
+
 # 2023-01-30
 
 **Breaking:**
