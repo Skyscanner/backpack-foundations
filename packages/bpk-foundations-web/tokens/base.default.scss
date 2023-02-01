@@ -298,33 +298,21 @@ $bpk-marcomms-blue-muted: rgb(217, 248, 255) !default;
 /// @group marcomms-colors
 $bpk-marcomms-eco-green: rgb(15, 161, 169) !default;
 /// @group chip-colors
-$bpk-private-chip-on-dark-normal-background-day: rgba(255, 255, 255, 0.2) !default;
+$bpk-private-chip-on-dark-pressed-stroke-day: rgb(255, 255, 255) !default;
 /// @group chip-colors
-$bpk-private-chip-on-dark-pressed-background-night: rgb(0, 43, 91) !default;
-/// @group chip-colors
-$bpk-private-chip-on-dark-on-background-night: rgb(5, 65, 132) !default;
-/// @group chip-colors
-$bpk-private-chip-on-dark-pressed-background-day: rgb(194, 201, 205) !default;
-/// @group chip-colors
-$bpk-private-chip-default-normal-background-night: rgb(36, 51, 70) !default;
+$bpk-private-chip-on-dark-pressed-stroke-night: rgb(5, 65, 132) !default;
 /// @group chip-colors
 $bpk-private-chip-on-dark-on-background-day: rgb(255, 255, 255) !default;
 /// @group chip-colors
-$bpk-private-chip-default-normal-background-day: rgb(224, 227, 229) !default;
-/// @group chip-colors
-$bpk-private-chip-default-on-background-night: rgb(5, 65, 132) !default;
-/// @group chip-colors
-$bpk-private-chip-disabled-background-night: rgb(11, 18, 29) !default;
-/// @group chip-colors
-$bpk-private-chip-default-on-background-day: rgb(5, 32, 60) !default;
+$bpk-private-chip-on-dark-on-background-night: rgb(5, 65, 132) !default;
 /// @group chip-colors
 $bpk-private-chip-disabled-background-day: rgb(224, 227, 229) !default;
 /// @group chip-colors
-$bpk-private-chip-default-pressed-background-night: rgb(0, 43, 91) !default;
+$bpk-private-chip-disabled-background-night: rgb(11, 18, 29) !default;
 /// @group chip-colors
-$bpk-private-chip-default-pressed-background-day: rgb(194, 201, 205) !default;
+$bpk-private-chip-on-dark-on-dismiss-icon-day: rgb(84, 88, 96) !default;
 /// @group chip-colors
-$bpk-private-chip-on-dark-normal-background-night: rgb(36, 51, 70) !default;
+$bpk-private-chip-on-dark-on-dismiss-icon-night: rgba(255, 255, 255, 0.5) !default;
 /// @group button-colors
 $bpk-private-button-secondary-pressed-background-night: rgb(1, 9, 19) !default;
 /// @group button-colors
