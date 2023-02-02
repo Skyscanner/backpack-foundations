@@ -37,12 +37,12 @@ const createRadiusObject = (size, name) => {
   return radiusContainer;
 };
 
-const sortRadiiByRemValue = (radii) => 
-  Object.entries(radii).sort(
-    function(a,b) {
-      return a[1] < b[1] ? -1 : a[1] > b[1] ? 1 : 0;
-    }
-  )
+const sortRadiiByRemValue = (radii) =>
+  Object.entries(radii).sort((a, b) => {
+    if (a[1] < b[1]) return -1;
+    if (a[1] > b[1]) return 1;
+    return 0;
+  });
 
 export { sortRadiiByRemValue };
 export default createRadiusObject;

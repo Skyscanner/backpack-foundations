@@ -30,7 +30,7 @@ const Template = () => {
   storyWrapper.style.flexWrap = 'wrap';
 
   const sortedRadii = sortRadiiByRemValue(radii);
-    
+
   sortedRadii.forEach((radius) => {
     const radiusObject = createRadiusObject(radius[1], radius[0]);
     storyWrapper.appendChild(radiusObject);
