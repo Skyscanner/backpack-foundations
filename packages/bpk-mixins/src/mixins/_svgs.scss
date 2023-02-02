@@ -42,9 +42,7 @@
     $err: (
       'Could not find "' +
         $icon +
-        '" icon. Refer to ' +
-        'https://backpack.github.io/components/atoms/icons' +
-        ' when specifying icon names.'
+        '" icon. Refer to Refer to our documentation for the list of supported icons.'
     );
 
     @error $err;
@@ -115,9 +113,7 @@
     $err: (
       'Could not find "' +
         $icon +
-        '" icon. Refer to ' +
-        'https://backpack.github.io/components/atoms/icons' +
-        ' when specifying icon names.'
+        '" icon. Refer to our documentation for the list of supported icons.'
     );
 
     @error $err;
