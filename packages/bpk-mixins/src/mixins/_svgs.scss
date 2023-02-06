@@ -41,10 +41,10 @@
   @if map_has_key($map, $icon) != true {
     $err: (
       'Could not find "' +
-      $icon +
-      '" icon. Refer to ' +
-      'https://skyscanner.design/latest/components/icon/overview.html' +
-      ' for the list of supported icons.'
+        $icon +
+        '" icon. Refer to ' +
+        'https://skyscanner.design/latest/components/icon/overview.html' +
+        ' for the list of supported icons.'
     );
 
     @error $err;
