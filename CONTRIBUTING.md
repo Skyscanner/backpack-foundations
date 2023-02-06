@@ -138,7 +138,7 @@ You can also run the tests in 'watch mode', which means the process will continu
 <details>
 <summary>Run the development environment</summary>
 
-We use [Storybook](https://storybook.js.org/) for our development environment. Run `npm run storybook` to start the Storybook server, then go to [http://localhost:6006](http://localhost:6006) in a web browser to view it. We use Storybook to visualise any changes to our web tokens storing foundational design values such as spacing, colours etc.
+We use [Storybook](https://storybook.js.org/) for our development environment. Run `npm start` to build foundations and start the Storybook server, then go to [http://localhost:6006](http://localhost:6006) in a web browser to view it. We use Storybook to visualise any changes to our web tokens storing foundational design values such as spacing, colours etc.
 
 A story represents a category of tokens (and in the case of typography mixins) which store foundational design values such as spacing, colours etc.
 Any changes to an existing foundational token, or adding a new token to one of the existing categories will be automatically reflected in the story that corresponds to that category.
