@@ -1,3 +1,10 @@
+# 2023-02-07
+
+**Added:**
+
+`@skyscanner/bpk-svgs: 16.1.1 => 16.2.0`
+  - Added new `Origin` icon.
+
 # 2023-02-01
 
 **Breaking:**
