@@ -28,7 +28,7 @@ import {
 import createColorContainer from './colors';
 
 export default {
-  title: 'Guidelines / Colour',
+  title: 'Tokens / Colour',
 };
 
 const Template = (args) => {

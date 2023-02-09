@@ -30,7 +30,7 @@ const spinnerSvgs = requireAll(
 );
 
 export default {
-  title: 'Spinners',
+  title: 'SVGs / Spinners',
 };
 
 export const spinners = () => {

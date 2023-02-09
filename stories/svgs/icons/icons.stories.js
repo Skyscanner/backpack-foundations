@@ -40,7 +40,7 @@ const lg = requireAll(
 );
 
 export default {
-  title: 'Icons',
+  title: 'SVGs / Icons',
 };
 
 const Template = (args) => {

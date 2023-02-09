@@ -21,7 +21,7 @@ import { animations } from '../../../packages/bpk-foundations-web/tokens/base.es
 import createAnimationObject from './animations';
 
 export default {
-  title: 'Guidelines / Animation',
+  title: 'Tokens / Animation',
 };
 
 const Template = () => {

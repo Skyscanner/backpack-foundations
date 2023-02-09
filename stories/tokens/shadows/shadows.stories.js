@@ -16,23 +16,25 @@
  * limitations under the License.
  */
 
-import { borders } from '../../../packages/bpk-foundations-web/tokens/base.es6';
+import { boxShadows } from '../../../packages/bpk-foundations-web/tokens/base.es6';
 
-import createBorderObject from './borders';
+import createShadowObject from './shadows';
 
 export default {
-  title: 'Tokens / Border',
+  title: 'Tokens / Shadow',
 };
 
 const Template = () => {
   const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
+  storyWrapper.style.display = 'flex';
+  storyWrapper.style.flexWrap = 'wrap';
 
-  Object.keys(borders).forEach((border) => {
-    const borderObject = createBorderObject(borders[border], border);
-    storyWrapper.appendChild(borderObject);
+  Object.keys(boxShadows).forEach((shadow) => {
+    const shadowObject = createShadowObject(boxShadows[shadow], shadow);
+    storyWrapper.appendChild(shadowObject);
     return storyWrapper;
   });
   return storyWrapper;
 };
 
-export const Border = Template.bind({});
+export const Shadow = Template.bind({});

@@ -21,7 +21,7 @@ import { radii } from '../../../packages/bpk-foundations-web/tokens/base.es6';
 import createRadiusObject, { sortRadiiByRemValue } from './radii';
 
 export default {
-  title: 'Guidelines / Radius',
+  title: 'Tokens / Radius',
 };
 
 const Template = () => {
