@@ -37,5 +37,4 @@ const createShadowObject = (size, name) => {
   return shadowContainer;
 };
 
-
 export default createShadowObject;
