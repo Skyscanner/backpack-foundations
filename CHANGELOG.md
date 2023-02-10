@@ -1,3 +1,9 @@
+# 2023-02-10
+
+**Changed:**
+
+`bpk-mixins`: 39.0.1 => 39.1.0
+  - Update placeholder color in `input` and `textarea` from `text-disabled` to `text-secondary`.
 # 2023-02-07
 
 **Added:**
