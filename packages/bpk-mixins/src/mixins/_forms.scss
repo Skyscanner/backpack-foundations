@@ -43,7 +43,7 @@ $bpk-spacing-v2: true;
   appearance: none;
 
   &::placeholder {
-    color: $bpk-text-disabled-day;
+    color: $bpk-text-secondary-day;
   }
 
   &:disabled {
@@ -976,7 +976,7 @@ $bpk-spacing-v2: true;
   appearance: none;
 
   &::placeholder {
-    color: $bpk-text-disabled-day;
+    color: $bpk-text-secondary-day;
   }
 
   &:disabled {
