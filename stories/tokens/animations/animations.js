@@ -20,6 +20,12 @@
 
 import './animations.scss';
 
+/**
+ *
+ * @param {String} duration element animation duration
+ * @param {String} name display the name of the animation token
+ * @returns {Node} The html node to be displayed
+ */
 const createAnimationObject = (duration, name) => {
   const animationContainer = document.createElement('div');
   animationContainer.className = 'bpk-animation-container';

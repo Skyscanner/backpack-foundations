@@ -21,6 +21,12 @@
 import { textPrimaryDay } from '../../../packages/bpk-foundations-web/tokens/base.es6';
 import './borders.scss';
 
+/**
+ *
+ * @param {String} size element border width
+ * @param {String} name display the name of the border token
+ * @returns {Node} The html node to be displayed
+ */
 const createBorderObject = (size, name) => {
   const borderContainer = document.createElement('div');
   borderContainer.className = 'bpk-border-container';
