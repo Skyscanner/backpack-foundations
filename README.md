@@ -46,6 +46,3 @@ npm install @skyscanner/[package-name] --save
 ## Contributing
 
 To contribute please see [contributing.md](CONTRIBUTING.md).
-
-## Contact
-- backpack@skyscanner.net
