@@ -16,27 +16,25 @@
  * limitations under the License.
  */
 
-import { radii } from '../../../packages/bpk-foundations-web/tokens/base.es6';
+import { spacings } from '../../../packages/bpk-foundations-web/tokens/base.es6';
 import sortTokensByRemValue from '../utils';
 
-import createRadiusObject from './radii';
+import createSpacingObject from './spacings';
 
 export default {
-  title: 'Guidelines / Radius',
+  title: 'Guidelines / Spacing',
 };
 
 const Template = () => {
   const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
-  storyWrapper.style.display = 'flex';
-  storyWrapper.style.flexWrap = 'wrap';
 
-  const sortedRadii = sortTokensByRemValue(radii);
-
-  sortedRadii.forEach((radius) => {
-    const radiusObject = createRadiusObject(radius[1], radius[0]);
-    storyWrapper.appendChild(radiusObject);
+  const sortedSpacings = sortTokensByRemValue(spacings);
+  sortedSpacings.forEach((spacing) => {
+    if (!/.+v2/i.test(spacing)) return;
+    const spacingObject = createSpacingObject(spacing[1], spacing[0]);
+    storyWrapper.appendChild(spacingObject);
   });
   return storyWrapper;
 };
 
-export const Radius = Template.bind({});
+export const Spacing = Template.bind({});

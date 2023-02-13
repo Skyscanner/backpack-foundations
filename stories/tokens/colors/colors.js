@@ -20,6 +20,12 @@
 
 import './colors.scss';
 
+/**
+ *
+ * @param {String} backgroundColor element colour
+ * @param {String} name display the name of the colour token
+ * @returns {Node} The html node to be displayed
+ */
 const createColorContainer = (backgroundColor, name) => {
   const colorContainer = document.createElement('div');
   colorContainer.className = 'bpk-color-container';
