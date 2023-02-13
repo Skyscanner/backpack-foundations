@@ -16,23 +16,25 @@
  * limitations under the License.
  */
 
-import { borders } from '../../../packages/bpk-foundations-web/tokens/base.es6';
+/* eslint-disable no-undef */
 
-import createBorderObject from './borders';
+import './shadows.scss';
 
-export default {
-  title: 'Tokens / Border',
+const createShadowObject = (size, name) => {
+  const shadowContainer = document.createElement('div');
+  shadowContainer.className = 'bpk-shadow-container';
+
+  const shadowObject = document.createElement('div');
+  shadowObject.style.boxShadow = size;
+  shadowObject.className = 'bpk-shadow-object';
+
+  const shadowName = document.createElement('div');
+  shadowName.className = 'bpk-shadow-name';
+  shadowName.innerText = name;
+
+  shadowContainer.appendChild(shadowObject);
+  shadowContainer.appendChild(shadowName);
+  return shadowContainer;
 };
 
-const Template = () => {
-  const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
-
-  Object.keys(borders).forEach((border) => {
-    const borderObject = createBorderObject(borders[border], border);
-    storyWrapper.appendChild(borderObject);
-    return storyWrapper;
-  });
-  return storyWrapper;
-};
-
-export const Border = Template.bind({});
+export default createShadowObject;

@@ -22,7 +22,7 @@ import sortTokensByRemValue from '../utils';
 import createRadiusObject from './radii';
 
 export default {
-  title: 'Guidelines / Radius',
+  title: 'Tokens / Radius',
 };
 
 const Template = () => {

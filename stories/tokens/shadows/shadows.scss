@@ -16,23 +16,22 @@
  * limitations under the License.
  */
 
-import { borders } from '../../../packages/bpk-foundations-web/tokens/base.es6';
+ @import '../../../packages/bpk-mixins/index.scss';
 
-import createBorderObject from './borders';
-
-export default {
-  title: 'Tokens / Border',
-};
-
-const Template = () => {
-  const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
-
-  Object.keys(borders).forEach((border) => {
-    const borderObject = createBorderObject(borders[border], border);
-    storyWrapper.appendChild(borderObject);
-    return storyWrapper;
-  });
-  return storyWrapper;
-};
-
-export const Border = Template.bind({});
+ .bpk-shadow-container {
+    margin: bpk-spacing-lg();
+ }
+ 
+ .bpk-shadow-object {
+    width: bpk-spacing-xxl() * 4;
+    height: bpk-spacing-xxl() * 4;
+    border-radius: $bpk-border-radius-md;
+  }
+ 
+ .bpk-shadow-name {
+    margin-top: bpk-spacing-base();
+    font-family: 'Space Mono', monospace;
+ 
+    @include bpk-caption;
+ }
+ 
