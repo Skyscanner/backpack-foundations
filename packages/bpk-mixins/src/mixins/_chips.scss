@@ -25,6 +25,7 @@ $bpk-spacing-v2: true;
   align-items: center;
   border: none;
   border-radius: $bpk-border-radius-xs * 2;
+  cursor: pointer;
 
   &__leading-accessory-view {
     display: inline-flex;
@@ -228,5 +229,6 @@ $bpk-spacing-v2: true;
   &--disabled {
     background-color: $bpk-private-chip-disabled-background-day;
     color: $bpk-text-disabled-day;
+    cursor: not-allowed;
   }
 }
