@@ -17,42 +17,49 @@
  */
 
 import { createTextStyleContainer } from './typography';
-import { heroStyles, headingStyles, bodyStyles, labelStyles } from './typography-styles';
+import {
+  heroStyles,
+  headingStyles,
+  bodyStyles,
+  labelStyles,
+} from './typography-styles';
 
 export default {
   title: 'Mixins / Typography',
 };
 
-
 const Template = (args) => {
-    const { textStyleGroup } = args;
-  
-    const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
-  
-    Object.keys(textStyleGroup).forEach((style) => {
-      const textContainer = createTextStyleContainer(textStyleGroup[style], style);
-      storyWrapper.appendChild(textContainer);
-      return storyWrapper;
-    });
+  const { textStyleGroup } = args;
+
+  const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
+
+  Object.keys(textStyleGroup).forEach((style) => {
+    const textContainer = createTextStyleContainer(
+      textStyleGroup[style],
+      style,
+    );
+    storyWrapper.appendChild(textContainer);
     return storyWrapper;
-  };
-  
+  });
+  return storyWrapper;
+};
+
 export const Hero = Template.bind({});
 Hero.args = {
-textStyleGroup: heroStyles,
+  textStyleGroup: heroStyles,
 };
 
 export const Heading = Template.bind({});
 Heading.args = {
-textStyleGroup: headingStyles,
+  textStyleGroup: headingStyles,
 };
 
 export const Body = Template.bind({});
 Body.args = {
-textStyleGroup: bodyStyles,
+  textStyleGroup: bodyStyles,
 };
 
 export const Label = Template.bind({});
 Label.args = {
-textStyleGroup: labelStyles,
+  textStyleGroup: labelStyles,
 };

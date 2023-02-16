@@ -16,17 +16,32 @@
  * limitations under the License.
  */
 
+/* eslint-disable no-undef */
+
 import './typography.scss';
 
-const capitalizeFirstLetter = (string) => string.charAt(0).toUpperCase() + string.slice(1);
+/**
+ *
+ * @param {String} string The string to be capitalised
+ * @returns {String} The string capitalised
+ */
+const capitalizeWord = (string) =>
+  string.charAt(0).toUpperCase() + string.slice(1);
 
-export const createTextStyleContainer = (style) => {
-    const container = document.createElement('div');
-    
-    const text = document.createElement('p');
-    text.innerText = capitalizeFirstLetter(style.replace(/-/g, " "));
-    text.className = `bpk-text bpk-text--${style}`;
+/**
+ *
+ * @param {String} style element text style
+ * @returns {Node} The html node to be displayed
+ */
+const createTextStyleContainer = (style) => {
+  const container = document.createElement('div');
 
-    container.appendChild(text);
-    return container;
-}
+  const text = document.createElement('p');
+  text.innerText = capitalizeWord(style.replace(/-/g, ' '));
+  text.className = `bpk-text bpk-text--${style}`;
+
+  container.appendChild(text);
+  return container;
+};
+
+export default createTextStyleContainer;
