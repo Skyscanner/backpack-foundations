@@ -22,7 +22,7 @@ import sortTokensByRemValue from '../utils';
 import createSpacingObject from './spacings';
 
 export default {
-  title: 'Guidelines / Spacing',
+  title: 'Tokens / Spacing',
 };
 
 const Template = () => {

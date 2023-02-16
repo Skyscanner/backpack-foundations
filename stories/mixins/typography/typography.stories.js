@@ -16,32 +16,46 @@
  * limitations under the License.
  */
 
-import requireAll from '../utils';
-
-import createIconContainer from './spinners';
-
-const spinnerSizes = ['sm', 'lg', 'xl'];
-const spinnerSvgs = requireAll(
-  require.context(
-    '../../../packages/bpk-svgs/dist/svgs/spinners',
-    false,
-    /\.svg$/,
-  ),
-);
+import createTextStyleContainer from './typography';
+import {
+  heroStyles,
+  headingStyles,
+  bodyStyles,
+  labelStyles,
+} from './typography-styles';
 
 export default {
-  title: 'SVGs / Spinners',
+  title: 'Mixins / Typography',
 };
 
-export const spinners = () => {
-  const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
-  storyWrapper.style.display = 'flex';
-  storyWrapper.style.flexFlow = 'row wrap';
-  storyWrapper.style.alignItems = 'flex-end';
+const Template = (args) => {
+  const { textStyleGroup } = args;
 
-  spinnerSizes.forEach((spinner) => {
-    const spinnerContainer = createIconContainer(spinnerSvgs[spinner], spinner);
-    storyWrapper.appendChild(spinnerContainer);
+  const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
+
+  textStyleGroup.forEach((style) => {
+    const textContainer = createTextStyleContainer(style);
+    storyWrapper.appendChild(textContainer);
   });
   return storyWrapper;
+};
+
+export const Hero = Template.bind({});
+Hero.args = {
+  textStyleGroup: heroStyles,
+};
+
+export const Heading = Template.bind({});
+Heading.args = {
+  textStyleGroup: headingStyles,
+};
+
+export const Body = Template.bind({});
+Body.args = {
+  textStyleGroup: bodyStyles,
+};
+
+export const Label = Template.bind({});
+Label.args = {
+  textStyleGroup: labelStyles,
 };

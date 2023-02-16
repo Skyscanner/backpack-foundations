@@ -16,25 +16,21 @@
  * limitations under the License.
  */
 
-import { animations } from '../../../packages/bpk-foundations-web/tokens/base.es6';
+const heroStyles = ['hero-1', 'hero-2', 'hero-3', 'hero-4', 'hero-5'];
+const headingStyles = [
+  'heading-1',
+  'heading-2',
+  'heading-3',
+  'heading-4',
+  'heading-5',
+];
+const bodyStyles = [
+  'subheading',
+  'body-longform',
+  'body-default',
+  'footnote',
+  'caption',
+];
+const labelStyles = ['label-1', 'label-2', 'label-3'];
 
-import createAnimationObject from './animations';
-
-export default {
-  title: 'Tokens / Animation',
-};
-
-const Template = () => {
-  const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
-
-  Object.keys(animations).forEach((animation) => {
-    const animationObject = createAnimationObject(
-      animations[animation],
-      animation,
-    );
-    storyWrapper.appendChild(animationObject);
-  });
-  return storyWrapper;
-};
-
-export const Animation = Template.bind({});
+export { heroStyles, headingStyles, bodyStyles, labelStyles };

@@ -54,7 +54,6 @@ const Template = (args) => {
   Object.keys(icons).forEach((icon) => {
     const iconContainer = createIconContainer(icons[icon], size, icon);
     storyWrapper.appendChild(iconContainer);
-    return storyWrapper;
   });
   return storyWrapper;
 };
