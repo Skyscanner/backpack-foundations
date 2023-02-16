@@ -42,7 +42,6 @@ export const spinners = () => {
   spinnerSizes.forEach((spinner) => {
     const spinnerContainer = createIconContainer(spinnerSvgs[spinner], spinner);
     storyWrapper.appendChild(spinnerContainer);
-    return storyWrapper;
   });
   return storyWrapper;
 };

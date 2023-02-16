@@ -30,7 +30,6 @@ const Template = () => {
   Object.keys(borders).forEach((border) => {
     const borderObject = createBorderObject(borders[border], border);
     storyWrapper.appendChild(borderObject);
-    return storyWrapper;
   });
   return storyWrapper;
 };

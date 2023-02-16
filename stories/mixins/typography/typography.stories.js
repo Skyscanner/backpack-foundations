@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-import { createTextStyleContainer } from './typography';
+import createTextStyleContainer from './typography';
 import {
   heroStyles,
   headingStyles,
@@ -33,13 +33,9 @@ const Template = (args) => {
 
   const storyWrapper = document.createElement('div'); // eslint-disable-line no-undef
 
-  Object.keys(textStyleGroup).forEach((style) => {
-    const textContainer = createTextStyleContainer(
-      textStyleGroup[style],
-      style,
-    );
+  textStyleGroup.forEach((style) => {
+    const textContainer = createTextStyleContainer(style);
     storyWrapper.appendChild(textContainer);
-    return storyWrapper;
   });
   return storyWrapper;
 };

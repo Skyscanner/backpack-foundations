@@ -32,7 +32,6 @@ const Template = () => {
   Object.keys(boxShadows).forEach((shadow) => {
     const shadowObject = createShadowObject(boxShadows[shadow], shadow);
     storyWrapper.appendChild(shadowObject);
-    return storyWrapper;
   });
   return storyWrapper;
 };

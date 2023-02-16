@@ -41,7 +41,6 @@ const Template = (args) => {
   Object.keys(colorGroup).forEach((color) => {
     const colorContainer = createColorContainer(colorGroup[color], color);
     storyWrapper.appendChild(colorContainer);
-    return storyWrapper;
   });
   return storyWrapper;
 };

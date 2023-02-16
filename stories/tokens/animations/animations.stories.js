@@ -33,7 +33,6 @@ const Template = () => {
       animation,
     );
     storyWrapper.appendChild(animationObject);
-    return storyWrapper;
   });
   return storyWrapper;
 };
