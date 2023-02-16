@@ -1,3 +1,10 @@
+# 2023-02-16
+
+**Fixed:**
+
+- `bpk-mixins: 39.1.0 => 39.1.1`:
+  - Fixed an issue where correct cursor states were not showing for clickable and disabled chips.
+
 # 2023-02-10
 
 **Changed:**
