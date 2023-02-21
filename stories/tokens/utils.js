@@ -25,7 +25,9 @@ import sortBy from 'lodash/sortBy';
  */
 export default function sortTokensByRemValue(tokens) {
   const tokenValues = Object.entries(tokens);
-  const sortedTokenValues = sortBy(tokenValues, token => parseFloat(token[1]));
+  const sortedTokenValues = sortBy(tokenValues, (token) =>
+    parseFloat(token[1]),
+  );
 
   return sortedTokenValues;
 }

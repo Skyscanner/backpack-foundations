@@ -46,7 +46,7 @@ const createBreakpointObject = (breakpoint, margin, name) => {
   breakpointContainer.appendChild(breakpointName);
   breakpointContainer.appendChild(breakpointMarginContainer);
   breakpointContainer.appendChild(breakpointObject);
-  
+
   return breakpointContainer;
 };
 

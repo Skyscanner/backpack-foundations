@@ -30,10 +30,11 @@ const Template = () => {
 
   const sortedBreakpoints = sortTokensByRemValue(breakpoints);
   const breakpointValues = sortedBreakpoints.filter(
-    token => !/.+margin|query/i.test(token),
+    (token) => !/.+margin|query/i.test(token),
   );
-  const marginValues = sortedBreakpoints.filter(
-    token => /.+margin/i.test(token));
+  const marginValues = sortedBreakpoints.filter((token) =>
+    /.+margin/i.test(token),
+  );
 
   const breakpointMarginPairs = breakpointValues.map((breakpoint, index) => [
     breakpoint,
@@ -42,8 +43,12 @@ const Template = () => {
   breakpointMarginPairs.forEach((pair) => {
     const breakpointValue = pair[0][1];
     const marginValue = pair[1][1];
-    const breakpointName = pair[0][0]; 
-    const breakpointObject = createBreakpointObject(breakpointValue, marginValue, breakpointName);
+    const breakpointName = pair[0][0];
+    const breakpointObject = createBreakpointObject(
+      breakpointValue,
+      marginValue,
+      breakpointName,
+    );
     storyWrapper.appendChild(breakpointObject);
   });
   return storyWrapper;
