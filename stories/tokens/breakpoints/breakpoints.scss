@@ -16,16 +16,31 @@
  * limitations under the License.
  */
 
-import sortBy from 'lodash/sortBy';
+ @import '../../../packages/bpk-mixins/index.scss';
 
-/**
- * Shared function to sort tokens asc based on their rem values.
- * @param {Object} tokens Object which contains token name and value pairs
- * @returns {Array} of items sorted by token value, where each item is an array containing token name and value
- */
-export default function sortTokensByRemValue(tokens) {
-  const tokenValues = Object.entries(tokens);
-  const sortedTokenValues = sortBy(tokenValues, token => parseFloat(token[1]));
+ .bpk-breakpoint-container {
+      padding-bottom: bpk-spacing-base();
+ }
 
-  return sortedTokenValues;
-}
+ .bpk-breakpoint-object {
+      align-items: center;
+      background-color: $bpk-status-danger-spot-day;
+      height: $bpk-one-pixel-rem;
+  }
+
+  .bpk-breakpoint-margin-object {
+      background-color: $bpk-status-warning-fill-day;
+  }
+
+  .bpk-breakpoint-margin-container {
+      display: flex;
+      justify-content: space-between;
+  }
+ 
+ .bpk-breakpoint-name {
+      margin-top: bpk-spacing-base();
+      font-family: 'Space Mono', monospace;
+   
+      @include bpk-caption;
+ }
+ 
