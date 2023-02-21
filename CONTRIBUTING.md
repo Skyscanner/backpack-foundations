@@ -100,7 +100,7 @@ Once they're signed off, you can [raise a request](https://bit.ly/backpack-reque
 
 Any visual CSS parameters of the component, such as *color, margins, paddings* etc. should not live as magic numbers in the component code, but as **tokens** in the `bpk-<android/ios/react-native/web/common>` package.
 
-Tokens are defined in the `src/base` directory. Tokens come in two layers: In `aliases.json`, all base tokens are defined with concrete values, such as colours, numbers and sizes. The other files then map those aliases to tokens for specific elements.
+Tokens are defined in the `src/base` directory. Tokens come in two layers: In `aliases.json`, all base tokens are defined with concrete values, such as colours, numbers and sizes. The other files then map those aliases to tokens for specific elements. If you need to add a new token and there is no 1:1 mapping from the existing aliases, add or multiply 2 aliases to achieve the desired value for your token.
 
 > You should probably not touch `aliases.json`, as our color palette or grid rarely changes.
 

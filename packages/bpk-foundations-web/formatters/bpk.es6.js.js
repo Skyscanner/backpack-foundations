@@ -20,12 +20,24 @@ import _ from 'lodash';
 
 import { blockComment } from '../../../utils/formatters/license-header';
 
+import { performTokenOperations } from './utils';
+
 export const tokenTemplate = ({ name, type, value }) => {
+  let tokenValue = value;
+
   if (type === 'function') {
     return null;
   }
-  return `export const ${_.camelCase(name)} = "${value.replace(/"/g, '\\"')}";`;
+
+  if (/\+|\*/.test(value)) {
+    tokenValue = performTokenOperations(value);
+  }
+  return `export const ${_.camelCase(name)} = "${tokenValue.replace(
+    /"/g,
+    '\\"',
+  )}";`;
 };
+
 export const categoryTemplate = (
   categoryName,
   props,

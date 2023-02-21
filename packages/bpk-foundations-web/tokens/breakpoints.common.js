@@ -243,5 +243,5 @@ module.exports = {
   breakpointTabletMargin: "2rem",
   breakpointMobileMargin: "1.5rem",
   breakpointQuerySmallMobile: "(max-width: 22.4375rem)",
-  breakpointDesktopMargin: "1rem * 3"
+  breakpointDesktopMargin: "3rem"
 };
