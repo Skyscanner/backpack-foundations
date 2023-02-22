@@ -22,18 +22,18 @@
  * @returns {String} token unit
  */
 const getTokenUnit = (value) => {
-  let units = new Set();
+  const units = new Set();
   if (value.includes('rem')) {
-      units.add('rem');
+    units.add('rem');
   }
   if (value.includes('px')) {
-      units.add('px');
+    units.add('px');
   }
   if (units.size !== 1) {
     throw new Error(
       `Supported units are rem and px. Please specify a supported unit for ${value}.`,
-    )
-  };
+    );
+  }
   return units.values().next().value;
 };
 
@@ -44,7 +44,7 @@ const getTokenUnit = (value) => {
  */
 const performTokenOperations = (value) => {
   let tokenValue;
-  
+
   const tokenValues = value.split(/\+|\*/);
 
   if (tokenValues.length !== 2) {
