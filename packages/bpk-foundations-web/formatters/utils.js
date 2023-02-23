@@ -22,16 +22,19 @@
  * @returns {String} token unit
  */
 const getTokenUnit = (value) => {
-  switch (true) {
-    case value.includes('rem'):
-      return 'rem';
-    case value.includes('px'):
-      return 'px';
-    default:
-      throw new Error(
-        `Supported units are rem and px. Please specify a supported unit for ${value}.`,
-      );
+  const units = new Set();
+  if (value.includes('rem')) {
+    units.add('rem');
   }
+  if (value.includes('px')) {
+    units.add('px');
+  }
+  if (units.size !== 1) {
+    throw new Error(
+      `Supported units are rem and px. Please specify a supported unit for ${value}.`,
+    );
+  }
+  return units.values().next().value;
 };
 
 /**
@@ -42,7 +45,6 @@ const getTokenUnit = (value) => {
 const performTokenOperations = (value) => {
   let tokenValue;
 
-  const unit = getTokenUnit(value);
   const tokenValues = value.split(/\+|\*/);
 
   if (tokenValues.length !== 2) {
@@ -50,6 +52,8 @@ const performTokenOperations = (value) => {
       `Token value is made up of more than 2 tokens. Please adjust the value of your token ${value}.`,
     );
   }
+
+  const unit = getTokenUnit(value);
   const [val1, val2] = tokenValues.map((val) =>
     parseFloat(val.replace(unit, '')),
   );

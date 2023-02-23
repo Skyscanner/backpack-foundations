@@ -35,6 +35,11 @@ describe('getTokenUnit', () => {
       'Supported units are rem and px. Please specify a supported unit for 1 + 2.5.',
     );
   });
+  it('should error if different units are specified', () => {
+    expect(() => getTokenUnit('1rem + 2.5px')).toThrow(
+      'Supported units are rem and px. Please specify a supported unit for 1rem + 2.5px.',
+    );
+  });
 });
 
 describe('performTokenOperations', () => {
