@@ -1,3 +1,10 @@
+# 2023-02-23
+
+**Fixed:**
+
+- `@skyscanner/bpk-foundations-web`: 14.0.0 => 14.0.1
+    - Fix `breakpointDesktopMargin`, `selectLargeHeight`, `textareaMinHeight`, `ratingBaseWidth`, `ratingBaseHeight`, `ratingSmWidth`, `ratingSmHeight`, `ratingLgWidth`, `ratingLgHeight` JS tokens
+
 # 2023-02-16
 
 **Fixed:**
