@@ -139,36 +139,6 @@
   background-size: cover;
 }
 
-/// Small icon.
-///
-/// @param {key} $icon [''] - The key of the desired SVG datauri from the $bpk-icons-sm map.
-///
-/// @example scss
-///   .selector {
-///     @include bpk-icon-sm(flight-sky-gray-tint-02);
-///   }
-///
-/// @deprecated Use bpk-icon instead
-
-@mixin bpk-icon-sm($icon) {
-  @include _bpk-icon-factory($bpk-icons-sm, $bpk-icon-size-sm, $icon);
-}
-
-/// Large icon.
-///
-/// @param {key} $icon [''] - The key of the desired SVG datauri from the $bpk-icons-lg map.
-///
-/// @example scss
-///   .selector {
-///     @include bpk-icon-lg(flight-sky-gray-tint-02);
-///   }
-///
-/// @deprecated Use bpk-icon instead
-
-@mixin bpk-icon-lg($icon) {
-  @include _bpk-icon-factory($bpk-icons-lg, $bpk-icon-size-lg, $icon);
-}
-
 /// Align to button. Modifies the bpk-icon-sm mixin.
 ///
 /// @require {mixin} bpk-icon-sm
