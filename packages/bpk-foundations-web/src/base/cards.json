@@ -10,11 +10,6 @@
       "value": "{!WHITE}",
       "type": "color"
     },
-    "CARD_COLOR": {
-      "value": "{!CHARCOAL}",
-      "type": "color",
-      "deprecated": true
-    },
     "CARD_PADDING": {
       "value": "{!SPACING_BASE_V2}",
       "type": "size"

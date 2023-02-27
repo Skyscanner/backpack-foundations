@@ -435,20 +435,6 @@ $bpk-duration-xs: 50ms;
 $bpk-duration-sm: 200ms;
 /// @group animations
 $bpk-duration-base: 400ms;
-/// @group autosuggest
-$bpk-autosuggest-list-background-color: rgb(255, 255, 255);
-/// @group autosuggest
-$bpk-autosuggest-list-item-active-background-color: rgb(239, 241, 242);
-/// @group autosuggest
-$bpk-autosuggest-list-item-highlighted-background-color: rgb(239, 241, 242);
-/// @group badges
-$bpk-badge-padding-y: .25rem;
-/// @group badges
-$bpk-badge-padding-x: .5rem;
-/// @group badges
-$bpk-badge-background-color: rgb(255, 247, 207);
-/// @group badges
-$bpk-badge-centered-vertical-align: text-bottom;
 /// @group borders
 $bpk-border-size-sm: 1px;
 /// @group borders
@@ -514,343 +500,17 @@ $bpk-breakpoint-query-small-mobile: "(max-width: 22.4375rem)";
 /// @group breakpoints
 $bpk-breakpoint-desktop-margin: 1rem * 3;
 /// @group buttons
-$bpk-button-text-align: center;
-/// @group buttons
-$bpk-button-active-box-shadow: none;
-/// @group buttons
-$bpk-button-selected-disabled-box-shadow: none;
-/// @group buttons
-$bpk-button-large-font-size: 1.5rem;
-/// @group buttons
-$bpk-button-disabled-background-image: none;
-/// @group buttons
-$bpk-button-primary-on-dark-hover-background-image: none;
-/// @group buttons
-$bpk-button-secondary-on-dark-disabled-color: rgba(0, 0, 0, 0.2);
-/// @group buttons
-$bpk-button-destructive-hover-box-shadow: 0 0 0 2px #d1435b inset;
-/// @group buttons
-$bpk-button-large-line-height: 1.5rem;
-/// @group buttons
-$bpk-button-selected-background-image: #084eb2;
-/// @group buttons
-$bpk-button-box-shadow: none;
-/// @group buttons
-$bpk-button-primary-on-light-hover-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-selected-active-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-destructive-active-background-color: rgb(178, 46, 69);
-/// @group buttons
-$bpk-button-outline-active-background-color: rgba(0, 0, 0, 0);
-/// @group buttons
-$bpk-button-link-on-dark-disabled-color: rgba(255, 255, 255, 0.2);
-/// @group buttons
-$bpk-button-hover-background-color: rgb(0, 136, 124);
-/// @group buttons
-$bpk-button-secondary-active-color: rgb(8, 78, 178);
-/// @group buttons
-$bpk-button-secondary-on-dark-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-link-on-dark-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-primary-on-dark-disabled-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-secondary-background-image: none;
-/// @group buttons
-$bpk-button-secondary-on-dark-active-background-image: none;
-/// @group buttons
-$bpk-button-destructive-disabled-background-image: none;
-/// @group buttons
-$bpk-button-outline-disabled-background-image: none;
-/// @group buttons
-$bpk-button-destructive-active-box-shadow: 0 0 0 3px #d1435b inset;
-/// @group buttons
-$bpk-button-primary-on-light-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-selected-hover-background-image: none;
-/// @group font-sizes
-$bpk-button-font-size: 1.1875rem;
-/// @group buttons
-$bpk-button-gradient-start-color: rgb(0, 166, 152);
-/// @group buttons
-$bpk-button-primary-on-light-active-background-image: none;
-/// @group buttons
-$bpk-button-hover-box-shadow: none;
-/// @group buttons
-$bpk-button-outline-hover-border-opacity: 0.5;
-/// @group buttons
-$bpk-button-line-height: 1.5rem;
-/// @group buttons
-$bpk-button-secondary-hover-background-image: none;
-/// @group buttons
-$bpk-button-primary-on-dark-background-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-featured-active-background-color: rgb(4, 39, 89);
-/// @group buttons
-$bpk-button-disabled-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-primary-on-dark-hover-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-secondary-border-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-secondary-hover-color: rgb(8, 78, 178);
-/// @group buttons
-$bpk-button-featured-active-box-shadow: none;
-/// @group buttons
-$bpk-button-primary-on-light-active-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-featured-disabled-background-image: none;
-/// @group buttons
-$bpk-button-selected-hover-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-selected-background-color: rgb(0, 98, 227);
-/// @group buttons
-$bpk-button-primary-on-light-background-image: none;
-/// @group buttons
-$bpk-button-outline-disabled-color: rgb(178, 178, 191);
-/// @group buttons
-$bpk-button-destructive-disabled-color: rgba(0, 0, 0, 0.2);
-/// @group buttons
-$bpk-button-secondary-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-secondary-on-dark-active-background-color: rgba(255, 255, 255, 0.2);
-/// @group buttons
-$bpk-button-disabled-box-shadow: none;
-/// @group buttons
-$bpk-button-destructive-disabled-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-outline-disabled-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-link-on-dark-active-color: rgba(255, 255, 255, 0.6);
-/// @group buttons
-$bpk-button-secondary-on-dark-active-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-secondary-color: rgb(8, 78, 178);
-/// @group buttons
-$bpk-button-selected-box-shadow: none;
-/// @group buttons
-$bpk-button-secondary-hover-border-color: rgb(0, 98, 227);
-/// @group buttons
-$bpk-button-secondary-on-dark-background-image: none;
-/// @group buttons
-$bpk-button-secondary-active-background-image: none;
-/// @group buttons
-$bpk-button-selected-active-background-image: none;
-/// @group buttons
-$bpk-button-secondary-box-shadow: 0 0 0 2px #DDDDE5 inset;
-/// @group buttons
-$bpk-button-icon-border-radius: 1.125rem;
-/// @group buttons
-$bpk-button-primary-on-light-hover-background-image: none;
-/// @group buttons
-$bpk-button-selected-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-selected-hover-background-color: rgb(8, 78, 178);
-/// @group buttons
-$bpk-button-large-padding-x-icon-only: .5625rem;
-/// @group buttons
-$bpk-button-secondary-on-dark-disabled-background-image: none;
-/// @group buttons
-$bpk-button-primary-on-light-active-background-color: rgb(104, 105, 127);
-/// @group buttons
-$bpk-button-primary-on-dark-hover-color: rgb(22, 22, 22);
-/// @group buttons
-$bpk-button-secondary-hover-background-color: rgb(205, 205, 215);
-/// @group buttons
-$bpk-button-disabled-color: rgba(0, 0, 0, 0.2);
-/// @group buttons
-$bpk-button-destructive-disabled-box-shadow: none;
-/// @group buttons
-$bpk-button-outline-disabled-box-shadow: none;
-/// @group buttons
-$bpk-button-featured-background-image: #0062E3;
-/// @group buttons
-$bpk-button-primary-on-light-disabled-background-image: none;
-/// @group buttons
-$bpk-button-icon-border-radius-lg: 1.3125rem;
-/// @group buttons
-$bpk-button-secondary-on-dark-hover-background-image: none;
-/// @group buttons
-$bpk-button-selected-hover-box-shadow: none;
-/// @group buttons
-$bpk-button-featured-active-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-secondary-hover-box-shadow: 0 0 0 2px #0062E3 inset;
-/// @group buttons
-$bpk-button-padding-x-icon-only: .5625rem;
-/// @group buttons
-$bpk-button-primary-on-dark-active-background-image: none;
-/// @group buttons
-$bpk-button-primary-on-dark-color: rgb(22, 22, 22);
-/// @group buttons
-$bpk-button-primary-on-light-background-color: rgb(17, 18, 54);
-/// @group buttons
-$bpk-button-featured-hover-background-image: none;
-/// @group buttons
-$bpk-button-secondary-active-border-color: rgb(8, 78, 178);
-/// @group buttons
-$bpk-button-featured-disabled-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-hover-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-secondary-on-dark-background-color: rgba(255, 255, 255, 0.1);
-/// @group buttons
-$bpk-button-secondary-active-background-color: rgb(178, 178, 191);
-/// @group buttons
-$bpk-button-primary-on-dark-disabled-color: rgba(0, 0, 0, 0.2);
-/// @group buttons
-$bpk-button-destructive-active-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-secondary-on-dark-disabled-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-outline-background-image: none;
-/// @group buttons
-$bpk-button-selected-active-background-color: rgb(4, 39, 89);
-/// @group buttons
 $bpk-button-height: 2.25rem;
-/// @group buttons
-$bpk-button-primary-on-light-hover-background-color: rgb(68, 69, 96);
-/// @group buttons
-$bpk-button-secondary-disabled-background-image: none;
-/// @group buttons
-$bpk-button-secondary-active-box-shadow: 0 0 0 3px #084eb2 inset;
-/// @group buttons
-$bpk-button-active-background-image: none;
-/// @group buttons
-$bpk-button-secondary-on-dark-hover-background-color: rgba(255, 255, 255, 0.15);
-/// @group buttons
-$bpk-button-destructive-hover-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-selected-active-box-shadow: none;
-/// @group buttons
-$bpk-button-featured-background-color: rgb(0, 98, 227);
-/// @group buttons
-$bpk-button-primary-on-light-disabled-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-active-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-destructive-hover-background-image: none;
 /// @group buttons
 $bpk-button-border-radius: .5rem;
 /// @group buttons
-$bpk-button-secondary-disabled-color: rgb(178, 178, 191);
-/// @group buttons
 $bpk-button-large-height: 3rem;
-/// @group buttons
-$bpk-button-primary-on-dark-active-background-color: rgb(205, 205, 215);
-/// @group buttons
-$bpk-button-large-padding-x: 1.5rem;
-/// @group buttons
-$bpk-button-destructive-color: rgb(178, 46, 69);
-/// @group buttons
-$bpk-button-outline-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-featured-hover-background-color: rgb(8, 78, 178);
-/// @group buttons
-$bpk-button-large-padding-y: .375rem;
-/// @group buttons
-$bpk-button-primary-on-dark-disabled-background-image: none;
-/// @group buttons
-$bpk-button-outline-border-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-destructive-border-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-hover-background-image: none;
-/// @group buttons
-$bpk-button-featured-hover-box-shadow: none;
-/// @group buttons
-$bpk-button-font-weight: 700;
-/// @group buttons
-$bpk-button-destructive-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-featured-hover-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-outline-background-color: rgba(0, 0, 0, 0);
-/// @group buttons
-$bpk-button-outline-hover-border-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-destructive-hover-border-color: rgb(209, 67, 91);
-/// @group buttons
-$bpk-button-primary-on-dark-active-color: rgb(22, 22, 22);
-/// @group buttons
-$bpk-button-primary-on-dark-background-image: none;
-/// @group buttons
-$bpk-button-secondary-disabled-background-color: rgb(221, 221, 229);
-/// @group buttons
-$bpk-button-gradient-end-color: rgb(0, 166, 152);
-/// @group buttons
-$bpk-button-padding-x: 1.125rem;
-/// @group buttons
-$bpk-button-destructive-box-shadow: 0 0 0 2px #DDDDE5 inset;
-/// @group buttons
-$bpk-button-padding-y: .375rem;
-/// @group buttons
-$bpk-button-active-background-color: rgb(0, 106, 97);
-/// @group buttons
-$bpk-button-secondary-disabled-box-shadow: none;
-/// @group buttons
-$bpk-button-primary-on-light-disabled-color: rgba(0, 0, 0, 0.2);
-/// @group buttons
-$bpk-button-featured-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-outline-hover-background-color: rgba(0, 0, 0, 0);
-/// @group buttons
-$bpk-button-destructive-hover-background-color: rgb(209, 67, 91);
-/// @group buttons
-$bpk-button-featured-active-background-image: none;
-/// @group buttons
-$bpk-button-secondary-on-dark-hover-color: rgb(255, 255, 255);
-/// @group buttons
-$bpk-button-link-on-dark-hover-color: rgba(255, 255, 255, 0.8);
-/// @group buttons
-$bpk-button-background-color: rgb(0, 166, 152);
-/// @group buttons
-$bpk-button-destructive-active-border-color: rgb(209, 67, 91);
-/// @group buttons
-$bpk-button-outline-active-border-color: rgb(255, 255, 255);
-/// @group calendar
-$bpk-calendar-day-selected-color: rgb(255, 255, 255);
-/// @group calendar
-$bpk-calendar-day-disabled-color: rgba(0, 0, 0, 0.2);
-/// @group calendar
-$bpk-calendar-day-outside-color: rgba(0, 0, 0, 0.2);
-/// @group calendar
-$bpk-calendar-day-size: 2.25rem;
-/// @group calendar
-$bpk-calendar-day-active-background-color: rgb(239, 241, 242);
-/// @group calendar
-$bpk-calendar-nav-icon-fill: rgb(22, 22, 22);
-/// @group calendar
-$bpk-calendar-day-active-color: rgb(22, 22, 22);
-/// @group calendar
-$bpk-calendar-nav-icon-hover-fill: rgb(22, 22, 22);
-/// @group calendar
-$bpk-calendar-padding: .75rem;
-/// @group calendar
-$bpk-calendar-day-selected-background-color: rgb(0, 98, 227);
-/// @group calendar
-$bpk-calendar-nav-icon-active-fill: rgb(22, 22, 22);
-/// @group calendar
-$bpk-calendar-day-focused-color: rgb(0, 98, 227);
-/// @group calendar
-$bpk-calendar-day-hover-background-color: rgb(239, 241, 242);
-/// @group calendar
-$bpk-calendar-day-focused-border-color: rgb(0, 98, 227);
-/// @group calendar
-$bpk-calendar-day-hover-color: rgb(22, 22, 22);
-/// @group calendar
-$bpk-calendar-nav-icon-disabled-fill: rgba(0, 0, 0, 0.2);
-/// @group calendar
-$bpk-calendar-day-color: rgb(22, 22, 22);
 /// @group calendar
 $bpk-calendar-day-spacing: .5rem;
+/// @group calendar
+$bpk-calendar-day-size: 2.25rem;
 /// @group cards
 $bpk-card-background-color: rgb(255, 255, 255);
-/// @group cards
-$bpk-card-color: rgb(22, 22, 22);
 /// @group cards
 $bpk-card-padding: 1rem;
 /// @group colors
@@ -864,45 +524,17 @@ $bpk-flare-corner-radius: 1.3125rem;
 /// @group forms
 $bpk-input-large-height: 3rem;
 /// @group forms
-$bpk-select-color: rgb(22, 22, 22);
-/// @group forms
 $bpk-input-border: solid .0625rem #C2C9CD;
-/// @group forms
-$bpk-input-placeholder-color: rgba(0, 0, 0, 0.2);
-/// @group forms
-$bpk-form-validation-arrow-size: .375rem;
 /// @group forms
 $bpk-select-border-radius: .25rem;
 /// @group forms
 $bpk-input-background: #ffffff;
 /// @group forms
-$bpk-select-disabled-color: rgba(0, 0, 0, 0.2);
-/// @group forms
-$bpk-required-color: rgb(231, 8, 102);
-/// @group forms
-$bpk-select-padding-top: .375rem;
-/// @group forms
-$bpk-label-font-size: .75rem;
-/// @group forms
-$bpk-label-line-height: 1rem;
-/// @group forms
 $bpk-input-border-width: .0625rem;
-/// @group forms
-$bpk-select-height: 2.250rem;
 /// @group forms
 $bpk-label-disabled-color: rgba(0, 0, 0, 0.2);
 /// @group forms
-$bpk-select-padding-right: 1.875rem;
-/// @group forms
-$bpk-select-large-height: 2.625rem + .375rem;
-/// @group forms
-$bpk-input-color: rgb(22, 22, 22);
-/// @group forms
-$bpk-select-border: solid .0625rem #C2C9CD;
-/// @group forms
 $bpk-input-border-radius: .25rem;
-/// @group forms
-$bpk-radio-checked-circle-color: rgb(0, 98, 227);
 /// @group forms
 $bpk-select-disabled-border-color: rgb(224, 227, 229);
 /// @group forms
@@ -910,41 +542,15 @@ $bpk-input-disabled-color: rgba(0, 0, 0, 0.2);
 /// @group forms
 $bpk-input-padding-x: .5rem;
 /// @group forms
-$bpk-checkbox-checked-tick-color: rgb(0, 98, 227);
-/// @group forms
 $bpk-input-padding-y: .5rem;
 /// @group forms
 $bpk-select-border-width: .0625rem;
 /// @group forms
-$bpk-select-padding-left: .75rem;
-/// @group forms
-$bpk-label-color: rgb(22, 22, 22);
-/// @group forms
 $bpk-form-validation-color: rgb(231, 8, 102);
-/// @group forms
-$bpk-textarea-min-height: 2.625rem * 2;
 /// @group forms
 $bpk-input-height: 2.25rem;
 /// @group forms
-$bpk-select-padding-bottom: .375rem;
-/// @group forms
 $bpk-input-disabled-border-color: rgb(239, 241, 242);
-/// @group grids
-$bpk-grid-columns: 12;
-/// @group grids
-$bpk-grid-gutter: 1.5rem;
-/// @group grids
-$bpk-grid-container-padding: 1.5rem;
-/// @group grids
-$bpk-grid-container-mobile-padding: .75rem;
-/// @group horizontal-nav
-$bpk-horizontal-nav-link-color: rgb(84, 88, 96);
-/// @group horizontal-nav
-$bpk-horizontal-nav-link-hover-color: rgb(84, 88, 96);
-/// @group horizontal-nav
-$bpk-horizontal-nav-link-active-color: rgb(84, 88, 96);
-/// @group horizontal-nav
-$bpk-horizontal-nav-link-selected-color: rgb(0, 98, 227);
 /// @group horizontal-nav
 $bpk-horizontal-nav-bar-selected-color: rgb(0, 98, 227);
 /// @group icons
@@ -962,69 +568,23 @@ $bpk-modal-max-width: 32rem;
 /// @group modals
 $bpk-modal-wide-max-width: 64rem;
 /// @group modals
-$bpk-modal-header-padding: .75rem;
-/// @group modals
 $bpk-modal-content-padding: 1rem;
-/// @group scrims
-$bpk-scrim-background-color: rgb(178, 178, 191);
-/// @group scrims
-$bpk-scrim-initial-opacity: 0;
-/// @group scrims
-$bpk-scrim-opacity: .7;
-/// @group scrims
-$bpk-scrim-mobile-opacity: 1;
-/// @group scrims
-$bpk-scrim-dark-background-color: rgb(17, 18, 54);
-/// @group scrims
-$bpk-scrim-dark-opacity: .95;
-/// @group notifications
-$bpk-banner-alert-children-padding-x: .75rem;
-/// @group notifications
-$bpk-banner-alert-warn-color: rgb(245, 93, 66);
-/// @group notifications
-$bpk-banner-alert-children-padding-y: .375rem;
 /// @group notifications
 $bpk-banner-alert-header-expandable-hover-background-color: rgb(239, 241, 242);
 /// @group notifications
-$bpk-banner-alert-background-color: rgb(255, 255, 255);
-/// @group notifications
-$bpk-banner-alert-event-color: rgb(90, 72, 155);
-/// @group notifications
-$bpk-banner-alert-header-padding-x: .75rem;
-/// @group notifications
-$bpk-banner-alert-header-padding-y: .375rem;
+$bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242);
 /// @group notifications
 $bpk-banner-alert-primary-color: rgb(0, 98, 227);
 /// @group notifications
 $bpk-banner-alert-success-color: rgb(12, 131, 138);
 /// @group notifications
-$bpk-banner-alert-neutral-color: rgb(194, 201, 205);
+$bpk-banner-alert-warn-color: rgb(245, 93, 66);
 /// @group notifications
 $bpk-banner-alert-error-color: rgb(231, 8, 102);
 /// @group notifications
-$bpk-banner-alert-children-color: rgb(84, 88, 96);
-/// @group notifications
-$bpk-banner-alert-expand-icon-fill: rgb(84, 88, 96);
-/// @group notifications
-$bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242);
-/// @group panels
-$bpk-panel-padding: .75rem;
+$bpk-banner-alert-neutral-color: rgb(194, 201, 205);
 /// @group panels
 $bpk-panel-border-color: rgb(194, 201, 205);
-/// @group panels
-$bpk-panel-background-color: rgb(255, 255, 255);
-/// @group ratings
-$bpk-rating-base-width: .75rem * 4;
-/// @group ratings
-$bpk-rating-base-height: .75rem * 4;
-/// @group ratings
-$bpk-rating-sm-width: .75rem * 3;
-/// @group ratings
-$bpk-rating-sm-height: .75rem * 3;
-/// @group ratings
-$bpk-rating-lg-width: 1.875rem * 2;
-/// @group ratings
-$bpk-rating-lg-height: 1.875rem * 2;
 /// @group spacings
 @function bpk-spacing-xxxxl() { @return 6rem; }
 /// @group spacings
@@ -1039,8 +599,6 @@ $bpk-spacing-lg-v-2: 1.5rem;
 $bpk-spacing-sm-v-2: .25rem;
 /// @group spacings
 @function bpk-spacing-lg() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1.5rem; } @return 1.875rem; }
-/// @group spacings
-@function bpk-spacing-xs() { @warn 'bpk-spacing-xs has been deprecated in the new system and will be removed in the future.'; @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .25rem; } @return .375rem; }
 /// @group spacings
 $bpk-one-pixel-rem: .0625rem;
 /// @group spacings
@@ -1075,26 +633,12 @@ $bpk-spacing-lg: 1.875rem;
 @function bpk-spacing-xl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2rem; } @return 2.250rem; }
 /// @group spacings
 @function bpk-spacing-xxxl() { @return 4rem; }
-/// @group states
-$bpk-state-selected-background-color: rgb(8, 78, 178);
-/// @group line-heights
-$bpk-text-lg-line-height: 1.75rem;
 /// @group font-weights
 $bpk-font-weight-book: 400;
 /// @group typesettings
 $bpk-line-height-xl-tight: 1.75rem;
-/// @group line-heights
-$bpk-text-xs-line-height: 1rem;
-/// @group line-heights
-$bpk-h-5-line-height: 1rem;
-/// @group font-sizes
-$bpk-h-6-font-size: .75rem;
-/// @group spacings
-$bpk-heading-margin-top: 0;
 /// @group typesettings
 $bpk-line-height-xxxxxl: 4.5rem;
-/// @group line-heights
-$bpk-h-6-line-height: 1rem;
 /// @group typesettings
 $bpk-line-height-xxxl: 3rem;
 /// @group typesettings
@@ -1105,22 +649,6 @@ $bpk-font-size-xl: 1.5rem;
 $bpk-font-size-xxxxxl: 4rem;
 /// @group typesettings
 $bpk-font-size-xxxl: 2.5rem;
-/// @group font-weights
-$bpk-text-xxxxl-font-weight: 400;
-/// @group font-weights
-$bpk-text-xxl-font-weight: 400;
-/// @group letter-spacings
-$bpk-text-xl-letter-spacing: normal;
-/// @group text-colors
-$bpk-link-alternate-visited-color: rgb(255, 255, 255);
-/// @group spacings
-$bpk-list-margin-top: 1rem;
-/// @group text-colors
-$bpk-link-white-active-color: rgb(255, 255, 255);
-/// @group text-colors
-$bpk-link-white-hover-color: rgb(255, 255, 255);
-/// @group letter-spacings
-$bpk-text-base-letter-spacing: normal;
 /// @group spacings
 $bpk-heading-content-margin-top: 1.875rem;
 /// @group typesettings
@@ -1133,110 +661,16 @@ $bpk-line-height-lg: 1.75rem;
 $bpk-font-weight-black: 900;
 /// @group typesettings
 $bpk-line-height-xs: 1rem;
-/// @group text-colors
-$bpk-link-white-color: rgb(255, 255, 255);
 /// @group typesettings
 $bpk-font-size-sm: .875rem;
 /// @group typesettings
 $bpk-font-size-xs: .75rem;
 /// @group letter-spacings
 $bpk-letter-spacing-tight: -0.02em;
-/// @group text-colors
-$bpk-link-visited-color: rgb(0, 98, 227);
 /// @group typesettings
 $bpk-font-size-lg: 1.25rem;
-/// @group spacings
-$bpk-list-nested-margin-top: 0;
-/// @group font-sizes
-$bpk-text-xxxxl-font-size: 3rem;
-/// @group font-weights
-$bpk-text-base-font-weight: 400;
-/// @group font-sizes
-$bpk-text-xxl-font-size: 2rem;
-/// @group spacings
-$bpk-p-margin-bottom: .75rem;
-/// @group line-heights
-$bpk-text-xxl-line-height: 2.5rem;
-/// @group line-heights
-$bpk-text-xxxxl-line-height: 3.5rem;
-/// @group letter-spacings
-$bpk-text-xxl-letter-spacing: normal;
-/// @group font-weights
-$bpk-text-xl-font-weight: 400;
-/// @group text-colors
-$bpk-link-active-color: rgb(0, 98, 227);
-/// @group font-weights
-$bpk-text-xxxxxl-font-weight: 400;
-/// @group spacings
-$bpk-list-item-margin-top: 0;
-/// @group font-weights
-$bpk-text-xxxl-font-weight: 400;
 /// @group typesettings
 $bpk-font-size-root: 100%;
-/// @group spacings
-$bpk-list-item-margin-bottom: .25rem;
-/// @group font-weights
-$bpk-h-1-font-weight: 400;
-/// @group text-colors
-$bpk-link-white-visited-color: rgb(255, 255, 255);
-/// @group font-weights
-$bpk-h-2-font-weight: 400;
-/// @group spacings
-$bpk-p-margin-top: 0;
-/// @group text-colors
-$bpk-link-alternate-active-color: rgb(255, 255, 255);
-/// @group font-weights
-$bpk-h-3-font-weight: 400;
-/// @group spacings
-$bpk-list-nested-margin-bottom: 0;
-/// @group font-weights
-$bpk-h-4-font-weight: 700;
-/// @group font-weights
-$bpk-text-sm-font-weight: 400;
-/// @group font-sizes
-$bpk-text-base-font-size: 1rem;
-/// @group font-weights
-$bpk-h-5-font-weight: 700;
-/// @group line-heights
-$bpk-text-base-line-height: 1.5rem;
-/// @group font-weights
-$bpk-text-lg-font-weight: 400;
-/// @group font-weights
-$bpk-text-xs-font-weight: 400;
-/// @group text-colors
-$bpk-link-alternate-hover-color: rgb(255, 255, 255);
-/// @group font-weights
-$bpk-h-6-font-weight: 700;
-/// @group font-sizes
-$bpk-text-xl-font-size: 1.5rem;
-/// @group font-sizes
-$bpk-text-xxxxxl-font-size: 4rem;
-/// @group font-sizes
-$bpk-text-xxxl-font-size: 2.5rem;
-/// @group line-heights
-$bpk-text-xl-line-height: 2rem;
-/// @group text-colors
-$bpk-link-alternate-color: rgb(255, 255, 255);
-/// @group line-heights
-$bpk-text-xxxxxl-line-height: 4.5rem;
-/// @group line-heights
-$bpk-text-xxxl-line-height: 3rem;
-/// @group text-decorations
-$bpk-link-hover-text-decoration: underline;
-/// @group text-colors
-$bpk-link-hover-color: rgb(0, 98, 227);
-/// @group font-sizes
-$bpk-h-1-font-size: 3rem;
-/// @group spacings
-$bpk-list-margin-bottom: 1rem;
-/// @group letter-spacings
-$bpk-text-xs-letter-spacing: normal;
-/// @group font-sizes
-$bpk-h-2-font-size: 2rem;
-/// @group line-heights
-$bpk-h-1-line-height: 3rem;
-/// @group letter-spacings
-$bpk-text-lg-letter-spacing: normal;
 /// @group typesettings
 $bpk-font-size-6-xl: 4.75rem;
 /// @group typesettings
@@ -1247,54 +681,26 @@ $bpk-font-weight-bold: 700;
 $bpk-font-color-base: rgb(22, 22, 22);
 /// @group typesettings
 $bpk-line-height-base-tight: 1.25rem;
-/// @group text-decorations
-$bpk-link-text-decoration: none;
 /// @group typesettings
 $bpk-font-size-7-xl: 6rem;
-/// @group letter-spacings
-$bpk-text-sm-letter-spacing: normal;
-/// @group font-sizes
-$bpk-h-3-font-size: 1.5rem;
 /// @group typesettings
 $bpk-line-height-6-xl: 5.25rem;
-/// @group line-heights
-$bpk-h-2-line-height: 2.5rem;
-/// @group font-sizes
-$bpk-text-sm-font-size: .875rem;
 /// @group typesettings
 $bpk-font-size-8-xl: 7.5rem;
 /// @group typesettings
 $bpk-font-size-xxl: 2rem;
-/// @group font-sizes
-$bpk-h-4-font-size: 1rem;
-/// @group line-heights
-$bpk-h-3-line-height: 2rem;
 /// @group typesettings
 $bpk-font-size-xxxxl: 3rem;
-/// @group text-colors
-$bpk-link-color: rgb(0, 98, 227);
 /// @group typesettings
 $bpk-line-height-base: 1.5rem;
 /// @group typesettings
 $bpk-line-height-7-xl: 6rem;
 /// @group typesettings
 $bpk-font-size-base: 1rem;
-/// @group line-heights
-$bpk-h-4-line-height: 1.5rem;
-/// @group font-sizes
-$bpk-h-5-font-size: .75rem;
-/// @group font-sizes
-$bpk-text-lg-font-size: 1.25rem;
-/// @group spacings
-$bpk-heading-margin-bottom: .75rem;
-/// @group line-heights
-$bpk-text-sm-line-height: 1.25rem;
 /// @group typesettings
 $bpk-line-height-8-xl: 7.5rem;
 /// @group typesettings
 $bpk-line-height-xxl: 2.5rem;
-/// @group font-sizes
-$bpk-text-xs-font-size: .75rem;
 /// @group typesettings
 $bpk-line-height-xxxxl: 3.5rem;
 /// @group z-indices

@@ -26,11 +26,6 @@
       "value": "{!BREAKPOINT_TABLET}",
       "type": "size"
     },
-    "MODAL_HEADER_PADDING": {
-      "value": "{!SPACING_SM}",
-      "type": "size",
-      "deprecated": true
-    },
     "MODAL_CONTENT_PADDING": {
       "value": "{!SPACING_BASE_V2}",
       "type": "size"
