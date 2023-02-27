@@ -435,20 +435,6 @@ $bpk-duration-xs: 50ms !default;
 $bpk-duration-sm: 200ms !default;
 /// @group animations
 $bpk-duration-base: 400ms !default;
-/// @group autosuggest
-$bpk-autosuggest-list-background-color: rgb(255, 255, 255) !default;
-/// @group autosuggest
-$bpk-autosuggest-list-item-active-background-color: rgb(239, 241, 242) !default;
-/// @group autosuggest
-$bpk-autosuggest-list-item-highlighted-background-color: rgb(239, 241, 242) !default;
-/// @group badges
-$bpk-badge-padding-y: .25rem !default;
-/// @group badges
-$bpk-badge-padding-x: .5rem !default;
-/// @group badges
-$bpk-badge-background-color: rgb(255, 247, 207) !default;
-/// @group badges
-$bpk-badge-centered-vertical-align: text-bottom !default;
 /// @group borders
 $bpk-border-size-sm: 1px !default;
 /// @group borders
@@ -936,14 +922,6 @@ $bpk-grid-container-padding: 1.5rem !default;
 /// @group grids
 $bpk-grid-container-mobile-padding: .75rem !default;
 /// @group horizontal-nav
-$bpk-horizontal-nav-link-color: rgb(84, 88, 96) !default;
-/// @group horizontal-nav
-$bpk-horizontal-nav-link-hover-color: rgb(84, 88, 96) !default;
-/// @group horizontal-nav
-$bpk-horizontal-nav-link-active-color: rgb(84, 88, 96) !default;
-/// @group horizontal-nav
-$bpk-horizontal-nav-link-selected-color: rgb(0, 98, 227) !default;
-/// @group horizontal-nav
 $bpk-horizontal-nav-bar-selected-color: rgb(0, 98, 227) !default;
 /// @group icons
 $bpk-icon-size-sm: 1rem !default;
@@ -962,35 +940,19 @@ $bpk-modal-wide-max-width: 64rem !default;
 /// @group modals
 $bpk-modal-content-padding: 1rem !default;
 /// @group notifications
-$bpk-banner-alert-children-padding-x: .75rem !default;
-/// @group notifications
-$bpk-banner-alert-warn-color: rgb(245, 93, 66) !default;
-/// @group notifications
-$bpk-banner-alert-children-padding-y: .375rem !default;
-/// @group notifications
 $bpk-banner-alert-header-expandable-hover-background-color: rgb(239, 241, 242) !default;
 /// @group notifications
-$bpk-banner-alert-background-color: rgb(255, 255, 255) !default;
-/// @group notifications
-$bpk-banner-alert-event-color: rgb(90, 72, 155) !default;
-/// @group notifications
-$bpk-banner-alert-header-padding-x: .75rem !default;
-/// @group notifications
-$bpk-banner-alert-header-padding-y: .375rem !default;
+$bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242) !default;
 /// @group notifications
 $bpk-banner-alert-primary-color: rgb(0, 98, 227) !default;
 /// @group notifications
 $bpk-banner-alert-success-color: rgb(12, 131, 138) !default;
 /// @group notifications
-$bpk-banner-alert-neutral-color: rgb(194, 201, 205) !default;
+$bpk-banner-alert-warn-color: rgb(245, 93, 66) !default;
 /// @group notifications
 $bpk-banner-alert-error-color: rgb(231, 8, 102) !default;
 /// @group notifications
-$bpk-banner-alert-children-color: rgb(84, 88, 96) !default;
-/// @group notifications
-$bpk-banner-alert-expand-icon-fill: rgb(84, 88, 96) !default;
-/// @group notifications
-$bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242) !default;
+$bpk-banner-alert-neutral-color: rgb(194, 201, 205) !default;
 /// @group panels
 $bpk-panel-border-color: rgb(194, 201, 205) !default;
 /// @group ratings
@@ -1019,8 +981,6 @@ $bpk-spacing-lg-v-2: 1.5rem !default;
 $bpk-spacing-sm-v-2: .25rem !default;
 /// @group spacings
 @function bpk-spacing-lg() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1.5rem; } @return 1.875rem; }
-/// @group spacings
-@function bpk-spacing-xs() { @warn 'bpk-spacing-xs has been deprecated in the new system and will be removed in the future.'; @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .25rem; } @return .375rem; }
 /// @group spacings
 $bpk-one-pixel-rem: .0625rem !default;
 /// @group spacings
