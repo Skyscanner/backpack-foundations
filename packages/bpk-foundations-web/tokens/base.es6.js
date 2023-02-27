@@ -226,13 +226,6 @@ export const privateSkeletonShimmerCenterNight = "rgba(0, 0, 0, 0.2)";
 export const durationXs = "50ms";
 export const durationSm = "200ms";
 export const durationBase = "400ms";
-export const autosuggestListBackgroundColor = "rgb(255, 255, 255)";
-export const autosuggestListItemActiveBackgroundColor = "rgb(239, 241, 242)";
-export const autosuggestListItemHighlightedBackgroundColor = "rgb(239, 241, 242)";
-export const badgePaddingY = ".25rem";
-export const badgePaddingX = ".5rem";
-export const badgeBackgroundColor = "rgb(255, 247, 207)";
-export const badgeCenteredVerticalAlign = "text-bottom";
 export const borderSizeSm = "1px";
 export const borderSizeLg = "2px";
 export const borderRadiusPillLg = "1.3125rem";
@@ -291,10 +284,6 @@ export const selectBorderWidth = ".0625rem";
 export const formValidationColor = "rgb(231, 8, 102)";
 export const inputHeight = "2.25rem";
 export const inputDisabledBorderColor = "rgb(239, 241, 242)";
-export const horizontalNavLinkColor = "rgb(84, 88, 96)";
-export const horizontalNavLinkHoverColor = "rgb(84, 88, 96)";
-export const horizontalNavLinkActiveColor = "rgb(84, 88, 96)";
-export const horizontalNavLinkSelectedColor = "rgb(0, 98, 227)";
 export const horizontalNavBarSelectedColor = "rgb(0, 98, 227)";
 export const iconSizeSm = "1rem";
 export const iconSizeLg = "1.5rem";
@@ -304,21 +293,13 @@ export const modalOpacity = "1";
 export const modalMaxWidth = "32rem";
 export const modalWideMaxWidth = "64rem";
 export const modalContentPadding = "1rem";
-export const bannerAlertChildrenPaddingX = ".75rem";
-export const bannerAlertWarnColor = "rgb(245, 93, 66)";
-export const bannerAlertChildrenPaddingY = ".375rem";
 export const bannerAlertHeaderExpandableHoverBackgroundColor = "rgb(239, 241, 242)";
-export const bannerAlertBackgroundColor = "rgb(255, 255, 255)";
-export const bannerAlertEventColor = "rgb(90, 72, 155)";
-export const bannerAlertHeaderPaddingX = ".75rem";
-export const bannerAlertHeaderPaddingY = ".375rem";
+export const bannerAlertHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
 export const bannerAlertPrimaryColor = "rgb(0, 98, 227)";
 export const bannerAlertSuccessColor = "rgb(12, 131, 138)";
-export const bannerAlertNeutralColor = "rgb(194, 201, 205)";
+export const bannerAlertWarnColor = "rgb(245, 93, 66)";
 export const bannerAlertErrorColor = "rgb(231, 8, 102)";
-export const bannerAlertChildrenColor = "rgb(84, 88, 96)";
-export const bannerAlertExpandIconFill = "rgb(84, 88, 96)";
-export const bannerAlertHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
+export const bannerAlertNeutralColor = "rgb(194, 201, 205)";
 export const panelBorderColor = "rgb(194, 201, 205)";
 export const spacingLgV2 = "1.5rem";
 export const spacingSmV2 = ".25rem";
@@ -381,17 +362,6 @@ export const animations = {
 durationXs,
 durationSm,
 durationBase,
-};
-export const autosuggest = {
-autosuggestListBackgroundColor,
-autosuggestListItemActiveBackgroundColor,
-autosuggestListItemHighlightedBackgroundColor,
-};
-export const badges = {
-badgePaddingY,
-badgePaddingX,
-badgeBackgroundColor,
-badgeCenteredVerticalAlign,
 };
 export const borders = {
 borderSizeSm,
@@ -603,10 +573,6 @@ inputHeight,
 inputDisabledBorderColor,
 };
 export const horizontalNav = {
-horizontalNavLinkColor,
-horizontalNavLinkHoverColor,
-horizontalNavLinkActiveColor,
-horizontalNavLinkSelectedColor,
 horizontalNavBarSelectedColor,
 };
 export const icons = {
@@ -650,21 +616,13 @@ modalWideMaxWidth,
 modalContentPadding,
 };
 export const notifications = {
-bannerAlertChildrenPaddingX,
-bannerAlertWarnColor,
-bannerAlertChildrenPaddingY,
 bannerAlertHeaderExpandableHoverBackgroundColor,
-bannerAlertBackgroundColor,
-bannerAlertEventColor,
-bannerAlertHeaderPaddingX,
-bannerAlertHeaderPaddingY,
+bannerAlertHeaderExpandableActiveBackgroundColor,
 bannerAlertPrimaryColor,
 bannerAlertSuccessColor,
-bannerAlertNeutralColor,
+bannerAlertWarnColor,
 bannerAlertErrorColor,
-bannerAlertChildrenColor,
-bannerAlertExpandIconFill,
-bannerAlertHeaderExpandableActiveBackgroundColor,
+bannerAlertNeutralColor,
 };
 export const panels = {
 panelBorderColor,
