@@ -538,45 +538,17 @@ $bpk-flare-corner-radius: 1.3125rem;
 /// @group forms
 $bpk-input-large-height: 3rem;
 /// @group forms
-$bpk-select-color: rgb(22, 22, 22);
-/// @group forms
 $bpk-input-border: solid .0625rem #C2C9CD;
-/// @group forms
-$bpk-input-placeholder-color: rgba(0, 0, 0, 0.2);
-/// @group forms
-$bpk-form-validation-arrow-size: .375rem;
 /// @group forms
 $bpk-select-border-radius: .25rem;
 /// @group forms
 $bpk-input-background: #ffffff;
 /// @group forms
-$bpk-select-disabled-color: rgba(0, 0, 0, 0.2);
-/// @group forms
-$bpk-required-color: rgb(231, 8, 102);
-/// @group forms
-$bpk-select-padding-top: .375rem;
-/// @group forms
-$bpk-label-font-size: .75rem;
-/// @group forms
-$bpk-label-line-height: 1rem;
-/// @group forms
 $bpk-input-border-width: .0625rem;
-/// @group forms
-$bpk-select-height: 2.250rem;
 /// @group forms
 $bpk-label-disabled-color: rgba(0, 0, 0, 0.2);
 /// @group forms
-$bpk-select-padding-right: 1.875rem;
-/// @group forms
-$bpk-select-large-height: 2.625rem + .375rem;
-/// @group forms
-$bpk-input-color: rgb(22, 22, 22);
-/// @group forms
-$bpk-select-border: solid .0625rem #C2C9CD;
-/// @group forms
 $bpk-input-border-radius: .25rem;
-/// @group forms
-$bpk-radio-checked-circle-color: rgb(0, 98, 227);
 /// @group forms
 $bpk-select-disabled-border-color: rgb(224, 227, 229);
 /// @group forms
@@ -584,33 +556,15 @@ $bpk-input-disabled-color: rgba(0, 0, 0, 0.2);
 /// @group forms
 $bpk-input-padding-x: .5rem;
 /// @group forms
-$bpk-checkbox-checked-tick-color: rgb(0, 98, 227);
-/// @group forms
 $bpk-input-padding-y: .5rem;
 /// @group forms
 $bpk-select-border-width: .0625rem;
 /// @group forms
-$bpk-select-padding-left: .75rem;
-/// @group forms
-$bpk-label-color: rgb(22, 22, 22);
-/// @group forms
 $bpk-form-validation-color: rgb(231, 8, 102);
-/// @group forms
-$bpk-textarea-min-height: 2.625rem * 2;
 /// @group forms
 $bpk-input-height: 2.25rem;
 /// @group forms
-$bpk-select-padding-bottom: .375rem;
-/// @group forms
 $bpk-input-disabled-border-color: rgb(239, 241, 242);
-/// @group grids
-$bpk-grid-columns: 12;
-/// @group grids
-$bpk-grid-gutter: 1.5rem;
-/// @group grids
-$bpk-grid-container-padding: 1.5rem;
-/// @group grids
-$bpk-grid-container-mobile-padding: .75rem;
 /// @group horizontal-nav
 $bpk-horizontal-nav-link-color: rgb(84, 88, 96);
 /// @group horizontal-nav
@@ -669,18 +623,6 @@ $bpk-banner-alert-expand-icon-fill: rgb(84, 88, 96);
 $bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242);
 /// @group panels
 $bpk-panel-border-color: rgb(194, 201, 205);
-/// @group ratings
-$bpk-rating-base-width: .75rem * 4;
-/// @group ratings
-$bpk-rating-base-height: .75rem * 4;
-/// @group ratings
-$bpk-rating-sm-width: .75rem * 3;
-/// @group ratings
-$bpk-rating-sm-height: .75rem * 3;
-/// @group ratings
-$bpk-rating-lg-width: 1.875rem * 2;
-/// @group ratings
-$bpk-rating-lg-height: 1.875rem * 2;
 /// @group spacings
 @function bpk-spacing-xxxxl() { @return 6rem; }
 /// @group spacings
@@ -731,8 +673,6 @@ $bpk-spacing-lg: 1.875rem;
 @function bpk-spacing-xl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2rem; } @return 2.250rem; }
 /// @group spacings
 @function bpk-spacing-xxxl() { @return 4rem; }
-/// @group states
-$bpk-state-selected-background-color: rgb(8, 78, 178);
 /// @group font-weights
 $bpk-font-weight-book: 400;
 /// @group typesettings

@@ -277,43 +277,20 @@ export const flareHeightDesktop = "1.5rem";
 export const flareHeightMobile = "1rem";
 export const flareCornerRadius = "1.3125rem";
 export const inputLargeHeight = "3rem";
-export const selectColor = "rgb(22, 22, 22)";
 export const inputBorder = "solid .0625rem #C2C9CD";
-export const inputPlaceholderColor = "rgba(0, 0, 0, 0.2)";
-export const formValidationArrowSize = ".375rem";
 export const selectBorderRadius = ".25rem";
 export const inputBackground = "#ffffff";
-export const selectDisabledColor = "rgba(0, 0, 0, 0.2)";
-export const requiredColor = "rgb(231, 8, 102)";
-export const selectPaddingTop = ".375rem";
-export const labelFontSize = ".75rem";
-export const labelLineHeight = "1rem";
 export const inputBorderWidth = ".0625rem";
-export const selectHeight = "2.250rem";
 export const labelDisabledColor = "rgba(0, 0, 0, 0.2)";
-export const selectPaddingRight = "1.875rem";
-export const selectLargeHeight = "3rem";
-export const inputColor = "rgb(22, 22, 22)";
-export const selectBorder = "solid .0625rem #C2C9CD";
 export const inputBorderRadius = ".25rem";
-export const radioCheckedCircleColor = "rgb(0, 98, 227)";
 export const selectDisabledBorderColor = "rgb(224, 227, 229)";
 export const inputDisabledColor = "rgba(0, 0, 0, 0.2)";
 export const inputPaddingX = ".5rem";
-export const checkboxCheckedTickColor = "rgb(0, 98, 227)";
 export const inputPaddingY = ".5rem";
 export const selectBorderWidth = ".0625rem";
-export const selectPaddingLeft = ".75rem";
-export const labelColor = "rgb(22, 22, 22)";
 export const formValidationColor = "rgb(231, 8, 102)";
-export const textareaMinHeight = "5.25rem";
 export const inputHeight = "2.25rem";
-export const selectPaddingBottom = ".375rem";
 export const inputDisabledBorderColor = "rgb(239, 241, 242)";
-export const gridColumns = "12";
-export const gridGutter = "1.5rem";
-export const gridContainerPadding = "1.5rem";
-export const gridContainerMobilePadding = ".75rem";
 export const horizontalNavLinkColor = "rgb(84, 88, 96)";
 export const horizontalNavLinkHoverColor = "rgb(84, 88, 96)";
 export const horizontalNavLinkActiveColor = "rgb(84, 88, 96)";
@@ -343,12 +320,6 @@ export const bannerAlertChildrenColor = "rgb(84, 88, 96)";
 export const bannerAlertExpandIconFill = "rgb(84, 88, 96)";
 export const bannerAlertHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
 export const panelBorderColor = "rgb(194, 201, 205)";
-export const ratingBaseWidth = "3rem";
-export const ratingBaseHeight = "3rem";
-export const ratingSmWidth = "2.25rem";
-export const ratingSmHeight = "2.25rem";
-export const ratingLgWidth = "3.75rem";
-export const ratingLgHeight = "3.75rem";
 export const spacingLgV2 = "1.5rem";
 export const spacingSmV2 = ".25rem";
 export const onePixelRem = ".0625rem";
@@ -365,7 +336,6 @@ export const spacingSm = ".75rem";
 export const spacingIconText = ".5rem";
 export const spacingXs = ".375rem";
 export const spacingLg = "1.875rem";
-export const stateSelectedBackgroundColor = "rgb(8, 78, 178)";
 export const fontWeightBook = "400";
 export const lineHeightXlTight = "1.75rem";
 export const lineHeightXxxxxl = "4.5rem";
@@ -617,45 +587,20 @@ fontWeightBold,
 };
 export const forms = {
 inputLargeHeight,
-selectColor,
 inputBorder,
-inputPlaceholderColor,
-formValidationArrowSize,
 selectBorderRadius,
 inputBackground,
-selectDisabledColor,
-requiredColor,
-selectPaddingTop,
-labelFontSize,
-labelLineHeight,
 inputBorderWidth,
-selectHeight,
 labelDisabledColor,
-selectPaddingRight,
-selectLargeHeight,
-inputColor,
-selectBorder,
 inputBorderRadius,
-radioCheckedCircleColor,
 selectDisabledBorderColor,
 inputDisabledColor,
 inputPaddingX,
-checkboxCheckedTickColor,
 inputPaddingY,
 selectBorderWidth,
-selectPaddingLeft,
-labelColor,
 formValidationColor,
-textareaMinHeight,
 inputHeight,
-selectPaddingBottom,
 inputDisabledBorderColor,
-};
-export const grids = {
-gridColumns,
-gridGutter,
-gridContainerPadding,
-gridContainerMobilePadding,
 };
 export const horizontalNav = {
 horizontalNavLinkColor,
@@ -733,14 +678,6 @@ borderRadiusSm,
 borderRadiusXs,
 borderRadiusLg,
 };
-export const ratings = {
-ratingBaseWidth,
-ratingBaseHeight,
-ratingSmWidth,
-ratingSmHeight,
-ratingLgWidth,
-ratingLgHeight,
-};
 export const scrimColors = {
 scrimDay,
 scrimNight,
@@ -769,9 +706,6 @@ spacingIconText,
 spacingXs,
 spacingLg,
 headingContentMarginTop,
-};
-export const states = {
-stateSelectedBackgroundColor,
 };
 export const statusColors = {
 statusSuccessSpotNight,
