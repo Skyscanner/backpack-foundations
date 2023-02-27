@@ -850,8 +850,6 @@ $bpk-calendar-day-spacing: .5rem;
 /// @group cards
 $bpk-card-background-color: rgb(255, 255, 255);
 /// @group cards
-$bpk-card-color: rgb(22, 22, 22);
-/// @group cards
 $bpk-card-padding: 1rem;
 /// @group colors
 $bpk-primary-gradient: #0062E3;
@@ -962,21 +960,7 @@ $bpk-modal-max-width: 32rem;
 /// @group modals
 $bpk-modal-wide-max-width: 64rem;
 /// @group modals
-$bpk-modal-header-padding: .75rem;
-/// @group modals
 $bpk-modal-content-padding: 1rem;
-/// @group scrims
-$bpk-scrim-background-color: rgb(178, 178, 191);
-/// @group scrims
-$bpk-scrim-initial-opacity: 0;
-/// @group scrims
-$bpk-scrim-opacity: .7;
-/// @group scrims
-$bpk-scrim-mobile-opacity: 1;
-/// @group scrims
-$bpk-scrim-dark-background-color: rgb(17, 18, 54);
-/// @group scrims
-$bpk-scrim-dark-opacity: .95;
 /// @group notifications
 $bpk-banner-alert-children-padding-x: .75rem;
 /// @group notifications
@@ -1008,11 +992,7 @@ $bpk-banner-alert-expand-icon-fill: rgb(84, 88, 96);
 /// @group notifications
 $bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242);
 /// @group panels
-$bpk-panel-padding: .75rem;
-/// @group panels
 $bpk-panel-border-color: rgb(194, 201, 205);
-/// @group panels
-$bpk-panel-background-color: rgb(255, 255, 255);
 /// @group ratings
 $bpk-rating-base-width: .75rem * 4;
 /// @group ratings
