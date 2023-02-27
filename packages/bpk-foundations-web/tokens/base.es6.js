@@ -265,155 +265,9 @@ export const breakpointTabletMargin = "2rem";
 export const breakpointMobileMargin = "1.5rem";
 export const breakpointQuerySmallMobile = "(max-width: 22.4375rem)";
 export const breakpointDesktopMargin = "3rem";
-export const buttonTextAlign = "center";
-export const buttonActiveBoxShadow = "none";
-export const buttonSelectedDisabledBoxShadow = "none";
-export const buttonLargeFontSize = "1.5rem";
-export const buttonDisabledBackgroundImage = "none";
-export const buttonPrimaryOnDarkHoverBackgroundImage = "none";
-export const buttonSecondaryOnDarkDisabledColor = "rgba(0, 0, 0, 0.2)";
-export const buttonDestructiveHoverBoxShadow = "0 0 0 2px #d1435b inset";
-export const buttonLargeLineHeight = "1.5rem";
-export const buttonSelectedBackgroundImage = "#084eb2";
-export const buttonBoxShadow = "none";
-export const buttonPrimaryOnLightHoverColor = "rgb(255, 255, 255)";
-export const buttonSelectedActiveColor = "rgb(255, 255, 255)";
-export const buttonDestructiveActiveBackgroundColor = "rgb(178, 46, 69)";
-export const buttonOutlineActiveBackgroundColor = "rgba(0, 0, 0, 0)";
-export const buttonLinkOnDarkDisabledColor = "rgba(255, 255, 255, 0.2)";
-export const buttonHoverBackgroundColor = "rgb(0, 136, 124)";
-export const buttonSecondaryActiveColor = "rgb(8, 78, 178)";
-export const buttonSecondaryOnDarkColor = "rgb(255, 255, 255)";
-export const buttonLinkOnDarkColor = "rgb(255, 255, 255)";
-export const buttonPrimaryOnDarkDisabledBackgroundColor = "rgb(221, 221, 229)";
-export const buttonSecondaryBackgroundImage = "none";
-export const buttonSecondaryOnDarkActiveBackgroundImage = "none";
-export const buttonDestructiveDisabledBackgroundImage = "none";
-export const buttonOutlineDisabledBackgroundImage = "none";
-export const buttonDestructiveActiveBoxShadow = "0 0 0 3px #d1435b inset";
-export const buttonPrimaryOnLightColor = "rgb(255, 255, 255)";
-export const buttonSelectedHoverBackgroundImage = "none";
-export const buttonFontSize = "1.1875rem";
-export const buttonGradientStartColor = "rgb(0, 166, 152)";
-export const buttonPrimaryOnLightActiveBackgroundImage = "none";
-export const buttonHoverBoxShadow = "none";
-export const buttonOutlineHoverBorderOpacity = "0.5";
-export const buttonLineHeight = "1.5rem";
-export const buttonSecondaryHoverBackgroundImage = "none";
-export const buttonPrimaryOnDarkBackgroundColor = "rgb(255, 255, 255)";
-export const buttonFeaturedActiveBackgroundColor = "rgb(4, 39, 89)";
-export const buttonDisabledBackgroundColor = "rgb(221, 221, 229)";
-export const buttonPrimaryOnDarkHoverBackgroundColor = "rgb(221, 221, 229)";
-export const buttonSecondaryBorderColor = "rgb(221, 221, 229)";
-export const buttonSecondaryHoverColor = "rgb(8, 78, 178)";
-export const buttonFeaturedActiveBoxShadow = "none";
-export const buttonPrimaryOnLightActiveColor = "rgb(255, 255, 255)";
-export const buttonFeaturedDisabledBackgroundImage = "none";
-export const buttonSelectedHoverColor = "rgb(255, 255, 255)";
-export const buttonSelectedBackgroundColor = "rgb(0, 98, 227)";
-export const buttonPrimaryOnLightBackgroundImage = "none";
-export const buttonOutlineDisabledColor = "rgb(178, 178, 191)";
-export const buttonDestructiveDisabledColor = "rgba(0, 0, 0, 0.2)";
-export const buttonSecondaryBackgroundColor = "rgb(221, 221, 229)";
-export const buttonSecondaryOnDarkActiveBackgroundColor = "rgba(255, 255, 255, 0.2)";
-export const buttonDisabledBoxShadow = "none";
-export const buttonDestructiveDisabledBackgroundColor = "rgb(221, 221, 229)";
-export const buttonOutlineDisabledBackgroundColor = "rgb(221, 221, 229)";
-export const buttonLinkOnDarkActiveColor = "rgba(255, 255, 255, 0.6)";
-export const buttonSecondaryOnDarkActiveColor = "rgb(255, 255, 255)";
-export const buttonSecondaryColor = "rgb(8, 78, 178)";
-export const buttonSelectedBoxShadow = "none";
-export const buttonSecondaryHoverBorderColor = "rgb(0, 98, 227)";
-export const buttonSecondaryOnDarkBackgroundImage = "none";
-export const buttonSecondaryActiveBackgroundImage = "none";
-export const buttonSelectedActiveBackgroundImage = "none";
-export const buttonSecondaryBoxShadow = "0 0 0 2px #DDDDE5 inset";
-export const buttonIconBorderRadius = "1.125rem";
-export const buttonPrimaryOnLightHoverBackgroundImage = "none";
-export const buttonSelectedColor = "rgb(255, 255, 255)";
-export const buttonSelectedHoverBackgroundColor = "rgb(8, 78, 178)";
-export const buttonLargePaddingXIconOnly = ".5625rem";
-export const buttonSecondaryOnDarkDisabledBackgroundImage = "none";
-export const buttonPrimaryOnLightActiveBackgroundColor = "rgb(104, 105, 127)";
-export const buttonPrimaryOnDarkHoverColor = "rgb(22, 22, 22)";
-export const buttonSecondaryHoverBackgroundColor = "rgb(205, 205, 215)";
-export const buttonDisabledColor = "rgba(0, 0, 0, 0.2)";
-export const buttonDestructiveDisabledBoxShadow = "none";
-export const buttonOutlineDisabledBoxShadow = "none";
-export const buttonFeaturedBackgroundImage = "#0062E3";
-export const buttonPrimaryOnLightDisabledBackgroundImage = "none";
-export const buttonIconBorderRadiusLg = "1.3125rem";
-export const buttonSecondaryOnDarkHoverBackgroundImage = "none";
-export const buttonSelectedHoverBoxShadow = "none";
-export const buttonFeaturedActiveColor = "rgb(255, 255, 255)";
-export const buttonSecondaryHoverBoxShadow = "0 0 0 2px #0062E3 inset";
-export const buttonPaddingXIconOnly = ".5625rem";
-export const buttonPrimaryOnDarkActiveBackgroundImage = "none";
-export const buttonPrimaryOnDarkColor = "rgb(22, 22, 22)";
-export const buttonPrimaryOnLightBackgroundColor = "rgb(17, 18, 54)";
-export const buttonFeaturedHoverBackgroundImage = "none";
-export const buttonSecondaryActiveBorderColor = "rgb(8, 78, 178)";
-export const buttonFeaturedDisabledBackgroundColor = "rgb(221, 221, 229)";
-export const buttonHoverColor = "rgb(255, 255, 255)";
-export const buttonSecondaryOnDarkBackgroundColor = "rgba(255, 255, 255, 0.1)";
-export const buttonSecondaryActiveBackgroundColor = "rgb(178, 178, 191)";
-export const buttonPrimaryOnDarkDisabledColor = "rgba(0, 0, 0, 0.2)";
-export const buttonDestructiveActiveColor = "rgb(255, 255, 255)";
-export const buttonSecondaryOnDarkDisabledBackgroundColor = "rgb(221, 221, 229)";
-export const buttonOutlineBackgroundImage = "none";
-export const buttonSelectedActiveBackgroundColor = "rgb(4, 39, 89)";
 export const buttonHeight = "2.25rem";
-export const buttonPrimaryOnLightHoverBackgroundColor = "rgb(68, 69, 96)";
-export const buttonSecondaryDisabledBackgroundImage = "none";
-export const buttonSecondaryActiveBoxShadow = "0 0 0 3px #084eb2 inset";
-export const buttonActiveBackgroundImage = "none";
-export const buttonSecondaryOnDarkHoverBackgroundColor = "rgba(255, 255, 255, 0.15)";
-export const buttonDestructiveHoverColor = "rgb(255, 255, 255)";
-export const buttonSelectedActiveBoxShadow = "none";
-export const buttonFeaturedBackgroundColor = "rgb(0, 98, 227)";
-export const buttonPrimaryOnLightDisabledBackgroundColor = "rgb(221, 221, 229)";
-export const buttonColor = "rgb(255, 255, 255)";
-export const buttonActiveColor = "rgb(255, 255, 255)";
-export const buttonDestructiveHoverBackgroundImage = "none";
 export const buttonBorderRadius = ".5rem";
-export const buttonSecondaryDisabledColor = "rgb(178, 178, 191)";
 export const buttonLargeHeight = "3rem";
-export const buttonPrimaryOnDarkActiveBackgroundColor = "rgb(205, 205, 215)";
-export const buttonLargePaddingX = "1.5rem";
-export const buttonDestructiveColor = "rgb(178, 46, 69)";
-export const buttonOutlineColor = "rgb(255, 255, 255)";
-export const buttonFeaturedHoverBackgroundColor = "rgb(8, 78, 178)";
-export const buttonLargePaddingY = ".375rem";
-export const buttonPrimaryOnDarkDisabledBackgroundImage = "none";
-export const buttonOutlineBorderColor = "rgb(255, 255, 255)";
-export const buttonDestructiveBorderColor = "rgb(221, 221, 229)";
-export const buttonHoverBackgroundImage = "none";
-export const buttonFeaturedHoverBoxShadow = "none";
-export const buttonFontWeight = "700";
-export const buttonDestructiveBackgroundColor = "rgb(221, 221, 229)";
-export const buttonFeaturedHoverColor = "rgb(255, 255, 255)";
-export const buttonOutlineBackgroundColor = "rgba(0, 0, 0, 0)";
-export const buttonOutlineHoverBorderColor = "rgb(255, 255, 255)";
-export const buttonDestructiveHoverBorderColor = "rgb(209, 67, 91)";
-export const buttonPrimaryOnDarkActiveColor = "rgb(22, 22, 22)";
-export const buttonPrimaryOnDarkBackgroundImage = "none";
-export const buttonSecondaryDisabledBackgroundColor = "rgb(221, 221, 229)";
-export const buttonGradientEndColor = "rgb(0, 166, 152)";
-export const buttonPaddingX = "1.125rem";
-export const buttonDestructiveBoxShadow = "0 0 0 2px #DDDDE5 inset";
-export const buttonPaddingY = ".375rem";
-export const buttonActiveBackgroundColor = "rgb(0, 106, 97)";
-export const buttonSecondaryDisabledBoxShadow = "none";
-export const buttonPrimaryOnLightDisabledColor = "rgba(0, 0, 0, 0.2)";
-export const buttonFeaturedColor = "rgb(255, 255, 255)";
-export const buttonOutlineHoverBackgroundColor = "rgba(0, 0, 0, 0)";
-export const buttonDestructiveHoverBackgroundColor = "rgb(209, 67, 91)";
-export const buttonFeaturedActiveBackgroundImage = "none";
-export const buttonSecondaryOnDarkHoverColor = "rgb(255, 255, 255)";
-export const buttonLinkOnDarkHoverColor = "rgba(255, 255, 255, 0.8)";
-export const buttonBackgroundColor = "rgb(0, 166, 152)";
-export const buttonDestructiveActiveBorderColor = "rgb(209, 67, 91)";
-export const buttonOutlineActiveBorderColor = "rgb(255, 255, 255)";
 export const calendarDaySelectedColor = "rgb(255, 255, 255)";
 export const calendarDayDisabledColor = "rgba(0, 0, 0, 0.2)";
 export const calendarDayOutsideColor = "rgba(0, 0, 0, 0.2)";
@@ -545,6 +399,7 @@ export const fontSizeXxxl = "2.5rem";
 export const textXxxxlFontWeight = "400";
 export const textXxlFontWeight = "400";
 export const textXlLetterSpacing = "normal";
+export const buttonFontSize = "1.1875rem";
 export const linkAlternateVisitedColor = "rgb(255, 255, 255)";
 export const listMarginTop = "1rem";
 export const linkWhiteActiveColor = "rgb(255, 255, 255)";
@@ -748,154 +603,9 @@ privateButtonPrimaryOnLightPressedBackgroundNight,
 privateButtonFeaturedNormalBackgroundNight,
 };
 export const buttons = {
-buttonTextAlign,
-buttonActiveBoxShadow,
-buttonSelectedDisabledBoxShadow,
-buttonLargeFontSize,
-buttonDisabledBackgroundImage,
-buttonPrimaryOnDarkHoverBackgroundImage,
-buttonSecondaryOnDarkDisabledColor,
-buttonDestructiveHoverBoxShadow,
-buttonLargeLineHeight,
-buttonSelectedBackgroundImage,
-buttonBoxShadow,
-buttonPrimaryOnLightHoverColor,
-buttonSelectedActiveColor,
-buttonDestructiveActiveBackgroundColor,
-buttonOutlineActiveBackgroundColor,
-buttonLinkOnDarkDisabledColor,
-buttonHoverBackgroundColor,
-buttonSecondaryActiveColor,
-buttonSecondaryOnDarkColor,
-buttonLinkOnDarkColor,
-buttonPrimaryOnDarkDisabledBackgroundColor,
-buttonSecondaryBackgroundImage,
-buttonSecondaryOnDarkActiveBackgroundImage,
-buttonDestructiveDisabledBackgroundImage,
-buttonOutlineDisabledBackgroundImage,
-buttonDestructiveActiveBoxShadow,
-buttonPrimaryOnLightColor,
-buttonSelectedHoverBackgroundImage,
-buttonGradientStartColor,
-buttonPrimaryOnLightActiveBackgroundImage,
-buttonHoverBoxShadow,
-buttonOutlineHoverBorderOpacity,
-buttonLineHeight,
-buttonSecondaryHoverBackgroundImage,
-buttonPrimaryOnDarkBackgroundColor,
-buttonFeaturedActiveBackgroundColor,
-buttonDisabledBackgroundColor,
-buttonPrimaryOnDarkHoverBackgroundColor,
-buttonSecondaryBorderColor,
-buttonSecondaryHoverColor,
-buttonFeaturedActiveBoxShadow,
-buttonPrimaryOnLightActiveColor,
-buttonFeaturedDisabledBackgroundImage,
-buttonSelectedHoverColor,
-buttonSelectedBackgroundColor,
-buttonPrimaryOnLightBackgroundImage,
-buttonOutlineDisabledColor,
-buttonDestructiveDisabledColor,
-buttonSecondaryBackgroundColor,
-buttonSecondaryOnDarkActiveBackgroundColor,
-buttonDisabledBoxShadow,
-buttonDestructiveDisabledBackgroundColor,
-buttonOutlineDisabledBackgroundColor,
-buttonLinkOnDarkActiveColor,
-buttonSecondaryOnDarkActiveColor,
-buttonSecondaryColor,
-buttonSelectedBoxShadow,
-buttonSecondaryHoverBorderColor,
-buttonSecondaryOnDarkBackgroundImage,
-buttonSecondaryActiveBackgroundImage,
-buttonSelectedActiveBackgroundImage,
-buttonSecondaryBoxShadow,
-buttonIconBorderRadius,
-buttonPrimaryOnLightHoverBackgroundImage,
-buttonSelectedColor,
-buttonSelectedHoverBackgroundColor,
-buttonLargePaddingXIconOnly,
-buttonSecondaryOnDarkDisabledBackgroundImage,
-buttonPrimaryOnLightActiveBackgroundColor,
-buttonPrimaryOnDarkHoverColor,
-buttonSecondaryHoverBackgroundColor,
-buttonDisabledColor,
-buttonDestructiveDisabledBoxShadow,
-buttonOutlineDisabledBoxShadow,
-buttonFeaturedBackgroundImage,
-buttonPrimaryOnLightDisabledBackgroundImage,
-buttonIconBorderRadiusLg,
-buttonSecondaryOnDarkHoverBackgroundImage,
-buttonSelectedHoverBoxShadow,
-buttonFeaturedActiveColor,
-buttonSecondaryHoverBoxShadow,
-buttonPaddingXIconOnly,
-buttonPrimaryOnDarkActiveBackgroundImage,
-buttonPrimaryOnDarkColor,
-buttonPrimaryOnLightBackgroundColor,
-buttonFeaturedHoverBackgroundImage,
-buttonSecondaryActiveBorderColor,
-buttonFeaturedDisabledBackgroundColor,
-buttonHoverColor,
-buttonSecondaryOnDarkBackgroundColor,
-buttonSecondaryActiveBackgroundColor,
-buttonPrimaryOnDarkDisabledColor,
-buttonDestructiveActiveColor,
-buttonSecondaryOnDarkDisabledBackgroundColor,
-buttonOutlineBackgroundImage,
-buttonSelectedActiveBackgroundColor,
 buttonHeight,
-buttonPrimaryOnLightHoverBackgroundColor,
-buttonSecondaryDisabledBackgroundImage,
-buttonSecondaryActiveBoxShadow,
-buttonActiveBackgroundImage,
-buttonSecondaryOnDarkHoverBackgroundColor,
-buttonDestructiveHoverColor,
-buttonSelectedActiveBoxShadow,
-buttonFeaturedBackgroundColor,
-buttonPrimaryOnLightDisabledBackgroundColor,
-buttonColor,
-buttonActiveColor,
-buttonDestructiveHoverBackgroundImage,
 buttonBorderRadius,
-buttonSecondaryDisabledColor,
 buttonLargeHeight,
-buttonPrimaryOnDarkActiveBackgroundColor,
-buttonLargePaddingX,
-buttonDestructiveColor,
-buttonOutlineColor,
-buttonFeaturedHoverBackgroundColor,
-buttonLargePaddingY,
-buttonPrimaryOnDarkDisabledBackgroundImage,
-buttonOutlineBorderColor,
-buttonDestructiveBorderColor,
-buttonHoverBackgroundImage,
-buttonFeaturedHoverBoxShadow,
-buttonFontWeight,
-buttonDestructiveBackgroundColor,
-buttonFeaturedHoverColor,
-buttonOutlineBackgroundColor,
-buttonOutlineHoverBorderColor,
-buttonDestructiveHoverBorderColor,
-buttonPrimaryOnDarkActiveColor,
-buttonPrimaryOnDarkBackgroundImage,
-buttonSecondaryDisabledBackgroundColor,
-buttonGradientEndColor,
-buttonPaddingX,
-buttonDestructiveBoxShadow,
-buttonPaddingY,
-buttonActiveBackgroundColor,
-buttonSecondaryDisabledBoxShadow,
-buttonPrimaryOnLightDisabledColor,
-buttonFeaturedColor,
-buttonOutlineHoverBackgroundColor,
-buttonDestructiveHoverBackgroundColor,
-buttonFeaturedActiveBackgroundImage,
-buttonSecondaryOnDarkHoverColor,
-buttonLinkOnDarkHoverColor,
-buttonBackgroundColor,
-buttonDestructiveActiveBorderColor,
-buttonOutlineActiveBorderColor,
 };
 export const calendar = {
 calendarDaySelectedColor,
@@ -1009,8 +719,8 @@ flareHeightMobile,
 flareCornerRadius,
 };
 export const fontSizes = {
-buttonFontSize,
 h6FontSize,
+buttonFontSize,
 textXxxxlFontSize,
 textXxlFontSize,
 textBaseFontSize,
