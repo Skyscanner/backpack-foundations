@@ -268,24 +268,8 @@ export const breakpointDesktopMargin = "3rem";
 export const buttonHeight = "2.25rem";
 export const buttonBorderRadius = ".5rem";
 export const buttonLargeHeight = "3rem";
-export const calendarDaySelectedColor = "rgb(255, 255, 255)";
-export const calendarDayDisabledColor = "rgba(0, 0, 0, 0.2)";
-export const calendarDayOutsideColor = "rgba(0, 0, 0, 0.2)";
-export const calendarDaySize = "2.25rem";
-export const calendarDayActiveBackgroundColor = "rgb(239, 241, 242)";
-export const calendarNavIconFill = "rgb(22, 22, 22)";
-export const calendarDayActiveColor = "rgb(22, 22, 22)";
-export const calendarNavIconHoverFill = "rgb(22, 22, 22)";
-export const calendarPadding = ".75rem";
-export const calendarDaySelectedBackgroundColor = "rgb(0, 98, 227)";
-export const calendarNavIconActiveFill = "rgb(22, 22, 22)";
-export const calendarDayFocusedColor = "rgb(0, 98, 227)";
-export const calendarDayHoverBackgroundColor = "rgb(239, 241, 242)";
-export const calendarDayFocusedBorderColor = "rgb(0, 98, 227)";
-export const calendarDayHoverColor = "rgb(22, 22, 22)";
-export const calendarNavIconDisabledFill = "rgba(0, 0, 0, 0.2)";
-export const calendarDayColor = "rgb(22, 22, 22)";
 export const calendarDaySpacing = ".5rem";
+export const calendarDaySize = "2.25rem";
 export const cardBackgroundColor = "rgb(255, 255, 255)";
 export const cardPadding = "1rem";
 export const primaryGradient = "#0062E3";
@@ -608,24 +592,8 @@ buttonBorderRadius,
 buttonLargeHeight,
 };
 export const calendar = {
-calendarDaySelectedColor,
-calendarDayDisabledColor,
-calendarDayOutsideColor,
-calendarDaySize,
-calendarDayActiveBackgroundColor,
-calendarNavIconFill,
-calendarDayActiveColor,
-calendarNavIconHoverFill,
-calendarPadding,
-calendarDaySelectedBackgroundColor,
-calendarNavIconActiveFill,
-calendarDayFocusedColor,
-calendarDayHoverBackgroundColor,
-calendarDayFocusedBorderColor,
-calendarDayHoverColor,
-calendarNavIconDisabledFill,
-calendarDayColor,
 calendarDaySpacing,
+calendarDaySize,
 };
 export const canvasColors = {
 canvasDay,
