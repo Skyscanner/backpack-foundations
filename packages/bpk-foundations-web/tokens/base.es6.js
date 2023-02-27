@@ -528,115 +528,40 @@ export const spacingIconText = ".5rem";
 export const spacingXs = ".375rem";
 export const spacingLg = "1.875rem";
 export const stateSelectedBackgroundColor = "rgb(8, 78, 178)";
-export const textLgLineHeight = "1.75rem";
 export const fontWeightBook = "400";
 export const lineHeightXlTight = "1.75rem";
-export const textXsLineHeight = "1rem";
-export const h5LineHeight = "1rem";
-export const h6FontSize = ".75rem";
-export const headingMarginTop = "0";
 export const lineHeightXxxxxl = "4.5rem";
-export const h6LineHeight = "1rem";
 export const lineHeightXxxl = "3rem";
 export const lineHeightXl = "2rem";
 export const fontSizeXl = "1.5rem";
 export const fontSizeXxxxxl = "4rem";
 export const fontSizeXxxl = "2.5rem";
-export const textXxxxlFontWeight = "400";
-export const textXxlFontWeight = "400";
-export const textXlLetterSpacing = "normal";
-export const linkAlternateVisitedColor = "rgb(255, 255, 255)";
-export const listMarginTop = "1rem";
-export const linkWhiteActiveColor = "rgb(255, 255, 255)";
-export const linkWhiteHoverColor = "rgb(255, 255, 255)";
-export const textBaseLetterSpacing = "normal";
 export const headingContentMarginTop = "1.875rem";
 export const lineHeightSm = "1.25rem";
 export const lineHeightLgTight = "1.5rem";
 export const lineHeightLg = "1.75rem";
 export const fontWeightBlack = "900";
 export const lineHeightXs = "1rem";
-export const linkWhiteColor = "rgb(255, 255, 255)";
 export const fontSizeSm = ".875rem";
 export const fontSizeXs = ".75rem";
 export const letterSpacingTight = "-0.02em";
-export const linkVisitedColor = "rgb(0, 98, 227)";
 export const fontSizeLg = "1.25rem";
-export const listNestedMarginTop = "0";
-export const textXxxxlFontSize = "3rem";
-export const textBaseFontWeight = "400";
-export const textXxlFontSize = "2rem";
-export const pMarginBottom = ".75rem";
-export const textXxlLineHeight = "2.5rem";
-export const textXxxxlLineHeight = "3.5rem";
-export const textXxlLetterSpacing = "normal";
-export const textXlFontWeight = "400";
-export const linkActiveColor = "rgb(0, 98, 227)";
-export const textXxxxxlFontWeight = "400";
-export const listItemMarginTop = "0";
-export const textXxxlFontWeight = "400";
 export const fontSizeRoot = "100%";
-export const listItemMarginBottom = ".25rem";
-export const h1FontWeight = "400";
-export const linkWhiteVisitedColor = "rgb(255, 255, 255)";
-export const h2FontWeight = "400";
-export const pMarginTop = "0";
-export const linkAlternateActiveColor = "rgb(255, 255, 255)";
-export const h3FontWeight = "400";
-export const listNestedMarginBottom = "0";
-export const h4FontWeight = "700";
-export const textSmFontWeight = "400";
-export const textBaseFontSize = "1rem";
-export const h5FontWeight = "700";
-export const textBaseLineHeight = "1.5rem";
-export const textLgFontWeight = "400";
-export const textXsFontWeight = "400";
-export const linkAlternateHoverColor = "rgb(255, 255, 255)";
-export const h6FontWeight = "700";
-export const textXlFontSize = "1.5rem";
-export const textXxxxxlFontSize = "4rem";
-export const textXxxlFontSize = "2.5rem";
-export const textXlLineHeight = "2rem";
-export const linkAlternateColor = "rgb(255, 255, 255)";
-export const textXxxxxlLineHeight = "4.5rem";
-export const textXxxlLineHeight = "3rem";
-export const linkHoverTextDecoration = "underline";
-export const linkHoverColor = "rgb(0, 98, 227)";
-export const h1FontSize = "3rem";
-export const listMarginBottom = "1rem";
-export const textXsLetterSpacing = "normal";
-export const h2FontSize = "2rem";
-export const h1LineHeight = "3rem";
-export const textLgLetterSpacing = "normal";
 export const fontSize6Xl = "4.75rem";
 export const fontFamilyBase = "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif";
 export const fontWeightBold = "700";
 export const fontColorBase = "rgb(22, 22, 22)";
 export const lineHeightBaseTight = "1.25rem";
-export const linkTextDecoration = "none";
 export const fontSize7Xl = "6rem";
-export const textSmLetterSpacing = "normal";
-export const h3FontSize = "1.5rem";
 export const lineHeight6Xl = "5.25rem";
-export const h2LineHeight = "2.5rem";
-export const textSmFontSize = ".875rem";
 export const fontSize8Xl = "7.5rem";
 export const fontSizeXxl = "2rem";
-export const h4FontSize = "1rem";
-export const h3LineHeight = "2rem";
 export const fontSizeXxxxl = "3rem";
-export const linkColor = "rgb(0, 98, 227)";
 export const lineHeightBase = "1.5rem";
 export const lineHeight7Xl = "6rem";
 export const fontSizeBase = "1rem";
-export const h4LineHeight = "1.5rem";
-export const h5FontSize = ".75rem";
-export const textLgFontSize = "1.25rem";
-export const headingMarginBottom = ".75rem";
-export const textSmLineHeight = "1.25rem";
 export const lineHeight8Xl = "7.5rem";
 export const lineHeightXxl = "2.5rem";
-export const textXsFontSize = ".75rem";
 export const lineHeightXxxxl = "3.5rem";
 export const zindexAutosuggest = "900";
 export const zindexPopover = "900";
@@ -776,6 +701,7 @@ buttonOutlineDisabledBackgroundImage,
 buttonDestructiveActiveBoxShadow,
 buttonPrimaryOnLightColor,
 buttonSelectedHoverBackgroundImage,
+buttonFontSize,
 buttonGradientStartColor,
 buttonPrimaryOnLightActiveBackgroundImage,
 buttonHoverBoxShadow,
@@ -1008,42 +934,9 @@ flareHeightDesktop,
 flareHeightMobile,
 flareCornerRadius,
 };
-export const fontSizes = {
-buttonFontSize,
-h6FontSize,
-textXxxxlFontSize,
-textXxlFontSize,
-textBaseFontSize,
-textXlFontSize,
-textXxxxxlFontSize,
-textXxxlFontSize,
-h1FontSize,
-h2FontSize,
-h3FontSize,
-textSmFontSize,
-h4FontSize,
-h5FontSize,
-textLgFontSize,
-textXsFontSize,
-};
 export const fontWeights = {
 fontWeightBook,
-textXxxxlFontWeight,
-textXxlFontWeight,
 fontWeightBlack,
-textBaseFontWeight,
-textXlFontWeight,
-textXxxxxlFontWeight,
-textXxxlFontWeight,
-h1FontWeight,
-h2FontWeight,
-h3FontWeight,
-h4FontWeight,
-textSmFontWeight,
-h5FontWeight,
-textLgFontWeight,
-textXsFontWeight,
-h6FontWeight,
 fontWeightBold,
 };
 export const forms = {
@@ -1100,36 +993,13 @@ iconSizeSm,
 iconSizeLg,
 };
 export const letterSpacings = {
-textXlLetterSpacing,
-textBaseLetterSpacing,
 letterSpacingTight,
-textXxlLetterSpacing,
-textXsLetterSpacing,
-textLgLetterSpacing,
-textSmLetterSpacing,
 };
 export const lineColors = {
 lineOnDarkNight,
 lineOnDarkDay,
 lineNight,
 lineDay,
-};
-export const lineHeights = {
-textLgLineHeight,
-textXsLineHeight,
-h5LineHeight,
-h6LineHeight,
-textXxlLineHeight,
-textXxxxlLineHeight,
-textBaseLineHeight,
-textXlLineHeight,
-textXxxxxlLineHeight,
-textXxxlLineHeight,
-h1LineHeight,
-h2LineHeight,
-h3LineHeight,
-h4LineHeight,
-textSmLineHeight,
 };
 export const marcommsColors = {
 marcommsBerry,
@@ -1222,17 +1092,7 @@ spacingSm,
 spacingIconText,
 spacingXs,
 spacingLg,
-headingMarginTop,
-listMarginTop,
 headingContentMarginTop,
-listNestedMarginTop,
-pMarginBottom,
-listItemMarginTop,
-listItemMarginBottom,
-pMarginTop,
-listNestedMarginBottom,
-listMarginBottom,
-headingMarginBottom,
 };
 export const states = {
 stateSelectedBackgroundColor,
@@ -1294,23 +1154,7 @@ backgroundElevation01DarkColor,
 backgroundElevation01LightColor,
 backgroundElevation02LightColor,
 backgroundElevation03LightColor,
-linkAlternateVisitedColor,
-linkWhiteActiveColor,
-linkWhiteHoverColor,
-linkWhiteColor,
-linkVisitedColor,
-linkActiveColor,
-linkWhiteVisitedColor,
-linkAlternateActiveColor,
-linkAlternateHoverColor,
-linkAlternateColor,
-linkHoverColor,
 fontColorBase,
-linkColor,
-};
-export const textDecorations = {
-linkHoverTextDecoration,
-linkTextDecoration,
 };
 export const typesettings = {
 lineHeightXlTight,
