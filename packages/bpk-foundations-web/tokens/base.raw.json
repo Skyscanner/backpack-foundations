@@ -3610,14 +3610,6 @@
       "originalValue": "{!WHITE}",
       "name": "CARD_BACKGROUND_COLOR"
     },
-    "CARD_COLOR": {
-      "category": "cards",
-      "value": "rgb(22, 22, 22)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!CHARCOAL}",
-      "name": "CARD_COLOR"
-    },
     "CARD_PADDING": {
       "category": "cards",
       "value": "1rem",
@@ -4030,68 +4022,12 @@
       "originalValue": "{!BREAKPOINT_TABLET}",
       "name": "MODAL_WIDE_MAX_WIDTH"
     },
-    "MODAL_HEADER_PADDING": {
-      "category": "modals",
-      "value": ".75rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_SM}",
-      "name": "MODAL_HEADER_PADDING"
-    },
     "MODAL_CONTENT_PADDING": {
       "category": "modals",
       "value": "1rem",
       "type": "size",
       "originalValue": "{!SPACING_BASE_V2}",
       "name": "MODAL_CONTENT_PADDING"
-    },
-    "SCRIM_BACKGROUND_COLOR": {
-      "category": "scrims",
-      "value": "rgb(178, 178, 191)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_04}",
-      "name": "SCRIM_BACKGROUND_COLOR"
-    },
-    "SCRIM_INITIAL_OPACITY": {
-      "category": "scrims",
-      "value": "0",
-      "type": "number",
-      "deprecated": true,
-      "originalValue": "0",
-      "name": "SCRIM_INITIAL_OPACITY"
-    },
-    "SCRIM_OPACITY": {
-      "category": "scrims",
-      "value": ".7",
-      "type": "number",
-      "deprecated": true,
-      "originalValue": ".7",
-      "name": "SCRIM_OPACITY"
-    },
-    "SCRIM_MOBILE_OPACITY": {
-      "category": "scrims",
-      "value": "1",
-      "type": "number",
-      "deprecated": true,
-      "originalValue": "1",
-      "name": "SCRIM_MOBILE_OPACITY"
-    },
-    "SCRIM_DARK_BACKGROUND_COLOR": {
-      "category": "scrims",
-      "value": "rgb(17, 18, 54)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY}",
-      "name": "SCRIM_DARK_BACKGROUND_COLOR"
-    },
-    "SCRIM_DARK_OPACITY": {
-      "category": "scrims",
-      "value": ".95",
-      "type": "number",
-      "deprecated": true,
-      "originalValue": ".95",
-      "name": "SCRIM_DARK_OPACITY"
     },
     "BANNER_ALERT_CHILDREN_PADDING_X": {
       "category": "notifications",
@@ -4206,28 +4142,12 @@
       "originalValue": "{!GREY_10}",
       "name": "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR"
     },
-    "PANEL_PADDING": {
-      "category": "panels",
-      "value": ".75rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_SM}",
-      "name": "PANEL_PADDING"
-    },
     "PANEL_BORDER_COLOR": {
       "category": "panels",
       "value": "rgb(194, 201, 205)",
       "type": "color",
       "originalValue": "{!GREY_30}",
       "name": "PANEL_BORDER_COLOR"
-    },
-    "PANEL_BACKGROUND_COLOR": {
-      "category": "panels",
-      "value": "rgb(255, 255, 255)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "PANEL_BACKGROUND_COLOR"
     },
     "RATING_BASE_WIDTH": {
       "category": "ratings",

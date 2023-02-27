@@ -433,7 +433,6 @@ export const calendarNavIconDisabledFill = "rgba(0, 0, 0, 0.2)";
 export const calendarDayColor = "rgb(22, 22, 22)";
 export const calendarDaySpacing = ".5rem";
 export const cardBackgroundColor = "rgb(255, 255, 255)";
-export const cardColor = "rgb(22, 22, 22)";
 export const cardPadding = "1rem";
 export const primaryGradient = "#0062E3";
 export const flareHeightDesktop = "1.5rem";
@@ -489,14 +488,7 @@ export const modalInitialOpacity = "0";
 export const modalOpacity = "1";
 export const modalMaxWidth = "32rem";
 export const modalWideMaxWidth = "64rem";
-export const modalHeaderPadding = ".75rem";
 export const modalContentPadding = "1rem";
-export const scrimBackgroundColor = "rgb(178, 178, 191)";
-export const scrimInitialOpacity = "0";
-export const scrimOpacity = ".7";
-export const scrimMobileOpacity = "1";
-export const scrimDarkBackgroundColor = "rgb(17, 18, 54)";
-export const scrimDarkOpacity = ".95";
 export const bannerAlertChildrenPaddingX = ".75rem";
 export const bannerAlertWarnColor = "rgb(245, 93, 66)";
 export const bannerAlertChildrenPaddingY = ".375rem";
@@ -512,9 +504,7 @@ export const bannerAlertErrorColor = "rgb(231, 8, 102)";
 export const bannerAlertChildrenColor = "rgb(84, 88, 96)";
 export const bannerAlertExpandIconFill = "rgb(84, 88, 96)";
 export const bannerAlertHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
-export const panelPadding = ".75rem";
 export const panelBorderColor = "rgb(194, 201, 205)";
-export const panelBackgroundColor = "rgb(255, 255, 255)";
 export const ratingBaseWidth = "3rem";
 export const ratingBaseHeight = "3rem";
 export const ratingSmWidth = "2.25rem";
@@ -935,7 +925,6 @@ canvasContrastNight,
 };
 export const cards = {
 cardBackgroundColor,
-cardColor,
 cardPadding,
 };
 export const chipColors = {
@@ -1167,7 +1156,6 @@ modalInitialOpacity,
 modalOpacity,
 modalMaxWidth,
 modalWideMaxWidth,
-modalHeaderPadding,
 modalContentPadding,
 };
 export const notifications = {
@@ -1188,9 +1176,7 @@ bannerAlertExpandIconFill,
 bannerAlertHeaderExpandableActiveBackgroundColor,
 };
 export const panels = {
-panelPadding,
 panelBorderColor,
-panelBackgroundColor,
 };
 export const radii = {
 borderRadiusPillLg,
@@ -1212,14 +1198,6 @@ ratingLgHeight,
 export const scrimColors = {
 scrimDay,
 scrimNight,
-};
-export const scrims = {
-scrimBackgroundColor,
-scrimInitialOpacity,
-scrimOpacity,
-scrimMobileOpacity,
-scrimDarkBackgroundColor,
-scrimDarkOpacity,
 };
 export const skeletonColors = {
 privateSkeletonShimmerStartEndDay,
