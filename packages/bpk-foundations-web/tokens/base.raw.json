@@ -2356,36 +2356,12 @@
       "originalValue": "{!BUTTON_LARGE_HEIGHT}",
       "name": "INPUT_LARGE_HEIGHT"
     },
-    "SELECT_COLOR": {
-      "category": "forms",
-      "value": "rgb(22, 22, 22)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!CHARCOAL}",
-      "name": "SELECT_COLOR"
-    },
     "INPUT_BORDER": {
       "category": "forms",
       "value": "solid .0625rem #C2C9CD",
       "type": "border",
       "originalValue": "solid {!ONE_PIXEL_REM} {!GREY_30}",
       "name": "INPUT_BORDER"
-    },
-    "INPUT_PLACEHOLDER_COLOR": {
-      "category": "forms",
-      "value": "rgba(0, 0, 0, 0.2)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "INPUT_PLACEHOLDER_COLOR"
-    },
-    "FORM_VALIDATION_ARROW_SIZE": {
-      "category": "forms",
-      "value": ".375rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_XS}",
-      "name": "FORM_VALIDATION_ARROW_SIZE"
     },
     "SELECT_BORDER_RADIUS": {
       "category": "forms",
@@ -2401,60 +2377,12 @@
       "originalValue": "{!WHITE}",
       "name": "INPUT_BACKGROUND"
     },
-    "SELECT_DISABLED_COLOR": {
-      "category": "forms",
-      "value": "rgba(0, 0, 0, 0.2)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "SELECT_DISABLED_COLOR"
-    },
-    "REQUIRED_COLOR": {
-      "category": "forms",
-      "value": "rgb(231, 8, 102)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!BERRY}",
-      "name": "REQUIRED_COLOR"
-    },
-    "SELECT_PADDING_TOP": {
-      "category": "forms",
-      "value": ".375rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_XS}",
-      "name": "SELECT_PADDING_TOP"
-    },
-    "LABEL_FONT_SIZE": {
-      "category": "forms",
-      "value": ".75rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XS}",
-      "name": "LABEL_FONT_SIZE"
-    },
-    "LABEL_LINE_HEIGHT": {
-      "category": "forms",
-      "value": "1rem",
-      "type": "number",
-      "deprecated": true,
-      "originalValue": "{!FONT_LINE_HEIGHT_XS}",
-      "name": "LABEL_LINE_HEIGHT"
-    },
     "INPUT_BORDER_WIDTH": {
       "category": "forms",
       "value": ".0625rem",
       "type": "size",
       "originalValue": "{!ONE_PIXEL_REM}",
       "name": "INPUT_BORDER_WIDTH"
-    },
-    "SELECT_HEIGHT": {
-      "category": "forms",
-      "value": "2.250rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_XL}",
-      "name": "SELECT_HEIGHT"
     },
     "LABEL_DISABLED_COLOR": {
       "category": "forms",
@@ -2463,52 +2391,12 @@
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "LABEL_DISABLED_COLOR"
     },
-    "SELECT_PADDING_RIGHT": {
-      "category": "forms",
-      "value": "1.875rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_LG}",
-      "name": "SELECT_PADDING_RIGHT"
-    },
-    "SELECT_LARGE_HEIGHT": {
-      "category": "forms",
-      "value": "2.625rem + .375rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_XXL} + {!SPACING_XS}",
-      "name": "SELECT_LARGE_HEIGHT"
-    },
-    "INPUT_COLOR": {
-      "category": "forms",
-      "value": "rgb(22, 22, 22)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!CHARCOAL}",
-      "name": "INPUT_COLOR"
-    },
-    "SELECT_BORDER": {
-      "category": "forms",
-      "value": "solid .0625rem #C2C9CD",
-      "type": "border",
-      "deprecated": true,
-      "originalValue": "solid {!ONE_PIXEL_REM} {!GREY_30}",
-      "name": "SELECT_BORDER"
-    },
     "INPUT_BORDER_RADIUS": {
       "category": "forms",
       "value": ".25rem",
       "type": "radius",
       "originalValue": "{!BORDER_RADIUS_XS}",
       "name": "INPUT_BORDER_RADIUS"
-    },
-    "RADIO_CHECKED_CIRCLE_COLOR": {
-      "category": "forms",
-      "value": "rgb(0, 98, 227)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "RADIO_CHECKED_CIRCLE_COLOR"
     },
     "SELECT_DISABLED_BORDER_COLOR": {
       "category": "forms",
@@ -2531,14 +2419,6 @@
       "originalValue": "{!SPACING_MD_V2}",
       "name": "INPUT_PADDING_X"
     },
-    "CHECKBOX_CHECKED_TICK_COLOR": {
-      "category": "forms",
-      "value": "rgb(0, 98, 227)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "CHECKBOX_CHECKED_TICK_COLOR"
-    },
     "INPUT_PADDING_Y": {
       "category": "forms",
       "value": ".5rem",
@@ -2553,36 +2433,12 @@
       "originalValue": "{!ONE_PIXEL_REM}",
       "name": "SELECT_BORDER_WIDTH"
     },
-    "SELECT_PADDING_LEFT": {
-      "category": "forms",
-      "value": ".75rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_SM}",
-      "name": "SELECT_PADDING_LEFT"
-    },
-    "LABEL_COLOR": {
-      "category": "forms",
-      "value": "rgb(22, 22, 22)",
-      "type": "color",
-      "deprecated": true,
-      "originalValue": "{!CHARCOAL}",
-      "name": "LABEL_COLOR"
-    },
     "FORM_VALIDATION_COLOR": {
       "category": "forms",
       "value": "rgb(231, 8, 102)",
       "type": "color",
       "originalValue": "{!BERRY}",
       "name": "FORM_VALIDATION_COLOR"
-    },
-    "TEXTAREA_MIN_HEIGHT": {
-      "category": "forms",
-      "value": "2.625rem * 2",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_XXL} * 2",
-      "name": "TEXTAREA_MIN_HEIGHT"
     },
     "INPUT_HEIGHT": {
       "category": "forms",
@@ -2591,52 +2447,12 @@
       "originalValue": "{!BUTTON_HEIGHT}",
       "name": "INPUT_HEIGHT"
     },
-    "SELECT_PADDING_BOTTOM": {
-      "category": "forms",
-      "value": ".375rem",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_XS}",
-      "name": "SELECT_PADDING_BOTTOM"
-    },
     "INPUT_DISABLED_BORDER_COLOR": {
       "category": "forms",
       "value": "rgb(239, 241, 242)",
       "type": "color",
       "originalValue": "{!GREY_10}",
       "name": "INPUT_DISABLED_BORDER_COLOR"
-    },
-    "GRID_COLUMNS": {
-      "category": "grids",
-      "deprecated": true,
-      "value": "12",
-      "type": "number",
-      "originalValue": "12",
-      "name": "GRID_COLUMNS"
-    },
-    "GRID_GUTTER": {
-      "category": "grids",
-      "deprecated": true,
-      "value": "1.5rem",
-      "type": "size",
-      "originalValue": "{!SPACING_BASE}",
-      "name": "GRID_GUTTER"
-    },
-    "GRID_CONTAINER_PADDING": {
-      "category": "grids",
-      "deprecated": true,
-      "value": "1.5rem",
-      "type": "size",
-      "originalValue": "{!SPACING_BASE}",
-      "name": "GRID_CONTAINER_PADDING"
-    },
-    "GRID_CONTAINER_MOBILE_PADDING": {
-      "category": "grids",
-      "deprecated": true,
-      "value": ".75rem",
-      "type": "size",
-      "originalValue": "{!SPACING_SM}",
-      "name": "GRID_CONTAINER_MOBILE_PADDING"
     },
     "HORIZONTAL_NAV_LINK_COLOR": {
       "type": "color",
@@ -2853,54 +2669,6 @@
       "originalValue": "{!GREY_30}",
       "name": "PANEL_BORDER_COLOR"
     },
-    "RATING_BASE_WIDTH": {
-      "category": "ratings",
-      "value": ".75rem * 4",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_SM} * 4",
-      "name": "RATING_BASE_WIDTH"
-    },
-    "RATING_BASE_HEIGHT": {
-      "category": "ratings",
-      "value": ".75rem * 4",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_SM} * 4",
-      "name": "RATING_BASE_HEIGHT"
-    },
-    "RATING_SM_WIDTH": {
-      "category": "ratings",
-      "value": ".75rem * 3",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_SM} * 3",
-      "name": "RATING_SM_WIDTH"
-    },
-    "RATING_SM_HEIGHT": {
-      "category": "ratings",
-      "value": ".75rem * 3",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_SM} * 3",
-      "name": "RATING_SM_HEIGHT"
-    },
-    "RATING_LG_WIDTH": {
-      "category": "ratings",
-      "value": "1.875rem * 2",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_LG} * 2",
-      "name": "RATING_LG_WIDTH"
-    },
-    "RATING_LG_HEIGHT": {
-      "category": "ratings",
-      "value": "1.875rem * 2",
-      "type": "size",
-      "deprecated": true,
-      "originalValue": "{!SPACING_LG} * 2",
-      "name": "RATING_LG_HEIGHT"
-    },
     "SPACING_FUNCTION_XXXXL": {
       "type": "function",
       "category": "spacings",
@@ -3076,14 +2844,6 @@
       "value": "@function bpk-spacing-xxxl() { @return 4rem; }",
       "originalValue": "@function bpk-spacing-xxxl() { @return {!SPACING_XXXL_V2}; }",
       "name": "SPACING_FUNCTION_XXXL"
-    },
-    "STATE_SELECTED_BACKGROUND_COLOR": {
-      "type": "color",
-      "category": "states",
-      "value": "rgb(8, 78, 178)",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE_SHADE_01}",
-      "name": "STATE_SELECTED_BACKGROUND_COLOR"
     },
     "TEXT_LG_LINE_HEIGHT": {
       "value": "1.75rem",
