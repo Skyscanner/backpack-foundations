@@ -2237,6 +2237,13 @@
       "originalValue": "{!BUTTON_LARGE_HEIGHT}",
       "name": "BUTTON_LARGE_HEIGHT"
     },
+    "PRIVATE_BUTTON_LINE_HEIGHT": {
+      "category": "buttons",
+      "value": "1.5rem",
+      "type": "number",
+      "originalValue": "{!SPACING_LG_V2}",
+      "name": "PRIVATE_BUTTON_LINE_HEIGHT"
+    },
     "CALENDAR_DAY_SPACING": {
       "category": "calendar",
       "value": ".5rem",
