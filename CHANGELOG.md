@@ -1,3 +1,17 @@
+# 2023-03-01
+
+**Fixed:**
+
+`bpk-mixins`: 40.0.0 => 40.1.0 </br>
+- Fix `bpk-icon-lg--align-to-large-button` and `bpk-spinner--align-to-large-button` mixins to use correct token
+- Fix `bpk-form-validation__container` to use correct token
+
+**Added:**
+
+`@skyscanner/bpk-foundations-web`: 15.0.0 => 15.1.0 </br>
+`bpk-mixins`: 40.0.0 => 40.1.0 </br>
+- Added private token for button line height
+
 # 2023-02-28
 
 **Breaking:**
