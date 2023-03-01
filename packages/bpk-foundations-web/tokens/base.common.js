@@ -263,6 +263,7 @@ module.exports = {
   buttonHeight: "2.25rem",
   buttonBorderRadius: ".5rem",
   buttonLargeHeight: "3rem",
+  privateButtonLineHeight: "1.5rem",
   calendarDaySpacing: ".5rem",
   calendarDaySize: "2.25rem",
   cardBackgroundColor: "rgb(255, 255, 255)",

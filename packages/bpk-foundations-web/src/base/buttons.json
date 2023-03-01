@@ -17,6 +17,10 @@
     "BUTTON_LARGE_HEIGHT": {
       "value": "{!BUTTON_LARGE_HEIGHT}",
       "type":"size"
+    },
+    "PRIVATE_BUTTON_LINE_HEIGHT": {
+      "value": "{!SPACING_LG_V2}",
+      "type": "number"
     }
   }
 }

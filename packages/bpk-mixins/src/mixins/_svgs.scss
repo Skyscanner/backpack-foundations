@@ -71,7 +71,7 @@
 /// @access private
 
 @mixin _bpk-svg--align-to-large-button() {
-  margin-top: ($bpk-button-large-line-height - $bpk-icon-size-lg) / 2;
+  margin-top: ($bpk-private-button-line-height - $bpk-icon-size-lg) / 2;
   vertical-align: top;
 }
 

@@ -382,8 +382,8 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-select--large {
   height: $bpk-input-large-height;
-  padding: bpk-spacing-md() bpk-spacing-xxl() bpk-spacing-md()
-    bpk-spacing-base();
+  padding: bpk-spacing-md() bpk-spacing-base();
+  padding-right: bpk-spacing-xxl();
   background: $bpk-surface-default-day
     url(map-get($bpk-icons-sm, arrow-down-charcoal)) no-repeat right
     bpk-spacing-base() center;
@@ -953,7 +953,7 @@ $bpk-spacing-v2: true;
 
 @mixin bpk-form-validation__container {
   margin-top: bpk-spacing-md();
-  font-size: $bpk-text-xs-font-size;
+  font-size: $bpk-font-size-xs;
 }
 
 /// Form textarea.

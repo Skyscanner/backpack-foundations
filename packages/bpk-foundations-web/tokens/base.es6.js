@@ -261,6 +261,7 @@ export const breakpointDesktopMargin = "3rem";
 export const buttonHeight = "2.25rem";
 export const buttonBorderRadius = ".5rem";
 export const buttonLargeHeight = "3rem";
+export const privateButtonLineHeight = "1.5rem";
 export const calendarDaySpacing = ".5rem";
 export const calendarDaySize = "2.25rem";
 export const cardBackgroundColor = "rgb(255, 255, 255)";
@@ -454,6 +455,7 @@ export const buttons = {
 buttonHeight,
 buttonBorderRadius,
 buttonLargeHeight,
+privateButtonLineHeight,
 };
 export const calendar = {
 calendarDaySpacing,
