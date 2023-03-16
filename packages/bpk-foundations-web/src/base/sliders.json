@@ -1,0 +1,15 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "type": "color",
+    "category": "slider-colors"
+  },
+  "props": {
+    "PRIVATE_SLIDER_SELECTED_DAY": {
+      "value": "{!DARK_SKY_85}",
+      "type": "color"
+    }
+  }
+}

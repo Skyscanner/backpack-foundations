@@ -587,6 +587,8 @@ $bpk-banner-alert-error-color: rgb(231, 8, 102);
 $bpk-banner-alert-neutral-color: rgb(194, 201, 205);
 /// @group panels
 $bpk-panel-border-color: rgb(194, 201, 205);
+/// @group slider-colors
+$bpk-private-slider-selected-day: rgb(21, 70, 121);
 /// @group spacings
 @function bpk-spacing-xxxxl() { @return 6rem; }
 /// @group spacings

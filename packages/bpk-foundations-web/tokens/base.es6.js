@@ -302,6 +302,7 @@ export const bannerAlertWarnColor = "rgb(245, 93, 66)";
 export const bannerAlertErrorColor = "rgb(231, 8, 102)";
 export const bannerAlertNeutralColor = "rgb(194, 201, 205)";
 export const panelBorderColor = "rgb(194, 201, 205)";
+export const privateSliderSelectedDay = "rgb(21, 70, 121)";
 export const spacingLgV2 = "1.5rem";
 export const spacingSmV2 = ".25rem";
 export const onePixelRem = ".0625rem";
@@ -647,6 +648,9 @@ privateSkeletonShimmerStartEndDay,
 privateSkeletonShimmerStartEndNight,
 privateSkeletonShimmerCenterDay,
 privateSkeletonShimmerCenterNight,
+};
+export const sliderColors = {
+privateSliderSelectedDay,
 };
 export const spacings = {
 spacingLgV2,

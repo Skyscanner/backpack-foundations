@@ -2524,6 +2524,13 @@
       "originalValue": "{!GREY_30}",
       "name": "PANEL_BORDER_COLOR"
     },
+    "PRIVATE_SLIDER_SELECTED_DAY": {
+      "type": "color",
+      "category": "slider-colors",
+      "value": "rgb(21, 70, 121)",
+      "originalValue": "{!DARK_SKY_85}",
+      "name": "PRIVATE_SLIDER_SELECTED_DAY"
+    },
     "SPACING_FUNCTION_XXXXL": {
       "type": "function",
       "category": "spacings",
