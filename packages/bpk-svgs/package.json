@@ -1,6 +1,6 @@
 {
   "name": "@skyscanner/bpk-svgs",
-  "version": "16.2.3",
+  "version": "16.2.4",
   "description": "Backpack's library of SVG's.",
   "license": "Apache-2.0",
   "repository": {
@@ -19,6 +19,6 @@
   "gitHead": "6b6b8e2511c9f50354ba6eca5331e093901400fe",
   "devDependencies": {
     "@skyscanner/bpk-foundations-common": "^6.0.0",
-    "@skyscanner/bpk-foundations-web": "^15.1.0"
+    "@skyscanner/bpk-foundations-web": "^15.2.0"
   }
 }
