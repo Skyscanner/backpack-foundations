@@ -1,3 +1,11 @@
+# 2023-03-16
+
+**Added:**
+
+`@skyscanner/bpk-foundations-web`: 15.1.0 => 15.2.0 </br>
+`bpk-mixins`: 40.1.0 => 40.2.0 </br>
+- Added private token for slider
+
 # 2023-03-01
 
 **Fixed:**
