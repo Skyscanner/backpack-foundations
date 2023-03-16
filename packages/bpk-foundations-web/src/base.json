@@ -15,6 +15,7 @@
     "./base/modals.json",
     "./base/notifications.json",
     "./base/panels.json",
+    "./base/sliders.json",
     "./base/spacing.json",
     "./base/typography.json",
     "./base/z-index.json"

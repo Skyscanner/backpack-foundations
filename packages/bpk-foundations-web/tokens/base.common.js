@@ -304,6 +304,7 @@ module.exports = {
   bannerAlertErrorColor: "rgb(231, 8, 102)",
   bannerAlertNeutralColor: "rgb(194, 201, 205)",
   panelBorderColor: "rgb(194, 201, 205)",
+  privateSliderSelectedDay: "rgb(21, 70, 121)",
   spacingLgV2: "1.5rem",
   spacingSmV2: ".25rem",
   onePixelRem: ".0625rem",
