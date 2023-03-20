@@ -1,3 +1,10 @@
+# 2023-03-20
+
+**Changed:**
+
+`@skyscanner/bpk-svgs:` 16.2.4 => 16.3.0
+  - Change `baggage-cabin-add`, `baggage-cabin-not-included`, `bpk-cabin`, `baggage-checked-add`, `baggage-checked-not-included`, `bpk-checked`, `baggage-generic` icons
+
 # 2023-03-16
 
 **Added:**
