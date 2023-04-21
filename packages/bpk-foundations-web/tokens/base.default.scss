@@ -140,21 +140,25 @@ $bpk-status-danger-fill-day: rgb(255, 233, 249) !default;
 /// @group status-colors
 $bpk-status-warning-fill-day: rgb(255, 247, 207) !default;
 /// @group surface-colors
-$bpk-surface-contrast-day: rgb(5, 32, 60) !default;
-/// @group surface-colors
-$bpk-surface-contrast-night: rgb(1, 9, 19) !default;
+$bpk-surface-default-night: rgb(19, 29, 43) !default;
 /// @group surface-colors
 $bpk-surface-default-day: rgb(255, 255, 255) !default;
 /// @group surface-colors
-$bpk-surface-default-night: rgb(19, 29, 43) !default;
+$bpk-surface-contrast-night: rgb(1, 9, 19) !default;
 /// @group surface-colors
-$bpk-surface-elevated-day: rgb(255, 255, 255) !default;
+$bpk-surface-contrast-day: rgb(5, 32, 60) !default;
 /// @group surface-colors
 $bpk-surface-elevated-night: rgb(36, 51, 70) !default;
 /// @group surface-colors
-$bpk-surface-highlight-day: rgb(224, 227, 229) !default;
+$bpk-surface-accent-night: rgb(36, 51, 70) !default;
+/// @group surface-colors
+$bpk-surface-accent-day: rgb(227, 240, 255) !default;
+/// @group surface-colors
+$bpk-surface-elevated-day: rgb(255, 255, 255) !default;
 /// @group surface-colors
 $bpk-surface-highlight-night: rgb(36, 51, 70) !default;
+/// @group surface-colors
+$bpk-surface-highlight-day: rgb(224, 227, 229) !default;
 /// @group text-colors
 $bpk-text-on-dark-day: rgb(255, 255, 255) !default;
 /// @group text-colors

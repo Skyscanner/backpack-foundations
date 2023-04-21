@@ -79,14 +79,16 @@ export const statusDangerSpotDay = "rgb(231, 8, 102)";
 export const statusWarningSpotDay = "rgb(245, 93, 66)";
 export const statusDangerFillDay = "rgb(255, 233, 249)";
 export const statusWarningFillDay = "rgb(255, 247, 207)";
-export const surfaceContrastDay = "rgb(5, 32, 60)";
-export const surfaceContrastNight = "rgb(1, 9, 19)";
-export const surfaceDefaultDay = "rgb(255, 255, 255)";
 export const surfaceDefaultNight = "rgb(19, 29, 43)";
-export const surfaceElevatedDay = "rgb(255, 255, 255)";
+export const surfaceDefaultDay = "rgb(255, 255, 255)";
+export const surfaceContrastNight = "rgb(1, 9, 19)";
+export const surfaceContrastDay = "rgb(5, 32, 60)";
 export const surfaceElevatedNight = "rgb(36, 51, 70)";
-export const surfaceHighlightDay = "rgb(224, 227, 229)";
+export const surfaceAccentNight = "rgb(36, 51, 70)";
+export const surfaceAccentDay = "rgb(227, 240, 255)";
+export const surfaceElevatedDay = "rgb(255, 255, 255)";
 export const surfaceHighlightNight = "rgb(36, 51, 70)";
+export const surfaceHighlightDay = "rgb(224, 227, 229)";
 export const textOnDarkDay = "rgb(255, 255, 255)";
 export const textOnLightNight = "rgb(1, 9, 19)";
 export const textDisabledOnDarkDay = "rgba(255, 255, 255, 0.5)";
@@ -837,14 +839,16 @@ statusDangerFillDay,
 statusWarningFillDay,
 };
 export const surfaceColors = {
-surfaceContrastDay,
-surfaceContrastNight,
-surfaceDefaultDay,
 surfaceDefaultNight,
-surfaceElevatedDay,
+surfaceDefaultDay,
+surfaceContrastNight,
+surfaceContrastDay,
 surfaceElevatedNight,
-surfaceHighlightDay,
+surfaceAccentNight,
+surfaceAccentDay,
+surfaceElevatedDay,
 surfaceHighlightNight,
+surfaceHighlightDay,
 };
 export const textColors = {
 textOnDarkDay,
@@ -922,9 +926,10 @@ export const statusDangerSpotColor = undefined;
 export const statusWarningSpotColor = undefined;
 export const statusDangerFillColor = undefined;
 export const statusWarningFillColor = undefined;
-export const surfaceContrastColor = undefined;
 export const surfaceDefaultColor = undefined;
+export const surfaceContrastColor = undefined;
 export const surfaceElevatedColor = undefined;
+export const surfaceAccentColor = undefined;
 export const surfaceHighlightColor = undefined;
 export const textOnDarkColor = undefined;
 export const textOnLightColor = undefined;

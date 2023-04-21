@@ -1483,16 +1483,9 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#05203cff",
-      "originalValue": "{!DARK_SKY}",
-      "name": "surfaceContrastDay"
-    },
-    {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "#010913ff",
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "surfaceContrastNight"
+      "value": "#131d2bff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "surfaceDefaultNight"
     },
     {
       "type": "color",
@@ -1504,9 +1497,37 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#131d2bff",
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "surfaceDefaultNight"
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "surfaceContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#05203cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "surfaceContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "surfaceElevatedNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "surfaceAccentNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#e3f0ffff",
+      "originalValue": "{!SKY_BLUE_10}",
+      "name": "surfaceAccentDay"
     },
     {
       "type": "color",
@@ -1520,7 +1541,7 @@
       "category": "surface-colors",
       "value": "#243346ff",
       "originalValue": "{!NIGHT_GREY_25}",
-      "name": "surfaceElevatedNight"
+      "name": "surfaceHighlightNight"
     },
     {
       "type": "color",
@@ -1528,13 +1549,6 @@
       "value": "#e0e3e5ff",
       "originalValue": "{!GREY_20}",
       "name": "surfaceHighlightDay"
-    },
-    {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "#243346ff",
-      "originalValue": "{!NIGHT_GREY_25}",
-      "name": "surfaceHighlightNight"
     },
     {
       "type": "color",
@@ -3083,6 +3097,15 @@
     {
       "type": "color",
       "category": "surface-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "surfaceDefaultColor",
+      "darkValue": "#131d2bff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
       "value": "#05203cff",
       "originalValue": "{!DARK_SKY}",
       "name": "surfaceContrastColor",
@@ -3094,16 +3117,16 @@
       "category": "surface-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
-      "name": "surfaceDefaultColor",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
+      "name": "surfaceElevatedColor",
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
     },
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "surfaceElevatedColor",
+      "value": "#e3f0ffff",
+      "originalValue": "{!SKY_BLUE_10}",
+      "name": "surfaceAccentColor",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
     },

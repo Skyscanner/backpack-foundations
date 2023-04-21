@@ -405,14 +405,8 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#05203cff",
-      "name": "surfaceContrastDay"
-    },
-    {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "#010913ff",
-      "name": "surfaceContrastNight"
+      "value": "#131d2bff",
+      "name": "surfaceDefaultNight"
     },
     {
       "type": "color",
@@ -423,8 +417,32 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#131d2bff",
-      "name": "surfaceDefaultNight"
+      "value": "#010913ff",
+      "name": "surfaceContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#05203cff",
+      "name": "surfaceContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#243346ff",
+      "name": "surfaceElevatedNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#243346ff",
+      "name": "surfaceAccentNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#e3f0ffff",
+      "name": "surfaceAccentDay"
     },
     {
       "type": "color",
@@ -436,19 +454,13 @@
       "type": "color",
       "category": "surface-colors",
       "value": "#243346ff",
-      "name": "surfaceElevatedNight"
+      "name": "surfaceHighlightNight"
     },
     {
       "type": "color",
       "category": "surface-colors",
       "value": "#e0e3e5ff",
       "name": "surfaceHighlightDay"
-    },
-    {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "#243346ff",
-      "name": "surfaceHighlightNight"
     },
     {
       "type": "color",
@@ -1957,6 +1969,13 @@
     {
       "type": "color",
       "category": "surface-colors",
+      "value": "#ffffffff",
+      "name": "surfaceDefaultColor",
+      "darkValue": "#131d2bff"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
       "value": "#05203cff",
       "name": "surfaceContrastColor",
       "darkValue": "#010913ff"
@@ -1965,14 +1984,14 @@
       "type": "color",
       "category": "surface-colors",
       "value": "#ffffffff",
-      "name": "surfaceDefaultColor",
-      "darkValue": "#131d2bff"
+      "name": "surfaceElevatedColor",
+      "darkValue": "#243346ff"
     },
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#ffffffff",
-      "name": "surfaceElevatedColor",
+      "value": "#e3f0ffff",
+      "name": "surfaceAccentColor",
       "darkValue": "#243346ff"
     },
     {
