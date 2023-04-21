@@ -30,6 +30,12 @@
     },
     "SURFACE_HIGHLIGHT_NIGHT": {
       "value": "{!NIGHT_GREY_25}"
+    },
+    "SURFACE_ACCENT_DAY": {
+      "value": "{!SKY_BLUE_10}"
+    },
+    "SURFACE_ACCENT_NIGHT": {
+      "value": "{!NIGHT_GREY_25}"
     }
   }
 }
