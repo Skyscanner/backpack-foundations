@@ -1520,14 +1520,7 @@
       "category": "surface-colors",
       "value": "#243346ff",
       "originalValue": "{!NIGHT_GREY_25}",
-      "name": "surfaceAccentNight"
-    },
-    {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "#e3f0ffff",
-      "originalValue": "{!SKY_BLUE_10}",
-      "name": "surfaceAccentDay"
+      "name": "surfaceSubtleNight"
     },
     {
       "type": "color",
@@ -1542,6 +1535,13 @@
       "value": "#243346ff",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "surfaceHighlightNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#e3f0ffff",
+      "originalValue": "{!BABY_BLUE}",
+      "name": "surfaceSubtleDay"
     },
     {
       "type": "color",
@@ -3125,8 +3125,8 @@
       "type": "color",
       "category": "surface-colors",
       "value": "#e3f0ffff",
-      "originalValue": "{!SKY_BLUE_10}",
-      "name": "surfaceAccentColor",
+      "originalValue": "{!BABY_BLUE}",
+      "name": "surfaceSubtleColor",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
     },

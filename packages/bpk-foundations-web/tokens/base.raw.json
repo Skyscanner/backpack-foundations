@@ -30,6 +30,9 @@
     "HARBOUR": {
       "value": "#f6dde1"
     },
+    "BABY_BLUE": {
+      "value": "#E3F0FF"
+    },
     "PRIMARY_GRADIENT_LIGHT": {
       "value": "#02DDD8"
     },
@@ -56,9 +59,6 @@
     },
     "BLACK_TINT_02": {
       "value": "#2C2C2E"
-    },
-    "SKY_BLUE_10": {
-      "value": "#E3F0FF"
     },
     "NIGHT_YELLOW_FILL": {
       "value": "#FBF1BB"
@@ -962,19 +962,12 @@
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_ELEVATED_NIGHT"
     },
-    "SURFACE_ACCENT_NIGHT": {
+    "SURFACE_SUBTLE_NIGHT": {
       "type": "color",
       "category": "surface-colors",
       "value": "rgb(36, 51, 70)",
       "originalValue": "{!NIGHT_GREY_25}",
-      "name": "SURFACE_ACCENT_NIGHT"
-    },
-    "SURFACE_ACCENT_DAY": {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "rgb(227, 240, 255)",
-      "originalValue": "{!SKY_BLUE_10}",
-      "name": "SURFACE_ACCENT_DAY"
+      "name": "SURFACE_SUBTLE_NIGHT"
     },
     "SURFACE_ELEVATED_DAY": {
       "type": "color",
@@ -989,6 +982,13 @@
       "value": "rgb(36, 51, 70)",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
+    },
+    "SURFACE_SUBTLE_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgb(227, 240, 255)",
+      "originalValue": "{!BABY_BLUE}",
+      "name": "SURFACE_SUBTLE_DAY"
     },
     "SURFACE_HIGHLIGHT_DAY": {
       "type": "color",

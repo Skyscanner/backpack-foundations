@@ -436,13 +436,7 @@
       "type": "color",
       "category": "surface-colors",
       "value": "#243346ff",
-      "name": "surfaceAccentNight"
-    },
-    {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "#e3f0ffff",
-      "name": "surfaceAccentDay"
+      "name": "surfaceSubtleNight"
     },
     {
       "type": "color",
@@ -455,6 +449,12 @@
       "category": "surface-colors",
       "value": "#243346ff",
       "name": "surfaceHighlightNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#e3f0ffff",
+      "name": "surfaceSubtleDay"
     },
     {
       "type": "color",
@@ -1991,7 +1991,7 @@
       "type": "color",
       "category": "surface-colors",
       "value": "#e3f0ffff",
-      "name": "surfaceAccentColor",
+      "name": "surfaceSubtleColor",
       "darkValue": "#243346ff"
     },
     {

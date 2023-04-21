@@ -83,10 +83,10 @@ export const surfaceDefaultDay = "rgb(255, 255, 255)";
 export const surfaceContrastNight = "rgb(1, 9, 19)";
 export const surfaceContrastDay = "rgb(5, 32, 60)";
 export const surfaceElevatedNight = "rgb(36, 51, 70)";
-export const surfaceAccentNight = "rgb(36, 51, 70)";
-export const surfaceAccentDay = "rgb(227, 240, 255)";
+export const surfaceSubtleNight = "rgb(36, 51, 70)";
 export const surfaceElevatedDay = "rgb(255, 255, 255)";
 export const surfaceHighlightNight = "rgb(36, 51, 70)";
+export const surfaceSubtleDay = "rgb(227, 240, 255)";
 export const surfaceHighlightDay = "rgb(224, 227, 229)";
 export const textOnDarkDay = "rgb(255, 255, 255)";
 export const textOnLightNight = "rgb(1, 9, 19)";
@@ -693,10 +693,10 @@ surfaceDefaultDay,
 surfaceContrastNight,
 surfaceContrastDay,
 surfaceElevatedNight,
-surfaceAccentNight,
-surfaceAccentDay,
+surfaceSubtleNight,
 surfaceElevatedDay,
 surfaceHighlightNight,
+surfaceSubtleDay,
 surfaceHighlightDay,
 };
 export const textColors = {

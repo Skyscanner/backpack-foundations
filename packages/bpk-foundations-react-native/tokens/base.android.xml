@@ -66,10 +66,10 @@
   <color name="SURFACE_CONTRAST_NIGHT" category="surface-colors">#010913ff</color>
   <color name="SURFACE_CONTRAST_DAY" category="surface-colors">#05203cff</color>
   <color name="SURFACE_ELEVATED_NIGHT" category="surface-colors">#243346ff</color>
-  <color name="SURFACE_ACCENT_NIGHT" category="surface-colors">#243346ff</color>
-  <color name="SURFACE_ACCENT_DAY" category="surface-colors">#e3f0ffff</color>
+  <color name="SURFACE_SUBTLE_NIGHT" category="surface-colors">#243346ff</color>
   <color name="SURFACE_ELEVATED_DAY" category="surface-colors">#ffffffff</color>
   <color name="SURFACE_HIGHLIGHT_NIGHT" category="surface-colors">#243346ff</color>
+  <color name="SURFACE_SUBTLE_DAY" category="surface-colors">#e3f0ffff</color>
   <color name="SURFACE_HIGHLIGHT_DAY" category="surface-colors">#e0e3e5ff</color>
   <color name="TEXT_ON_DARK_DAY" category="text-colors">#ffffffff</color>
   <color name="TEXT_ON_LIGHT_NIGHT" category="text-colors">#010913ff</color>

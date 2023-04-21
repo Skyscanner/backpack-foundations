@@ -84,6 +84,9 @@
     "HARBOUR": {
       "value": "#FFE9F9"
     },
+    "BABY_BLUE": {
+      "value": "#E3F0FF"
+    },
     "PRIMARY_GRADIENT_LIGHT": {
       "value": "#02DDD8"
     },
@@ -110,9 +113,6 @@
     },
     "BLACK_TINT_02": {
       "value": "#131D2B"
-    },
-    "SKY_BLUE_10": {
-      "value": "#E3F0FF"
     },
     "NIGHT_YELLOW_FILL": {
       "value": "#FBF1BB"
@@ -893,19 +893,12 @@
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_ELEVATED_NIGHT"
     },
-    "SURFACE_ACCENT_NIGHT": {
+    "SURFACE_SUBTLE_NIGHT": {
       "type": "color",
       "category": "surface-colors",
       "value": "#243346ff",
       "originalValue": "{!NIGHT_GREY_25}",
-      "name": "SURFACE_ACCENT_NIGHT"
-    },
-    "SURFACE_ACCENT_DAY": {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "#e3f0ffff",
-      "originalValue": "{!SKY_BLUE_10}",
-      "name": "SURFACE_ACCENT_DAY"
+      "name": "SURFACE_SUBTLE_NIGHT"
     },
     "SURFACE_ELEVATED_DAY": {
       "type": "color",
@@ -920,6 +913,13 @@
       "value": "#243346ff",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
+    },
+    "SURFACE_SUBTLE_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#e3f0ffff",
+      "originalValue": "{!BABY_BLUE}",
+      "name": "SURFACE_SUBTLE_DAY"
     },
     "SURFACE_HIGHLIGHT_DAY": {
       "type": "color",
@@ -2616,12 +2616,12 @@
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
     },
-    "SURFACE_ACCENT_COLOR": {
+    "SURFACE_SUBTLE_COLOR": {
       "type": "color",
       "category": "surface-colors",
       "value": "#e3f0ffff",
-      "originalValue": "{!SKY_BLUE_10}",
-      "name": "SURFACE_ACCENT_COLOR",
+      "originalValue": "{!BABY_BLUE}",
+      "name": "SURFACE_SUBTLE_COLOR",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
     },
@@ -3215,10 +3215,10 @@
     "SURFACE_CONTRAST_NIGHT",
     "SURFACE_CONTRAST_DAY",
     "SURFACE_ELEVATED_NIGHT",
-    "SURFACE_ACCENT_NIGHT",
-    "SURFACE_ACCENT_DAY",
+    "SURFACE_SUBTLE_NIGHT",
     "SURFACE_ELEVATED_DAY",
     "SURFACE_HIGHLIGHT_NIGHT",
+    "SURFACE_SUBTLE_DAY",
     "SURFACE_HIGHLIGHT_DAY",
     "TEXT_ON_DARK_DAY",
     "TEXT_ON_LIGHT_NIGHT",
@@ -3454,7 +3454,7 @@
     "SURFACE_DEFAULT_COLOR",
     "SURFACE_CONTRAST_COLOR",
     "SURFACE_ELEVATED_COLOR",
-    "SURFACE_ACCENT_COLOR",
+    "SURFACE_SUBTLE_COLOR",
     "SURFACE_HIGHLIGHT_COLOR",
     "TEXT_ON_DARK_COLOR",
     "TEXT_ON_LIGHT_COLOR",
