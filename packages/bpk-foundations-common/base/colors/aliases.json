@@ -2,7 +2,6 @@
   "aliases": {
     "WHITE": "#ffffff",
     "SKY_BLUE": "#0062E3",
-    "SKY_BLUE_10": "#E3F0FF",
     "SKY_BLUE_85": "#024DAF",
     "MONTEVERDE": "#0C838A",
     "GLENCOE": "#62F1C6",
@@ -76,6 +75,7 @@
     "WHITE_ALPHA_50": "#FFFFFF80",
     "WHITE_ALPHA_80": "#FFFFFFCC",
     "BLACK_ALPHA_20": "#00000033",
-    "BLACK_ALPHA_70": "#000000B3"
+    "BLACK_ALPHA_70": "#000000B3",
+    "BABY_BLUE": "#E3F0FF"
   }
 }

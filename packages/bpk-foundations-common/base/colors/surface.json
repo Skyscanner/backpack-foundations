@@ -31,10 +31,10 @@
     "SURFACE_HIGHLIGHT_NIGHT": {
       "value": "{!NIGHT_GREY_25}"
     },
-    "SURFACE_ACCENT_DAY": {
-      "value": "{!SKY_BLUE_10}"
+    "SURFACE_SUBTLE_DAY": {
+      "value": "{!BABY_BLUE}"
     },
-    "SURFACE_ACCENT_NIGHT": {
+    "SURFACE_SUBTLE_NIGHT": {
       "value": "{!NIGHT_GREY_25}"
     }
   }
