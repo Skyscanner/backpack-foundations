@@ -30,6 +30,9 @@
     "HARBOUR": {
       "value": "#f6dde1"
     },
+    "BABY_BLUE": {
+      "value": "#E3F0FF"
+    },
     "PRIMARY_GRADIENT_LIGHT": {
       "value": "#02DDD8"
     },
@@ -924,19 +927,12 @@
       "originalValue": "{!YELLOW_MUTED}",
       "name": "STATUS_WARNING_FILL_DAY"
     },
-    "SURFACE_CONTRAST_DAY": {
+    "SURFACE_DEFAULT_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(5, 32, 60)",
-      "originalValue": "{!DARK_SKY}",
-      "name": "SURFACE_CONTRAST_DAY"
-    },
-    "SURFACE_CONTRAST_NIGHT": {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "rgb(1, 9, 19)",
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "SURFACE_CONTRAST_NIGHT"
+      "value": "rgb(19, 29, 43)",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "SURFACE_DEFAULT_NIGHT"
     },
     "SURFACE_DEFAULT_DAY": {
       "type": "color",
@@ -945,19 +941,19 @@
       "originalValue": "{!WHITE}",
       "name": "SURFACE_DEFAULT_DAY"
     },
-    "SURFACE_DEFAULT_NIGHT": {
+    "SURFACE_CONTRAST_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(19, 29, 43)",
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "SURFACE_DEFAULT_NIGHT"
+      "value": "rgb(1, 9, 19)",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "SURFACE_CONTRAST_NIGHT"
     },
-    "SURFACE_ELEVATED_DAY": {
+    "SURFACE_CONTRAST_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(255, 255, 255)",
-      "originalValue": "{!WHITE}",
-      "name": "SURFACE_ELEVATED_DAY"
+      "value": "rgb(5, 32, 60)",
+      "originalValue": "{!DARK_SKY}",
+      "name": "SURFACE_CONTRAST_DAY"
     },
     "SURFACE_ELEVATED_NIGHT": {
       "type": "color",
@@ -966,12 +962,19 @@
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_ELEVATED_NIGHT"
     },
-    "SURFACE_HIGHLIGHT_DAY": {
+    "SURFACE_SUBTLE_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(224, 227, 229)",
-      "originalValue": "{!GREY_20}",
-      "name": "SURFACE_HIGHLIGHT_DAY"
+      "value": "rgb(36, 51, 70)",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "SURFACE_SUBTLE_NIGHT"
+    },
+    "SURFACE_ELEVATED_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "SURFACE_ELEVATED_DAY"
     },
     "SURFACE_HIGHLIGHT_NIGHT": {
       "type": "color",
@@ -979,6 +982,20 @@
       "value": "rgb(36, 51, 70)",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
+    },
+    "SURFACE_SUBTLE_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgb(227, 240, 255)",
+      "originalValue": "{!BABY_BLUE}",
+      "name": "SURFACE_SUBTLE_DAY"
+    },
+    "SURFACE_HIGHLIGHT_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgb(224, 227, 229)",
+      "originalValue": "{!GREY_20}",
+      "name": "SURFACE_HIGHLIGHT_DAY"
     },
     "TEXT_ON_DARK_DAY": {
       "type": "color",

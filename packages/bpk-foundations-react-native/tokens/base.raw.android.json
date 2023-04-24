@@ -84,6 +84,9 @@
     "HARBOUR": {
       "value": "#FFE9F9"
     },
+    "BABY_BLUE": {
+      "value": "#E3F0FF"
+    },
     "PRIMARY_GRADIENT_LIGHT": {
       "value": "#02DDD8"
     },
@@ -855,19 +858,12 @@
       "originalValue": "{!YELLOW_MUTED}",
       "name": "STATUS_WARNING_FILL_DAY"
     },
-    "SURFACE_CONTRAST_DAY": {
+    "SURFACE_DEFAULT_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#05203cff",
-      "originalValue": "{!DARK_SKY}",
-      "name": "SURFACE_CONTRAST_DAY"
-    },
-    "SURFACE_CONTRAST_NIGHT": {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "#010913ff",
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "SURFACE_CONTRAST_NIGHT"
+      "value": "#131d2bff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "SURFACE_DEFAULT_NIGHT"
     },
     "SURFACE_DEFAULT_DAY": {
       "type": "color",
@@ -876,19 +872,19 @@
       "originalValue": "{!WHITE}",
       "name": "SURFACE_DEFAULT_DAY"
     },
-    "SURFACE_DEFAULT_NIGHT": {
+    "SURFACE_CONTRAST_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#131d2bff",
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "SURFACE_DEFAULT_NIGHT"
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "SURFACE_CONTRAST_NIGHT"
     },
-    "SURFACE_ELEVATED_DAY": {
+    "SURFACE_CONTRAST_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "SURFACE_ELEVATED_DAY"
+      "value": "#05203cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "SURFACE_CONTRAST_DAY"
     },
     "SURFACE_ELEVATED_NIGHT": {
       "type": "color",
@@ -897,12 +893,19 @@
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_ELEVATED_NIGHT"
     },
-    "SURFACE_HIGHLIGHT_DAY": {
+    "SURFACE_SUBTLE_NIGHT": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#e0e3e5ff",
-      "originalValue": "{!GREY_20}",
-      "name": "SURFACE_HIGHLIGHT_DAY"
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "SURFACE_SUBTLE_NIGHT"
+    },
+    "SURFACE_ELEVATED_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "SURFACE_ELEVATED_DAY"
     },
     "SURFACE_HIGHLIGHT_NIGHT": {
       "type": "color",
@@ -910,6 +913,20 @@
       "value": "#243346ff",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
+    },
+    "SURFACE_SUBTLE_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#e3f0ffff",
+      "originalValue": "{!BABY_BLUE}",
+      "name": "SURFACE_SUBTLE_DAY"
+    },
+    "SURFACE_HIGHLIGHT_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#e0e3e5ff",
+      "originalValue": "{!GREY_20}",
+      "name": "SURFACE_HIGHLIGHT_DAY"
     },
     "TEXT_ON_DARK_DAY": {
       "type": "color",
@@ -2572,15 +2589,6 @@
       "darkValue": "#fbf1bbff",
       "originalDarkValue": "{!NIGHT_YELLOW_FILL}"
     },
-    "SURFACE_CONTRAST_COLOR": {
-      "type": "color",
-      "category": "surface-colors",
-      "value": "#05203cff",
-      "originalValue": "{!DARK_SKY}",
-      "name": "SURFACE_CONTRAST_COLOR",
-      "darkValue": "#010913ff",
-      "originalDarkValue": "{!NIGHT_GREY_10}"
-    },
     "SURFACE_DEFAULT_COLOR": {
       "type": "color",
       "category": "surface-colors",
@@ -2590,12 +2598,30 @@
       "darkValue": "#131d2bff",
       "originalDarkValue": "{!NIGHT_GREY_20}"
     },
+    "SURFACE_CONTRAST_COLOR": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#05203cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "SURFACE_CONTRAST_COLOR",
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
+    },
     "SURFACE_ELEVATED_COLOR": {
       "type": "color",
       "category": "surface-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "SURFACE_ELEVATED_COLOR",
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
+    },
+    "SURFACE_SUBTLE_COLOR": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#e3f0ffff",
+      "originalValue": "{!BABY_BLUE}",
+      "name": "SURFACE_SUBTLE_COLOR",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
     },
@@ -3184,14 +3210,16 @@
     "STATUS_WARNING_SPOT_DAY",
     "STATUS_DANGER_FILL_DAY",
     "STATUS_WARNING_FILL_DAY",
-    "SURFACE_CONTRAST_DAY",
-    "SURFACE_CONTRAST_NIGHT",
-    "SURFACE_DEFAULT_DAY",
     "SURFACE_DEFAULT_NIGHT",
-    "SURFACE_ELEVATED_DAY",
+    "SURFACE_DEFAULT_DAY",
+    "SURFACE_CONTRAST_NIGHT",
+    "SURFACE_CONTRAST_DAY",
     "SURFACE_ELEVATED_NIGHT",
-    "SURFACE_HIGHLIGHT_DAY",
+    "SURFACE_SUBTLE_NIGHT",
+    "SURFACE_ELEVATED_DAY",
     "SURFACE_HIGHLIGHT_NIGHT",
+    "SURFACE_SUBTLE_DAY",
+    "SURFACE_HIGHLIGHT_DAY",
     "TEXT_ON_DARK_DAY",
     "TEXT_ON_LIGHT_NIGHT",
     "TEXT_DISABLED_ON_DARK_DAY",
@@ -3423,9 +3451,10 @@
     "STATUS_WARNING_SPOT_COLOR",
     "STATUS_DANGER_FILL_COLOR",
     "STATUS_WARNING_FILL_COLOR",
-    "SURFACE_CONTRAST_COLOR",
     "SURFACE_DEFAULT_COLOR",
+    "SURFACE_CONTRAST_COLOR",
     "SURFACE_ELEVATED_COLOR",
+    "SURFACE_SUBTLE_COLOR",
     "SURFACE_HIGHLIGHT_COLOR",
     "TEXT_ON_DARK_COLOR",
     "TEXT_ON_LIGHT_COLOR",
