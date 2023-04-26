@@ -504,6 +504,8 @@
     "unmute": "EAC6",
     "upgrade-sm": "EBE7",
     "upgrade": "EAA5",
+    "upload-sm": "EC64",
+    "upload": "EC65",
     "use-location-sm": "EBE8",
     "use-location": "EAA6",
     "view-sm": "EBE9",
