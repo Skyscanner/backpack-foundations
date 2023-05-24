@@ -228,15 +228,13 @@ export const privateSkeletonShimmerCenterNight = "rgba(0, 0, 0, 0.2)";
 export const durationXs = "50ms";
 export const durationSm = "200ms";
 export const durationBase = "400ms";
+export const borderRadiusXs = ".25rem";
+export const borderRadiusSm = ".5rem";
+export const borderRadiusMd = ".75rem";
+export const borderRadiusLg = "1.5rem";
+export const borderRadiusXl = "2.5rem";
 export const borderSizeSm = "1px";
 export const borderSizeLg = "2px";
-export const borderRadiusPillLg = "1.3125rem";
-export const borderRadiusXl = "2.5rem";
-export const borderRadiusMd = ".75rem";
-export const borderRadiusPill = "1.125rem";
-export const borderRadiusSm = ".5rem";
-export const borderRadiusXs = ".25rem";
-export const borderRadiusLg = "1.5rem";
 export const borderSizeXl = "3px";
 export const boxShadowSm = "0px 1px 3px 0px rgba(37,32,31,.3)";
 export const boxShadowLg = "0px 4px 14px 0px rgba(37,32,31,.25)";
@@ -633,13 +631,11 @@ export const panels = {
 panelBorderColor,
 };
 export const radii = {
-borderRadiusPillLg,
-borderRadiusXl,
-borderRadiusMd,
-borderRadiusPill,
-borderRadiusSm,
 borderRadiusXs,
+borderRadiusSm,
+borderRadiusMd,
 borderRadiusLg,
+borderRadiusXl,
 };
 export const scrimColors = {
 scrimDay,

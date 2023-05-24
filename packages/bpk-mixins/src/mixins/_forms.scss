@@ -706,7 +706,7 @@ $bpk-spacing-v2: true;
 /// @access private
 @mixin _bpk-radio-border($color) {
   border: $bpk-border-size-xl solid $color;
-  border-radius: $bpk-border-radius-pill;
+  border-radius: $bpk-border-radius-lg;
 }
 
 /// Form radio button. Should be applied to containing label element.

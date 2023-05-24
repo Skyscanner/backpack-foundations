@@ -12,7 +12,7 @@
       "value": "{!SPACING_BASE_V2}"
     },
     "FLARE_CORNER_RADIUS": {
-      "value": "{!BORDER_RADIUS_PILL_LG}"
+      "value": "1.3125rem"
     }
   }
 }

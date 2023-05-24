@@ -26,16 +26,6 @@
       "value": "{!BORDER_RADIUS_XL}",
       "category": "radii"
     },
-    "BORDER_RADIUS_PILL": {
-      "value": "{!BORDER_RADIUS_PILL}",
-      "category": "radii",
-      "deprecated": true
-    },
-    "BORDER_RADIUS_PILL_LG": {
-      "value": "{!BORDER_RADIUS_PILL_LG}",
-      "category": "radii",
-      "deprecated": true
-    },
     "BORDER_SIZE_SM": {
       "value": "{!BORDER_SIZE_SM}",
       "category": "borders"
