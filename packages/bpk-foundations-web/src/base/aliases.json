@@ -58,8 +58,6 @@
     "BORDER_RADIUS_MD": ".75rem",
     "BORDER_RADIUS_LG": "1.5rem",
     "BORDER_RADIUS_XL": "2.5rem",
-    "BORDER_RADIUS_PILL": "1.125rem",
-    "BORDER_RADIUS_PILL_LG": "1.3125rem",
     "BORDER_SIZE_SM": "1px",
     "BORDER_SIZE_LG": "2px",
     "BORDER_SIZE_XL": "3px",
