@@ -172,46 +172,6 @@ $bpk-spacing-v2: true;
   fill: $bpk-text-on-light-day;
 }
 
-/// Destructive badge. Modifies the bpk-badge mixin.
-///
-/// @require {mixin} bpk-badge
-///
-/// @example scss
-///   .selector {
-///     @include bpk-badge();
-///     @include bpk-badge--destructive();
-///   }
-
-@mixin bpk-badge--destructive {
-  @warn 'bpk-badge--destructive is deprecated and replaced by bpk-badge--critical instead.';
-
-  color: $bpk-text-primary-day;
-
-  @include bpk-themeable-property(
-    background-color,
-    --bpk-badge-destructive-background-color,
-    $bpk-status-danger-fill-day
-  );
-}
-
-/// Light badge. Modifies the bpk-badge mixin.
-///
-/// @require {mixin} bpk-badge
-///
-/// @example scss
-///   .selector {
-///     @include bpk-badge();
-///     @include bpk-badge--light();
-///   }
-
-@mixin bpk-badge--light {
-  @warn 'bpk-badge--light is deprecated and replaced by bpk-badge--normal instead.';
-
-  background-color: $bpk-surface-highlight-day;
-  color: $bpk-text-primary-day;
-  fill: $bpk-text-primary-day;
-}
-
 /// Inverse badge. Modifies the bpk-badge mixin.
 ///
 /// @require {mixin} bpk-badge
