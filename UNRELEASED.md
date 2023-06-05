@@ -6,6 +6,9 @@ Removing deprecated border tokens and mixins.
 
 `bpk-mixins`:
   - Removed `bpk-border-radius-pill` mixin. `Use bpk-border-radius-lg` as the replacement.
+  - Removed deprecated badge mixins
+    - Removed `bpk-badge--light` mixin, please use `bpk-badge--normal`.
+    - Removed `bpk-badge--destructive` mixin, please use `bpk-badge--critical`.
 
 **Added:**
 
