@@ -255,6 +255,7 @@ module.exports = {
   breakpointDesktop: "80rem",
   breakpointMobile: "32rem",
   breakpointTablet: "64rem",
+  breakpointQueryDesktopOnly: "(min-width: 64.0625rem) and (max-width: 80rem)",
   breakpointQueryAboveDesktop: "(min-width: 80.0625rem)",
   breakpointTabletMargin: "2rem",
   breakpointMobileMargin: "1.5rem",

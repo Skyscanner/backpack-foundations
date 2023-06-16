@@ -253,6 +253,7 @@ export const breakpointQueryAboveTablet = "(min-width: 64.0625rem)";
 export const breakpointDesktop = "80rem";
 export const breakpointMobile = "32rem";
 export const breakpointTablet = "64rem";
+export const breakpointQueryDesktopOnly = "(min-width: 64.0625rem) and (max-width: 80rem)";
 export const breakpointQueryAboveDesktop = "(min-width: 80.0625rem)";
 export const breakpointTabletMargin = "2rem";
 export const breakpointMobileMargin = "1.5rem";
@@ -390,6 +391,7 @@ breakpointQueryAboveTablet,
 breakpointDesktop,
 breakpointMobile,
 breakpointTablet,
+breakpointQueryDesktopOnly,
 breakpointQueryAboveDesktop,
 breakpointTabletMargin,
 breakpointMobileMargin,

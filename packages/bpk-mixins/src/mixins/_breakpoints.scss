@@ -179,3 +179,41 @@
     @content;
   }
 }
+
+/// Breakpoint to target large desktop viewports.
+///
+/// @content
+///
+/// @example scss
+///   .selector {
+///     @include bpk-breakpoint-above-desktop {
+///       /* large desktop viewport scss goes here */
+///     }
+///
+///     /* mobile, tablet, desktop viewport scss goes here */
+///   }
+
+@mixin bpk-breakpoint-above-desktop {
+  @media #{$bpk-breakpoint-query-above-desktop} {
+    @content;
+  }
+}
+
+/// Breakpoint to target only desktop viewports.
+///
+/// @content
+///
+/// @example scss
+///   .selector {
+///     @include bpk-breakpoint-desktop-only {
+///       /* desktop viewport scss goes here */
+///     }
+///
+///     /* mobile, tablet & large desktop viewport scss goes here */
+///   }
+
+@mixin bpk-breakpoint-desktop-only {
+  @media #{$bpk-breakpoint-query-desktop-only} {
+    @content;
+  }
+}
