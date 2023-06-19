@@ -4,8 +4,8 @@
   "license": "Apache-2.0",
   "private": true,
   "engines": {
-    "node": "^16.13.0",
-    "npm": "^8.1.0"
+    "node": "^18.16.0",
+    "npm": "^9.5.1"
   },
   "repository": {
     "type": "git",
@@ -33,14 +33,14 @@
     "lint:scss": "stylelint 'packages/**/*.scss'",
     "lint:scss:fix": "stylelint '{packages,stories/**}/**/*.scss' --fix",
     "postinstall": "npm run bootstrap",
-    "preinstall": "npx ensure-node-env",
+    "preinstall": "npx ensure-node-env@2.0.0",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\"",
     "release": "lerna bootstrap && npm run build && npm test && lerna publish",
     "sassdoc": "sassdoc {packages/bpk-mixins/src/**/*,packages/bpk-svgs/dist/*,packages/bpk-foundations-web/tokens/base.default}.scss -d dist-sassdoc -v --strict",
     "test": "npm run lint && npm run jest && npm run flow",
     "start": "npm run build && npm run storybook",
-    "storybook": "start-storybook -p 6006",
-    "storybook:dist": "build-storybook -c .storybook -o dist-storybook"
+    "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "storybook:dist": "NODE_OPTIONS=--openssl-legacy-provider build-storybook -c .storybook -o dist-storybook"
   },
   "jest": {
     "coverageReporters": [
