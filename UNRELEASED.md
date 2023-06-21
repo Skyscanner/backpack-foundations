@@ -1,5 +1,7 @@
-# 2023-06-13
+# 2023-06-21
 
-**Breaking:**
+**Added:**
 
-Drop support for Node versions < 18.
+`@skyscanner/bpk-foundations-web:`: </br>
+`bpk-mixins:`: </br>
+- Add desktop and above desktop breakpoints

@@ -490,6 +490,8 @@ $bpk-breakpoint-mobile: 32rem !default;
 /// @group breakpoints
 $bpk-breakpoint-tablet: 64rem !default;
 /// @group breakpoints
+$bpk-breakpoint-query-desktop-only: "(min-width: 64.0625rem) and (max-width: 80rem)" !default;
+/// @group breakpoints
 $bpk-breakpoint-query-above-desktop: "(min-width: 80.0625rem)" !default;
 /// @group breakpoints
 $bpk-breakpoint-tablet-margin: 2rem !default;
