@@ -1,3 +1,12 @@
+# 2023-06-21
+
+**Added:**
+
+`@skyscanner/bpk-foundations-web: 16.0.0 => 16.1.0`: </br>
+`bpk-mixins: 41.0.0 => 41.1.0`: </br>
+- Add desktop and above desktop breakpoints
+
+
 # 2023-06-05
 
 **Breaking:**
