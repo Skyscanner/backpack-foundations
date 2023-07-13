@@ -91,7 +91,7 @@ Use `npm run build` to do this.
 
 If you want to add icons, please discuss them with us first.
 
-Once they're signed off, you can [raise a request](https://bit.ly/backpack-request) and attach the SVG files. If you're feeling heroic and want to make the PR yourself, just copy the correctly named SVG files to the `lg` and `sm` directories in `./packages/bpk-svgs/src/icons/` and then run `npm run build`.
+Once they're signed off, you can raise a request on our Backpack Requests board and attach the SVG files. If you're feeling heroic and want to make the PR yourself, just copy the correctly named SVG files to the `lg` and `sm` directories in `./packages/bpk-svgs/src/icons/` and then run `npm run build`.
 
 ### Tokens
 
