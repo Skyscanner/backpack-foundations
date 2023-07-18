@@ -1,3 +1,8 @@
+# 2023-07-18
+
+`@skyscanner/bpk-svgs`: 16.3.4 => 16.4.0
+- Add new AI icon
+
 # 2023-06-21
 
 **Added:**
