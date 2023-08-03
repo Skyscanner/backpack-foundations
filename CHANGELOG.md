@@ -1,3 +1,15 @@
+# 2023-08-03
+
+**Breaking:**
+`bpk-svgs`: 16.4.0 => 17.0.0
+- All JS icons have `aria-hidden` attribute set to true by default to hide icons from Assistive Technologies. You can overwrite the value if needed by passing `aria-hidden="false"` to the icon component.
+
+# 2023-07-25
+
+**Changed:**
+`bpk-mixins`: 41.1.1 => 41.2.0
+- Specified a wider support range for `node-sass` library.
+
 # 2023-07-18
 
 `@skyscanner/bpk-svgs`: 16.3.4 => 16.4.0
