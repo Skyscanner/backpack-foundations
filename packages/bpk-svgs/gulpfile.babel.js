@@ -129,6 +129,23 @@ gulp.task('spinners', () => {
 
   const react = optimised
     .pipe(clone())
+    .pipe(
+      svgmin({
+        full: true,
+        plugins: [
+          {
+            name: 'addAttributesToSVGElement',
+            params: {
+              attributes: [
+                {
+                  'aria-hidden': true,
+                },
+              ],
+            },
+          },
+        ],
+      }),
+    )
     .pipe(svg2react())
     .pipe(rename({ extname: '.js' }))
     .pipe(gulp.dest('dist/js/spinners'));
@@ -200,7 +217,18 @@ const iconReactComponents = (size) => {
           {
             name: 'addAttributesToSVGElement',
             params: {
-              attribute: `width="${iconPxSize}" height="${iconPxSize}" ${styleAttribute}`,
+              attributes: [
+                {
+                  width: iconPxSize,
+                },
+                {
+                  height: iconPxSize,
+                },
+                {
+                  'aria-hidden': true,
+                },
+                styleAttribute,
+              ],
             },
           },
         ],
