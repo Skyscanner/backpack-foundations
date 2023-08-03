@@ -138,9 +138,9 @@ gulp.task('spinners', () => {
             params: {
               attributes: [
                 {
-                  'aria-hidden': true
-                }
-              ]
+                  'aria-hidden': true,
+                },
+              ],
             },
           },
         ],
@@ -219,16 +219,16 @@ const iconReactComponents = (size) => {
             params: {
               attributes: [
                 {
-                  width: iconPxSize
+                  width: iconPxSize,
                 },
                 {
-                  height: iconPxSize
+                  height: iconPxSize,
                 },
                 {
-                  'aria-hidden': true
+                  'aria-hidden': true,
                 },
                 styleAttribute,
-              ]
+              ],
             },
           },
         ],
