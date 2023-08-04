@@ -19,7 +19,7 @@
       "type":"size"
     },
     "PRIVATE_BUTTON_LINE_HEIGHT": {
-      "value": "{!SPACING_LG_V2}",
+      "value": "{!SPACING_LG}",
       "type": "number"
     }
   }
