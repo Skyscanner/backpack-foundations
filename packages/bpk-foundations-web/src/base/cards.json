@@ -11,7 +11,7 @@
       "type": "color"
     },
     "CARD_PADDING": {
-      "value": "{!SPACING_BASE_V2}",
+      "value": "{!SPACING_BASE}",
       "type": "size"
     }
   }

@@ -172,11 +172,6 @@
       "value": "{!LETTER_SPACING_TIGHT}",
       "type": "size",
       "category": "letter-spacings"
-    },
-    "HEADING_CONTENT_MARGIN_TOP": {
-      "value": "{!SPACING_LG}",
-      "type": "size",
-      "category": "spacings"
     }
   }
 }

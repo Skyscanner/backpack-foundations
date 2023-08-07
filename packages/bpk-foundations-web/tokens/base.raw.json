@@ -252,14 +252,8 @@
     "FONT_SIZE_XXXL": {
       "value": "2.5rem"
     },
-    "SPACING_LG_V2": {
-      "value": "1.5rem"
-    },
     "BORDER_SIZE_SM": {
       "value": "1px"
-    },
-    "SPACING_SM_V2": {
-      "value": ".25rem"
     },
     "ZINDEX_MODAL": {
       "value": "1100"
@@ -276,9 +270,6 @@
     "FONT_WEIGHT_BLACK": {
       "value": "900"
     },
-    "SPACING_MD_V2": {
-      "value": ".5rem"
-    },
     "FONT_SIZE_SM": {
       "value": ".875rem"
     },
@@ -291,18 +282,6 @@
     "FONT_SIZE_LG": {
       "value": "1.25rem"
     },
-    "SPACING_XXXL_V2": {
-      "value": "4rem"
-    },
-    "SPACING_XL_V2": {
-      "value": "2rem"
-    },
-    "SPACING_XXXXL_V2": {
-      "value": "6rem"
-    },
-    "SPACING_XXL_V2": {
-      "value": "2.5rem"
-    },
     "BREAKPOINT_ABOVE_DESKTOP": {
       "value": "80.0625rem"
     },
@@ -310,7 +289,7 @@
       "value": "48rem"
     },
     "SPACING_BASE": {
-      "value": "1.5rem"
+      "value": "1rem"
     },
     "FONT_LINE_HEIGHT_BASE_TIGHT": {
       "value": "1.25rem"
@@ -330,9 +309,6 @@
     "BREAKPOINT_DESKTOP": {
       "value": "80rem"
     },
-    "SPACING_BASE_V2": {
-      "value": "1rem"
-    },
     "FONT_LINE_HEIGHT_7XL": {
       "value": "6rem"
     },
@@ -345,14 +321,20 @@
     "FONT_LINE_HEIGHT_XXXXL": {
       "value": "3.5rem"
     },
+    "SPACING_XXXL": {
+      "value": "4rem"
+    },
     "SPACING_XL": {
-      "value": "2.250rem"
+      "value": "2rem"
     },
     "BREAKPOINT_MOBILE": {
       "value": "32rem"
     },
     "SPACING_XXL": {
-      "value": "2.625rem"
+      "value": "2.5rem"
+    },
+    "SPACING_XXXXL": {
+      "value": "6rem"
     },
     "FONT_LINE_HEIGHT_XL_TIGHT": {
       "value": "1.75rem"
@@ -373,7 +355,7 @@
       "value": "32.0625rem"
     },
     "SPACING_MD": {
-      "value": "1.125rem"
+      "value": ".5rem"
     },
     "BORDER_RADIUS_SM": {
       "value": ".5rem"
@@ -397,16 +379,13 @@
       "value": "64.0625rem"
     },
     "SPACING_SM": {
-      "value": ".75rem"
-    },
-    "SPACING_XS": {
-      "value": ".375rem"
+      "value": ".25rem"
     },
     "FONT_LINE_HEIGHT_LG_TIGHT": {
       "value": "1.5rem"
     },
     "SPACING_LG": {
-      "value": "1.875rem"
+      "value": "1.5rem"
     },
     "FONT_LINE_HEIGHT_SM": {
       "value": "1.25rem"
@@ -2089,7 +2068,7 @@
       "category": "breakpoints",
       "value": "1.5rem",
       "type": "size",
-      "originalValue": "{!SPACING_LG_V2}",
+      "originalValue": "{!SPACING_LG}",
       "name": "BREAKPOINT_SMALL_TABLET_MARGIN"
     },
     "BREAKPOINT_QUERY_SMALL_TABLET": {
@@ -2103,7 +2082,7 @@
       "category": "breakpoints",
       "value": "1rem",
       "type": "size",
-      "originalValue": "{!SPACING_BASE_V2}",
+      "originalValue": "{!SPACING_BASE}",
       "name": "BREAKPOINT_SMALL_MOBILE_MARGIN"
     },
     "BREAKPOINT_QUERY_MOBILE": {
@@ -2194,14 +2173,14 @@
       "category": "breakpoints",
       "value": "2rem",
       "type": "size",
-      "originalValue": "{!SPACING_XL_V2}",
+      "originalValue": "{!SPACING_XL}",
       "name": "BREAKPOINT_TABLET_MARGIN"
     },
     "BREAKPOINT_MOBILE_MARGIN": {
       "category": "breakpoints",
       "value": "1.5rem",
       "type": "size",
-      "originalValue": "{!SPACING_LG_V2}",
+      "originalValue": "{!SPACING_LG}",
       "name": "BREAKPOINT_MOBILE_MARGIN"
     },
     "BREAKPOINT_QUERY_SMALL_MOBILE": {
@@ -2215,7 +2194,7 @@
       "category": "breakpoints",
       "value": "1rem * 3",
       "type": "size",
-      "originalValue": "{!SPACING_BASE_V2} * 3",
+      "originalValue": "{!SPACING_BASE} * 3",
       "name": "BREAKPOINT_DESKTOP_MARGIN"
     },
     "BUTTON_HEIGHT": {
@@ -2243,14 +2222,14 @@
       "category": "buttons",
       "value": "1.5rem",
       "type": "number",
-      "originalValue": "{!SPACING_LG_V2}",
+      "originalValue": "{!SPACING_LG}",
       "name": "PRIVATE_BUTTON_LINE_HEIGHT"
     },
     "CALENDAR_DAY_SPACING": {
       "category": "calendar",
       "value": ".5rem",
       "type": "size",
-      "originalValue": "{!SPACING_MD_V2}",
+      "originalValue": "{!SPACING_MD}",
       "name": "CALENDAR_DAY_SPACING"
     },
     "CALENDAR_DAY_SIZE": {
@@ -2271,7 +2250,7 @@
       "category": "cards",
       "value": "1rem",
       "type": "size",
-      "originalValue": "{!SPACING_BASE_V2}",
+      "originalValue": "{!SPACING_BASE}",
       "name": "CARD_PADDING"
     },
     "PRIMARY_GRADIENT": {
@@ -2285,14 +2264,14 @@
       "type": "size",
       "category": "flare",
       "value": "1.5rem",
-      "originalValue": "{!SPACING_LG_V2}",
+      "originalValue": "{!SPACING_LG}",
       "name": "FLARE_HEIGHT_DESKTOP"
     },
     "FLARE_HEIGHT_MOBILE": {
       "type": "size",
       "category": "flare",
       "value": "1rem",
-      "originalValue": "{!SPACING_BASE_V2}",
+      "originalValue": "{!SPACING_BASE}",
       "name": "FLARE_HEIGHT_MOBILE"
     },
     "FLARE_CORNER_RADIUS": {
@@ -2369,14 +2348,14 @@
       "category": "forms",
       "value": ".5rem",
       "type": "size",
-      "originalValue": "{!SPACING_MD_V2}",
+      "originalValue": "{!SPACING_MD}",
       "name": "INPUT_PADDING_X"
     },
     "INPUT_PADDING_Y": {
       "category": "forms",
       "value": ".5rem",
       "type": "size",
-      "originalValue": "{!SPACING_MD_V2}",
+      "originalValue": "{!SPACING_MD}",
       "name": "INPUT_PADDING_Y"
     },
     "SELECT_BORDER_WIDTH": {
@@ -2467,7 +2446,7 @@
       "category": "modals",
       "value": "1rem",
       "type": "size",
-      "originalValue": "{!SPACING_BASE_V2}",
+      "originalValue": "{!SPACING_BASE}",
       "name": "MODAL_CONTENT_PADDING"
     },
     "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR": {
@@ -2537,49 +2516,35 @@
       "type": "function",
       "category": "spacings",
       "value": "@function bpk-spacing-xxxxl() { @return 6rem; }",
-      "originalValue": "@function bpk-spacing-xxxxl() { @return {!SPACING_XXXXL_V2}; }",
+      "originalValue": "@function bpk-spacing-xxxxl() { @return {!SPACING_XXXXL}; }",
       "name": "SPACING_FUNCTION_XXXXL"
     },
     "SPACING_FUNCTION_XXL": {
       "type": "function",
       "category": "spacings",
-      "value": "@function bpk-spacing-xxl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2.5rem; } @return 2.625rem; }",
-      "originalValue": "@function bpk-spacing-xxl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_XXL_V2}; } @return {!SPACING_XXL}; }",
+      "value": "@function bpk-spacing-xxl() { @return 2.5rem; }",
+      "originalValue": "@function bpk-spacing-xxl() { @return {!SPACING_XXL}; }",
       "name": "SPACING_FUNCTION_XXL"
     },
     "SPACING_FUNCTION_MD": {
       "type": "function",
       "category": "spacings",
-      "value": "@function bpk-spacing-md() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .5rem; } @return 1.125rem; }",
-      "originalValue": "@function bpk-spacing-md() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_MD_V2}; } @return {!SPACING_MD}; }",
+      "value": "@function bpk-spacing-md() { @return .5rem; }",
+      "originalValue": "@function bpk-spacing-md() { @return {!SPACING_MD}; }",
       "name": "SPACING_FUNCTION_MD"
-    },
-    "SPACING_LG_V2": {
-      "type": "size",
-      "category": "spacings",
-      "value": "1.5rem",
-      "originalValue": "{!SPACING_LG_V2}",
-      "name": "SPACING_LG_V2"
     },
     "SPACING_FUNCTION_SM": {
       "type": "function",
       "category": "spacings",
-      "value": "@function bpk-spacing-sm() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .25rem; } @return .75rem; }",
-      "originalValue": "@function bpk-spacing-sm() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_SM_V2}; } @return {!SPACING_SM}; }",
+      "value": "@function bpk-spacing-sm() { @return .25rem; }",
+      "originalValue": "@function bpk-spacing-sm() { @return {!SPACING_SM}; }",
       "name": "SPACING_FUNCTION_SM"
-    },
-    "SPACING_SM_V2": {
-      "type": "size",
-      "category": "spacings",
-      "value": ".25rem",
-      "originalValue": "{!SPACING_SM_V2}",
-      "name": "SPACING_SM_V2"
     },
     "SPACING_FUNCTION_LG": {
       "type": "function",
       "category": "spacings",
-      "value": "@function bpk-spacing-lg() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1.5rem; } @return 1.875rem; }",
-      "originalValue": "@function bpk-spacing-lg() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_LG_V2}; } @return {!SPACING_LG}; }",
+      "value": "@function bpk-spacing-lg() { @return 1.5rem; }",
+      "originalValue": "@function bpk-spacing-lg() { @return {!SPACING_LG}; }",
       "name": "SPACING_FUNCTION_LG"
     },
     "ONE_PIXEL_REM": {
@@ -2589,62 +2554,6 @@
       "originalValue": "{!ONE_PIXEL_REM}",
       "name": "ONE_PIXEL_REM"
     },
-    "SPACING_MD_V2": {
-      "type": "size",
-      "category": "spacings",
-      "value": ".5rem",
-      "originalValue": "{!SPACING_MD_V2}",
-      "name": "SPACING_MD_V2"
-    },
-    "SPACING_XL_V2": {
-      "type": "size",
-      "category": "spacings",
-      "value": "2rem",
-      "originalValue": "{!SPACING_XL_V2}",
-      "name": "SPACING_XL_V2"
-    },
-    "SPACING_XXL_V2": {
-      "type": "size",
-      "category": "spacings",
-      "value": "2.5rem",
-      "originalValue": "{!SPACING_XXL_V2}",
-      "name": "SPACING_XXL_V2"
-    },
-    "SPACING_BASE": {
-      "type": "size",
-      "category": "spacings",
-      "value": "1.5rem",
-      "originalValue": "{!SPACING_BASE}",
-      "name": "SPACING_BASE"
-    },
-    "SPACING_BASE_V2": {
-      "type": "size",
-      "category": "spacings",
-      "value": "1rem",
-      "originalValue": "{!SPACING_BASE_V2}",
-      "name": "SPACING_BASE_V2"
-    },
-    "SPACING_XL": {
-      "type": "size",
-      "category": "spacings",
-      "value": "2.250rem",
-      "originalValue": "{!SPACING_XL}",
-      "name": "SPACING_XL"
-    },
-    "SPACING_XXL": {
-      "type": "size",
-      "category": "spacings",
-      "value": "2.625rem",
-      "originalValue": "{!SPACING_XXL}",
-      "name": "SPACING_XXL"
-    },
-    "SPACING_MD": {
-      "type": "size",
-      "category": "spacings",
-      "value": "1.125rem",
-      "originalValue": "{!SPACING_MD}",
-      "name": "SPACING_MD"
-    },
     "SPACING_NONE": {
       "type": "size",
       "category": "spacings",
@@ -2652,53 +2561,32 @@
       "originalValue": "{!SPACING_NONE}",
       "name": "SPACING_NONE"
     },
-    "SPACING_SM": {
-      "type": "size",
-      "category": "spacings",
-      "value": ".75rem",
-      "originalValue": "{!SPACING_SM}",
-      "name": "SPACING_SM"
-    },
     "SPACING_ICON_TEXT": {
       "type": "size",
       "category": "spacings",
       "value": ".5rem",
-      "originalValue": "{!SPACING_MD_V2}",
+      "originalValue": "{!SPACING_MD}",
       "name": "SPACING_ICON_TEXT"
-    },
-    "SPACING_XS": {
-      "type": "size",
-      "category": "spacings",
-      "value": ".375rem",
-      "originalValue": "{!SPACING_XS}",
-      "name": "SPACING_XS"
-    },
-    "SPACING_LG": {
-      "type": "size",
-      "category": "spacings",
-      "value": "1.875rem",
-      "originalValue": "{!SPACING_LG}",
-      "name": "SPACING_LG"
     },
     "SPACING_FUNCTION_BASE": {
       "type": "function",
       "category": "spacings",
-      "value": "@function bpk-spacing-base() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1rem; } @return 1.5rem; }",
-      "originalValue": "@function bpk-spacing-base() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_BASE_V2}; } @return {!SPACING_BASE}; }",
+      "value": "@function bpk-spacing-base() { @return 1rem; }",
+      "originalValue": "@function bpk-spacing-base() { @return {!SPACING_BASE}; }",
       "name": "SPACING_FUNCTION_BASE"
     },
     "SPACING_FUNCTION_XL": {
       "type": "function",
       "category": "spacings",
-      "value": "@function bpk-spacing-xl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2rem; } @return 2.250rem; }",
-      "originalValue": "@function bpk-spacing-xl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return {!SPACING_XL_V2}; } @return {!SPACING_XL}; }",
+      "value": "@function bpk-spacing-xl() { @return 2rem; }",
+      "originalValue": "@function bpk-spacing-xl() { @return {!SPACING_XL}; }",
       "name": "SPACING_FUNCTION_XL"
     },
     "SPACING_FUNCTION_XXXL": {
       "type": "function",
       "category": "spacings",
       "value": "@function bpk-spacing-xxxl() { @return 4rem; }",
-      "originalValue": "@function bpk-spacing-xxxl() { @return {!SPACING_XXXL_V2}; }",
+      "originalValue": "@function bpk-spacing-xxxl() { @return {!SPACING_XXXL}; }",
       "name": "SPACING_FUNCTION_XXXL"
     },
     "FONT_WEIGHT_BOOK": {
@@ -2756,13 +2644,6 @@
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_XXXL}",
       "name": "FONT_SIZE_XXXL"
-    },
-    "HEADING_CONTENT_MARGIN_TOP": {
-      "value": "1.875rem",
-      "type": "size",
-      "category": "spacings",
-      "originalValue": "{!SPACING_LG}",
-      "name": "HEADING_CONTENT_MARGIN_TOP"
     },
     "LINE_HEIGHT_SM": {
       "value": "1.25rem",

@@ -594,49 +594,23 @@ $bpk-private-slider-selected-day: rgb(21, 70, 121);
 /// @group spacings
 @function bpk-spacing-xxxxl() { @return 6rem; }
 /// @group spacings
-@function bpk-spacing-xxl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2.5rem; } @return 2.625rem; }
+@function bpk-spacing-xxl() { @return 2.5rem; }
 /// @group spacings
-@function bpk-spacing-md() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .5rem; } @return 1.125rem; }
+@function bpk-spacing-md() { @return .5rem; }
 /// @group spacings
-$bpk-spacing-lg-v-2: 1.5rem;
+@function bpk-spacing-sm() { @return .25rem; }
 /// @group spacings
-@function bpk-spacing-sm() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return .25rem; } @return .75rem; }
-/// @group spacings
-$bpk-spacing-sm-v-2: .25rem;
-/// @group spacings
-@function bpk-spacing-lg() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1.5rem; } @return 1.875rem; }
+@function bpk-spacing-lg() { @return 1.5rem; }
 /// @group spacings
 $bpk-one-pixel-rem: .0625rem;
 /// @group spacings
-$bpk-spacing-md-v-2: .5rem;
-/// @group spacings
-$bpk-spacing-xl-v-2: 2rem;
-/// @group spacings
-$bpk-spacing-xxl-v-2: 2.5rem;
-/// @group spacings
-$bpk-spacing-base: 1.5rem;
-/// @group spacings
-$bpk-spacing-base-v-2: 1rem;
-/// @group spacings
-$bpk-spacing-xl: 2.250rem;
-/// @group spacings
-$bpk-spacing-xxl: 2.625rem;
-/// @group spacings
-$bpk-spacing-md: 1.125rem;
-/// @group spacings
 $bpk-spacing-none: 0;
-/// @group spacings
-$bpk-spacing-sm: .75rem;
 /// @group spacings
 $bpk-spacing-icon-text: .5rem;
 /// @group spacings
-$bpk-spacing-xs: .375rem;
+@function bpk-spacing-base() { @return 1rem; }
 /// @group spacings
-$bpk-spacing-lg: 1.875rem;
-/// @group spacings
-@function bpk-spacing-base() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 1rem; } @return 1.5rem; }
-/// @group spacings
-@function bpk-spacing-xl() { @if global-variable-exists('bpk-spacing-v2') and $bpk-spacing-v2 { @return 2rem; } @return 2.250rem; }
+@function bpk-spacing-xl() { @return 2rem; }
 /// @group spacings
 @function bpk-spacing-xxxl() { @return 4rem; }
 /// @group font-weights
@@ -655,8 +629,6 @@ $bpk-font-size-xl: 1.5rem;
 $bpk-font-size-xxxxxl: 4rem;
 /// @group typesettings
 $bpk-font-size-xxxl: 2.5rem;
-/// @group spacings
-$bpk-heading-content-margin-top: 1.875rem;
 /// @group typesettings
 $bpk-line-height-sm: 1.25rem;
 /// @group typesettings

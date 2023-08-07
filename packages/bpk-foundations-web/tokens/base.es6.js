@@ -304,22 +304,9 @@ export const bannerAlertErrorColor = "rgb(231, 8, 102)";
 export const bannerAlertNeutralColor = "rgb(194, 201, 205)";
 export const panelBorderColor = "rgb(194, 201, 205)";
 export const privateSliderSelectedDay = "rgb(21, 70, 121)";
-export const spacingLgV2 = "1.5rem";
-export const spacingSmV2 = ".25rem";
 export const onePixelRem = ".0625rem";
-export const spacingMdV2 = ".5rem";
-export const spacingXlV2 = "2rem";
-export const spacingXxlV2 = "2.5rem";
-export const spacingBase = "1.5rem";
-export const spacingBaseV2 = "1rem";
-export const spacingXl = "2.250rem";
-export const spacingXxl = "2.625rem";
-export const spacingMd = "1.125rem";
 export const spacingNone = "0";
-export const spacingSm = ".75rem";
 export const spacingIconText = ".5rem";
-export const spacingXs = ".375rem";
-export const spacingLg = "1.875rem";
 export const fontWeightBook = "400";
 export const lineHeightXlTight = "1.75rem";
 export const lineHeightXxxxxl = "4.5rem";
@@ -328,7 +315,6 @@ export const lineHeightXl = "2rem";
 export const fontSizeXl = "1.5rem";
 export const fontSizeXxxxxl = "4rem";
 export const fontSizeXxxl = "2.5rem";
-export const headingContentMarginTop = "1.875rem";
 export const lineHeightSm = "1.25rem";
 export const lineHeightLgTight = "1.5rem";
 export const lineHeightLg = "1.75rem";
@@ -653,23 +639,9 @@ export const sliderColors = {
 privateSliderSelectedDay,
 };
 export const spacings = {
-spacingLgV2,
-spacingSmV2,
 onePixelRem,
-spacingMdV2,
-spacingXlV2,
-spacingXxlV2,
-spacingBase,
-spacingBaseV2,
-spacingXl,
-spacingXxl,
-spacingMd,
 spacingNone,
-spacingSm,
 spacingIconText,
-spacingXs,
-spacingLg,
-headingContentMarginTop,
 };
 export const statusColors = {
 statusSuccessSpotNight,
