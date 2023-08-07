@@ -168,6 +168,8 @@ export const privateChipDisabledBackgroundDay = "rgb(224, 227, 229)";
 export const privateChipDisabledBackgroundNight = "rgb(11, 18, 29)";
 export const privateChipOnDarkOnDismissIconDay = "rgb(84, 88, 96)";
 export const privateChipOnDarkOnDismissIconNight = "rgba(255, 255, 255, 0.5)";
+export const privateMapMarkerViewedForegroundDay = "rgba(255, 255, 255, 0.8)";
+export const privateMapMarkerViewedForegroundNight = "rgba(0, 0, 0, 0.8)";
 export const privateButtonSecondaryPressedBackgroundNight = "rgb(1, 9, 19)";
 export const privateButtonLinkNormalForegroundNight = "rgb(132, 233, 255)";
 export const privateButtonLinkOnDarkDisabledForegroundNight = "rgba(255, 255, 255, 0.2)";
@@ -707,6 +709,10 @@ lineOnDarkDay,
 lineNight,
 lineDay,
 };
+export const mapMarkerColors = {
+privateMapMarkerViewedForegroundDay,
+privateMapMarkerViewedForegroundNight,
+};
 export const marcommsColors = {
 marcommsBerry,
 marcommsCharcoal,
@@ -944,6 +950,7 @@ export const privateChipOnDarkPressedStrokeColor = undefined;
 export const privateChipOnDarkOnBackgroundColor = undefined;
 export const privateChipDisabledBackgroundColor = undefined;
 export const privateChipOnDarkOnDismissIconColor = undefined;
+export const privateMapMarkerViewedForegroundColor = undefined;
 export const privateButtonSecondaryPressedBackgroundColor = undefined;
 export const privateButtonLinkNormalForegroundColor = undefined;
 export const privateButtonLinkOnDarkDisabledForegroundColor = undefined;

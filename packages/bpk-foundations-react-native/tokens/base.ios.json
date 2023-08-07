@@ -960,6 +960,18 @@
     },
     {
       "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffcc",
+      "name": "privateMapMarkerViewedForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#000000cc",
+      "name": "privateMapMarkerViewedForegroundNight"
+    },
+    {
+      "type": "color",
       "category": "button-colors",
       "value": "#010913ff",
       "name": "privateButtonSecondaryPressedBackgroundNight"
@@ -2198,6 +2210,13 @@
       "value": "#545860ff",
       "name": "privateChipOnDarkOnDismissIconColor",
       "darkValue": "#ffffff80"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffcc",
+      "name": "privateMapMarkerViewedForegroundColor",
+      "darkValue": "#000000cc"
     },
     {
       "type": "color",

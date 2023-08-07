@@ -169,6 +169,8 @@ module.exports = {
   privateChipDisabledBackgroundNight: "rgb(11, 18, 29)",
   privateChipOnDarkOnDismissIconDay: "rgb(84, 88, 96)",
   privateChipOnDarkOnDismissIconNight: "rgba(255, 255, 255, 0.5)",
+  privateMapMarkerViewedForegroundDay: "rgba(255, 255, 255, 0.8)",
+  privateMapMarkerViewedForegroundNight: "rgba(0, 0, 0, 0.8)",
   privateButtonSecondaryPressedBackgroundNight: "rgb(1, 9, 19)",
   privateButtonLinkNormalForegroundNight: "rgb(132, 233, 255)",
   privateButtonLinkOnDarkDisabledForegroundNight: "rgba(255, 255, 255, 0.2)",

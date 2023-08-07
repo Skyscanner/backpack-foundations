@@ -2,7 +2,7 @@
   "imports": ["./aliases.json"],
   "global": {
     "type": "color",
-    "category": "map-colors"
+    "category": "map-marker-colors"
   },
   "props": {
     "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY": {
