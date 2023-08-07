@@ -9,6 +9,7 @@
     "./colors/other.json",
     "./colors/marcomms.json",
     "./colors/chip.json",
+    "./colors/map-marker.json",
     "./colors/button.json",
     "./colors/skeleton.json"
   ]

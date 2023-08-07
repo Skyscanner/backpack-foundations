@@ -317,6 +317,10 @@ $bpk-private-chip-disabled-background-night: rgb(11, 18, 29);
 $bpk-private-chip-on-dark-on-dismiss-icon-day: rgb(84, 88, 96);
 /// @group chip-colors
 $bpk-private-chip-on-dark-on-dismiss-icon-night: rgba(255, 255, 255, 0.5);
+/// @group map-marker-colors
+$bpk-private-map-marker-viewed-foreground-day: rgba(255, 255, 255, 0.8);
+/// @group map-marker-colors
+$bpk-private-map-marker-viewed-foreground-night: rgba(0, 0, 0, 0.8);
 /// @group button-colors
 $bpk-private-button-secondary-pressed-background-night: rgb(1, 9, 19);
 /// @group button-colors

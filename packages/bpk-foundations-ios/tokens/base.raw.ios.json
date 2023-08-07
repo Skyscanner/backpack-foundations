@@ -330,6 +330,9 @@
     "NIGHT_GREY_10": {
       "value": "#010913"
     },
+    "BLACK_ALPHA_80": {
+      "value": "#000000CC"
+    },
     "NIGHT_GREY_00": {
       "value": "#0B121D"
     },
@@ -2552,6 +2555,20 @@
       "originalValue": "{!WHITE_ALPHA_50}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT"
     },
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY"
+    },
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#000000cc",
+      "originalValue": "{!BLACK_ALPHA_80}",
+      "name": "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT"
+    },
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
@@ -3812,6 +3829,15 @@
       "darkValue": "#ffffff80",
       "originalDarkValue": "{!WHITE_ALPHA_50}"
     },
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_COLOR": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_COLOR",
+      "darkValue": "#000000cc",
+      "originalDarkValue": "{!BLACK_ALPHA_80}"
+    },
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
@@ -4363,6 +4389,8 @@
     "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT",
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY",
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT",
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY",
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT",
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT",
     "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_NIGHT",
     "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_NIGHT",
@@ -4529,6 +4557,7 @@
     "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_COLOR",
     "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR",
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_COLOR",
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_COLOR",
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_COLOR",
     "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_COLOR",
     "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_COLOR",

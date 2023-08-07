@@ -180,6 +180,9 @@
     "NIGHT_GREY_10": {
       "value": "#010913"
     },
+    "BLACK_ALPHA_80": {
+      "value": "#000000CC"
+    },
     "NIGHT_GREY_00": {
       "value": "#0B121D"
     },
@@ -1552,6 +1555,20 @@
       "value": "rgba(255, 255, 255, 0.5)",
       "originalValue": "{!WHITE_ALPHA_50}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT"
+    },
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY"
+    },
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "rgba(0, 0, 0, 0.8)",
+      "originalValue": "{!BLACK_ALPHA_80}",
+      "name": "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT": {
       "type": "color",
