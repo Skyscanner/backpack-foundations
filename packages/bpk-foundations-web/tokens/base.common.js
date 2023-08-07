@@ -317,7 +317,6 @@ module.exports = {
   fontSizeXl: "1.5rem",
   fontSizeXxxxxl: "4rem",
   fontSizeXxxl: "2.5rem",
-  headingContentMarginTop: "1.5rem",
   lineHeightSm: "1.25rem",
   lineHeightLgTight: "1.5rem",
   lineHeightLg: "1.75rem",

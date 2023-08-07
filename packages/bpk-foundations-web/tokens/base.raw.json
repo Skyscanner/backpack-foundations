@@ -2645,13 +2645,6 @@
       "originalValue": "{!FONT_SIZE_XXXL}",
       "name": "FONT_SIZE_XXXL"
     },
-    "HEADING_CONTENT_MARGIN_TOP": {
-      "value": "1.5rem",
-      "type": "size",
-      "category": "spacings",
-      "originalValue": "{!SPACING_LG}",
-      "name": "HEADING_CONTENT_MARGIN_TOP"
-    },
     "LINE_HEIGHT_SM": {
       "value": "1.25rem",
       "type": "size",

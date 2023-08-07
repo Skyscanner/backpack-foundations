@@ -315,7 +315,6 @@ export const lineHeightXl = "2rem";
 export const fontSizeXl = "1.5rem";
 export const fontSizeXxxxxl = "4rem";
 export const fontSizeXxxl = "2.5rem";
-export const headingContentMarginTop = "1.5rem";
 export const lineHeightSm = "1.25rem";
 export const lineHeightLgTight = "1.5rem";
 export const lineHeightLg = "1.75rem";
@@ -643,7 +642,6 @@ export const spacings = {
 onePixelRem,
 spacingNone,
 spacingIconText,
-headingContentMarginTop,
 };
 export const statusColors = {
 statusSuccessSpotNight,
