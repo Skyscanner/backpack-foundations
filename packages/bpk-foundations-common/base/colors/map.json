@@ -1,0 +1,15 @@
+{
+  "imports": ["./aliases.json"],
+  "global": {
+    "type": "color",
+    "category": "map-colors"
+  },
+  "props": {
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY": {
+      "value": "{!WHITE_ALPHA_80}"
+    },
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT": {
+      "value": "{!BLACK_ALPHA_80}"
+    },
+  }
+}
