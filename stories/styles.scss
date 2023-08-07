@@ -16,21 +16,14 @@
  * limitations under the License.
  */
 
-const heroStyles = ['hero-1', 'hero-2', 'hero-3', 'hero-4', 'hero-5'];
-const headingStyles = [
-  'heading-1',
-  'heading-2',
-  'heading-3',
-  'heading-4',
-  'heading-5',
-];
-const bodyStyles = [
-  'subheading',
-  'body-longform',
-  'body-default',
-  'footnote',
-  'caption',
-];
-const labelStyles = ['label-1', 'label-2', 'label-3'];
+@import '../packages/bpk-foundations-web/tokens/base.default.scss';
 
-export { heroStyles, headingStyles, bodyStyles, labelStyles };
+@mixin bpk-caption {
+  font-size: $bpk-font-size-xs;
+  line-height: $bpk-line-height-xs;
+  font-weight: $bpk-font-weight-book;
+}
+
+@mixin bpk-border-sm($color) {
+  box-shadow: 0 0 0 $bpk-border-size-sm $color inset;
+}
