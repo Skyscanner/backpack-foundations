@@ -107,7 +107,7 @@ gulp.task('elements', () => {
 /*
   SPINNERS
 */
-gulp.task('spinners', () => {
+gulp.task('optimise-svg-spinners', () => {
   const optimised = gulp
     .src('src/spinners/**/*.svg')
     .pipe(chmod(0o644))
@@ -119,7 +119,15 @@ gulp.task('spinners', () => {
           {
             name: 'removeAttrs',
             params: {
-              attrs: ['id', 'class', 'data-name', 'fill', 'fill-rule'],
+              attrs: [
+                'id',
+                'class',
+                'data-name',
+                'fill',
+                'fill-rule',
+                'width',
+                'height',
+              ],
             },
           },
         ],
@@ -127,7 +135,25 @@ gulp.task('spinners', () => {
     )
     .pipe(gulp.dest('src/spinners'));
 
-  const react = optimised
+  return optimised
+    .pipe(clone())
+    .pipe(svg2datauri({ colors }))
+    .pipe(concat('_spinners.scss'))
+    .pipe(sassMap('bpk-spinners'))
+    .pipe(gulp.dest('dist/scss'));
+});
+
+const spinnerReactComponents = (size) => {
+  const svgs = gulp.src(`src/spinners/**/${size}.svg`).pipe(chmod(0o644));
+
+  const sizeMapping = {
+    sm: '1rem',
+    lg: '1.5rem',
+    xl: '2rem',
+  };
+  const styleAttribute = `style="width:${sizeMapping[size]};height:${sizeMapping[size]}"`;
+
+  return svgs
     .pipe(clone())
     .pipe(
       svgmin({
@@ -140,6 +166,7 @@ gulp.task('spinners', () => {
                 {
                   'aria-hidden': true,
                 },
+                styleAttribute,
               ],
             },
           },
@@ -149,16 +176,15 @@ gulp.task('spinners', () => {
     .pipe(svg2react())
     .pipe(rename({ extname: '.js' }))
     .pipe(gulp.dest('dist/js/spinners'));
+};
 
-  const datauri = optimised
-    .pipe(clone())
-    .pipe(svg2datauri({ colors }))
-    .pipe(concat('_spinners.scss'))
-    .pipe(sassMap('bpk-spinners'))
-    .pipe(gulp.dest('dist/scss'));
-
-  return merge(react, datauri);
-});
+gulp.task('spinners', () =>
+  merge(
+    spinnerReactComponents('sm'),
+    spinnerReactComponents('lg'),
+    spinnerReactComponents('xl'),
+  ),
+);
 
 /*
   ICONS
@@ -218,12 +244,6 @@ const iconReactComponents = (size) => {
             name: 'addAttributesToSVGElement',
             params: {
               attributes: [
-                {
-                  width: iconPxSize,
-                },
-                {
-                  height: iconPxSize,
-                },
                 {
                   'aria-hidden': true,
                 },
@@ -400,7 +420,9 @@ const allIcons = gulp.series(
   gulp.parallel('icons', iconFonts, 'copy-svgs'),
 );
 
+const allSpinners = gulp.series('optimise-svg-spinners', 'spinners');
+
 gulp.task(
   'default',
-  gulp.parallel('elements', 'spinners', allIcons, 'create-metadata'),
+  gulp.parallel('elements', allSpinners, allIcons, 'create-metadata'),
 );
