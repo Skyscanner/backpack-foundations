@@ -119,14 +119,21 @@ gulp.task('optimise-svg-spinners', () => {
           {
             name: 'removeAttrs',
             params: {
-              attrs: ['id', 'class', 'data-name', 'fill', 'fill-rule', 'width', 'height'],
+              attrs: [
+                'id',
+                'class',
+                'data-name',
+                'fill',
+                'fill-rule',
+                'width',
+                'height',
+              ],
             },
           },
         ],
       }),
     )
     .pipe(gulp.dest('src/spinners'));
-
 
   return optimised
     .pipe(clone())
@@ -136,25 +143,17 @@ gulp.task('optimise-svg-spinners', () => {
     .pipe(gulp.dest('dist/scss'));
 });
 
-gulp.task('spinners', () => merge(
-  spinnerReactComponents('sm'),
-  spinnerReactComponents('lg'),
-  spinnerReactComponents('xl')
-  )
-);
-
 const spinnerReactComponents = (size) => {
   const svgs = gulp.src(`src/spinners/**/${size}.svg`).pipe(chmod(0o644));
 
   const sizeMapping = {
-    'sm': '1rem',
-    'lg': '1.5rem',
-    'xl': '2rem'
-  }
+    sm: '1rem',
+    lg: '1.5rem',
+    xl: '2rem',
+  };
   const styleAttribute = `style="width:${sizeMapping[size]};height:${sizeMapping[size]}"`;
 
-  return (
-    svgs
+  return svgs
     .pipe(clone())
     .pipe(
       svgmin({
@@ -167,7 +166,7 @@ const spinnerReactComponents = (size) => {
                 {
                   'aria-hidden': true,
                 },
-                styleAttribute
+                styleAttribute,
               ],
             },
           },
@@ -176,9 +175,16 @@ const spinnerReactComponents = (size) => {
     )
     .pipe(svg2react())
     .pipe(rename({ extname: '.js' }))
-    .pipe(gulp.dest('dist/js/spinners'))
-  )
-}
+    .pipe(gulp.dest('dist/js/spinners'));
+};
+
+gulp.task('spinners', () =>
+  merge(
+    spinnerReactComponents('sm'),
+    spinnerReactComponents('lg'),
+    spinnerReactComponents('xl'),
+  ),
+);
 
 /*
   ICONS
@@ -414,10 +420,7 @@ const allIcons = gulp.series(
   gulp.parallel('icons', iconFonts, 'copy-svgs'),
 );
 
-const allSpinners = gulp.series(
-  'optimise-svg-spinners',
-  'spinners'
-);
+const allSpinners = gulp.series('optimise-svg-spinners', 'spinners');
 
 gulp.task(
   'default',
