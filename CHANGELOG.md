@@ -1,7 +1,26 @@
+# 2023-08-07
+
+**Added:**
+
+`@skyscanner/bpk-foundations-web`: 16.1.0 => 17.0.0 </br>
+`@skyscanner/bpk-foundations-ios`: 6.1.0 => 6.2.0 </br>
+`@skyscanner/bpk-foundations-android`: 7.1.0 => 7.2.0 </br>
+- Add new private colour for map markers.
+
+**Breaking:**
+
+- `@skyscanner/bpk-foundations-web`: 16.1.0 => 17.0.0
+  - Remove `spacing v2` and `spacing` tokens.
+  - Remove `bpk-heading-content-margin-top` token. 
+  - Spacing functions now only return the newer spacing values.
+
+- `bpk-mixins`: 41.2.1 => 42.0.0
+  - Remove `bpk-content-heading` as this is not used.
+
 # 2023-08-03
 
 **Breaking:**
-`bpk-svgs`: 16.4.0 => 17.0.0
+`@skyscanner/bpk-svgs`: 16.4.0 => 17.0.0
 - All JS icons have `aria-hidden` attribute set to true by default to hide icons from Assistive Technologies. You can overwrite the value if needed by passing `aria-hidden="false"` to the icon component.
 
 # 2023-07-25
