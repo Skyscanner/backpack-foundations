@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-@import '../../../packages/bpk-mixins/index.scss';
+@import '../../styles.scss';
 
 .bpk-spinner-container {
   display: flex;
@@ -26,14 +26,18 @@
 }
 
 .bpk-spinner-swatch {
-  @include bpk-spinner();
+  width: bpk-spacing-base();
+  height: bpk-spacing-base();
+  animation: bpk-keyframe-spin 600ms linear infinite;
 
   &--lg {
-    @include bpk-spinner--lg();
+    width: bpk-spacing-lg();
+    height: bpk-spacing-lg();
   }
 
   &--xl {
-    @include bpk-spinner--xl();
+    width: bpk-spacing-xl();
+    height: bpk-spacing-xl();
   }
 }
 

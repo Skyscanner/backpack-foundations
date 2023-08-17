@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-@import '../../../packages/bpk-mixins/index.scss';
+@import '../../styles.scss';
 
 .bpk-radius-container {
   margin: bpk-spacing-lg();
@@ -26,7 +26,7 @@
   width: bpk-spacing-xxl() * 4;
   height: bpk-spacing-xxl() * 4;
 
-  @include bpk-box-shadow-lg();
+  box-shadow: $bpk-box-shadow-lg;
 }
 
 .bpk-radius-name {

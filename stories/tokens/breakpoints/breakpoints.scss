@@ -16,31 +16,30 @@
  * limitations under the License.
  */
 
- @import '../../../packages/bpk-mixins/index.scss';
+@import '../../styles.scss';
 
- .bpk-breakpoint-container {
-      padding-bottom: bpk-spacing-base();
- }
+.bpk-breakpoint-container {
+  padding-bottom: bpk-spacing-base();
+}
 
- .bpk-breakpoint-object {
-      align-items: center;
-      background-color: $bpk-status-danger-spot-day;
-      height: $bpk-one-pixel-rem;
-  }
+.bpk-breakpoint-object {
+  align-items: center;
+  background-color: $bpk-status-danger-spot-day;
+  height: $bpk-one-pixel-rem;
+}
 
-  .bpk-breakpoint-margin-object {
-      background-color: $bpk-status-warning-fill-day;
-  }
+.bpk-breakpoint-margin-object {
+  background-color: $bpk-status-warning-fill-day;
+}
 
-  .bpk-breakpoint-margin-container {
-      display: flex;
-      justify-content: space-between;
-  }
- 
- .bpk-breakpoint-name {
-      margin-top: bpk-spacing-base();
-      font-family: 'Space Mono', monospace;
-   
-      @include bpk-caption;
- }
- 
+.bpk-breakpoint-margin-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bpk-breakpoint-name {
+  margin-top: bpk-spacing-base();
+  font-family: 'Space Mono', monospace;
+
+  @include bpk-caption;
+}
