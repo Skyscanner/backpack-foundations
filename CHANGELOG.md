@@ -1,3 +1,12 @@
+# 2023-08-28
+
+**Changed:**
+
+- `bpk-svgs`: 18.0.0 => 18.1.0
+  - Updated `explore` icon to new design.
+
+# 2023-08-11
+
 **Breaking:**
 
 `bpk-svgs`: 17.1.0 => 18.0.0
