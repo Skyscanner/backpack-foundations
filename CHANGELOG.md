@@ -1,3 +1,8 @@
+**Breaking:**
+
+`bpk-svgs`: 17.1.0 => 18.0.0
+- All JS icons and spinners have a `viewBox` attribute and no longer have `width` and `height` attributes. This should not have any visual impact, but might break snapshots.
+
 # 2023-08-07
 
 **Added:**
