@@ -25,6 +25,6 @@
     "PRIVATE_CARD_BUTTON_CONTAINED_COLOR": {
       "value": "{!WHITE_ALPHA_80}",
       "type": "color"
-    },
+    }
   }
 }
