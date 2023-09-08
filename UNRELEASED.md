@@ -1,4 +1,4 @@
 **Added:**
 
 `@skyscanner/bpk-foundations-web`: </br>
-- Add new card button contained backgournd color token
+- Add new bpk card button contained color
