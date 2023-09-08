@@ -1,3 +1,10 @@
+# 2023-09-08
+
+**Added:**
+
+`@skyscanner/bpk-foundations-web`: 17.0.0 => 17.1.0 </br>
+- Add new bpk card button contained color
+
 # 2023-08-28
 
 **Changed:**
