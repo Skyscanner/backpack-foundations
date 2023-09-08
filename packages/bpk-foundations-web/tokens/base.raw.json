@@ -2242,6 +2242,13 @@
       "originalValue": "{!SPACING_LG}",
       "name": "PRIVATE_BUTTON_LINE_HEIGHT"
     },
+    "PRIVATE_CARD_BUTTON_CONTAINED_COLOR": {
+      "category": "buttons",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "type": "color",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_CARD_BUTTON_CONTAINED_COLOR"
+    },
     "CALENDAR_DAY_SPACING": {
       "category": "calendar",
       "value": ".5rem",

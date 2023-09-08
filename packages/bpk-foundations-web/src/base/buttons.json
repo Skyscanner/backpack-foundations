@@ -21,6 +21,10 @@
     "PRIVATE_BUTTON_LINE_HEIGHT": {
       "value": "{!SPACING_LG}",
       "type": "number"
+    },
+    "PRIVATE_CARD_BUTTON_CONTAINED_COLOR": {
+      "value": "{!WHITE_ALPHA_80}",
+      "type": "color"
     }
   }
 }
