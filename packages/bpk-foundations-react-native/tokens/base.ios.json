@@ -961,14 +961,62 @@
     {
       "type": "color",
       "category": "map-marker-colors",
-      "value": "#ffffffcc",
-      "name": "privateMapMarkerViewedForegroundDay"
+      "value": "#cfe4ffff",
+      "name": "privateMapPreviousSelectionDay"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffff",
+      "name": "privateMapClusterPinNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#94c3ffff",
+      "name": "privateMapClusterPinPreviousSelectionNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#05203cff",
+      "name": "privateMapClusterPinDay"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#94c3ffff",
+      "name": "privateMapClusterPinPreviousSelectionDay"
     },
     {
       "type": "color",
       "category": "map-marker-colors",
       "value": "#000000cc",
       "name": "privateMapMarkerViewedForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffcc",
+      "name": "privateMapMarkerViewedForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#8e47baff",
+      "name": "privateMapPoiPinNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#cfe4ffff",
+      "name": "privateMapPreviousSelectionNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#8e47baff",
+      "name": "privateMapPoiPinDay"
     },
     {
       "type": "color",
@@ -2214,9 +2262,37 @@
     {
       "type": "color",
       "category": "map-marker-colors",
+      "value": "#cfe4ffff",
+      "name": "privateMapPreviousSelectionColor",
+      "darkValue": "#cfe4ffff"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#05203cff",
+      "name": "privateMapClusterPinColor",
+      "darkValue": "#ffffffff"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#94c3ffff",
+      "name": "privateMapClusterPinPreviousSelectionColor",
+      "darkValue": "#94c3ffff"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
       "value": "#ffffffcc",
       "name": "privateMapMarkerViewedForegroundColor",
       "darkValue": "#000000cc"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#8e47baff",
+      "name": "privateMapPoiPinColor",
+      "darkValue": "#8e47baff"
     },
     {
       "type": "color",

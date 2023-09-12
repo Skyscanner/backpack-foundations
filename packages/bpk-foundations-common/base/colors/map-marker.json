@@ -11,5 +11,29 @@
     "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT": {
       "value": "{!BLACK_ALPHA_80}"
     },
+    "PRIVATE_MAP_PREVIOUS_SELECTION_DAY": {
+      "value": "{!BABY_BLUE_20}"
+    },
+    "PRIVATE_MAP_PREVIOUS_SELECTION_NIGHT": {
+      "value": "{!BABY_BLUE_20}"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_DAY": {
+      "value": "{!DARK_SKY}"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_NIGHT": {
+      "value": "{!WHITE}"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_DAY": {
+      "value": "{!BABY_BLUE_40}"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_NIGHT": {
+      "value": "{!BABY_BLUE_40}"
+    },
+    "PRIVATE_MAP_POI_PIN_DAY": {
+      "value": "{!PURPLE}"
+    },
+    "PRIVATE_MAP_POI_PIN_NIGHT": {
+      "value": "{!PURPLE}"
+    }
   }
 }

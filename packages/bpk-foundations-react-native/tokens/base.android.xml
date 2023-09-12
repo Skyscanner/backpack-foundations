@@ -150,8 +150,16 @@
   <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY" category="chip-colors">#545860ff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT" category="chip-colors">#ffffff80</color>
-  <color name="PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY" category="map-marker-colors">#ffffffcc</color>
+  <color name="PRIVATE_MAP_PREVIOUS_SELECTION_DAY" category="map-marker-colors">#cfe4ffff</color>
+  <color name="PRIVATE_MAP_CLUSTER_PIN_NIGHT" category="map-marker-colors">#ffffffff</color>
+  <color name="PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_NIGHT" category="map-marker-colors">#94c3ffff</color>
+  <color name="PRIVATE_MAP_CLUSTER_PIN_DAY" category="map-marker-colors">#05203cff</color>
+  <color name="PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_DAY" category="map-marker-colors">#94c3ffff</color>
   <color name="PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT" category="map-marker-colors">#000000cc</color>
+  <color name="PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY" category="map-marker-colors">#ffffffcc</color>
+  <color name="PRIVATE_MAP_POI_PIN_NIGHT" category="map-marker-colors">#8e47baff</color>
+  <color name="PRIVATE_MAP_PREVIOUS_SELECTION_NIGHT" category="map-marker-colors">#cfe4ffff</color>
+  <color name="PRIVATE_MAP_POI_PIN_DAY" category="map-marker-colors">#8e47baff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT" category="button-colors">#010913ff</color>
   <color name="PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_NIGHT" category="button-colors">#84e9ffff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_NIGHT" category="button-colors">#ffffff33</color>

@@ -2032,7 +2032,7 @@
       "type": "color",
       "category": "marcomms-colors",
       "value": "#8e47baff",
-      "originalValue": "#8E47BA",
+      "originalValue": "{!PURPLE}",
       "name": "marcommsPurple"
     },
     {
@@ -2136,9 +2136,37 @@
     {
       "type": "color",
       "category": "map-marker-colors",
-      "value": "#ffffffcc",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "privateMapMarkerViewedForegroundDay"
+      "value": "#cfe4ffff",
+      "originalValue": "{!BABY_BLUE_20}",
+      "name": "privateMapPreviousSelectionDay"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "privateMapClusterPinNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#94c3ffff",
+      "originalValue": "{!BABY_BLUE_40}",
+      "name": "privateMapClusterPinPreviousSelectionNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#05203cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "privateMapClusterPinDay"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#94c3ffff",
+      "originalValue": "{!BABY_BLUE_40}",
+      "name": "privateMapClusterPinPreviousSelectionDay"
     },
     {
       "type": "color",
@@ -2146,6 +2174,34 @@
       "value": "#000000cc",
       "originalValue": "{!BLACK_ALPHA_80}",
       "name": "privateMapMarkerViewedForegroundNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "privateMapMarkerViewedForegroundDay"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#8e47baff",
+      "originalValue": "{!PURPLE}",
+      "name": "privateMapPoiPinNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#cfe4ffff",
+      "originalValue": "{!BABY_BLUE_20}",
+      "name": "privateMapPreviousSelectionNight"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#8e47baff",
+      "originalValue": "{!PURPLE}",
+      "name": "privateMapPoiPinDay"
     },
     {
       "type": "color",
@@ -3410,11 +3466,47 @@
     {
       "type": "color",
       "category": "map-marker-colors",
+      "value": "#cfe4ffff",
+      "originalValue": "{!BABY_BLUE_20}",
+      "name": "privateMapPreviousSelectionColor",
+      "darkValue": "#cfe4ffff",
+      "originalDarkValue": "{!BABY_BLUE_20}"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#05203cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "privateMapClusterPinColor",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#94c3ffff",
+      "originalValue": "{!BABY_BLUE_40}",
+      "name": "privateMapClusterPinPreviousSelectionColor",
+      "darkValue": "#94c3ffff",
+      "originalDarkValue": "{!BABY_BLUE_40}"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
       "value": "#ffffffcc",
       "originalValue": "{!WHITE_ALPHA_80}",
       "name": "privateMapMarkerViewedForegroundColor",
       "darkValue": "#000000cc",
       "originalDarkValue": "{!BLACK_ALPHA_80}"
+    },
+    {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#8e47baff",
+      "originalValue": "{!PURPLE}",
+      "name": "privateMapPoiPinColor",
+      "darkValue": "#8e47baff",
+      "originalDarkValue": "{!PURPLE}"
     },
     {
       "type": "color",
