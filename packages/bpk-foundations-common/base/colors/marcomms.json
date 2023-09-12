@@ -27,7 +27,7 @@
       "value": "{!GREEN_MUTED}"
     },
     "MARCOMMS_PURPLE": {
-      "value": "#8E47BA"
+      "value": "{!PURPLE}"
     },
     "MARCOMMS_PINK": {
       "value": "#FFA3E5"

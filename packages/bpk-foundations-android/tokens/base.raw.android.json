@@ -327,6 +327,9 @@
     "BUNOL": {
       "value": "#F55D42"
     },
+    "BABY_BLUE_40": {
+      "value": "#94C3FF"
+    },
     "NIGHT_GREY_10": {
       "value": "#010913"
     },
@@ -342,6 +345,9 @@
     "SKY_BLUE_SHADE_01": {
       "value": "#0062E3"
     },
+    "BABY_BLUE_20": {
+      "value": "#CFE4FF"
+    },
     "BLACK_ALPHA_70": {
       "value": "#000000B3"
     },
@@ -356,6 +362,9 @@
     },
     "NIGHT_BLUE_20": {
       "value": "#D1F7FF"
+    },
+    "PURPLE": {
+      "value": "#8E47BA"
     },
     "GREY_40": {
       "value": "#545860"
@@ -2454,7 +2463,7 @@
       "type": "color",
       "category": "marcomms-colors",
       "value": "#8e47baff",
-      "originalValue": "#8E47BA",
+      "originalValue": "{!PURPLE}",
       "name": "MARCOMMS_PURPLE"
     },
     "MARCOMMS_WHITE": {
@@ -2555,12 +2564,40 @@
       "originalValue": "{!WHITE_ALPHA_50}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT"
     },
-    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY": {
+    "PRIVATE_MAP_PREVIOUS_SELECTION_DAY": {
       "type": "color",
       "category": "map-marker-colors",
-      "value": "#ffffffcc",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY"
+      "value": "#cfe4ffff",
+      "originalValue": "{!BABY_BLUE_20}",
+      "name": "PRIVATE_MAP_PREVIOUS_SELECTION_DAY"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_NIGHT": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_MAP_CLUSTER_PIN_NIGHT"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_NIGHT": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#94c3ffff",
+      "originalValue": "{!BABY_BLUE_40}",
+      "name": "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_NIGHT"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_DAY": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#05203cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "PRIVATE_MAP_CLUSTER_PIN_DAY"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_DAY": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#94c3ffff",
+      "originalValue": "{!BABY_BLUE_40}",
+      "name": "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_DAY"
     },
     "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT": {
       "type": "color",
@@ -2568,6 +2605,34 @@
       "value": "#000000cc",
       "originalValue": "{!BLACK_ALPHA_80}",
       "name": "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT"
+    },
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY"
+    },
+    "PRIVATE_MAP_POI_PIN_NIGHT": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#8e47baff",
+      "originalValue": "{!PURPLE}",
+      "name": "PRIVATE_MAP_POI_PIN_NIGHT"
+    },
+    "PRIVATE_MAP_PREVIOUS_SELECTION_NIGHT": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#cfe4ffff",
+      "originalValue": "{!BABY_BLUE_20}",
+      "name": "PRIVATE_MAP_PREVIOUS_SELECTION_NIGHT"
+    },
+    "PRIVATE_MAP_POI_PIN_DAY": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#8e47baff",
+      "originalValue": "{!PURPLE}",
+      "name": "PRIVATE_MAP_POI_PIN_DAY"
     },
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT": {
       "type": "color",
@@ -3625,6 +3690,33 @@
       "darkValue": "#ffffff80",
       "originalDarkValue": "{!WHITE_ALPHA_50}"
     },
+    "PRIVATE_MAP_PREVIOUS_SELECTION_COLOR": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#cfe4ffff",
+      "originalValue": "{!BABY_BLUE_20}",
+      "name": "PRIVATE_MAP_PREVIOUS_SELECTION_COLOR",
+      "darkValue": "#cfe4ffff",
+      "originalDarkValue": "{!BABY_BLUE_20}"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_COLOR": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#05203cff",
+      "originalValue": "{!DARK_SKY}",
+      "name": "PRIVATE_MAP_CLUSTER_PIN_COLOR",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
+    },
+    "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_COLOR": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#94c3ffff",
+      "originalValue": "{!BABY_BLUE_40}",
+      "name": "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_COLOR",
+      "darkValue": "#94c3ffff",
+      "originalDarkValue": "{!BABY_BLUE_40}"
+    },
     "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_COLOR": {
       "type": "color",
       "category": "map-marker-colors",
@@ -3633,6 +3725,15 @@
       "name": "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_COLOR",
       "darkValue": "#000000cc",
       "originalDarkValue": "{!BLACK_ALPHA_80}"
+    },
+    "PRIVATE_MAP_POI_PIN_COLOR": {
+      "type": "color",
+      "category": "map-marker-colors",
+      "value": "#8e47baff",
+      "originalValue": "{!PURPLE}",
+      "name": "PRIVATE_MAP_POI_PIN_COLOR",
+      "darkValue": "#8e47baff",
+      "originalDarkValue": "{!PURPLE}"
     },
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_COLOR": {
       "type": "color",
@@ -4185,8 +4286,16 @@
     "PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT",
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY",
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT",
-    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY",
+    "PRIVATE_MAP_PREVIOUS_SELECTION_DAY",
+    "PRIVATE_MAP_CLUSTER_PIN_NIGHT",
+    "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_NIGHT",
+    "PRIVATE_MAP_CLUSTER_PIN_DAY",
+    "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_DAY",
     "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_NIGHT",
+    "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_DAY",
+    "PRIVATE_MAP_POI_PIN_NIGHT",
+    "PRIVATE_MAP_PREVIOUS_SELECTION_NIGHT",
+    "PRIVATE_MAP_POI_PIN_DAY",
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_NIGHT",
     "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_NIGHT",
     "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_NIGHT",
@@ -4324,7 +4433,11 @@
     "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_COLOR",
     "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR",
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_COLOR",
+    "PRIVATE_MAP_PREVIOUS_SELECTION_COLOR",
+    "PRIVATE_MAP_CLUSTER_PIN_COLOR",
+    "PRIVATE_MAP_CLUSTER_PIN_PREVIOUS_SELECTION_COLOR",
     "PRIVATE_MAP_MARKER_VIEWED_FOREGROUND_COLOR",
+    "PRIVATE_MAP_POI_PIN_COLOR",
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_COLOR",
     "PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_COLOR",
     "PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_COLOR",

@@ -46,9 +46,6 @@ export const colorGlencoe = "rgb(115, 206, 198)";
 export const colorTochigi = "rgb(225, 221, 236)";
 export const colorPetra = "rgb(255, 171, 149)";
 export const colorSkyBlue = "rgb(0, 98, 227)";
-export const colorBabyBlue40 = "rgb(148,195,255)";
-export const colorBabyBlue20 = "rgb(207,228,255)";
-export const colorPurple = "rgb(142,71,186)";
 export const colorBagan = "rgb(255, 235, 208)";
 export const colorHillier = "rgb(225, 139, 150)";
 export const colorSkyBlueTint01 = "rgb(109, 159, 235)";
@@ -170,8 +167,16 @@ export const privateChipDisabledBackgroundDay = "rgb(224, 227, 229)";
 export const privateChipDisabledBackgroundNight = "rgb(11, 18, 29)";
 export const privateChipOnDarkOnDismissIconDay = "rgb(84, 88, 96)";
 export const privateChipOnDarkOnDismissIconNight = "rgba(255, 255, 255, 0.5)";
-export const privateMapMarkerViewedForegroundDay = "rgba(255, 255, 255, 0.8)";
+export const privateMapPreviousSelectionDay = "rgb(207, 228, 255)";
+export const privateMapClusterPinNight = "rgb(255, 255, 255)";
+export const privateMapClusterPinPreviousSelectionNight = "rgb(148, 195, 255)";
+export const privateMapClusterPinDay = "rgb(5, 32, 60)";
+export const privateMapClusterPinPreviousSelectionDay = "rgb(148, 195, 255)";
 export const privateMapMarkerViewedForegroundNight = "rgba(0, 0, 0, 0.8)";
+export const privateMapMarkerViewedForegroundDay = "rgba(255, 255, 255, 0.8)";
+export const privateMapPoiPinNight = "rgb(142, 71, 186)";
+export const privateMapPreviousSelectionNight = "rgb(207, 228, 255)";
+export const privateMapPoiPinDay = "rgb(142, 71, 186)";
 export const privateButtonSecondaryPressedBackgroundNight = "rgb(1, 9, 19)";
 export const privateButtonLinkNormalForegroundNight = "rgb(132, 233, 255)";
 export const privateButtonLinkOnDarkDisabledForegroundNight = "rgba(255, 255, 255, 0.2)";
@@ -507,9 +512,6 @@ colorGlencoe,
 colorTochigi,
 colorPetra,
 colorSkyBlue,
-colorBabyBlue40,
-colorBabyBlue20,
-colorPurple,
 colorBagan,
 colorHillier,
 colorSkyBlueTint01,
@@ -590,8 +592,16 @@ lineNight,
 lineDay,
 };
 export const mapMarkerColors = {
-privateMapMarkerViewedForegroundDay,
+privateMapPreviousSelectionDay,
+privateMapClusterPinNight,
+privateMapClusterPinPreviousSelectionNight,
+privateMapClusterPinDay,
+privateMapClusterPinPreviousSelectionDay,
 privateMapMarkerViewedForegroundNight,
+privateMapMarkerViewedForegroundDay,
+privateMapPoiPinNight,
+privateMapPreviousSelectionNight,
+privateMapPoiPinDay,
 };
 export const marcommsColors = {
 marcommsBerry,

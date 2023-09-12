@@ -318,9 +318,25 @@ $bpk-private-chip-on-dark-on-dismiss-icon-day: rgb(84, 88, 96) !default;
 /// @group chip-colors
 $bpk-private-chip-on-dark-on-dismiss-icon-night: rgba(255, 255, 255, 0.5) !default;
 /// @group map-marker-colors
-$bpk-private-map-marker-viewed-foreground-day: rgba(255, 255, 255, 0.8) !default;
+$bpk-private-map-previous-selection-day: rgb(207, 228, 255) !default;
+/// @group map-marker-colors
+$bpk-private-map-cluster-pin-night: rgb(255, 255, 255) !default;
+/// @group map-marker-colors
+$bpk-private-map-cluster-pin-previous-selection-night: rgb(148, 195, 255) !default;
+/// @group map-marker-colors
+$bpk-private-map-cluster-pin-day: rgb(5, 32, 60) !default;
+/// @group map-marker-colors
+$bpk-private-map-cluster-pin-previous-selection-day: rgb(148, 195, 255) !default;
 /// @group map-marker-colors
 $bpk-private-map-marker-viewed-foreground-night: rgba(0, 0, 0, 0.8) !default;
+/// @group map-marker-colors
+$bpk-private-map-marker-viewed-foreground-day: rgba(255, 255, 255, 0.8) !default;
+/// @group map-marker-colors
+$bpk-private-map-poi-pin-night: rgb(142, 71, 186) !default;
+/// @group map-marker-colors
+$bpk-private-map-previous-selection-night: rgb(207, 228, 255) !default;
+/// @group map-marker-colors
+$bpk-private-map-poi-pin-day: rgb(142, 71, 186) !default;
 /// @group button-colors
 $bpk-private-button-secondary-pressed-background-night: rgb(1, 9, 19) !default;
 /// @group button-colors
