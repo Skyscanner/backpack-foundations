@@ -174,15 +174,6 @@
     "SKY_BLUE": {
       "value": "#0062E3"
     },
-    "BABY_BLUE_40": {
-      "value": "#94C3FF"
-    },
-    "BABY_BLUE_20": {
-      "value": "#CFE4FF"
-    },
-    "PURPLE": {
-      "value": "#8E47BA"
-    },
     "BUNOL": {
       "value": "#ff7b59"
     },
@@ -677,27 +668,6 @@
       "value": "rgb(0, 98, 227)",
       "originalValue": "{!SKY_BLUE}",
       "name": "COLOR_SKY_BLUE"
-    },
-    "COLOR_BABY_BLUE_40": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(148,195,255)",
-      "originalValue": "{!BABY_BLUE_40}",
-      "name": "COLOR_BABY_BLUE_40"
-    },
-    "COLOR_BABY_BLUE_20": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(207,228,255)",
-      "originalValue": "{!BABY_BLUE_20}",
-      "name": "COLOR_BABY_BLUE_20"
-    },
-    "COLOR_PURPLE": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(142,71,186)",
-      "originalValue": "{!PURPLE}",
-      "name": "COLOR_PURPLE"
     },
     "COLOR_BAGAN": {
       "value": "rgb(255, 235, 208)",

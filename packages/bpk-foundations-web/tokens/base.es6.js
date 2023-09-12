@@ -46,9 +46,6 @@ export const colorGlencoe = "rgb(115, 206, 198)";
 export const colorTochigi = "rgb(225, 221, 236)";
 export const colorPetra = "rgb(255, 171, 149)";
 export const colorSkyBlue = "rgb(0, 98, 227)";
-export const colorBabyBlue40 = "rgb(148,195,255)";
-export const colorBabyBlue20 = "rgb(207,228,255)";
-export const colorPurple = "rgb(142,71,186)";
 export const colorBagan = "rgb(255, 235, 208)";
 export const colorHillier = "rgb(225, 139, 150)";
 export const colorSkyBlueTint01 = "rgb(109, 159, 235)";
@@ -507,9 +504,6 @@ colorGlencoe,
 colorTochigi,
 colorPetra,
 colorSkyBlue,
-colorBabyBlue40,
-colorBabyBlue20,
-colorPurple,
 colorBagan,
 colorHillier,
 colorSkyBlueTint01,
