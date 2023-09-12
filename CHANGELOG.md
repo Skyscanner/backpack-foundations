@@ -1,3 +1,14 @@
+# 2023-09-13
+
+**Added:**
+
+`@skyscanner/bpk-foundations-android: 7.2.0 => 7.3.0` </br>
+`@skyscanner/bpk-foundations-common: 6.2.0 => 6.3.0` </br>
+`@skyscanner/bpk-foundations-ios: 6.2.0 => 6.3.0` </br>
+`@skyscanner/bpk-foundations-react-native: 4.2.0 => 4.3.0` </br>
+`@skyscanner/bpk-foundations-web: 17.1.0 => 17.2.0` </br>
+  - Add three new bpk primitive colors for all platforms
+
 # 2023-09-08
 
 **Added:**
