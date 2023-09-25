@@ -1,0 +1,2 @@
+- `@skyscanner/bpk-foundations-common:`
+    - Added private tokens for sponsored banner

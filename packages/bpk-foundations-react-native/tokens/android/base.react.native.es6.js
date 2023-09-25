@@ -236,6 +236,8 @@ export const privateSkeletonShimmerStartEndDay = "rgba(255, 255, 255, 0)";
 export const privateSkeletonShimmerStartEndNight = "rgba(0, 0, 0, 0)";
 export const privateSkeletonShimmerCenterDay = "rgba(255, 255, 255, 0.6)";
 export const privateSkeletonShimmerCenterNight = "rgba(0, 0, 0, 0.2)";
+export const privateSponsoredBannerBackgroundDay = "rgb(239, 241, 242)";
+export const privateSponsoredBannerBackgroundNight = "rgb(36, 51, 70)";
 export const animationDurationXs = 50;
 export const animationDurationSm = 200;
 export const animationDurationBase = 400;
@@ -819,6 +821,10 @@ spacingXxl,
 spacingNone,
 spacingIconText,
 };
+export const sponsoredbannerColors = {
+privateSponsoredBannerBackgroundDay,
+privateSponsoredBannerBackgroundNight,
+};
 export const statusColors = {
 statusSuccessSpotNight,
 statusSuccessFillNight,
@@ -984,3 +990,4 @@ export const privateButtonSecondaryOnDarkDisabledForegroundColor = undefined;
 export const privateButtonPrimaryOnDarkPressedBackgroundColor = undefined;
 export const privateSkeletonShimmerStartEndColor = undefined;
 export const privateSkeletonShimmerCenterColor = undefined;
+export const privateSponsoredBannerBackgroundColor = undefined;

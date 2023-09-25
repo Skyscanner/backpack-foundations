@@ -1367,6 +1367,18 @@
       "name": "privateSkeletonShimmerCenterNight"
     },
     {
+      "type": "color",
+      "category": "sponsoredbanner-colors",
+      "value": "#eff1f2ff",
+      "name": "privateSponsoredBannerBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "sponsoredbanner-colors",
+      "value": "#243346ff",
+      "name": "privateSponsoredBannerBackgroundNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -2496,6 +2508,13 @@
       "value": "#ffffff99",
       "name": "privateSkeletonShimmerCenterColor",
       "darkValue": "#00000033"
+    },
+    {
+      "type": "color",
+      "category": "sponsoredbanner-colors",
+      "value": "#eff1f2ff",
+      "name": "privateSponsoredBannerBackgroundColor",
+      "darkValue": "#243346ff"
     }
   ]
 }

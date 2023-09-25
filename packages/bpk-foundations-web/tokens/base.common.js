@@ -237,6 +237,8 @@ module.exports = {
   privateSkeletonShimmerStartEndNight: "rgba(0, 0, 0, 0)",
   privateSkeletonShimmerCenterDay: "rgba(255, 255, 255, 0.6)",
   privateSkeletonShimmerCenterNight: "rgba(0, 0, 0, 0.2)",
+  privateSponsoredBannerBackgroundDay: "rgb(239, 241, 242)",
+  privateSponsoredBannerBackgroundNight: "rgb(36, 51, 70)",
   durationXs: "50ms",
   durationSm: "200ms",
   durationBase: "400ms",
