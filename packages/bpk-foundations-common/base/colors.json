@@ -12,6 +12,6 @@
     "./colors/map-marker.json",
     "./colors/button.json",
     "./colors/skeleton.json",
-    "./colors/sponsoredbanner.json"
+    "./colors/sponsored-banner.json"
   ]
 }

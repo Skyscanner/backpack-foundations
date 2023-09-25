@@ -2611,14 +2611,14 @@
     },
     {
       "type": "color",
-      "category": "sponsoredbanner-colors",
+      "category": "sponsored-banner-colors",
       "value": "#eff1f2ff",
       "originalValue": "{!GREY_10}",
       "name": "privateSponsoredBannerBackgroundDay"
     },
     {
       "type": "color",
-      "category": "sponsoredbanner-colors",
+      "category": "sponsored-banner-colors",
       "value": "#243346ff",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "privateSponsoredBannerBackgroundNight"
@@ -3785,7 +3785,7 @@
     },
     {
       "type": "color",
-      "category": "sponsoredbanner-colors",
+      "category": "sponsored-banner-colors",
       "value": "#eff1f2ff",
       "originalValue": "{!GREY_10}",
       "name": "privateSponsoredBannerBackgroundColor",

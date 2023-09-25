@@ -2043,14 +2043,14 @@
     },
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY": {
       "type": "color",
-      "category": "sponsoredbanner-colors",
+      "category": "sponsored-banner-colors",
       "value": "rgb(239, 241, 242)",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY"
     },
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_NIGHT": {
       "type": "color",
-      "category": "sponsoredbanner-colors",
+      "category": "sponsored-banner-colors",
       "value": "rgb(36, 51, 70)",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "PRIVATE_SPONSORED_BANNER_BACKGROUND_NIGHT"

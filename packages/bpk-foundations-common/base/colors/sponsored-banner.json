@@ -2,7 +2,7 @@
     "imports": ["./aliases.json"],
     "global": {
         "type": "color",
-        "category": "sponsoredbanner-colors"
+        "category": "sponsored-banner-colors"
     },
     "props": {
         "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY": {

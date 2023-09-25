@@ -669,7 +669,7 @@ onePixelRem,
 spacingNone,
 spacingIconText,
 };
-export const sponsoredbannerColors = {
+export const sponsoredBannerColors = {
 privateSponsoredBannerBackgroundDay,
 privateSponsoredBannerBackgroundNight,
 };

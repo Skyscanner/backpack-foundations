@@ -1368,13 +1368,13 @@
     },
     {
       "type": "color",
-      "category": "sponsoredbanner-colors",
+      "category": "sponsored-banner-colors",
       "value": "#eff1f2ff",
       "name": "privateSponsoredBannerBackgroundDay"
     },
     {
       "type": "color",
-      "category": "sponsoredbanner-colors",
+      "category": "sponsored-banner-colors",
       "value": "#243346ff",
       "name": "privateSponsoredBannerBackgroundNight"
     },
@@ -2511,7 +2511,7 @@
     },
     {
       "type": "color",
-      "category": "sponsoredbanner-colors",
+      "category": "sponsored-banner-colors",
       "value": "#eff1f2ff",
       "name": "privateSponsoredBannerBackgroundColor",
       "darkValue": "#243346ff"
