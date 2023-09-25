@@ -1,0 +1,15 @@
+{
+    "imports": ["./aliases.json"],
+    "global": {
+        "type": "color",
+        "category": "sponsored-banner-colors"
+    },
+    "props": {
+        "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY": {
+            "value": "{!GREY_10}"
+        },
+        "PRIVATE_SPONSORED_BANNER_BACKGROUND_NIGHT": {
+            "value": "{!NIGHT_GREY_25}"
+        }
+    }
+}

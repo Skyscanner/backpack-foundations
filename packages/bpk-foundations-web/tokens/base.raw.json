@@ -2041,6 +2041,20 @@
       "originalValue": "#00000033",
       "name": "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT"
     },
+    "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "sponsored-banner-colors",
+      "value": "rgb(239, 241, 242)",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY"
+    },
+    "PRIVATE_SPONSORED_BANNER_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "sponsored-banner-colors",
+      "value": "rgb(36, 51, 70)",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "PRIVATE_SPONSORED_BANNER_BACKGROUND_NIGHT"
+    },
     "DURATION_XS": {
       "type": "duration",
       "category": "animations",

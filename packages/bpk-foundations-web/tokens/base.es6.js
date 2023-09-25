@@ -235,6 +235,8 @@ export const privateSkeletonShimmerStartEndDay = "rgba(255, 255, 255, 0)";
 export const privateSkeletonShimmerStartEndNight = "rgba(0, 0, 0, 0)";
 export const privateSkeletonShimmerCenterDay = "rgba(255, 255, 255, 0.6)";
 export const privateSkeletonShimmerCenterNight = "rgba(0, 0, 0, 0.2)";
+export const privateSponsoredBannerBackgroundDay = "rgb(239, 241, 242)";
+export const privateSponsoredBannerBackgroundNight = "rgb(36, 51, 70)";
 export const durationXs = "50ms";
 export const durationSm = "200ms";
 export const durationBase = "400ms";
@@ -666,6 +668,10 @@ export const spacings = {
 onePixelRem,
 spacingNone,
 spacingIconText,
+};
+export const sponsoredBannerColors = {
+privateSponsoredBannerBackgroundDay,
+privateSponsoredBannerBackgroundNight,
 };
 export const statusColors = {
 statusSuccessSpotNight,
