@@ -29,10 +29,6 @@ These specific packages target any tokens that are only applicable to them, e.g.
 
 These packages inherit the `bpk-foundations-common` tokens and export them through each `aliases.json` file, so they can be added to the platform alongside their specific tokens.
 
-### `bpk-svgs`
-
-This package contains all of Backpack's SVGs, just split from the main Backpack web repo.
-
 ## Usage
 
 ### Installing packages

@@ -83,15 +83,9 @@ When you run `npm install`, Lerna is bootstrapped automatically as a post-instal
 
 ### Build the code
 
-Backpack Foundations code depends on some things that must be built first, such as icon fonts, SVGs and tokens.
+Backpack Foundations code depends on some things that must be built first.
 
 Use `npm run build` to do this.
-
-## Adding icons
-
-If you want to add icons, please discuss them with us first.
-
-Once they're signed off, you can raise a request on our Backpack Requests board and attach the SVG files. If you're feeling heroic and want to make the PR yourself, just copy the correctly named SVG files to the `lg` and `sm` directories in `./packages/bpk-svgs/src/icons/` and then run `npm run build`.
 
 ### Tokens
 
@@ -102,8 +96,6 @@ Tokens are defined in the `src/base` directory. Tokens come in two layers: In `a
 After making changes to the base files (and updating imports when adding new files), run `npm run build`.
 
 > You should probably not touch `aliases.json`, as our color palette or grid rarely changes.
-
-
 
 ## How to
 

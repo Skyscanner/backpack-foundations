@@ -23,9 +23,9 @@
 }
 
 .bpk-breakpoint-object {
+  height: $bpk-one-pixel-rem;
   align-items: center;
   background-color: $bpk-status-danger-spot-day;
-  height: $bpk-one-pixel-rem;
 }
 
 .bpk-breakpoint-margin-object {
