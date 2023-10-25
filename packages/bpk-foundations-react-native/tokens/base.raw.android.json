@@ -716,6 +716,20 @@
       "originalValue": "{!SKY_BLUE_SHADE_02}",
       "name": "COLOR_SKY_BLUE_SHADE_02"
     },
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
+      "type": "color",
+      "category": "badge-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY"
+    },
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT": {
+      "type": "color",
+      "category": "badge-colors",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT"
+    },
     "CANVAS_DAY": {
       "type": "color",
       "category": "canvas-colors",
@@ -2586,6 +2600,15 @@
       "originalValue": "{!FONT_SIZE_XS}",
       "name": "TEXT_XS_FONT_SIZE"
     },
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR": {
+      "type": "color",
+      "category": "badge-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR",
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
+    },
     "CANVAS_COLOR": {
       "type": "color",
       "category": "canvas-colors",
@@ -3338,6 +3361,8 @@
     "COLOR_NARA",
     "COLOR_SKY_BLUE_SHADE_01",
     "COLOR_SKY_BLUE_SHADE_02",
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY",
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT",
     "CANVAS_DAY",
     "CANVAS_NIGHT",
     "CANVAS_CONTRAST_DAY",
@@ -3602,6 +3627,7 @@
     "TEXT_LG_FONT_SIZE",
     "LINE_HEIGHT_XXL",
     "TEXT_XS_FONT_SIZE",
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR",
     "CANVAS_COLOR",
     "CANVAS_CONTRAST_COLOR",
     "CORE_ECO_COLOR",

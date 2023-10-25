@@ -1,0 +1,15 @@
+{
+  "imports": ["./aliases.json"],
+  "global": {
+    "type": "color",
+    "category": "badge-colors"
+  },
+  "props": {
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
+      "value": "{!GREY_10}"
+    },
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT": {
+      "value": "{!NIGHT_GREY_25}"
+    },
+  }
+}
