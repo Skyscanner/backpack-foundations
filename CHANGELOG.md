@@ -1,3 +1,15 @@
+# 2023-10-25
+
+**Added:**
+
+`@skyscanner/bpk-foundations-android: 7.4.0 => 7.5.0` </br>
+`@skyscanner/bpk-foundations-common: 6.4.0 => 6.5.0` </br>
+`@skyscanner/bpk-foundations-ios: 6.4.0 => 6.5.0` </br>
+`@skyscanner/bpk-foundations-react-native: 4.4.0 => 4.5.0` </br>
+`@skyscanner/bpk-foundations-web: 17.3.0 => 17.4.0` </br>
+  - Added private tokens for sponsored banner
+  - Added private tokens for backpack badge V2
+
 # 2023-09-13
 
 **Added:**
