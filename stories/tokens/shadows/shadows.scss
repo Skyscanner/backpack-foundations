@@ -16,22 +16,21 @@
  * limitations under the License.
  */
 
- @import '../../styles.scss';
+@import '../../styles.scss';
 
- .bpk-shadow-container {
-    margin: bpk-spacing-lg();
- }
- 
- .bpk-shadow-object {
-    width: bpk-spacing-xxl() * 4;
-    height: bpk-spacing-xxl() * 4;
-    border-radius: $bpk-border-radius-md;
-  }
- 
- .bpk-shadow-name {
-    margin-top: bpk-spacing-base();
-    font-family: 'Space Mono', monospace;
- 
-    @include bpk-caption;
- }
- 
+.bpk-shadow-container {
+  margin: bpk-spacing-lg();
+}
+
+.bpk-shadow-object {
+  width: bpk-spacing-xxl() * 4;
+  height: bpk-spacing-xxl() * 4;
+  border-radius: $bpk-border-radius-md;
+}
+
+.bpk-shadow-name {
+  margin-top: bpk-spacing-base();
+  font-family: 'Space Mono', monospace;
+
+  @include bpk-caption;
+}

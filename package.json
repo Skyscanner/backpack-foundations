@@ -28,7 +28,7 @@
     "lint": "npm run lint:js && npm run lint:scss",
     "lint:js": "eslint . --ext js,jsx",
     "lint:js:fix": "eslint . --ext js,jsx --fix",
-    "lint:scss": "stylelint 'packages/**/*.scss'",
+    "lint:scss": "stylelint '{packages,stories/**}/**/*.scss'",
     "lint:scss:fix": "stylelint '{packages,stories/**}/**/*.scss' --fix",
     "postinstall": "npm run bootstrap",
     "preinstall": "npx ensure-node-env@2.0.0",

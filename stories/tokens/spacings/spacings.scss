@@ -16,22 +16,21 @@
  * limitations under the License.
  */
 
- @import '../../styles.scss';
+@import '../../styles.scss';
 
- .bpk-spacing-container {
-   display: flex;
-   margin: bpk-spacing-lg();
-   align-items: center;
- }
- 
- .bpk-spacing-object {
-    background-color: $bpk-status-warning-fill-day;
- }
- 
- .bpk-spacing-name {
-   margin: bpk-spacing-base();
-   font-family: 'Space Mono', monospace;
- 
-   @include bpk-caption;
- }
- 
+.bpk-spacing-container {
+  display: flex;
+  margin: bpk-spacing-lg();
+  align-items: center;
+}
+
+.bpk-spacing-object {
+  background-color: $bpk-status-warning-fill-day;
+}
+
+.bpk-spacing-name {
+  margin: bpk-spacing-base();
+  font-family: 'Space Mono', monospace;
+
+  @include bpk-caption;
+}
