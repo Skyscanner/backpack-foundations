@@ -57,6 +57,8 @@ export const colorSkyGray = "rgb(22, 22, 22)";
 export const colorNara = "rgb(255, 247, 207)";
 export const colorSkyBlueShade01 = "rgb(0, 98, 227)";
 export const colorSkyBlueShade02 = "rgb(5, 32, 60)";
+export const privateBadgeBackgroundDay = "rgb(239, 241, 242)";
+export const privateBadgeBackgroundNight = "rgb(36, 51, 70)";
 export const canvasDay = "rgb(255, 255, 255)";
 export const canvasNight = "rgb(1, 9, 19)";
 export const canvasContrastDay = "rgb(239, 241, 242)";
@@ -497,6 +499,10 @@ animationDurationXs,
 animationDurationSm,
 animationDurationBase,
 };
+export const badgeColors = {
+privateBadgeBackgroundDay,
+privateBadgeBackgroundNight,
+};
 export const borders = {
 borderSizeSm,
 borderSizeLg,
@@ -927,6 +933,7 @@ export const underlayOpacity = undefined;
 export const touchableOverlayColor = undefined;
 export const touchableOverlayOpacity = undefined;
 export const textHeavyFontWeight = undefined;
+export const privateBadgeBackgroundColor = undefined;
 export const canvasColor = undefined;
 export const canvasContrastColor = undefined;
 export const coreEcoColor = undefined;

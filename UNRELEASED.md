@@ -1,2 +1,3 @@
 - `@skyscanner/bpk-foundations-common:`
     - Added private tokens for sponsored banner
+    - Added private tokens for backpack badge V2

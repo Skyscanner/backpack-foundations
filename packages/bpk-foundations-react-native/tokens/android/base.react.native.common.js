@@ -58,6 +58,8 @@ module.exports = {
   colorNara: "rgb(255, 247, 207)",
   colorSkyBlueShade01: "rgb(0, 98, 227)",
   colorSkyBlueShade02: "rgb(5, 32, 60)",
+  privateBadgeBackgroundDay: "rgb(239, 241, 242)",
+  privateBadgeBackgroundNight: "rgb(36, 51, 70)",
   canvasDay: "rgb(255, 255, 255)",
   canvasNight: "rgb(1, 9, 19)",
   canvasContrastDay: "rgb(239, 241, 242)",
