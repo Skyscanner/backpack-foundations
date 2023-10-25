@@ -1,7 +1,5 @@
 node_modules
 dist
-dist-sassdoc
-/packages/bpk-stylesheets/base.js
 /packages/bpk-foundations-android/tokens
 /packages/bpk-foundations-ios/tokens
 /packages/bpk-foundations-react-native/tokens

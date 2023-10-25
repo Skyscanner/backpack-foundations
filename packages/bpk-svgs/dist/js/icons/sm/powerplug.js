@@ -1,8 +1,0 @@
-import React from "react";
-export default (({
-  styles = {},
-  ...props
-}) => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" style={{
-  width: "1rem",
-  height: "1rem"
-}} {...props}><path d="M13.5 0A1.5 1.5 0 0012 1.5v3H9v-3a1.5 1.5 0 00-3 0v3H4.09A1.09 1.09 0 003 5.59V9a7.5 7.5 0 006.007 7.351Q9 16.425 9 16.5v3a4.5 4.5 0 009 0v-1a.5.5 0 01.5-.5h1a1.5 1.5 0 000-3h-1a3.5 3.5 0 00-3.5 3.5v1a1.5 1.5 0 01-3 0v-3a1.472 1.472 0 00-.007-.149A7.502 7.502 0 0018 9V5.59a1.09 1.09 0 00-1.09-1.09H15v-3A1.5 1.5 0 0013.5 0z" /></svg>);
