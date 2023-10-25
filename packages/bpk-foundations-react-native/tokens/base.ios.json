@@ -272,6 +272,18 @@
     },
     {
       "type": "color",
+      "category": "badge-colors",
+      "value": "#eff1f2ff",
+      "name": "privateBadgeBackgroundNormalDay"
+    },
+    {
+      "type": "color",
+      "category": "badge-colors",
+      "value": "#243346ff",
+      "name": "privateBadgeBackgroundNormalNight"
+    },
+    {
+      "type": "color",
       "category": "canvas-colors",
       "value": "#ffffffff",
       "name": "canvasDay"
@@ -1960,6 +1972,13 @@
       "type": "font-size",
       "category": "font-sizes",
       "name": "textXsFontSize"
+    },
+    {
+      "type": "color",
+      "category": "badge-colors",
+      "value": "#eff1f2ff",
+      "name": "privateBadgeBackgroundNormalColor",
+      "darkValue": "#243346ff"
     },
     {
       "type": "color",

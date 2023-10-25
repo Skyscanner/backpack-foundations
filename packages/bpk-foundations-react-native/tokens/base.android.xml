@@ -39,6 +39,8 @@
   <color name="COLOR_NARA" category="colors">#fff7cfff</color>
   <color name="COLOR_SKY_BLUE_SHADE_01" category="colors">#0062e3ff</color>
   <color name="COLOR_SKY_BLUE_SHADE_02" category="colors">#05203cff</color>
+  <color name="PRIVATE_BADGE_BACKGROUND_NORMAL_DAY" category="badge-colors">#eff1f2ff</color>
+  <color name="PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT" category="badge-colors">#243346ff</color>
   <color name="CANVAS_DAY" category="canvas-colors">#ffffffff</color>
   <color name="CANVAS_NIGHT" category="canvas-colors">#010913ff</color>
   <color name="CANVAS_CONTRAST_DAY" category="canvas-colors">#eff1f2ff</color>

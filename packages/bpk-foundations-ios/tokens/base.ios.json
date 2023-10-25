@@ -1328,6 +1328,20 @@
     },
     {
       "type": "color",
+      "category": "badge-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "privateBadgeBackgroundNormalDay"
+    },
+    {
+      "type": "color",
+      "category": "badge-colors",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "privateBadgeBackgroundNormalNight"
+    },
+    {
+      "type": "color",
       "category": "canvas-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
@@ -3078,6 +3092,15 @@
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_SM}",
       "name": "textSmLetterSpacing"
+    },
+    {
+      "type": "color",
+      "category": "badge-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "privateBadgeBackgroundNormalColor",
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
     },
     {
       "type": "color",

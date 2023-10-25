@@ -1,6 +1,7 @@
 {
   "imports": [
     "./colors/base.json",
+    "./colors/badge.json",
     "./colors/canvas.json",
     "./colors/core.json",
     "./colors/status.json",

@@ -56,6 +56,8 @@ export const colorSkyGray = "rgb(17, 18, 54)";
 export const colorNara = "rgb(255, 231, 224)";
 export const colorSkyBlueShade01 = "rgb(8, 78, 178)";
 export const colorSkyBlueShade02 = "rgb(4, 39, 89)";
+export const privateBadgeBackgroundNormalDay = "rgb(239, 241, 242)";
+export const privateBadgeBackgroundNormalNight = "rgb(36, 51, 70)";
 export const canvasDay = "rgb(255, 255, 255)";
 export const canvasNight = "rgb(1, 9, 19)";
 export const canvasContrastDay = "rgb(239, 241, 242)";
@@ -364,6 +366,10 @@ export const animations = {
 durationXs,
 durationSm,
 durationBase,
+};
+export const badgeColors = {
+privateBadgeBackgroundNormalDay,
+privateBadgeBackgroundNormalNight,
 };
 export const borders = {
 borderSizeSm,

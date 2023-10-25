@@ -758,6 +758,20 @@
       "originalValue": "{!SKY_BLUE_SHADE_02}",
       "name": "COLOR_SKY_BLUE_SHADE_02"
     },
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
+      "type": "color",
+      "category": "badge-colors",
+      "value": "rgb(239, 241, 242)",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY"
+    },
+    "PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT": {
+      "type": "color",
+      "category": "badge-colors",
+      "value": "rgb(36, 51, 70)",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT"
+    },
     "CANVAS_DAY": {
       "type": "color",
       "category": "canvas-colors",
