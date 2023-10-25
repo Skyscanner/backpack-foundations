@@ -33,6 +33,35 @@
     "BANNER_ALERT_NEUTRAL_COLOR": {
       "value": "{!GREY_30}",
       "type": "color"
+    },
+
+
+
+
+    "INFO_BANNER_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR": {
+      "value": "{!GREY_10}",
+      "type": "color"
+    },
+    "INFO_BANNER_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR": {
+      "value": "{!GREY_10}",
+      "type": "color"
+    },
+    "INFO_BANNER_SUCCESS_COLOR": {
+      "value": "{!GREEN_SPOT}",
+      "type": "color"
+    },
+    "INFO_BANNER_WARNING_COLOR": {
+      "value": "{!AMBER_SPOT}",
+      "type": "color"
+    },
+    "INFO_BANNER_ERROR_COLOR": {
+      "value": "{!BERRY}",
+      "type": "color"
+    },
+    "INFO_BANNER_INFO_COLOR": {
+      "value": "{!GREY_30}",
+      "type": "color"
     }
+
   }
 }

@@ -310,13 +310,19 @@ export const modalOpacity = "1";
 export const modalMaxWidth = "32rem";
 export const modalWideMaxWidth = "64rem";
 export const modalContentPadding = "1rem";
+export const bannerAlertWarnColor = "rgb(245, 93, 66)";
 export const bannerAlertHeaderExpandableHoverBackgroundColor = "rgb(239, 241, 242)";
-export const bannerAlertHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
+export const infoBannerSuccessColor = "rgb(12, 131, 138)";
+export const infoBannerErrorColor = "rgb(231, 8, 102)";
+export const infoBannerHeaderExpandableHoverBackgroundColor = "rgb(239, 241, 242)";
+export const infoBannerHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
 export const bannerAlertPrimaryColor = "rgb(0, 98, 227)";
 export const bannerAlertSuccessColor = "rgb(12, 131, 138)";
-export const bannerAlertWarnColor = "rgb(245, 93, 66)";
-export const bannerAlertErrorColor = "rgb(231, 8, 102)";
+export const infoBannerInfoColor = "rgb(194, 201, 205)";
 export const bannerAlertNeutralColor = "rgb(194, 201, 205)";
+export const bannerAlertErrorColor = "rgb(231, 8, 102)";
+export const bannerAlertHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
+export const infoBannerWarningColor = "rgb(245, 93, 66)";
 export const panelBorderColor = "rgb(194, 201, 205)";
 export const privateSliderSelectedDay = "rgb(21, 70, 121)";
 export const onePixelRem = ".0625rem";
@@ -639,13 +645,19 @@ modalWideMaxWidth,
 modalContentPadding,
 };
 export const notifications = {
+bannerAlertWarnColor,
 bannerAlertHeaderExpandableHoverBackgroundColor,
-bannerAlertHeaderExpandableActiveBackgroundColor,
+infoBannerSuccessColor,
+infoBannerErrorColor,
+infoBannerHeaderExpandableHoverBackgroundColor,
+infoBannerHeaderExpandableActiveBackgroundColor,
 bannerAlertPrimaryColor,
 bannerAlertSuccessColor,
-bannerAlertWarnColor,
-bannerAlertErrorColor,
+infoBannerInfoColor,
 bannerAlertNeutralColor,
+bannerAlertErrorColor,
+bannerAlertHeaderExpandableActiveBackgroundColor,
+infoBannerWarningColor,
 };
 export const panels = {
 panelBorderColor,
