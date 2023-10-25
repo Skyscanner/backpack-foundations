@@ -1331,14 +1331,14 @@
       "category": "badge-colors",
       "value": "#eff1f2ff",
       "originalValue": "{!GREY_10}",
-      "name": "privateBadgeBackgroundDay"
+      "name": "privateBadgeBackgroundNormalDay"
     },
     {
       "type": "color",
       "category": "badge-colors",
       "value": "#243346ff",
       "originalValue": "{!NIGHT_GREY_25}",
-      "name": "privateBadgeBackgroundNight"
+      "name": "privateBadgeBackgroundNormalNight"
     },
     {
       "type": "color",
@@ -3098,7 +3098,7 @@
       "category": "badge-colors",
       "value": "#eff1f2ff",
       "originalValue": "{!GREY_10}",
-      "name": "privateBadgeBackgroundColor",
+      "name": "privateBadgeBackgroundNormalColor",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
     },

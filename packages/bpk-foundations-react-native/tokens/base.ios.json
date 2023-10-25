@@ -274,13 +274,13 @@
       "type": "color",
       "category": "badge-colors",
       "value": "#eff1f2ff",
-      "name": "privateBadgeBackgroundDay"
+      "name": "privateBadgeBackgroundNormalDay"
     },
     {
       "type": "color",
       "category": "badge-colors",
       "value": "#243346ff",
-      "name": "privateBadgeBackgroundNight"
+      "name": "privateBadgeBackgroundNormalNight"
     },
     {
       "type": "color",
@@ -1977,7 +1977,7 @@
       "type": "color",
       "category": "badge-colors",
       "value": "#eff1f2ff",
-      "name": "privateBadgeBackgroundColor",
+      "name": "privateBadgeBackgroundNormalColor",
       "darkValue": "#243346ff"
     },
     {
