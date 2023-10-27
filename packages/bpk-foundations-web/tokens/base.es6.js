@@ -314,8 +314,6 @@ export const bannerAlertWarnColor = "rgb(245, 93, 66)";
 export const bannerAlertHeaderExpandableHoverBackgroundColor = "rgb(239, 241, 242)";
 export const infoBannerSuccessColor = "rgb(12, 131, 138)";
 export const infoBannerErrorColor = "rgb(231, 8, 102)";
-export const infoBannerHeaderExpandableHoverBackgroundColor = "rgb(239, 241, 242)";
-export const infoBannerHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
 export const bannerAlertPrimaryColor = "rgb(0, 98, 227)";
 export const bannerAlertSuccessColor = "rgb(12, 131, 138)";
 export const infoBannerInfoColor = "rgb(194, 201, 205)";
@@ -649,8 +647,6 @@ bannerAlertWarnColor,
 bannerAlertHeaderExpandableHoverBackgroundColor,
 infoBannerSuccessColor,
 infoBannerErrorColor,
-infoBannerHeaderExpandableHoverBackgroundColor,
-infoBannerHeaderExpandableActiveBackgroundColor,
 bannerAlertPrimaryColor,
 bannerAlertSuccessColor,
 infoBannerInfoColor,

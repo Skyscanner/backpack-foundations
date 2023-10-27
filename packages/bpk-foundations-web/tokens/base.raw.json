@@ -2594,20 +2594,6 @@
       "originalValue": "{!BERRY}",
       "name": "INFO_BANNER_ERROR_COLOR"
     },
-    "INFO_BANNER_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR": {
-      "category": "notifications",
-      "value": "rgb(239, 241, 242)",
-      "type": "color",
-      "originalValue": "{!GREY_10}",
-      "name": "INFO_BANNER_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR"
-    },
-    "INFO_BANNER_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR": {
-      "category": "notifications",
-      "value": "rgb(239, 241, 242)",
-      "type": "color",
-      "originalValue": "{!GREY_10}",
-      "name": "INFO_BANNER_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR"
-    },
     "BANNER_ALERT_PRIMARY_COLOR": {
       "category": "notifications",
       "value": "rgb(0, 98, 227)",

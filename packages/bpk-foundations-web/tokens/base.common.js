@@ -316,8 +316,6 @@ module.exports = {
   bannerAlertHeaderExpandableHoverBackgroundColor: "rgb(239, 241, 242)",
   infoBannerSuccessColor: "rgb(12, 131, 138)",
   infoBannerErrorColor: "rgb(231, 8, 102)",
-  infoBannerHeaderExpandableHoverBackgroundColor: "rgb(239, 241, 242)",
-  infoBannerHeaderExpandableActiveBackgroundColor: "rgb(239, 241, 242)",
   bannerAlertPrimaryColor: "rgb(0, 98, 227)",
   bannerAlertSuccessColor: "rgb(12, 131, 138)",
   infoBannerInfoColor: "rgb(194, 201, 205)",

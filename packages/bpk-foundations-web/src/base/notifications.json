@@ -34,18 +34,6 @@
       "value": "{!GREY_30}",
       "type": "color"
     },
-
-
-
-
-    "INFO_BANNER_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR": {
-      "value": "{!GREY_10}",
-      "type": "color"
-    },
-    "INFO_BANNER_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR": {
-      "value": "{!GREY_10}",
-      "type": "color"
-    },
     "INFO_BANNER_SUCCESS_COLOR": {
       "value": "{!GREEN_SPOT}",
       "type": "color"
