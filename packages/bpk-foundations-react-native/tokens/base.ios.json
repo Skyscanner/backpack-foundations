@@ -822,6 +822,30 @@
     },
     {
       "type": "color",
+      "category": "info-banner-colors",
+      "value": "#0c838aff",
+      "name": "privateInfoBannerSuccessColor"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#f55d42ff",
+      "name": "privateInfoBannerWarningColor"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#e70866ff",
+      "name": "privateInfoBannerErrorColor"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#c2c9cdff",
+      "name": "privateInfoBannerInfoColor"
+    },
+    {
+      "type": "color",
       "category": "marcomms-colors",
       "value": "#e70866ff",
       "name": "marcommsBerry"

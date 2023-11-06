@@ -1974,6 +1974,34 @@
     },
     {
       "type": "color",
+      "category": "info-banner-colors",
+      "value": "#0c838aff",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "privateInfoBannerSuccessColor"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#f55d42ff",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "privateInfoBannerWarningColor"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "privateInfoBannerErrorColor"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#c2c9cdff",
+      "originalValue": "{!GREY_30}",
+      "name": "privateInfoBannerInfoColor"
+    },
+    {
+      "type": "color",
       "category": "marcomms-colors",
       "value": "#e70866ff",
       "originalValue": "{!BERRY}",

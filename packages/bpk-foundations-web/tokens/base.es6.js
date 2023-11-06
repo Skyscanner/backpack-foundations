@@ -144,6 +144,10 @@ export const primaryLightColor = "rgb(0, 98, 227)";
 export const backgroundTertiaryLightColor = "rgb(255, 255, 255)";
 export const backgroundSecondaryLightColor = "rgb(241, 242, 248)";
 export const scrimNight = "rgba(0, 0, 0, 0.7)";
+export const privateInfoBannerSuccessColor = "rgb(12, 131, 138)";
+export const privateInfoBannerWarningColor = "rgb(245, 93, 66)";
+export const privateInfoBannerErrorColor = "rgb(231, 8, 102)";
+export const privateInfoBannerInfoColor = "rgb(194, 201, 205)";
 export const marcommsBerry = "rgb(231, 8, 102)";
 export const marcommsCharcoal = "rgb(22, 22, 22)";
 export const marcommsOrange = "rgb(255, 123, 89)";
@@ -312,15 +316,11 @@ export const modalWideMaxWidth = "64rem";
 export const modalContentPadding = "1rem";
 export const bannerAlertWarnColor = "rgb(245, 93, 66)";
 export const bannerAlertHeaderExpandableHoverBackgroundColor = "rgb(239, 241, 242)";
-export const infoBannerSuccessColor = "rgb(12, 131, 138)";
-export const infoBannerErrorColor = "rgb(231, 8, 102)";
 export const bannerAlertPrimaryColor = "rgb(0, 98, 227)";
 export const bannerAlertSuccessColor = "rgb(12, 131, 138)";
-export const infoBannerInfoColor = "rgb(194, 201, 205)";
 export const bannerAlertNeutralColor = "rgb(194, 201, 205)";
 export const bannerAlertErrorColor = "rgb(231, 8, 102)";
 export const bannerAlertHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
-export const infoBannerWarningColor = "rgb(245, 93, 66)";
 export const panelBorderColor = "rgb(194, 201, 205)";
 export const privateSliderSelectedDay = "rgb(21, 70, 121)";
 export const onePixelRem = ".0625rem";
@@ -594,6 +594,12 @@ export const icons = {
 iconSizeSm,
 iconSizeLg,
 };
+export const infoBannerColors = {
+privateInfoBannerSuccessColor,
+privateInfoBannerWarningColor,
+privateInfoBannerErrorColor,
+privateInfoBannerInfoColor,
+};
 export const letterSpacings = {
 letterSpacingTight,
 };
@@ -645,15 +651,11 @@ modalContentPadding,
 export const notifications = {
 bannerAlertWarnColor,
 bannerAlertHeaderExpandableHoverBackgroundColor,
-infoBannerSuccessColor,
-infoBannerErrorColor,
 bannerAlertPrimaryColor,
 bannerAlertSuccessColor,
-infoBannerInfoColor,
 bannerAlertNeutralColor,
 bannerAlertErrorColor,
 bannerAlertHeaderExpandableActiveBackgroundColor,
-infoBannerWarningColor,
 };
 export const panels = {
 panelBorderColor,

@@ -271,6 +271,14 @@ $bpk-background-tertiary-light-color: rgb(255, 255, 255);
 $bpk-background-secondary-light-color: rgb(241, 242, 248);
 /// @group scrim-colors
 $bpk-scrim-night: rgba(0, 0, 0, 0.7);
+/// @group info-banner-colors
+$bpk-private-info-banner-success-color: rgb(12, 131, 138);
+/// @group info-banner-colors
+$bpk-private-info-banner-warning-color: rgb(245, 93, 66);
+/// @group info-banner-colors
+$bpk-private-info-banner-error-color: rgb(231, 8, 102);
+/// @group info-banner-colors
+$bpk-private-info-banner-info-color: rgb(194, 201, 205);
 /// @group marcomms-colors
 $bpk-marcomms-berry: rgb(231, 8, 102);
 /// @group marcomms-colors
@@ -608,23 +616,15 @@ $bpk-banner-alert-warn-color: rgb(245, 93, 66);
 /// @group notifications
 $bpk-banner-alert-header-expandable-hover-background-color: rgb(239, 241, 242);
 /// @group notifications
-$bpk-info-banner-success-color: rgb(12, 131, 138);
-/// @group notifications
-$bpk-info-banner-error-color: rgb(231, 8, 102);
-/// @group notifications
 $bpk-banner-alert-primary-color: rgb(0, 98, 227);
 /// @group notifications
 $bpk-banner-alert-success-color: rgb(12, 131, 138);
-/// @group notifications
-$bpk-info-banner-info-color: rgb(194, 201, 205);
 /// @group notifications
 $bpk-banner-alert-neutral-color: rgb(194, 201, 205);
 /// @group notifications
 $bpk-banner-alert-error-color: rgb(231, 8, 102);
 /// @group notifications
 $bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242);
-/// @group notifications
-$bpk-info-banner-warning-color: rgb(245, 93, 66);
 /// @group panels
 $bpk-panel-border-color: rgb(194, 201, 205);
 /// @group slider-colors

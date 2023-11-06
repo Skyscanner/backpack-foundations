@@ -1,0 +1,21 @@
+{
+  "imports": ["./aliases.json"],
+  "global": {
+    "type": "color",
+    "category": "info-banner-colors"
+  },
+  "props": {
+    "PRIVATE_INFO_BANNER_SUCCESS_COLOR": {
+      "value": "{!GREEN_SPOT}"
+    },
+    "PRIVATE_INFO_BANNER_WARNING_COLOR": {
+      "value": "{!AMBER_SPOT}"
+    },
+    "PRIVATE_INFO_BANNER_ERROR_COLOR": {
+      "value": "{!BERRY}"
+    },
+    "PRIVATE_INFO_BANNER_INFO_COLOR": {
+      "value": "{!GREY_30}"
+    }
+  }
+}
