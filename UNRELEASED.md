@@ -1,0 +1,3 @@
+- `@skyscanner/bpk-foundations-web:`
+    - Added tokens for BpkInfoBanner
+    - Removed hover color change on expandable banner for BpkInfoBanner
