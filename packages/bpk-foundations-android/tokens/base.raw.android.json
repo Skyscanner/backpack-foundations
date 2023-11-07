@@ -2403,6 +2403,34 @@
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_NIGHT"
     },
+    "PRIVATE_INFO_BANNER_SUCCESS_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#0c838aff",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_SUCCESS_COLOR"
+    },
+    "PRIVATE_INFO_BANNER_WARNING_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#f55d42ff",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_WARNING_COLOR"
+    },
+    "PRIVATE_INFO_BANNER_ERROR_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "PRIVATE_INFO_BANNER_ERROR_COLOR"
+    },
+    "PRIVATE_INFO_BANNER_INFO_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#c2c9cdff",
+      "originalValue": "{!GREY_30}",
+      "name": "PRIVATE_INFO_BANNER_INFO_COLOR"
+    },
     "MARCOMMS_BERRY": {
       "type": "color",
       "category": "marcomms-colors",
@@ -4309,6 +4337,10 @@
     "BACKGROUND_TERTIARY_LIGHT_COLOR",
     "BACKGROUND_SECONDARY_LIGHT_COLOR",
     "SCRIM_NIGHT",
+    "PRIVATE_INFO_BANNER_SUCCESS_COLOR",
+    "PRIVATE_INFO_BANNER_WARNING_COLOR",
+    "PRIVATE_INFO_BANNER_ERROR_COLOR",
+    "PRIVATE_INFO_BANNER_INFO_COLOR",
     "MARCOMMS_BERRY",
     "MARCOMMS_CHARCOAL",
     "MARCOMMS_ORANGE",

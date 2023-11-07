@@ -8,6 +8,7 @@
     "./colors/surface.json",
     "./colors/text.json",
     "./colors/other.json",
+    "./colors/banner.json",
     "./colors/marcomms.json",
     "./colors/chip.json",
     "./colors/map-marker.json",

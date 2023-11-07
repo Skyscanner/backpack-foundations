@@ -145,6 +145,10 @@ export const primaryLightColor = "rgb(0, 98, 227)";
 export const backgroundTertiaryLightColor = "rgb(255, 255, 255)";
 export const backgroundSecondaryLightColor = "rgb(239, 241, 242)";
 export const scrimNight = "rgba(0, 0, 0, 0.7)";
+export const privateInfoBannerSuccessColor = "rgb(12, 131, 138)";
+export const privateInfoBannerWarningColor = "rgb(245, 93, 66)";
+export const privateInfoBannerErrorColor = "rgb(231, 8, 102)";
+export const privateInfoBannerInfoColor = "rgb(194, 201, 205)";
 export const marcommsBerry = "rgb(231, 8, 102)";
 export const marcommsCharcoal = "rgb(22, 22, 22)";
 export const marcommsOrange = "rgb(255, 123, 89)";
@@ -678,6 +682,12 @@ textLgFontWeight,
 textXsFontWeight,
 textCapsFontWeight,
 textEmphasizedFontWeight,
+};
+export const infoBannerColors = {
+privateInfoBannerSuccessColor,
+privateInfoBannerWarningColor,
+privateInfoBannerErrorColor,
+privateInfoBannerInfoColor,
 };
 export const letterSpacings = {
 textXxxlLetterSpacing,

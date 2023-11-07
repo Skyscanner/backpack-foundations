@@ -1404,6 +1404,34 @@
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_NIGHT"
     },
+    "PRIVATE_INFO_BANNER_SUCCESS_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(12, 131, 138)",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_SUCCESS_COLOR"
+    },
+    "PRIVATE_INFO_BANNER_WARNING_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(245, 93, 66)",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_WARNING_COLOR"
+    },
+    "PRIVATE_INFO_BANNER_ERROR_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(231, 8, 102)",
+      "originalValue": "{!BERRY}",
+      "name": "PRIVATE_INFO_BANNER_ERROR_COLOR"
+    },
+    "PRIVATE_INFO_BANNER_INFO_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(194, 201, 205)",
+      "originalValue": "{!GREY_30}",
+      "name": "PRIVATE_INFO_BANNER_INFO_COLOR"
+    },
     "MARCOMMS_BERRY": {
       "type": "color",
       "category": "marcomms-colors",
@@ -2566,19 +2594,19 @@
       "originalValue": "{!SPACING_BASE}",
       "name": "MODAL_CONTENT_PADDING"
     },
+    "BANNER_ALERT_WARN_COLOR": {
+      "category": "notifications",
+      "value": "rgb(245, 93, 66)",
+      "type": "color",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "BANNER_ALERT_WARN_COLOR"
+    },
     "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR": {
       "category": "notifications",
       "value": "rgb(239, 241, 242)",
       "type": "color",
       "originalValue": "{!GREY_10}",
       "name": "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR"
-    },
-    "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR": {
-      "category": "notifications",
-      "value": "rgb(239, 241, 242)",
-      "type": "color",
-      "originalValue": "{!GREY_10}",
-      "name": "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR"
     },
     "BANNER_ALERT_PRIMARY_COLOR": {
       "category": "notifications",
@@ -2594,12 +2622,12 @@
       "originalValue": "{!GREEN_SPOT}",
       "name": "BANNER_ALERT_SUCCESS_COLOR"
     },
-    "BANNER_ALERT_WARN_COLOR": {
+    "BANNER_ALERT_NEUTRAL_COLOR": {
       "category": "notifications",
-      "value": "rgb(245, 93, 66)",
+      "value": "rgb(194, 201, 205)",
       "type": "color",
-      "originalValue": "{!AMBER_SPOT}",
-      "name": "BANNER_ALERT_WARN_COLOR"
+      "originalValue": "{!GREY_30}",
+      "name": "BANNER_ALERT_NEUTRAL_COLOR"
     },
     "BANNER_ALERT_ERROR_COLOR": {
       "category": "notifications",
@@ -2608,12 +2636,12 @@
       "originalValue": "{!BERRY}",
       "name": "BANNER_ALERT_ERROR_COLOR"
     },
-    "BANNER_ALERT_NEUTRAL_COLOR": {
+    "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR": {
       "category": "notifications",
-      "value": "rgb(194, 201, 205)",
+      "value": "rgb(239, 241, 242)",
       "type": "color",
-      "originalValue": "{!GREY_30}",
-      "name": "BANNER_ALERT_NEUTRAL_COLOR"
+      "originalValue": "{!GREY_10}",
+      "name": "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR"
     },
     "PANEL_BORDER_COLOR": {
       "category": "panels",
