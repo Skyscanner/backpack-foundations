@@ -1,3 +1,12 @@
+# 2023-11-07
+
+`@skyscanner/bpk-foundations-android: 7.5.0 => 7.6.0` </br>
+`@skyscanner/bpk-foundations-common: 6.5.0 => 6.6.0` </br>
+`@skyscanner/bpk-foundations-ios: 6.5.0 => 6.6.0` </br>
+`@skyscanner/bpk-foundations-react-native: 4.5.0 => 4.6.0` </br>
+`@skyscanner/bpk-foundations-web: 17.4.0 => 17.5.0` </br>
+  - Added tokens for BpkInfoBanner
+
 # 2023-10-25
 
 **Added:**
