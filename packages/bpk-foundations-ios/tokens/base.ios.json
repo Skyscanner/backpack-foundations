@@ -1975,30 +1975,86 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#0c838aff",
-      "originalValue": "{!GREEN_SPOT}",
-      "name": "privateInfoBannerSuccessColor"
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "privateInfoBannerDefaultDay"
     },
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#f55d42ff",
-      "originalValue": "{!AMBER_SPOT}",
-      "name": "privateInfoBannerWarningColor"
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "privateInfoBannerOnContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#0c838aff",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "privateInfoBannerSuccessDay"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#ff649cff",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "privateInfoBannerErrorNight"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#bdc4cbff",
+      "originalValue": "{!NIGHT_GREY_40}",
+      "name": "privateInfoBannerInfoNight"
     },
     {
       "type": "color",
       "category": "info-banner-colors",
       "value": "#e70866ff",
       "originalValue": "{!BERRY}",
-      "name": "privateInfoBannerErrorColor"
+      "name": "privateInfoBannerErrorDay"
     },
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#c2c9cdff",
-      "originalValue": "{!GREY_30}",
-      "name": "privateInfoBannerInfoColor"
+      "value": "#545860ff",
+      "originalValue": "{!GREY_40}",
+      "name": "privateInfoBannerInfoDay"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#feeb87ff",
+      "originalValue": "{!NIGHT_YELLOW_SPOT}",
+      "name": "privateInfoBannerWarningNight"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#f55d42ff",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "privateInfoBannerWarningDay"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#131d2bff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "privateInfoBannerDefaultNight"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#131d2bff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "privateInfoBannerOnContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#62f1c6ff",
+      "originalValue": "{!NIGHT_GREEN_SPOT}",
+      "name": "privateInfoBannerSuccessNight"
     },
     {
       "type": "color",
@@ -3491,6 +3547,60 @@
       "name": "primaryColor",
       "darkValue": "#84e9ffff",
       "originalDarkValue": "{!NIGHT_BLUE}"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "privateInfoBannerDefaultColor",
+      "darkValue": "#131d2bff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "privateInfoBannerOnContrastColor",
+      "darkValue": "#131d2bff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#0c838aff",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "privateInfoBannerSuccessColor",
+      "darkValue": "#62f1c6ff",
+      "originalDarkValue": "{!NIGHT_GREEN_SPOT}"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "privateInfoBannerErrorColor",
+      "darkValue": "#ff649cff",
+      "originalDarkValue": "{!NIGHT_BERRY}"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#545860ff",
+      "originalValue": "{!GREY_40}",
+      "name": "privateInfoBannerInfoColor",
+      "darkValue": "#bdc4cbff",
+      "originalDarkValue": "{!NIGHT_GREY_40}"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#f55d42ff",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "privateInfoBannerWarningColor",
+      "darkValue": "#feeb87ff",
+      "originalDarkValue": "{!NIGHT_YELLOW_SPOT}"
     },
     {
       "type": "color",

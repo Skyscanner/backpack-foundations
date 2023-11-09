@@ -823,26 +823,74 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#0c838aff",
-      "name": "privateInfoBannerSuccessColor"
+      "value": "#eff1f2ff",
+      "name": "privateInfoBannerDefaultDay"
     },
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#f55d42ff",
-      "name": "privateInfoBannerWarningColor"
+      "value": "#eff1f2ff",
+      "name": "privateInfoBannerOnContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#0c838aff",
+      "name": "privateInfoBannerSuccessDay"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#ff649cff",
+      "name": "privateInfoBannerErrorNight"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#bdc4cbff",
+      "name": "privateInfoBannerInfoNight"
     },
     {
       "type": "color",
       "category": "info-banner-colors",
       "value": "#e70866ff",
-      "name": "privateInfoBannerErrorColor"
+      "name": "privateInfoBannerErrorDay"
     },
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#c2c9cdff",
-      "name": "privateInfoBannerInfoColor"
+      "value": "#545860ff",
+      "name": "privateInfoBannerInfoDay"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#feeb87ff",
+      "name": "privateInfoBannerWarningNight"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#f55d42ff",
+      "name": "privateInfoBannerWarningDay"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#131d2bff",
+      "name": "privateInfoBannerDefaultNight"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#131d2bff",
+      "name": "privateInfoBannerOnContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#62f1c6ff",
+      "name": "privateInfoBannerSuccessNight"
     },
     {
       "type": "color",
@@ -2285,6 +2333,48 @@
       "deprecated": true,
       "name": "primaryColor",
       "darkValue": "#84e9ffff"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#eff1f2ff",
+      "name": "privateInfoBannerDefaultColor",
+      "darkValue": "#131d2bff"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#eff1f2ff",
+      "name": "privateInfoBannerOnContrastColor",
+      "darkValue": "#131d2bff"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#0c838aff",
+      "name": "privateInfoBannerSuccessColor",
+      "darkValue": "#62f1c6ff"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#e70866ff",
+      "name": "privateInfoBannerErrorColor",
+      "darkValue": "#ff649cff"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#545860ff",
+      "name": "privateInfoBannerInfoColor",
+      "darkValue": "#bdc4cbff"
+    },
+    {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#f55d42ff",
+      "name": "privateInfoBannerWarningColor",
+      "darkValue": "#feeb87ff"
     },
     {
       "type": "color",

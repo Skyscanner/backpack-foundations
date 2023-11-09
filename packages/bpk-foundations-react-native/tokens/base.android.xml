@@ -127,10 +127,18 @@
   <color name="BACKGROUND_TERTIARY_LIGHT_COLOR" category="colors">#ffffffff</color>
   <color name="BACKGROUND_SECONDARY_LIGHT_COLOR" category="colors">#eff1f2ff</color>
   <color name="SCRIM_NIGHT" category="scrim-colors">#000000b3</color>
-  <color name="PRIVATE_INFO_BANNER_SUCCESS_COLOR" category="info-banner-colors">#0c838aff</color>
-  <color name="PRIVATE_INFO_BANNER_WARNING_COLOR" category="info-banner-colors">#f55d42ff</color>
-  <color name="PRIVATE_INFO_BANNER_ERROR_COLOR" category="info-banner-colors">#e70866ff</color>
-  <color name="PRIVATE_INFO_BANNER_INFO_COLOR" category="info-banner-colors">#c2c9cdff</color>
+  <color name="PRIVATE_INFO_BANNER_DEFAULT_DAY" category="info-banner-colors">#eff1f2ff</color>
+  <color name="PRIVATE_INFO_BANNER_ON_CONTRAST_DAY" category="info-banner-colors">#eff1f2ff</color>
+  <color name="PRIVATE_INFO_BANNER_SUCCESS_DAY" category="info-banner-colors">#0c838aff</color>
+  <color name="PRIVATE_INFO_BANNER_ERROR_NIGHT" category="info-banner-colors">#ff649cff</color>
+  <color name="PRIVATE_INFO_BANNER_INFO_NIGHT" category="info-banner-colors">#bdc4cbff</color>
+  <color name="PRIVATE_INFO_BANNER_ERROR_DAY" category="info-banner-colors">#e70866ff</color>
+  <color name="PRIVATE_INFO_BANNER_INFO_DAY" category="info-banner-colors">#545860ff</color>
+  <color name="PRIVATE_INFO_BANNER_WARNING_NIGHT" category="info-banner-colors">#feeb87ff</color>
+  <color name="PRIVATE_INFO_BANNER_WARNING_DAY" category="info-banner-colors">#f55d42ff</color>
+  <color name="PRIVATE_INFO_BANNER_DEFAULT_NIGHT" category="info-banner-colors">#131d2bff</color>
+  <color name="PRIVATE_INFO_BANNER_ON_CONTRAST_NIGHT" category="info-banner-colors">#131d2bff</color>
+  <color name="PRIVATE_INFO_BANNER_SUCCESS_NIGHT" category="info-banner-colors">#62f1c6ff</color>
   <color name="MARCOMMS_BERRY" category="marcomms-colors">#e70866ff</color>
   <color name="MARCOMMS_CHARCOAL" category="marcomms-colors">#161616ff</color>
   <color name="MARCOMMS_ORANGE" category="marcomms-colors">#ff7b59ff</color>

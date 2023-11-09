@@ -1404,33 +1404,89 @@
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_NIGHT"
     },
-    "PRIVATE_INFO_BANNER_SUCCESS_COLOR": {
+    "PRIVATE_INFO_BANNER_DEFAULT_DAY": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(239, 241, 242)",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_INFO_BANNER_DEFAULT_DAY"
+    },
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(239, 241, 242)",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY"
+    },
+    "PRIVATE_INFO_BANNER_SUCCESS_DAY": {
       "type": "color",
       "category": "info-banner-colors",
       "value": "rgb(12, 131, 138)",
       "originalValue": "{!GREEN_SPOT}",
-      "name": "PRIVATE_INFO_BANNER_SUCCESS_COLOR"
+      "name": "PRIVATE_INFO_BANNER_SUCCESS_DAY"
     },
-    "PRIVATE_INFO_BANNER_WARNING_COLOR": {
+    "PRIVATE_INFO_BANNER_ERROR_NIGHT": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "rgb(245, 93, 66)",
-      "originalValue": "{!AMBER_SPOT}",
-      "name": "PRIVATE_INFO_BANNER_WARNING_COLOR"
+      "value": "rgb(255, 100, 156)",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "PRIVATE_INFO_BANNER_ERROR_NIGHT"
     },
-    "PRIVATE_INFO_BANNER_ERROR_COLOR": {
+    "PRIVATE_INFO_BANNER_INFO_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(189, 196, 203)",
+      "originalValue": "{!NIGHT_GREY_40}",
+      "name": "PRIVATE_INFO_BANNER_INFO_NIGHT"
+    },
+    "PRIVATE_INFO_BANNER_ERROR_DAY": {
       "type": "color",
       "category": "info-banner-colors",
       "value": "rgb(231, 8, 102)",
       "originalValue": "{!BERRY}",
-      "name": "PRIVATE_INFO_BANNER_ERROR_COLOR"
+      "name": "PRIVATE_INFO_BANNER_ERROR_DAY"
     },
-    "PRIVATE_INFO_BANNER_INFO_COLOR": {
+    "PRIVATE_INFO_BANNER_INFO_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "rgb(194, 201, 205)",
-      "originalValue": "{!GREY_30}",
-      "name": "PRIVATE_INFO_BANNER_INFO_COLOR"
+      "value": "rgb(84, 88, 96)",
+      "originalValue": "{!GREY_40}",
+      "name": "PRIVATE_INFO_BANNER_INFO_DAY"
+    },
+    "PRIVATE_INFO_BANNER_WARNING_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(254, 235, 135)",
+      "originalValue": "{!NIGHT_YELLOW_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_WARNING_NIGHT"
+    },
+    "PRIVATE_INFO_BANNER_WARNING_DAY": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(245, 93, 66)",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_WARNING_DAY"
+    },
+    "PRIVATE_INFO_BANNER_DEFAULT_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(19, 29, 43)",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "PRIVATE_INFO_BANNER_DEFAULT_NIGHT"
+    },
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(19, 29, 43)",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "PRIVATE_INFO_BANNER_ON_CONTRAST_NIGHT"
+    },
+    "PRIVATE_INFO_BANNER_SUCCESS_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "rgb(98, 241, 198)",
+      "originalValue": "{!NIGHT_GREEN_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_SUCCESS_NIGHT"
     },
     "MARCOMMS_BERRY": {
       "type": "color",
@@ -2601,12 +2657,40 @@
       "originalValue": "{!AMBER_SPOT}",
       "name": "BANNER_ALERT_WARN_COLOR"
     },
+    "PRIVATE_INFO_BANNER_WARNING_COLOR": {
+      "category": "notifications",
+      "value": "rgb(245, 93, 66)",
+      "type": "color",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_WARNING_COLOR"
+    },
     "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR": {
       "category": "notifications",
       "value": "rgb(239, 241, 242)",
       "type": "color",
       "originalValue": "{!GREY_10}",
       "name": "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR"
+    },
+    "PRIVATE_INFO_BANNER_SUCCESS_COLOR": {
+      "category": "notifications",
+      "value": "rgb(12, 131, 138)",
+      "type": "color",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_SUCCESS_COLOR"
+    },
+    "PRIVATE_INFO_BANNER_ERROR_COLOR": {
+      "category": "notifications",
+      "value": "rgb(231, 8, 102)",
+      "type": "color",
+      "originalValue": "{!BERRY}",
+      "name": "PRIVATE_INFO_BANNER_ERROR_COLOR"
+    },
+    "PRIVATE_INFO_BANNER_INFO_COLOR": {
+      "category": "notifications",
+      "value": "rgb(194, 201, 205)",
+      "type": "color",
+      "originalValue": "{!GREY_30}",
+      "name": "PRIVATE_INFO_BANNER_INFO_COLOR"
     },
     "BANNER_ALERT_PRIMARY_COLOR": {
       "category": "notifications",
