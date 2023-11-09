@@ -73,7 +73,7 @@
     "del": "^5.0.0",
     "eslint-plugin-flowtype": "^4.7.0",
     "flow-bin": "^0.132.0",
-    "flow-typed": "^2.5.1",
+    "flow-typed": "^3.9.0",
     "gulp": "^4.0.2",
     "gulp-jsonlint": "^1.2.2",
     "gulp-theo": "^2.0.0",
