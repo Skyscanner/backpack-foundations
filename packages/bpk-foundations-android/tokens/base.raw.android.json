@@ -2413,8 +2413,8 @@
     "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
-      "originalValue": "{!GREY_10}",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
       "name": "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY"
     },
     "PRIVATE_INFO_BANNER_SUCCESS_DAY": {
@@ -3787,8 +3787,8 @@
     "PRIVATE_INFO_BANNER_ON_CONTRAST_COLOR": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
-      "originalValue": "{!GREY_10}",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
       "name": "PRIVATE_INFO_BANNER_ON_CONTRAST_COLOR",
       "darkValue": "#131d2bff",
       "originalDarkValue": "{!NIGHT_GREY_20}"

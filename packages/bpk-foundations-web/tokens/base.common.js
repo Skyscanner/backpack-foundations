@@ -147,7 +147,7 @@ module.exports = {
   backgroundSecondaryLightColor: "rgb(241, 242, 248)",
   scrimNight: "rgba(0, 0, 0, 0.7)",
   privateInfoBannerDefaultDay: "rgb(239, 241, 242)",
-  privateInfoBannerOnContrastDay: "rgb(239, 241, 242)",
+  privateInfoBannerOnContrastDay: "rgb(255, 255, 255)",
   privateInfoBannerSuccessDay: "rgb(12, 131, 138)",
   privateInfoBannerErrorNight: "rgb(255, 100, 156)",
   privateInfoBannerInfoNight: "rgb(189, 196, 203)",

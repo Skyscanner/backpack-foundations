@@ -829,7 +829,7 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#ffffffff",
       "name": "privateInfoBannerOnContrastDay"
     },
     {
@@ -2344,7 +2344,7 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#ffffffff",
       "name": "privateInfoBannerOnContrastColor",
       "darkValue": "#131d2bff"
     },
