@@ -628,27 +628,19 @@ $bpk-modal-wide-max-width: 64rem !default;
 /// @group modals
 $bpk-modal-content-padding: 1rem !default;
 /// @group notifications
-$bpk-banner-alert-warn-color: rgb(245, 93, 66) !default;
-/// @group notifications
-$bpk-private-info-banner-warning-color: rgb(245, 93, 66) !default;
-/// @group notifications
 $bpk-banner-alert-header-expandable-hover-background-color: rgb(239, 241, 242) !default;
 /// @group notifications
-$bpk-private-info-banner-success-color: rgb(12, 131, 138) !default;
-/// @group notifications
-$bpk-private-info-banner-error-color: rgb(231, 8, 102) !default;
-/// @group notifications
-$bpk-private-info-banner-info-color: rgb(194, 201, 205) !default;
+$bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242) !default;
 /// @group notifications
 $bpk-banner-alert-primary-color: rgb(0, 98, 227) !default;
 /// @group notifications
 $bpk-banner-alert-success-color: rgb(12, 131, 138) !default;
 /// @group notifications
-$bpk-banner-alert-neutral-color: rgb(194, 201, 205) !default;
+$bpk-banner-alert-warn-color: rgb(245, 93, 66) !default;
 /// @group notifications
 $bpk-banner-alert-error-color: rgb(231, 8, 102) !default;
 /// @group notifications
-$bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242) !default;
+$bpk-banner-alert-neutral-color: rgb(194, 201, 205) !default;
 /// @group panels
 $bpk-panel-border-color: rgb(194, 201, 205) !default;
 /// @group slider-colors

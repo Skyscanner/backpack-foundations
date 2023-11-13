@@ -322,17 +322,13 @@ export const modalOpacity = "1";
 export const modalMaxWidth = "32rem";
 export const modalWideMaxWidth = "64rem";
 export const modalContentPadding = "1rem";
-export const bannerAlertWarnColor = "rgb(245, 93, 66)";
-export const privateInfoBannerWarningColor = "rgb(245, 93, 66)";
 export const bannerAlertHeaderExpandableHoverBackgroundColor = "rgb(239, 241, 242)";
-export const privateInfoBannerSuccessColor = "rgb(12, 131, 138)";
-export const privateInfoBannerErrorColor = "rgb(231, 8, 102)";
-export const privateInfoBannerInfoColor = "rgb(194, 201, 205)";
+export const bannerAlertHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
 export const bannerAlertPrimaryColor = "rgb(0, 98, 227)";
 export const bannerAlertSuccessColor = "rgb(12, 131, 138)";
-export const bannerAlertNeutralColor = "rgb(194, 201, 205)";
+export const bannerAlertWarnColor = "rgb(245, 93, 66)";
 export const bannerAlertErrorColor = "rgb(231, 8, 102)";
-export const bannerAlertHeaderExpandableActiveBackgroundColor = "rgb(239, 241, 242)";
+export const bannerAlertNeutralColor = "rgb(194, 201, 205)";
 export const panelBorderColor = "rgb(194, 201, 205)";
 export const privateSliderSelectedDay = "rgb(21, 70, 121)";
 export const onePixelRem = ".0625rem";
@@ -669,17 +665,13 @@ modalWideMaxWidth,
 modalContentPadding,
 };
 export const notifications = {
-bannerAlertWarnColor,
-privateInfoBannerWarningColor,
 bannerAlertHeaderExpandableHoverBackgroundColor,
-privateInfoBannerSuccessColor,
-privateInfoBannerErrorColor,
-privateInfoBannerInfoColor,
+bannerAlertHeaderExpandableActiveBackgroundColor,
 bannerAlertPrimaryColor,
 bannerAlertSuccessColor,
-bannerAlertNeutralColor,
+bannerAlertWarnColor,
 bannerAlertErrorColor,
-bannerAlertHeaderExpandableActiveBackgroundColor,
+bannerAlertNeutralColor,
 };
 export const panels = {
 panelBorderColor,
