@@ -2,6 +2,15 @@
 
 **Patched:**
 
+`@skyscanner/bpk-foundations-android: 7.6.1 => 7.6.2` </br>
+`@skyscanner/bpk-foundations-common: 6.6.1 => 6.6.2` </br>
+`@skyscanner/bpk-foundations-ios: 6.6.1 => 6.6.2` </br>
+`@skyscanner/bpk-foundations-react-native: 4.6.1 => 4.6.2` </br>
+`@skyscanner/bpk-foundations-web: 17.5.2 => 17.5.3` </br>
+  - Changed on-contrast colour to white to match the figma design
+
+**Patched:**
+
 `@skyscanner/bpk-foundations-android: 7.6.0 => 7.6.1` </br>
 `@skyscanner/bpk-foundations-common: 6.6.0 => 6.6.1` </br>
 `@skyscanner/bpk-foundations-ios: 6.6.0 => 6.6.1` </br>
