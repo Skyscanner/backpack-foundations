@@ -1414,8 +1414,8 @@
     "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "rgb(239, 241, 242)",
-      "originalValue": "{!GREY_10}",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
       "name": "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY"
     },
     "PRIVATE_INFO_BANNER_SUCCESS_DAY": {

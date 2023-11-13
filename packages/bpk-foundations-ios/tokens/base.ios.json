@@ -1982,8 +1982,8 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
-      "originalValue": "{!GREY_10}",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
       "name": "privateInfoBannerOnContrastDay"
     },
     {
@@ -3560,8 +3560,8 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
-      "originalValue": "{!GREY_10}",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
       "name": "privateInfoBannerOnContrastColor",
       "darkValue": "#131d2bff",
       "originalDarkValue": "{!NIGHT_GREY_20}"

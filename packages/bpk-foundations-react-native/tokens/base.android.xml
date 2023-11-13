@@ -128,7 +128,7 @@
   <color name="BACKGROUND_SECONDARY_LIGHT_COLOR" category="colors">#eff1f2ff</color>
   <color name="SCRIM_NIGHT" category="scrim-colors">#000000b3</color>
   <color name="PRIVATE_INFO_BANNER_DEFAULT_DAY" category="info-banner-colors">#eff1f2ff</color>
-  <color name="PRIVATE_INFO_BANNER_ON_CONTRAST_DAY" category="info-banner-colors">#eff1f2ff</color>
+  <color name="PRIVATE_INFO_BANNER_ON_CONTRAST_DAY" category="info-banner-colors">#ffffffff</color>
   <color name="PRIVATE_INFO_BANNER_SUCCESS_DAY" category="info-banner-colors">#0c838aff</color>
   <color name="PRIVATE_INFO_BANNER_ERROR_NIGHT" category="info-banner-colors">#ff649cff</color>
   <color name="PRIVATE_INFO_BANNER_INFO_NIGHT" category="info-banner-colors">#bdc4cbff</color>
