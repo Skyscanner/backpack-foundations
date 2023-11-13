@@ -272,13 +272,29 @@ $bpk-background-secondary-light-color: rgb(241, 242, 248);
 /// @group scrim-colors
 $bpk-scrim-night: rgba(0, 0, 0, 0.7);
 /// @group info-banner-colors
-$bpk-private-info-banner-success-color: rgb(12, 131, 138);
+$bpk-private-info-banner-default-day: rgb(239, 241, 242);
 /// @group info-banner-colors
-$bpk-private-info-banner-warning-color: rgb(245, 93, 66);
+$bpk-private-info-banner-on-contrast-day: rgb(239, 241, 242);
 /// @group info-banner-colors
-$bpk-private-info-banner-error-color: rgb(231, 8, 102);
+$bpk-private-info-banner-success-day: rgb(12, 131, 138);
 /// @group info-banner-colors
-$bpk-private-info-banner-info-color: rgb(194, 201, 205);
+$bpk-private-info-banner-error-night: rgb(255, 100, 156);
+/// @group info-banner-colors
+$bpk-private-info-banner-info-night: rgb(189, 196, 203);
+/// @group info-banner-colors
+$bpk-private-info-banner-error-day: rgb(231, 8, 102);
+/// @group info-banner-colors
+$bpk-private-info-banner-info-day: rgb(84, 88, 96);
+/// @group info-banner-colors
+$bpk-private-info-banner-warning-night: rgb(254, 235, 135);
+/// @group info-banner-colors
+$bpk-private-info-banner-warning-day: rgb(245, 93, 66);
+/// @group info-banner-colors
+$bpk-private-info-banner-default-night: rgb(19, 29, 43);
+/// @group info-banner-colors
+$bpk-private-info-banner-on-contrast-night: rgb(19, 29, 43);
+/// @group info-banner-colors
+$bpk-private-info-banner-success-night: rgb(98, 241, 198);
 /// @group marcomms-colors
 $bpk-marcomms-berry: rgb(231, 8, 102);
 /// @group marcomms-colors
@@ -614,7 +630,15 @@ $bpk-modal-content-padding: 1rem;
 /// @group notifications
 $bpk-banner-alert-warn-color: rgb(245, 93, 66);
 /// @group notifications
+$bpk-private-info-banner-warning-color: rgb(245, 93, 66);
+/// @group notifications
 $bpk-banner-alert-header-expandable-hover-background-color: rgb(239, 241, 242);
+/// @group notifications
+$bpk-private-info-banner-success-color: rgb(12, 131, 138);
+/// @group notifications
+$bpk-private-info-banner-error-color: rgb(231, 8, 102);
+/// @group notifications
+$bpk-private-info-banner-info-color: rgb(194, 201, 205);
 /// @group notifications
 $bpk-banner-alert-primary-color: rgb(0, 98, 227);
 /// @group notifications

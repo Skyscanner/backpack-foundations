@@ -5,17 +5,41 @@
     "category": "info-banner-colors"
   },
   "props": {
-    "PRIVATE_INFO_BANNER_SUCCESS_COLOR": {
+    "PRIVATE_INFO_BANNER_SUCCESS_DAY": {
       "value": "{!GREEN_SPOT}"
     },
-    "PRIVATE_INFO_BANNER_WARNING_COLOR": {
+    "PRIVATE_INFO_BANNER_SUCCESS_NIGHT": {
+      "value": "{!NIGHT_GREEN_SPOT}"
+    },
+    "PRIVATE_INFO_BANNER_WARNING_DAY": {
       "value": "{!AMBER_SPOT}"
     },
-    "PRIVATE_INFO_BANNER_ERROR_COLOR": {
+    "PRIVATE_INFO_BANNER_WARNING_NIGHT": {
+      "value": "{!NIGHT_YELLOW_SPOT}"
+    },
+    "PRIVATE_INFO_BANNER_ERROR_DAY": {
       "value": "{!BERRY}"
     },
-    "PRIVATE_INFO_BANNER_INFO_COLOR": {
-      "value": "{!GREY_30}"
+    "PRIVATE_INFO_BANNER_ERROR_NIGHT": {
+      "value": "{!NIGHT_BERRY}"
+    },
+    "PRIVATE_INFO_BANNER_INFO_DAY": {
+      "value": "{!GREY_40}"
+    },
+    "PRIVATE_INFO_BANNER_INFO_NIGHT": {
+      "value": "{!NIGHT_GREY_40}"
+    },
+    "PRIVATE_INFO_BANNER_DEFAULT_DAY": {
+      "value": "{!GREY_10}"
+    },
+    "PRIVATE_INFO_BANNER_DEFAULT_NIGHT": {
+      "value": "{!NIGHT_GREY_20}"
+    },
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY": {
+      "value": "{!GREY_10}"
+    },
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_NIGHT": {
+      "value": "{!NIGHT_GREY_20}"
     }
   }
 }

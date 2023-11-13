@@ -144,10 +144,18 @@ export const primaryLightColor = "rgb(0, 98, 227)";
 export const backgroundTertiaryLightColor = "rgb(255, 255, 255)";
 export const backgroundSecondaryLightColor = "rgb(241, 242, 248)";
 export const scrimNight = "rgba(0, 0, 0, 0.7)";
-export const privateInfoBannerSuccessColor = "rgb(12, 131, 138)";
-export const privateInfoBannerWarningColor = "rgb(245, 93, 66)";
-export const privateInfoBannerErrorColor = "rgb(231, 8, 102)";
-export const privateInfoBannerInfoColor = "rgb(194, 201, 205)";
+export const privateInfoBannerDefaultDay = "rgb(239, 241, 242)";
+export const privateInfoBannerOnContrastDay = "rgb(239, 241, 242)";
+export const privateInfoBannerSuccessDay = "rgb(12, 131, 138)";
+export const privateInfoBannerErrorNight = "rgb(255, 100, 156)";
+export const privateInfoBannerInfoNight = "rgb(189, 196, 203)";
+export const privateInfoBannerErrorDay = "rgb(231, 8, 102)";
+export const privateInfoBannerInfoDay = "rgb(84, 88, 96)";
+export const privateInfoBannerWarningNight = "rgb(254, 235, 135)";
+export const privateInfoBannerWarningDay = "rgb(245, 93, 66)";
+export const privateInfoBannerDefaultNight = "rgb(19, 29, 43)";
+export const privateInfoBannerOnContrastNight = "rgb(19, 29, 43)";
+export const privateInfoBannerSuccessNight = "rgb(98, 241, 198)";
 export const marcommsBerry = "rgb(231, 8, 102)";
 export const marcommsCharcoal = "rgb(22, 22, 22)";
 export const marcommsOrange = "rgb(255, 123, 89)";
@@ -315,7 +323,11 @@ export const modalMaxWidth = "32rem";
 export const modalWideMaxWidth = "64rem";
 export const modalContentPadding = "1rem";
 export const bannerAlertWarnColor = "rgb(245, 93, 66)";
+export const privateInfoBannerWarningColor = "rgb(245, 93, 66)";
 export const bannerAlertHeaderExpandableHoverBackgroundColor = "rgb(239, 241, 242)";
+export const privateInfoBannerSuccessColor = "rgb(12, 131, 138)";
+export const privateInfoBannerErrorColor = "rgb(231, 8, 102)";
+export const privateInfoBannerInfoColor = "rgb(194, 201, 205)";
 export const bannerAlertPrimaryColor = "rgb(0, 98, 227)";
 export const bannerAlertSuccessColor = "rgb(12, 131, 138)";
 export const bannerAlertNeutralColor = "rgb(194, 201, 205)";
@@ -595,10 +607,18 @@ iconSizeSm,
 iconSizeLg,
 };
 export const infoBannerColors = {
-privateInfoBannerSuccessColor,
-privateInfoBannerWarningColor,
-privateInfoBannerErrorColor,
-privateInfoBannerInfoColor,
+privateInfoBannerDefaultDay,
+privateInfoBannerOnContrastDay,
+privateInfoBannerSuccessDay,
+privateInfoBannerErrorNight,
+privateInfoBannerInfoNight,
+privateInfoBannerErrorDay,
+privateInfoBannerInfoDay,
+privateInfoBannerWarningNight,
+privateInfoBannerWarningDay,
+privateInfoBannerDefaultNight,
+privateInfoBannerOnContrastNight,
+privateInfoBannerSuccessNight,
 };
 export const letterSpacings = {
 letterSpacingTight,
@@ -650,7 +670,11 @@ modalContentPadding,
 };
 export const notifications = {
 bannerAlertWarnColor,
+privateInfoBannerWarningColor,
 bannerAlertHeaderExpandableHoverBackgroundColor,
+privateInfoBannerSuccessColor,
+privateInfoBannerErrorColor,
+privateInfoBannerInfoColor,
 bannerAlertPrimaryColor,
 bannerAlertSuccessColor,
 bannerAlertNeutralColor,

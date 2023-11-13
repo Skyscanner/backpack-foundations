@@ -1333,33 +1333,89 @@
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_NIGHT"
     },
-    "PRIVATE_INFO_BANNER_SUCCESS_COLOR": {
+    "PRIVATE_INFO_BANNER_DEFAULT_DAY": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_INFO_BANNER_DEFAULT_DAY"
+    },
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY"
+    },
+    "PRIVATE_INFO_BANNER_SUCCESS_DAY": {
       "type": "color",
       "category": "info-banner-colors",
       "value": "#0c838aff",
       "originalValue": "{!GREEN_SPOT}",
-      "name": "PRIVATE_INFO_BANNER_SUCCESS_COLOR"
+      "name": "PRIVATE_INFO_BANNER_SUCCESS_DAY"
     },
-    "PRIVATE_INFO_BANNER_WARNING_COLOR": {
+    "PRIVATE_INFO_BANNER_ERROR_NIGHT": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#f55d42ff",
-      "originalValue": "{!AMBER_SPOT}",
-      "name": "PRIVATE_INFO_BANNER_WARNING_COLOR"
+      "value": "#ff649cff",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "PRIVATE_INFO_BANNER_ERROR_NIGHT"
     },
-    "PRIVATE_INFO_BANNER_ERROR_COLOR": {
+    "PRIVATE_INFO_BANNER_INFO_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#bdc4cbff",
+      "originalValue": "{!NIGHT_GREY_40}",
+      "name": "PRIVATE_INFO_BANNER_INFO_NIGHT"
+    },
+    "PRIVATE_INFO_BANNER_ERROR_DAY": {
       "type": "color",
       "category": "info-banner-colors",
       "value": "#e70866ff",
       "originalValue": "{!BERRY}",
-      "name": "PRIVATE_INFO_BANNER_ERROR_COLOR"
+      "name": "PRIVATE_INFO_BANNER_ERROR_DAY"
     },
-    "PRIVATE_INFO_BANNER_INFO_COLOR": {
+    "PRIVATE_INFO_BANNER_INFO_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#c2c9cdff",
-      "originalValue": "{!GREY_30}",
-      "name": "PRIVATE_INFO_BANNER_INFO_COLOR"
+      "value": "#545860ff",
+      "originalValue": "{!GREY_40}",
+      "name": "PRIVATE_INFO_BANNER_INFO_DAY"
+    },
+    "PRIVATE_INFO_BANNER_WARNING_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#feeb87ff",
+      "originalValue": "{!NIGHT_YELLOW_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_WARNING_NIGHT"
+    },
+    "PRIVATE_INFO_BANNER_WARNING_DAY": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#f55d42ff",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_WARNING_DAY"
+    },
+    "PRIVATE_INFO_BANNER_DEFAULT_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#131d2bff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "PRIVATE_INFO_BANNER_DEFAULT_NIGHT"
+    },
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#131d2bff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "PRIVATE_INFO_BANNER_ON_CONTRAST_NIGHT"
+    },
+    "PRIVATE_INFO_BANNER_SUCCESS_NIGHT": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#62f1c6ff",
+      "originalValue": "{!NIGHT_GREEN_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_SUCCESS_NIGHT"
     },
     "MARCOMMS_BERRY": {
       "type": "color",
@@ -3075,6 +3131,60 @@
       "darkValue": "#84e9ffff",
       "originalDarkValue": "{!NIGHT_BLUE}"
     },
+    "PRIVATE_INFO_BANNER_DEFAULT_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_INFO_BANNER_DEFAULT_COLOR",
+      "darkValue": "#131d2bff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#eff1f2ff",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_INFO_BANNER_ON_CONTRAST_COLOR",
+      "darkValue": "#131d2bff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    "PRIVATE_INFO_BANNER_SUCCESS_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#0c838aff",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_SUCCESS_COLOR",
+      "darkValue": "#62f1c6ff",
+      "originalDarkValue": "{!NIGHT_GREEN_SPOT}"
+    },
+    "PRIVATE_INFO_BANNER_ERROR_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "PRIVATE_INFO_BANNER_ERROR_COLOR",
+      "darkValue": "#ff649cff",
+      "originalDarkValue": "{!NIGHT_BERRY}"
+    },
+    "PRIVATE_INFO_BANNER_INFO_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#545860ff",
+      "originalValue": "{!GREY_40}",
+      "name": "PRIVATE_INFO_BANNER_INFO_COLOR",
+      "darkValue": "#bdc4cbff",
+      "originalDarkValue": "{!NIGHT_GREY_40}"
+    },
+    "PRIVATE_INFO_BANNER_WARNING_COLOR": {
+      "type": "color",
+      "category": "info-banner-colors",
+      "value": "#f55d42ff",
+      "originalValue": "{!AMBER_SPOT}",
+      "name": "PRIVATE_INFO_BANNER_WARNING_COLOR",
+      "darkValue": "#feeb87ff",
+      "originalDarkValue": "{!NIGHT_YELLOW_SPOT}"
+    },
     "PRIVATE_CHIP_ON_DARK_PRESSED_STROKE_COLOR": {
       "type": "color",
       "category": "chip-colors",
@@ -3555,10 +3665,18 @@
     "BACKGROUND_TERTIARY_LIGHT_COLOR",
     "BACKGROUND_SECONDARY_LIGHT_COLOR",
     "SCRIM_NIGHT",
-    "PRIVATE_INFO_BANNER_SUCCESS_COLOR",
-    "PRIVATE_INFO_BANNER_WARNING_COLOR",
-    "PRIVATE_INFO_BANNER_ERROR_COLOR",
-    "PRIVATE_INFO_BANNER_INFO_COLOR",
+    "PRIVATE_INFO_BANNER_DEFAULT_DAY",
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY",
+    "PRIVATE_INFO_BANNER_SUCCESS_DAY",
+    "PRIVATE_INFO_BANNER_ERROR_NIGHT",
+    "PRIVATE_INFO_BANNER_INFO_NIGHT",
+    "PRIVATE_INFO_BANNER_ERROR_DAY",
+    "PRIVATE_INFO_BANNER_INFO_DAY",
+    "PRIVATE_INFO_BANNER_WARNING_NIGHT",
+    "PRIVATE_INFO_BANNER_WARNING_DAY",
+    "PRIVATE_INFO_BANNER_DEFAULT_NIGHT",
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_NIGHT",
+    "PRIVATE_INFO_BANNER_SUCCESS_NIGHT",
     "MARCOMMS_BERRY",
     "MARCOMMS_CHARCOAL",
     "MARCOMMS_ORANGE",
@@ -3791,6 +3909,12 @@
     "BACKGROUND_SECONDARY_COLOR",
     "BACKGROUND_ALTERNATIVE_COLOR",
     "PRIMARY_COLOR",
+    "PRIVATE_INFO_BANNER_DEFAULT_COLOR",
+    "PRIVATE_INFO_BANNER_ON_CONTRAST_COLOR",
+    "PRIVATE_INFO_BANNER_SUCCESS_COLOR",
+    "PRIVATE_INFO_BANNER_ERROR_COLOR",
+    "PRIVATE_INFO_BANNER_INFO_COLOR",
+    "PRIVATE_INFO_BANNER_WARNING_COLOR",
     "PRIVATE_CHIP_ON_DARK_PRESSED_STROKE_COLOR",
     "PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_COLOR",
     "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR",

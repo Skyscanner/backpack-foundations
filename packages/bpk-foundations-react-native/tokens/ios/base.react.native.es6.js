@@ -145,10 +145,18 @@ export const primaryLightColor = "rgb(0, 98, 227)";
 export const backgroundTertiaryLightColor = "rgb(255, 255, 255)";
 export const backgroundSecondaryLightColor = "rgb(239, 241, 242)";
 export const scrimNight = "rgba(0, 0, 0, 0.7)";
-export const privateInfoBannerSuccessColor = "rgb(12, 131, 138)";
-export const privateInfoBannerWarningColor = "rgb(245, 93, 66)";
-export const privateInfoBannerErrorColor = "rgb(231, 8, 102)";
-export const privateInfoBannerInfoColor = "rgb(194, 201, 205)";
+export const privateInfoBannerDefaultDay = "rgb(239, 241, 242)";
+export const privateInfoBannerOnContrastDay = "rgb(239, 241, 242)";
+export const privateInfoBannerSuccessDay = "rgb(12, 131, 138)";
+export const privateInfoBannerErrorNight = "rgb(255, 100, 156)";
+export const privateInfoBannerInfoNight = "rgb(189, 196, 203)";
+export const privateInfoBannerErrorDay = "rgb(231, 8, 102)";
+export const privateInfoBannerInfoDay = "rgb(84, 88, 96)";
+export const privateInfoBannerWarningNight = "rgb(254, 235, 135)";
+export const privateInfoBannerWarningDay = "rgb(245, 93, 66)";
+export const privateInfoBannerDefaultNight = "rgb(19, 29, 43)";
+export const privateInfoBannerOnContrastNight = "rgb(19, 29, 43)";
+export const privateInfoBannerSuccessNight = "rgb(98, 241, 198)";
 export const marcommsBerry = "rgb(231, 8, 102)";
 export const marcommsCharcoal = "rgb(22, 22, 22)";
 export const marcommsOrange = "rgb(255, 123, 89)";
@@ -706,10 +714,18 @@ textEmphasizedFontWeight,
 textHeavyFontWeight,
 };
 export const infoBannerColors = {
-privateInfoBannerSuccessColor,
-privateInfoBannerWarningColor,
-privateInfoBannerErrorColor,
-privateInfoBannerInfoColor,
+privateInfoBannerDefaultDay,
+privateInfoBannerOnContrastDay,
+privateInfoBannerSuccessDay,
+privateInfoBannerErrorNight,
+privateInfoBannerInfoNight,
+privateInfoBannerErrorDay,
+privateInfoBannerInfoDay,
+privateInfoBannerWarningNight,
+privateInfoBannerWarningDay,
+privateInfoBannerDefaultNight,
+privateInfoBannerOnContrastNight,
+privateInfoBannerSuccessNight,
 };
 export const letterSpacings = {
 textXxxlLetterSpacing,
@@ -985,6 +1001,12 @@ export const textErrorColor = undefined;
 export const textPrimaryInverseColor = undefined;
 export const scrimColor = undefined;
 export const lineOnDarkColor = undefined;
+export const privateInfoBannerDefaultColor = undefined;
+export const privateInfoBannerOnContrastColor = undefined;
+export const privateInfoBannerSuccessColor = undefined;
+export const privateInfoBannerErrorColor = undefined;
+export const privateInfoBannerInfoColor = undefined;
+export const privateInfoBannerWarningColor = undefined;
 export const privateChipOnDarkPressedStrokeColor = undefined;
 export const privateChipOnDarkOnBackgroundColor = undefined;
 export const privateChipDisabledBackgroundColor = undefined;
