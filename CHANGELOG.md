@@ -7,6 +7,7 @@
 `@skyscanner/bpk-foundations-ios: 6.6.0 => 6.6.1` </br>
 `@skyscanner/bpk-foundations-react-native: 4.6.0 => 4.6.1` </br>
 `@skyscanner/bpk-foundations-web: 17.5.0 => 17.5.1` </br>
+`@skyscanner/bpk-foundations-web: 17.5.1 => 17.5.2` </br>
   - Fixed banner colours to include Day and Night tokens
 
 # 2023-11-07
