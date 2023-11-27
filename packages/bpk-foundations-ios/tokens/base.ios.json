@@ -1497,9 +1497,23 @@
     {
       "type": "color",
       "category": "surface-colors",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "surfaceHeroNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
       "value": "#131d2bff",
       "originalValue": "{!NIGHT_GREY_20}",
       "name": "surfaceDefaultNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#0062e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "surfaceHeroDay"
     },
     {
       "type": "color",
@@ -3284,6 +3298,15 @@
       "name": "statusWarningFillColor",
       "darkValue": "#fbf1bbff",
       "originalDarkValue": "{!NIGHT_YELLOW_FILL}"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#0062e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "surfaceHeroColor",
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     {
       "type": "color",
