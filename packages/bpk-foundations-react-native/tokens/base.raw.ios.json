@@ -863,12 +863,26 @@
       "originalValue": "{!YELLOW_MUTED}",
       "name": "STATUS_WARNING_FILL_DAY"
     },
+    "SURFACE_HERO_NIGHT": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "SURFACE_HERO_NIGHT"
+    },
     "SURFACE_DEFAULT_NIGHT": {
       "type": "color",
       "category": "surface-colors",
       "value": "#131d2bff",
       "originalValue": "{!NIGHT_GREY_20}",
       "name": "SURFACE_DEFAULT_NIGHT"
+    },
+    "SURFACE_HERO_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#0062e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "SURFACE_HERO_DAY"
     },
     "SURFACE_DEFAULT_DAY": {
       "type": "color",
@@ -2870,6 +2884,15 @@
       "darkValue": "#fbf1bbff",
       "originalDarkValue": "{!NIGHT_YELLOW_FILL}"
     },
+    "SURFACE_HERO_COLOR": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#0062e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "SURFACE_HERO_COLOR",
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
+    },
     "SURFACE_DEFAULT_COLOR": {
       "type": "color",
       "category": "surface-colors",
@@ -3601,7 +3624,9 @@
     "STATUS_WARNING_SPOT_DAY",
     "STATUS_DANGER_FILL_DAY",
     "STATUS_WARNING_FILL_DAY",
+    "SURFACE_HERO_NIGHT",
     "SURFACE_DEFAULT_NIGHT",
+    "SURFACE_HERO_DAY",
     "SURFACE_DEFAULT_DAY",
     "SURFACE_CONTRAST_NIGHT",
     "SURFACE_CONTRAST_DAY",
@@ -3881,6 +3906,7 @@
     "STATUS_WARNING_SPOT_COLOR",
     "STATUS_DANGER_FILL_COLOR",
     "STATUS_WARNING_FILL_COLOR",
+    "SURFACE_HERO_COLOR",
     "SURFACE_DEFAULT_COLOR",
     "SURFACE_CONTRAST_COLOR",
     "SURFACE_ELEVATED_COLOR",
