@@ -273,7 +273,7 @@
     {
       "type": "color",
       "category": "badge-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "name": "privateBadgeBackgroundNormalDay"
     },
     {
@@ -297,7 +297,7 @@
     {
       "type": "color",
       "category": "canvas-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "name": "canvasContrastDay"
     },
     {
@@ -483,7 +483,7 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "surfaceHighlightDay"
     },
     {
@@ -519,6 +519,12 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#010913ff",
+      "name": "textHeroNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#ffffff33",
       "name": "textDisabledNight"
     },
@@ -533,6 +539,12 @@
       "category": "text-colors",
       "value": "#0062e3ff",
       "name": "textLinkDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#0062e3ff",
+      "name": "textHeroDay"
     },
     {
       "value": "#bdc4cbff",
@@ -639,7 +651,7 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#545860ff",
+      "value": "#626c71ff",
       "name": "textSecondaryDay"
     },
     {
@@ -739,7 +751,7 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "deprecated": true,
       "name": "lineLightColor"
     },
@@ -753,7 +765,7 @@
     {
       "type": "color",
       "category": "line-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "name": "lineDay"
     },
     {
@@ -780,7 +792,7 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "deprecated": true,
       "name": "backgroundAlternativeLightColor"
     },
@@ -822,7 +834,7 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "deprecated": true,
       "name": "backgroundSecondaryLightColor"
     },
@@ -835,7 +847,7 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "name": "privateInfoBannerDefaultDay"
     },
     {
@@ -871,7 +883,7 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#545860ff",
+      "value": "#626c71ff",
       "name": "privateInfoBannerInfoDay"
     },
     {
@@ -925,7 +937,7 @@
     {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "#545860ff",
+      "value": "#626c71ff",
       "name": "marcommsGrey40"
     },
     {
@@ -1033,7 +1045,7 @@
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateChipDisabledBackgroundDay"
     },
     {
@@ -1045,7 +1057,7 @@
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#545860ff",
+      "value": "#626c71ff",
       "name": "privateChipOnDarkOnDismissIconDay"
     },
     {
@@ -1165,7 +1177,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "name": "privateButtonSecondaryPressedBackgroundDay"
     },
     {
@@ -1201,7 +1213,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonSecondaryNormalBackgroundDay"
     },
     {
@@ -1279,7 +1291,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonPrimaryOnLightDisabledBackgroundNight"
     },
     {
@@ -1315,13 +1327,13 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonPrimaryOnLightDisabledBackgroundDay"
     },
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonPrimaryOnDarkDisabledBackgroundNight"
     },
     {
@@ -1333,7 +1345,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonDestructiveNormalBackgroundDay"
     },
     {
@@ -1357,7 +1369,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonPrimaryOnDarkDisabledBackgroundDay"
     },
     {
@@ -1393,7 +1405,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "name": "privateButtonPrimaryOnDarkPressedBackgroundNight"
     },
     {
@@ -1405,7 +1417,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonDisabledBackgroundDay"
     },
     {
@@ -1423,7 +1435,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "name": "privateButtonPrimaryOnDarkPressedBackgroundDay"
     },
     {
@@ -1465,7 +1477,7 @@
     {
       "type": "color",
       "category": "sponsored-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "name": "privateSponsoredBannerBackgroundDay"
     },
     {
@@ -2060,7 +2072,7 @@
     {
       "type": "color",
       "category": "badge-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "name": "privateBadgeBackgroundNormalColor",
       "darkValue": "#243346ff"
     },
@@ -2074,7 +2086,7 @@
     {
       "type": "color",
       "category": "canvas-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "name": "canvasContrastColor",
       "darkValue": "#010913ff"
     },
@@ -2179,7 +2191,7 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "surfaceHighlightColor",
       "darkValue": "#243346ff"
     },
@@ -2210,6 +2222,13 @@
       "value": "#0062e3ff",
       "name": "textLinkColor",
       "darkValue": "#84e9ffff"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#0062e3ff",
+      "name": "textHeroColor",
+      "darkValue": "#010913ff"
     },
     {
       "type": "color",
@@ -2249,7 +2268,7 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#545860ff",
+      "value": "#626c71ff",
       "name": "textSecondaryColor",
       "darkValue": "#bdc4cbff"
     },
@@ -2293,7 +2312,7 @@
     {
       "type": "color",
       "category": "line-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "name": "lineColor",
       "darkValue": "#44505fff"
     },
@@ -2332,7 +2351,7 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "deprecated": true,
       "name": "backgroundSecondaryColor",
       "darkValue": "#131d2bff"
@@ -2340,7 +2359,7 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "deprecated": true,
       "name": "backgroundAlternativeColor",
       "darkValue": "#131d2bff"
@@ -2356,7 +2375,7 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "name": "privateInfoBannerDefaultColor",
       "darkValue": "#131d2bff"
     },
@@ -2384,7 +2403,7 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#545860ff",
+      "value": "#626c71ff",
       "name": "privateInfoBannerInfoColor",
       "darkValue": "#bdc4cbff"
     },
@@ -2412,14 +2431,14 @@
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateChipDisabledBackgroundColor",
       "darkValue": "#0b121dff"
     },
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#545860ff",
+      "value": "#626c71ff",
       "name": "privateChipOnDarkOnDismissIconColor",
       "darkValue": "#ffffff80"
     },
@@ -2461,7 +2480,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "name": "privateButtonSecondaryPressedBackgroundColor",
       "darkValue": "#010913ff"
     },
@@ -2482,7 +2501,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonSecondaryNormalBackgroundColor",
       "darkValue": "#243346ff"
     },
@@ -2566,14 +2585,14 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonPrimaryOnLightDisabledBackgroundColor",
-      "darkValue": "#e0e3e5ff"
+      "darkValue": "#e0e4e9ff"
     },
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonDestructiveNormalBackgroundColor",
       "darkValue": "#243346ff"
     },
@@ -2601,9 +2620,9 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonPrimaryOnDarkDisabledBackgroundColor",
-      "darkValue": "#e0e3e5ff"
+      "darkValue": "#e0e4e9ff"
     },
     {
       "type": "color",
@@ -2622,7 +2641,7 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "name": "privateButtonDisabledBackgroundColor",
       "darkValue": "#0b121dff"
     },
@@ -2643,9 +2662,9 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "name": "privateButtonPrimaryOnDarkPressedBackgroundColor",
-      "darkValue": "#c2c9cdff"
+      "darkValue": "#c1c7cfff"
     },
     {
       "type": "color",
@@ -2664,7 +2683,7 @@
     {
       "type": "color",
       "category": "sponsored-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "name": "privateSponsoredBannerBackgroundColor",
       "darkValue": "#243346ff"
     }

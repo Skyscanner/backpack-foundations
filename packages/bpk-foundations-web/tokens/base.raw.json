@@ -217,13 +217,13 @@
       "value": "#8E47BA"
     },
     "GREY_40": {
-      "value": "#545860"
+      "value": "#626C71"
     },
     "NIGHT_PINK": {
       "value": "#FFCADD"
     },
     "GREY_30": {
-      "value": "#C2C9CD"
+      "value": "#C1C7CF"
     },
     "GREEN_SPOT": {
       "value": "#0C838A"
@@ -235,7 +235,7 @@
       "value": "#F55D42"
     },
     "GREY_20": {
-      "value": "#E0E3E5"
+      "value": "#E0E4E9"
     },
     "BLACK_ALPHA_20": {
       "value": "#00000033"
@@ -247,7 +247,7 @@
       "value": "#a59bc8"
     },
     "GREY_10": {
-      "value": "#EFF1F2"
+      "value": "#EFF3F8"
     },
     "BLACK": {
       "value": "#000000"
@@ -761,7 +761,7 @@
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
       "type": "color",
       "category": "badge-colors",
-      "value": "rgb(239, 241, 242)",
+      "value": "rgb(239, 243, 248)",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY"
     },
@@ -789,7 +789,7 @@
     "CANVAS_CONTRAST_DAY": {
       "type": "color",
       "category": "canvas-colors",
-      "value": "rgb(239, 241, 242)",
+      "value": "rgb(239, 243, 248)",
       "originalValue": "{!GREY_10}",
       "name": "CANVAS_CONTRAST_DAY"
     },
@@ -1006,7 +1006,7 @@
     "SURFACE_HIGHLIGHT_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "originalValue": "{!GREY_20}",
       "name": "SURFACE_HIGHLIGHT_DAY"
     },
@@ -1045,6 +1045,13 @@
       "originalValue": "{!NIGHT_BLUE}",
       "name": "TEXT_LINK_NIGHT"
     },
+    "TEXT_HERO_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgb(1, 9, 19)",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "TEXT_HERO_NIGHT"
+    },
     "TEXT_DISABLED_NIGHT": {
       "type": "color",
       "category": "text-colors",
@@ -1066,6 +1073,13 @@
       "value": "rgb(0, 98, 227)",
       "originalValue": "{!SKY_BLUE}",
       "name": "TEXT_LINK_DAY"
+    },
+    "TEXT_HERO_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgb(0, 98, 227)",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "TEXT_HERO_DAY"
     },
     "TEXT_QUATERNARY_DARK_COLOR": {
       "value": "rgb(142, 142, 147)",
@@ -1196,7 +1210,7 @@
     "TEXT_SECONDARY_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(84, 88, 96)",
+      "value": "rgb(98, 108, 113)",
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_DAY"
     },
@@ -1327,7 +1341,7 @@
     "LINE_DAY": {
       "type": "color",
       "category": "line-colors",
-      "value": "rgb(194, 201, 205)",
+      "value": "rgb(193, 199, 207)",
       "originalValue": "{!GREY_30}",
       "name": "LINE_DAY"
     },
@@ -1421,7 +1435,7 @@
     "PRIVATE_INFO_BANNER_DEFAULT_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "rgb(239, 241, 242)",
+      "value": "rgb(239, 243, 248)",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_INFO_BANNER_DEFAULT_DAY"
     },
@@ -1463,7 +1477,7 @@
     "PRIVATE_INFO_BANNER_INFO_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "rgb(84, 88, 96)",
+      "value": "rgb(98, 108, 113)",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_INFO_BANNER_INFO_DAY"
     },
@@ -1526,7 +1540,7 @@
     "MARCOMMS_GREY_40": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(84, 88, 96)",
+      "value": "rgb(98, 108, 113)",
       "originalValue": "{!GREY_40}",
       "name": "MARCOMMS_GREY_40"
     },
@@ -1652,7 +1666,7 @@
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "chip-colors",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY"
     },
@@ -1666,7 +1680,7 @@
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY": {
       "type": "color",
       "category": "chip-colors",
-      "value": "rgb(84, 88, 96)",
+      "value": "rgb(98, 108, 113)",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY"
     },
@@ -1806,7 +1820,7 @@
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(194, 201, 205)",
+      "value": "rgb(193, 199, 207)",
       "originalValue": "{!GREY_30}",
       "name": "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY"
     },
@@ -1848,7 +1862,7 @@
     "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY"
     },
@@ -1939,7 +1953,7 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT"
     },
@@ -1981,14 +1995,14 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT"
     },
@@ -2002,7 +2016,7 @@
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY"
     },
@@ -2030,7 +2044,7 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY"
     },
@@ -2072,7 +2086,7 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(194, 201, 205)",
+      "value": "rgb(193, 199, 207)",
       "originalValue": "{!GREY_30}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT"
     },
@@ -2086,7 +2100,7 @@
     "PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY"
     },
@@ -2107,7 +2121,7 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "rgb(194, 201, 205)",
+      "value": "rgb(193, 199, 207)",
       "originalValue": "{!GREY_30}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY"
     },
@@ -2156,7 +2170,7 @@
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY": {
       "type": "color",
       "category": "sponsored-banner-colors",
-      "value": "rgb(239, 241, 242)",
+      "value": "rgb(239, 243, 248)",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY"
     },
@@ -2505,7 +2519,7 @@
     },
     "INPUT_BORDER": {
       "category": "forms",
-      "value": "solid .0625rem #C2C9CD",
+      "value": "solid .0625rem #C1C7CF",
       "type": "border",
       "originalValue": "solid {!ONE_PIXEL_REM} {!GREY_30}",
       "name": "INPUT_BORDER"
@@ -2547,7 +2561,7 @@
     },
     "SELECT_DISABLED_BORDER_COLOR": {
       "category": "forms",
-      "value": "rgb(224, 227, 229)",
+      "value": "rgb(224, 228, 233)",
       "type": "color",
       "originalValue": "{!GREY_20}",
       "name": "SELECT_DISABLED_BORDER_COLOR"
@@ -2596,7 +2610,7 @@
     },
     "INPUT_DISABLED_BORDER_COLOR": {
       "category": "forms",
-      "value": "rgb(239, 241, 242)",
+      "value": "rgb(239, 243, 248)",
       "type": "color",
       "originalValue": "{!GREY_10}",
       "name": "INPUT_DISABLED_BORDER_COLOR"
@@ -2666,14 +2680,14 @@
     },
     "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR": {
       "category": "notifications",
-      "value": "rgb(239, 241, 242)",
+      "value": "rgb(239, 243, 248)",
       "type": "color",
       "originalValue": "{!GREY_10}",
       "name": "BANNER_ALERT_HEADER_EXPANDABLE_HOVER_BACKGROUND_COLOR"
     },
     "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR": {
       "category": "notifications",
-      "value": "rgb(239, 241, 242)",
+      "value": "rgb(239, 243, 248)",
       "type": "color",
       "originalValue": "{!GREY_10}",
       "name": "BANNER_ALERT_HEADER_EXPANDABLE_ACTIVE_BACKGROUND_COLOR"
@@ -2708,14 +2722,14 @@
     },
     "BANNER_ALERT_NEUTRAL_COLOR": {
       "category": "notifications",
-      "value": "rgb(194, 201, 205)",
+      "value": "rgb(193, 199, 207)",
       "type": "color",
       "originalValue": "{!GREY_30}",
       "name": "BANNER_ALERT_NEUTRAL_COLOR"
     },
     "PANEL_BORDER_COLOR": {
       "category": "panels",
-      "value": "rgb(194, 201, 205)",
+      "value": "rgb(193, 199, 207)",
       "type": "color",
       "originalValue": "{!GREY_30}",
       "name": "PANEL_BORDER_COLOR"

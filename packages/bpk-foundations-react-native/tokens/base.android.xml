@@ -39,11 +39,11 @@
   <color name="COLOR_NARA" category="colors">#fff7cfff</color>
   <color name="COLOR_SKY_BLUE_SHADE_01" category="colors">#0062e3ff</color>
   <color name="COLOR_SKY_BLUE_SHADE_02" category="colors">#05203cff</color>
-  <color name="PRIVATE_BADGE_BACKGROUND_NORMAL_DAY" category="badge-colors">#eff1f2ff</color>
+  <color name="PRIVATE_BADGE_BACKGROUND_NORMAL_DAY" category="badge-colors">#eff3f8ff</color>
   <color name="PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT" category="badge-colors">#243346ff</color>
   <color name="CANVAS_DAY" category="canvas-colors">#ffffffff</color>
   <color name="CANVAS_NIGHT" category="canvas-colors">#010913ff</color>
-  <color name="CANVAS_CONTRAST_DAY" category="canvas-colors">#eff1f2ff</color>
+  <color name="CANVAS_CONTRAST_DAY" category="canvas-colors">#eff3f8ff</color>
   <color name="CANVAS_CONTRAST_NIGHT" category="canvas-colors">#010913ff</color>
   <color name="CORE_ECO_DAY" category="core-colors">#0fa1a9ff</color>
   <color name="CORE_ECO_NIGHT" category="core-colors">#0fa1a9ff</color>
@@ -74,15 +74,17 @@
   <color name="SURFACE_ELEVATED_DAY" category="surface-colors">#ffffffff</color>
   <color name="SURFACE_HIGHLIGHT_NIGHT" category="surface-colors">#243346ff</color>
   <color name="SURFACE_SUBTLE_DAY" category="surface-colors">#e3f0ffff</color>
-  <color name="SURFACE_HIGHLIGHT_DAY" category="surface-colors">#e0e3e5ff</color>
+  <color name="SURFACE_HIGHLIGHT_DAY" category="surface-colors">#e0e4e9ff</color>
   <color name="TEXT_ON_DARK_DAY" category="text-colors">#ffffffff</color>
   <color name="TEXT_ON_LIGHT_NIGHT" category="text-colors">#010913ff</color>
   <color name="TEXT_DISABLED_ON_DARK_DAY" category="text-colors">#ffffff80</color>
   <color name="TEXT_ON_LIGHT_DAY" category="text-colors">#161616ff</color>
   <color name="TEXT_LINK_NIGHT" category="text-colors">#84e9ffff</color>
+  <color name="TEXT_HERO_NIGHT" category="text-colors">#010913ff</color>
   <color name="TEXT_DISABLED_NIGHT" category="text-colors">#ffffff33</color>
   <color name="TEXT_PRIMARY_DARK_COLOR" category="text-colors">#ffffffff</color>
   <color name="TEXT_LINK_DAY" category="text-colors">#0062e3ff</color>
+  <color name="TEXT_HERO_DAY" category="text-colors">#0062e3ff</color>
   <color name="TEXT_QUATERNARY_DARK_COLOR" category="text-colors">#bdc4cbff</color>
   <color name="TEXT_PRIMARY_NIGHT" category="text-colors">#ffffffff</color>
   <color name="TEXT_QUATERNARY_LIGHT_COLOR" category="text-colors">#545860ff</color>
@@ -100,7 +102,7 @@
   <color name="TEXT_PRIMARY_INVERSE_DAY" category="text-colors">#ffffffff</color>
   <color name="TEXT_DISABLED_ON_DARK_NIGHT" category="text-colors">#ffffff80</color>
   <color name="TEXT_TERTIARY_LIGHT_COLOR" category="text-colors">#545860ff</color>
-  <color name="TEXT_SECONDARY_DAY" category="text-colors">#545860ff</color>
+  <color name="TEXT_SECONDARY_DAY" category="text-colors">#626c71ff</color>
   <color name="SCRIM_DAY" category="scrim-colors">#000000b3</color>
   <color name="BACKGROUND_ELEVATION_03_DARK_COLOR" category="text-colors">#243346ff</color>
   <color name="BACKGROUND_ELEVATION_02_DARK_COLOR" category="text-colors">#243346ff</color>
@@ -115,27 +117,27 @@
   <color name="LINE_NIGHT" category="line-colors">#44505fff</color>
   <color name="COLOR_SYSTEM_GREEN" category="colors">#0c838aff</color>
   <color name="BACKGROUND_ELEVATION_01_LIGHT_COLOR" category="text-colors">#ffffffff</color>
-  <color name="LINE_LIGHT_COLOR" category="colors">#c2c9cdff</color>
+  <color name="LINE_LIGHT_COLOR" category="colors">#c1c7cfff</color>
   <color name="BACKGROUND_ELEVATION_02_LIGHT_COLOR" category="text-colors">#ffffffff</color>
-  <color name="LINE_DAY" category="line-colors">#c2c9cdff</color>
+  <color name="LINE_DAY" category="line-colors">#c1c7cfff</color>
   <color name="BACKGROUND_ELEVATION_03_LIGHT_COLOR" category="text-colors">#ffffffff</color>
   <color name="BACKGROUND_TERTIARY_DARK_COLOR" category="colors">#010913ff</color>
   <color name="BACKGROUND_SECONDARY_DARK_COLOR" category="colors">#131d2bff</color>
-  <color name="BACKGROUND_ALTERNATIVE_LIGHT_COLOR" category="colors">#eff1f2ff</color>
+  <color name="BACKGROUND_ALTERNATIVE_LIGHT_COLOR" category="colors">#eff3f8ff</color>
   <color name="PRIMARY_DARK_COLOR" category="colors">#84e9ffff</color>
   <color name="COLOR_SYSTEM_RED" category="colors">#e70866ff</color>
   <color name="BACKGROUND_ALTERNATIVE_DARK_COLOR" category="colors">#131d2bff</color>
   <color name="PRIMARY_LIGHT_COLOR" category="colors">#0062e3ff</color>
   <color name="BACKGROUND_TERTIARY_LIGHT_COLOR" category="colors">#ffffffff</color>
-  <color name="BACKGROUND_SECONDARY_LIGHT_COLOR" category="colors">#eff1f2ff</color>
+  <color name="BACKGROUND_SECONDARY_LIGHT_COLOR" category="colors">#eff3f8ff</color>
   <color name="SCRIM_NIGHT" category="scrim-colors">#000000b3</color>
-  <color name="PRIVATE_INFO_BANNER_DEFAULT_DAY" category="info-banner-colors">#eff1f2ff</color>
+  <color name="PRIVATE_INFO_BANNER_DEFAULT_DAY" category="info-banner-colors">#eff3f8ff</color>
   <color name="PRIVATE_INFO_BANNER_ON_CONTRAST_DAY" category="info-banner-colors">#ffffffff</color>
   <color name="PRIVATE_INFO_BANNER_SUCCESS_DAY" category="info-banner-colors">#0c838aff</color>
   <color name="PRIVATE_INFO_BANNER_ERROR_NIGHT" category="info-banner-colors">#ff649cff</color>
   <color name="PRIVATE_INFO_BANNER_INFO_NIGHT" category="info-banner-colors">#bdc4cbff</color>
   <color name="PRIVATE_INFO_BANNER_ERROR_DAY" category="info-banner-colors">#e70866ff</color>
-  <color name="PRIVATE_INFO_BANNER_INFO_DAY" category="info-banner-colors">#545860ff</color>
+  <color name="PRIVATE_INFO_BANNER_INFO_DAY" category="info-banner-colors">#626c71ff</color>
   <color name="PRIVATE_INFO_BANNER_WARNING_NIGHT" category="info-banner-colors">#feeb87ff</color>
   <color name="PRIVATE_INFO_BANNER_WARNING_DAY" category="info-banner-colors">#f55d42ff</color>
   <color name="PRIVATE_INFO_BANNER_DEFAULT_NIGHT" category="info-banner-colors">#131d2bff</color>
@@ -144,7 +146,7 @@
   <color name="MARCOMMS_BERRY" category="marcomms-colors">#e70866ff</color>
   <color name="MARCOMMS_CHARCOAL" category="marcomms-colors">#161616ff</color>
   <color name="MARCOMMS_ORANGE" category="marcomms-colors">#ff7b59ff</color>
-  <color name="MARCOMMS_GREY_40" category="marcomms-colors">#545860ff</color>
+  <color name="MARCOMMS_GREY_40" category="marcomms-colors">#626c71ff</color>
   <color name="MARCOMMS_BLUE_BRIGHT" category="marcomms-colors">#a1eeffff</color>
   <color name="MARCOMMS_YELLOW" category="marcomms-colors">#feeb87ff</color>
   <color name="MARCOMMS_GREEN_BRIGHT" category="marcomms-colors">#93ffdeff</color>
@@ -162,9 +164,9 @@
   <color name="PRIVATE_CHIP_ON_DARK_PRESSED_STROKE_NIGHT" category="chip-colors">#054184ff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_DAY" category="chip-colors">#ffffffff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT" category="chip-colors">#054184ff</color>
-  <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_DAY" category="chip-colors">#e0e3e5ff</color>
+  <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_DAY" category="chip-colors">#e0e4e9ff</color>
   <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
-  <color name="PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY" category="chip-colors">#545860ff</color>
+  <color name="PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY" category="chip-colors">#626c71ff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT" category="chip-colors">#ffffff80</color>
   <color name="PRIVATE_MAP_PREVIOUS_SELECTION_DAY" category="map-marker-colors">#cfe4ffff</color>
   <color name="PRIVATE_MAP_CLUSTER_PIN_NIGHT" category="map-marker-colors">#ffffffff</color>
@@ -184,13 +186,13 @@
   <color name="PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_DAY" category="button-colors">#0062e3ff</color>
   <color name="PRIVATE_BUTTON_FEATURED_PRESSED_BACKGROUND_NIGHT" category="button-colors">#d1f7ffff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_NIGHT" category="button-colors">#05203cff</color>
-  <color name="PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY" category="button-colors">#c2c9cdff</color>
+  <color name="PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY" category="button-colors">#c1c7cfff</color>
   <color name="PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_DAY" category="button-colors">#0062e3ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_NIGHT" category="button-colors">#00000033</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_NIGHT" category="button-colors">#0b121dff</color>
   <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_NIGHT" category="button-colors">#ff649cff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_DAY" category="button-colors">#ffffff33</color>
-  <color name="PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY" category="button-colors">#e0e3e5ff</color>
+  <color name="PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY" category="button-colors">#e0e4e9ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_DAY" category="button-colors">#05203cff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_DAY" category="button-colors">#00000033</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_NIGHT" category="button-colors">#ffffffff</color>
@@ -203,38 +205,38 @@
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_DAY" category="button-colors">#00000033</color>
   <color name="PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_NIGHT" category="button-colors">#d1f7ffff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_DAY" category="button-colors">#010913ff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT" category="button-colors">#e0e3e5ff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT" category="button-colors">#e0e4e9ff</color>
   <color name="PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_DAY" category="button-colors">#154679ff</color>
   <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_NIGHT" category="button-colors">#243346ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_NIGHT" category="button-colors">#054184ff</color>
   <color name="PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_NIGHT" category="button-colors">#ff649cff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_NIGHT" category="button-colors">#002b5bff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY" category="button-colors">#e0e3e5ff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT" category="button-colors">#e0e3e5ff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY" category="button-colors">#e0e4e9ff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT" category="button-colors">#e0e4e9ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_DAY" category="button-colors">#05203cff</color>
-  <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY" category="button-colors">#e0e3e5ff</color>
+  <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY" category="button-colors">#e0e4e9ff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_NIGHT" category="button-colors">#ffffff80</color>
   <color name="PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_DAY" category="button-colors">#c80456ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_DAY" category="button-colors">#154679ff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY" category="button-colors">#e0e3e5ff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY" category="button-colors">#e0e4e9ff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_NIGHT" category="button-colors">#ffffffff</color>
   <color name="PRIVATE_BUTTON_DISABLED_BACKGROUND_NIGHT" category="button-colors">#0b121dff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_NIGHT" category="button-colors">#243346ff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_NIGHT" category="button-colors">#ffffff33</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_DAY" category="button-colors">#ffffff80</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT" category="button-colors">#c2c9cdff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT" category="button-colors">#c1c7cfff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_DAY" category="button-colors">#ffffffff</color>
-  <color name="PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY" category="button-colors">#e0e3e5ff</color>
+  <color name="PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY" category="button-colors">#e0e4e9ff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_DAY" category="button-colors">#243346ff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_DAY" category="button-colors">#ffffff33</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY" category="button-colors">#c2c9cdff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY" category="button-colors">#c1c7cfff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT" category="button-colors">#154679ff</color>
   <color name="PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT" category="button-colors">#84e9ffff</color>
   <color name="PRIVATE_SKELETON_SHIMMER_START_END_DAY" category="skeleton-colors">#ffffff00</color>
   <color name="PRIVATE_SKELETON_SHIMMER_START_END_NIGHT" category="skeleton-colors">#00000000</color>
   <color name="PRIVATE_SKELETON_SHIMMER_CENTER_DAY" category="skeleton-colors">#ffffff99</color>
   <color name="PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT" category="skeleton-colors">#00000033</color>
-  <color name="PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY" category="sponsored-banner-colors">#eff1f2ff</color>
+  <color name="PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY" category="sponsored-banner-colors">#eff3f8ff</color>
   <color name="PRIVATE_SPONSORED_BANNER_BACKGROUND_NIGHT" category="sponsored-banner-colors">#243346ff</color>
   <property name="ANIMATION_DURATION_XS" category="animations">50ms</property>
   <property name="ANIMATION_DURATION_SM" category="animations">200ms</property>

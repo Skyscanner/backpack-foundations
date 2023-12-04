@@ -92,7 +92,12 @@
     },
     "TEXT_ON_DARK_NIGHT": {
       "value": "{!WHITE}"
+    },
+    "TEXT_HERO_DAY": {
+      "value": "{!SKY_BLUE}"
+    },
+    "TEXT_HERO_NIGHT": {
+      "value": "{!NIGHT_GREY_10}"
     }
-
   }
 }
