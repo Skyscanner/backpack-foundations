@@ -102,7 +102,7 @@
   <color name="TEXT_PRIMARY_INVERSE_DAY" category="text-colors">#ffffffff</color>
   <color name="TEXT_DISABLED_ON_DARK_NIGHT" category="text-colors">#ffffff80</color>
   <color name="TEXT_TERTIARY_LIGHT_COLOR" category="text-colors">#545860ff</color>
-  <color name="TEXT_SECONDARY_DAY" category="text-colors">#626c71ff</color>
+  <color name="TEXT_SECONDARY_DAY" category="text-colors">#626971ff</color>
   <color name="SCRIM_DAY" category="scrim-colors">#000000b3</color>
   <color name="BACKGROUND_ELEVATION_03_DARK_COLOR" category="text-colors">#243346ff</color>
   <color name="BACKGROUND_ELEVATION_02_DARK_COLOR" category="text-colors">#243346ff</color>
@@ -137,7 +137,7 @@
   <color name="PRIVATE_INFO_BANNER_ERROR_NIGHT" category="info-banner-colors">#ff649cff</color>
   <color name="PRIVATE_INFO_BANNER_INFO_NIGHT" category="info-banner-colors">#bdc4cbff</color>
   <color name="PRIVATE_INFO_BANNER_ERROR_DAY" category="info-banner-colors">#e70866ff</color>
-  <color name="PRIVATE_INFO_BANNER_INFO_DAY" category="info-banner-colors">#626c71ff</color>
+  <color name="PRIVATE_INFO_BANNER_INFO_DAY" category="info-banner-colors">#626971ff</color>
   <color name="PRIVATE_INFO_BANNER_WARNING_NIGHT" category="info-banner-colors">#feeb87ff</color>
   <color name="PRIVATE_INFO_BANNER_WARNING_DAY" category="info-banner-colors">#f55d42ff</color>
   <color name="PRIVATE_INFO_BANNER_DEFAULT_NIGHT" category="info-banner-colors">#131d2bff</color>
@@ -146,7 +146,7 @@
   <color name="MARCOMMS_BERRY" category="marcomms-colors">#e70866ff</color>
   <color name="MARCOMMS_CHARCOAL" category="marcomms-colors">#161616ff</color>
   <color name="MARCOMMS_ORANGE" category="marcomms-colors">#ff7b59ff</color>
-  <color name="MARCOMMS_GREY_40" category="marcomms-colors">#626c71ff</color>
+  <color name="MARCOMMS_GREY_40" category="marcomms-colors">#626971ff</color>
   <color name="MARCOMMS_BLUE_BRIGHT" category="marcomms-colors">#a1eeffff</color>
   <color name="MARCOMMS_YELLOW" category="marcomms-colors">#feeb87ff</color>
   <color name="MARCOMMS_GREEN_BRIGHT" category="marcomms-colors">#93ffdeff</color>
@@ -166,7 +166,7 @@
   <color name="PRIVATE_CHIP_ON_DARK_ON_BACKGROUND_NIGHT" category="chip-colors">#054184ff</color>
   <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_DAY" category="chip-colors">#e0e4e9ff</color>
   <color name="PRIVATE_CHIP_DISABLED_BACKGROUND_NIGHT" category="chip-colors">#0b121dff</color>
-  <color name="PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY" category="chip-colors">#626c71ff</color>
+  <color name="PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY" category="chip-colors">#626971ff</color>
   <color name="PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT" category="chip-colors">#ffffff80</color>
   <color name="PRIVATE_MAP_PREVIOUS_SELECTION_DAY" category="map-marker-colors">#cfe4ffff</color>
   <color name="PRIVATE_MAP_CLUSTER_PIN_NIGHT" category="map-marker-colors">#ffffffff</color>

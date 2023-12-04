@@ -217,7 +217,7 @@
       "value": "#8E47BA"
     },
     "GREY_40": {
-      "value": "#626C71"
+      "value": "#626971"
     },
     "NIGHT_PINK": {
       "value": "#FFCADD"
@@ -1210,7 +1210,7 @@
     "TEXT_SECONDARY_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "rgb(98, 108, 113)",
+      "value": "rgb(98, 105, 113)",
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_DAY"
     },
@@ -1477,7 +1477,7 @@
     "PRIVATE_INFO_BANNER_INFO_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "rgb(98, 108, 113)",
+      "value": "rgb(98, 105, 113)",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_INFO_BANNER_INFO_DAY"
     },
@@ -1540,7 +1540,7 @@
     "MARCOMMS_GREY_40": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "rgb(98, 108, 113)",
+      "value": "rgb(98, 105, 113)",
       "originalValue": "{!GREY_40}",
       "name": "MARCOMMS_GREY_40"
     },
@@ -1680,7 +1680,7 @@
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY": {
       "type": "color",
       "category": "chip-colors",
-      "value": "rgb(98, 108, 113)",
+      "value": "rgb(98, 105, 113)",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY"
     },

@@ -651,7 +651,7 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "name": "textSecondaryDay"
     },
     {
@@ -883,7 +883,7 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "name": "privateInfoBannerInfoDay"
     },
     {
@@ -937,7 +937,7 @@
     {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "name": "marcommsGrey40"
     },
     {
@@ -1057,7 +1057,7 @@
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "name": "privateChipOnDarkOnDismissIconDay"
     },
     {
@@ -2268,7 +2268,7 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "name": "textSecondaryColor",
       "darkValue": "#bdc4cbff"
     },
@@ -2403,7 +2403,7 @@
     {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "name": "privateInfoBannerInfoColor",
       "darkValue": "#bdc4cbff"
     },
@@ -2438,7 +2438,7 @@
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "name": "privateChipOnDarkOnDismissIconColor",
       "darkValue": "#ffffff80"
     },

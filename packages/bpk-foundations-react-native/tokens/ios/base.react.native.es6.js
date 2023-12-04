@@ -120,7 +120,7 @@ export const textSecondaryLightColor = "rgb(84, 88, 96)";
 export const textPrimaryInverseDay = "rgb(255, 255, 255)";
 export const textDisabledOnDarkNight = "rgba(255, 255, 255, 0.5)";
 export const textTertiaryLightColor = "rgb(84, 88, 96)";
-export const textSecondaryDay = "rgb(98, 108, 113)";
+export const textSecondaryDay = "rgb(98, 105, 113)";
 export const scrimDay = "rgba(0, 0, 0, 0.7)";
 export const backgroundElevation03DarkColor = "rgb(36, 51, 70)";
 export const backgroundElevation02DarkColor = "rgb(36, 51, 70)";
@@ -155,7 +155,7 @@ export const privateInfoBannerSuccessDay = "rgb(12, 131, 138)";
 export const privateInfoBannerErrorNight = "rgb(255, 100, 156)";
 export const privateInfoBannerInfoNight = "rgb(189, 196, 203)";
 export const privateInfoBannerErrorDay = "rgb(231, 8, 102)";
-export const privateInfoBannerInfoDay = "rgb(98, 108, 113)";
+export const privateInfoBannerInfoDay = "rgb(98, 105, 113)";
 export const privateInfoBannerWarningNight = "rgb(254, 235, 135)";
 export const privateInfoBannerWarningDay = "rgb(245, 93, 66)";
 export const privateInfoBannerDefaultNight = "rgb(19, 29, 43)";
@@ -164,7 +164,7 @@ export const privateInfoBannerSuccessNight = "rgb(98, 241, 198)";
 export const marcommsBerry = "rgb(231, 8, 102)";
 export const marcommsCharcoal = "rgb(22, 22, 22)";
 export const marcommsOrange = "rgb(255, 123, 89)";
-export const marcommsGrey40 = "rgb(98, 108, 113)";
+export const marcommsGrey40 = "rgb(98, 105, 113)";
 export const marcommsBlueBright = "rgb(161, 238, 255)";
 export const marcommsYellow = "rgb(254, 235, 135)";
 export const marcommsGreenBright = "rgb(147, 255, 222)";
@@ -184,7 +184,7 @@ export const privateChipOnDarkOnBackgroundDay = "rgb(255, 255, 255)";
 export const privateChipOnDarkOnBackgroundNight = "rgb(5, 65, 132)";
 export const privateChipDisabledBackgroundDay = "rgb(224, 228, 233)";
 export const privateChipDisabledBackgroundNight = "rgb(11, 18, 29)";
-export const privateChipOnDarkOnDismissIconDay = "rgb(98, 108, 113)";
+export const privateChipOnDarkOnDismissIconDay = "rgb(98, 105, 113)";
 export const privateChipOnDarkOnDismissIconNight = "rgba(255, 255, 255, 0.5)";
 export const privateMapPreviousSelectionDay = "rgb(207, 228, 255)";
 export const privateMapClusterPinNight = "rgb(255, 255, 255)";
@@ -445,7 +445,7 @@ export const privateChipOnOnBackgroundNight = {
  dark: "rgb(5, 65, 132)",
 };
 export const privateChipOnOnDismissIconDay = {
- dark: "rgb(98, 108, 113)",
+ dark: "rgb(98, 105, 113)",
 };
 export const privateChipOnOnDismissIconNight = {
  dark: "rgba(255, 255, 255, 0.5)",

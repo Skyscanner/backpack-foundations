@@ -367,7 +367,7 @@
       "value": "#8E47BA"
     },
     "GREY_40": {
-      "value": "#626C71"
+      "value": "#626971"
     },
     "NIGHT_PINK": {
       "value": "#FFCADD"
@@ -2179,7 +2179,7 @@
     "TEXT_SECONDARY_LIGHT_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "deprecated": true,
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_LIGHT_COLOR"
@@ -2209,7 +2209,7 @@
     "TEXT_SECONDARY_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_DAY"
     },
@@ -2476,7 +2476,7 @@
     "PRIVATE_INFO_BANNER_INFO_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_INFO_BANNER_INFO_DAY"
     },
@@ -2539,7 +2539,7 @@
     "MARCOMMS_GREY_40": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "MARCOMMS_GREY_40"
     },
@@ -2679,7 +2679,7 @@
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY": {
       "type": "color",
       "category": "chip-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY"
     },
@@ -3689,7 +3689,7 @@
     "TEXT_SECONDARY_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_COLOR",
       "darkValue": "#bdc4cbff",
@@ -3860,7 +3860,7 @@
     "PRIVATE_INFO_BANNER_INFO_COLOR": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_INFO_BANNER_INFO_COLOR",
       "darkValue": "#bdc4cbff",
@@ -3905,7 +3905,7 @@
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_COLOR": {
       "type": "color",
       "category": "chip-colors",
-      "value": "#626c71ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_COLOR",
       "darkValue": "#ffffff80",
