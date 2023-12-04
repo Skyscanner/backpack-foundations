@@ -96,7 +96,7 @@ $bpk-color-sky-blue-shade-01: rgb(8, 78, 178);
 /// @group colors
 $bpk-color-sky-blue-shade-02: rgb(4, 39, 89);
 /// @group badge-colors
-$bpk-private-badge-background-normal-day: rgb(239, 241, 242);
+$bpk-private-badge-background-normal-day: rgb(239, 243, 248);
 /// @group badge-colors
 $bpk-private-badge-background-normal-night: rgb(36, 51, 70);
 /// @group canvas-colors
@@ -104,7 +104,7 @@ $bpk-canvas-day: rgb(255, 255, 255);
 /// @group canvas-colors
 $bpk-canvas-night: rgb(1, 9, 19);
 /// @group canvas-colors
-$bpk-canvas-contrast-day: rgb(239, 241, 242);
+$bpk-canvas-contrast-day: rgb(239, 243, 248);
 /// @group canvas-colors
 $bpk-canvas-contrast-night: rgb(1, 9, 19);
 /// @group core-colors
@@ -166,7 +166,7 @@ $bpk-surface-highlight-night: rgb(36, 51, 70);
 /// @group surface-colors
 $bpk-surface-subtle-day: rgb(227, 240, 255);
 /// @group surface-colors
-$bpk-surface-highlight-day: rgb(224, 227, 229);
+$bpk-surface-highlight-day: rgb(224, 228, 233);
 /// @group text-colors
 $bpk-text-on-dark-day: rgb(255, 255, 255);
 /// @group text-colors
@@ -178,11 +178,15 @@ $bpk-text-on-light-day: rgb(22, 22, 22);
 /// @group text-colors
 $bpk-text-link-night: rgb(132, 233, 255);
 /// @group text-colors
+$bpk-text-hero-night: rgb(1, 9, 19);
+/// @group text-colors
 $bpk-text-disabled-night: rgba(255, 255, 255, 0.2);
 /// @group text-colors
 $bpk-text-primary-dark-color: rgb(255, 255, 255);
 /// @group text-colors
 $bpk-text-link-day: rgb(0, 98, 227);
+/// @group text-colors
+$bpk-text-hero-day: rgb(0, 98, 227);
 /// @group text-colors
 $bpk-text-quaternary-dark-color: rgb(142, 142, 147);
 /// @group text-colors
@@ -218,7 +222,7 @@ $bpk-text-disabled-on-dark-night: rgba(255, 255, 255, 0.5);
 /// @group text-colors
 $bpk-text-tertiary-light-color: rgb(143, 144, 160);
 /// @group text-colors
-$bpk-text-secondary-day: rgb(84, 88, 96);
+$bpk-text-secondary-day: rgb(98, 105, 113);
 /// @group scrim-colors
 $bpk-scrim-day: rgba(0, 0, 0, 0.7);
 /// @group text-colors
@@ -252,7 +256,7 @@ $bpk-line-light-color: rgb(205, 205, 215);
 /// @group text-colors
 $bpk-background-elevation-02-light-color: rgb(255, 255, 255);
 /// @group line-colors
-$bpk-line-day: rgb(194, 201, 205);
+$bpk-line-day: rgb(193, 199, 207);
 /// @group text-colors
 $bpk-background-elevation-03-light-color: rgb(255, 255, 255);
 /// @group colors
@@ -276,7 +280,7 @@ $bpk-background-secondary-light-color: rgb(241, 242, 248);
 /// @group scrim-colors
 $bpk-scrim-night: rgba(0, 0, 0, 0.7);
 /// @group info-banner-colors
-$bpk-private-info-banner-default-day: rgb(239, 241, 242);
+$bpk-private-info-banner-default-day: rgb(239, 243, 248);
 /// @group info-banner-colors
 $bpk-private-info-banner-on-contrast-day: rgb(255, 255, 255);
 /// @group info-banner-colors
@@ -288,7 +292,7 @@ $bpk-private-info-banner-info-night: rgb(189, 196, 203);
 /// @group info-banner-colors
 $bpk-private-info-banner-error-day: rgb(231, 8, 102);
 /// @group info-banner-colors
-$bpk-private-info-banner-info-day: rgb(84, 88, 96);
+$bpk-private-info-banner-info-day: rgb(98, 105, 113);
 /// @group info-banner-colors
 $bpk-private-info-banner-warning-night: rgb(254, 235, 135);
 /// @group info-banner-colors
@@ -306,7 +310,7 @@ $bpk-marcomms-charcoal: rgb(22, 22, 22);
 /// @group marcomms-colors
 $bpk-marcomms-orange: rgb(255, 123, 89);
 /// @group marcomms-colors
-$bpk-marcomms-grey-40: rgb(84, 88, 96);
+$bpk-marcomms-grey-40: rgb(98, 105, 113);
 /// @group marcomms-colors
 $bpk-marcomms-blue-bright: rgb(161, 238, 255);
 /// @group marcomms-colors
@@ -342,11 +346,11 @@ $bpk-private-chip-on-dark-on-background-day: rgb(255, 255, 255);
 /// @group chip-colors
 $bpk-private-chip-on-dark-on-background-night: rgb(5, 65, 132);
 /// @group chip-colors
-$bpk-private-chip-disabled-background-day: rgb(224, 227, 229);
+$bpk-private-chip-disabled-background-day: rgb(224, 228, 233);
 /// @group chip-colors
 $bpk-private-chip-disabled-background-night: rgb(11, 18, 29);
 /// @group chip-colors
-$bpk-private-chip-on-dark-on-dismiss-icon-day: rgb(84, 88, 96);
+$bpk-private-chip-on-dark-on-dismiss-icon-day: rgb(98, 105, 113);
 /// @group chip-colors
 $bpk-private-chip-on-dark-on-dismiss-icon-night: rgba(255, 255, 255, 0.5);
 /// @group map-marker-colors
@@ -386,7 +390,7 @@ $bpk-private-button-featured-pressed-background-night: rgb(209, 247, 255);
 /// @group button-colors
 $bpk-private-button-primary-on-light-normal-background-night: rgb(5, 32, 60);
 /// @group button-colors
-$bpk-private-button-secondary-pressed-background-day: rgb(194, 201, 205);
+$bpk-private-button-secondary-pressed-background-day: rgb(193, 199, 207);
 /// @group button-colors
 $bpk-private-button-link-normal-foreground-day: rgb(0, 98, 227);
 /// @group button-colors
@@ -398,7 +402,7 @@ $bpk-private-button-destructive-normal-foreground-night: rgb(255, 100, 156);
 /// @group button-colors
 $bpk-private-button-link-on-dark-disabled-foreground-day: rgba(255, 255, 255, 0.2);
 /// @group button-colors
-$bpk-private-button-secondary-normal-background-day: rgb(224, 227, 229);
+$bpk-private-button-secondary-normal-background-day: rgb(224, 228, 233);
 /// @group button-colors
 $bpk-private-button-primary-on-light-normal-background-day: rgb(5, 32, 60);
 /// @group button-colors
@@ -424,7 +428,7 @@ $bpk-private-button-link-pressed-foreground-night: rgb(209, 247, 255);
 /// @group button-colors
 $bpk-private-button-secondary-on-dark-pressed-background-day: rgb(1, 9, 19);
 /// @group button-colors
-$bpk-private-button-primary-on-light-disabled-background-night: rgb(224, 227, 229);
+$bpk-private-button-primary-on-light-disabled-background-night: rgb(224, 228, 233);
 /// @group button-colors
 $bpk-private-button-link-pressed-foreground-day: rgb(21, 70, 121);
 /// @group button-colors
@@ -436,13 +440,13 @@ $bpk-private-button-destructive-pressed-background-night: rgb(255, 100, 156);
 /// @group button-colors
 $bpk-private-button-primary-pressed-background-night: rgb(0, 43, 91);
 /// @group button-colors
-$bpk-private-button-primary-on-light-disabled-background-day: rgb(224, 227, 229);
+$bpk-private-button-primary-on-light-disabled-background-day: rgb(224, 228, 233);
 /// @group button-colors
-$bpk-private-button-primary-on-dark-disabled-background-night: rgb(224, 227, 229);
+$bpk-private-button-primary-on-dark-disabled-background-night: rgb(224, 228, 233);
 /// @group button-colors
 $bpk-private-button-primary-normal-background-day: rgb(5, 32, 60);
 /// @group button-colors
-$bpk-private-button-destructive-normal-background-day: rgb(224, 227, 229);
+$bpk-private-button-destructive-normal-background-day: rgb(224, 228, 233);
 /// @group button-colors
 $bpk-private-button-link-on-dark-pressed-foreground-night: rgba(255, 255, 255, 0.5);
 /// @group button-colors
@@ -450,7 +454,7 @@ $bpk-private-button-destructive-pressed-background-day: rgb(200, 4, 86);
 /// @group button-colors
 $bpk-private-button-primary-pressed-background-day: rgb(21, 70, 121);
 /// @group button-colors
-$bpk-private-button-primary-on-dark-disabled-background-day: rgb(224, 227, 229);
+$bpk-private-button-primary-on-dark-disabled-background-day: rgb(224, 228, 233);
 /// @group button-colors
 $bpk-private-button-link-on-dark-normal-foreground-night: rgb(255, 255, 255);
 /// @group button-colors
@@ -462,17 +466,17 @@ $bpk-private-button-secondary-on-dark-disabled-foreground-night: rgba(255, 255, 
 /// @group button-colors
 $bpk-private-button-link-on-dark-pressed-foreground-day: rgba(255, 255, 255, 0.5);
 /// @group button-colors
-$bpk-private-button-primary-on-dark-pressed-background-night: rgb(194, 201, 205);
+$bpk-private-button-primary-on-dark-pressed-background-night: rgb(193, 199, 207);
 /// @group button-colors
 $bpk-private-button-link-on-dark-normal-foreground-day: rgb(255, 255, 255);
 /// @group button-colors
-$bpk-private-button-disabled-background-day: rgb(224, 227, 229);
+$bpk-private-button-disabled-background-day: rgb(224, 228, 233);
 /// @group button-colors
 $bpk-private-button-secondary-on-dark-normal-background-day: rgb(36, 51, 70);
 /// @group button-colors
 $bpk-private-button-secondary-on-dark-disabled-foreground-day: rgba(255, 255, 255, 0.2);
 /// @group button-colors
-$bpk-private-button-primary-on-dark-pressed-background-day: rgb(194, 201, 205);
+$bpk-private-button-primary-on-dark-pressed-background-day: rgb(193, 199, 207);
 /// @group button-colors
 $bpk-private-button-primary-on-light-pressed-background-night: rgb(21, 70, 121);
 /// @group button-colors
@@ -486,7 +490,7 @@ $bpk-private-skeleton-shimmer-center-day: rgba(255, 255, 255, 0.6);
 /// @group skeleton-colors
 $bpk-private-skeleton-shimmer-center-night: rgba(0, 0, 0, 0.2);
 /// @group sponsored-banner-colors
-$bpk-private-sponsored-banner-background-day: rgb(239, 241, 242);
+$bpk-private-sponsored-banner-background-day: rgb(239, 243, 248);
 /// @group sponsored-banner-colors
 $bpk-private-sponsored-banner-background-night: rgb(36, 51, 70);
 /// @group animations
@@ -586,7 +590,7 @@ $bpk-flare-corner-radius: 1.3125rem;
 /// @group forms
 $bpk-input-large-height: 3rem;
 /// @group forms
-$bpk-input-border: solid .0625rem #C2C9CD;
+$bpk-input-border: solid .0625rem #C1C7CF;
 /// @group forms
 $bpk-select-border-radius: .25rem;
 /// @group forms
@@ -598,7 +602,7 @@ $bpk-label-disabled-color: rgba(0, 0, 0, 0.2);
 /// @group forms
 $bpk-input-border-radius: .25rem;
 /// @group forms
-$bpk-select-disabled-border-color: rgb(224, 227, 229);
+$bpk-select-disabled-border-color: rgb(224, 228, 233);
 /// @group forms
 $bpk-input-disabled-color: rgba(0, 0, 0, 0.2);
 /// @group forms
@@ -612,7 +616,7 @@ $bpk-form-validation-color: rgb(231, 8, 102);
 /// @group forms
 $bpk-input-height: 2.25rem;
 /// @group forms
-$bpk-input-disabled-border-color: rgb(239, 241, 242);
+$bpk-input-disabled-border-color: rgb(239, 243, 248);
 /// @group horizontal-nav
 $bpk-horizontal-nav-bar-selected-color: rgb(0, 98, 227);
 /// @group icons
@@ -632,9 +636,9 @@ $bpk-modal-wide-max-width: 64rem;
 /// @group modals
 $bpk-modal-content-padding: 1rem;
 /// @group notifications
-$bpk-banner-alert-header-expandable-hover-background-color: rgb(239, 241, 242);
+$bpk-banner-alert-header-expandable-hover-background-color: rgb(239, 243, 248);
 /// @group notifications
-$bpk-banner-alert-header-expandable-active-background-color: rgb(239, 241, 242);
+$bpk-banner-alert-header-expandable-active-background-color: rgb(239, 243, 248);
 /// @group notifications
 $bpk-banner-alert-primary-color: rgb(0, 98, 227);
 /// @group notifications
@@ -644,9 +648,9 @@ $bpk-banner-alert-warn-color: rgb(245, 93, 66);
 /// @group notifications
 $bpk-banner-alert-error-color: rgb(231, 8, 102);
 /// @group notifications
-$bpk-banner-alert-neutral-color: rgb(194, 201, 205);
+$bpk-banner-alert-neutral-color: rgb(193, 199, 207);
 /// @group panels
-$bpk-panel-border-color: rgb(194, 201, 205);
+$bpk-panel-border-color: rgb(193, 199, 207);
 /// @group slider-colors
 $bpk-private-slider-selected-day: rgb(21, 70, 121);
 /// @group spacings

@@ -367,13 +367,13 @@
       "value": "#8E47BA"
     },
     "GREY_40": {
-      "value": "#545860"
+      "value": "#626971"
     },
     "NIGHT_PINK": {
       "value": "#FFCADD"
     },
     "GREY_30": {
-      "value": "#C2C9CD"
+      "value": "#C1C7CF"
     },
     "GREEN_SPOT": {
       "value": "#0C838A"
@@ -385,7 +385,7 @@
       "value": "#F55D42"
     },
     "GREY_20": {
-      "value": "#E0E3E5"
+      "value": "#E0E4E9"
     },
     "BLACK_ALPHA_20": {
       "value": "#00000033"
@@ -397,7 +397,7 @@
       "value": "#E0E3E5"
     },
     "GREY_10": {
-      "value": "#EFF1F2"
+      "value": "#EFF3F8"
     },
     "BLACK": {
       "value": "#010913"
@@ -1760,7 +1760,7 @@
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
       "type": "color",
       "category": "badge-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY"
     },
@@ -1788,7 +1788,7 @@
     "CANVAS_CONTRAST_DAY": {
       "type": "color",
       "category": "canvas-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
       "name": "CANVAS_CONTRAST_DAY"
     },
@@ -2005,7 +2005,7 @@
     "SURFACE_HIGHLIGHT_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "SURFACE_HIGHLIGHT_DAY"
     },
@@ -2044,6 +2044,13 @@
       "originalValue": "{!NIGHT_BLUE}",
       "name": "TEXT_LINK_NIGHT"
     },
+    "TEXT_HERO_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#010913ff",
+      "originalValue": "{!NIGHT_GREY_10}",
+      "name": "TEXT_HERO_NIGHT"
+    },
     "TEXT_DISABLED_NIGHT": {
       "type": "color",
       "category": "text-colors",
@@ -2065,6 +2072,13 @@
       "value": "#0062e3ff",
       "originalValue": "{!SKY_BLUE}",
       "name": "TEXT_LINK_DAY"
+    },
+    "TEXT_HERO_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#0062e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "TEXT_HERO_DAY"
     },
     "TEXT_QUATERNARY_DARK_COLOR": {
       "type": "color",
@@ -2165,7 +2179,7 @@
     "TEXT_SECONDARY_LIGHT_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "#545860ff",
+      "value": "#626971ff",
       "deprecated": true,
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_LIGHT_COLOR"
@@ -2195,7 +2209,7 @@
     "TEXT_SECONDARY_DAY": {
       "type": "color",
       "category": "text-colors",
-      "value": "#545860ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_DAY"
     },
@@ -2310,7 +2324,7 @@
     "LINE_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "deprecated": true,
       "originalValue": "{!GREY_30}",
       "name": "LINE_LIGHT_COLOR"
@@ -2326,7 +2340,7 @@
     "LINE_DAY": {
       "type": "color",
       "category": "line-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "originalValue": "{!GREY_30}",
       "name": "LINE_DAY"
     },
@@ -2357,7 +2371,7 @@
     "BACKGROUND_ALTERNATIVE_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "deprecated": true,
       "originalValue": "{!GREY_10}",
       "name": "BACKGROUND_ALTERNATIVE_LIGHT_COLOR"
@@ -2405,7 +2419,7 @@
     "BACKGROUND_SECONDARY_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "deprecated": true,
       "originalValue": "{!GREY_10}",
       "name": "BACKGROUND_SECONDARY_LIGHT_COLOR"
@@ -2420,7 +2434,7 @@
     "PRIVATE_INFO_BANNER_DEFAULT_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_INFO_BANNER_DEFAULT_DAY"
     },
@@ -2462,7 +2476,7 @@
     "PRIVATE_INFO_BANNER_INFO_DAY": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#545860ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_INFO_BANNER_INFO_DAY"
     },
@@ -2525,7 +2539,7 @@
     "MARCOMMS_GREY_40": {
       "type": "color",
       "category": "marcomms-colors",
-      "value": "#545860ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "MARCOMMS_GREY_40"
     },
@@ -2651,7 +2665,7 @@
     "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "chip-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_DAY"
     },
@@ -2665,7 +2679,7 @@
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY": {
       "type": "color",
       "category": "chip-colors",
-      "value": "#545860ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_DAY"
     },
@@ -2805,7 +2819,7 @@
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "originalValue": "{!GREY_30}",
       "name": "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY"
     },
@@ -2847,7 +2861,7 @@
     "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_DAY"
     },
@@ -2938,7 +2952,7 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT"
     },
@@ -2980,14 +2994,14 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT"
     },
@@ -3001,7 +3015,7 @@
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY"
     },
@@ -3029,7 +3043,7 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY"
     },
@@ -3071,7 +3085,7 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "originalValue": "{!GREY_30}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT"
     },
@@ -3085,7 +3099,7 @@
     "PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY"
     },
@@ -3106,7 +3120,7 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "originalValue": "{!GREY_30}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY"
     },
@@ -3155,7 +3169,7 @@
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY": {
       "type": "color",
       "category": "sponsored-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY"
     },
@@ -3421,7 +3435,7 @@
     "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR": {
       "type": "color",
       "category": "badge-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR",
       "darkValue": "#243346ff",
@@ -3439,7 +3453,7 @@
     "CANVAS_CONTRAST_COLOR": {
       "type": "color",
       "category": "canvas-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
       "name": "CANVAS_CONTRAST_COLOR",
       "darkValue": "#010913ff",
@@ -3574,7 +3588,7 @@
     "SURFACE_HIGHLIGHT_COLOR": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "SURFACE_HIGHLIGHT_COLOR",
       "darkValue": "#243346ff",
@@ -3615,6 +3629,15 @@
       "name": "TEXT_LINK_COLOR",
       "darkValue": "#84e9ffff",
       "originalDarkValue": "{!NIGHT_BLUE}"
+    },
+    "TEXT_HERO_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#0062e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "TEXT_HERO_COLOR",
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     "TEXT_DISABLED_COLOR": {
       "type": "color",
@@ -3666,7 +3689,7 @@
     "TEXT_SECONDARY_COLOR": {
       "type": "color",
       "category": "text-colors",
-      "value": "#545860ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_COLOR",
       "darkValue": "#bdc4cbff",
@@ -3722,7 +3745,7 @@
     "LINE_COLOR": {
       "type": "color",
       "category": "line-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "originalValue": "{!GREY_30}",
       "name": "LINE_COLOR",
       "darkValue": "#44505fff",
@@ -3771,7 +3794,7 @@
     "BACKGROUND_SECONDARY_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "deprecated": true,
       "originalValue": "{!GREY_10}",
       "name": "BACKGROUND_SECONDARY_COLOR",
@@ -3781,7 +3804,7 @@
     "BACKGROUND_ALTERNATIVE_COLOR": {
       "type": "color",
       "category": "colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "deprecated": true,
       "originalValue": "{!GREY_10}",
       "name": "BACKGROUND_ALTERNATIVE_COLOR",
@@ -3801,7 +3824,7 @@
     "PRIVATE_INFO_BANNER_DEFAULT_COLOR": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_INFO_BANNER_DEFAULT_COLOR",
       "darkValue": "#131d2bff",
@@ -3837,7 +3860,7 @@
     "PRIVATE_INFO_BANNER_INFO_COLOR": {
       "type": "color",
       "category": "info-banner-colors",
-      "value": "#545860ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_INFO_BANNER_INFO_COLOR",
       "darkValue": "#bdc4cbff",
@@ -3873,7 +3896,7 @@
     "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "chip-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_CHIP_DISABLED_BACKGROUND_COLOR",
       "darkValue": "#0b121dff",
@@ -3882,7 +3905,7 @@
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_COLOR": {
       "type": "color",
       "category": "chip-colors",
-      "value": "#545860ff",
+      "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_COLOR",
       "darkValue": "#ffffff80",
@@ -3936,7 +3959,7 @@
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "originalValue": "{!GREY_30}",
       "name": "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_COLOR",
       "darkValue": "#010913ff",
@@ -3963,7 +3986,7 @@
     "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_SECONDARY_NORMAL_BACKGROUND_COLOR",
       "darkValue": "#243346ff",
@@ -4071,16 +4094,16 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_COLOR",
-      "darkValue": "#e0e3e5ff",
+      "darkValue": "#e0e4e9ff",
       "originalDarkValue": "{!GREY_20}"
     },
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_COLOR",
       "darkValue": "#243346ff",
@@ -4116,10 +4139,10 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_COLOR",
-      "darkValue": "#e0e3e5ff",
+      "darkValue": "#e0e4e9ff",
       "originalDarkValue": "{!GREY_20}"
     },
     "PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_COLOR": {
@@ -4143,7 +4166,7 @@
     "PRIVATE_BUTTON_DISABLED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e3e5ff",
+      "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_DISABLED_BACKGROUND_COLOR",
       "darkValue": "#0b121dff",
@@ -4170,10 +4193,10 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#c2c9cdff",
+      "value": "#c1c7cfff",
       "originalValue": "{!GREY_30}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_COLOR",
-      "darkValue": "#c2c9cdff",
+      "darkValue": "#c1c7cfff",
       "originalDarkValue": "{!GREY_30}"
     },
     "PRIVATE_SKELETON_SHIMMER_START_END_COLOR": {
@@ -4197,7 +4220,7 @@
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR": {
       "type": "color",
       "category": "sponsored-banner-colors",
-      "value": "#eff1f2ff",
+      "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
       "name": "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR",
       "darkValue": "#243346ff",
@@ -4423,9 +4446,11 @@
     "TEXT_DISABLED_ON_DARK_DAY",
     "TEXT_ON_LIGHT_DAY",
     "TEXT_LINK_NIGHT",
+    "TEXT_HERO_NIGHT",
     "TEXT_DISABLED_NIGHT",
     "TEXT_PRIMARY_DARK_COLOR",
     "TEXT_LINK_DAY",
+    "TEXT_HERO_DAY",
     "TEXT_QUATERNARY_DARK_COLOR",
     "TEXT_PRIMARY_NIGHT",
     "TEXT_QUATERNARY_LIGHT_COLOR",
@@ -4637,6 +4662,7 @@
     "TEXT_ON_LIGHT_COLOR",
     "TEXT_DISABLED_ON_DARK_COLOR",
     "TEXT_LINK_COLOR",
+    "TEXT_HERO_COLOR",
     "TEXT_DISABLED_COLOR",
     "TEXT_PRIMARY_COLOR",
     "TEXT_QUATERNARY_COLOR",
