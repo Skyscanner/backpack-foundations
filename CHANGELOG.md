@@ -1,3 +1,14 @@
+# 2023-12-05
+
+**Changed:**
+
+`@skyscanner/bpk-foundations-common: 6.7.0 => 6.8.0` </br>
+`@skyscanner/bpk-foundations-web: 17.6.0 => 17.7.0` </br>
+`@skyscanner/bpk-foundations-android: 7.7.0 => 7.8.0` </br>
+`@skyscanner/bpk-foundations-ios: 6.7.0 => 6.8.0` </br>
+  - Minor tweaks to Gray colours
+  - Added new `Text Hero` semantic token.
+
 # 2023-11-27
 
 **Added:**
