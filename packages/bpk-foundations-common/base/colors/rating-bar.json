@@ -1,0 +1,21 @@
+{
+  "imports": ["./aliases.json"],
+  "global": {
+    "type": "color",
+    "category": "rating-bar-colors"
+  },
+  "props": {
+    "PRIVATE_BAR_TRACK_DEFAULT_DAY": {
+      "value": "{!GREY_20}"
+    },
+    "PRIVATE_BAR_TRACK_DEFAULT_NIGHT": {
+      "value": "{!NIGHT_GREY_25}"
+    },
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_DAY": {
+      "value": "{!WHITE}"
+    },
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_NIGHT": {
+      "value": "{!NIGHT_GREY_25}"
+    },
+  }
+}

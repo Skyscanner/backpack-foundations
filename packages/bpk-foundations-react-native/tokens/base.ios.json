@@ -1452,6 +1452,30 @@
     },
     {
       "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#e0e4e9ff",
+      "name": "privateBarTrackDefaultDay"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#243346ff",
+      "name": "privateBarTrackDefaultNight"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#ffffffff",
+      "name": "privateBarTrackOnContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#243346ff",
+      "name": "privateBarTrackOnContrastNight"
+    },
+    {
+      "type": "color",
       "category": "skeleton-colors",
       "value": "#ffffff00",
       "name": "privateSkeletonShimmerStartEndDay"
@@ -2665,6 +2689,20 @@
       "value": "#c1c7cfff",
       "name": "privateButtonPrimaryOnDarkPressedBackgroundColor",
       "darkValue": "#c1c7cfff"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#e0e4e9ff",
+      "name": "privateBarTrackDefaultColor",
+      "darkValue": "#243346ff"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#ffffffff",
+      "name": "privateBarTrackOnContrastColor",
+      "darkValue": "#243346ff"
     },
     {
       "type": "color",

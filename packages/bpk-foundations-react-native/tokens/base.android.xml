@@ -232,6 +232,10 @@
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY" category="button-colors">#c1c7cfff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT" category="button-colors">#154679ff</color>
   <color name="PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT" category="button-colors">#84e9ffff</color>
+  <color name="PRIVATE_BAR_TRACK_DEFAULT_DAY" category="rating-bar-colors">#e0e4e9ff</color>
+  <color name="PRIVATE_BAR_TRACK_DEFAULT_NIGHT" category="rating-bar-colors">#243346ff</color>
+  <color name="PRIVATE_BAR_TRACK_ON_CONTRAST_DAY" category="rating-bar-colors">#ffffffff</color>
+  <color name="PRIVATE_BAR_TRACK_ON_CONTRAST_NIGHT" category="rating-bar-colors">#243346ff</color>
   <color name="PRIVATE_SKELETON_SHIMMER_START_END_DAY" category="skeleton-colors">#ffffff00</color>
   <color name="PRIVATE_SKELETON_SHIMMER_START_END_NIGHT" category="skeleton-colors">#00000000</color>
   <color name="PRIVATE_SKELETON_SHIMMER_CENTER_DAY" category="skeleton-colors">#ffffff99</color>

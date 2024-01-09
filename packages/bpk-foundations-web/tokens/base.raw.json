@@ -2139,6 +2139,34 @@
       "originalValue": "{!NIGHT_BLUE}",
       "name": "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT"
     },
+    "PRIVATE_BAR_TRACK_DEFAULT_DAY": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "rgb(224, 228, 233)",
+      "originalValue": "{!GREY_20}",
+      "name": "PRIVATE_BAR_TRACK_DEFAULT_DAY"
+    },
+    "PRIVATE_BAR_TRACK_DEFAULT_NIGHT": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "rgb(36, 51, 70)",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "PRIVATE_BAR_TRACK_DEFAULT_NIGHT"
+    },
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_DAY": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_BAR_TRACK_ON_CONTRAST_DAY"
+    },
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "rgb(36, 51, 70)",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "PRIVATE_BAR_TRACK_ON_CONTRAST_NIGHT"
+    },
     "PRIVATE_SKELETON_SHIMMER_START_END_DAY": {
       "type": "color",
       "category": "skeleton-colors",
