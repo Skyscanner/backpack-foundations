@@ -1,3 +1,15 @@
+# 2024-01-10
+
+**Added:**
+
+`@skyscanner/bpk-foundations-common: 6.8.0 => 6.9.0`
+`@skyscanner/bpk-foundations-android: 7.8.0 => 7.9.0`
+`@skyscanner/bpk-foundations-ios: 6.8.0 => 6.9.0`
+`@skyscanner/bpk-foundations-react-native: 4.8.0 => 4.9.0`
+`@skyscanner/bpk-foundations-web: 17.7.0 => 17.8.0`
+	- Added private rating bar colour tokens
+
+
 # 2023-12-05
 
 **Changed:**
@@ -107,7 +119,7 @@
 
 - `@skyscanner/bpk-foundations-web`: 16.1.0 => 17.0.0
   - Remove `spacing v2` and `spacing` tokens.
-  - Remove `bpk-heading-content-margin-top` token. 
+  - Remove `bpk-heading-content-margin-top` token.
   - Spacing functions now only return the newer spacing values.
 
 - `bpk-mixins`: 41.2.1 => 42.0.0
@@ -223,7 +235,7 @@ Removing deprecated border tokens and mixins.
         - `bpk-text-{size}-font-size`, `bpk-text-{size}-font-weight`, `bpk-text-{size}-line-height`, `bpk-text-{size}-letter-spacing`, where *size* is one of: `xs`, `sm`, `base`, `lg`, `xl`, `xxl`, `xxxl`, `xxxxl`, `xxxxxl`
         - `bpk-h-{size}-font-size`, `bpk-h-{size}-font-weight`, `bpk-h-{size}-line-height`, where *size* is one of: `1`, `2`, `3`, `4`, `5`, `6`
         - `bpk-p-*`, `bpk-list-*`, `bpk-link-*`
-        
+
         **Important:** You should not use typography tokens directly. Instead, use one of the supported mixins: `hero-1`, `hero-2`, `hero-3`, `hero-4`, `hero-5`, `heading-1`, `heading-2`, `heading-3`, `heading-4`, `heading-5`, `subheading`, `body-longform`, `body-default`, `footnote`, `caption`, `label-1`, `label-2`, `label-3`
 
 </br> `bpk-mixins`: 39.1.2 => 40.0.0 </br>
