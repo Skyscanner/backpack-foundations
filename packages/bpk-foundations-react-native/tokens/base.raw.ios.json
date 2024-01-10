@@ -2068,6 +2068,34 @@
       "originalValue": "{!NIGHT_BLUE}",
       "name": "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT"
     },
+    "PRIVATE_BAR_TRACK_DEFAULT_DAY": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#e0e4e9ff",
+      "originalValue": "{!GREY_20}",
+      "name": "PRIVATE_BAR_TRACK_DEFAULT_DAY"
+    },
+    "PRIVATE_BAR_TRACK_DEFAULT_NIGHT": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "PRIVATE_BAR_TRACK_DEFAULT_NIGHT"
+    },
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_DAY": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_BAR_TRACK_ON_CONTRAST_DAY"
+    },
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "PRIVATE_BAR_TRACK_ON_CONTRAST_NIGHT"
+    },
     "PRIVATE_SKELETON_SHIMMER_START_END_DAY": {
       "type": "color",
       "category": "skeleton-colors",
@@ -3555,6 +3583,24 @@
       "darkValue": "#c1c7cfff",
       "originalDarkValue": "{!GREY_30}"
     },
+    "PRIVATE_BAR_TRACK_DEFAULT_COLOR": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#e0e4e9ff",
+      "originalValue": "{!GREY_20}",
+      "name": "PRIVATE_BAR_TRACK_DEFAULT_COLOR",
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
+    },
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_COLOR": {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_BAR_TRACK_ON_CONTRAST_COLOR",
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
+    },
     "PRIVATE_SKELETON_SHIMMER_START_END_COLOR": {
       "type": "color",
       "category": "skeleton-colors",
@@ -3816,6 +3862,10 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY",
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT",
     "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT",
+    "PRIVATE_BAR_TRACK_DEFAULT_DAY",
+    "PRIVATE_BAR_TRACK_DEFAULT_NIGHT",
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_DAY",
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_NIGHT",
     "PRIVATE_SKELETON_SHIMMER_START_END_DAY",
     "PRIVATE_SKELETON_SHIMMER_START_END_NIGHT",
     "PRIVATE_SKELETON_SHIMMER_CENTER_DAY",
@@ -4003,6 +4053,8 @@
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_COLOR",
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_COLOR",
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_COLOR",
+    "PRIVATE_BAR_TRACK_DEFAULT_COLOR",
+    "PRIVATE_BAR_TRACK_ON_CONTRAST_COLOR",
     "PRIVATE_SKELETON_SHIMMER_START_END_COLOR",
     "PRIVATE_SKELETON_SHIMMER_CENTER_COLOR",
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR"

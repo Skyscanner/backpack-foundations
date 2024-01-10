@@ -481,6 +481,14 @@ $bpk-private-button-primary-on-dark-pressed-background-day: rgb(193, 199, 207) !
 $bpk-private-button-primary-on-light-pressed-background-night: rgb(21, 70, 121) !default;
 /// @group button-colors
 $bpk-private-button-featured-normal-background-night: rgb(132, 233, 255) !default;
+/// @group rating-bar-colors
+$bpk-private-bar-track-default-day: rgb(224, 228, 233) !default;
+/// @group rating-bar-colors
+$bpk-private-bar-track-default-night: rgb(36, 51, 70) !default;
+/// @group rating-bar-colors
+$bpk-private-bar-track-on-contrast-day: rgb(255, 255, 255) !default;
+/// @group rating-bar-colors
+$bpk-private-bar-track-on-contrast-night: rgb(36, 51, 70) !default;
 /// @group skeleton-colors
 $bpk-private-skeleton-shimmer-start-end-day: rgba(255, 255, 255, 0) !default;
 /// @group skeleton-colors

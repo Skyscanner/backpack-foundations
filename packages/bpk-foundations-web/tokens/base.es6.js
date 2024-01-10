@@ -249,6 +249,10 @@ export const privateButtonSecondaryOnDarkDisabledForegroundDay = "rgba(255, 255,
 export const privateButtonPrimaryOnDarkPressedBackgroundDay = "rgb(193, 199, 207)";
 export const privateButtonPrimaryOnLightPressedBackgroundNight = "rgb(21, 70, 121)";
 export const privateButtonFeaturedNormalBackgroundNight = "rgb(132, 233, 255)";
+export const privateBarTrackDefaultDay = "rgb(224, 228, 233)";
+export const privateBarTrackDefaultNight = "rgb(36, 51, 70)";
+export const privateBarTrackOnContrastDay = "rgb(255, 255, 255)";
+export const privateBarTrackOnContrastNight = "rgb(36, 51, 70)";
 export const privateSkeletonShimmerStartEndDay = "rgba(255, 255, 255, 0)";
 export const privateSkeletonShimmerStartEndNight = "rgba(0, 0, 0, 0)";
 export const privateSkeletonShimmerCenterDay = "rgba(255, 255, 255, 0.6)";
@@ -686,6 +690,12 @@ borderRadiusSm,
 borderRadiusMd,
 borderRadiusLg,
 borderRadiusXl,
+};
+export const ratingBarColors = {
+privateBarTrackDefaultDay,
+privateBarTrackDefaultNight,
+privateBarTrackOnContrastDay,
+privateBarTrackOnContrastNight,
 };
 export const scrimColors = {
 scrimDay,

@@ -2709,6 +2709,34 @@
     },
     {
       "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#e0e4e9ff",
+      "originalValue": "{!GREY_20}",
+      "name": "privateBarTrackDefaultDay"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "privateBarTrackDefaultNight"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "privateBarTrackOnContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#243346ff",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "privateBarTrackOnContrastNight"
+    },
+    {
+      "type": "color",
       "category": "skeleton-colors",
       "value": "#ffffff00",
       "originalValue": "#FFFFFF00",
@@ -3971,6 +3999,24 @@
       "name": "privateButtonPrimaryOnDarkPressedBackgroundColor",
       "darkValue": "#c1c7cfff",
       "originalDarkValue": "{!GREY_30}"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#e0e4e9ff",
+      "originalValue": "{!GREY_20}",
+      "name": "privateBarTrackDefaultColor",
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
+    },
+    {
+      "type": "color",
+      "category": "rating-bar-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "privateBarTrackOnContrastColor",
+      "darkValue": "#243346ff",
+      "originalDarkValue": "{!NIGHT_GREY_25}"
     },
     {
       "type": "color",
