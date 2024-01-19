@@ -20,17 +20,17 @@ import path from 'path';
 
 import del from 'del';
 import gulp from 'gulp';
-import theo from 'theo';
+import jsonLint from 'gulp-jsonlint';
 import gulpTheo from 'gulp-theo';
 import { flatten } from 'lodash';
 import gulpMerge from 'merge2';
-import jsonLint from 'gulp-jsonlint';
+import theo from 'theo';
 
-import bpkEs6Js from './formatters/bpk.es6.js';
 import bpkCommonJs from './formatters/bpk.common.js';
+import bpkEs6Js from './formatters/bpk.es6.js';
 
-import bpkScss from './formatters/bpk.scss';
 import bpkDefaultScss from './formatters/bpk.default.scss';
+import bpkScss from './formatters/bpk.scss';
 
 const RAW_FORMATS = {
   web: ['raw.json'],

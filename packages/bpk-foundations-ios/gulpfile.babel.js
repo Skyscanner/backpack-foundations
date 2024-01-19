@@ -21,11 +21,11 @@ import path from 'path';
 
 import del from 'del';
 import gulp from 'gulp';
-import theo from 'theo';
+import jsonLint from 'gulp-jsonlint';
 import gulpTheo from 'gulp-theo';
 import { flatten } from 'lodash';
 import gulpMerge from 'merge2';
-import jsonLint from 'gulp-jsonlint';
+import theo from 'theo';
 
 import transformDarkValues from '../../utils/transformDarkValues';
 

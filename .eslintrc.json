@@ -1,12 +1,9 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "extends": [
-    "@skyscanner/eslint-config-skyscanner",
-    "plugin:flowtype/recommended"
+    "@skyscanner/eslint-config-skyscanner"
   ],
-  "plugins": [
-    "flowtype"
-  ],
+  "plugins": [],
   "settings": {
     "import/resolver": {
       "node": {
