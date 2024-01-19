@@ -64,7 +64,7 @@
     "@babel/register": "^7.23.7",
     "@skyscanner/stylelint-config-skyscanner": "^6.0.0",
     "@storybook/addon-a11y": "^6.5.14",
-    "@storybook/addon-viewport": "^6.5.14",
+    "@storybook/addon-viewport": "^7.6.10",
     "@storybook/builder-webpack4": "^6.5.15",
     "@storybook/html": "^6.5.15",
     "@storybook/manager-webpack4": "^6.5.15",
