@@ -20,8 +20,8 @@
 
 @mixin bpk-caption {
   font-size: $bpk-font-size-xs;
-  line-height: $bpk-line-height-xs;
   font-weight: $bpk-font-weight-book;
+  line-height: $bpk-line-height-xs;
 }
 
 @mixin bpk-border-sm($color) {
