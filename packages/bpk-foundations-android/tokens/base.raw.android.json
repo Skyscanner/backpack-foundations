@@ -171,6 +171,9 @@
     "SKY_GRAY": {
       "value": "#161616"
     },
+    "NIGHT_SKY_85": {
+      "value": "#024DAF"
+    },
     "PINK_MUTED": {
       "value": "#FFE9F9"
     },
@@ -308,6 +311,9 @@
     },
     "NIGHT_GREY_40": {
       "value": "#BDC4CB"
+    },
+    "WHITE_ALPHA_10": {
+      "value": "#FFFFFF1A"
     },
     "NIGHT_GREY_30": {
       "value": "#44505F"
@@ -2812,8 +2818,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#05203cff",
-      "originalValue": "{!DARK_SKY}",
+      "value": "#024dafff",
+      "originalValue": "{!NIGHT_SKY_85}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY": {
@@ -2833,8 +2839,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#00000033",
-      "originalValue": "{!BLACK_ALPHA_20}",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
@@ -2896,8 +2902,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#00000033",
-      "originalValue": "{!BLACK_ALPHA_20}",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_DAY": {
@@ -2917,8 +2923,8 @@
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#c80456ff",
-      "originalValue": "{!BERRY_75}",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_DAY": {
@@ -2952,15 +2958,15 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e4e9ff",
-      "originalValue": "{!GREY_20}",
+      "value": "#0b121dff",
+      "originalValue": "{!NIGHT_GREY_00}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#154679ff",
-      "originalValue": "{!DARK_SKY_85}",
+      "value": "#024dafff",
+      "originalValue": "{!NIGHT_SKY_85}",
       "name": "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_DAY"
     },
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_NIGHT": {
@@ -2973,8 +2979,8 @@
     "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#054184ff",
-      "originalValue": "{!NIGHT_SKY}",
+      "value": "#024dafff",
+      "originalValue": "{!NIGHT_SKY_85}",
       "name": "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_NIGHT": {
@@ -2987,8 +2993,8 @@
     "PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#002b5bff",
-      "originalValue": "{!NIGHT_BLUE_100}",
+      "value": "#054184ff",
+      "originalValue": "{!NIGHT_SKY}",
       "name": "PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY": {
@@ -3001,8 +3007,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e4e9ff",
-      "originalValue": "{!GREY_20}",
+      "value": "#0b121dff",
+      "originalValue": "{!NIGHT_GREY_00}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_DAY": {
@@ -3029,8 +3035,8 @@
     "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#c80456ff",
-      "originalValue": "{!BERRY_75}",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_DAY": {
@@ -3064,8 +3070,8 @@
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#243346ff",
-      "originalValue": "{!NIGHT_GREY_25}",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
       "name": "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_NIGHT": {
@@ -3106,8 +3112,8 @@
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_DAY": {
       "type": "color",
       "category": "button-colors",
-      "value": "#243346ff",
-      "originalValue": "{!NIGHT_GREY_25}",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
       "name": "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_DAY"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_DAY": {
@@ -3127,8 +3133,8 @@
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT": {
       "type": "color",
       "category": "button-colors",
-      "value": "#154679ff",
-      "originalValue": "{!DARK_SKY_85}",
+      "value": "#054184ff",
+      "originalValue": "{!NIGHT_SKY}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT"
     },
     "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT": {
@@ -4026,8 +4032,8 @@
       "value": "#154679ff",
       "originalValue": "{!DARK_SKY_85}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_COLOR",
-      "darkValue": "#154679ff",
-      "originalDarkValue": "{!DARK_SKY_85}"
+      "darkValue": "#054184ff",
+      "originalDarkValue": "{!NIGHT_SKY}"
     },
     "PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_COLOR": {
       "type": "color",
@@ -4053,8 +4059,8 @@
       "value": "#05203cff",
       "originalValue": "{!DARK_SKY}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_COLOR",
-      "darkValue": "#05203cff",
-      "originalDarkValue": "{!DARK_SKY}"
+      "darkValue": "#024dafff",
+      "originalDarkValue": "{!NIGHT_SKY_85}"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_COLOR": {
       "type": "color",
@@ -4062,8 +4068,8 @@
       "value": "#00000033",
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_COLOR",
-      "darkValue": "#00000033",
-      "originalDarkValue": "{!BLACK_ALPHA_20}"
+      "darkValue": "#ffffff33",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_COLOR": {
       "type": "color",
@@ -4077,8 +4083,8 @@
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#c80456ff",
-      "originalValue": "{!BERRY_75}",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_COLOR",
       "darkValue": "#ff649cff",
       "originalDarkValue": "{!NIGHT_BERRY}"
@@ -4098,8 +4104,8 @@
       "value": "#00000033",
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_COLOR",
-      "darkValue": "#00000033",
-      "originalDarkValue": "{!BLACK_ALPHA_20}"
+      "darkValue": "#ffffff33",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_COLOR": {
       "type": "color",
@@ -4113,8 +4119,8 @@
     "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#154679ff",
-      "originalValue": "{!DARK_SKY_85}",
+      "value": "#024dafff",
+      "originalValue": "{!NIGHT_SKY_85}",
       "name": "PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_COLOR",
       "darkValue": "#d1f7ffff",
       "originalDarkValue": "{!NIGHT_BLUE_20}"
@@ -4125,8 +4131,8 @@
       "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_COLOR",
-      "darkValue": "#e0e4e9ff",
-      "originalDarkValue": "{!GREY_20}"
+      "darkValue": "#0b121dff",
+      "originalDarkValue": "{!NIGHT_GREY_00}"
     },
     "PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_COLOR": {
       "type": "color",
@@ -4143,14 +4149,14 @@
       "value": "#05203cff",
       "originalValue": "{!DARK_SKY}",
       "name": "PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_COLOR",
-      "darkValue": "#054184ff",
-      "originalDarkValue": "{!NIGHT_SKY}"
+      "darkValue": "#024dafff",
+      "originalDarkValue": "{!NIGHT_SKY_85}"
     },
     "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#c80456ff",
-      "originalValue": "{!BERRY_75}",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
       "name": "PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_COLOR",
       "darkValue": "#ff649cff",
       "originalDarkValue": "{!NIGHT_BERRY}"
@@ -4161,8 +4167,8 @@
       "value": "#154679ff",
       "originalValue": "{!DARK_SKY_85}",
       "name": "PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_COLOR",
-      "darkValue": "#002b5bff",
-      "originalDarkValue": "{!NIGHT_BLUE_100}"
+      "darkValue": "#054184ff",
+      "originalDarkValue": "{!NIGHT_SKY}"
     },
     "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_COLOR": {
       "type": "color",
@@ -4170,8 +4176,8 @@
       "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_COLOR",
-      "darkValue": "#e0e4e9ff",
-      "originalDarkValue": "{!GREY_20}"
+      "darkValue": "#0b121dff",
+      "originalDarkValue": "{!NIGHT_GREY_00}"
     },
     "PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_COLOR": {
       "type": "color",
@@ -4203,11 +4209,11 @@
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_COLOR": {
       "type": "color",
       "category": "button-colors",
-      "value": "#243346ff",
-      "originalValue": "{!NIGHT_GREY_25}",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
       "name": "PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_COLOR",
-      "darkValue": "#243346ff",
-      "originalDarkValue": "{!NIGHT_GREY_25}"
+      "darkValue": "#ffffff1a",
+      "originalDarkValue": "{!WHITE_ALPHA_10}"
     },
     "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_COLOR": {
       "type": "color",
