@@ -185,10 +185,10 @@
   <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_DAY" category="button-colors">#154679ff</color>
   <color name="PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_DAY" category="button-colors">#0062e3ff</color>
   <color name="PRIVATE_BUTTON_FEATURED_PRESSED_BACKGROUND_NIGHT" category="button-colors">#d1f7ffff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_NIGHT" category="button-colors">#05203cff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_NORMAL_BACKGROUND_NIGHT" category="button-colors">#024dafff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_PRESSED_BACKGROUND_DAY" category="button-colors">#c1c7cfff</color>
   <color name="PRIVATE_BUTTON_LINK_NORMAL_FOREGROUND_DAY" category="button-colors">#0062e3ff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_NIGHT" category="button-colors">#00000033</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_NIGHT" category="button-colors">#ffffff33</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_NIGHT" category="button-colors">#0b121dff</color>
   <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_NIGHT" category="button-colors">#ff649cff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_DISABLED_FOREGROUND_DAY" category="button-colors">#ffffff33</color>
@@ -197,40 +197,40 @@
   <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_FOREGROUND_DAY" category="button-colors">#00000033</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_NIGHT" category="button-colors">#ffffffff</color>
   <color name="PRIVATE_BUTTON_FEATURED_PRESSED_BACKGROUND_DAY" category="button-colors">#024dafff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT" category="button-colors">#00000033</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_NIGHT" category="button-colors">#ffffff33</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_BACKGROUND_DAY" category="button-colors">#0b121dff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_NIGHT" category="button-colors">#010913ff</color>
-  <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY" category="button-colors">#c80456ff</color>
+  <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_FOREGROUND_DAY" category="button-colors">#e70866ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_NORMAL_BACKGROUND_DAY" category="button-colors">#ffffffff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_FOREGROUND_DAY" category="button-colors">#00000033</color>
   <color name="PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_NIGHT" category="button-colors">#d1f7ffff</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_DAY" category="button-colors">#010913ff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT" category="button-colors">#e0e4e9ff</color>
-  <color name="PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_DAY" category="button-colors">#154679ff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_NIGHT" category="button-colors">#0b121dff</color>
+  <color name="PRIVATE_BUTTON_LINK_PRESSED_FOREGROUND_DAY" category="button-colors">#024dafff</color>
   <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_NIGHT" category="button-colors">#243346ff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_NIGHT" category="button-colors">#054184ff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_NIGHT" category="button-colors">#024dafff</color>
   <color name="PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_NIGHT" category="button-colors">#ff649cff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_NIGHT" category="button-colors">#002b5bff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_NIGHT" category="button-colors">#054184ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_DISABLED_BACKGROUND_DAY" category="button-colors">#e0e4e9ff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT" category="button-colors">#e0e4e9ff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_NIGHT" category="button-colors">#0b121dff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_NORMAL_BACKGROUND_DAY" category="button-colors">#05203cff</color>
   <color name="PRIVATE_BUTTON_DESTRUCTIVE_NORMAL_BACKGROUND_DAY" category="button-colors">#e0e4e9ff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_NIGHT" category="button-colors">#ffffff80</color>
-  <color name="PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_DAY" category="button-colors">#c80456ff</color>
+  <color name="PRIVATE_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND_DAY" category="button-colors">#e70866ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_PRESSED_BACKGROUND_DAY" category="button-colors">#154679ff</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_DISABLED_BACKGROUND_DAY" category="button-colors">#e0e4e9ff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_NIGHT" category="button-colors">#ffffffff</color>
   <color name="PRIVATE_BUTTON_DISABLED_BACKGROUND_NIGHT" category="button-colors">#0b121dff</color>
-  <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_NIGHT" category="button-colors">#243346ff</color>
+  <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_NIGHT" category="button-colors">#ffffff1a</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_NIGHT" category="button-colors">#ffffff33</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_PRESSED_FOREGROUND_DAY" category="button-colors">#ffffff80</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_NIGHT" category="button-colors">#c1c7cfff</color>
   <color name="PRIVATE_BUTTON_LINK_ON_DARK_NORMAL_FOREGROUND_DAY" category="button-colors">#ffffffff</color>
   <color name="PRIVATE_BUTTON_DISABLED_BACKGROUND_DAY" category="button-colors">#e0e4e9ff</color>
-  <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_DAY" category="button-colors">#243346ff</color>
+  <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_NORMAL_BACKGROUND_DAY" category="button-colors">#ffffff1a</color>
   <color name="PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_DAY" category="button-colors">#ffffff33</color>
   <color name="PRIVATE_BUTTON_PRIMARY_ON_DARK_PRESSED_BACKGROUND_DAY" category="button-colors">#c1c7cfff</color>
-  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT" category="button-colors">#154679ff</color>
+  <color name="PRIVATE_BUTTON_PRIMARY_ON_LIGHT_PRESSED_BACKGROUND_NIGHT" category="button-colors">#054184ff</color>
   <color name="PRIVATE_BUTTON_FEATURED_NORMAL_BACKGROUND_NIGHT" category="button-colors">#84e9ffff</color>
   <color name="PRIVATE_BAR_TRACK_DEFAULT_DAY" category="rating-bar-colors">#e0e4e9ff</color>
   <color name="PRIVATE_BAR_TRACK_DEFAULT_NIGHT" category="rating-bar-colors">#243346ff</color>

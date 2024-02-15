@@ -2381,8 +2381,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#05203cff",
-      "originalValue": "{!DARK_SKY}",
+      "value": "#024dafff",
+      "originalValue": "{!NIGHT_SKY_85}",
       "name": "privateButtonPrimaryOnLightNormalBackgroundNight"
     },
     {
@@ -2402,8 +2402,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#00000033",
-      "originalValue": "{!BLACK_ALPHA_20}",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "privateButtonPrimaryOnLightDisabledForegroundNight"
     },
     {
@@ -2465,8 +2465,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#00000033",
-      "originalValue": "{!BLACK_ALPHA_20}",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "privateButtonPrimaryOnDarkDisabledForegroundNight"
     },
     {
@@ -2486,8 +2486,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#c80456ff",
-      "originalValue": "{!BERRY_75}",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
       "name": "privateButtonDestructiveNormalForegroundDay"
     },
     {
@@ -2521,15 +2521,15 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e4e9ff",
-      "originalValue": "{!GREY_20}",
+      "value": "#0b121dff",
+      "originalValue": "{!NIGHT_GREY_00}",
       "name": "privateButtonPrimaryOnLightDisabledBackgroundNight"
     },
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#154679ff",
-      "originalValue": "{!DARK_SKY_85}",
+      "value": "#024dafff",
+      "originalValue": "{!NIGHT_SKY_85}",
       "name": "privateButtonLinkPressedForegroundDay"
     },
     {
@@ -2542,8 +2542,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#054184ff",
-      "originalValue": "{!NIGHT_SKY}",
+      "value": "#024dafff",
+      "originalValue": "{!NIGHT_SKY_85}",
       "name": "privateButtonPrimaryNormalBackgroundNight"
     },
     {
@@ -2556,8 +2556,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#002b5bff",
-      "originalValue": "{!NIGHT_BLUE_100}",
+      "value": "#054184ff",
+      "originalValue": "{!NIGHT_SKY}",
       "name": "privateButtonPrimaryPressedBackgroundNight"
     },
     {
@@ -2570,8 +2570,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#e0e4e9ff",
-      "originalValue": "{!GREY_20}",
+      "value": "#0b121dff",
+      "originalValue": "{!NIGHT_GREY_00}",
       "name": "privateButtonPrimaryOnDarkDisabledBackgroundNight"
     },
     {
@@ -2598,8 +2598,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#c80456ff",
-      "originalValue": "{!BERRY_75}",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
       "name": "privateButtonDestructivePressedBackgroundDay"
     },
     {
@@ -2633,8 +2633,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#243346ff",
-      "originalValue": "{!NIGHT_GREY_25}",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
       "name": "privateButtonSecondaryOnDarkNormalBackgroundNight"
     },
     {
@@ -2675,8 +2675,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#243346ff",
-      "originalValue": "{!NIGHT_GREY_25}",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
       "name": "privateButtonSecondaryOnDarkNormalBackgroundDay"
     },
     {
@@ -2696,8 +2696,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#154679ff",
-      "originalValue": "{!DARK_SKY_85}",
+      "value": "#054184ff",
+      "originalValue": "{!NIGHT_SKY}",
       "name": "privateButtonPrimaryOnLightPressedBackgroundNight"
     },
     {
@@ -3799,8 +3799,8 @@
       "value": "#154679ff",
       "originalValue": "{!DARK_SKY_85}",
       "name": "privateButtonPrimaryOnLightPressedBackgroundColor",
-      "darkValue": "#154679ff",
-      "originalDarkValue": "{!DARK_SKY_85}"
+      "darkValue": "#054184ff",
+      "originalDarkValue": "{!NIGHT_SKY}"
     },
     {
       "type": "color",
@@ -3826,8 +3826,8 @@
       "value": "#05203cff",
       "originalValue": "{!DARK_SKY}",
       "name": "privateButtonPrimaryOnLightNormalBackgroundColor",
-      "darkValue": "#05203cff",
-      "originalDarkValue": "{!DARK_SKY}"
+      "darkValue": "#024dafff",
+      "originalDarkValue": "{!NIGHT_SKY_85}"
     },
     {
       "type": "color",
@@ -3835,8 +3835,8 @@
       "value": "#00000033",
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "privateButtonPrimaryOnLightDisabledForegroundColor",
-      "darkValue": "#00000033",
-      "originalDarkValue": "{!BLACK_ALPHA_20}"
+      "darkValue": "#ffffff33",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
     },
     {
       "type": "color",
@@ -3850,8 +3850,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#c80456ff",
-      "originalValue": "{!BERRY_75}",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
       "name": "privateButtonDestructiveNormalForegroundColor",
       "darkValue": "#ff649cff",
       "originalDarkValue": "{!NIGHT_BERRY}"
@@ -3871,8 +3871,8 @@
       "value": "#00000033",
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "privateButtonPrimaryOnDarkDisabledForegroundColor",
-      "darkValue": "#00000033",
-      "originalDarkValue": "{!BLACK_ALPHA_20}"
+      "darkValue": "#ffffff33",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
     },
     {
       "type": "color",
@@ -3886,8 +3886,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#154679ff",
-      "originalValue": "{!DARK_SKY_85}",
+      "value": "#024dafff",
+      "originalValue": "{!NIGHT_SKY_85}",
       "name": "privateButtonLinkPressedForegroundColor",
       "darkValue": "#d1f7ffff",
       "originalDarkValue": "{!NIGHT_BLUE_20}"
@@ -3898,8 +3898,8 @@
       "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "privateButtonPrimaryOnLightDisabledBackgroundColor",
-      "darkValue": "#e0e4e9ff",
-      "originalDarkValue": "{!GREY_20}"
+      "darkValue": "#0b121dff",
+      "originalDarkValue": "{!NIGHT_GREY_00}"
     },
     {
       "type": "color",
@@ -3916,14 +3916,14 @@
       "value": "#05203cff",
       "originalValue": "{!DARK_SKY}",
       "name": "privateButtonPrimaryNormalBackgroundColor",
-      "darkValue": "#054184ff",
-      "originalDarkValue": "{!NIGHT_SKY}"
+      "darkValue": "#024dafff",
+      "originalDarkValue": "{!NIGHT_SKY_85}"
     },
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#c80456ff",
-      "originalValue": "{!BERRY_75}",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
       "name": "privateButtonDestructivePressedBackgroundColor",
       "darkValue": "#ff649cff",
       "originalDarkValue": "{!NIGHT_BERRY}"
@@ -3934,8 +3934,8 @@
       "value": "#154679ff",
       "originalValue": "{!DARK_SKY_85}",
       "name": "privateButtonPrimaryPressedBackgroundColor",
-      "darkValue": "#002b5bff",
-      "originalDarkValue": "{!NIGHT_BLUE_100}"
+      "darkValue": "#054184ff",
+      "originalDarkValue": "{!NIGHT_SKY}"
     },
     {
       "type": "color",
@@ -3943,8 +3943,8 @@
       "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "privateButtonPrimaryOnDarkDisabledBackgroundColor",
-      "darkValue": "#e0e4e9ff",
-      "originalDarkValue": "{!GREY_20}"
+      "darkValue": "#0b121dff",
+      "originalDarkValue": "{!NIGHT_GREY_00}"
     },
     {
       "type": "color",
@@ -3976,11 +3976,11 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#243346ff",
-      "originalValue": "{!NIGHT_GREY_25}",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
       "name": "privateButtonSecondaryOnDarkNormalBackgroundColor",
-      "darkValue": "#243346ff",
-      "originalDarkValue": "{!NIGHT_GREY_25}"
+      "darkValue": "#ffffff1a",
+      "originalDarkValue": "{!WHITE_ALPHA_10}"
     },
     {
       "type": "color",
