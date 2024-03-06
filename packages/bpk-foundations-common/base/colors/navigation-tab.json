@@ -1,0 +1,21 @@
+{
+  "imports": ["./aliases.json"],
+  "global": {
+    "type": "color",
+    "category": "navigation-tab-colors"
+  },
+  "props": {
+    "PRIVATE_NAVIGATION_TAB_HOVER_DAY": {
+      "value": "{!DARK_SKY_85}"
+    },
+    "PRIVATE_NAVIGATION_TAB_HOVER_NIGHT": {
+      "value": "{!NIGHT_BLUE_20}"
+    },
+    "PRIVATE_NAVIGATION_TAB_OUTLINE_DAY": {
+      "value": "{!GREY_30}"
+    },
+    "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT": {
+      "value": "{!WHITE}"
+    },
+  }
+}

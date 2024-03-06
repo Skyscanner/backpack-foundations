@@ -3214,6 +3214,34 @@
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "PRIVATE_SPONSORED_BANNER_BACKGROUND_NIGHT"
     },
+    "PRIVATE_NAVIGATION_TAB_HOVER_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#154679ff",
+      "originalValue": "{!DARK_SKY_85}",
+      "name": "PRIVATE_NAVIGATION_TAB_HOVER_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_HOVER_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#d1f7ffff",
+      "originalValue": "{!NIGHT_BLUE_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_HOVER_NIGHT"
+    },
+    "PRIVATE_NAVIGATION_TAB_OUTLINE_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
+    },
     "ANIMATION_DURATION_XS": {
       "type": "duration",
       "value": "50ms",
@@ -4277,6 +4305,24 @@
       "name": "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
+    },
+    "PRIVATE_NAVIGATION_TAB_HOVER_COLOR": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#154679ff",
+      "originalValue": "{!DARK_SKY_85}",
+      "name": "PRIVATE_NAVIGATION_TAB_HOVER_COLOR",
+      "darkValue": "#d1f7ffff",
+      "originalDarkValue": "{!NIGHT_BLUE_20}"
+    },
+    "PRIVATE_NAVIGATION_TAB_OUTLINE_COLOR": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_COLOR",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
     }
   },
   "propKeys": [
@@ -4660,6 +4706,10 @@
     "PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT",
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY",
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_NIGHT",
+    "PRIVATE_NAVIGATION_TAB_HOVER_DAY",
+    "PRIVATE_NAVIGATION_TAB_HOVER_NIGHT",
+    "PRIVATE_NAVIGATION_TAB_OUTLINE_DAY",
+    "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT",
     "ANIMATION_DURATION_XS",
     "ANIMATION_DURATION_SM",
     "ANIMATION_DURATION_BASE",
@@ -4784,6 +4834,8 @@
     "PRIVATE_BAR_TRACK_ON_CONTRAST_COLOR",
     "PRIVATE_SKELETON_SHIMMER_START_END_COLOR",
     "PRIVATE_SKELETON_SHIMMER_CENTER_COLOR",
-    "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR"
+    "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR",
+    "PRIVATE_NAVIGATION_TAB_HOVER_COLOR",
+    "PRIVATE_NAVIGATION_TAB_OUTLINE_COLOR"
   ]
 }

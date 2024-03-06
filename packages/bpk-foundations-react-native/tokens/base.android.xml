@@ -242,6 +242,10 @@
   <color name="PRIVATE_SKELETON_SHIMMER_CENTER_NIGHT" category="skeleton-colors">#00000033</color>
   <color name="PRIVATE_SPONSORED_BANNER_BACKGROUND_DAY" category="sponsored-banner-colors">#eff3f8ff</color>
   <color name="PRIVATE_SPONSORED_BANNER_BACKGROUND_NIGHT" category="sponsored-banner-colors">#243346ff</color>
+  <color name="PRIVATE_NAVIGATION_TAB_HOVER_DAY" category="navigation-tab-colors">#154679ff</color>
+  <color name="PRIVATE_NAVIGATION_TAB_HOVER_NIGHT" category="navigation-tab-colors">#d1f7ffff</color>
+  <color name="PRIVATE_NAVIGATION_TAB_OUTLINE_DAY" category="navigation-tab-colors">#c1c7cfff</color>
+  <color name="PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT" category="navigation-tab-colors">#ffffffff</color>
   <property name="ANIMATION_DURATION_XS" category="animations">50ms</property>
   <property name="ANIMATION_DURATION_SM" category="animations">200ms</property>
   <property name="ANIMATION_DURATION_BASE" category="animations">400ms</property>

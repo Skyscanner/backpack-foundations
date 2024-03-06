@@ -15,6 +15,7 @@
     "./colors/button.json",
     "./colors/rating-bar.json",
     "./colors/skeleton.json",
-    "./colors/sponsored-banner.json"
+    "./colors/sponsored-banner.json",
+    "./colors/navigation-tab.json"
   ]
 }
