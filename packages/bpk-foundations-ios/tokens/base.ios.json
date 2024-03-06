@@ -2778,6 +2778,34 @@
       "name": "privateSponsoredBannerBackgroundNight"
     },
     {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#154679ff",
+      "originalValue": "{!DARK_SKY_85}",
+      "name": "privateNavigationTabHoverDay"
+    },
+    {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#d1f7ffff",
+      "originalValue": "{!NIGHT_BLUE_20}",
+      "name": "privateNavigationTabHoverNight"
+    },
+    {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "privateNavigationTabOutlineDay"
+    },
+    {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "privateNavigationTabOutlineNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -4044,6 +4072,24 @@
       "name": "privateSponsoredBannerBackgroundColor",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
+    },
+    {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#154679ff",
+      "originalValue": "{!DARK_SKY_85}",
+      "name": "privateNavigationTabHoverColor",
+      "darkValue": "#d1f7ffff",
+      "originalDarkValue": "{!NIGHT_BLUE_20}"
+    },
+    {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "privateNavigationTabOutlineColor",
+      "darkValue": "#ffffffff",
+      "originalDarkValue": "{!WHITE}"
     }
   ]
 }

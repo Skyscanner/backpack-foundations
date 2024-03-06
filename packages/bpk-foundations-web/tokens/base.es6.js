@@ -259,6 +259,10 @@ export const privateSkeletonShimmerCenterDay = "rgba(255, 255, 255, 0.6)";
 export const privateSkeletonShimmerCenterNight = "rgba(0, 0, 0, 0.2)";
 export const privateSponsoredBannerBackgroundDay = "rgb(239, 243, 248)";
 export const privateSponsoredBannerBackgroundNight = "rgb(36, 51, 70)";
+export const privateNavigationTabHoverDay = "rgb(21, 70, 121)";
+export const privateNavigationTabHoverNight = "rgb(209, 247, 255)";
+export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
+export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
 export const durationXs = "50ms";
 export const durationSm = "200ms";
 export const durationBase = "400ms";
@@ -671,6 +675,12 @@ modalOpacity,
 modalMaxWidth,
 modalWideMaxWidth,
 modalContentPadding,
+};
+export const navigationTabColors = {
+privateNavigationTabHoverDay,
+privateNavigationTabHoverNight,
+privateNavigationTabOutlineDay,
+privateNavigationTabOutlineNight,
 };
 export const notifications = {
 bannerAlertHeaderExpandableHoverBackgroundColor,
