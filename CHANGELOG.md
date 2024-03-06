@@ -1,3 +1,13 @@
+# 2024-03-06
+
+**Added:**
+`@skyscanner/bpk-foundations-android: 7.9.1 => 7.10.0`
+`@skyscanner/bpk-foundations-common: 6.9.1 => 6.10.0`
+`@skyscanner/bpk-foundations-ios: 6.9.1 => 6.10.0`
+`@skyscanner/bpk-foundations-react-native: 4.9.1 => 4.10.0`
+`@skyscanner/bpk-foundations-web: 17.8.1 => 17.9.0`
+- Added private navigation tab colour tokens
+
 # 2024-02-15
 
 **Changed:**
