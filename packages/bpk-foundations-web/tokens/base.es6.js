@@ -329,6 +329,7 @@ export const horizontalNavBarSelectedColor = "rgb(0, 98, 227)";
 export const iconSizeSm = "1rem";
 export const iconSizeLg = "1.5rem";
 export const modalBackgroundColor = "rgb(255, 255, 255)";
+export const modalSurfaceContrast = "rgb(5, 32, 60)";
 export const modalInitialOpacity = "0";
 export const modalOpacity = "1";
 export const modalMaxWidth = "32rem";
@@ -670,6 +671,7 @@ marcommsEcoGreen,
 };
 export const modals = {
 modalBackgroundColor,
+modalSurfaceContrast,
 modalInitialOpacity,
 modalOpacity,
 modalMaxWidth,

@@ -2705,6 +2705,13 @@
       "originalValue": "{!WHITE}",
       "name": "MODAL_BACKGROUND_COLOR"
     },
+    "MODAL_SURFACE_CONTRAST": {
+      "category": "modals",
+      "value": "rgb(5, 32, 60)",
+      "type": "color",
+      "originalValue": "{!DARK_SKY}",
+      "name": "MODAL_SURFACE_CONTRAST"
+    },
     "MODAL_INITIAL_OPACITY": {
       "category": "modals",
       "value": "0",

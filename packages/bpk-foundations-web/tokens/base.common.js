@@ -331,6 +331,7 @@ module.exports = {
   iconSizeSm: "1rem",
   iconSizeLg: "1.5rem",
   modalBackgroundColor: "rgb(255, 255, 255)",
+  modalSurfaceContrast: "rgb(5, 32, 60)",
   modalInitialOpacity: "0",
   modalOpacity: "1",
   modalMaxWidth: "32rem",

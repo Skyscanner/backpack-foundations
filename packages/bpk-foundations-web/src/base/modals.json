@@ -10,6 +10,10 @@
       "value": "{!WHITE}",
       "type": "color"
     },
+    "MODAL_SURFACE_CONTRAST": {
+      "value": "{!DARK_SKY}",
+      "type": "color"
+    },
     "MODAL_INITIAL_OPACITY": {
       "value": "0",
       "type": "number"
