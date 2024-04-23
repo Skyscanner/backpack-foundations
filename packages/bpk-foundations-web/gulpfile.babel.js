@@ -28,6 +28,7 @@ import jsonLint from 'gulp-jsonlint';
 
 import bpkEs6Js from './formatters/bpk.es6.js';
 import bpkCommonJs from './formatters/bpk.common.js';
+import bpkDts from './formatters/bpk.d.ts.js';
 
 import bpkScss from './formatters/bpk.scss';
 import bpkDefaultScss from './formatters/bpk.default.scss';
@@ -37,7 +38,7 @@ const RAW_FORMATS = {
 };
 
 const PLATFORM_FORMATS = {
-  web: ['scss', 'default.scss', 'common.js', 'es6.js'],
+  web: ['scss', 'default.scss', 'common.js', 'es6.js', 'es6.d.ts'],
 };
 
 const createTokenSets = (formats) =>
@@ -58,6 +59,7 @@ theo.registerFormat('scss', bpkScss);
 theo.registerFormat('default.scss', bpkDefaultScss);
 theo.registerFormat('es6.js', bpkEs6Js);
 theo.registerFormat('common.js', bpkCommonJs);
+theo.registerFormat('es6.d.ts', bpkDts);
 
 gulp.task('clean', (done) => del(['tokens'], done));
 
