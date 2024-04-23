@@ -28,7 +28,7 @@ import jsonLint from 'gulp-jsonlint';
 
 import bpkEs6Js from './formatters/bpk.es6.js';
 import bpkCommonJs from './formatters/bpk.common.js';
-import bpkDts from './formatters/bpk.d.ts.js';
+import bpkDts from './formatters/bpk.d.ts';
 
 import bpkScss from './formatters/bpk.scss';
 import bpkDefaultScss from './formatters/bpk.default.scss';
