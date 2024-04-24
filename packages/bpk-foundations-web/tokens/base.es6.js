@@ -263,6 +263,8 @@ export const privateNavigationTabHoverDay = "rgb(21, 70, 121)";
 export const privateNavigationTabHoverNight = "rgb(209, 247, 255)";
 export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
 export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
+export const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)";
+export const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)";
 export const durationXs = "50ms";
 export const durationSm = "200ms";
 export const durationBase = "400ms";
@@ -499,6 +501,10 @@ canvasDay,
 canvasNight,
 canvasContrastDay,
 canvasContrastNight,
+};
+export const cardButtonColors = {
+privateCardButtonContainedFillDay,
+privateCardButtonContainedFillNight,
 };
 export const cards = {
 cardBackgroundColor,
