@@ -1,0 +1,15 @@
+{
+    "imports": ["./aliases.json"],
+    "global": {
+      "type": "color",
+      "category": "card-button-colors"
+    },
+    "props": {
+      "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY": {
+        "value": "{!WHITE_ALPHA_80}"
+      },
+      "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT": {
+        "value": "{!BLACK_ALPHA_80}"
+      }
+    }
+  }

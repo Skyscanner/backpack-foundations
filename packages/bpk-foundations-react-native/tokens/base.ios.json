@@ -1535,6 +1535,18 @@
       "name": "privateNavigationTabOutlineNight"
     },
     {
+      "type": "color",
+      "category": "card-button-colors",
+      "value": "#ffffffcc",
+      "name": "privateCardButtonContainedFillDay"
+    },
+    {
+      "type": "color",
+      "category": "card-button-colors",
+      "value": "#000000cc",
+      "name": "privateCardButtonContainedFillNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -2762,6 +2774,13 @@
       "value": "#c1c7cfff",
       "name": "privateNavigationTabOutlineColor",
       "darkValue": "#ffffffff"
+    },
+    {
+      "type": "color",
+      "category": "card-button-colors",
+      "value": "#ffffffcc",
+      "name": "privateCardButtonContainedFillColor",
+      "darkValue": "#000000cc"
     }
   ]
 }

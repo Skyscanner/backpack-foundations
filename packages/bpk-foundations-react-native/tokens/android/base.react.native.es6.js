@@ -264,6 +264,8 @@ export const privateNavigationTabHoverDay = "rgb(21, 70, 121)";
 export const privateNavigationTabHoverNight = "rgb(209, 247, 255)";
 export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
 export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
+export const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)";
+export const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)";
 export const animationDurationXs = 50;
 export const animationDurationSm = 200;
 export const animationDurationBase = 400;
@@ -593,6 +595,10 @@ canvasDay,
 canvasNight,
 canvasContrastDay,
 canvasContrastNight,
+};
+export const cardButtonColors = {
+privateCardButtonContainedFillDay,
+privateCardButtonContainedFillNight,
 };
 export const carouselIndicatorDots = {
 carouselIndicatorDotSizeSm,
@@ -1064,3 +1070,4 @@ export const privateSkeletonShimmerCenterColor = undefined;
 export const privateSponsoredBannerBackgroundColor = undefined;
 export const privateNavigationTabHoverColor = undefined;
 export const privateNavigationTabOutlineColor = undefined;
+export const privateCardButtonContainedFillColor = undefined;
