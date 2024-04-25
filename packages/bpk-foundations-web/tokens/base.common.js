@@ -265,6 +265,8 @@ module.exports = {
   privateNavigationTabHoverNight: "rgb(209, 247, 255)",
   privateNavigationTabOutlineDay: "rgb(193, 199, 207)",
   privateNavigationTabOutlineNight: "rgb(255, 255, 255)",
+  privateCardButtonContainedFillDay: "rgba(255, 255, 255, 0.8)",
+  privateCardButtonContainedFillNight: "rgba(0, 0, 0, 0.8)",
   durationXs: "50ms",
   durationSm: "200ms",
   durationBase: "400ms",
