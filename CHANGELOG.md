@@ -1,3 +1,16 @@
+# 2024-04-26
+**Added:**
+`@skyscanner/bpk-foundations-web:`
+  - Added `.d.ts` formatter to create typescript types for `base.es6.js` 
+
+# 2024-04-24
+**Changed:**
+`@skyscanner/bpk-foundations-common: 6.10.0 => 6.11.0`
+`@skyscanner/bpk-foundations-web: 17.9.0 => 17.10.0`
+`@skyscanner/bpk-foundations-android: 7.10.0 => 7.11.0`
+`@skyscanner/bpk-foundations-ios: 6.10.0 => 6.11.0`
+  - Introduce private token for Card Button contained fill
+
 # 2024-03-06
 
 **Added:**
