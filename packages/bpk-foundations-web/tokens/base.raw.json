@@ -2936,6 +2936,13 @@
       "originalValue": "{!FONT_SIZE_XL}",
       "name": "FONT_SIZE_XL"
     },
+    "FONT_FAMILY_LARKEN": {
+      "value": "'Larken', 'Skyscanner Relative', 'Noto Sans', 'Noto Sans JP', sans-serif",
+      "type": "font",
+      "category": "typesettings",
+      "originalValue": "'Larken', 'Skyscanner Relative', 'Noto Sans', 'Noto Sans JP', sans-serif",
+      "name": "FONT_FAMILY_LARKEN"
+    },
     "FONT_SIZE_XXXXXL": {
       "value": "4rem",
       "type": "font-size",

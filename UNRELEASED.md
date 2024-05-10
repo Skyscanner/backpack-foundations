@@ -1,0 +1,1 @@
+Adding new Larken font-family to support the new Editorial font.

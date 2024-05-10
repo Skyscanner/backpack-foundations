@@ -354,6 +354,7 @@ export declare const lineHeightXxxxxl = "4.5rem" as const;
 export declare const lineHeightXxxl = "3rem" as const;
 export declare const lineHeightXl = "2rem" as const;
 export declare const fontSizeXl = "1.5rem" as const;
+export declare const fontFamilyLarken = "'Larken', 'Skyscanner Relative', 'Noto Sans', 'Noto Sans JP', sans-serif" as const;
 export declare const fontSizeXxxxxl = "4rem" as const;
 export declare const fontSizeXxxl = "2.5rem" as const;
 export declare const lineHeightSm = "1.25rem" as const;
@@ -806,6 +807,7 @@ lineHeightXxxxxl,
 lineHeightXxxl,
 lineHeightXl,
 fontSizeXl,
+fontFamilyLarken,
 fontSizeXxxxxl,
 fontSizeXxxl,
 lineHeightSm,
