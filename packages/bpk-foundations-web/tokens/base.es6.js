@@ -354,6 +354,7 @@ export const lineHeightXxxxxl = "4.5rem";
 export const lineHeightXxxl = "3rem";
 export const lineHeightXl = "2rem";
 export const fontSizeXl = "1.5rem";
+export const fontFamilyLarken = "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif";
 export const fontSizeXxxxxl = "4rem";
 export const fontSizeXxxl = "2.5rem";
 export const lineHeightSm = "1.25rem";
@@ -806,6 +807,7 @@ lineHeightXxxxxl,
 lineHeightXxxl,
 lineHeightXl,
 fontSizeXl,
+fontFamilyLarken,
 fontSizeXxxxxl,
 fontSizeXxxl,
 lineHeightSm,
