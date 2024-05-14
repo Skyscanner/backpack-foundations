@@ -1,7 +1,5 @@
 {
-  "imports": [
-    "./aliases.json"
-  ],
+  "imports": ["./aliases.json"],
   "props": {
     "FONT_FAMILY_BASE": {
       "value": "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
@@ -170,6 +168,11 @@
     },
     "FONT_WEIGHT_BOOK": {
       "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "FONT_WEIGHT_LIGHT": {
+      "value": "{!FONT_WEIGHT_LIGHT}",
       "type": "string",
       "category": "font-weights"
     },
