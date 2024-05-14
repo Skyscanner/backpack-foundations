@@ -1,1 +1,1 @@
-Adding new Larken font-family to support the new Editorial font.
+Adding a new token for font-weight of 300 as $bpk-font-weight-light

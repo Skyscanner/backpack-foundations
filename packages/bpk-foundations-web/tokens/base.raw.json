@@ -450,6 +450,9 @@
     "ZINDEX_SCRIM": {
       "value": "1000"
     },
+    "FONT_WEIGHT_LIGHT": {
+      "value": "300"
+    },
     "BORDER_SIZE_XL": {
       "value": "3px"
     }
@@ -3117,6 +3120,13 @@
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_BASE}",
       "name": "FONT_SIZE_BASE"
+    },
+    "FONT_WEIGHT_LIGHT": {
+      "value": "300",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_LIGHT}",
+      "name": "FONT_WEIGHT_LIGHT"
     },
     "LINE_HEIGHT_8XL": {
       "value": "7.5rem",
