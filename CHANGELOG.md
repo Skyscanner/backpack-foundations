@@ -1,3 +1,15 @@
+# 2024-05-14
+
+**Added:**
+`@skyscanner/bpk-foundations-web: 17.12.0 => 17.13.0`
+  - Adding a new token for font-weight of `300` as `$bpk-font-weight-light`
+
+# 2024-05-13
+
+**Added:**
+`@skyscanner/bpk-foundations-web: 17.11.0 => 17.12.0`
+  - Adding new Larken font-family to support the new Editorial font.
+
 # 2024-04-26
 **Added:**
 `@skyscanner/bpk-foundations-web:`

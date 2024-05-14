@@ -1,1 +1,0 @@
-Adding a new token for font-weight of 300 as $bpk-font-weight-light
