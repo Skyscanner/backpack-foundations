@@ -382,6 +382,7 @@ module.exports = {
   lineHeightBase: "1.5rem",
   lineHeight7Xl: "6rem",
   fontSizeBase: "1rem",
+  fontWeightLight: "300",
   lineHeight8Xl: "7.5rem",
   lineHeightXxl: "2.5rem",
   lineHeightXxxxl: "3.5rem",
