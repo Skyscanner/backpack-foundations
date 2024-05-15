@@ -263,6 +263,8 @@ export const privateNavigationTabHoverDay = "rgb(21, 70, 121)";
 export const privateNavigationTabHoverNight = "rgb(209, 247, 255)";
 export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
 export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
+export const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)";
+export const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)";
 export const durationXs = "50ms";
 export const durationSm = "200ms";
 export const durationBase = "400ms";
@@ -352,6 +354,7 @@ export const lineHeightXxxxxl = "4.5rem";
 export const lineHeightXxxl = "3rem";
 export const lineHeightXl = "2rem";
 export const fontSizeXl = "1.5rem";
+export const fontFamilyLarken = "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif";
 export const fontSizeXxxxxl = "4rem";
 export const fontSizeXxxl = "2.5rem";
 export const lineHeightSm = "1.25rem";
@@ -377,6 +380,7 @@ export const fontSizeXxxxl = "3rem";
 export const lineHeightBase = "1.5rem";
 export const lineHeight7Xl = "6rem";
 export const fontSizeBase = "1rem";
+export const fontWeightLight = "300";
 export const lineHeight8Xl = "7.5rem";
 export const lineHeightXxl = "2.5rem";
 export const lineHeightXxxxl = "3.5rem";
@@ -500,6 +504,10 @@ canvasNight,
 canvasContrastDay,
 canvasContrastNight,
 };
+export const cardButtonColors = {
+privateCardButtonContainedFillDay,
+privateCardButtonContainedFillNight,
+};
 export const cards = {
 cardBackgroundColor,
 cardPadding,
@@ -589,6 +597,7 @@ export const fontWeights = {
 fontWeightBook,
 fontWeightBlack,
 fontWeightBold,
+fontWeightLight,
 };
 export const forms = {
 inputLargeHeight,
@@ -800,6 +809,7 @@ lineHeightXxxxxl,
 lineHeightXxxl,
 lineHeightXl,
 fontSizeXl,
+fontFamilyLarken,
 fontSizeXxxxxl,
 fontSizeXxxl,
 lineHeightSm,
