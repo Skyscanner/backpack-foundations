@@ -354,6 +354,7 @@ export declare const lineHeightXxxxxl = "4.5rem" as const;
 export declare const lineHeightXxxl = "3rem" as const;
 export declare const lineHeightXl = "2rem" as const;
 export declare const fontSizeXl = "1.5rem" as const;
+export declare const fontFamilyLarken = "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif" as const;
 export declare const fontSizeXxxxxl = "4rem" as const;
 export declare const fontSizeXxxl = "2.5rem" as const;
 export declare const lineHeightSm = "1.25rem" as const;
@@ -379,6 +380,7 @@ export declare const fontSizeXxxxl = "3rem" as const;
 export declare const lineHeightBase = "1.5rem" as const;
 export declare const lineHeight7Xl = "6rem" as const;
 export declare const fontSizeBase = "1rem" as const;
+export declare const fontWeightLight = "300" as const;
 export declare const lineHeight8Xl = "7.5rem" as const;
 export declare const lineHeightXxl = "2.5rem" as const;
 export declare const lineHeightXxxxl = "3.5rem" as const;
@@ -595,6 +597,7 @@ export declare const fontWeights = {
 fontWeightBook,
 fontWeightBlack,
 fontWeightBold,
+fontWeightLight,
 } as const;
 export declare const forms = {
 inputLargeHeight,
@@ -806,6 +809,7 @@ lineHeightXxxxxl,
 lineHeightXxxl,
 lineHeightXl,
 fontSizeXl,
+fontFamilyLarken,
 fontSizeXxxxxl,
 fontSizeXxxl,
 lineHeightSm,
