@@ -3242,6 +3242,20 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
     },
+    "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY": {
+      "type": "color",
+      "category": "card-button-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY"
+    },
+    "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT": {
+      "type": "color",
+      "category": "card-button-colors",
+      "value": "#000000cc",
+      "originalValue": "{!BLACK_ALPHA_80}",
+      "name": "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT"
+    },
     "ANIMATION_DURATION_XS": {
       "type": "duration",
       "value": "50ms",
@@ -4527,6 +4541,15 @@
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_COLOR",
       "darkValue": "#ffffffff",
       "originalDarkValue": "{!WHITE}"
+    },
+    "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR": {
+      "type": "color",
+      "category": "card-button-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR",
+      "darkValue": "#000000cc",
+      "originalDarkValue": "{!BLACK_ALPHA_80}"
     }
   },
   "propKeys": [
@@ -4914,6 +4937,8 @@
     "PRIVATE_NAVIGATION_TAB_HOVER_NIGHT",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_DAY",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT",
+    "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY",
+    "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT",
     "ANIMATION_DURATION_XS",
     "ANIMATION_DURATION_SM",
     "ANIMATION_DURATION_BASE",
@@ -5069,6 +5094,7 @@
     "PRIVATE_SKELETON_SHIMMER_CENTER_COLOR",
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR",
     "PRIVATE_NAVIGATION_TAB_HOVER_COLOR",
-    "PRIVATE_NAVIGATION_TAB_OUTLINE_COLOR"
+    "PRIVATE_NAVIGATION_TAB_OUTLINE_COLOR",
+    "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR"
   ]
 }
