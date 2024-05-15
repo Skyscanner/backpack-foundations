@@ -450,6 +450,9 @@
     "ZINDEX_SCRIM": {
       "value": "1000"
     },
+    "FONT_WEIGHT_LIGHT": {
+      "value": "300"
+    },
     "BORDER_SIZE_XL": {
       "value": "3px"
     }
@@ -2243,6 +2246,20 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
     },
+    "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY": {
+      "type": "color",
+      "category": "card-button-colors",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY"
+    },
+    "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT": {
+      "type": "color",
+      "category": "card-button-colors",
+      "value": "rgba(0, 0, 0, 0.8)",
+      "originalValue": "{!BLACK_ALPHA_80}",
+      "name": "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT"
+    },
     "DURATION_XS": {
       "type": "duration",
       "category": "animations",
@@ -2922,6 +2939,13 @@
       "originalValue": "{!FONT_SIZE_XL}",
       "name": "FONT_SIZE_XL"
     },
+    "FONT_FAMILY_LARKEN": {
+      "value": "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif",
+      "type": "font",
+      "category": "typesettings",
+      "originalValue": "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif",
+      "name": "FONT_FAMILY_LARKEN"
+    },
     "FONT_SIZE_XXXXXL": {
       "value": "4rem",
       "type": "font-size",
@@ -3096,6 +3120,13 @@
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_BASE}",
       "name": "FONT_SIZE_BASE"
+    },
+    "FONT_WEIGHT_LIGHT": {
+      "value": "300",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_LIGHT}",
+      "name": "FONT_WEIGHT_LIGHT"
     },
     "LINE_HEIGHT_8XL": {
       "value": "7.5rem",

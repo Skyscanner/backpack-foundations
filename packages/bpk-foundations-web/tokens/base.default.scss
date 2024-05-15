@@ -509,6 +509,10 @@ $bpk-private-navigation-tab-hover-night: rgb(209, 247, 255) !default;
 $bpk-private-navigation-tab-outline-day: rgb(193, 199, 207) !default;
 /// @group navigation-tab-colors
 $bpk-private-navigation-tab-outline-night: rgb(255, 255, 255) !default;
+/// @group card-button-colors
+$bpk-private-card-button-contained-fill-day: rgba(255, 255, 255, 0.8) !default;
+/// @group card-button-colors
+$bpk-private-card-button-contained-fill-night: rgba(0, 0, 0, 0.8) !default;
 /// @group animations
 $bpk-duration-xs: 50ms !default;
 /// @group animations
@@ -704,6 +708,8 @@ $bpk-line-height-xl: 2rem !default;
 /// @group typesettings
 $bpk-font-size-xl: 1.5rem !default;
 /// @group typesettings
+$bpk-font-family-larken: 'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif !default;
+/// @group typesettings
 $bpk-font-size-xxxxxl: 4rem !default;
 /// @group typesettings
 $bpk-font-size-xxxl: 2.5rem !default;
@@ -753,6 +759,8 @@ $bpk-line-height-base: 1.5rem !default;
 $bpk-line-height-7-xl: 6rem !default;
 /// @group typesettings
 $bpk-font-size-base: 1rem !default;
+/// @group font-weights
+$bpk-font-weight-light: 300 !default;
 /// @group typesettings
 $bpk-line-height-8-xl: 7.5rem !default;
 /// @group typesettings

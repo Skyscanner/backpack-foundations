@@ -1,3 +1,28 @@
+# 2024-05-14
+
+**Added:**
+`@skyscanner/bpk-foundations-web: 17.12.0 => 17.13.0`
+  - Adding a new token for font-weight of `300` as `$bpk-font-weight-light`
+
+# 2024-05-13
+
+**Added:**
+`@skyscanner/bpk-foundations-web: 17.11.0 => 17.12.0`
+  - Adding new Larken font-family to support the new Editorial font.
+
+# 2024-04-26
+**Added:**
+`@skyscanner/bpk-foundations-web:`
+  - Added `.d.ts` formatter to create typescript types for `base.es6.js` 
+
+# 2024-04-24
+**Changed:**
+`@skyscanner/bpk-foundations-common: 6.10.0 => 6.11.0`
+`@skyscanner/bpk-foundations-web: 17.9.0 => 17.10.0`
+`@skyscanner/bpk-foundations-android: 7.10.0 => 7.11.0`
+`@skyscanner/bpk-foundations-ios: 6.10.0 => 6.11.0`
+  - Introduce private token for Card Button contained fill
+
 # 2024-03-06
 
 **Added:**

@@ -246,6 +246,8 @@
   <color name="PRIVATE_NAVIGATION_TAB_HOVER_NIGHT" category="navigation-tab-colors">#d1f7ffff</color>
   <color name="PRIVATE_NAVIGATION_TAB_OUTLINE_DAY" category="navigation-tab-colors">#c1c7cfff</color>
   <color name="PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT" category="navigation-tab-colors">#ffffffff</color>
+  <color name="PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY" category="card-button-colors">#ffffffcc</color>
+  <color name="PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT" category="card-button-colors">#000000cc</color>
   <property name="ANIMATION_DURATION_XS" category="animations">50ms</property>
   <property name="ANIMATION_DURATION_SM" category="animations">200ms</property>
   <property name="ANIMATION_DURATION_BASE" category="animations">400ms</property>
