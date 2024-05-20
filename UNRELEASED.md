@@ -1,1 +1,0 @@
-Add Noto in font-family as fallback for the Larken font

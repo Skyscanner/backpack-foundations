@@ -1,3 +1,10 @@
+# 2024-05-20
+
+**Added:**
+`@skyscanner/bpk-foundations-web: 17.13.0 => 17.14.0`
+  - Add Noto in font-family as fallback for the Larken font
+
+
 # 2024-05-14
 
 **Added:**
