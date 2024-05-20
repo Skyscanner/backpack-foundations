@@ -356,7 +356,7 @@ module.exports = {
   lineHeightXxxl: "3rem",
   lineHeightXl: "2rem",
   fontSizeXl: "1.5rem",
-  fontFamilyLarken: "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif",
+  fontFamilyLarken: "'Larken', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif",
   fontSizeXxxxxl: "4rem",
   fontSizeXxxl: "2.5rem",
   lineHeightSm: "1.25rem",

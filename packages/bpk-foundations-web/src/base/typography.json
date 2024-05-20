@@ -7,7 +7,7 @@
       "category": "typesettings"
     },
     "FONT_FAMILY_LARKEN": {
-      "value": "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif",
+      "value": "'Larken', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif",
       "type": "font",
       "category": "typesettings"
     },
