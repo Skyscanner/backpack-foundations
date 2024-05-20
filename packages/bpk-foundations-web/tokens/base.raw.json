@@ -2940,10 +2940,10 @@
       "name": "FONT_SIZE_XL"
     },
     "FONT_FAMILY_LARKEN": {
-      "value": "'Larken', Noto', sans-serif",
+      "value": "'Larken', 'Noto', sans-serif",
       "type": "font",
       "category": "typesettings",
-      "originalValue": "'Larken', Noto', sans-serif",
+      "originalValue": "'Larken', 'Noto', sans-serif",
       "name": "FONT_FAMILY_LARKEN"
     },
     "FONT_SIZE_XXXXXL": {
