@@ -265,6 +265,12 @@ export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
 export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
 export const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)";
 export const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)";
+export const privateSegmentedControlCanvasDefaultDay = "rgb(239, 243, 248)";
+export const privateSegmentedControlCanvasDefaultNight = "rgb(19, 29, 43)";
+export const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255, 255, 0.1)";
+export const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)";
+export const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)";
+export const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)";
 export const durationXs = "50ms";
 export const durationSm = "200ms";
 export const durationBase = "400ms";
@@ -719,6 +725,14 @@ privateBarTrackOnContrastNight,
 export const scrimColors = {
 scrimDay,
 scrimNight,
+};
+export const segmentedControlColors = {
+privateSegmentedControlCanvasDefaultDay,
+privateSegmentedControlCanvasDefaultNight,
+privateSegmentedControlSurfaceContrastDay,
+privateSegmentedControlSurfaceContrastNight,
+privateSegmentedControlSurfaceContrastOnDay,
+privateSegmentedControlSurfaceContrastOnNight,
 };
 export const skeletonColors = {
 privateSkeletonShimmerStartEndDay,

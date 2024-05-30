@@ -2260,6 +2260,48 @@
       "originalValue": "{!BLACK_ALPHA_80}",
       "name": "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT"
     },
+    "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_DAY": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(239, 243, 248)",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_DAY"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_NIGHT": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(19, 29, 43)",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_NIGHT"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_DAY": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgba(255, 255, 255, 0.1)",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_DAY"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(19, 29, 43)",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_NIGHT"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_DAY": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(2, 77, 175)",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_DAY"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_NIGHT": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(5, 65, 132)",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_NIGHT"
+    },
     "DURATION_XS": {
       "type": "duration",
       "category": "animations",

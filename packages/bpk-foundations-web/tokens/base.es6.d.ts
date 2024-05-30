@@ -265,6 +265,12 @@ export declare const privateNavigationTabOutlineDay = "rgb(193, 199, 207)" as co
 export declare const privateNavigationTabOutlineNight = "rgb(255, 255, 255)" as const;
 export declare const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)" as const;
 export declare const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)" as const;
+export declare const privateSegmentedControlCanvasDefaultDay = "rgb(239, 243, 248)" as const;
+export declare const privateSegmentedControlCanvasDefaultNight = "rgb(19, 29, 43)" as const;
+export declare const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255, 255, 0.1)" as const;
+export declare const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)" as const;
+export declare const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)" as const;
+export declare const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)" as const;
 export declare const durationXs = "50ms" as const;
 export declare const durationSm = "200ms" as const;
 export declare const durationBase = "400ms" as const;
@@ -719,6 +725,14 @@ privateBarTrackOnContrastNight,
 export declare const scrimColors = {
 scrimDay,
 scrimNight,
+} as const;
+export declare const segmentedControlColors = {
+privateSegmentedControlCanvasDefaultDay,
+privateSegmentedControlCanvasDefaultNight,
+privateSegmentedControlSurfaceContrastDay,
+privateSegmentedControlSurfaceContrastNight,
+privateSegmentedControlSurfaceContrastOnDay,
+privateSegmentedControlSurfaceContrastOnNight,
 } as const;
 export declare const skeletonColors = {
 privateSkeletonShimmerStartEndDay,
