@@ -17,6 +17,7 @@
     "./colors/skeleton.json",
     "./colors/sponsored-banner.json",
     "./colors/navigation-tab.json",
-    "./colors/card-button.json"
+    "./colors/card-button.json",
+    "./colors/segmented-control.json"
   ]
 }
