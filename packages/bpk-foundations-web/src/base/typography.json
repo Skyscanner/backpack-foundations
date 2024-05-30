@@ -76,11 +76,6 @@
       "type": "size",
       "category": "typesettings"
     },
-    "LINE_HEIGHT_XXXXXL_TIGHT": {
-      "value": "{!FONT_LINE_HEIGHT_XXXXXL_TIGHT}",
-      "type": "size",
-      "category": "typesettings"
-    },
     "LINE_HEIGHT_6XL": {
       "value": "{!FONT_LINE_HEIGHT_6XL}",
       "type": "size",

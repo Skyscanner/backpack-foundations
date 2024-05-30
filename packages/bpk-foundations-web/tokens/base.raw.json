@@ -354,9 +354,6 @@
     "SPACING_XXXXL": {
       "value": "6rem"
     },
-    "FONT_LINE_HEIGHT_XXXXXL_TIGHT": {
-      "value": "4rem"
-    },
     "FONT_LINE_HEIGHT_XL_TIGHT": {
       "value": "1.75rem"
     },
@@ -370,7 +367,7 @@
       "value": "2rem"
     },
     "FONT_LINE_HEIGHT_XXXXXL": {
-      "value": "4.5rem"
+      "value": "4rem"
     },
     "BREAKPOINT_ABOVE_MOBILE": {
       "value": "32.0625rem"
@@ -2907,13 +2904,6 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "FONT_WEIGHT_BOOK"
     },
-    "LINE_HEIGHT_XXXXXL_TIGHT": {
-      "value": "4rem",
-      "type": "size",
-      "category": "typesettings",
-      "originalValue": "{!FONT_LINE_HEIGHT_XXXXXL_TIGHT}",
-      "name": "LINE_HEIGHT_XXXXXL_TIGHT"
-    },
     "LINE_HEIGHT_XL_TIGHT": {
       "value": "1.75rem",
       "type": "size",
@@ -2922,7 +2912,7 @@
       "name": "LINE_HEIGHT_XL_TIGHT"
     },
     "LINE_HEIGHT_XXXXXL": {
-      "value": "4.5rem",
+      "value": "4rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXXXL}",
