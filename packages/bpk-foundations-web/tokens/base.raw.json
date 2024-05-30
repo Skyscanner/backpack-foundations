@@ -313,7 +313,7 @@
       "value": "1.25rem"
     },
     "FONT_LINE_HEIGHT_6XL": {
-      "value": "5.25rem"
+      "value": "4.75rem"
     },
     "FONT_LINE_HEIGHT_BASE": {
       "value": "1.5rem"
@@ -367,7 +367,7 @@
       "value": "2rem"
     },
     "FONT_LINE_HEIGHT_XXXXXL": {
-      "value": "4.5rem"
+      "value": "4rem"
     },
     "BREAKPOINT_ABOVE_MOBILE": {
       "value": "32.0625rem"
@@ -2912,7 +2912,7 @@
       "name": "LINE_HEIGHT_XL_TIGHT"
     },
     "LINE_HEIGHT_XXXXXL": {
-      "value": "4.5rem",
+      "value": "4rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXXXL}",
@@ -3073,7 +3073,7 @@
       "name": "FONT_SIZE_7XL"
     },
     "LINE_HEIGHT_6XL": {
-      "value": "5.25rem",
+      "value": "4.75rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_6XL}",
