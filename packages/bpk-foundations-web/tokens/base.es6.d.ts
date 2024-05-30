@@ -349,6 +349,7 @@ export declare const onePixelRem = ".0625rem" as const;
 export declare const spacingNone = "0" as const;
 export declare const spacingIconText = ".5rem" as const;
 export declare const fontWeightBook = "400" as const;
+export declare const lineHeightXxxxxlTight = "4rem" as const;
 export declare const lineHeightXlTight = "1.75rem" as const;
 export declare const lineHeightXxxxxl = "4.5rem" as const;
 export declare const lineHeightXxxl = "3rem" as const;
@@ -804,6 +805,7 @@ backgroundElevation03LightColor,
 fontColorBase,
 } as const;
 export declare const typesettings = {
+lineHeightXxxxxlTight,
 lineHeightXlTight,
 lineHeightXxxxxl,
 lineHeightXxxl,

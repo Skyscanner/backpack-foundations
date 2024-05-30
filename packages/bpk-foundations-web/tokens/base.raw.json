@@ -2907,6 +2907,13 @@
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "FONT_WEIGHT_BOOK"
     },
+    "LINE_HEIGHT_XXXXXL_TIGHT": {
+      "value": "4rem",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!FONT_LINE_HEIGHT_XXXXXL_TIGHT}",
+      "name": "LINE_HEIGHT_XXXXXL_TIGHT"
+    },
     "LINE_HEIGHT_XL_TIGHT": {
       "value": "1.75rem",
       "type": "size",

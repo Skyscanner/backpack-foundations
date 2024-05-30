@@ -351,6 +351,7 @@ module.exports = {
   spacingNone: "0",
   spacingIconText: ".5rem",
   fontWeightBook: "400",
+  lineHeightXxxxxlTight: "4rem",
   lineHeightXlTight: "1.75rem",
   lineHeightXxxxxl: "4.5rem",
   lineHeightXxxl: "3rem",
