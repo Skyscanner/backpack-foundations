@@ -266,6 +266,12 @@ export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
 export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
 export const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)";
 export const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)";
+export const privateSegmentedControlCanvasDefaultDay = "rgb(239, 243, 248)";
+export const privateSegmentedControlCanvasDefaultNight = "rgb(19, 29, 43)";
+export const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255, 255, 0.1)";
+export const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)";
+export const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)";
+export const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)";
 export const animationDurationXs = 50;
 export const animationDurationSm = 200;
 export const animationDurationBase = 400;
@@ -828,6 +834,14 @@ export const scrimColors = {
 scrimDay,
 scrimNight,
 };
+export const segmentedControlColors = {
+privateSegmentedControlCanvasDefaultDay,
+privateSegmentedControlCanvasDefaultNight,
+privateSegmentedControlSurfaceContrastDay,
+privateSegmentedControlSurfaceContrastNight,
+privateSegmentedControlSurfaceContrastOnDay,
+privateSegmentedControlSurfaceContrastOnNight,
+};
 export const semanticButtonColors = {
 privateButtonLinkOnDisabledForegroundNight,
 privateButtonPrimaryOnPressedBackgroundDay,
@@ -1087,3 +1101,6 @@ export const privateSponsoredBannerBackgroundColor = undefined;
 export const privateNavigationTabHoverColor = undefined;
 export const privateNavigationTabOutlineColor = undefined;
 export const privateCardButtonContainedFillColor = undefined;
+export const privateSegmentedControlCanvasDefaultColor = undefined;
+export const privateSegmentedControlSurfaceContrastColor = undefined;
+export const privateSegmentedControlSurfaceContrastOnColor = undefined;
