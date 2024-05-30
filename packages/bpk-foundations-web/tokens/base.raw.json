@@ -337,7 +337,7 @@
       "value": "2.5rem"
     },
     "FONT_LINE_HEIGHT_XXXXL": {
-      "value": "3rem"
+      "value": "3.5rem"
     },
     "SPACING_XXXL": {
       "value": "4rem"
@@ -354,6 +354,9 @@
     "SPACING_XXXXL": {
       "value": "6rem"
     },
+    "FONT_LINE_HEIGHT_XXXXXL_TIGHT": {
+      "value": "4rem"
+    },
     "FONT_LINE_HEIGHT_XL_TIGHT": {
       "value": "1.75rem"
     },
@@ -367,7 +370,7 @@
       "value": "2rem"
     },
     "FONT_LINE_HEIGHT_XXXXXL": {
-      "value": "4rem"
+      "value": "4.5rem"
     },
     "BREAKPOINT_ABOVE_MOBILE": {
       "value": "32.0625rem"
@@ -2912,7 +2915,7 @@
       "name": "LINE_HEIGHT_XL_TIGHT"
     },
     "LINE_HEIGHT_XXXXXL": {
-      "value": "4rem",
+      "value": "4.5rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXXXL}",
@@ -3143,7 +3146,7 @@
       "name": "LINE_HEIGHT_XXL"
     },
     "LINE_HEIGHT_XXXXL": {
-      "value": "3rem",
+      "value": "3.5rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXXL}",
