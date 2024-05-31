@@ -1547,6 +1547,42 @@
       "name": "privateCardButtonContainedFillNight"
     },
     {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#eff3f8ff",
+      "name": "privateSegmentedControlCanvasDefaultDay"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#131d2bff",
+      "name": "privateSegmentedControlCanvasDefaultNight"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#ffffff1a",
+      "name": "privateSegmentedControlSurfaceContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#131d2bff",
+      "name": "privateSegmentedControlSurfaceContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#024dafff",
+      "name": "privateSegmentedControlSurfaceContrastOnDay"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#054184ff",
+      "name": "privateSegmentedControlSurfaceContrastOnNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -2781,6 +2817,27 @@
       "value": "#ffffffcc",
       "name": "privateCardButtonContainedFillColor",
       "darkValue": "#000000cc"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#eff3f8ff",
+      "name": "privateSegmentedControlCanvasDefaultColor",
+      "darkValue": "#131d2bff"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#ffffff1a",
+      "name": "privateSegmentedControlSurfaceContrastColor",
+      "darkValue": "#131d2bff"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#024dafff",
+      "name": "privateSegmentedControlSurfaceContrastOnColor",
+      "darkValue": "#054184ff"
     }
   ]
 }

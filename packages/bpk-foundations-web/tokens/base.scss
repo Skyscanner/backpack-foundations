@@ -513,6 +513,18 @@ $bpk-private-navigation-tab-outline-night: rgb(255, 255, 255);
 $bpk-private-card-button-contained-fill-day: rgba(255, 255, 255, 0.8);
 /// @group card-button-colors
 $bpk-private-card-button-contained-fill-night: rgba(0, 0, 0, 0.8);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-canvas-default-day: rgb(239, 243, 248);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-canvas-default-night: rgb(19, 29, 43);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-day: rgba(255, 255, 255, 0.1);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-night: rgb(19, 29, 43);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-on-day: rgb(2, 77, 175);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-on-night: rgb(5, 65, 132);
 /// @group animations
 $bpk-duration-xs: 50ms;
 /// @group animations
