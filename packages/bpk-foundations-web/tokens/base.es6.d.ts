@@ -372,6 +372,8 @@ export declare const fontSizeSm = ".875rem" as const;
 export declare const fontSizeXs = ".75rem" as const;
 export declare const letterSpacingTight = "-0.02em" as const;
 export declare const fontSizeLg = "1.25rem" as const;
+export declare const letterSpacingDisplay = "-0.05em" as const;
+export declare const letterSpacingHero = "-0.04em" as const;
 export declare const fontSizeRoot = "100%" as const;
 export declare const fontSize6Xl = "4.75rem" as const;
 export declare const fontFamilyBase = "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" as const;
@@ -645,6 +647,8 @@ privateInfoBannerSuccessNight,
 } as const;
 export declare const letterSpacings = {
 letterSpacingTight,
+letterSpacingDisplay,
+letterSpacingHero,
 } as const;
 export declare const lineColors = {
 lineOnDarkNight,

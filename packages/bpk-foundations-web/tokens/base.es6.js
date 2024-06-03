@@ -372,6 +372,8 @@ export const fontSizeSm = ".875rem";
 export const fontSizeXs = ".75rem";
 export const letterSpacingTight = "-0.02em";
 export const fontSizeLg = "1.25rem";
+export const letterSpacingDisplay = "-0.05em";
+export const letterSpacingHero = "-0.04em";
 export const fontSizeRoot = "100%";
 export const fontSize6Xl = "4.75rem";
 export const fontFamilyBase = "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif";
@@ -645,6 +647,8 @@ privateInfoBannerSuccessNight,
 };
 export const letterSpacings = {
 letterSpacingTight,
+letterSpacingDisplay,
+letterSpacingHero,
 };
 export const lineColors = {
 lineOnDarkNight,
