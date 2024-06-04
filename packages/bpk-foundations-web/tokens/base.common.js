@@ -374,6 +374,8 @@ module.exports = {
   fontSizeXs: ".75rem",
   letterSpacingTight: "-0.02em",
   fontSizeLg: "1.25rem",
+  letterSpacingDisplay: "-0.05em",
+  letterSpacingHero: "-0.04em",
   fontSizeRoot: "100%",
   fontSize6Xl: "4.75rem",
   fontFamilyBase: "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",

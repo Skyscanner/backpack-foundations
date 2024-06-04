@@ -38,6 +38,8 @@
     "FONT_LINE_HEIGHT_7XL": "6rem",
     "FONT_LINE_HEIGHT_8XL": "7.5rem",
     "LETTER_SPACING_TIGHT": "-0.02em",
+    "LETTER_SPACING_HERO": "-0.04em",
+    "LETTER_SPACING_DISPLAY": "-0.05em",
     "SPACING_SM": ".25rem",
     "SPACING_MD": ".5rem",
     "SPACING_BASE": "1rem",

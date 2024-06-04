@@ -309,6 +309,9 @@
     "SPACING_BASE": {
       "value": "1rem"
     },
+    "LETTER_SPACING_DISPLAY": {
+      "value": "-0.05em"
+    },
     "FONT_LINE_HEIGHT_BASE_TIGHT": {
       "value": "1.25rem"
     },
@@ -329,6 +332,9 @@
     },
     "FONT_LINE_HEIGHT_7XL": {
       "value": "6rem"
+    },
+    "LETTER_SPACING_HERO": {
+      "value": "-0.04em"
     },
     "FONT_LINE_HEIGHT_8XL": {
       "value": "7.5rem"
@@ -3064,6 +3070,20 @@
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_LG}",
       "name": "FONT_SIZE_LG"
+    },
+    "LETTER_SPACING_DISPLAY": {
+      "value": "-0.05em",
+      "type": "size",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_DISPLAY}",
+      "name": "LETTER_SPACING_DISPLAY"
+    },
+    "LETTER_SPACING_HERO": {
+      "value": "-0.04em",
+      "type": "size",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_HERO}",
+      "name": "LETTER_SPACING_HERO"
     },
     "FONT_SIZE_ROOT": {
       "value": "100%",

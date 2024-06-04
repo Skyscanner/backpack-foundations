@@ -180,6 +180,16 @@
       "value": "{!LETTER_SPACING_TIGHT}",
       "type": "size",
       "category": "letter-spacings"
+    },
+    "LETTER_SPACING_HERO": {
+      "value": "{!LETTER_SPACING_HERO}",
+      "type": "size",
+      "category": "letter-spacings"
+    },
+    "LETTER_SPACING_DISPLAY": {
+      "value": "{!LETTER_SPACING_DISPLAY}",
+      "type": "size",
+      "category": "letter-spacings"
     }
   }
 }
