@@ -1,3 +1,10 @@
+# 2024-06-04
+
+`@skyscanner/bpk-foundations-web: 18.0.0 => 18.1.0`
+
+**Added:**
+  - Added new `letter-spacing-hero` and `letter-spacing-display` tokens.
+
 # 2024-05-31
 
 `@skyscanner/bpk-foundations-web: 17.14.0 => 18.0.0`
