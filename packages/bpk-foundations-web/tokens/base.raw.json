@@ -309,11 +309,14 @@
     "SPACING_BASE": {
       "value": "1rem"
     },
+    "LETTER_SPACING_DISPLAY": {
+      "value": "-0.05em"
+    },
     "FONT_LINE_HEIGHT_BASE_TIGHT": {
       "value": "1.25rem"
     },
     "FONT_LINE_HEIGHT_6XL": {
-      "value": "5.25rem"
+      "value": "4.75rem"
     },
     "FONT_LINE_HEIGHT_BASE": {
       "value": "1.5rem"
@@ -329,6 +332,9 @@
     },
     "FONT_LINE_HEIGHT_7XL": {
       "value": "6rem"
+    },
+    "LETTER_SPACING_HERO": {
+      "value": "-0.04em"
     },
     "FONT_LINE_HEIGHT_8XL": {
       "value": "7.5rem"
@@ -367,7 +373,7 @@
       "value": "2rem"
     },
     "FONT_LINE_HEIGHT_XXXXXL": {
-      "value": "4.5rem"
+      "value": "4rem"
     },
     "BREAKPOINT_ABOVE_MOBILE": {
       "value": "32.0625rem"
@@ -449,6 +455,9 @@
     },
     "ZINDEX_SCRIM": {
       "value": "1000"
+    },
+    "FONT_WEIGHT_LIGHT": {
+      "value": "300"
     },
     "BORDER_SIZE_XL": {
       "value": "3px"
@@ -2257,6 +2266,48 @@
       "originalValue": "{!BLACK_ALPHA_80}",
       "name": "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT"
     },
+    "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_DAY": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(239, 243, 248)",
+      "originalValue": "{!GREY_10}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_DAY"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_NIGHT": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(19, 29, 43)",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_NIGHT"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_DAY": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgba(255, 255, 255, 0.1)",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_DAY"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(19, 29, 43)",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_NIGHT"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_DAY": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(2, 77, 175)",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_DAY"
+    },
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_NIGHT": {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "rgb(5, 65, 132)",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_NIGHT"
+    },
     "DURATION_XS": {
       "type": "duration",
       "category": "animations",
@@ -2909,7 +2960,7 @@
       "name": "LINE_HEIGHT_XL_TIGHT"
     },
     "LINE_HEIGHT_XXXXXL": {
-      "value": "4.5rem",
+      "value": "4rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_XXXXXL}",
@@ -2937,10 +2988,10 @@
       "name": "FONT_SIZE_XL"
     },
     "FONT_FAMILY_LARKEN": {
-      "value": "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif",
+      "value": "'Larken', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif",
       "type": "font",
       "category": "typesettings",
-      "originalValue": "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif",
+      "originalValue": "'Larken', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif",
       "name": "FONT_FAMILY_LARKEN"
     },
     "FONT_SIZE_XXXXXL": {
@@ -3020,6 +3071,20 @@
       "originalValue": "{!FONT_SIZE_LG}",
       "name": "FONT_SIZE_LG"
     },
+    "LETTER_SPACING_DISPLAY": {
+      "value": "-0.05em",
+      "type": "size",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_DISPLAY}",
+      "name": "LETTER_SPACING_DISPLAY"
+    },
+    "LETTER_SPACING_HERO": {
+      "value": "-0.04em",
+      "type": "size",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_HERO}",
+      "name": "LETTER_SPACING_HERO"
+    },
     "FONT_SIZE_ROOT": {
       "value": "100%",
       "type": "font-size",
@@ -3070,7 +3135,7 @@
       "name": "FONT_SIZE_7XL"
     },
     "LINE_HEIGHT_6XL": {
-      "value": "5.25rem",
+      "value": "4.75rem",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!FONT_LINE_HEIGHT_6XL}",
@@ -3117,6 +3182,13 @@
       "category": "typesettings",
       "originalValue": "{!FONT_SIZE_BASE}",
       "name": "FONT_SIZE_BASE"
+    },
+    "FONT_WEIGHT_LIGHT": {
+      "value": "300",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_LIGHT}",
+      "name": "FONT_WEIGHT_LIGHT"
     },
     "LINE_HEIGHT_8XL": {
       "value": "7.5rem",

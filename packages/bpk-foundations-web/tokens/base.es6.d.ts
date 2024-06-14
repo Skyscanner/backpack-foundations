@@ -265,6 +265,12 @@ export declare const privateNavigationTabOutlineDay = "rgb(193, 199, 207)" as co
 export declare const privateNavigationTabOutlineNight = "rgb(255, 255, 255)" as const;
 export declare const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)" as const;
 export declare const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)" as const;
+export declare const privateSegmentedControlCanvasDefaultDay = "rgb(239, 243, 248)" as const;
+export declare const privateSegmentedControlCanvasDefaultNight = "rgb(19, 29, 43)" as const;
+export declare const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255, 255, 0.1)" as const;
+export declare const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)" as const;
+export declare const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)" as const;
+export declare const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)" as const;
 export declare const durationXs = "50ms" as const;
 export declare const durationSm = "200ms" as const;
 export declare const durationBase = "400ms" as const;
@@ -350,11 +356,11 @@ export declare const spacingNone = "0" as const;
 export declare const spacingIconText = ".5rem" as const;
 export declare const fontWeightBook = "400" as const;
 export declare const lineHeightXlTight = "1.75rem" as const;
-export declare const lineHeightXxxxxl = "4.5rem" as const;
+export declare const lineHeightXxxxxl = "4rem" as const;
 export declare const lineHeightXxxl = "3rem" as const;
 export declare const lineHeightXl = "2rem" as const;
 export declare const fontSizeXl = "1.5rem" as const;
-export declare const fontFamilyLarken = "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif" as const;
+export declare const fontFamilyLarken = "'Larken', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif" as const;
 export declare const fontSizeXxxxxl = "4rem" as const;
 export declare const fontSizeXxxl = "2.5rem" as const;
 export declare const lineHeightSm = "1.25rem" as const;
@@ -366,6 +372,8 @@ export declare const fontSizeSm = ".875rem" as const;
 export declare const fontSizeXs = ".75rem" as const;
 export declare const letterSpacingTight = "-0.02em" as const;
 export declare const fontSizeLg = "1.25rem" as const;
+export declare const letterSpacingDisplay = "-0.05em" as const;
+export declare const letterSpacingHero = "-0.04em" as const;
 export declare const fontSizeRoot = "100%" as const;
 export declare const fontSize6Xl = "4.75rem" as const;
 export declare const fontFamilyBase = "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" as const;
@@ -373,13 +381,14 @@ export declare const fontWeightBold = "700" as const;
 export declare const fontColorBase = "rgb(22, 22, 22)" as const;
 export declare const lineHeightBaseTight = "1.25rem" as const;
 export declare const fontSize7Xl = "6rem" as const;
-export declare const lineHeight6Xl = "5.25rem" as const;
+export declare const lineHeight6Xl = "4.75rem" as const;
 export declare const fontSize8Xl = "7.5rem" as const;
 export declare const fontSizeXxl = "2rem" as const;
 export declare const fontSizeXxxxl = "3rem" as const;
 export declare const lineHeightBase = "1.5rem" as const;
 export declare const lineHeight7Xl = "6rem" as const;
 export declare const fontSizeBase = "1rem" as const;
+export declare const fontWeightLight = "300" as const;
 export declare const lineHeight8Xl = "7.5rem" as const;
 export declare const lineHeightXxl = "2.5rem" as const;
 export declare const lineHeightXxxxl = "3.5rem" as const;
@@ -596,6 +605,7 @@ export declare const fontWeights = {
 fontWeightBook,
 fontWeightBlack,
 fontWeightBold,
+fontWeightLight,
 } as const;
 export declare const forms = {
 inputLargeHeight,
@@ -637,6 +647,8 @@ privateInfoBannerSuccessNight,
 } as const;
 export declare const letterSpacings = {
 letterSpacingTight,
+letterSpacingDisplay,
+letterSpacingHero,
 } as const;
 export declare const lineColors = {
 lineOnDarkNight,
@@ -717,6 +729,14 @@ privateBarTrackOnContrastNight,
 export declare const scrimColors = {
 scrimDay,
 scrimNight,
+} as const;
+export declare const segmentedControlColors = {
+privateSegmentedControlCanvasDefaultDay,
+privateSegmentedControlCanvasDefaultNight,
+privateSegmentedControlSurfaceContrastDay,
+privateSegmentedControlSurfaceContrastNight,
+privateSegmentedControlSurfaceContrastOnDay,
+privateSegmentedControlSurfaceContrastOnNight,
 } as const;
 export declare const skeletonColors = {
 privateSkeletonShimmerStartEndDay,

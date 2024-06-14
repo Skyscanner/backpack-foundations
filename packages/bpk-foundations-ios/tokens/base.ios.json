@@ -2820,6 +2820,48 @@
       "name": "privateCardButtonContainedFillNight"
     },
     {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#eff3f8ff",
+      "originalValue": "{!GREY_10}",
+      "name": "privateSegmentedControlCanvasDefaultDay"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#131d2bff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "privateSegmentedControlCanvasDefaultNight"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "privateSegmentedControlSurfaceContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#131d2bff",
+      "originalValue": "{!NIGHT_GREY_20}",
+      "name": "privateSegmentedControlSurfaceContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#024dafff",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "privateSegmentedControlSurfaceContrastOnDay"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#054184ff",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "privateSegmentedControlSurfaceContrastOnNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -4113,6 +4155,33 @@
       "name": "privateCardButtonContainedFillColor",
       "darkValue": "#000000cc",
       "originalDarkValue": "{!BLACK_ALPHA_80}"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#eff3f8ff",
+      "originalValue": "{!GREY_10}",
+      "name": "privateSegmentedControlCanvasDefaultColor",
+      "darkValue": "#131d2bff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "privateSegmentedControlSurfaceContrastColor",
+      "darkValue": "#131d2bff",
+      "originalDarkValue": "{!NIGHT_GREY_20}"
+    },
+    {
+      "type": "color",
+      "category": "segmented-control-colors",
+      "value": "#024dafff",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "privateSegmentedControlSurfaceContrastOnColor",
+      "darkValue": "#054184ff",
+      "originalDarkValue": "{!NIGHT_SKY}"
     }
   ]
 }

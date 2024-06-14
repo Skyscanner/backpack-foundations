@@ -265,6 +265,12 @@ export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
 export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
 export const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)";
 export const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)";
+export const privateSegmentedControlCanvasDefaultDay = "rgb(239, 243, 248)";
+export const privateSegmentedControlCanvasDefaultNight = "rgb(19, 29, 43)";
+export const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255, 255, 0.1)";
+export const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)";
+export const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)";
+export const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)";
 export const durationXs = "50ms";
 export const durationSm = "200ms";
 export const durationBase = "400ms";
@@ -350,11 +356,11 @@ export const spacingNone = "0";
 export const spacingIconText = ".5rem";
 export const fontWeightBook = "400";
 export const lineHeightXlTight = "1.75rem";
-export const lineHeightXxxxxl = "4.5rem";
+export const lineHeightXxxxxl = "4rem";
 export const lineHeightXxxl = "3rem";
 export const lineHeightXl = "2rem";
 export const fontSizeXl = "1.5rem";
-export const fontFamilyLarken = "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif";
+export const fontFamilyLarken = "'Larken', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif";
 export const fontSizeXxxxxl = "4rem";
 export const fontSizeXxxl = "2.5rem";
 export const lineHeightSm = "1.25rem";
@@ -366,6 +372,8 @@ export const fontSizeSm = ".875rem";
 export const fontSizeXs = ".75rem";
 export const letterSpacingTight = "-0.02em";
 export const fontSizeLg = "1.25rem";
+export const letterSpacingDisplay = "-0.05em";
+export const letterSpacingHero = "-0.04em";
 export const fontSizeRoot = "100%";
 export const fontSize6Xl = "4.75rem";
 export const fontFamilyBase = "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif";
@@ -373,13 +381,14 @@ export const fontWeightBold = "700";
 export const fontColorBase = "rgb(22, 22, 22)";
 export const lineHeightBaseTight = "1.25rem";
 export const fontSize7Xl = "6rem";
-export const lineHeight6Xl = "5.25rem";
+export const lineHeight6Xl = "4.75rem";
 export const fontSize8Xl = "7.5rem";
 export const fontSizeXxl = "2rem";
 export const fontSizeXxxxl = "3rem";
 export const lineHeightBase = "1.5rem";
 export const lineHeight7Xl = "6rem";
 export const fontSizeBase = "1rem";
+export const fontWeightLight = "300";
 export const lineHeight8Xl = "7.5rem";
 export const lineHeightXxl = "2.5rem";
 export const lineHeightXxxxl = "3.5rem";
@@ -596,6 +605,7 @@ export const fontWeights = {
 fontWeightBook,
 fontWeightBlack,
 fontWeightBold,
+fontWeightLight,
 };
 export const forms = {
 inputLargeHeight,
@@ -637,6 +647,8 @@ privateInfoBannerSuccessNight,
 };
 export const letterSpacings = {
 letterSpacingTight,
+letterSpacingDisplay,
+letterSpacingHero,
 };
 export const lineColors = {
 lineOnDarkNight,
@@ -717,6 +729,14 @@ privateBarTrackOnContrastNight,
 export const scrimColors = {
 scrimDay,
 scrimNight,
+};
+export const segmentedControlColors = {
+privateSegmentedControlCanvasDefaultDay,
+privateSegmentedControlCanvasDefaultNight,
+privateSegmentedControlSurfaceContrastDay,
+privateSegmentedControlSurfaceContrastNight,
+privateSegmentedControlSurfaceContrastOnDay,
+privateSegmentedControlSurfaceContrastOnNight,
 };
 export const skeletonColors = {
 privateSkeletonShimmerStartEndDay,

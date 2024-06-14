@@ -513,6 +513,18 @@ $bpk-private-navigation-tab-outline-night: rgb(255, 255, 255);
 $bpk-private-card-button-contained-fill-day: rgba(255, 255, 255, 0.8);
 /// @group card-button-colors
 $bpk-private-card-button-contained-fill-night: rgba(0, 0, 0, 0.8);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-canvas-default-day: rgb(239, 243, 248);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-canvas-default-night: rgb(19, 29, 43);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-day: rgba(255, 255, 255, 0.1);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-night: rgb(19, 29, 43);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-on-day: rgb(2, 77, 175);
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-on-night: rgb(5, 65, 132);
 /// @group animations
 $bpk-duration-xs: 50ms;
 /// @group animations
@@ -700,7 +712,7 @@ $bpk-font-weight-book: 400;
 /// @group typesettings
 $bpk-line-height-xl-tight: 1.75rem;
 /// @group typesettings
-$bpk-line-height-xxxxxl: 4.5rem;
+$bpk-line-height-xxxxxl: 4rem;
 /// @group typesettings
 $bpk-line-height-xxxl: 3rem;
 /// @group typesettings
@@ -708,7 +720,7 @@ $bpk-line-height-xl: 2rem;
 /// @group typesettings
 $bpk-font-size-xl: 1.5rem;
 /// @group typesettings
-$bpk-font-family-larken: 'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif;
+$bpk-font-family-larken: 'Larken', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
 /// @group typesettings
 $bpk-font-size-xxxxxl: 4rem;
 /// @group typesettings
@@ -731,6 +743,10 @@ $bpk-font-size-xs: .75rem;
 $bpk-letter-spacing-tight: -0.02em;
 /// @group typesettings
 $bpk-font-size-lg: 1.25rem;
+/// @group letter-spacings
+$bpk-letter-spacing-display: -0.05em;
+/// @group letter-spacings
+$bpk-letter-spacing-hero: -0.04em;
 /// @group typesettings
 $bpk-font-size-root: 100%;
 /// @group typesettings
@@ -746,7 +762,7 @@ $bpk-line-height-base-tight: 1.25rem;
 /// @group typesettings
 $bpk-font-size-7-xl: 6rem;
 /// @group typesettings
-$bpk-line-height-6-xl: 5.25rem;
+$bpk-line-height-6-xl: 4.75rem;
 /// @group typesettings
 $bpk-font-size-8-xl: 7.5rem;
 /// @group typesettings
@@ -759,6 +775,8 @@ $bpk-line-height-base: 1.5rem;
 $bpk-line-height-7-xl: 6rem;
 /// @group typesettings
 $bpk-font-size-base: 1rem;
+/// @group font-weights
+$bpk-font-weight-light: 300;
 /// @group typesettings
 $bpk-line-height-8-xl: 7.5rem;
 /// @group typesettings

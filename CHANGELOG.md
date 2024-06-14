@@ -1,3 +1,50 @@
+# 2024-06-04
+
+`@skyscanner/bpk-foundations-web: 18.0.0 => 18.1.0`
+
+**Added:**
+  - Added new `letter-spacing-hero` and `letter-spacing-display` tokens.
+
+# 2024-05-31
+
+`@skyscanner/bpk-foundations-web: 17.14.0 => 18.0.0`
+
+**Breaking:**
+  - Updated typography tokens to support updated typography
+    - Changed `$bpk-line-height-xxxxxl` from `4.5rem` to `4rem` for Hero 4 update
+    - Changed `$bpk-line-height-6-xl` from `5.25rem` to `4.75rem` for Hero 3 update
+
+**Added:**
+  - Added tokens for BpkSegmentedControl
+
+`@skyscanner/bpk-foundations-android: 7.11.0 => 7.12.0`
+`@skyscanner/bpk-foundations-common: 6.11.0 => 6.12.0`
+`@skyscanner/bpk-foundations-ios: 6.11.0 => 6.12.0`
+`@skyscanner/bpk-foundations-react-native: 4.11.0 => 4.12.0`
+
+**Added:**
+  - Added tokens for BpkSegmentedControl
+
+
+# 2024-05-20
+
+**Added:**
+`@skyscanner/bpk-foundations-web: 17.13.0 => 17.14.0`
+  - Add Noto in font-family as fallback for the Larken font
+
+
+# 2024-05-14
+
+**Added:**
+`@skyscanner/bpk-foundations-web: 17.12.0 => 17.13.0`
+  - Adding a new token for font-weight of `300` as `$bpk-font-weight-light`
+
+# 2024-05-13
+
+**Added:**
+`@skyscanner/bpk-foundations-web: 17.11.0 => 17.12.0`
+  - Adding new Larken font-family to support the new Editorial font.
+
 # 2024-04-26
 **Added:**
 `@skyscanner/bpk-foundations-web:`

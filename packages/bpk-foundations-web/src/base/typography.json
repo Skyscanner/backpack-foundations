@@ -1,7 +1,5 @@
 {
-  "imports": [
-    "./aliases.json"
-  ],
+  "imports": ["./aliases.json"],
   "props": {
     "FONT_FAMILY_BASE": {
       "value": "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
@@ -9,7 +7,7 @@
       "category": "typesettings"
     },
     "FONT_FAMILY_LARKEN": {
-      "value": "'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif",
+      "value": "'Larken', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif",
       "type": "font",
       "category": "typesettings"
     },
@@ -173,8 +171,23 @@
       "type": "string",
       "category": "font-weights"
     },
+    "FONT_WEIGHT_LIGHT": {
+      "value": "{!FONT_WEIGHT_LIGHT}",
+      "type": "string",
+      "category": "font-weights"
+    },
     "LETTER_SPACING_TIGHT": {
       "value": "{!LETTER_SPACING_TIGHT}",
+      "type": "size",
+      "category": "letter-spacings"
+    },
+    "LETTER_SPACING_HERO": {
+      "value": "{!LETTER_SPACING_HERO}",
+      "type": "size",
+      "category": "letter-spacings"
+    },
+    "LETTER_SPACING_DISPLAY": {
+      "value": "{!LETTER_SPACING_DISPLAY}",
       "type": "size",
       "category": "letter-spacings"
     }

@@ -513,6 +513,18 @@ $bpk-private-navigation-tab-outline-night: rgb(255, 255, 255) !default;
 $bpk-private-card-button-contained-fill-day: rgba(255, 255, 255, 0.8) !default;
 /// @group card-button-colors
 $bpk-private-card-button-contained-fill-night: rgba(0, 0, 0, 0.8) !default;
+/// @group segmented-control-colors
+$bpk-private-segmented-control-canvas-default-day: rgb(239, 243, 248) !default;
+/// @group segmented-control-colors
+$bpk-private-segmented-control-canvas-default-night: rgb(19, 29, 43) !default;
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-day: rgba(255, 255, 255, 0.1) !default;
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-night: rgb(19, 29, 43) !default;
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-on-day: rgb(2, 77, 175) !default;
+/// @group segmented-control-colors
+$bpk-private-segmented-control-surface-contrast-on-night: rgb(5, 65, 132) !default;
 /// @group animations
 $bpk-duration-xs: 50ms !default;
 /// @group animations
@@ -700,7 +712,7 @@ $bpk-font-weight-book: 400 !default;
 /// @group typesettings
 $bpk-line-height-xl-tight: 1.75rem !default;
 /// @group typesettings
-$bpk-line-height-xxxxxl: 4.5rem !default;
+$bpk-line-height-xxxxxl: 4rem !default;
 /// @group typesettings
 $bpk-line-height-xxxl: 3rem !default;
 /// @group typesettings
@@ -708,7 +720,7 @@ $bpk-line-height-xl: 2rem !default;
 /// @group typesettings
 $bpk-font-size-xl: 1.5rem !default;
 /// @group typesettings
-$bpk-font-family-larken: 'Larken', 'Noto Sans', 'Noto Sans JP', sans-serif !default;
+$bpk-font-family-larken: 'Larken', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', sans-serif !default;
 /// @group typesettings
 $bpk-font-size-xxxxxl: 4rem !default;
 /// @group typesettings
@@ -731,6 +743,10 @@ $bpk-font-size-xs: .75rem !default;
 $bpk-letter-spacing-tight: -0.02em !default;
 /// @group typesettings
 $bpk-font-size-lg: 1.25rem !default;
+/// @group letter-spacings
+$bpk-letter-spacing-display: -0.05em !default;
+/// @group letter-spacings
+$bpk-letter-spacing-hero: -0.04em !default;
 /// @group typesettings
 $bpk-font-size-root: 100% !default;
 /// @group typesettings
@@ -746,7 +762,7 @@ $bpk-line-height-base-tight: 1.25rem !default;
 /// @group typesettings
 $bpk-font-size-7-xl: 6rem !default;
 /// @group typesettings
-$bpk-line-height-6-xl: 5.25rem !default;
+$bpk-line-height-6-xl: 4.75rem !default;
 /// @group typesettings
 $bpk-font-size-8-xl: 7.5rem !default;
 /// @group typesettings
@@ -759,6 +775,8 @@ $bpk-line-height-base: 1.5rem !default;
 $bpk-line-height-7-xl: 6rem !default;
 /// @group typesettings
 $bpk-font-size-base: 1rem !default;
+/// @group font-weights
+$bpk-font-weight-light: 300 !default;
 /// @group typesettings
 $bpk-line-height-8-xl: 7.5rem !default;
 /// @group typesettings

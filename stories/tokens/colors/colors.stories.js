@@ -23,6 +23,7 @@ import {
   statusColors,
   surfaceColors,
   textColors,
+  segmentedControlColors,
 } from '../../../packages/bpk-foundations-web/tokens/base.es6';
 
 import createColorContainer from './colors';
@@ -58,6 +59,11 @@ LineColor.args = {
 export const MarcommsColor = Template.bind({});
 MarcommsColor.args = {
   colorGroup: marcommsColors,
+};
+
+export const SegmentedControlColors = Template.bind({});
+SegmentedControlColors.args = {
+  colorGroup: segmentedControlColors,
 };
 
 export const StatusColor = Template.bind({});
