@@ -2527,9 +2527,9 @@
     },
     "BREAKPOINT_MOBILE_MARGIN": {
       "category": "breakpoints",
-      "value": "1.5rem",
+      "value": "1rem",
       "type": "size",
-      "originalValue": "{!SPACING_LG}",
+      "originalValue": "{!SPACING_BASE}",
       "name": "BREAKPOINT_MOBILE_MARGIN"
     },
     "BREAKPOINT_QUERY_SMALL_MOBILE": {
