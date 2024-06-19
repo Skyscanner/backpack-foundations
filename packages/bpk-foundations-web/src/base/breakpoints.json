@@ -71,7 +71,7 @@
       "type": "size"
     },
     "BREAKPOINT_MOBILE_MARGIN": {
-      "value": "{!SPACING_LG}",
+      "value": "{!SPACING_BASE}",
       "type": "size"
     },
     "BREAKPOINT_SMALL_TABLET_MARGIN": {
