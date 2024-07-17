@@ -15,8 +15,10 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "bootstrap": "lerna bootstrap --no-ci",
     "build": "npm run build:tokens && lerna run build",
     "build:tokens": "lerna run tokens",
     "clean": "npm run clean:lerna && npm run clean:node_modules",
@@ -28,10 +30,9 @@
     "lint:js:fix": "eslint . --ext js,jsx --fix",
     "lint:scss": "stylelint '{packages,stories/**}/**/*.scss'",
     "lint:scss:fix": "stylelint '{packages,stories/**}/**/*.scss' --fix",
-    "postinstall": "npm run bootstrap",
     "preinstall": "npx ensure-node-env@2.0.0",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\"",
-    "release": "lerna bootstrap && npm run build && npm test && lerna publish",
+    "release": "npm run build && npm test && lerna publish",
     "test": "npm run lint && npm run jest",
     "start": "npm run build && npm run storybook",
     "storybook": "NODE_OPTIONS=--openssl-legacy-provider storybook dev -p 6006",
