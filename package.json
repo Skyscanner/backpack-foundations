@@ -67,7 +67,7 @@
     "babel-loader": "^8.3.0",
     "css-loader": "^6.10.0",
     "del": "^5.0.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-jsonlint": "^1.2.2",
     "gulp-theo": "^2.0.0",
     "jest": "^24.8.0",
