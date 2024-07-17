@@ -51,14 +51,14 @@ const PLATFORM_FORMATS = {
   ios: [
     'ios.json',
     'react.native.ios.js',
-    { format: 'IOS_react.native.es6.js', nest: true },
-    { format: 'IOS_react.native.common.js', nest: true },
+    { format: 'react.native.es6.js', nest: true },
+    { format: 'react.native.common.js', nest: true },
   ],
   android: [
     'android.xml',
     'react.native.android.js',
-    { format: 'ANDROID_react.native.es6.js', nest: true },
-    { format: 'ANDROID_react.native.common.js', nest: true },
+    { format: 'react.native.es6.js', nest: true },
+    { format: 'react.native.common.js', nest: true },
   ],
 };
 
@@ -81,13 +81,10 @@ theo.registerFormat('raw.ios.json', bpkRawJsonIos);
 theo.registerFormat('raw.android.json', bpkRawJsonAndroid);
 theo.registerFormat('react.native.ios.js', bpkReactNativeEs6JsIos);
 theo.registerFormat('react.native.android.js', bpkReactNativeEs6JsAndroid);
-theo.registerFormat('ANDROID_react.native.es6.js', bpkReactNativeEs6JsAndroid);
-theo.registerFormat(
-  'ANDROID_react.native.common.js',
-  bpkReactNativeCommonJsAndroid,
-);
-theo.registerFormat('IOS_react.native.es6.js', bpkReactNativeEs6JsIos);
-theo.registerFormat('IOS_react.native.common.js', bpkReactNativeCommonJsIos);
+theo.registerFormat('react.native.es6.js', bpkReactNativeEs6JsAndroid);
+theo.registerFormat('react.native.common.js', bpkReactNativeCommonJsAndroid);
+theo.registerFormat('react.native.es6.js', bpkReactNativeEs6JsIos);
+theo.registerFormat('react.native.common.js', bpkReactNativeCommonJsIos);
 
 theo.registerTransform('ios', ['color/hex8rgba']);
 theo.registerTransform('android', ['color/hex8rgba']);
