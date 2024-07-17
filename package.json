@@ -65,7 +65,7 @@
     "@storybook/html": "7.6.17",
     "@storybook/html-webpack5": "^7.6.17",
     "babel-loader": "^8.3.0",
-    "css-loader": "^6.10.0",
+    "css-loader": "^7.1.2",
     "del": "^5.0.0",
     "gulp": "^5.0.0",
     "gulp-jsonlint": "^1.2.2",
