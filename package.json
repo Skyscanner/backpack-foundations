@@ -59,7 +59,7 @@
     "@babel/core": "^7.24.8",
     "@babel/preset-env": "^7.24.5",
     "@babel/preset-react": "^7.24.1",
-    "@babel/register": "^7.23.7",
+    "@babel/register": "^7.24.6",
     "@skyscanner/stylelint-config-skyscanner": "^6.0.0",
     "@storybook/addon-a11y": "7.6.17",
     "@storybook/addon-viewport": "7.6.17",
