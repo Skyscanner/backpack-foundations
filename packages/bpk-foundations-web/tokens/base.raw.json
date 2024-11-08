@@ -990,6 +990,13 @@
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_ELEVATED_NIGHT"
     },
+    "SURFACE_LOW_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgb(36, 51, 70)",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "SURFACE_LOW_CONTRAST_NIGHT"
+    },
     "SURFACE_SUBTLE_NIGHT": {
       "type": "color",
       "category": "surface-colors",
@@ -1010,6 +1017,13 @@
       "value": "rgb(36, 51, 70)",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
+    },
+    "SURFACE_LOW_CONTRAST_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgb(239, 243, 248)",
+      "originalValue": "{!GREY_10}",
+      "name": "SURFACE_LOW_CONTRAST_DAY"
     },
     "SURFACE_SUBTLE_DAY": {
       "type": "color",
@@ -1298,6 +1312,13 @@
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_LIGHT_COLOR"
     },
+    "OVERLAY_NIGHT": {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "OVERLAY_NIGHT"
+    },
     "BACKGROUND_DARK_COLOR": {
       "type": "color",
       "category": "colors",
@@ -1313,6 +1334,13 @@
       "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR"
+    },
+    "OVERLAY_DAY": {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "rgba(0, 0, 0, 0.2)",
+      "originalValue": "{!BLACK_ALPHA_20}",
+      "name": "OVERLAY_DAY"
     },
     "LINE_NIGHT": {
       "type": "color",

@@ -88,9 +88,11 @@ export const surfaceDefaultDay = "rgb(255, 255, 255)";
 export const surfaceContrastNight = "rgb(1, 9, 19)";
 export const surfaceContrastDay = "rgb(5, 32, 60)";
 export const surfaceElevatedNight = "rgb(36, 51, 70)";
+export const surfaceLowContrastNight = "rgb(36, 51, 70)";
 export const surfaceSubtleNight = "rgb(36, 51, 70)";
 export const surfaceElevatedDay = "rgb(255, 255, 255)";
 export const surfaceHighlightNight = "rgb(36, 51, 70)";
+export const surfaceLowContrastDay = "rgb(239, 243, 248)";
 export const surfaceSubtleDay = "rgb(227, 240, 255)";
 export const surfaceHighlightDay = "rgb(224, 228, 233)";
 export const textOnDarkDay = "rgb(255, 255, 255)";
@@ -130,8 +132,10 @@ export const backgroundElevation01DarkColor = "rgb(19, 29, 43)";
 export const lineOnDarkDay = "rgba(255, 255, 255, 0.5)";
 export const backgroundAlternativeSecondaryDarkColor = "rgb(1, 9, 19)";
 export const backgroundLightColor = "rgb(255, 255, 255)";
+export const overlayNight = "rgba(255, 255, 255, 0.8)";
 export const backgroundDarkColor = "rgb(1, 9, 19)";
 export const backgroundAlternativeSecondaryLightColor = "rgb(255, 255, 255)";
+export const overlayDay = "rgba(0, 0, 0, 0.2)";
 export const lineNight = "rgb(68, 80, 95)";
 export const colorSystemGreen = "rgb(12, 131, 138)";
 export const backgroundElevation01LightColor = "rgb(255, 255, 255)";
@@ -790,6 +794,10 @@ privateNavigationTabHoverNight,
 privateNavigationTabOutlineDay,
 privateNavigationTabOutlineNight,
 };
+export const overlayColors = {
+overlayNight,
+overlayDay,
+};
 export const radii = {
 borderRadiusXs,
 borderRadiusSm,
@@ -923,9 +931,11 @@ surfaceDefaultDay,
 surfaceContrastNight,
 surfaceContrastDay,
 surfaceElevatedNight,
+surfaceLowContrastNight,
 surfaceSubtleNight,
 surfaceElevatedDay,
 surfaceHighlightNight,
+surfaceLowContrastDay,
 surfaceSubtleDay,
 surfaceHighlightDay,
 };
@@ -1023,6 +1033,7 @@ export const surfaceHeroColor = undefined;
 export const surfaceDefaultColor = undefined;
 export const surfaceContrastColor = undefined;
 export const surfaceElevatedColor = undefined;
+export const surfaceLowContrastColor = undefined;
 export const surfaceSubtleColor = undefined;
 export const surfaceHighlightColor = undefined;
 export const textOnDarkColor = undefined;
@@ -1035,6 +1046,7 @@ export const textErrorColor = undefined;
 export const textPrimaryInverseColor = undefined;
 export const scrimColor = undefined;
 export const lineOnDarkColor = undefined;
+export const overlayColor = undefined;
 export const privateInfoBannerDefaultColor = undefined;
 export const privateInfoBannerOnContrastColor = undefined;
 export const privateInfoBannerSuccessColor = undefined;

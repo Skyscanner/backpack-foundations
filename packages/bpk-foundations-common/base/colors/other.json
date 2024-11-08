@@ -55,6 +55,16 @@
       "category": "scrim-colors",
       "value": "{!BLACK_ALPHA_70}"
     },
+    "OVERLAY_DAY": {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "{!BLACK_ALPHA_20}"
+    },
+    "OVERLAY_NIGHT": {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "{!WHITE_ALPHA_80}"
+    },
     "PRIMARY_LIGHT_COLOR": {
       "type": "color",
       "category": "colors",

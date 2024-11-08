@@ -460,6 +460,12 @@
       "type": "color",
       "category": "surface-colors",
       "value": "#243346ff",
+      "name": "surfaceLowContrastNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#243346ff",
       "name": "surfaceSubtleNight"
     },
     {
@@ -473,6 +479,12 @@
       "category": "surface-colors",
       "value": "#243346ff",
       "name": "surfaceHighlightNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#eff3f8ff",
+      "name": "surfaceLowContrastDay"
     },
     {
       "type": "color",
@@ -716,6 +728,12 @@
     },
     {
       "type": "color",
+      "category": "overlay-colors",
+      "value": "#ffffffcc",
+      "name": "overlayNight"
+    },
+    {
+      "type": "color",
       "category": "colors",
       "value": "#010913ff",
       "deprecated": true,
@@ -727,6 +745,12 @@
       "value": "#ffffffff",
       "deprecated": true,
       "name": "backgroundAlternativeSecondaryLightColor"
+    },
+    {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "#00000033",
+      "name": "overlayDay"
     },
     {
       "type": "color",
@@ -2280,6 +2304,13 @@
     {
       "type": "color",
       "category": "surface-colors",
+      "value": "#eff3f8ff",
+      "name": "surfaceLowContrastColor",
+      "darkValue": "#243346ff"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
       "value": "#e3f0ffff",
       "name": "surfaceSubtleColor",
       "darkValue": "#243346ff"
@@ -2435,6 +2466,13 @@
       "deprecated": true,
       "name": "backgroundColor",
       "darkValue": "#010913ff"
+    },
+    {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "#00000033",
+      "name": "overlayColor",
+      "darkValue": "#ffffffcc"
     },
     {
       "type": "color",

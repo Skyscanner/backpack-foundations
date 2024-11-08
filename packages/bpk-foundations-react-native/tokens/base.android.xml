@@ -70,9 +70,11 @@
   <color name="SURFACE_CONTRAST_NIGHT" category="surface-colors">#010913ff</color>
   <color name="SURFACE_CONTRAST_DAY" category="surface-colors">#05203cff</color>
   <color name="SURFACE_ELEVATED_NIGHT" category="surface-colors">#243346ff</color>
+  <color name="SURFACE_LOW_CONTRAST_NIGHT" category="surface-colors">#243346ff</color>
   <color name="SURFACE_SUBTLE_NIGHT" category="surface-colors">#243346ff</color>
   <color name="SURFACE_ELEVATED_DAY" category="surface-colors">#ffffffff</color>
   <color name="SURFACE_HIGHLIGHT_NIGHT" category="surface-colors">#243346ff</color>
+  <color name="SURFACE_LOW_CONTRAST_DAY" category="surface-colors">#eff3f8ff</color>
   <color name="SURFACE_SUBTLE_DAY" category="surface-colors">#e3f0ffff</color>
   <color name="SURFACE_HIGHLIGHT_DAY" category="surface-colors">#e0e4e9ff</color>
   <color name="TEXT_ON_DARK_DAY" category="text-colors">#ffffffff</color>
@@ -112,8 +114,10 @@
   <color name="LINE_ON_DARK_DAY" category="line-colors">#ffffff80</color>
   <color name="BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR" category="colors">#010913ff</color>
   <color name="BACKGROUND_LIGHT_COLOR" category="colors">#ffffffff</color>
+  <color name="OVERLAY_NIGHT" category="overlay-colors">#ffffffcc</color>
   <color name="BACKGROUND_DARK_COLOR" category="colors">#010913ff</color>
   <color name="BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR" category="colors">#ffffffff</color>
+  <color name="OVERLAY_DAY" category="overlay-colors">#00000033</color>
   <color name="LINE_NIGHT" category="line-colors">#44505fff</color>
   <color name="COLOR_SYSTEM_GREEN" category="colors">#0c838aff</color>
   <color name="BACKGROUND_ELEVATION_01_LIGHT_COLOR" category="text-colors">#ffffffff</color>
