@@ -1,9 +1,18 @@
-# 2024-06-19
+# 2024-11-08
 
-`@skyscanner/bpk-foundations-web: 18.1.0`
+`@skyscanner/bpk-foundations-web: 18.1.0 => 19.0.0`
 
 **Breaking:**
   - Updated `$bpk-breakpoint-mobile-margin` value from `24px` to `16px`.
+
+`@skyscanner/bpk-foundations-android: 7.12.0 => 7.13.0`
+`@skyscanner/bpk-foundations-common: 6.12.0 => 6.13.0`
+`@skyscanner/bpk-foundations-ios: 6.12.0 => 6.13.0`
+`@skyscanner/bpk-foundations-react-native: 4.12.0 => 4.13.0`
+`@skyscanner/bpk-foundations-web: 18.1.0 => 19.0.0`
+
+**Added:**
+  - Added Surface Low Contrast and Overlay semantic colour tokens
 
 # 2024-06-04
 
@@ -55,7 +64,7 @@
 # 2024-04-26
 **Added:**
 `@skyscanner/bpk-foundations-web:`
-  - Added `.d.ts` formatter to create typescript types for `base.es6.js` 
+  - Added `.d.ts` formatter to create typescript types for `base.es6.js`
 
 # 2024-04-24
 **Changed:**
