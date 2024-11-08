@@ -87,9 +87,11 @@ export declare const surfaceDefaultDay = "rgb(255, 255, 255)" as const;
 export declare const surfaceContrastNight = "rgb(1, 9, 19)" as const;
 export declare const surfaceContrastDay = "rgb(5, 32, 60)" as const;
 export declare const surfaceElevatedNight = "rgb(36, 51, 70)" as const;
+export declare const surfaceLowContrastNight = "rgb(36, 51, 70)" as const;
 export declare const surfaceSubtleNight = "rgb(36, 51, 70)" as const;
 export declare const surfaceElevatedDay = "rgb(255, 255, 255)" as const;
 export declare const surfaceHighlightNight = "rgb(36, 51, 70)" as const;
+export declare const surfaceLowContrastDay = "rgb(239, 243, 248)" as const;
 export declare const surfaceSubtleDay = "rgb(227, 240, 255)" as const;
 export declare const surfaceHighlightDay = "rgb(224, 228, 233)" as const;
 export declare const textOnDarkDay = "rgb(255, 255, 255)" as const;
@@ -129,8 +131,10 @@ export declare const backgroundElevation01DarkColor = "rgb(29, 27, 32)" as const
 export declare const lineOnDarkDay = "rgba(255, 255, 255, 0.5)" as const;
 export declare const backgroundAlternativeSecondaryDarkColor = "rgb(29, 27, 32)" as const;
 export declare const backgroundLightColor = "rgb(255, 255, 255)" as const;
+export declare const overlayNight = "rgba(255, 255, 255, 0.8)" as const;
 export declare const backgroundDarkColor = "rgb(0, 0, 0)" as const;
 export declare const backgroundAlternativeSecondaryLightColor = "rgb(255, 255, 255)" as const;
+export declare const overlayDay = "rgba(0, 0, 0, 0.2)" as const;
 export declare const lineNight = "rgb(68, 80, 95)" as const;
 export declare const colorSystemGreen = "rgb(0, 166, 152)" as const;
 export declare const backgroundElevation01LightColor = "rgb(255, 255, 255)" as const;
@@ -710,6 +714,10 @@ bannerAlertWarnColor,
 bannerAlertErrorColor,
 bannerAlertNeutralColor,
 } as const;
+export declare const overlayColors = {
+overlayNight,
+overlayDay,
+} as const;
 export declare const panels = {
 panelBorderColor,
 } as const;
@@ -778,9 +786,11 @@ surfaceDefaultDay,
 surfaceContrastNight,
 surfaceContrastDay,
 surfaceElevatedNight,
+surfaceLowContrastNight,
 surfaceSubtleNight,
 surfaceElevatedDay,
 surfaceHighlightNight,
+surfaceLowContrastDay,
 surfaceSubtleDay,
 surfaceHighlightDay,
 } as const;

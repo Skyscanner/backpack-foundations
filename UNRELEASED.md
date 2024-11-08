@@ -1,4 +1,4 @@
-**Breaking:**
+**Added:**
 
-`@skyscanner/bpk-foundations-web`
-  - Updated `$bpk-breakpoint-mobile-margin` value from `24px` to `16px`.
+`@skyscanner/bpk-foundations-common`
+  - Added Surface Low Contrast and Overlay semantic colour tokens

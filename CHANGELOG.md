@@ -1,3 +1,10 @@
+# 2024-06-19
+
+`@skyscanner/bpk-foundations-web: 18.1.0`
+
+**Breaking:**
+  - Updated `$bpk-breakpoint-mobile-margin` value from `24px` to `16px`.
+
 # 2024-06-04
 
 `@skyscanner/bpk-foundations-web: 18.0.0 => 18.1.0`
