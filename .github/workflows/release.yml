@@ -1,17 +1,15 @@
-name: Foundations CI
+name: release
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  release:
+    types: [published]
 
 defaults:
   run:
     shell: bash -l {0}
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,17 +29,9 @@ jobs:
       - name: Confirm the build hasn't changed any files
         run: ./check-pristine-state package-lock.json
 
-      - name: Run tests
-        run: npm test
-
-  ReleaseDraft:
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: read
-    steps:
-      - name: Draft release notes
-        uses: release-drafter/release-drafter@v6
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release Foundations
+        if: ${{ github.event_name == 'release' }}
+        run: npm run lerna:publish -- bump $RELEASE_VERSION --yes --skip-git
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          RELEASE_VERSION: ${{ github.event.release.tag_name }}
