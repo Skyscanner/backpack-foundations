@@ -27,7 +27,11 @@
       "type": "border"
     },
     "INPUT_BORDER_RADIUS": {
-      "value": "{!BORDER_RADIUS_XS}",
+      "value": "{!BORDER_RADIUS_SM}",
+      "type": "radius"
+    },
+    "INPUT_LARGE_BORDER_RADIUS": {
+      "value": "{!BORDER_RADIUS_MD}",
       "type": "radius"
     },
     "INPUT_BACKGROUND": {
@@ -51,7 +55,11 @@
       "type": "size"
     },
     "SELECT_BORDER_RADIUS": {
-      "value": "{!BORDER_RADIUS_XS}",
+      "value": "{!BORDER_RADIUS_SM}",
+      "type": "radius"
+    },
+    "SELECT_LARGE_BORDER_RADIUS": {
+      "value": "{!BORDER_RADIUS_MD}",
       "type": "radius"
     },
     "SELECT_DISABLED_BORDER_COLOR": {
