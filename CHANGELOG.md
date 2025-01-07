@@ -1,3 +1,10 @@
+# 2025-01-07
+
+`@skyscanner/bpk-foundations-web: 19.0.0 => 19.1.0`
+
+**Changed:**
+- Updated form elements corner radius to use `8px` for default and `12px` for large.
+
 # 2024-11-08
 
 `@skyscanner/bpk-foundations-web: 18.1.0 => 19.0.0`
