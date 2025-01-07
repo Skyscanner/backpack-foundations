@@ -632,7 +632,7 @@ $bpk-input-large-height: 3rem;
 /// @group forms
 $bpk-input-border: solid .0625rem #C1C7CF;
 /// @group forms
-$bpk-select-border-radius: .25rem;
+$bpk-select-border-radius: .5rem;
 /// @group forms
 $bpk-input-background: #ffffff;
 /// @group forms
@@ -640,7 +640,9 @@ $bpk-input-border-width: .0625rem;
 /// @group forms
 $bpk-label-disabled-color: rgba(0, 0, 0, 0.2);
 /// @group forms
-$bpk-input-border-radius: .25rem;
+$bpk-input-large-border-radius: .75rem;
+/// @group forms
+$bpk-input-border-radius: .5rem;
 /// @group forms
 $bpk-select-disabled-border-color: rgb(224, 228, 233);
 /// @group forms
@@ -655,6 +657,8 @@ $bpk-select-border-width: .0625rem;
 $bpk-form-validation-color: rgb(231, 8, 102);
 /// @group forms
 $bpk-input-height: 2.25rem;
+/// @group forms
+$bpk-select-large-border-radius: .75rem;
 /// @group forms
 $bpk-input-disabled-border-color: rgb(239, 243, 248);
 /// @group horizontal-nav

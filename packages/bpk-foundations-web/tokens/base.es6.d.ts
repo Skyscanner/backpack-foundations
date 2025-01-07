@@ -324,11 +324,12 @@ export declare const flareHeightMobile = "1rem" as const;
 export declare const flareCornerRadius = "1.3125rem" as const;
 export declare const inputLargeHeight = "3rem" as const;
 export declare const inputBorder = "solid .0625rem #C1C7CF" as const;
-export declare const selectBorderRadius = ".25rem" as const;
+export declare const selectBorderRadius = ".5rem" as const;
 export declare const inputBackground = "#ffffff" as const;
 export declare const inputBorderWidth = ".0625rem" as const;
 export declare const labelDisabledColor = "rgba(0, 0, 0, 0.2)" as const;
-export declare const inputBorderRadius = ".25rem" as const;
+export declare const inputLargeBorderRadius = ".75rem" as const;
+export declare const inputBorderRadius = ".5rem" as const;
 export declare const selectDisabledBorderColor = "rgb(224, 228, 233)" as const;
 export declare const inputDisabledColor = "rgba(0, 0, 0, 0.2)" as const;
 export declare const inputPaddingX = ".5rem" as const;
@@ -336,6 +337,7 @@ export declare const inputPaddingY = ".5rem" as const;
 export declare const selectBorderWidth = ".0625rem" as const;
 export declare const formValidationColor = "rgb(231, 8, 102)" as const;
 export declare const inputHeight = "2.25rem" as const;
+export declare const selectLargeBorderRadius = ".75rem" as const;
 export declare const inputDisabledBorderColor = "rgb(239, 243, 248)" as const;
 export declare const horizontalNavBarSelectedColor = "rgb(0, 98, 227)" as const;
 export declare const iconSizeSm = "1rem" as const;
@@ -618,6 +620,7 @@ selectBorderRadius,
 inputBackground,
 inputBorderWidth,
 labelDisabledColor,
+inputLargeBorderRadius,
 inputBorderRadius,
 selectDisabledBorderColor,
 inputDisabledColor,
@@ -626,6 +629,7 @@ inputPaddingY,
 selectBorderWidth,
 formValidationColor,
 inputHeight,
+selectLargeBorderRadius,
 inputDisabledBorderColor,
 } as const;
 export declare const horizontalNav = {

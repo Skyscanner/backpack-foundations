@@ -324,11 +324,12 @@ export const flareHeightMobile = "1rem";
 export const flareCornerRadius = "1.3125rem";
 export const inputLargeHeight = "3rem";
 export const inputBorder = "solid .0625rem #C1C7CF";
-export const selectBorderRadius = ".25rem";
+export const selectBorderRadius = ".5rem";
 export const inputBackground = "#ffffff";
 export const inputBorderWidth = ".0625rem";
 export const labelDisabledColor = "rgba(0, 0, 0, 0.2)";
-export const inputBorderRadius = ".25rem";
+export const inputLargeBorderRadius = ".75rem";
+export const inputBorderRadius = ".5rem";
 export const selectDisabledBorderColor = "rgb(224, 228, 233)";
 export const inputDisabledColor = "rgba(0, 0, 0, 0.2)";
 export const inputPaddingX = ".5rem";
@@ -336,6 +337,7 @@ export const inputPaddingY = ".5rem";
 export const selectBorderWidth = ".0625rem";
 export const formValidationColor = "rgb(231, 8, 102)";
 export const inputHeight = "2.25rem";
+export const selectLargeBorderRadius = ".75rem";
 export const inputDisabledBorderColor = "rgb(239, 243, 248)";
 export const horizontalNavBarSelectedColor = "rgb(0, 98, 227)";
 export const iconSizeSm = "1rem";
@@ -618,6 +620,7 @@ selectBorderRadius,
 inputBackground,
 inputBorderWidth,
 labelDisabledColor,
+inputLargeBorderRadius,
 inputBorderRadius,
 selectDisabledBorderColor,
 inputDisabledColor,
@@ -626,6 +629,7 @@ inputPaddingY,
 selectBorderWidth,
 formValidationColor,
 inputHeight,
+selectLargeBorderRadius,
 inputDisabledBorderColor,
 };
 export const horizontalNav = {

@@ -2681,9 +2681,9 @@
     },
     "SELECT_BORDER_RADIUS": {
       "category": "forms",
-      "value": ".25rem",
+      "value": ".5rem",
       "type": "radius",
-      "originalValue": "{!BORDER_RADIUS_XS}",
+      "originalValue": "{!BORDER_RADIUS_SM}",
       "name": "SELECT_BORDER_RADIUS"
     },
     "INPUT_BACKGROUND": {
@@ -2707,11 +2707,18 @@
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "LABEL_DISABLED_COLOR"
     },
+    "INPUT_LARGE_BORDER_RADIUS": {
+      "category": "forms",
+      "value": ".75rem",
+      "type": "radius",
+      "originalValue": "{!BORDER_RADIUS_MD}",
+      "name": "INPUT_LARGE_BORDER_RADIUS"
+    },
     "INPUT_BORDER_RADIUS": {
       "category": "forms",
-      "value": ".25rem",
+      "value": ".5rem",
       "type": "radius",
-      "originalValue": "{!BORDER_RADIUS_XS}",
+      "originalValue": "{!BORDER_RADIUS_SM}",
       "name": "INPUT_BORDER_RADIUS"
     },
     "SELECT_DISABLED_BORDER_COLOR": {
@@ -2762,6 +2769,13 @@
       "type": "size",
       "originalValue": "{!BUTTON_HEIGHT}",
       "name": "INPUT_HEIGHT"
+    },
+    "SELECT_LARGE_BORDER_RADIUS": {
+      "category": "forms",
+      "value": ".75rem",
+      "type": "radius",
+      "originalValue": "{!BORDER_RADIUS_MD}",
+      "name": "SELECT_LARGE_BORDER_RADIUS"
     },
     "INPUT_DISABLED_BORDER_COLOR": {
       "category": "forms",
