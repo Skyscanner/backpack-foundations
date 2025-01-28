@@ -1,3 +1,14 @@
+# 2025-01-28
+
+`@skyscanner/bpk-foundations-android: 7.13.0 => 7.14.0`
+`@skyscanner/bpk-foundations-common: 6.13.0 => 6.14.0`
+`@skyscanner/bpk-foundations-ios: 6.13.0 => 6.14.0`
+`@skyscanner/bpk-foundations-web: 19.1.0 => 19.2.0`
+
+**Added:**
+- Add new Grey 05 token
+- Update Surface Low Contrast day token to use Grey 05
+
 # 2025-01-07
 
 `@skyscanner/bpk-foundations-web: 19.0.0 => 19.1.0`
