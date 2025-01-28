@@ -51,6 +51,9 @@
     "ERFOUD": {
       "value": "#ffb54d"
     },
+    "GREY_05": {
+      "value": "#F7F9FB"
+    },
     "NIGHT_GREEN_SPOT": {
       "value": "#62F1C6"
     },
@@ -1021,8 +1024,8 @@
     "SURFACE_LOW_CONTRAST_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(239, 243, 248)",
-      "originalValue": "{!GREY_10}",
+      "value": "rgb(247, 249, 251)",
+      "originalValue": "{!GREY_05}",
       "name": "SURFACE_LOW_CONTRAST_DAY"
     },
     "SURFACE_SUBTLE_DAY": {

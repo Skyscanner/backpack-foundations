@@ -201,6 +201,9 @@
     "ERFOUD": {
       "value": "#FEEB87"
     },
+    "GREY_05": {
+      "value": "#F7F9FB"
+    },
     "NIGHT_GREEN_SPOT": {
       "value": "#62F1C6"
     },
@@ -2011,8 +2014,8 @@
     "SURFACE_LOW_CONTRAST_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#eff3f8ff",
-      "originalValue": "{!GREY_10}",
+      "value": "#f7f9fbff",
+      "originalValue": "{!GREY_05}",
       "name": "SURFACE_LOW_CONTRAST_DAY"
     },
     "SURFACE_SUBTLE_DAY": {
@@ -3725,8 +3728,8 @@
     "SURFACE_LOW_CONTRAST_COLOR": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#eff3f8ff",
-      "originalValue": "{!GREY_10}",
+      "value": "#f7f9fbff",
+      "originalValue": "{!GREY_05}",
       "name": "SURFACE_LOW_CONTRAST_COLOR",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
