@@ -1574,8 +1574,8 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#eff3f8ff",
-      "originalValue": "{!GREY_10}",
+      "value": "#f7f9fbff",
+      "originalValue": "{!GREY_05}",
       "name": "surfaceLowContrastDay"
     },
     {
@@ -3492,8 +3492,8 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#eff3f8ff",
-      "originalValue": "{!GREY_10}",
+      "value": "#f7f9fbff",
+      "originalValue": "{!GREY_05}",
       "name": "surfaceLowContrastColor",
       "darkValue": "#243346ff",
       "originalDarkValue": "{!NIGHT_GREY_25}"
