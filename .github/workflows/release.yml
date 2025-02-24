@@ -1,0 +1,37 @@
+name: release
+
+on:
+  release:
+    types: [published]
+
+defaults:
+  run:
+    shell: bash -l {0}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies from npm
+        run: npm ci
+
+      - name: Build Foundations
+        run: npm run build
+      
+      - name: Confirm the build hasn't changed any files
+        run: ./check-pristine-state package-lock.json
+
+      - name: Release Foundations
+        if: ${{ github.event_name == 'release' }}
+        run: npm run lerna:publish -- bump $RELEASE_VERSION --yes --skip-git
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          RELEASE_VERSION: ${{ github.event.release.tag_name }}
