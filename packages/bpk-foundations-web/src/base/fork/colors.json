@@ -1,6 +1,6 @@
 {
   "imports": [
-    "@skyscanner/bpk-foundations-common/base/colors.json"
+    "@olliecurtis/bpk-foundations-common/base/colors.json"
   ],
   "aliases": {
     "MONTEVERDE": "#00a698",

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-import setOpacity from '@skyscanner/bpk-foundations-common';
+import setOpacity from '@olliecurtis/bpk-foundations-common';
 
 export { setOpacity };
 export default { setOpacity };

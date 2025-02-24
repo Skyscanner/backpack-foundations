@@ -31,7 +31,7 @@ jobs:
 
       - name: Release Foundations
         if: ${{ github.event_name == 'release' }}
-        run: npm run lerna:publish -- bump $RELEASE_VERSION --yes --skip-git
+        run: npm run lerna:publish -- bump "${{ env.RELEASE_VERSION }}" --yes --skip-git
         env: 
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           RELEASE_VERSION: ${{ github.event.release.tag_name }}

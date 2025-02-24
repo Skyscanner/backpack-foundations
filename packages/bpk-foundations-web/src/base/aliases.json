@@ -1,6 +1,6 @@
 {
   "imports": [
-    "@skyscanner/bpk-foundations-common/base/animations.json",
+    "@olliecurtis/bpk-foundations-common/base/animations.json",
     "./fork/colors.json"
   ],
   "aliases": {
