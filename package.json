@@ -25,7 +25,7 @@
     "clean:node_modules": "rm -rf node_modules",
     "clean:lerna": "lerna clean --yes",
     "jest": "TZ=Etc/UTC jest --coverage",
-    "lerna:publish": "lerna publish -m '[skip ci]: Publish'",
+    "lerna:publish": "lerna publish",
     "lint": "npm run lint:js && npm run lint:scss",
     "lint:js": "eslint . --ext js,jsx",
     "lint:js:fix": "eslint . --ext js,jsx --fix",
