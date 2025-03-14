@@ -51,8 +51,8 @@ jobs:
 
       - name: Version Packages
         if: ${{ github.event_name == 'release' }}
-        run: |
-          npm run lerna:version -- $RELEASE_VERSION --no-git-tag-version --yes
+        # We run 'force-publish' here so that it keeps the versions in sync with the release tag.
+        run: npm run lerna:version -- $RELEASE_VERSION --no-git-tag-version --yes --force-publish
         env: 
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           RELEASE_VERSION: ${{ github.event.release.tag_name }}
