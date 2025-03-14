@@ -26,6 +26,7 @@
     "clean:lerna": "lerna clean --yes",
     "jest": "TZ=Etc/UTC jest --coverage",
     "lerna:publish": "lerna publish",
+    "lerna:version": "lerna version",
     "lint": "npm run lint:js && npm run lint:scss",
     "lint:js": "eslint . --ext js,jsx",
     "lint:js:fix": "eslint . --ext js,jsx --fix",
