@@ -81,7 +81,7 @@
     "plugin-error": "^2.0.1",
     "postcss-loader": "^8.1.1",
     "sass": "^1.86.0",
-    "sass-loader": "^14.1.1",
+    "sass-loader": "^16.0.5",
     "storybook": "^7.6.17",
     "style-loader": "^3.3.4",
     "theo": "^8.1.3",
