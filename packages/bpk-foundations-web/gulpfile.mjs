@@ -17,21 +17,25 @@
  */
 
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-import del from 'del';
+import { deleteAsync } from 'del';
 import gulp from 'gulp';
 import jsonLint from 'gulp-jsonlint';
 import gulpTheo from 'gulp-theo';
-import { flatten } from 'lodash';
+import _ from 'lodash';
 import gulpMerge from 'merge2';
 import theo from 'theo';
 
-import bpkCommonJs from './formatters/bpk.common.js';
-import bpkDts from './formatters/bpk.d.ts';
-import bpkEs6Js from './formatters/bpk.es6.js';
+import bpkEs6Js from './formatters/bpk.es6.js.mjs';
+import bpkCommonJs from './formatters/bpk.common.js.mjs';
+import bpkDts from './formatters/bpk.d.ts.mjs';
 
-import bpkDefaultScss from './formatters/bpk.default.scss';
-import bpkScss from './formatters/bpk.scss';
+import bpkScss from './formatters/bpk.scss.mjs';
+import bpkDefaultScss from './formatters/bpk.default.scss.mjs';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const RAW_FORMATS = {
   web: ['raw.json'],
@@ -42,7 +46,7 @@ const PLATFORM_FORMATS = {
 };
 
 const createTokenSets = (formats) =>
-  flatten(
+  _.flatten(
     Object.keys(formats).map((platform) =>
       formats[platform].map((format) =>
         typeof format !== 'string'
@@ -61,7 +65,7 @@ theo.registerFormat('es6.js', bpkEs6Js);
 theo.registerFormat('common.js', bpkCommonJs);
 theo.registerFormat('es6.d.ts', bpkDts);
 
-gulp.task('clean', (done) => del(['tokens'], done));
+gulp.task('clean', (done) => deleteAsync(['tokens'], done));
 
 gulp.task('lint', () =>
   gulp
@@ -74,7 +78,6 @@ gulp.task('lint', () =>
 const createTokens = (tokenSets, done) => {
   const streams = tokenSets.map(({ format, nest, platform }) => {
     let outputPath = 'tokens';
-
     if (nest) {
       outputPath = `${outputPath}/${platform}`;
     }

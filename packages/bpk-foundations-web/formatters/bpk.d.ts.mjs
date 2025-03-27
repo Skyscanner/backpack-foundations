@@ -18,9 +18,9 @@
 
 import _ from 'lodash';
 
-import { blockComment } from '../../../utils/formatters/license-header';
+import { blockComment } from '../../../utils/formatters/license-header.mjs';
 
-import { performTokenOperations } from './utils';
+import { performTokenOperations } from './utils.mjs';
 
 export const tokenTemplate = ({ name, type, value }) => {
   let tokenValue = value;

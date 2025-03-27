@@ -18,19 +18,23 @@
 
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-import del from 'del';
+import { deleteAsync } from 'del';
 import gulp from 'gulp';
 import jsonLint from 'gulp-jsonlint';
 import gulpTheo from 'gulp-theo';
-import { flatten } from 'lodash';
+import _ from 'lodash';
 import gulpMerge from 'merge2';
 import theo from 'theo';
 
-import transformDarkValues from '../../utils/transformDarkValues';
+import transformDarkValues from '../../utils/transformDarkValues.mjs';
 
-import bpkIosJson from './formatters/bpk.ios.json';
-import bpkRawJson, { bpkRawJsonIos } from './formatters/bpk.raw.json';
+import bpkIosJson from './formatters/bpk.ios.json.mjs';
+import bpkRawJson, { bpkRawJsonIos } from './formatters/bpk.raw.json.mjs';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const RAW_FORMATS = {
   ios: ['raw.ios.json'],
@@ -41,7 +45,7 @@ const PLATFORM_FORMATS = {
 };
 
 const createTokenSets = (formats) =>
-  flatten(
+  _.flatten(
     Object.keys(formats).map((platform) =>
       formats[platform].map((format) =>
         typeof format !== 'string'
@@ -60,7 +64,7 @@ theo.registerFormat('raw.ios.json', bpkRawJsonIos);
 
 theo.registerTransform('ios', ['color/hex8rgba']);
 
-gulp.task('clean', (done) => del(['tokens'], done));
+gulp.task('clean', (done) => deleteAsync(['tokens'], done));
 
 gulp.task('lint', () =>
   gulp
