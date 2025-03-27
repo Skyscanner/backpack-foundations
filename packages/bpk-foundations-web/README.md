@@ -26,9 +26,9 @@ For web:
 
 ```js
 // Individual tokens
-import { spacingBase } from '@skyscanner/bpk-foundations-web/tokens/base.es6';
+import { colorSkyGrayTint01 } from '@skyscanner/bpk-foundations-web/tokens/base.es6';
 
-console.log(spacingBase);
+console.log(colorSkyGrayTint01);
 
 // Whole token categories
 import { colors } from '@skyscanner/bpk-foundations-web/tokens/base.es6';
@@ -45,9 +45,9 @@ console.log(tokens);
 
 ```js
 // Individual tokens
-import { spacingBase } from '@skyscanner/bpk-foundations-web/tokens/base.common';
+import { colorSkyGrayTint01 } from '@skyscanner/bpk-foundations-web/tokens/base.common';
 
-console.log(spacingBase);
+console.log(colorSkyGrayTint01);
 
 // All tokens
 import * as tokens from '@skyscanner/bpk-foundations-web/tokens/base.common';

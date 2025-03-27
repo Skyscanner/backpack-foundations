@@ -21,11 +21,11 @@ import { fileURLToPath } from 'url';
 
 import { deleteAsync } from 'del';
 import gulp from 'gulp';
-import theo from 'theo';
+import jsonLint from 'gulp-jsonlint';
 import gulpTheo from 'gulp-theo';
 import _ from 'lodash';
 import gulpMerge from 'merge2';
-import jsonLint from 'gulp-jsonlint';
+import theo from 'theo';
 
 import bpkEs6Js from './formatters/bpk.es6.js.mjs';
 import bpkCommonJs from './formatters/bpk.common.js.mjs';
