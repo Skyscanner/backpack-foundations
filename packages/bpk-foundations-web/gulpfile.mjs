@@ -16,27 +16,37 @@
  * limitations under the License.
  */
 
-import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-import del from 'del';
+import { deleteAsync } from 'del';
 import gulp from 'gulp';
 import theo from 'theo';
 import gulpTheo from 'gulp-theo';
-import { flatten } from 'lodash';
+import _ from 'lodash';
 import gulpMerge from 'merge2';
 import jsonLint from 'gulp-jsonlint';
 
-import transformDarkValues from '../../utils/transformDarkValues';
+import bpkEs6Js from './formatters/bpk.es6.js.mjs';
+import bpkCommonJs from './formatters/bpk.common.js.mjs';
+import bpkDts from './formatters/bpk.d.ts.mjs';
 
-import bpkRawJson, { bpkRawJsonAndroid } from './formatters/bpk.raw.json';
+import bpkScss from './formatters/bpk.scss.mjs';
+import bpkDefaultScss from './formatters/bpk.default.scss.mjs';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const RAW_FORMATS = {
-  android: ['raw.android.json'],
+  web: ['raw.json'],
+};
+
+const PLATFORM_FORMATS = {
+  web: ['scss', 'default.scss', 'common.js', 'es6.js', 'es6.d.ts'],
 };
 
 const createTokenSets = (formats) =>
-  flatten(
+  _.flatten(
     Object.keys(formats).map((platform) =>
       formats[platform].map((format) =>
         typeof format !== 'string'
@@ -47,13 +57,15 @@ const createTokenSets = (formats) =>
   );
 
 const rawTokenSets = createTokenSets(RAW_FORMATS);
+const platformTokenSets = createTokenSets(PLATFORM_FORMATS);
 
-theo.registerFormat('raw.json', bpkRawJson);
-theo.registerFormat('raw.android.json', bpkRawJsonAndroid);
+theo.registerFormat('scss', bpkScss);
+theo.registerFormat('default.scss', bpkDefaultScss);
+theo.registerFormat('es6.js', bpkEs6Js);
+theo.registerFormat('common.js', bpkCommonJs);
+theo.registerFormat('es6.d.ts', bpkDts);
 
-theo.registerTransform('android', ['color/hex8rgba']);
-
-gulp.task('clean', (done) => del(['tokens'], done));
+gulp.task('clean', (done) => deleteAsync(['tokens'], done));
 
 gulp.task('lint', () =>
   gulp
@@ -66,7 +78,6 @@ gulp.task('lint', () =>
 const createTokens = (tokenSets, done) => {
   const streams = tokenSets.map(({ format, nest, platform }) => {
     let outputPath = 'tokens';
-
     if (nest) {
       outputPath = `${outputPath}/${platform}`;
     }
@@ -80,19 +91,11 @@ const createTokens = (tokenSets, done) => {
         }),
       )
       .on('error', done)
-      .pipe(transformDarkValues())
-      .on('error', done)
       .pipe(gulp.dest(path.resolve(__dirname, outputPath)))
       .on('error', done)
       .on(`finish`, () => {
-        const oldPath = path.resolve(outputPath, `base.${format}`);
-        const newPath = path.resolve(
-          outputPath,
-          `base.${format}`.split('ANDROID_').join(''),
-        );
-        if (oldPath !== newPath) {
-          fs.renameSync(oldPath, newPath);
-        }
+        // eslint-disable-next-line no-console
+        console.log('Completed tokens');
       });
   });
 
@@ -100,9 +103,15 @@ const createTokens = (tokenSets, done) => {
 };
 
 const createRawTokens = (done) => createTokens(rawTokenSets, done);
+const createPlatformTokens = (done) => createTokens(platformTokenSets, done);
 
 gulp.task('tokens:raw', createRawTokens);
 
-gulp.task('tokens', gulp.series(gulp.parallel('clean', 'lint'), 'tokens:raw'));
+gulp.task('tokens:platform', createPlatformTokens);
+
+gulp.task(
+  'tokens',
+  gulp.series(gulp.parallel('clean', 'lint'), 'tokens:raw', 'tokens:platform'),
+);
 
 gulp.task('default', gulp.series('tokens'));

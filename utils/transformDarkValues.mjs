@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-const through = require('through2');
+import through from 'through2';
 
 const calculatePotentialMerges = (properties) => {
   const merges = {};
@@ -166,7 +166,7 @@ const mergeJsonDynamicColours = (str) => {
   return JSON.stringify(obj, null, 2);
 };
 
-module.exports = () => {
+export default () => {
   // eslint-disable-next-line consistent-return, func-names
   const stream = through.obj(function (buffer, enc, cb) {
     try {

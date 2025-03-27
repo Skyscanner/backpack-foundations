@@ -18,9 +18,9 @@
 
 import _ from 'lodash';
 
-import { blockComment } from '../../../utils/formatters/license-header';
+import { blockComment } from '../../../utils/formatters/license-header.mjs';
 
-import { sassDocTemplate, nameTemplate, valueTemplate } from './bpk.scss';
+import { sassDocTemplate, nameTemplate, valueTemplate } from './bpk.scss.mjs';
 
 export const variableTemplate = ({ name, type, value }) => {
   if (type === 'function') {

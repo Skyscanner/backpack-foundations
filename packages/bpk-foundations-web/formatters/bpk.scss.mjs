@@ -18,7 +18,7 @@
 
 import _ from 'lodash';
 
-import { blockComment } from '../../../utils/formatters/license-header';
+import { blockComment } from '../../../utils/formatters/license-header.mjs';
 
 export const nameTemplate = ({ name }) => `$bpk-${_.kebabCase(name)}`;
 
