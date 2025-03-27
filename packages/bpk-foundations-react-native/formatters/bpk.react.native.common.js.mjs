@@ -18,10 +18,10 @@
 
 import _ from 'lodash';
 
-import { blockComment } from '../../../utils/formatters/license-header';
+import { blockComment } from '../../../utils/formatters/license-header.mjs';
 
-import adjustTypography from './adjust-typography';
-import valueTemplate from './react-native-value-template';
+import adjustTypography from './adjust-typography.mjs';
+import valueTemplate from './react-native-value-template.mjs';
 
 export const tokenTemplate = ({ name, type, value }) =>
   `${_.camelCase(name)}: ${valueTemplate(value, type)}`;

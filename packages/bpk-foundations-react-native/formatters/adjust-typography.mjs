@@ -16,8 +16,8 @@
  * limitations under the License.
  */
 
-import androidTokenAliases from '../src/android/base/aliases.json';
-import iosTokenAliases from '../src/ios/base/aliases.json';
+import androidTokenAliases from '../src/android/base/aliases.json' with { type: "json" };
+import iosTokenAliases from '../src/ios/base/aliases.json' with { type: "json" };
 
 // These are the default letter tracking values used by SF Pro and SF Pro Display for each font-size. They are given in 1/1000em.
 // They can be found at https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography#font-usage-and-tracking

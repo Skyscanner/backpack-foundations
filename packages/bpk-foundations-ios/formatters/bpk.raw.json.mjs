@@ -16,17 +16,21 @@
  * limitations under the License.
  */
 
-/*
-In Babel 7+, Babel stops looking for config files once it finds a package.json. As this
-is a monorepo and the Babel config file is in the repo root, we need to tell Babel to go
-upwards up the tree to find it.
+import _ from 'lodash';
 
-Without this, gulp will not run as gulpfile.babel.js won't be transpiled and we'll get syntax
-errors.
-*/
+import adjustTypography from './adjust-typography.mjs';
 
-require('@babel/register')({
-  rootMode: 'upward',
-});
+const bpkRawJson = (result, platform = 'other') => {
+  const { aliases, props } = result.toJS();
+  const adjustedProps = props.map((prop) =>
+    adjustTypography(aliases, prop, platform),
+  );
+  const propsObj = _.keyBy(adjustedProps, 'name');
+  const propKeys = Object.keys(propsObj);
 
-require('./gulpfile.babel');
+  return JSON.stringify({ aliases, props: propsObj, propKeys }, null, 2);
+};
+
+export default bpkRawJson;
+
+export const bpkRawJsonIos = (result) => bpkRawJson(result, 'ios');

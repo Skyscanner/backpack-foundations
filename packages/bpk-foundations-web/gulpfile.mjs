@@ -16,9 +16,10 @@
  * limitations under the License.
  */
 
-import path from 'node:path';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-import { deleteAsync as del } from 'del';
+import { deleteAsync } from 'del';
 import gulp from 'gulp';
 import theo from 'theo';
 import gulpTheo from 'gulp-theo';
@@ -32,6 +33,9 @@ import bpkDts from './formatters/bpk.d.ts.mjs';
 
 import bpkScss from './formatters/bpk.scss.mjs';
 import bpkDefaultScss from './formatters/bpk.default.scss.mjs';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const RAW_FORMATS = {
   web: ['raw.json'],
@@ -61,7 +65,7 @@ theo.registerFormat('es6.js', bpkEs6Js);
 theo.registerFormat('common.js', bpkCommonJs);
 theo.registerFormat('es6.d.ts', bpkDts);
 
-gulp.task('clean', (done) => del(['tokens'], done));
+gulp.task('clean', (done) => deleteAsync(['tokens'], done));
 
 gulp.task('lint', () =>
   gulp
@@ -74,7 +78,6 @@ gulp.task('lint', () =>
 const createTokens = (tokenSets, done) => {
   const streams = tokenSets.map(({ format, nest, platform }) => {
     let outputPath = 'tokens';
-    const __dirname = path.resolve();
     if (nest) {
       outputPath = `${outputPath}/${platform}`;
     }

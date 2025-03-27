@@ -18,13 +18,17 @@
 
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
 import _ from 'lodash';
 
-import { blockComment } from '../../../utils/formatters/license-header';
+import { blockComment } from '../../../utils/formatters/license-header.mjs';
 
-import adjustTypography from './adjust-typography';
-import valueTemplate from './react-native-value-template';
+import adjustTypography from './adjust-typography.mjs';
+import valueTemplate from './react-native-value-template.mjs';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // The raw tokens are guaranteed to be generated at this point, we make sure they are done first in the gulpfile.
 // We do this because I could not find any way to make Theo provide both the Android and iOS tokens as arguments to this function, because Theo

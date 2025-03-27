@@ -18,52 +18,34 @@
 
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-import del from 'del';
+import { deleteAsync } from 'del';
 import gulp from 'gulp';
 import theo from 'theo';
 import gulpTheo from 'gulp-theo';
-import { flatten } from 'lodash';
+import _ from 'lodash';
 import gulpMerge from 'merge2';
 import jsonLint from 'gulp-jsonlint';
 
-import transformDarkValues from '../../utils/transformDarkValues';
+import transformDarkValues from '../../utils/transformDarkValues.mjs';
 
-import bpkRawJson, {
-  bpkRawJsonAndroid,
-  bpkRawJsonIos,
-} from './formatters/bpk.raw.json';
-import {
-  bpkReactNativeEs6JsIos,
-  bpkReactNativeEs6JsAndroid,
-} from './formatters/bpk.react.native.es6.js';
-import {
-  bpkReactNativeCommonJsIos,
-  bpkReactNativeCommonJsAndroid,
-} from './formatters/bpk.react.native.common.js';
+import bpkIosJson from './formatters/bpk.ios.json.mjs';
+import bpkRawJson, { bpkRawJsonIos } from './formatters/bpk.raw.json.mjs';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const RAW_FORMATS = {
   ios: ['raw.ios.json'],
-  android: ['raw.android.json'],
 };
 
 const PLATFORM_FORMATS = {
-  ios: [
-    'ios.json',
-    'react.native.ios.js',
-    { format: 'react.native.es6.js', nest: true },
-    { format: 'react.native.common.js', nest: true },
-  ],
-  android: [
-    'android.xml',
-    'react.native.android.js',
-    { format: 'react.native.es6.js', nest: true },
-    { format: 'react.native.common.js', nest: true },
-  ],
+  ios: ['ios.json'],
 };
 
 const createTokenSets = (formats) =>
-  flatten(
+  _.flatten(
     Object.keys(formats).map((platform) =>
       formats[platform].map((format) =>
         typeof format !== 'string'
@@ -77,23 +59,16 @@ const rawTokenSets = createTokenSets(RAW_FORMATS);
 const platformTokenSets = createTokenSets(PLATFORM_FORMATS);
 
 theo.registerFormat('raw.json', bpkRawJson);
+theo.registerFormat('ios.json', bpkIosJson);
 theo.registerFormat('raw.ios.json', bpkRawJsonIos);
-theo.registerFormat('raw.android.json', bpkRawJsonAndroid);
-theo.registerFormat('react.native.ios.js', bpkReactNativeEs6JsIos);
-theo.registerFormat('react.native.android.js', bpkReactNativeEs6JsAndroid);
-theo.registerFormat('react.native.es6.js', bpkReactNativeEs6JsAndroid);
-theo.registerFormat('react.native.common.js', bpkReactNativeCommonJsAndroid);
-theo.registerFormat('react.native.es6.js', bpkReactNativeEs6JsIos);
-theo.registerFormat('react.native.common.js', bpkReactNativeCommonJsIos);
 
 theo.registerTransform('ios', ['color/hex8rgba']);
-theo.registerTransform('android', ['color/hex8rgba']);
 
-gulp.task('clean', (done) => del(['tokens'], done));
+gulp.task('clean', (done) => deleteAsync(['tokens'], done));
 
 gulp.task('lint', () =>
   gulp
-    .src('./src/**/*.json')
+    .src('./src/*.json')
     .pipe(jsonLint())
     .pipe(jsonLint.reporter())
     .pipe(jsonLint.failAfterError()),
@@ -108,7 +83,7 @@ const createTokens = (tokenSets, done) => {
     }
 
     return gulp
-      .src([`./src/${platform}/*.json`])
+      .src([`./src/*.json`])
       .pipe(
         gulpTheo({
           transform: { type: platform },
@@ -124,7 +99,7 @@ const createTokens = (tokenSets, done) => {
         const oldPath = path.resolve(outputPath, `base.${format}`);
         const newPath = path.resolve(
           outputPath,
-          `base.${format}`.split('ANDROID_').join('').split('IOS_').join(''),
+          `base.${format}`.split('IOS_').join(''),
         );
         if (oldPath !== newPath) {
           fs.renameSync(oldPath, newPath);

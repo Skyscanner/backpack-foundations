@@ -18,19 +18,14 @@
 
 import _ from 'lodash';
 
-import adjustTypography from './adjust-typography';
+import { adjustTypographyIos } from './adjust-typography.mjs';
 
-const bpkRawJson = (result, platform = 'other') => {
+export default (result) => {
   const { aliases, props } = result.toJS();
-  const adjustedProps = props.map((prop) =>
-    adjustTypography(aliases, prop, platform),
-  );
-  const propsObj = _.keyBy(adjustedProps, 'name');
-  const propKeys = Object.keys(propsObj);
+  const properties = props.map((obj) => {
+    const prop = adjustTypographyIos(aliases, obj);
+    return { ...prop, name: _.camelCase(prop.name) };
+  });
 
-  return JSON.stringify({ aliases, props: propsObj, propKeys }, null, 2);
+  return JSON.stringify({ properties }, null, 2);
 };
-
-export default bpkRawJson;
-
-export const bpkRawJsonIos = (result) => bpkRawJson(result, 'ios');
