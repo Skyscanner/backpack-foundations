@@ -25,5 +25,4 @@ const blockComment = `/*
 ${TEXT.replace(/^/gm, ' * ')}
  */`;
 
-module.exports.xmlComment = xmlComment;
-module.exports.blockComment = blockComment;
+export { xmlComment, blockComment };

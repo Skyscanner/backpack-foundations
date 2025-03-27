@@ -18,9 +18,9 @@
 
 import _ from 'lodash';
 
-import { blockComment } from '../../../utils/formatters/license-header';
+import { blockComment } from '../../../utils/formatters/license-header.mjs';
 
-import { performTokenOperations } from './utils';
+import { performTokenOperations } from './utils.mjs';
 
 export const tokenTemplate = ({ name, type, value }) => {
   let tokenValue = value;
@@ -32,44 +32,19 @@ export const tokenTemplate = ({ name, type, value }) => {
   if (/\+|\*/.test(value)) {
     tokenValue = performTokenOperations(value);
   }
-  return `export const ${_.camelCase(name)} = "${tokenValue.replace(
-    /"/g,
-    '\\"',
-  )}";`;
-};
 
-export const categoryTemplate = (
-  categoryName,
-  props,
-) => `export const ${_.camelCase(categoryName)} = {
-${_.map(props, (prop) => `${_.camelCase(prop.name)},`).join('\n')}
-};`;
+  return `${_.camelCase(name)}: "${tokenValue.replace(/"/g, '\\"')}"`;
+};
 
 export default (result) => {
   const { props } = result.toJS();
-
-  const categories = _(props)
-    .map((prop) => prop.category)
-    .uniq()
-    .value();
-
-  const singleTokens = _.map(
-    props.filter((prop) => prop.type !== 'function'),
+  const source = `
+module.exports = {
+  ${_.map(
+    props.filter((tokens) => tokens.type !== 'function'),
     (prop) => tokenTemplate(prop),
-  ).join('\n');
+  ).join(',\n  ')}
+};`;
 
-  const groupedTokens = categories
-    .sort()
-    .map((category) =>
-      categoryTemplate(
-        category,
-        _(props)
-          .filter({ category })
-          .filter((prop) => prop.type !== 'function')
-          .value(),
-      ),
-    )
-    .join('\n');
-
-  return [blockComment, singleTokens, groupedTokens].join('\n');
+  return [blockComment, source].join('\n');
 };

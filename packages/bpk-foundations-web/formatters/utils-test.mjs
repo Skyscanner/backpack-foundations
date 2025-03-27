@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-import { getTokenUnit, performTokenOperations } from './utils';
+import { getTokenUnit, performTokenOperations } from './utils.mjs';
 
 describe('getTokenUnit', () => {
   it('should return rem if unit is rem', () => {
