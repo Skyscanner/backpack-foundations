@@ -13,6 +13,12 @@
     "SURFACE_CONTRAST_NIGHT": {
       "value": "{!NIGHT_GREY_10}"
     },
+    "SURFACE_LOW_CONTRAST_DAY": {
+      "value": "{!GREY_05}"
+    },
+    "SURFACE_LOW_CONTRAST_NIGHT": {
+      "value": "{!NIGHT_GREY_25}"
+    },
     "SURFACE_DEFAULT_DAY": {
       "value": "{!WHITE}"
     },

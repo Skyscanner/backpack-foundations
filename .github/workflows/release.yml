@@ -1,0 +1,73 @@
+name: release
+
+on:
+  release:
+    types: [published]
+
+defaults:
+  run:
+    shell: bash -l {0}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          fetch-depth: 0
+
+      - name: Configure Git and checkout default branch
+        if: ${{ github.event_name == 'release' }}
+        run: |
+          git config --local user.email "197108191+skyscanner-backpack-bot[bot]@users.noreply.github.com"
+          git config --local user.name "skyscanner-backpack-bot[bot]"
+          git fetch --tags -q
+          # Get default branch name and check it out to avoid detached HEAD
+          DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | cut -d' ' -f5)
+          git checkout $DEFAULT_BRANCH
+          git pull origin $DEFAULT_BRANCH
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies from npm
+        run: npm ci
+
+      - name: Build Foundations
+        run: npm run build
+      
+      - name: Confirm the build hasn't changed any files
+        run: ./check-pristine-state package-lock.json
+
+      - name: Version Packages
+        if: ${{ github.event_name == 'release' }}
+        # We run 'force-publish' here so that it keeps the versions in sync with the release tag.
+        run: npm run lerna:version -- $RELEASE_VERSION --no-git-tag-version --yes --force-publish
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          RELEASE_VERSION: ${{ github.event.release.tag_name }}
+      
+      # This is to avoud the issue where the branch isn't clean and prevents publishing.
+      - name: Commit version changes
+        if: ${{ github.event_name == 'release' }}
+        run: |
+          git add .
+          git commit -m "chore: update package versions to $RELEASE_VERSION [skip ci]" || echo "No changes to commit"
+        env:
+          RELEASE_VERSION: ${{ github.event.release.tag_name }}
+
+      - name: Publish Foundations
+        if: ${{ github.event_name == 'release' }}
+        run: npm run lerna:publish -- from-package --yes --no-git-tag-version --no-push
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

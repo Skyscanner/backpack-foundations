@@ -51,6 +51,9 @@
     "ERFOUD": {
       "value": "#ffb54d"
     },
+    "GREY_05": {
+      "value": "#F7F9FB"
+    },
     "NIGHT_GREEN_SPOT": {
       "value": "#62F1C6"
     },
@@ -990,6 +993,13 @@
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_ELEVATED_NIGHT"
     },
+    "SURFACE_LOW_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgb(36, 51, 70)",
+      "originalValue": "{!NIGHT_GREY_25}",
+      "name": "SURFACE_LOW_CONTRAST_NIGHT"
+    },
     "SURFACE_SUBTLE_NIGHT": {
       "type": "color",
       "category": "surface-colors",
@@ -1010,6 +1020,13 @@
       "value": "rgb(36, 51, 70)",
       "originalValue": "{!NIGHT_GREY_25}",
       "name": "SURFACE_HIGHLIGHT_NIGHT"
+    },
+    "SURFACE_LOW_CONTRAST_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgb(247, 249, 251)",
+      "originalValue": "{!GREY_05}",
+      "name": "SURFACE_LOW_CONTRAST_DAY"
     },
     "SURFACE_SUBTLE_DAY": {
       "type": "color",
@@ -1298,6 +1315,13 @@
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_LIGHT_COLOR"
     },
+    "OVERLAY_NIGHT": {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "OVERLAY_NIGHT"
+    },
     "BACKGROUND_DARK_COLOR": {
       "type": "color",
       "category": "colors",
@@ -1313,6 +1337,13 @@
       "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR"
+    },
+    "OVERLAY_DAY": {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "rgba(0, 0, 0, 0.2)",
+      "originalValue": "{!BLACK_ALPHA_20}",
+      "name": "OVERLAY_DAY"
     },
     "LINE_NIGHT": {
       "type": "color",
@@ -2653,9 +2684,9 @@
     },
     "SELECT_BORDER_RADIUS": {
       "category": "forms",
-      "value": ".25rem",
+      "value": ".5rem",
       "type": "radius",
-      "originalValue": "{!BORDER_RADIUS_XS}",
+      "originalValue": "{!BORDER_RADIUS_SM}",
       "name": "SELECT_BORDER_RADIUS"
     },
     "INPUT_BACKGROUND": {
@@ -2679,11 +2710,18 @@
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "LABEL_DISABLED_COLOR"
     },
+    "INPUT_LARGE_BORDER_RADIUS": {
+      "category": "forms",
+      "value": ".75rem",
+      "type": "radius",
+      "originalValue": "{!BORDER_RADIUS_MD}",
+      "name": "INPUT_LARGE_BORDER_RADIUS"
+    },
     "INPUT_BORDER_RADIUS": {
       "category": "forms",
-      "value": ".25rem",
+      "value": ".5rem",
       "type": "radius",
-      "originalValue": "{!BORDER_RADIUS_XS}",
+      "originalValue": "{!BORDER_RADIUS_SM}",
       "name": "INPUT_BORDER_RADIUS"
     },
     "SELECT_DISABLED_BORDER_COLOR": {
@@ -2734,6 +2772,13 @@
       "type": "size",
       "originalValue": "{!BUTTON_HEIGHT}",
       "name": "INPUT_HEIGHT"
+    },
+    "SELECT_LARGE_BORDER_RADIUS": {
+      "category": "forms",
+      "value": ".75rem",
+      "type": "radius",
+      "originalValue": "{!BORDER_RADIUS_MD}",
+      "name": "SELECT_LARGE_BORDER_RADIUS"
     },
     "INPUT_DISABLED_BORDER_COLOR": {
       "category": "forms",

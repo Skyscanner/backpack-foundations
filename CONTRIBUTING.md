@@ -89,7 +89,7 @@ Use `npm run build` to do this.
 
 ### Tokens
 
-Any visual CSS parameters of the component, such as *color, margins, paddings* etc. should not live as magic numbers in the component code, but as **tokens** in the `bpk-<android/ios/react-native/web/common>` package.
+Any visual CSS parameters of the component, such as *color, margins, paddings* etc. should not live as magic numbers in the component code, but as **tokens** in the `bpk-<android/ios/web/common>` package.
 
 Tokens are defined in the `src/base` directory. Tokens come in two layers: In `aliases.json`, all base tokens are defined with concrete values, such as colours, numbers and sizes. The other files then map those aliases to tokens for specific elements. If you need to add a new token and there is no 1:1 mapping from the existing aliases, add or multiply 2 aliases to achieve the desired value for your token.
 
@@ -109,9 +109,7 @@ For anything non-trivial, we strongly recommend speaking to somebody from Koala 
 3. Make your changes.
 4. Commit and push your new branch.
 5. Submit a [pull request](https://github.com/Skyscanner/backpack-foundations/pulls).
-6. Notify someone in Koala squad or drop a note in #backpack.
-
-Don't forget to update [`UNRELEASED.md`](UNRELEASED.md) for any user-facing changes.
+6. Notify someone in in #backpack.
 
 Bear in mind that small, incremental pull requests are likely to be reviewed faster.
 
@@ -147,17 +145,11 @@ Typography in Skyscanner is constructed in the form of Sass mixins. To add a new
 </details>
 
 <details>
-<summary>Publish packages (Koala squad members only)</summary>
+<summary>Publish packages (Backpack owners only)</summary>
 
-- Update the [unreleased changelog](/UNRELEASED.md) with every package that has changed, separating out `BREAKING`, `ADDED` and `FIXED` changes. See [`CHANGELOG_FORMAT.md`](https://github.com/Skyscanner/backpack/blob/main/CHANGELOG_FORMAT.md) for tips.
-  - Some useful commands for determining "what's changed?":
-    - `npm run lerna updated`
-    - `npm run lerna diff <package-name>`
-- Make sure you are an owner of the npm packages (speak to a member of the Koala squad).
-- **Run `npm run release`** (this will run several checks and then `lerna publish`). Do not run `npm publish`.
-- You’ll be asked to confirm the new versions and descriptions for every package that has changed.
-- If you need to make changes you can exit without confirming and no changes will be made.
-- Once the publish is done, move anything from `UNRELEASED.md` to `CHANGELOG.md` and push these changes directly to `main`.
+- Publish the latest draft on the [releases pages](https://github.com/Skyscanner/backpack-foundations/releases)
+- Ensure CI runs the release workflow successfully
+- Once released verify the artifacts are available
 
 Be aware that if `bpk-foundations-common` has changed, *all* packages in the repository will be updated as they all depend on `bpk-foundations-common`. Changing an existing token is almost always worth a "major" release, whereas adding a new token is usually a "minor" release.
 

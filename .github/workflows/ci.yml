@@ -17,23 +17,37 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set the correct npm version
-        run: nvm install && nvm use
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies from npm
-        run: |
-          nvm use
-          npm ci
+        run: npm ci
 
       - name: Build Foundations
-        run: |
-          nvm use
-          npm run build
+        run: npm run build
       
       - name: Confirm the build hasn't changed any files
         run: ./check-pristine-state package-lock.json
 
       - name: Run tests
-        run: |
-          nvm use
-          npm test
+        run: npm test
+
+  ReleaseDraft:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+    steps:
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+  
+      - name: Draft release notes
+        uses: release-drafter/release-drafter@v6
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
