@@ -102,7 +102,7 @@ After making changes to the base files (and updating imports when adding new fil
 <details>
 <summary>Create a pull request to Backpack Foundations</summary>
 
-For anything non-trivial, we strongly recommend speaking to somebody from Koala before starting work on a PR. This lets us pass on any advice or knowledge we already have about the work you're proposing. It might even be something we're already working on. After this, follow the steps below.
+For anything non-trivial, we strongly recommend speaking to somebody from Clover before starting work on a PR. This lets us pass on any advice or knowledge we already have about the work you're proposing. It might even be something we're already working on. After this, follow the steps below.
 
 1. If you are a Skyscanner employee, follow the "Engineering Contribution" guide in the Backpack space in Confluence to get push rights to this repository. Otherwise, you should [fork the repository](https://github.com/Skyscanner/backpack-foundations/fork).
 2. Create a new branch.
