@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "@skyscanner/bpk-foundations-common": "^6.14.0",
-    "color": "^4.2.3"
+    "color": "^5.0.0"
   }
 }
