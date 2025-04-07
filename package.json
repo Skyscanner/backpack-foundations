@@ -53,8 +53,11 @@
       }
     },
     "testRegex": "packages/.*-test\\.js$",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
     "transformIgnorePatterns": [
-      "node_modules/(?!bpk)"
+      "node_modules/(?!bpk|color)"
     ]
   },
   "devDependencies": {

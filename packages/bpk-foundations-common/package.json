@@ -17,7 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "color": "^4.2.3"
+    "color": "^5.0.0"
   },
   "type": "module"
 }
