@@ -2808,6 +2808,13 @@
       "originalValue": "1.5rem",
       "name": "ICON_SIZE_LG"
     },
+    "ICON_SIZE_XL": {
+      "type": "size",
+      "category": "icons",
+      "value": "2rem",
+      "originalValue": "2rem",
+      "name": "ICON_SIZE_XL"
+    },
     "MODAL_BACKGROUND_COLOR": {
       "category": "modals",
       "value": "rgb(255, 255, 255)",
