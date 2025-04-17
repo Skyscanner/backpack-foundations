@@ -9,6 +9,9 @@
     },
     "ICON_SIZE_LG": {
       "value": "1.5rem"
+    },
+    "ICON_SIZE_XL": {
+      "value": "2rem"
     }
   }
 }

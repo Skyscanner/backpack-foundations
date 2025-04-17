@@ -344,6 +344,7 @@ module.exports = {
   horizontalNavBarSelectedColor: "rgb(0, 98, 227)",
   iconSizeSm: "1rem",
   iconSizeLg: "1.5rem",
+  iconSizeXl: "2rem",
   modalBackgroundColor: "rgb(255, 255, 255)",
   modalInitialOpacity: "0",
   modalOpacity: "1",
