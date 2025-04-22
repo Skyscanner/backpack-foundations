@@ -1,6 +1,6 @@
 {
   "name": "@skyscanner/bpk-foundations-android",
-  "version": "7.14.0",
+  "version": "19.3.1",
   "description": "Android design tokens for colors, spacing, font, etc.",
   "license": "Apache-2.0",
   "repository": {
@@ -17,7 +17,7 @@
     "tokens": "gulp"
   },
   "dependencies": {
-    "@skyscanner/bpk-foundations-common": "^6.14.0",
+    "@skyscanner/bpk-foundations-common": "^19.3.1",
     "color": "^5.0.0"
   }
 }
