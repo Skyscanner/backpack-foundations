@@ -11,6 +11,7 @@ defaults:
 jobs:
   release:
     runs-on: ubuntu-latest
+    environment: Publishing
 
     steps:
       - uses: actions/create-github-app-token@v2
