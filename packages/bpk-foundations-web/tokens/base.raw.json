@@ -2811,8 +2811,8 @@
     "ICON_SIZE_XL": {
       "type": "size",
       "category": "icons",
-      "value": "2rem",
-      "originalValue": "2rem",
+      "value": "3rem",
+      "originalValue": "3rem",
       "name": "ICON_SIZE_XL"
     },
     "MODAL_BACKGROUND_COLOR": {
