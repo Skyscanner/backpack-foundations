@@ -342,7 +342,9 @@ export const inputDisabledBorderColor = "rgb(239, 243, 248)";
 export const horizontalNavBarSelectedColor = "rgb(0, 98, 227)";
 export const iconSizeSm = "1rem";
 export const iconSizeLg = "1.5rem";
-export const iconSizeXl = "3rem";
+export const iconSizeXl = "2rem";
+export const iconSizeXxl = "2.5rem";
+export const iconSizeXxxl = "3rem";
 export const modalBackgroundColor = "rgb(255, 255, 255)";
 export const modalInitialOpacity = "0";
 export const modalOpacity = "1";
@@ -640,6 +642,8 @@ export const icons = {
 iconSizeSm,
 iconSizeLg,
 iconSizeXl,
+iconSizeXxl,
+iconSizeXxxl,
 };
 export const infoBannerColors = {
 privateInfoBannerDefaultDay,

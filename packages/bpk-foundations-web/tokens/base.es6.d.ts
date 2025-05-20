@@ -342,7 +342,9 @@ export declare const inputDisabledBorderColor = "rgb(239, 243, 248)" as const;
 export declare const horizontalNavBarSelectedColor = "rgb(0, 98, 227)" as const;
 export declare const iconSizeSm = "1rem" as const;
 export declare const iconSizeLg = "1.5rem" as const;
-export declare const iconSizeXl = "3rem" as const;
+export declare const iconSizeXl = "2rem" as const;
+export declare const iconSizeXxl = "2.5rem" as const;
+export declare const iconSizeXxxl = "3rem" as const;
 export declare const modalBackgroundColor = "rgb(255, 255, 255)" as const;
 export declare const modalInitialOpacity = "0" as const;
 export declare const modalOpacity = "1" as const;
@@ -640,6 +642,8 @@ export declare const icons = {
 iconSizeSm,
 iconSizeLg,
 iconSizeXl,
+iconSizeXxl,
+iconSizeXxxl,
 } as const;
 export declare const infoBannerColors = {
 privateInfoBannerDefaultDay,

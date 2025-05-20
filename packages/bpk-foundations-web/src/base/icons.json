@@ -11,6 +11,12 @@
       "value": "1.5rem"
     },
     "ICON_SIZE_XL": {
+      "value": "2rem"
+    },
+    "ICON_SIZE_XXL": {
+      "value": "2.5rem"
+    },
+    "ICON_SIZE_XXXL": {
       "value": "3rem"
     }
   }
