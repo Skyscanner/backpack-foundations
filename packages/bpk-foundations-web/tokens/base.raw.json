@@ -2811,9 +2811,23 @@
     "ICON_SIZE_XL": {
       "type": "size",
       "category": "icons",
+      "value": "2rem",
+      "originalValue": "2rem",
+      "name": "ICON_SIZE_XL"
+    },
+    "ICON_SIZE_XXL": {
+      "type": "size",
+      "category": "icons",
+      "value": "2.5rem",
+      "originalValue": "2.5rem",
+      "name": "ICON_SIZE_XXL"
+    },
+    "ICON_SIZE_XXXL": {
+      "type": "size",
+      "category": "icons",
       "value": "3rem",
       "originalValue": "3rem",
-      "name": "ICON_SIZE_XL"
+      "name": "ICON_SIZE_XXXL"
     },
     "MODAL_BACKGROUND_COLOR": {
       "category": "modals",
