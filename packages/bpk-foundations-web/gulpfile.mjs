@@ -20,6 +20,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 import { deleteAsync } from 'del';
+import { exec } from 'child_process';
 import gulp from 'gulp';
 import gulpTheo from 'gulp-theo';
 import _ from 'lodash';
@@ -66,6 +67,18 @@ theo.registerFormat('es6.d.ts', bpkDts);
 
 gulp.task('clean', (done) => deleteAsync(['tokens'], done));
 
+gulp.task('lint', (done) => {
+  exec('jsonlint ./src/*.json -q', (err, stdout, stderr) => {
+    if (err) {
+      console.error(stderr);
+      done(err);
+    } else {
+      console.log(stdout);
+      done();
+    }
+  });
+});
+
 const createTokens = (tokenSets, done) => {
   const streams = tokenSets.map(({ format, nest, platform }) => {
     let outputPath = 'tokens';
@@ -102,7 +115,7 @@ gulp.task('tokens:platform', createPlatformTokens);
 
 gulp.task(
   'tokens',
-  gulp.series('clean', 'tokens:raw', 'tokens:platform'),
+  gulp.series('clean', 'lint', 'tokens:raw', 'tokens:platform'),
 );
 
 gulp.task('default', gulp.series('tokens'));

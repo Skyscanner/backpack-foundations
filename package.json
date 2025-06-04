@@ -19,7 +19,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build:tokens && lerna run build && npm run lint",
+    "build": "npm run build:tokens && lerna run build",
     "build:tokens": "lerna run tokens",
     "clean": "npm run clean:lerna && npm run clean:node_modules",
     "clean:node_modules": "rm -rf node_modules",
