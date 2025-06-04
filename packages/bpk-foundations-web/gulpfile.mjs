@@ -102,7 +102,7 @@ gulp.task('tokens:platform', createPlatformTokens);
 
 gulp.task(
   'tokens',
-  gulp.series(gulp.parallel('clean', 'lint'), 'tokens:raw', 'tokens:platform'),
+  gulp.series('clean', 'tokens:raw', 'tokens:platform'),
 );
 
 gulp.task('default', gulp.series('tokens'));
