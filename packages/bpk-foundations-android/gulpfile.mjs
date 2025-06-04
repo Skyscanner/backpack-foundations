@@ -111,6 +111,6 @@ const createRawTokens = (done) => createTokens(rawTokenSets, done);
 
 gulp.task('tokens:raw', createRawTokens);
 
-gulp.task('tokens', gulp.series('clean', 'lint', 'tokens:raw'));
+gulp.task('tokens', gulp.series(gulp.parallel('clean', 'lint'), 'tokens:raw'));
 
 gulp.task('default', gulp.series('tokens'));
