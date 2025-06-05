@@ -15,5 +15,14 @@
   "rules": {
     "prettier/prettier": "error",
     "import/no-extraneous-dependencies": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.json"],
+      "plugins": ["json"],
+      "rules": {
+        "json/*": "error"
+      }
+    }
+  ]
 }
