@@ -68,9 +68,9 @@ theo.registerFormat('es6.d.ts', bpkDts);
 gulp.task('clean', (done) => deleteAsync(['tokens'], done));
 
 gulp.task('lint', (done) => {
-  exec('jsonlint ./src/*.json -q', (err, stdout, stderr) => {
+  exec('eslint ./src --ext json', (err, stdout, _) => {
     if (err) {
-      console.error(stderr);
+      console.error(stdout);
       done(err);
     } else {
       console.log(stdout);
