@@ -16,6 +16,6 @@
     },
     "PRIVATE_BAR_TRACK_ON_CONTRAST_NIGHT": {
       "value": "{!NIGHT_GREY_25}"
-    },
+    }
   }
 }

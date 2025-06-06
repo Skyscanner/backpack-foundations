@@ -21,8 +21,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 import { deleteAsync } from 'del';
+import { exec } from 'child_process';
 import gulp from 'gulp';
-import jsonLint from 'gulp-jsonlint';
 import gulpTheo from 'gulp-theo';
 import _ from 'lodash';
 import gulpMerge from 'merge2';
@@ -66,13 +66,17 @@ theo.registerTransform('ios', ['color/hex8rgba']);
 
 gulp.task('clean', (done) => deleteAsync(['tokens'], done));
 
-gulp.task('lint', () =>
-  gulp
-    .src('./src/*.json')
-    .pipe(jsonLint())
-    .pipe(jsonLint.reporter())
-    .pipe(jsonLint.failAfterError()),
-);
+gulp.task('lint', (done) => {
+  exec('eslint ./src --ext json', (err, stdout, _) => {
+    if (err) {
+      console.error(stdout);
+      done(err);
+    } else {
+      console.log(stdout);
+      done();
+    }
+  });
+});
 
 const createTokens = (tokenSets, done) => {
   const streams = tokenSets.map(({ format, nest, platform }) => {
