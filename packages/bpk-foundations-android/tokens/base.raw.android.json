@@ -202,7 +202,7 @@
       "value": "#FEEB87"
     },
     "GREY_05": {
-      "value": "#F7F9FB"
+      "value": "#F5F7FA"
     },
     "NIGHT_GREEN_SPOT": {
       "value": "#62F1C6"
@@ -2014,7 +2014,7 @@
     "SURFACE_LOW_CONTRAST_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#f7f9fbff",
+      "value": "#f5f7faff",
       "originalValue": "{!GREY_05}",
       "name": "SURFACE_LOW_CONTRAST_DAY"
     },
@@ -3728,7 +3728,7 @@
     "SURFACE_LOW_CONTRAST_COLOR": {
       "type": "color",
       "category": "surface-colors",
-      "value": "#f7f9fbff",
+      "value": "#f5f7faff",
       "originalValue": "{!GREY_05}",
       "name": "SURFACE_LOW_CONTRAST_COLOR",
       "darkValue": "#243346ff",

@@ -52,7 +52,7 @@
       "value": "#ffb54d"
     },
     "GREY_05": {
-      "value": "#F7F9FB"
+      "value": "#F5F7FA"
     },
     "NIGHT_GREEN_SPOT": {
       "value": "#62F1C6"
@@ -1024,7 +1024,7 @@
     "SURFACE_LOW_CONTRAST_DAY": {
       "type": "color",
       "category": "surface-colors",
-      "value": "rgb(247, 249, 251)",
+      "value": "rgb(245, 247, 250)",
       "originalValue": "{!GREY_05}",
       "name": "SURFACE_LOW_CONTRAST_DAY"
     },

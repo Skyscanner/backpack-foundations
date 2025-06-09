@@ -93,7 +93,7 @@ module.exports = {
   surfaceSubtleNight: "rgb(36, 51, 70)",
   surfaceElevatedDay: "rgb(255, 255, 255)",
   surfaceHighlightNight: "rgb(36, 51, 70)",
-  surfaceLowContrastDay: "rgb(247, 249, 251)",
+  surfaceLowContrastDay: "rgb(245, 247, 250)",
   surfaceSubtleDay: "rgb(227, 240, 255)",
   surfaceHighlightDay: "rgb(224, 228, 233)",
   textOnDarkDay: "rgb(255, 255, 255)",
