@@ -1574,7 +1574,7 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#f7f9fbff",
+      "value": "#f5f7faff",
       "originalValue": "{!GREY_05}",
       "name": "surfaceLowContrastDay"
     },
@@ -3492,7 +3492,7 @@
     {
       "type": "color",
       "category": "surface-colors",
-      "value": "#f7f9fbff",
+      "value": "#f5f7faff",
       "originalValue": "{!GREY_05}",
       "name": "surfaceLowContrastColor",
       "darkValue": "#243346ff",
