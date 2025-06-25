@@ -133,30 +133,6 @@
     },
     "COLOR_BLACK": {
       "value": "{!BLACK}"
-    },
-    "COLOR_BLACK_TINT_01": {
-      "value": "{!BLACK_TINT_01}",
-      "deprecated": true
-    },
-    "COLOR_BLACK_TINT_02": {
-      "value": "{!BLACK_TINT_02}",
-      "deprecated": true
-    },
-    "COLOR_BLACK_TINT_03": {
-      "value": "{!BLACK_TINT_03}",
-      "deprecated": true
-    },
-    "COLOR_BLACK_TINT_04": {
-      "value": "{!BLACK_TINT_04}",
-      "deprecated": true
-    },
-    "COLOR_BLACK_TINT_05": {
-      "value": "{!BLACK_TINT_05}",
-      "deprecated": true
-    },
-    "COLOR_BLACK_TINT_06": {
-      "value": "{!BLACK_TINT_06}",
-      "deprecated": true
     }
   }
 }
