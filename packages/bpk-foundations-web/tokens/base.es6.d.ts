@@ -65,26 +65,18 @@ export declare const textOnLightDay = "rgb(22, 22, 22)" as const;
 export declare const textLinkNight = "rgb(132, 233, 255)" as const;
 export declare const textHeroNight = "rgb(1, 9, 19)" as const;
 export declare const textDisabledNight = "rgba(255, 255, 255, 0.2)" as const;
-export declare const textPrimaryDarkColor = "rgb(255, 255, 255)" as const;
 export declare const textLinkDay = "rgb(0, 98, 227)" as const;
 export declare const textHeroDay = "rgb(0, 98, 227)" as const;
-export declare const textQuaternaryDarkColor = "rgb(142, 142, 147)" as const;
 export declare const textPrimaryNight = "rgb(255, 255, 255)" as const;
-export declare const textQuaternaryLightColor = "rgb(143, 144, 160)" as const;
 export declare const textDisabledDay = "rgba(0, 0, 0, 0.2)" as const;
-export declare const textPrimaryLightColor = "rgb(17, 18, 54)" as const;
 export declare const textPrimaryDay = "rgb(22, 22, 22)" as const;
 export declare const textErrorNight = "rgb(255, 100, 156)" as const;
 export declare const textErrorDay = "rgb(231, 8, 102)" as const;
-export declare const textTertiaryDarkColor = "rgb(142, 142, 147)" as const;
-export declare const textSecondaryDarkColor = "rgb(178, 178, 191)" as const;
 export declare const textPrimaryInverseNight = "rgb(1, 9, 19)" as const;
 export declare const textSecondaryNight = "rgb(189, 196, 203)" as const;
 export declare const textOnDarkNight = "rgb(255, 255, 255)" as const;
-export declare const textSecondaryLightColor = "rgb(104, 105, 127)" as const;
 export declare const textPrimaryInverseDay = "rgb(255, 255, 255)" as const;
 export declare const textDisabledOnDarkNight = "rgba(255, 255, 255, 0.5)" as const;
-export declare const textTertiaryLightColor = "rgb(143, 144, 160)" as const;
 export declare const textSecondaryDay = "rgb(98, 105, 113)" as const;
 export declare const lineDay = "rgb(193, 199, 207)" as const;
 export declare const lineNight = "rgb(68, 80, 95)" as const;
@@ -235,13 +227,17 @@ export declare const colorHarbour = "rgb(246, 221, 225)" as const;
 export declare const colorSkyGrayTint05 = "rgb(205, 205, 215)" as const;
 export declare const backgroundAlternativeSecondaryDarkColor = "rgb(29, 27, 32)" as const;
 export declare const colorSkyGrayTint06 = "rgb(221, 221, 229)" as const;
+export declare const textPrimaryDarkColor = "rgb(255, 255, 255)" as const;
+export declare const textQuaternaryDarkColor = "rgb(142, 142, 147)" as const;
 export declare const backgroundLightColor = "rgb(255, 255, 255)" as const;
 export declare const colorBlackTint01 = "rgb(29, 27, 32)" as const;
 export declare const colorSkyGrayTint07 = "rgb(241, 242, 248)" as const;
 export declare const colorBlackTint02 = "rgb(44, 44, 46)" as const;
 export declare const colorAbisko = "rgb(90, 72, 155)" as const;
+export declare const textQuaternaryLightColor = "rgb(143, 144, 160)" as const;
 export declare const backgroundDarkColor = "rgb(0, 0, 0)" as const;
 export declare const colorBlackTint03 = "rgb(58, 58, 60)" as const;
+export declare const textPrimaryLightColor = "rgb(17, 18, 54)" as const;
 export declare const colorBlackTint04 = "rgb(72, 72, 74)" as const;
 export declare const backgroundAlternativeSecondaryLightColor = "rgb(255, 255, 255)" as const;
 export declare const colorBlackTint05 = "rgb(99, 99, 102)" as const;
@@ -256,8 +252,10 @@ export declare const lineLightColor = "rgb(205, 205, 215)" as const;
 export declare const backgroundElevation02LightColor = "rgb(255, 255, 255)" as const;
 export declare const backgroundElevation03LightColor = "rgb(255, 255, 255)" as const;
 export declare const colorPetra = "rgb(255, 171, 149)" as const;
+export declare const textTertiaryDarkColor = "rgb(142, 142, 147)" as const;
 export declare const backgroundTertiaryDarkColor = "rgb(44, 44, 46)" as const;
 export declare const backgroundSecondaryDarkColor = "rgb(29, 27, 32)" as const;
+export declare const textSecondaryDarkColor = "rgb(178, 178, 191)" as const;
 export declare const backgroundAlternativeLightColor = "rgb(241, 242, 248)" as const;
 export declare const primaryDarkColor = "rgb(109, 159, 235)" as const;
 export declare const colorBagan = "rgb(255, 235, 208)" as const;
@@ -268,12 +266,14 @@ export declare const colorBunol = "rgb(255, 123, 89)" as const;
 export declare const colorSkyBlueTint03 = "rgb(205, 223, 248)" as const;
 export declare const colorSkyGray = "rgb(17, 18, 54)" as const;
 export declare const colorSystemRed = "rgb(209, 67, 91)" as const;
+export declare const textSecondaryLightColor = "rgb(104, 105, 127)" as const;
 export declare const backgroundAlternativeDarkColor = "rgb(0, 0, 0)" as const;
 export declare const primaryLightColor = "rgb(0, 98, 227)" as const;
 export declare const backgroundTertiaryLightColor = "rgb(255, 255, 255)" as const;
 export declare const colorNara = "rgb(255, 231, 224)" as const;
 export declare const colorSkyBlueShade01 = "rgb(8, 78, 178)" as const;
 export declare const backgroundSecondaryLightColor = "rgb(241, 242, 248)" as const;
+export declare const textTertiaryLightColor = "rgb(143, 144, 160)" as const;
 export declare const colorSkyBlueShade02 = "rgb(4, 39, 89)" as const;
 export declare const durationXs = "50ms" as const;
 export declare const durationSm = "200ms" as const;
@@ -812,33 +812,33 @@ textOnLightDay,
 textLinkNight,
 textHeroNight,
 textDisabledNight,
-textPrimaryDarkColor,
 textLinkDay,
 textHeroDay,
-textQuaternaryDarkColor,
 textPrimaryNight,
-textQuaternaryLightColor,
 textDisabledDay,
-textPrimaryLightColor,
 textPrimaryDay,
 textErrorNight,
 textErrorDay,
-textTertiaryDarkColor,
-textSecondaryDarkColor,
 textPrimaryInverseNight,
 textSecondaryNight,
 textOnDarkNight,
-textSecondaryLightColor,
 textPrimaryInverseDay,
 textDisabledOnDarkNight,
-textTertiaryLightColor,
 textSecondaryDay,
 backgroundElevation03DarkColor,
 backgroundElevation02DarkColor,
 backgroundElevation01DarkColor,
+textPrimaryDarkColor,
+textQuaternaryDarkColor,
+textQuaternaryLightColor,
+textPrimaryLightColor,
 backgroundElevation01LightColor,
 backgroundElevation02LightColor,
 backgroundElevation03LightColor,
+textTertiaryDarkColor,
+textSecondaryDarkColor,
+textSecondaryLightColor,
+textTertiaryLightColor,
 fontColorBase,
 } as const;
 export declare const typesettings = {

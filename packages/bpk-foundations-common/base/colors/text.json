@@ -7,38 +7,6 @@
     "category": "text-colors"
   },
   "props": {
-    "TEXT_PRIMARY_LIGHT_COLOR": {
-      "value": "{!CHARCOAL}",
-      "deprecated": true
-    },
-    "TEXT_SECONDARY_LIGHT_COLOR": {
-      "value": "{!GREY_40}",
-      "deprecated": true
-    },
-    "TEXT_TERTIARY_LIGHT_COLOR": {
-      "value": "{!BLACK_ALPHA_20}",
-      "deprecated": true
-    },
-    "TEXT_QUATERNARY_LIGHT_COLOR": {
-      "value": "{!BLACK_ALPHA_20}",
-      "deprecated": true
-    },
-    "TEXT_PRIMARY_DARK_COLOR": {
-      "value": "{!WHITE}",
-      "deprecated": true
-    },
-    "TEXT_SECONDARY_DARK_COLOR": {
-      "value": "{!NIGHT_GREY_40}",
-      "deprecated": true
-    },
-    "TEXT_TERTIARY_DARK_COLOR": {
-      "value": "{!WHITE_ALPHA_20}",
-      "deprecated": true
-    },
-    "TEXT_QUATERNARY_DARK_COLOR": {
-      "value": "{!WHITE_ALPHA_20}",
-      "deprecated": true
-    },
     "TEXT_PRIMARY_DAY": {
       "value": "{!CHARCOAL}"
     },

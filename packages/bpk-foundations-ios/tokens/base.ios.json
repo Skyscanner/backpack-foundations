@@ -1356,14 +1356,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "textPrimaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#0062e3ff",
       "originalValue": "{!SKY_BLUE}",
       "name": "textLinkDay"
@@ -1378,14 +1370,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffff33",
-      "deprecated": true,
-      "originalValue": "{!WHITE_ALPHA_20}",
-      "name": "textQuaternaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "textPrimaryNight"
@@ -1394,24 +1378,8 @@
       "type": "color",
       "category": "text-colors",
       "value": "#00000033",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textQuaternaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#00000033",
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "textDisabledDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#161616ff",
-      "deprecated": true,
-      "originalValue": "{!CHARCOAL}",
-      "name": "textPrimaryLightColor"
     },
     {
       "type": "color",
@@ -1437,22 +1405,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffff33",
-      "deprecated": true,
-      "originalValue": "{!WHITE_ALPHA_20}",
-      "name": "textTertiaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#bdc4cbff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_40}",
-      "name": "textSecondaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#010913ff",
       "originalValue": "{!NIGHT_GREY_10}",
       "name": "textPrimaryInverseNight"
@@ -1474,14 +1426,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#626971ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_40}",
-      "name": "textSecondaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "textPrimaryInverseDay"
@@ -1492,14 +1436,6 @@
       "value": "#ffffff80",
       "originalValue": "{!WHITE_ALPHA_50}",
       "name": "textDisabledOnDarkNight"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#00000033",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textTertiaryLightColor"
     },
     {
       "type": "color",
@@ -3118,16 +3054,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#00000033",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textQuaternaryColor",
-      "darkValue": "#ffffff33",
-      "originalDarkValue": "{!WHITE_ALPHA_20}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#e70866ff",
       "originalValue": "{!BERRY}",
       "name": "textErrorColor",
@@ -3137,12 +3063,11 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#00000033",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textTertiaryColor",
-      "darkValue": "#ffffff33",
-      "originalDarkValue": "{!WHITE_ALPHA_20}"
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "textPrimaryInverseColor",
+      "darkValue": "#010913ff",
+      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     {
       "type": "color",
@@ -3152,15 +3077,6 @@
       "name": "textSecondaryColor",
       "darkValue": "#bdc4cbff",
       "originalDarkValue": "{!NIGHT_GREY_40}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "textPrimaryInverseColor",
-      "darkValue": "#010913ff",
-      "originalDarkValue": "{!NIGHT_GREY_10}"
     },
     {
       "type": "color",
