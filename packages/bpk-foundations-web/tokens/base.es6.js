@@ -17,39 +17,9 @@
  * limitations under the License.
  * 
  */
-export const colorSkyBlueShade03 = "rgb(2, 18, 44)";
-export const colorPrimaryGradientLight = "rgb(0, 98, 227)";
-export const colorErfoud = "rgb(255, 181, 77)";
-export const colorValensole = "rgb(165, 155, 200)";
-export const colorMonteverde = "rgb(0, 166, 152)";
-export const colorSkyGrayTint01 = "rgb(68, 69, 96)";
-export const colorBlack = "rgb(1, 9, 19)";
-export const colorSkyGrayTint02 = "rgb(104, 105, 127)";
-export const colorSagano = "rgb(208, 238, 236)";
-export const colorSkyGrayTint03 = "rgb(143, 144, 160)";
-export const colorSkyGrayTint04 = "rgb(178, 178, 191)";
-export const colorHarbour = "rgb(246, 221, 225)";
-export const colorSkyGrayTint05 = "rgb(205, 205, 215)";
-export const colorSkyGrayTint06 = "rgb(221, 221, 229)";
-export const colorSkyGrayTint07 = "rgb(241, 242, 248)";
-export const colorAbisko = "rgb(90, 72, 155)";
 export const colorWhite = "rgb(255, 255, 255)";
-export const colorPanjin = "rgb(209, 67, 91)";
-export const colorKolkata = "rgb(255, 148, 0)";
-export const colorGlencoe = "rgb(115, 206, 198)";
-export const colorTochigi = "rgb(225, 221, 236)";
-export const colorPetra = "rgb(255, 171, 149)";
 export const colorSkyBlue = "rgb(0, 98, 227)";
-export const colorBagan = "rgb(255, 235, 208)";
-export const colorHillier = "rgb(225, 139, 150)";
-export const colorSkyBlueTint01 = "rgb(109, 159, 235)";
-export const colorSkyBlueTint02 = "rgb(157, 192, 242)";
-export const colorBunol = "rgb(255, 123, 89)";
-export const colorSkyBlueTint03 = "rgb(205, 223, 248)";
-export const colorSkyGray = "rgb(17, 18, 54)";
-export const colorNara = "rgb(255, 231, 224)";
-export const colorSkyBlueShade01 = "rgb(8, 78, 178)";
-export const colorSkyBlueShade02 = "rgb(4, 39, 89)";
+export const colorBlack = "rgb(1, 9, 19)";
 export const privateBadgeBackgroundNormalDay = "rgb(239, 243, 248)";
 export const privateBadgeBackgroundNormalNight = "rgb(36, 51, 70)";
 export const canvasDay = "rgb(255, 255, 255)";
@@ -269,12 +239,42 @@ export const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255, 255, 0.
 export const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)";
 export const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)";
 export const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)";
+export const colorSkyBlueShade03 = "rgb(2, 18, 44)";
+export const colorPrimaryGradientLight = "rgb(0, 98, 227)";
+export const colorErfoud = "rgb(255, 181, 77)";
+export const colorValensole = "rgb(165, 155, 200)";
+export const colorMonteverde = "rgb(0, 166, 152)";
+export const colorSkyGrayTint01 = "rgb(68, 69, 96)";
+export const colorSkyGrayTint02 = "rgb(104, 105, 127)";
+export const colorSagano = "rgb(208, 238, 236)";
+export const colorSkyGrayTint03 = "rgb(143, 144, 160)";
+export const colorSkyGrayTint04 = "rgb(178, 178, 191)";
+export const colorHarbour = "rgb(246, 221, 225)";
+export const colorSkyGrayTint05 = "rgb(205, 205, 215)";
+export const colorSkyGrayTint06 = "rgb(221, 221, 229)";
 export const colorBlackTint01 = "rgb(29, 27, 32)";
+export const colorSkyGrayTint07 = "rgb(241, 242, 248)";
 export const colorBlackTint02 = "rgb(44, 44, 46)";
+export const colorAbisko = "rgb(90, 72, 155)";
 export const colorBlackTint03 = "rgb(58, 58, 60)";
 export const colorBlackTint04 = "rgb(72, 72, 74)";
 export const colorBlackTint05 = "rgb(99, 99, 102)";
 export const colorBlackTint06 = "rgb(142, 142, 147)";
+export const colorPanjin = "rgb(209, 67, 91)";
+export const colorKolkata = "rgb(255, 148, 0)";
+export const colorGlencoe = "rgb(115, 206, 198)";
+export const colorTochigi = "rgb(225, 221, 236)";
+export const colorPetra = "rgb(255, 171, 149)";
+export const colorBagan = "rgb(255, 235, 208)";
+export const colorHillier = "rgb(225, 139, 150)";
+export const colorSkyBlueTint01 = "rgb(109, 159, 235)";
+export const colorSkyBlueTint02 = "rgb(157, 192, 242)";
+export const colorBunol = "rgb(255, 123, 89)";
+export const colorSkyBlueTint03 = "rgb(205, 223, 248)";
+export const colorSkyGray = "rgb(17, 18, 54)";
+export const colorNara = "rgb(255, 231, 224)";
+export const colorSkyBlueShade01 = "rgb(8, 78, 178)";
+export const colorSkyBlueShade02 = "rgb(4, 39, 89)";
 export const durationXs = "50ms";
 export const durationSm = "200ms";
 export const durationBase = "400ms";
@@ -540,39 +540,9 @@ privateChipOnDarkOnDismissIconDay,
 privateChipOnDarkOnDismissIconNight,
 };
 export const colors = {
-colorSkyBlueShade03,
-colorPrimaryGradientLight,
-colorErfoud,
-colorValensole,
-colorMonteverde,
-colorSkyGrayTint01,
-colorBlack,
-colorSkyGrayTint02,
-colorSagano,
-colorSkyGrayTint03,
-colorSkyGrayTint04,
-colorHarbour,
-colorSkyGrayTint05,
-colorSkyGrayTint06,
-colorSkyGrayTint07,
-colorAbisko,
 colorWhite,
-colorPanjin,
-colorKolkata,
-colorGlencoe,
-colorTochigi,
-colorPetra,
 colorSkyBlue,
-colorBagan,
-colorHillier,
-colorSkyBlueTint01,
-colorSkyBlueTint02,
-colorBunol,
-colorSkyBlueTint03,
-colorSkyGray,
-colorNara,
-colorSkyBlueShade01,
-colorSkyBlueShade02,
+colorBlack,
 lineDarkColor,
 backgroundAlternativeSecondaryDarkColor,
 backgroundLightColor,
@@ -589,12 +559,42 @@ backgroundAlternativeDarkColor,
 primaryLightColor,
 backgroundTertiaryLightColor,
 backgroundSecondaryLightColor,
+colorSkyBlueShade03,
+colorPrimaryGradientLight,
+colorErfoud,
+colorValensole,
+colorMonteverde,
+colorSkyGrayTint01,
+colorSkyGrayTint02,
+colorSagano,
+colorSkyGrayTint03,
+colorSkyGrayTint04,
+colorHarbour,
+colorSkyGrayTint05,
+colorSkyGrayTint06,
 colorBlackTint01,
+colorSkyGrayTint07,
 colorBlackTint02,
+colorAbisko,
 colorBlackTint03,
 colorBlackTint04,
 colorBlackTint05,
 colorBlackTint06,
+colorPanjin,
+colorKolkata,
+colorGlencoe,
+colorTochigi,
+colorPetra,
+colorBagan,
+colorHillier,
+colorSkyBlueTint01,
+colorSkyBlueTint02,
+colorBunol,
+colorSkyBlueTint03,
+colorSkyGray,
+colorNara,
+colorSkyBlueShade01,
+colorSkyBlueShade02,
 primaryGradient,
 };
 export const coreColors = {
