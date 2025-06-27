@@ -11,10 +11,6 @@
     "COLOR_SKY_BLUE": {
       "value": "{!SKY_BLUE}"
     },
-    "COLOR_MONTEVERDE": {
-      "value": "{!MONTEVERDE}",
-      "deprecated": true
-    },
     "COLOR_GLENCOE": {
       "value": "{!GLENCOE}",
       "deprecated": true

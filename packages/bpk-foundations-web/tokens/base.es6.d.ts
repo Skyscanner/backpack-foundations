@@ -21,7 +21,6 @@ export declare const colorSkyBlueShade03 = "rgb(2, 18, 44)" as const;
 export declare const colorPrimaryGradientLight = "rgb(0, 98, 227)" as const;
 export declare const colorErfoud = "rgb(255, 181, 77)" as const;
 export declare const colorValensole = "rgb(165, 155, 200)" as const;
-export declare const colorMonteverde = "rgb(0, 166, 152)" as const;
 export declare const colorSkyGrayTint01 = "rgb(68, 69, 96)" as const;
 export declare const colorBlack = "rgb(1, 9, 19)" as const;
 export declare const colorSkyGrayTint02 = "rgb(104, 105, 127)" as const;
@@ -269,6 +268,7 @@ export declare const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255,
 export declare const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)" as const;
 export declare const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)" as const;
 export declare const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)" as const;
+export declare const colorMonteverde = "rgb(0, 166, 152)" as const;
 export declare const colorBlackTint01 = "rgb(29, 27, 32)" as const;
 export declare const colorBlackTint02 = "rgb(44, 44, 46)" as const;
 export declare const colorBlackTint03 = "rgb(58, 58, 60)" as const;
@@ -544,7 +544,6 @@ colorSkyBlueShade03,
 colorPrimaryGradientLight,
 colorErfoud,
 colorValensole,
-colorMonteverde,
 colorSkyGrayTint01,
 colorBlack,
 colorSkyGrayTint02,
@@ -589,6 +588,7 @@ backgroundAlternativeDarkColor,
 primaryLightColor,
 backgroundTertiaryLightColor,
 backgroundSecondaryLightColor,
+colorMonteverde,
 colorBlackTint01,
 colorBlackTint02,
 colorBlackTint03,

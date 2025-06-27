@@ -21,7 +21,6 @@ export const colorSkyBlueShade03 = "rgb(2, 18, 44)";
 export const colorPrimaryGradientLight = "rgb(0, 98, 227)";
 export const colorErfoud = "rgb(255, 181, 77)";
 export const colorValensole = "rgb(165, 155, 200)";
-export const colorMonteverde = "rgb(0, 166, 152)";
 export const colorSkyGrayTint01 = "rgb(68, 69, 96)";
 export const colorBlack = "rgb(1, 9, 19)";
 export const colorSkyGrayTint02 = "rgb(104, 105, 127)";
@@ -269,6 +268,7 @@ export const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255, 255, 0.
 export const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)";
 export const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)";
 export const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)";
+export const colorMonteverde = "rgb(0, 166, 152)";
 export const colorBlackTint01 = "rgb(29, 27, 32)";
 export const colorBlackTint02 = "rgb(44, 44, 46)";
 export const colorBlackTint03 = "rgb(58, 58, 60)";
@@ -544,7 +544,6 @@ colorSkyBlueShade03,
 colorPrimaryGradientLight,
 colorErfoud,
 colorValensole,
-colorMonteverde,
 colorSkyGrayTint01,
 colorBlack,
 colorSkyGrayTint02,
@@ -589,6 +588,7 @@ backgroundAlternativeDarkColor,
 primaryLightColor,
 backgroundTertiaryLightColor,
 backgroundSecondaryLightColor,
+colorMonteverde,
 colorBlackTint01,
 colorBlackTint02,
 colorBlackTint03,

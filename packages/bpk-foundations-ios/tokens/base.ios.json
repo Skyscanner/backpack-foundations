@@ -1052,14 +1052,6 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#0c838aff",
-      "deprecated": true,
-      "originalValue": "{!MONTEVERDE}",
-      "name": "colorMonteverde"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#545860ff",
       "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_01}",

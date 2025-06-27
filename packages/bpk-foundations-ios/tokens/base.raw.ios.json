@@ -1489,14 +1489,6 @@
       "originalValue": "{!VALENSOLE}",
       "name": "COLOR_VALENSOLE"
     },
-    "COLOR_MONTEVERDE": {
-      "type": "color",
-      "category": "colors",
-      "value": "#0c838aff",
-      "deprecated": true,
-      "originalValue": "{!MONTEVERDE}",
-      "name": "COLOR_MONTEVERDE"
-    },
     "COLOR_SKY_GRAY_TINT_01": {
       "type": "color",
       "category": "colors",
@@ -4765,7 +4757,6 @@
     "COLOR_PRIMARY_GRADIENT_LIGHT",
     "COLOR_ERFOUD",
     "COLOR_VALENSOLE",
-    "COLOR_MONTEVERDE",
     "COLOR_SKY_GRAY_TINT_01",
     "COLOR_BLACK",
     "COLOR_SKY_GRAY_TINT_02",

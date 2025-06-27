@@ -499,14 +499,6 @@
       "originalValue": "{!VALENSOLE}",
       "name": "COLOR_VALENSOLE"
     },
-    "COLOR_MONTEVERDE": {
-      "value": "rgb(0, 166, 152)",
-      "deprecated": true,
-      "type": "color",
-      "category": "colors",
-      "originalValue": "{!MONTEVERDE}",
-      "name": "COLOR_MONTEVERDE"
-    },
     "COLOR_SKY_GRAY_TINT_01": {
       "value": "rgb(68, 69, 96)",
       "deprecated": true,
@@ -2290,6 +2282,14 @@
       "value": "rgb(5, 65, 132)",
       "originalValue": "{!NIGHT_SKY}",
       "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_NIGHT"
+    },
+    "COLOR_MONTEVERDE": {
+      "value": "rgb(0, 166, 152)",
+      "deprecated": true,
+      "type": "color",
+      "category": "colors",
+      "originalValue": "{!MONTEVERDE}",
+      "name": "COLOR_MONTEVERDE"
     },
     "COLOR_BLACK_TINT_01": {
       "value": "rgb(29, 27, 32)",
