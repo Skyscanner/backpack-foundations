@@ -90,7 +90,6 @@ export declare const scrimDay = "rgba(0, 0, 0, 0.7)" as const;
 export declare const backgroundElevation03DarkColor = "rgb(58, 58, 60)" as const;
 export declare const backgroundElevation02DarkColor = "rgb(44, 44, 46)" as const;
 export declare const lineOnDarkNight = "rgb(68, 80, 95)" as const;
-export declare const lineDarkColor = "rgb(72, 72, 74)" as const;
 export declare const backgroundElevation01DarkColor = "rgb(29, 27, 32)" as const;
 export declare const lineOnDarkDay = "rgba(255, 255, 255, 0.5)" as const;
 export declare const backgroundAlternativeSecondaryDarkColor = "rgb(29, 27, 32)" as const;
@@ -100,9 +99,7 @@ export declare const backgroundDarkColor = "rgb(0, 0, 0)" as const;
 export declare const backgroundAlternativeSecondaryLightColor = "rgb(255, 255, 255)" as const;
 export declare const overlayDay = "rgba(0, 0, 0, 0.2)" as const;
 export declare const lineNight = "rgb(68, 80, 95)" as const;
-export declare const colorSystemGreen = "rgb(0, 166, 152)" as const;
 export declare const backgroundElevation01LightColor = "rgb(255, 255, 255)" as const;
-export declare const lineLightColor = "rgb(205, 205, 215)" as const;
 export declare const backgroundElevation02LightColor = "rgb(255, 255, 255)" as const;
 export declare const lineDay = "rgb(193, 199, 207)" as const;
 export declare const backgroundElevation03LightColor = "rgb(255, 255, 255)" as const;
@@ -110,7 +107,6 @@ export declare const backgroundTertiaryDarkColor = "rgb(44, 44, 46)" as const;
 export declare const backgroundSecondaryDarkColor = "rgb(29, 27, 32)" as const;
 export declare const backgroundAlternativeLightColor = "rgb(241, 242, 248)" as const;
 export declare const primaryDarkColor = "rgb(109, 159, 235)" as const;
-export declare const colorSystemRed = "rgb(209, 67, 91)" as const;
 export declare const backgroundAlternativeDarkColor = "rgb(0, 0, 0)" as const;
 export declare const primaryLightColor = "rgb(0, 98, 227)" as const;
 export declare const backgroundTertiaryLightColor = "rgb(255, 255, 255)" as const;
@@ -246,6 +242,7 @@ export declare const colorValensole = "rgb(165, 155, 200)" as const;
 export declare const colorMonteverde = "rgb(0, 166, 152)" as const;
 export declare const colorSkyGrayTint01 = "rgb(68, 69, 96)" as const;
 export declare const colorSkyGrayTint02 = "rgb(104, 105, 127)" as const;
+export declare const lineDarkColor = "rgb(72, 72, 74)" as const;
 export declare const colorSagano = "rgb(208, 238, 236)" as const;
 export declare const colorSkyGrayTint03 = "rgb(143, 144, 160)" as const;
 export declare const colorSkyGrayTint04 = "rgb(178, 178, 191)" as const;
@@ -261,9 +258,11 @@ export declare const colorBlackTint04 = "rgb(72, 72, 74)" as const;
 export declare const colorBlackTint05 = "rgb(99, 99, 102)" as const;
 export declare const colorBlackTint06 = "rgb(142, 142, 147)" as const;
 export declare const colorPanjin = "rgb(209, 67, 91)" as const;
+export declare const colorSystemGreen = "rgb(0, 166, 152)" as const;
 export declare const colorKolkata = "rgb(255, 148, 0)" as const;
 export declare const colorGlencoe = "rgb(115, 206, 198)" as const;
 export declare const colorTochigi = "rgb(225, 221, 236)" as const;
+export declare const lineLightColor = "rgb(205, 205, 215)" as const;
 export declare const colorPetra = "rgb(255, 171, 149)" as const;
 export declare const colorBagan = "rgb(255, 235, 208)" as const;
 export declare const colorHillier = "rgb(225, 139, 150)" as const;
@@ -272,6 +271,7 @@ export declare const colorSkyBlueTint02 = "rgb(157, 192, 242)" as const;
 export declare const colorBunol = "rgb(255, 123, 89)" as const;
 export declare const colorSkyBlueTint03 = "rgb(205, 223, 248)" as const;
 export declare const colorSkyGray = "rgb(17, 18, 54)" as const;
+export declare const colorSystemRed = "rgb(209, 67, 91)" as const;
 export declare const colorNara = "rgb(255, 231, 224)" as const;
 export declare const colorSkyBlueShade01 = "rgb(8, 78, 178)" as const;
 export declare const colorSkyBlueShade02 = "rgb(4, 39, 89)" as const;
@@ -543,18 +543,14 @@ export declare const colors = {
 colorWhite,
 colorSkyBlue,
 colorBlack,
-lineDarkColor,
 backgroundAlternativeSecondaryDarkColor,
 backgroundLightColor,
 backgroundDarkColor,
 backgroundAlternativeSecondaryLightColor,
-colorSystemGreen,
-lineLightColor,
 backgroundTertiaryDarkColor,
 backgroundSecondaryDarkColor,
 backgroundAlternativeLightColor,
 primaryDarkColor,
-colorSystemRed,
 backgroundAlternativeDarkColor,
 primaryLightColor,
 backgroundTertiaryLightColor,
@@ -566,6 +562,7 @@ colorValensole,
 colorMonteverde,
 colorSkyGrayTint01,
 colorSkyGrayTint02,
+lineDarkColor,
 colorSagano,
 colorSkyGrayTint03,
 colorSkyGrayTint04,
@@ -581,9 +578,11 @@ colorBlackTint04,
 colorBlackTint05,
 colorBlackTint06,
 colorPanjin,
+colorSystemGreen,
 colorKolkata,
 colorGlencoe,
 colorTochigi,
+lineLightColor,
 colorPetra,
 colorBagan,
 colorHillier,
@@ -592,6 +591,7 @@ colorSkyBlueTint02,
 colorBunol,
 colorSkyBlueTint03,
 colorSkyGray,
+colorSystemRed,
 colorNara,
 colorSkyBlueShade01,
 colorSkyBlueShade02,

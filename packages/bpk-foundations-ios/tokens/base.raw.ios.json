@@ -1978,14 +1978,6 @@
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "LINE_ON_DARK_NIGHT"
     },
-    "LINE_DARK_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#44505fff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_30}",
-      "name": "LINE_DARK_COLOR"
-    },
     "BACKGROUND_ELEVATION_01_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -2054,14 +2046,6 @@
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "LINE_NIGHT"
     },
-    "COLOR_SYSTEM_GREEN": {
-      "type": "color",
-      "category": "colors",
-      "value": "#0c838aff",
-      "deprecated": true,
-      "originalValue": "{!GREEN_SPOT}",
-      "name": "COLOR_SYSTEM_GREEN"
-    },
     "BACKGROUND_ELEVATION_01_LIGHT_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -2069,14 +2053,6 @@
       "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_01_LIGHT_COLOR"
-    },
-    "LINE_LIGHT_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#c1c7cfff",
-      "deprecated": true,
-      "originalValue": "{!GREY_30}",
-      "name": "LINE_LIGHT_COLOR"
     },
     "BACKGROUND_ELEVATION_02_LIGHT_COLOR": {
       "type": "color",
@@ -2132,14 +2108,6 @@
       "deprecated": true,
       "originalValue": "{!NIGHT_BLUE}",
       "name": "PRIMARY_DARK_COLOR"
-    },
-    "COLOR_SYSTEM_RED": {
-      "type": "color",
-      "category": "colors",
-      "value": "#e70866ff",
-      "deprecated": true,
-      "originalValue": "{!BERRY}",
-      "name": "COLOR_SYSTEM_RED"
     },
     "BACKGROUND_ALTERNATIVE_DARK_COLOR": {
       "type": "color",
@@ -3816,15 +3784,6 @@
       "darkValue": "#44505fff",
       "originalDarkValue": "{!NIGHT_GREY_30}"
     },
-    "LINE_COLOR": {
-      "type": "color",
-      "category": "line-colors",
-      "value": "#c1c7cfff",
-      "originalValue": "{!GREY_30}",
-      "name": "LINE_COLOR",
-      "darkValue": "#44505fff",
-      "originalDarkValue": "{!NIGHT_GREY_30}"
-    },
     "BACKGROUND_ELEVATION_01_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -3863,6 +3822,15 @@
       "name": "OVERLAY_COLOR",
       "darkValue": "#ffffffcc",
       "originalDarkValue": "{!WHITE_ALPHA_80}"
+    },
+    "LINE_COLOR": {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "LINE_COLOR",
+      "darkValue": "#44505fff",
+      "originalDarkValue": "{!NIGHT_GREY_30}"
     },
     "BACKGROUND_TERTIARY_COLOR": {
       "type": "color",
@@ -4594,7 +4562,6 @@
     "BACKGROUND_ELEVATION_03_DARK_COLOR",
     "BACKGROUND_ELEVATION_02_DARK_COLOR",
     "LINE_ON_DARK_NIGHT",
-    "LINE_DARK_COLOR",
     "BACKGROUND_ELEVATION_01_DARK_COLOR",
     "LINE_ON_DARK_DAY",
     "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR",
@@ -4604,9 +4571,7 @@
     "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR",
     "OVERLAY_DAY",
     "LINE_NIGHT",
-    "COLOR_SYSTEM_GREEN",
     "BACKGROUND_ELEVATION_01_LIGHT_COLOR",
-    "LINE_LIGHT_COLOR",
     "BACKGROUND_ELEVATION_02_LIGHT_COLOR",
     "LINE_DAY",
     "BACKGROUND_ELEVATION_03_LIGHT_COLOR",
@@ -4614,7 +4579,6 @@
     "BACKGROUND_SECONDARY_DARK_COLOR",
     "BACKGROUND_ALTERNATIVE_LIGHT_COLOR",
     "PRIMARY_DARK_COLOR",
-    "COLOR_SYSTEM_RED",
     "BACKGROUND_ALTERNATIVE_DARK_COLOR",
     "PRIMARY_LIGHT_COLOR",
     "BACKGROUND_TERTIARY_LIGHT_COLOR",
@@ -4843,11 +4807,11 @@
     "BACKGROUND_ELEVATION_03_COLOR",
     "BACKGROUND_ELEVATION_02_COLOR",
     "LINE_ON_DARK_COLOR",
-    "LINE_COLOR",
     "BACKGROUND_ELEVATION_01_COLOR",
     "BACKGROUND_ALTERNATIVE_SECONDARY_COLOR",
     "BACKGROUND_COLOR",
     "OVERLAY_COLOR",
+    "LINE_COLOR",
     "BACKGROUND_TERTIARY_COLOR",
     "BACKGROUND_SECONDARY_COLOR",
     "BACKGROUND_ALTERNATIVE_COLOR",

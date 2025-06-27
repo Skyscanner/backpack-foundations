@@ -988,14 +988,6 @@
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "LINE_ON_DARK_NIGHT"
     },
-    "LINE_DARK_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(72, 72, 74)",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_04}",
-      "name": "LINE_DARK_COLOR"
-    },
     "BACKGROUND_ELEVATION_01_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -1064,14 +1056,6 @@
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "LINE_NIGHT"
     },
-    "COLOR_SYSTEM_GREEN": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(0, 166, 152)",
-      "deprecated": true,
-      "originalValue": "{!MONTEVERDE}",
-      "name": "COLOR_SYSTEM_GREEN"
-    },
     "BACKGROUND_ELEVATION_01_LIGHT_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -1079,14 +1063,6 @@
       "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ELEVATION_01_LIGHT_COLOR"
-    },
-    "LINE_LIGHT_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(205, 205, 215)",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_05}",
-      "name": "LINE_LIGHT_COLOR"
     },
     "BACKGROUND_ELEVATION_02_LIGHT_COLOR": {
       "type": "color",
@@ -1142,14 +1118,6 @@
       "deprecated": true,
       "originalValue": "{!SKY_BLUE_TINT_01}",
       "name": "PRIMARY_DARK_COLOR"
-    },
-    "COLOR_SYSTEM_RED": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(209, 67, 91)",
-      "deprecated": true,
-      "originalValue": "{!PANJIN}",
-      "name": "COLOR_SYSTEM_RED"
     },
     "BACKGROUND_ALTERNATIVE_DARK_COLOR": {
       "type": "color",
@@ -2107,6 +2075,14 @@
       "originalValue": "{!SKY_GRAY_TINT_02}",
       "name": "COLOR_SKY_GRAY_TINT_02"
     },
+    "LINE_DARK_COLOR": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(72, 72, 74)",
+      "deprecated": true,
+      "originalValue": "{!BLACK_TINT_04}",
+      "name": "LINE_DARK_COLOR"
+    },
     "COLOR_SAGANO": {
       "value": "rgb(208, 238, 236)",
       "deprecated": true,
@@ -2227,6 +2203,14 @@
       "originalValue": "{!PANJIN}",
       "name": "COLOR_PANJIN"
     },
+    "COLOR_SYSTEM_GREEN": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(0, 166, 152)",
+      "deprecated": true,
+      "originalValue": "{!MONTEVERDE}",
+      "name": "COLOR_SYSTEM_GREEN"
+    },
     "COLOR_KOLKATA": {
       "value": "rgb(255, 148, 0)",
       "deprecated": true,
@@ -2250,6 +2234,14 @@
       "category": "colors",
       "originalValue": "{!TOCHIGI}",
       "name": "COLOR_TOCHIGI"
+    },
+    "LINE_LIGHT_COLOR": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(205, 205, 215)",
+      "deprecated": true,
+      "originalValue": "{!SKY_GRAY_TINT_05}",
+      "name": "LINE_LIGHT_COLOR"
     },
     "COLOR_PETRA": {
       "value": "rgb(255, 171, 149)",
@@ -2314,6 +2306,14 @@
       "category": "colors",
       "originalValue": "{!SKY_GRAY}",
       "name": "COLOR_SKY_GRAY"
+    },
+    "COLOR_SYSTEM_RED": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(209, 67, 91)",
+      "deprecated": true,
+      "originalValue": "{!PANJIN}",
+      "name": "COLOR_SYSTEM_RED"
     },
     "COLOR_NARA": {
       "value": "rgb(255, 231, 224)",

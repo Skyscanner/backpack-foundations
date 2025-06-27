@@ -1540,14 +1540,6 @@
     },
     {
       "type": "color",
-      "category": "colors",
-      "value": "#44505fff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_30}",
-      "name": "lineDarkColor"
-    },
-    {
-      "type": "color",
       "category": "text-colors",
       "value": "#131d2bff",
       "deprecated": true,
@@ -1616,27 +1608,11 @@
     },
     {
       "type": "color",
-      "category": "colors",
-      "value": "#0c838aff",
-      "deprecated": true,
-      "originalValue": "{!GREEN_SPOT}",
-      "name": "colorSystemGreen"
-    },
-    {
-      "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
       "deprecated": true,
       "originalValue": "{!WHITE}",
       "name": "backgroundElevation01LightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#c1c7cfff",
-      "deprecated": true,
-      "originalValue": "{!GREY_30}",
-      "name": "lineLightColor"
     },
     {
       "type": "color",
@@ -1692,14 +1668,6 @@
       "deprecated": true,
       "originalValue": "{!NIGHT_BLUE}",
       "name": "primaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#e70866ff",
-      "deprecated": true,
-      "originalValue": "{!BERRY}",
-      "name": "colorSystemRed"
     },
     {
       "type": "color",
@@ -3378,15 +3346,6 @@
     },
     {
       "type": "color",
-      "category": "line-colors",
-      "value": "#c1c7cfff",
-      "originalValue": "{!GREY_30}",
-      "name": "lineColor",
-      "darkValue": "#44505fff",
-      "originalDarkValue": "{!NIGHT_GREY_30}"
-    },
-    {
-      "type": "color",
       "category": "text-colors",
       "value": "#ffffffff",
       "deprecated": true,
@@ -3423,6 +3382,15 @@
       "name": "overlayColor",
       "darkValue": "#ffffffcc",
       "originalDarkValue": "{!WHITE_ALPHA_80}"
+    },
+    {
+      "type": "color",
+      "category": "line-colors",
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "lineColor",
+      "darkValue": "#44505fff",
+      "originalDarkValue": "{!NIGHT_GREY_30}"
     },
     {
       "type": "color",

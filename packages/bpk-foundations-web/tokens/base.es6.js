@@ -90,7 +90,6 @@ export const scrimDay = "rgba(0, 0, 0, 0.7)";
 export const backgroundElevation03DarkColor = "rgb(58, 58, 60)";
 export const backgroundElevation02DarkColor = "rgb(44, 44, 46)";
 export const lineOnDarkNight = "rgb(68, 80, 95)";
-export const lineDarkColor = "rgb(72, 72, 74)";
 export const backgroundElevation01DarkColor = "rgb(29, 27, 32)";
 export const lineOnDarkDay = "rgba(255, 255, 255, 0.5)";
 export const backgroundAlternativeSecondaryDarkColor = "rgb(29, 27, 32)";
@@ -100,9 +99,7 @@ export const backgroundDarkColor = "rgb(0, 0, 0)";
 export const backgroundAlternativeSecondaryLightColor = "rgb(255, 255, 255)";
 export const overlayDay = "rgba(0, 0, 0, 0.2)";
 export const lineNight = "rgb(68, 80, 95)";
-export const colorSystemGreen = "rgb(0, 166, 152)";
 export const backgroundElevation01LightColor = "rgb(255, 255, 255)";
-export const lineLightColor = "rgb(205, 205, 215)";
 export const backgroundElevation02LightColor = "rgb(255, 255, 255)";
 export const lineDay = "rgb(193, 199, 207)";
 export const backgroundElevation03LightColor = "rgb(255, 255, 255)";
@@ -110,7 +107,6 @@ export const backgroundTertiaryDarkColor = "rgb(44, 44, 46)";
 export const backgroundSecondaryDarkColor = "rgb(29, 27, 32)";
 export const backgroundAlternativeLightColor = "rgb(241, 242, 248)";
 export const primaryDarkColor = "rgb(109, 159, 235)";
-export const colorSystemRed = "rgb(209, 67, 91)";
 export const backgroundAlternativeDarkColor = "rgb(0, 0, 0)";
 export const primaryLightColor = "rgb(0, 98, 227)";
 export const backgroundTertiaryLightColor = "rgb(255, 255, 255)";
@@ -246,6 +242,7 @@ export const colorValensole = "rgb(165, 155, 200)";
 export const colorMonteverde = "rgb(0, 166, 152)";
 export const colorSkyGrayTint01 = "rgb(68, 69, 96)";
 export const colorSkyGrayTint02 = "rgb(104, 105, 127)";
+export const lineDarkColor = "rgb(72, 72, 74)";
 export const colorSagano = "rgb(208, 238, 236)";
 export const colorSkyGrayTint03 = "rgb(143, 144, 160)";
 export const colorSkyGrayTint04 = "rgb(178, 178, 191)";
@@ -261,9 +258,11 @@ export const colorBlackTint04 = "rgb(72, 72, 74)";
 export const colorBlackTint05 = "rgb(99, 99, 102)";
 export const colorBlackTint06 = "rgb(142, 142, 147)";
 export const colorPanjin = "rgb(209, 67, 91)";
+export const colorSystemGreen = "rgb(0, 166, 152)";
 export const colorKolkata = "rgb(255, 148, 0)";
 export const colorGlencoe = "rgb(115, 206, 198)";
 export const colorTochigi = "rgb(225, 221, 236)";
+export const lineLightColor = "rgb(205, 205, 215)";
 export const colorPetra = "rgb(255, 171, 149)";
 export const colorBagan = "rgb(255, 235, 208)";
 export const colorHillier = "rgb(225, 139, 150)";
@@ -272,6 +271,7 @@ export const colorSkyBlueTint02 = "rgb(157, 192, 242)";
 export const colorBunol = "rgb(255, 123, 89)";
 export const colorSkyBlueTint03 = "rgb(205, 223, 248)";
 export const colorSkyGray = "rgb(17, 18, 54)";
+export const colorSystemRed = "rgb(209, 67, 91)";
 export const colorNara = "rgb(255, 231, 224)";
 export const colorSkyBlueShade01 = "rgb(8, 78, 178)";
 export const colorSkyBlueShade02 = "rgb(4, 39, 89)";
@@ -543,18 +543,14 @@ export const colors = {
 colorWhite,
 colorSkyBlue,
 colorBlack,
-lineDarkColor,
 backgroundAlternativeSecondaryDarkColor,
 backgroundLightColor,
 backgroundDarkColor,
 backgroundAlternativeSecondaryLightColor,
-colorSystemGreen,
-lineLightColor,
 backgroundTertiaryDarkColor,
 backgroundSecondaryDarkColor,
 backgroundAlternativeLightColor,
 primaryDarkColor,
-colorSystemRed,
 backgroundAlternativeDarkColor,
 primaryLightColor,
 backgroundTertiaryLightColor,
@@ -566,6 +562,7 @@ colorValensole,
 colorMonteverde,
 colorSkyGrayTint01,
 colorSkyGrayTint02,
+lineDarkColor,
 colorSagano,
 colorSkyGrayTint03,
 colorSkyGrayTint04,
@@ -581,9 +578,11 @@ colorBlackTint04,
 colorBlackTint05,
 colorBlackTint06,
 colorPanjin,
+colorSystemGreen,
 colorKolkata,
 colorGlencoe,
 colorTochigi,
+lineLightColor,
 colorPetra,
 colorBagan,
 colorHillier,
@@ -592,6 +591,7 @@ colorSkyBlueTint02,
 colorBunol,
 colorSkyBlueTint03,
 colorSkyGray,
+colorSystemRed,
 colorNara,
 colorSkyBlueShade01,
 colorSkyBlueShade02,

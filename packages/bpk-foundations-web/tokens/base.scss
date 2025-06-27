@@ -163,8 +163,6 @@ $bpk-background-elevation-03-dark-color: rgb(58, 58, 60);
 $bpk-background-elevation-02-dark-color: rgb(44, 44, 46);
 /// @group line-colors
 $bpk-line-on-dark-night: rgb(68, 80, 95);
-/// @group colors
-$bpk-line-dark-color: rgb(72, 72, 74);
 /// @group text-colors
 $bpk-background-elevation-01-dark-color: rgb(29, 27, 32);
 /// @group line-colors
@@ -183,12 +181,8 @@ $bpk-background-alternative-secondary-light-color: rgb(255, 255, 255);
 $bpk-overlay-day: rgba(0, 0, 0, 0.2);
 /// @group line-colors
 $bpk-line-night: rgb(68, 80, 95);
-/// @group colors
-$bpk-color-system-green: rgb(0, 166, 152);
 /// @group text-colors
 $bpk-background-elevation-01-light-color: rgb(255, 255, 255);
-/// @group colors
-$bpk-line-light-color: rgb(205, 205, 215);
 /// @group text-colors
 $bpk-background-elevation-02-light-color: rgb(255, 255, 255);
 /// @group line-colors
@@ -203,8 +197,6 @@ $bpk-background-secondary-dark-color: rgb(29, 27, 32);
 $bpk-background-alternative-light-color: rgb(241, 242, 248);
 /// @group colors
 $bpk-primary-dark-color: rgb(109, 159, 235);
-/// @group colors
-$bpk-color-system-red: rgb(209, 67, 91);
 /// @group colors
 $bpk-background-alternative-dark-color: rgb(0, 0, 0);
 /// @group colors
@@ -476,6 +468,8 @@ $bpk-color-sky-gray-tint-01: rgb(68, 69, 96);
 /// @group colors
 $bpk-color-sky-gray-tint-02: rgb(104, 105, 127);
 /// @group colors
+$bpk-line-dark-color: rgb(72, 72, 74);
+/// @group colors
 $bpk-color-sagano: rgb(208, 238, 236);
 /// @group colors
 $bpk-color-sky-gray-tint-03: rgb(143, 144, 160);
@@ -506,11 +500,15 @@ $bpk-color-black-tint-06: rgb(142, 142, 147);
 /// @group colors
 $bpk-color-panjin: rgb(209, 67, 91);
 /// @group colors
+$bpk-color-system-green: rgb(0, 166, 152);
+/// @group colors
 $bpk-color-kolkata: rgb(255, 148, 0);
 /// @group colors
 $bpk-color-glencoe: rgb(115, 206, 198);
 /// @group colors
 $bpk-color-tochigi: rgb(225, 221, 236);
+/// @group colors
+$bpk-line-light-color: rgb(205, 205, 215);
 /// @group colors
 $bpk-color-petra: rgb(255, 171, 149);
 /// @group colors
@@ -527,6 +525,8 @@ $bpk-color-bunol: rgb(255, 123, 89);
 $bpk-color-sky-blue-tint-03: rgb(205, 223, 248);
 /// @group colors
 $bpk-color-sky-gray: rgb(17, 18, 54);
+/// @group colors
+$bpk-color-system-red: rgb(209, 67, 91);
 /// @group colors
 $bpk-color-nara: rgb(255, 231, 224);
 /// @group colors

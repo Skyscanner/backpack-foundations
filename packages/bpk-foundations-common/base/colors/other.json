@@ -1,30 +1,6 @@
 {
   "imports": ["./aliases.json"],
   "props": {
-    "COLOR_SYSTEM_RED": {
-      "type": "color",
-      "category": "colors",
-      "value": "{!BERRY}",
-      "deprecated": true
-    },
-    "COLOR_SYSTEM_GREEN": {
-      "type": "color",
-      "category": "colors",
-      "value": "{!GREEN_SPOT}",
-      "deprecated": true
-    },
-    "LINE_LIGHT_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "{!GREY_30}",
-      "deprecated": true
-    },
-    "LINE_DARK_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "{!NIGHT_GREY_30}",
-      "deprecated": true
-    },
     "LINE_DAY": {
       "type": "color",
       "category": "line-colors",
