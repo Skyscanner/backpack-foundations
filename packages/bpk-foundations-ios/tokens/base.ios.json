@@ -1131,26 +1131,10 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_01}",
-      "name": "colorBlackTint01"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#eff1f2ff",
       "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "colorSkyGrayTint07"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_02}",
-      "name": "colorBlackTint02"
     },
     {
       "type": "color",
@@ -1163,41 +1147,9 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#243346ff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_03}",
-      "name": "colorBlackTint03"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#44505fff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_04}",
-      "name": "colorBlackTint04"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "colorWhite"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#44505fff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_05}",
-      "name": "colorBlackTint05"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#bdc4cbff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_06}",
-      "name": "colorBlackTint06"
     },
     {
       "type": "color",
