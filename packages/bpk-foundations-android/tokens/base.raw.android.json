@@ -1948,96 +1948,12 @@
       "originalValue": "{!GREY_40}",
       "name": "TEXT_SECONDARY_DAY"
     },
-    "SCRIM_DAY": {
-      "type": "color",
-      "category": "scrim-colors",
-      "value": "#000000b3",
-      "originalValue": "{!BLACK_ALPHA_70}",
-      "name": "SCRIM_DAY"
-    },
-    "BACKGROUND_ELEVATION_03_DARK_COLOR": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#243346ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_25}",
-      "name": "BACKGROUND_ELEVATION_03_DARK_COLOR"
-    },
-    "BACKGROUND_ELEVATION_02_DARK_COLOR": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#243346ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_25}",
-      "name": "BACKGROUND_ELEVATION_02_DARK_COLOR"
-    },
-    "LINE_ON_DARK_NIGHT": {
+    "LINE_DAY": {
       "type": "color",
       "category": "line-colors",
-      "value": "#44505fff",
-      "originalValue": "{!NIGHT_GREY_30}",
-      "name": "LINE_ON_DARK_NIGHT"
-    },
-    "BACKGROUND_ELEVATION_01_DARK_COLOR": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "BACKGROUND_ELEVATION_01_DARK_COLOR"
-    },
-    "LINE_ON_DARK_DAY": {
-      "type": "color",
-      "category": "line-colors",
-      "value": "#ffffff80",
-      "originalValue": "{!WHITE_ALPHA_50}",
-      "name": "LINE_ON_DARK_DAY"
-    },
-    "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR"
-    },
-    "BACKGROUND_LIGHT_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_LIGHT_COLOR"
-    },
-    "OVERLAY_NIGHT": {
-      "type": "color",
-      "category": "overlay-colors",
-      "value": "#ffffffcc",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "OVERLAY_NIGHT"
-    },
-    "BACKGROUND_DARK_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "BACKGROUND_DARK_COLOR"
-    },
-    "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR"
-    },
-    "OVERLAY_DAY": {
-      "type": "color",
-      "category": "overlay-colors",
-      "value": "#00000033",
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "OVERLAY_DAY"
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "LINE_DAY"
     },
     "LINE_NIGHT": {
       "type": "color",
@@ -2046,100 +1962,26 @@
       "originalValue": "{!NIGHT_GREY_30}",
       "name": "LINE_NIGHT"
     },
-    "BACKGROUND_ELEVATION_01_LIGHT_COLOR": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_ELEVATION_01_LIGHT_COLOR"
-    },
-    "BACKGROUND_ELEVATION_02_LIGHT_COLOR": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_ELEVATION_02_LIGHT_COLOR"
-    },
-    "LINE_DAY": {
+    "LINE_ON_DARK_DAY": {
       "type": "color",
       "category": "line-colors",
-      "value": "#c1c7cfff",
-      "originalValue": "{!GREY_30}",
-      "name": "LINE_DAY"
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "LINE_ON_DARK_DAY"
     },
-    "BACKGROUND_ELEVATION_03_LIGHT_COLOR": {
+    "LINE_ON_DARK_NIGHT": {
       "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_ELEVATION_03_LIGHT_COLOR"
+      "category": "line-colors",
+      "value": "#44505fff",
+      "originalValue": "{!NIGHT_GREY_30}",
+      "name": "LINE_ON_DARK_NIGHT"
     },
-    "BACKGROUND_TERTIARY_DARK_COLOR": {
+    "SCRIM_DAY": {
       "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "BACKGROUND_TERTIARY_DARK_COLOR"
-    },
-    "BACKGROUND_SECONDARY_DARK_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "BACKGROUND_SECONDARY_DARK_COLOR"
-    },
-    "BACKGROUND_ALTERNATIVE_LIGHT_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#eff3f8ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_10}",
-      "name": "BACKGROUND_ALTERNATIVE_LIGHT_COLOR"
-    },
-    "PRIMARY_DARK_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#84e9ffff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_BLUE}",
-      "name": "PRIMARY_DARK_COLOR"
-    },
-    "BACKGROUND_ALTERNATIVE_DARK_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "BACKGROUND_ALTERNATIVE_DARK_COLOR"
-    },
-    "PRIMARY_LIGHT_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "PRIMARY_LIGHT_COLOR"
-    },
-    "BACKGROUND_TERTIARY_LIGHT_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_TERTIARY_LIGHT_COLOR"
-    },
-    "BACKGROUND_SECONDARY_LIGHT_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#eff3f8ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_10}",
-      "name": "BACKGROUND_SECONDARY_LIGHT_COLOR"
+      "category": "scrim-colors",
+      "value": "#000000b3",
+      "originalValue": "{!BLACK_ALPHA_70}",
+      "name": "SCRIM_DAY"
     },
     "SCRIM_NIGHT": {
       "type": "color",
@@ -2147,6 +1989,20 @@
       "value": "#000000b3",
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "SCRIM_NIGHT"
+    },
+    "OVERLAY_DAY": {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "#00000033",
+      "originalValue": "{!BLACK_ALPHA_20}",
+      "name": "OVERLAY_DAY"
+    },
+    "OVERLAY_NIGHT": {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "OVERLAY_NIGHT"
     },
     "PRIVATE_INFO_BANNER_DEFAULT_DAY": {
       "type": "color",
@@ -3542,34 +3398,14 @@
       "darkValue": "#010913ff",
       "originalDarkValue": "{!NIGHT_GREY_10}"
     },
-    "SCRIM_COLOR": {
+    "LINE_COLOR": {
       "type": "color",
-      "category": "scrim-colors",
-      "value": "#000000b3",
-      "originalValue": "{!BLACK_ALPHA_70}",
-      "name": "SCRIM_COLOR",
-      "darkValue": "#000000b3",
-      "originalDarkValue": "{!BLACK_ALPHA_70}"
-    },
-    "BACKGROUND_ELEVATION_03_COLOR": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_ELEVATION_03_COLOR",
-      "darkValue": "#243346ff",
-      "originalDarkValue": "{!NIGHT_GREY_25}"
-    },
-    "BACKGROUND_ELEVATION_02_COLOR": {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_ELEVATION_02_COLOR",
-      "darkValue": "#243346ff",
-      "originalDarkValue": "{!NIGHT_GREY_25}"
+      "category": "line-colors",
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "LINE_COLOR",
+      "darkValue": "#44505fff",
+      "originalDarkValue": "{!NIGHT_GREY_30}"
     },
     "LINE_ON_DARK_COLOR": {
       "type": "color",
@@ -3580,35 +3416,14 @@
       "darkValue": "#44505fff",
       "originalDarkValue": "{!NIGHT_GREY_30}"
     },
-    "BACKGROUND_ELEVATION_01_COLOR": {
+    "SCRIM_COLOR": {
       "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_ELEVATION_01_COLOR",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
-    },
-    "BACKGROUND_ALTERNATIVE_SECONDARY_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_ALTERNATIVE_SECONDARY_COLOR",
-      "darkValue": "#010913ff",
-      "originalDarkValue": "{!NIGHT_GREY_10}"
-    },
-    "BACKGROUND_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_COLOR",
-      "darkValue": "#010913ff",
-      "originalDarkValue": "{!NIGHT_GREY_10}"
+      "category": "scrim-colors",
+      "value": "#000000b3",
+      "originalValue": "{!BLACK_ALPHA_70}",
+      "name": "SCRIM_COLOR",
+      "darkValue": "#000000b3",
+      "originalDarkValue": "{!BLACK_ALPHA_70}"
     },
     "OVERLAY_COLOR": {
       "type": "color",
@@ -3618,55 +3433,6 @@
       "name": "OVERLAY_COLOR",
       "darkValue": "#ffffffcc",
       "originalDarkValue": "{!WHITE_ALPHA_80}"
-    },
-    "LINE_COLOR": {
-      "type": "color",
-      "category": "line-colors",
-      "value": "#c1c7cfff",
-      "originalValue": "{!GREY_30}",
-      "name": "LINE_COLOR",
-      "darkValue": "#44505fff",
-      "originalDarkValue": "{!NIGHT_GREY_30}"
-    },
-    "BACKGROUND_TERTIARY_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "BACKGROUND_TERTIARY_COLOR",
-      "darkValue": "#010913ff",
-      "originalDarkValue": "{!NIGHT_GREY_10}"
-    },
-    "BACKGROUND_SECONDARY_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#eff3f8ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_10}",
-      "name": "BACKGROUND_SECONDARY_COLOR",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
-    },
-    "BACKGROUND_ALTERNATIVE_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#eff3f8ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_10}",
-      "name": "BACKGROUND_ALTERNATIVE_COLOR",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
-    },
-    "PRIMARY_COLOR": {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "PRIMARY_COLOR",
-      "darkValue": "#84e9ffff",
-      "originalDarkValue": "{!NIGHT_BLUE}"
     },
     "PRIVATE_INFO_BANNER_DEFAULT_COLOR": {
       "type": "color",
@@ -4354,32 +4120,14 @@
     "TEXT_DISABLED_ON_DARK_NIGHT",
     "TEXT_TERTIARY_LIGHT_COLOR",
     "TEXT_SECONDARY_DAY",
-    "SCRIM_DAY",
-    "BACKGROUND_ELEVATION_03_DARK_COLOR",
-    "BACKGROUND_ELEVATION_02_DARK_COLOR",
-    "LINE_ON_DARK_NIGHT",
-    "BACKGROUND_ELEVATION_01_DARK_COLOR",
-    "LINE_ON_DARK_DAY",
-    "BACKGROUND_ALTERNATIVE_SECONDARY_DARK_COLOR",
-    "BACKGROUND_LIGHT_COLOR",
-    "OVERLAY_NIGHT",
-    "BACKGROUND_DARK_COLOR",
-    "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR",
-    "OVERLAY_DAY",
-    "LINE_NIGHT",
-    "BACKGROUND_ELEVATION_01_LIGHT_COLOR",
-    "BACKGROUND_ELEVATION_02_LIGHT_COLOR",
     "LINE_DAY",
-    "BACKGROUND_ELEVATION_03_LIGHT_COLOR",
-    "BACKGROUND_TERTIARY_DARK_COLOR",
-    "BACKGROUND_SECONDARY_DARK_COLOR",
-    "BACKGROUND_ALTERNATIVE_LIGHT_COLOR",
-    "PRIMARY_DARK_COLOR",
-    "BACKGROUND_ALTERNATIVE_DARK_COLOR",
-    "PRIMARY_LIGHT_COLOR",
-    "BACKGROUND_TERTIARY_LIGHT_COLOR",
-    "BACKGROUND_SECONDARY_LIGHT_COLOR",
+    "LINE_NIGHT",
+    "LINE_ON_DARK_DAY",
+    "LINE_ON_DARK_NIGHT",
+    "SCRIM_DAY",
     "SCRIM_NIGHT",
+    "OVERLAY_DAY",
+    "OVERLAY_NIGHT",
     "PRIVATE_INFO_BANNER_DEFAULT_DAY",
     "PRIVATE_INFO_BANNER_ON_CONTRAST_DAY",
     "PRIVATE_INFO_BANNER_SUCCESS_DAY",
@@ -4570,19 +4318,10 @@
     "TEXT_TERTIARY_COLOR",
     "TEXT_SECONDARY_COLOR",
     "TEXT_PRIMARY_INVERSE_COLOR",
-    "SCRIM_COLOR",
-    "BACKGROUND_ELEVATION_03_COLOR",
-    "BACKGROUND_ELEVATION_02_COLOR",
-    "LINE_ON_DARK_COLOR",
-    "BACKGROUND_ELEVATION_01_COLOR",
-    "BACKGROUND_ALTERNATIVE_SECONDARY_COLOR",
-    "BACKGROUND_COLOR",
-    "OVERLAY_COLOR",
     "LINE_COLOR",
-    "BACKGROUND_TERTIARY_COLOR",
-    "BACKGROUND_SECONDARY_COLOR",
-    "BACKGROUND_ALTERNATIVE_COLOR",
-    "PRIMARY_COLOR",
+    "LINE_ON_DARK_COLOR",
+    "SCRIM_COLOR",
+    "OVERLAY_COLOR",
     "PRIVATE_INFO_BANNER_DEFAULT_COLOR",
     "PRIVATE_INFO_BANNER_ON_CONTRAST_COLOR",
     "PRIVATE_INFO_BANNER_SUCCESS_COLOR",
