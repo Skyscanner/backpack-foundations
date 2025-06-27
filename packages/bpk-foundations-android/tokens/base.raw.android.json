@@ -1568,14 +1568,6 @@
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "COLOR_SKY_GRAY_TINT_06"
     },
-    "COLOR_BLACK_TINT_01": {
-      "type": "color",
-      "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_01}",
-      "name": "COLOR_BLACK_TINT_01"
-    },
     "COLOR_SKY_GRAY_TINT_07": {
       "type": "color",
       "category": "colors",
@@ -1583,14 +1575,6 @@
       "deprecated": true,
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "COLOR_SKY_GRAY_TINT_07"
-    },
-    "COLOR_BLACK_TINT_02": {
-      "type": "color",
-      "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_02}",
-      "name": "COLOR_BLACK_TINT_02"
     },
     "COLOR_ABISKO": {
       "type": "color",
@@ -1600,44 +1584,12 @@
       "originalValue": "{!ABISKO}",
       "name": "COLOR_ABISKO"
     },
-    "COLOR_BLACK_TINT_03": {
-      "type": "color",
-      "category": "colors",
-      "value": "#243346ff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_03}",
-      "name": "COLOR_BLACK_TINT_03"
-    },
-    "COLOR_BLACK_TINT_04": {
-      "type": "color",
-      "category": "colors",
-      "value": "#44505fff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_04}",
-      "name": "COLOR_BLACK_TINT_04"
-    },
     "COLOR_WHITE": {
       "type": "color",
       "category": "colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "COLOR_WHITE"
-    },
-    "COLOR_BLACK_TINT_05": {
-      "type": "color",
-      "category": "colors",
-      "value": "#44505fff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_05}",
-      "name": "COLOR_BLACK_TINT_05"
-    },
-    "COLOR_BLACK_TINT_06": {
-      "type": "color",
-      "category": "colors",
-      "value": "#bdc4cbff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_06}",
-      "name": "COLOR_BLACK_TINT_06"
     },
     "COLOR_PANJIN": {
       "type": "color",
@@ -4619,15 +4571,9 @@
     "COLOR_HARBOUR",
     "COLOR_SKY_GRAY_TINT_05",
     "COLOR_SKY_GRAY_TINT_06",
-    "COLOR_BLACK_TINT_01",
     "COLOR_SKY_GRAY_TINT_07",
-    "COLOR_BLACK_TINT_02",
     "COLOR_ABISKO",
-    "COLOR_BLACK_TINT_03",
-    "COLOR_BLACK_TINT_04",
     "COLOR_WHITE",
-    "COLOR_BLACK_TINT_05",
-    "COLOR_BLACK_TINT_06",
     "COLOR_PANJIN",
     "COLOR_KOLKATA",
     "COLOR_GLENCOE",
