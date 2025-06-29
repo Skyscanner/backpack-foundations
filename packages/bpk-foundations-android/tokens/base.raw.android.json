@@ -1489,14 +1489,6 @@
       "originalValue": "{!VALENSOLE}",
       "name": "COLOR_VALENSOLE"
     },
-    "COLOR_SKY_GRAY_TINT_01": {
-      "type": "color",
-      "category": "colors",
-      "value": "#545860ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_01}",
-      "name": "COLOR_SKY_GRAY_TINT_01"
-    },
     "COLOR_BLACK": {
       "type": "color",
       "category": "colors",
