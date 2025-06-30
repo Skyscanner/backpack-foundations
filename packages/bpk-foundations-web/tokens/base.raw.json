@@ -9,9 +9,6 @@
     "ANIMATION_DURATION_BASE": {
       "value": "400ms"
     },
-    "SKY_BLUE_TINT_03": {
-      "value": "#cddff8"
-    },
     "YELLOW_MUTED": {
       "value": "#FFF7CF"
     },
@@ -147,9 +144,6 @@
     "GREEN_SPOT": {
       "value": "#0C838A"
     },
-    "SKY_BLUE_TINT_01": {
-      "value": "#6d9feb"
-    },
     "AMBER_SPOT": {
       "value": "#F55D42"
     },
@@ -159,14 +153,14 @@
     "BLACK_ALPHA_20": {
       "value": "#00000033"
     },
-    "SKY_BLUE_TINT_02": {
-      "value": "#9dc0f2"
-    },
     "GREY_10": {
       "value": "#EFF3F8"
     },
     "BLACK": {
       "value": "#000000"
+    },
+    "SKY_BLUE_TINT_03": {
+      "value": "#cddff8"
     },
     "NARA": {
       "value": "#ffe7e0"
@@ -257,6 +251,12 @@
     },
     "SKY_BLUE_SHADE_03": {
       "value": "#02122c"
+    },
+    "SKY_BLUE_TINT_01": {
+      "value": "#6d9feb"
+    },
+    "SKY_BLUE_TINT_02": {
+      "value": "#9dc0f2"
     },
     "VALENSOLE": {
       "value": "#a59bc8"

@@ -159,9 +159,6 @@
     "ANIMATION_DURATION_BASE": {
       "value": "400ms"
     },
-    "SKY_BLUE_TINT_03": {
-      "value": "#E0E3E5"
-    },
     "YELLOW_MUTED": {
       "value": "#FFF7CF"
     },
@@ -297,9 +294,6 @@
     "GREEN_SPOT": {
       "value": "#0C838A"
     },
-    "SKY_BLUE_TINT_01": {
-      "value": "#84E9FF"
-    },
     "AMBER_SPOT": {
       "value": "#F55D42"
     },
@@ -308,9 +302,6 @@
     },
     "BLACK_ALPHA_20": {
       "value": "#00000033"
-    },
-    "SKY_BLUE_TINT_02": {
-      "value": "#E0E3E5"
     },
     "GREY_10": {
       "value": "#EFF3F8"
