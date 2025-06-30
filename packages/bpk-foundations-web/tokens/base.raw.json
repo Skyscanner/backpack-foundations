@@ -27,12 +27,6 @@
     "PINK_MUTED": {
       "value": "#FFE9F9"
     },
-    "NARA": {
-      "value": "#ffe7e0"
-    },
-    "HARBOUR": {
-      "value": "#f6dde1"
-    },
     "BABY_BLUE": {
       "value": "#E3F0FF"
     },
@@ -47,9 +41,6 @@
     },
     "BLACK_TINT_01": {
       "value": "#1D1B20"
-    },
-    "ERFOUD": {
-      "value": "#ffb54d"
     },
     "GREY_05": {
       "value": "#F5F7FA"
@@ -78,9 +69,6 @@
     "SKY_GRAY_TINT_01": {
       "value": "#444560"
     },
-    "MONTEVERDE": {
-      "value": "#00a698"
-    },
     "BLACK_TINT_04": {
       "value": "#48484A"
     },
@@ -96,26 +84,14 @@
     "SKY_GRAY_TINT_03": {
       "value": "#8f90a0"
     },
-    "SAGANO": {
-      "value": "#d0eeec"
-    },
     "BLACK_TINT_06": {
       "value": "#8E8E93"
     },
     "SKY_GRAY_TINT_04": {
       "value": "#B2B2BF"
     },
-    "KOLKATA": {
-      "value": "#ff9400"
-    },
-    "GLENCOE": {
-      "value": "#73cec6"
-    },
     "SKY_GRAY_TINT_05": {
       "value": "#CDCDD7"
-    },
-    "TOCHIGI": {
-      "value": "#e1ddec"
     },
     "SKY_GRAY_TINT_06": {
       "value": "#DDDDE5"
@@ -126,26 +102,17 @@
     "SKY_GRAY_TINT_07": {
       "value": "#F1F2F8"
     },
-    "PETRA": {
-      "value": "#ffab95"
-    },
     "GREEN_MUTED": {
       "value": "#D4FFF2"
     },
     "WHITE_ALPHA_80": {
       "value": "#FFFFFFCC"
     },
-    "ABISKO": {
-      "value": "#5a489b"
-    },
     "NIGHT_BERRY": {
       "value": "#FF649C"
     },
     "WHITE_ALPHA_50": {
       "value": "#FFFFFF80"
-    },
-    "PANJIN": {
-      "value": "#d1435b"
     },
     "NIGHT_BLUE_100": {
       "value": "#002B5B"
@@ -155,12 +122,6 @@
     },
     "ECO_GREEN": {
       "value": "#0FA1A9"
-    },
-    "HILLIER": {
-      "value": "#e18b96"
-    },
-    "BAGAN": {
-      "value": "#ffebd0"
     },
     "NIGHT_GREY_40": {
       "value": "#BDC4CB"
@@ -182,9 +143,6 @@
     },
     "SKY_BLUE": {
       "value": "#0062E3"
-    },
-    "BUNOL": {
-      "value": "#ff7b59"
     },
     "BABY_BLUE_40": {
       "value": "#94C3FF"
@@ -252,14 +210,56 @@
     "SKY_BLUE_TINT_02": {
       "value": "#9dc0f2"
     },
-    "VALENSOLE": {
-      "value": "#a59bc8"
-    },
     "GREY_10": {
       "value": "#EFF3F8"
     },
     "BLACK": {
       "value": "#000000"
+    },
+    "NARA": {
+      "value": "#ffe7e0"
+    },
+    "HARBOUR": {
+      "value": "#f6dde1"
+    },
+    "ERFOUD": {
+      "value": "#ffb54d"
+    },
+    "MONTEVERDE": {
+      "value": "#00a698"
+    },
+    "SAGANO": {
+      "value": "#d0eeec"
+    },
+    "KOLKATA": {
+      "value": "#ff9400"
+    },
+    "GLENCOE": {
+      "value": "#73cec6"
+    },
+    "TOCHIGI": {
+      "value": "#e1ddec"
+    },
+    "PETRA": {
+      "value": "#ffab95"
+    },
+    "ABISKO": {
+      "value": "#5a489b"
+    },
+    "PANJIN": {
+      "value": "#d1435b"
+    },
+    "HILLIER": {
+      "value": "#e18b96"
+    },
+    "BAGAN": {
+      "value": "#ffebd0"
+    },
+    "BUNOL": {
+      "value": "#ff7b59"
+    },
+    "VALENSOLE": {
+      "value": "#a59bc8"
     },
     "FONT_WEIGHT_BOOK": {
       "value": "400"

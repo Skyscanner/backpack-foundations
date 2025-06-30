@@ -177,12 +177,6 @@
     "PINK_MUTED": {
       "value": "#FFE9F9"
     },
-    "NARA": {
-      "value": "#FFF7CF"
-    },
-    "HARBOUR": {
-      "value": "#FFE9F9"
-    },
     "BABY_BLUE": {
       "value": "#E3F0FF"
     },
@@ -197,9 +191,6 @@
     },
     "BLACK_TINT_01": {
       "value": "#131D2B"
-    },
-    "ERFOUD": {
-      "value": "#FEEB87"
     },
     "GREY_05": {
       "value": "#F5F7FA"
@@ -228,9 +219,6 @@
     "SKY_GRAY_TINT_01": {
       "value": "#545860"
     },
-    "MONTEVERDE": {
-      "value": "#0C838A"
-    },
     "BLACK_TINT_04": {
       "value": "#44505F"
     },
@@ -246,26 +234,14 @@
     "SKY_GRAY_TINT_03": {
       "value": "#545860"
     },
-    "SAGANO": {
-      "value": "#D4FFF2"
-    },
     "BLACK_TINT_06": {
       "value": "#BDC4CB"
     },
     "SKY_GRAY_TINT_04": {
       "value": "#C2C9CD"
     },
-    "KOLKATA": {
-      "value": "#F55D42"
-    },
-    "GLENCOE": {
-      "value": "#62F1C6"
-    },
     "SKY_GRAY_TINT_05": {
       "value": "#C2C9CD"
-    },
-    "TOCHIGI": {
-      "value": "#EFF1F2"
     },
     "SKY_GRAY_TINT_06": {
       "value": "#E0E3E5"
@@ -276,26 +252,17 @@
     "SKY_GRAY_TINT_07": {
       "value": "#EFF1F2"
     },
-    "PETRA": {
-      "value": "#FEEB87"
-    },
     "GREEN_MUTED": {
       "value": "#D4FFF2"
     },
     "WHITE_ALPHA_80": {
       "value": "#FFFFFFCC"
     },
-    "ABISKO": {
-      "value": "#05203C"
-    },
     "NIGHT_BERRY": {
       "value": "#FF649C"
     },
     "WHITE_ALPHA_50": {
       "value": "#FFFFFF80"
-    },
-    "PANJIN": {
-      "value": "#E70866"
     },
     "NIGHT_BLUE_100": {
       "value": "#002B5B"
@@ -305,12 +272,6 @@
     },
     "ECO_GREEN": {
       "value": "#0FA1A9"
-    },
-    "HILLIER": {
-      "value": "#FF649C"
-    },
-    "BAGAN": {
-      "value": "#FFF7CF"
     },
     "NIGHT_GREY_40": {
       "value": "#BDC4CB"
@@ -332,9 +293,6 @@
     },
     "SKY_BLUE": {
       "value": "#0062E3"
-    },
-    "BUNOL": {
-      "value": "#F55D42"
     },
     "BABY_BLUE_40": {
       "value": "#94C3FF"
@@ -400,9 +358,6 @@
       "value": "#00000033"
     },
     "SKY_BLUE_TINT_02": {
-      "value": "#E0E3E5"
-    },
-    "VALENSOLE": {
       "value": "#E0E3E5"
     },
     "GREY_10": {
