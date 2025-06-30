@@ -159,20 +159,11 @@
     "NIGHT_SKY": {
       "value": "#054184"
     },
-    "SKY_BLUE_SHADE_01": {
-      "value": "#084eb2"
-    },
     "BABY_BLUE_20": {
       "value": "#CFE4FF"
     },
     "BLACK_ALPHA_70": {
       "value": "#000000B3"
-    },
-    "SKY_BLUE_SHADE_02": {
-      "value": "#042759"
-    },
-    "SKY_BLUE_SHADE_03": {
-      "value": "#02122c"
     },
     "NIGHT_GREY_25": {
       "value": "#243346"
@@ -257,6 +248,15 @@
     },
     "BUNOL": {
       "value": "#ff7b59"
+    },
+    "SKY_BLUE_SHADE_01": {
+      "value": "#084eb2"
+    },
+    "SKY_BLUE_SHADE_02": {
+      "value": "#042759"
+    },
+    "SKY_BLUE_SHADE_03": {
+      "value": "#02122c"
     },
     "VALENSOLE": {
       "value": "#a59bc8"
