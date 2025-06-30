@@ -39,9 +39,6 @@
     "DARK_SKY_85": {
       "value": "#154679"
     },
-    "BLACK_TINT_01": {
-      "value": "#1D1B20"
-    },
     "GREY_05": {
       "value": "#F5F7FA"
     },
@@ -54,29 +51,14 @@
     "NIGHT_YELLOW_SPOT": {
       "value": "#FEEB87"
     },
-    "BLACK_TINT_02": {
-      "value": "#2C2C2E"
-    },
     "NIGHT_YELLOW_FILL": {
       "value": "#FBF1BB"
     },
     "BERRY_75": {
       "value": "#C80456"
     },
-    "BLACK_TINT_03": {
-      "value": "#3A3A3C"
-    },
-    "BLACK_TINT_04": {
-      "value": "#48484A"
-    },
     "WHITE": {
       "value": "#ffffff"
-    },
-    "BLACK_TINT_05": {
-      "value": "#636366"
-    },
-    "BLACK_TINT_06": {
-      "value": "#8E8E93"
     },
     "CHARCOAL": {
       "value": "#161616"
@@ -192,8 +174,17 @@
     "HARBOUR": {
       "value": "#f6dde1"
     },
+    "BLACK_TINT_01": {
+      "value": "#1D1B20"
+    },
     "ERFOUD": {
       "value": "#ffb54d"
+    },
+    "BLACK_TINT_02": {
+      "value": "#2C2C2E"
+    },
+    "BLACK_TINT_03": {
+      "value": "#3A3A3C"
     },
     "SKY_GRAY_TINT_01": {
       "value": "#444560"
@@ -201,14 +192,23 @@
     "MONTEVERDE": {
       "value": "#00a698"
     },
+    "BLACK_TINT_04": {
+      "value": "#48484A"
+    },
     "SKY_GRAY_TINT_02": {
       "value": "#68697F"
+    },
+    "BLACK_TINT_05": {
+      "value": "#636366"
     },
     "SKY_GRAY_TINT_03": {
       "value": "#8f90a0"
     },
     "SAGANO": {
       "value": "#d0eeec"
+    },
+    "BLACK_TINT_06": {
+      "value": "#8E8E93"
     },
     "SKY_GRAY_TINT_04": {
       "value": "#B2B2BF"

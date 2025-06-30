@@ -189,9 +189,6 @@
     "DARK_SKY_85": {
       "value": "#154679"
     },
-    "BLACK_TINT_01": {
-      "value": "#131D2B"
-    },
     "GREY_05": {
       "value": "#F5F7FA"
     },
@@ -204,29 +201,14 @@
     "NIGHT_YELLOW_SPOT": {
       "value": "#FEEB87"
     },
-    "BLACK_TINT_02": {
-      "value": "#131D2B"
-    },
     "NIGHT_YELLOW_FILL": {
       "value": "#FBF1BB"
     },
     "BERRY_75": {
       "value": "#C80456"
     },
-    "BLACK_TINT_03": {
-      "value": "#243346"
-    },
-    "BLACK_TINT_04": {
-      "value": "#44505F"
-    },
     "WHITE": {
       "value": "#ffffff"
-    },
-    "BLACK_TINT_05": {
-      "value": "#44505F"
-    },
-    "BLACK_TINT_06": {
-      "value": "#BDC4CB"
     },
     "CHARCOAL": {
       "value": "#161616"
