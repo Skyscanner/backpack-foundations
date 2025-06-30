@@ -216,14 +216,8 @@
     "BLACK_TINT_03": {
       "value": "#243346"
     },
-    "SKY_GRAY_TINT_01": {
-      "value": "#545860"
-    },
     "BLACK_TINT_04": {
       "value": "#44505F"
-    },
-    "SKY_GRAY_TINT_02": {
-      "value": "#545860"
     },
     "WHITE": {
       "value": "#ffffff"
@@ -231,26 +225,11 @@
     "BLACK_TINT_05": {
       "value": "#44505F"
     },
-    "SKY_GRAY_TINT_03": {
-      "value": "#545860"
-    },
     "BLACK_TINT_06": {
       "value": "#BDC4CB"
     },
-    "SKY_GRAY_TINT_04": {
-      "value": "#C2C9CD"
-    },
-    "SKY_GRAY_TINT_05": {
-      "value": "#C2C9CD"
-    },
-    "SKY_GRAY_TINT_06": {
-      "value": "#E0E3E5"
-    },
     "CHARCOAL": {
       "value": "#161616"
-    },
-    "SKY_GRAY_TINT_07": {
-      "value": "#EFF1F2"
     },
     "GREEN_MUTED": {
       "value": "#D4FFF2"

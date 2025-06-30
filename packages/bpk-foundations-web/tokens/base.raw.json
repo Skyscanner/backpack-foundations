@@ -66,14 +66,8 @@
     "BLACK_TINT_03": {
       "value": "#3A3A3C"
     },
-    "SKY_GRAY_TINT_01": {
-      "value": "#444560"
-    },
     "BLACK_TINT_04": {
       "value": "#48484A"
-    },
-    "SKY_GRAY_TINT_02": {
-      "value": "#68697F"
     },
     "WHITE": {
       "value": "#ffffff"
@@ -81,26 +75,11 @@
     "BLACK_TINT_05": {
       "value": "#636366"
     },
-    "SKY_GRAY_TINT_03": {
-      "value": "#8f90a0"
-    },
     "BLACK_TINT_06": {
       "value": "#8E8E93"
     },
-    "SKY_GRAY_TINT_04": {
-      "value": "#B2B2BF"
-    },
-    "SKY_GRAY_TINT_05": {
-      "value": "#CDCDD7"
-    },
-    "SKY_GRAY_TINT_06": {
-      "value": "#DDDDE5"
-    },
     "CHARCOAL": {
       "value": "#161616"
-    },
-    "SKY_GRAY_TINT_07": {
-      "value": "#F1F2F8"
     },
     "GREEN_MUTED": {
       "value": "#D4FFF2"
@@ -216,11 +195,23 @@
     "ERFOUD": {
       "value": "#ffb54d"
     },
+    "SKY_GRAY_TINT_01": {
+      "value": "#444560"
+    },
     "MONTEVERDE": {
       "value": "#00a698"
     },
+    "SKY_GRAY_TINT_02": {
+      "value": "#68697F"
+    },
+    "SKY_GRAY_TINT_03": {
+      "value": "#8f90a0"
+    },
     "SAGANO": {
       "value": "#d0eeec"
+    },
+    "SKY_GRAY_TINT_04": {
+      "value": "#B2B2BF"
     },
     "KOLKATA": {
       "value": "#ff9400"
@@ -228,8 +219,17 @@
     "GLENCOE": {
       "value": "#73cec6"
     },
+    "SKY_GRAY_TINT_05": {
+      "value": "#CDCDD7"
+    },
     "TOCHIGI": {
       "value": "#e1ddec"
+    },
+    "SKY_GRAY_TINT_06": {
+      "value": "#DDDDE5"
+    },
+    "SKY_GRAY_TINT_07": {
+      "value": "#F1F2F8"
     },
     "PETRA": {
       "value": "#ffab95"
