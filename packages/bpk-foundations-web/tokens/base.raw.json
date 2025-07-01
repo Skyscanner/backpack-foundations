@@ -499,6 +499,14 @@
       "originalValue": "{!VALENSOLE}",
       "name": "COLOR_VALENSOLE"
     },
+    "COLOR_MONTEVERDE": {
+      "value": "rgb(0, 166, 152)",
+      "deprecated": true,
+      "type": "color",
+      "category": "colors",
+      "originalValue": "{!MONTEVERDE}",
+      "name": "COLOR_MONTEVERDE"
+    },
     "COLOR_SKY_GRAY_TINT_01": {
       "value": "rgb(68, 69, 96)",
       "deprecated": true,
@@ -570,6 +578,14 @@
       "originalValue": "{!SKY_GRAY_TINT_06}",
       "name": "COLOR_SKY_GRAY_TINT_06"
     },
+    "COLOR_BLACK_TINT_01": {
+      "value": "rgb(29, 27, 32)",
+      "deprecated": true,
+      "type": "color",
+      "category": "colors",
+      "originalValue": "{!BLACK_TINT_01}",
+      "name": "COLOR_BLACK_TINT_01"
+    },
     "COLOR_SKY_GRAY_TINT_07": {
       "value": "rgb(241, 242, 248)",
       "deprecated": true,
@@ -577,6 +593,14 @@
       "category": "colors",
       "originalValue": "{!SKY_GRAY_TINT_07}",
       "name": "COLOR_SKY_GRAY_TINT_07"
+    },
+    "COLOR_BLACK_TINT_02": {
+      "value": "rgb(44, 44, 46)",
+      "deprecated": true,
+      "type": "color",
+      "category": "colors",
+      "originalValue": "{!BLACK_TINT_02}",
+      "name": "COLOR_BLACK_TINT_02"
     },
     "COLOR_ABISKO": {
       "value": "rgb(90, 72, 155)",
@@ -586,12 +610,44 @@
       "originalValue": "{!ABISKO}",
       "name": "COLOR_ABISKO"
     },
+    "COLOR_BLACK_TINT_03": {
+      "value": "rgb(58, 58, 60)",
+      "deprecated": true,
+      "type": "color",
+      "category": "colors",
+      "originalValue": "{!BLACK_TINT_03}",
+      "name": "COLOR_BLACK_TINT_03"
+    },
+    "COLOR_BLACK_TINT_04": {
+      "value": "rgb(72, 72, 74)",
+      "deprecated": true,
+      "type": "color",
+      "category": "colors",
+      "originalValue": "{!BLACK_TINT_04}",
+      "name": "COLOR_BLACK_TINT_04"
+    },
     "COLOR_WHITE": {
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 255, 255)",
       "originalValue": "{!WHITE}",
       "name": "COLOR_WHITE"
+    },
+    "COLOR_BLACK_TINT_05": {
+      "value": "rgb(99, 99, 102)",
+      "deprecated": true,
+      "type": "color",
+      "category": "colors",
+      "originalValue": "{!BLACK_TINT_05}",
+      "name": "COLOR_BLACK_TINT_05"
+    },
+    "COLOR_BLACK_TINT_06": {
+      "value": "rgb(142, 142, 147)",
+      "deprecated": true,
+      "type": "color",
+      "category": "colors",
+      "originalValue": "{!BLACK_TINT_06}",
+      "name": "COLOR_BLACK_TINT_06"
     },
     "COLOR_PANJIN": {
       "value": "rgb(209, 67, 91)",
@@ -2282,62 +2338,6 @@
       "value": "rgb(5, 65, 132)",
       "originalValue": "{!NIGHT_SKY}",
       "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_NIGHT"
-    },
-    "COLOR_MONTEVERDE": {
-      "value": "rgb(0, 166, 152)",
-      "deprecated": true,
-      "type": "color",
-      "category": "colors",
-      "originalValue": "{!MONTEVERDE}",
-      "name": "COLOR_MONTEVERDE"
-    },
-    "COLOR_BLACK_TINT_01": {
-      "value": "rgb(29, 27, 32)",
-      "deprecated": true,
-      "type": "color",
-      "category": "colors",
-      "originalValue": "{!BLACK_TINT_01}",
-      "name": "COLOR_BLACK_TINT_01"
-    },
-    "COLOR_BLACK_TINT_02": {
-      "value": "rgb(44, 44, 46)",
-      "deprecated": true,
-      "type": "color",
-      "category": "colors",
-      "originalValue": "{!BLACK_TINT_02}",
-      "name": "COLOR_BLACK_TINT_02"
-    },
-    "COLOR_BLACK_TINT_03": {
-      "value": "rgb(58, 58, 60)",
-      "deprecated": true,
-      "type": "color",
-      "category": "colors",
-      "originalValue": "{!BLACK_TINT_03}",
-      "name": "COLOR_BLACK_TINT_03"
-    },
-    "COLOR_BLACK_TINT_04": {
-      "value": "rgb(72, 72, 74)",
-      "deprecated": true,
-      "type": "color",
-      "category": "colors",
-      "originalValue": "{!BLACK_TINT_04}",
-      "name": "COLOR_BLACK_TINT_04"
-    },
-    "COLOR_BLACK_TINT_05": {
-      "value": "rgb(99, 99, 102)",
-      "deprecated": true,
-      "type": "color",
-      "category": "colors",
-      "originalValue": "{!BLACK_TINT_05}",
-      "name": "COLOR_BLACK_TINT_05"
-    },
-    "COLOR_BLACK_TINT_06": {
-      "value": "rgb(142, 142, 147)",
-      "deprecated": true,
-      "type": "color",
-      "category": "colors",
-      "originalValue": "{!BLACK_TINT_06}",
-      "name": "COLOR_BLACK_TINT_06"
     },
     "DURATION_XS": {
       "type": "duration",

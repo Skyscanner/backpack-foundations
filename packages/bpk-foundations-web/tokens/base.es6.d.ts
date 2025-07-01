@@ -21,6 +21,7 @@ export declare const colorSkyBlueShade03 = "rgb(2, 18, 44)" as const;
 export declare const colorPrimaryGradientLight = "rgb(0, 98, 227)" as const;
 export declare const colorErfoud = "rgb(255, 181, 77)" as const;
 export declare const colorValensole = "rgb(165, 155, 200)" as const;
+export declare const colorMonteverde = "rgb(0, 166, 152)" as const;
 export declare const colorSkyGrayTint01 = "rgb(68, 69, 96)" as const;
 export declare const colorBlack = "rgb(1, 9, 19)" as const;
 export declare const colorSkyGrayTint02 = "rgb(104, 105, 127)" as const;
@@ -30,9 +31,15 @@ export declare const colorSkyGrayTint04 = "rgb(178, 178, 191)" as const;
 export declare const colorHarbour = "rgb(246, 221, 225)" as const;
 export declare const colorSkyGrayTint05 = "rgb(205, 205, 215)" as const;
 export declare const colorSkyGrayTint06 = "rgb(221, 221, 229)" as const;
+export declare const colorBlackTint01 = "rgb(29, 27, 32)" as const;
 export declare const colorSkyGrayTint07 = "rgb(241, 242, 248)" as const;
+export declare const colorBlackTint02 = "rgb(44, 44, 46)" as const;
 export declare const colorAbisko = "rgb(90, 72, 155)" as const;
+export declare const colorBlackTint03 = "rgb(58, 58, 60)" as const;
+export declare const colorBlackTint04 = "rgb(72, 72, 74)" as const;
 export declare const colorWhite = "rgb(255, 255, 255)" as const;
+export declare const colorBlackTint05 = "rgb(99, 99, 102)" as const;
+export declare const colorBlackTint06 = "rgb(142, 142, 147)" as const;
 export declare const colorPanjin = "rgb(209, 67, 91)" as const;
 export declare const colorKolkata = "rgb(255, 148, 0)" as const;
 export declare const colorGlencoe = "rgb(115, 206, 198)" as const;
@@ -268,13 +275,6 @@ export declare const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255,
 export declare const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)" as const;
 export declare const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)" as const;
 export declare const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)" as const;
-export declare const colorMonteverde = "rgb(0, 166, 152)" as const;
-export declare const colorBlackTint01 = "rgb(29, 27, 32)" as const;
-export declare const colorBlackTint02 = "rgb(44, 44, 46)" as const;
-export declare const colorBlackTint03 = "rgb(58, 58, 60)" as const;
-export declare const colorBlackTint04 = "rgb(72, 72, 74)" as const;
-export declare const colorBlackTint05 = "rgb(99, 99, 102)" as const;
-export declare const colorBlackTint06 = "rgb(142, 142, 147)" as const;
 export declare const durationXs = "50ms" as const;
 export declare const durationSm = "200ms" as const;
 export declare const durationBase = "400ms" as const;
@@ -544,6 +544,7 @@ colorSkyBlueShade03,
 colorPrimaryGradientLight,
 colorErfoud,
 colorValensole,
+colorMonteverde,
 colorSkyGrayTint01,
 colorBlack,
 colorSkyGrayTint02,
@@ -553,9 +554,15 @@ colorSkyGrayTint04,
 colorHarbour,
 colorSkyGrayTint05,
 colorSkyGrayTint06,
+colorBlackTint01,
 colorSkyGrayTint07,
+colorBlackTint02,
 colorAbisko,
+colorBlackTint03,
+colorBlackTint04,
 colorWhite,
+colorBlackTint05,
+colorBlackTint06,
 colorPanjin,
 colorKolkata,
 colorGlencoe,
@@ -588,13 +595,6 @@ backgroundAlternativeDarkColor,
 primaryLightColor,
 backgroundTertiaryLightColor,
 backgroundSecondaryLightColor,
-colorMonteverde,
-colorBlackTint01,
-colorBlackTint02,
-colorBlackTint03,
-colorBlackTint04,
-colorBlackTint05,
-colorBlackTint06,
 primaryGradient,
 } as const;
 export declare const coreColors = {
