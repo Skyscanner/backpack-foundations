@@ -29,7 +29,8 @@
     "LINE_HEIGHT_8XL": 120,
     "LETTER_SPACING_TIGHT": -0.02,
     "FONT_WEIGHT_BOOK": "400",
-    "FONT_WEIGHT_BOLD": "700"
+    "FONT_WEIGHT_BOLD": "700",
+    "FONT_WEIGHT_BLACK": "900"
   },
   "props": {
     "FONT_SIZE_XS": {
@@ -373,7 +374,7 @@
       "category": "font-sizes"
     },
     "TEXT_HERO-5_FONT_WEIGHT": {
-      "value": "{!FONT_WEIGHT_BOLD}",
+      "value": "{!FONT_WEIGHT_BLACK}",
       "type": "string",
       "category": "font-weights"
     },

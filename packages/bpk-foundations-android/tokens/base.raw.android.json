@@ -75,6 +75,9 @@
     "LINE_HEIGHT_LG": {
       "value": 28
     },
+    "FONT_WEIGHT_BLACK": {
+      "value": "900"
+    },
     "LINE_HEIGHT_XS": {
       "value": 16
     },
@@ -146,9 +149,6 @@
     },
     "FONT_SIZE_CAPS": {
       "value": 10
-    },
-    "FONT_WEIGHT_BLACK": {
-      "value": "900"
     },
     "ANIMATION_DURATION_XS": {
       "value": "50ms"
@@ -850,10 +850,10 @@
       "name": "TEXT_SUBHEADING_FONT_WEIGHT"
     },
     "TEXT_HERO-5_FONT_WEIGHT": {
-      "value": "700",
+      "value": "900",
       "type": "string",
       "category": "font-weights",
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "TEXT_HERO-5_FONT_WEIGHT"
     },
     "TEXT_HEADING-1_FONT_WEIGHT": {
