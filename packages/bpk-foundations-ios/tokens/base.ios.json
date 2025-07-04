@@ -1020,224 +1020,9 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#05203cff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE_SHADE_03}",
-      "name": "colorSkyBlueShade03"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "colorPrimaryGradientLight"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#feeb87ff",
-      "deprecated": true,
-      "originalValue": "{!ERFOUD}",
-      "name": "colorErfoud"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#e0e3e5ff",
-      "deprecated": true,
-      "originalValue": "{!VALENSOLE}",
-      "name": "colorValensole"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0c838aff",
-      "deprecated": true,
-      "originalValue": "{!MONTEVERDE}",
-      "name": "colorMonteverde"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#545860ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_01}",
-      "name": "colorSkyGrayTint01"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "originalValue": "{!BLACK}",
-      "name": "colorBlack"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#545860ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_02}",
-      "name": "colorSkyGrayTint02"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#d4fff2ff",
-      "deprecated": true,
-      "originalValue": "{!SAGANO}",
-      "name": "colorSagano"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#545860ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_03}",
-      "name": "colorSkyGrayTint03"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#c2c9cdff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_04}",
-      "name": "colorSkyGrayTint04"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffe9f9ff",
-      "deprecated": true,
-      "originalValue": "{!HARBOUR}",
-      "name": "colorHarbour"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#c2c9cdff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_05}",
-      "name": "colorSkyGrayTint05"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#e0e3e5ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_06}",
-      "name": "colorSkyGrayTint06"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_01}",
-      "name": "colorBlackTint01"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#eff1f2ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY_TINT_07}",
-      "name": "colorSkyGrayTint07"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_02}",
-      "name": "colorBlackTint02"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#05203cff",
-      "deprecated": true,
-      "originalValue": "{!ABISKO}",
-      "name": "colorAbisko"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#243346ff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_03}",
-      "name": "colorBlackTint03"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#44505fff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_04}",
-      "name": "colorBlackTint04"
-    },
-    {
-      "type": "color",
-      "category": "colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "colorWhite"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#44505fff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_05}",
-      "name": "colorBlackTint05"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#bdc4cbff",
-      "deprecated": true,
-      "originalValue": "{!BLACK_TINT_06}",
-      "name": "colorBlackTint06"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#e70866ff",
-      "deprecated": true,
-      "originalValue": "{!PANJIN}",
-      "name": "colorPanjin"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f55d42ff",
-      "deprecated": true,
-      "originalValue": "{!KOLKATA}",
-      "name": "colorKolkata"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#62f1c6ff",
-      "deprecated": true,
-      "originalValue": "{!GLENCOE}",
-      "name": "colorGlencoe"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#eff1f2ff",
-      "deprecated": true,
-      "originalValue": "{!TOCHIGI}",
-      "name": "colorTochigi"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#feeb87ff",
-      "deprecated": true,
-      "originalValue": "{!PETRA}",
-      "name": "colorPetra"
     },
     {
       "type": "color",
@@ -1249,82 +1034,9 @@
     {
       "type": "color",
       "category": "colors",
-      "value": "#fff7cfff",
-      "deprecated": true,
-      "originalValue": "{!BAGAN}",
-      "name": "colorBagan"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ff649cff",
-      "deprecated": true,
-      "originalValue": "{!HILLIER}",
-      "name": "colorHillier"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#84e9ffff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE_TINT_01}",
-      "name": "colorSkyBlueTint01"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#e0e3e5ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE_TINT_02}",
-      "name": "colorSkyBlueTint02"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#f55d42ff",
-      "deprecated": true,
-      "originalValue": "{!BUNOL}",
-      "name": "colorBunol"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#e0e3e5ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE_TINT_03}",
-      "name": "colorSkyBlueTint03"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#161616ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_GRAY}",
-      "name": "colorSkyGray"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#fff7cfff",
-      "deprecated": true,
-      "originalValue": "{!NARA}",
-      "name": "colorNara"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE_SHADE_01}",
-      "name": "colorSkyBlueShade01"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#05203cff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE_SHADE_02}",
-      "name": "colorSkyBlueShade02"
+      "value": "#010913ff",
+      "originalValue": "{!BLACK}",
+      "name": "colorBlack"
     },
     {
       "type": "color",
@@ -1644,14 +1356,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "textPrimaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#0062e3ff",
       "originalValue": "{!SKY_BLUE}",
       "name": "textLinkDay"
@@ -1666,14 +1370,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffff33",
-      "deprecated": true,
-      "originalValue": "{!WHITE_ALPHA_20}",
-      "name": "textQuaternaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "textPrimaryNight"
@@ -1682,24 +1378,8 @@
       "type": "color",
       "category": "text-colors",
       "value": "#00000033",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textQuaternaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#00000033",
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "textDisabledDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#161616ff",
-      "deprecated": true,
-      "originalValue": "{!CHARCOAL}",
-      "name": "textPrimaryLightColor"
     },
     {
       "type": "color",
@@ -1725,22 +1405,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#ffffff33",
-      "deprecated": true,
-      "originalValue": "{!WHITE_ALPHA_20}",
-      "name": "textTertiaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#bdc4cbff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_40}",
-      "name": "textSecondaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#010913ff",
       "originalValue": "{!NIGHT_GREY_10}",
       "name": "textPrimaryInverseNight"
@@ -1762,14 +1426,6 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#626971ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_40}",
-      "name": "textSecondaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "textPrimaryInverseDay"
@@ -1784,155 +1440,9 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#00000033",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textTertiaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#626971ff",
       "originalValue": "{!GREY_40}",
       "name": "textSecondaryDay"
-    },
-    {
-      "type": "color",
-      "category": "scrim-colors",
-      "value": "#000000b3",
-      "originalValue": "{!BLACK_ALPHA_70}",
-      "name": "scrimDay"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#243346ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_25}",
-      "name": "backgroundElevation03DarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#243346ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_25}",
-      "name": "backgroundElevation02DarkColor"
-    },
-    {
-      "type": "color",
-      "category": "line-colors",
-      "value": "#44505fff",
-      "originalValue": "{!NIGHT_GREY_30}",
-      "name": "lineOnDarkNight"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#44505fff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_30}",
-      "name": "lineDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "backgroundElevation01DarkColor"
-    },
-    {
-      "type": "color",
-      "category": "line-colors",
-      "value": "#ffffff80",
-      "originalValue": "{!WHITE_ALPHA_50}",
-      "name": "lineOnDarkDay"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "backgroundAlternativeSecondaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundLightColor"
-    },
-    {
-      "type": "color",
-      "category": "overlay-colors",
-      "value": "#ffffffcc",
-      "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "overlayNight"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "backgroundDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundAlternativeSecondaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "overlay-colors",
-      "value": "#00000033",
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "overlayDay"
-    },
-    {
-      "type": "color",
-      "category": "line-colors",
-      "value": "#44505fff",
-      "originalValue": "{!NIGHT_GREY_30}",
-      "name": "lineNight"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0c838aff",
-      "deprecated": true,
-      "originalValue": "{!GREEN_SPOT}",
-      "name": "colorSystemGreen"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation01LightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#c1c7cfff",
-      "deprecated": true,
-      "originalValue": "{!GREY_30}",
-      "name": "lineLightColor"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation02LightColor"
     },
     {
       "type": "color",
@@ -1943,83 +1453,31 @@
     },
     {
       "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation03LightColor"
+      "category": "line-colors",
+      "value": "#44505fff",
+      "originalValue": "{!NIGHT_GREY_30}",
+      "name": "lineNight"
     },
     {
       "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_10}",
-      "name": "backgroundTertiaryDarkColor"
+      "category": "line-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "lineOnDarkDay"
     },
     {
       "type": "color",
-      "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "backgroundSecondaryDarkColor"
+      "category": "line-colors",
+      "value": "#44505fff",
+      "originalValue": "{!NIGHT_GREY_30}",
+      "name": "lineOnDarkNight"
     },
     {
       "type": "color",
-      "category": "colors",
-      "value": "#eff3f8ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_10}",
-      "name": "backgroundAlternativeLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#84e9ffff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_BLUE}",
-      "name": "primaryDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#e70866ff",
-      "deprecated": true,
-      "originalValue": "{!BERRY}",
-      "name": "colorSystemRed"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#131d2bff",
-      "deprecated": true,
-      "originalValue": "{!NIGHT_GREY_20}",
-      "name": "backgroundAlternativeDarkColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "primaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundTertiaryLightColor"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#eff3f8ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_10}",
-      "name": "backgroundSecondaryLightColor"
+      "category": "scrim-colors",
+      "value": "#000000b3",
+      "originalValue": "{!BLACK_ALPHA_70}",
+      "name": "scrimDay"
     },
     {
       "type": "color",
@@ -2027,6 +1485,20 @@
       "value": "#000000b3",
       "originalValue": "{!BLACK_ALPHA_70}",
       "name": "scrimNight"
+    },
+    {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "#00000033",
+      "originalValue": "{!BLACK_ALPHA_20}",
+      "name": "overlayDay"
+    },
+    {
+      "type": "color",
+      "category": "overlay-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "overlayNight"
     },
     {
       "type": "color",
@@ -3582,40 +3054,11 @@
     {
       "type": "color",
       "category": "text-colors",
-      "value": "#00000033",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textQuaternaryColor",
-      "darkValue": "#ffffff33",
-      "originalDarkValue": "{!WHITE_ALPHA_20}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
       "value": "#e70866ff",
       "originalValue": "{!BERRY}",
       "name": "textErrorColor",
       "darkValue": "#ff649cff",
       "originalDarkValue": "{!NIGHT_BERRY}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#00000033",
-      "deprecated": true,
-      "originalValue": "{!BLACK_ALPHA_20}",
-      "name": "textTertiaryColor",
-      "darkValue": "#ffffff33",
-      "originalDarkValue": "{!WHITE_ALPHA_20}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#626971ff",
-      "originalValue": "{!GREY_40}",
-      "name": "textSecondaryColor",
-      "darkValue": "#bdc4cbff",
-      "originalDarkValue": "{!NIGHT_GREY_40}"
     },
     {
       "type": "color",
@@ -3628,41 +3071,12 @@
     },
     {
       "type": "color",
-      "category": "scrim-colors",
-      "value": "#000000b3",
-      "originalValue": "{!BLACK_ALPHA_70}",
-      "name": "scrimColor",
-      "darkValue": "#000000b3",
-      "originalDarkValue": "{!BLACK_ALPHA_70}"
-    },
-    {
-      "type": "color",
       "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation03Color",
-      "darkValue": "#243346ff",
-      "originalDarkValue": "{!NIGHT_GREY_25}"
-    },
-    {
-      "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation02Color",
-      "darkValue": "#243346ff",
-      "originalDarkValue": "{!NIGHT_GREY_25}"
-    },
-    {
-      "type": "color",
-      "category": "line-colors",
-      "value": "#ffffff80",
-      "originalValue": "{!WHITE_ALPHA_50}",
-      "name": "lineOnDarkColor",
-      "darkValue": "#44505fff",
-      "originalDarkValue": "{!NIGHT_GREY_30}"
+      "value": "#626971ff",
+      "originalValue": "{!GREY_40}",
+      "name": "textSecondaryColor",
+      "darkValue": "#bdc4cbff",
+      "originalDarkValue": "{!NIGHT_GREY_40}"
     },
     {
       "type": "color",
@@ -3675,33 +3089,21 @@
     },
     {
       "type": "color",
-      "category": "text-colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundElevation01Color",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
+      "category": "line-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "lineOnDarkColor",
+      "darkValue": "#44505fff",
+      "originalDarkValue": "{!NIGHT_GREY_30}"
     },
     {
       "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundAlternativeSecondaryColor",
-      "darkValue": "#010913ff",
-      "originalDarkValue": "{!NIGHT_GREY_10}"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundColor",
-      "darkValue": "#010913ff",
-      "originalDarkValue": "{!NIGHT_GREY_10}"
+      "category": "scrim-colors",
+      "value": "#000000b3",
+      "originalValue": "{!BLACK_ALPHA_70}",
+      "name": "scrimColor",
+      "darkValue": "#000000b3",
+      "originalDarkValue": "{!BLACK_ALPHA_70}"
     },
     {
       "type": "color",
@@ -3711,46 +3113,6 @@
       "name": "overlayColor",
       "darkValue": "#ffffffcc",
       "originalDarkValue": "{!WHITE_ALPHA_80}"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "deprecated": true,
-      "originalValue": "{!WHITE}",
-      "name": "backgroundTertiaryColor",
-      "darkValue": "#010913ff",
-      "originalDarkValue": "{!NIGHT_GREY_10}"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#eff3f8ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_10}",
-      "name": "backgroundSecondaryColor",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#eff3f8ff",
-      "deprecated": true,
-      "originalValue": "{!GREY_10}",
-      "name": "backgroundAlternativeColor",
-      "darkValue": "#131d2bff",
-      "originalDarkValue": "{!NIGHT_GREY_20}"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "deprecated": true,
-      "originalValue": "{!SKY_BLUE}",
-      "name": "primaryColor",
-      "darkValue": "#84e9ffff",
-      "originalDarkValue": "{!NIGHT_BLUE}"
     },
     {
       "type": "color",
