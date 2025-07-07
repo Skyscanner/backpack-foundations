@@ -37,6 +37,14 @@
     "BORDER_SIZE_XL": {
       "value": "{!BORDER_SIZE_XL}",
       "category": "borders"
+    },
+    "BORDER_RADIUS_FULL": {
+      "value": "{!BORDER_RADIUS_FULL}",
+      "category": "borders"
+    },
+    "BORDER_RADIUS_NAV_TABS": {
+      "value": "{!BORDER_RADIUS_NAV_TABS}",
+      "category": "borders"
     }
   }
 }

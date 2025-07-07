@@ -6,29 +6,29 @@
     "BORDER_SIZE_LG": {
       "value": 2
     },
-    "BORDER_SIZE_XL": {
-      "value": 3
-    },
-    "BORDER_RADIUS_XS": {
-      "value": 4
-    },
-    "BORDER_RADIUS_SM": {
-      "value": 8
-    },
-    "BORDER_RADIUS_MD": {
-      "value": 12
-    },
-    "BORDER_RADIUS_LG": {
-      "value": 24
+    "BORDER_RADIUS_FULL": {
+      "value": 9999
     },
     "BORDER_RADIUS_XL": {
       "value": 40
     },
-    "BORDER_RADIUS_FULL": {
-      "value": 9999
+    "BORDER_RADIUS_MD": {
+      "value": 12
     },
     "BORDER_RADIUS_NAV_TABS": {
       "value": 18
+    },
+    "BORDER_RADIUS_SM": {
+      "value": 8
+    },
+    "BORDER_RADIUS_XS": {
+      "value": 4
+    },
+    "BORDER_RADIUS_LG": {
+      "value": 24
+    },
+    "BORDER_SIZE_XL": {
+      "value": 3
     },
     "CAROUSEL_INDICATOR_DOT_SIZE_SM": {
       "value": 2
@@ -314,6 +314,9 @@
     },
     "BLACK": {
       "value": "#010913"
+    },
+    "FONT_FAMILY_LARKEN": {
+      "value": "\"larken\""
     },
     "ELEVATION_XXL": {
       "value": 24
@@ -969,6 +972,22 @@
       "originalValue": "{!LINE_HEIGHT_XS}",
       "name": "TEXT_XS_LINE_HEIGHT"
     },
+    "TEXT_XS-LARKEN_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_XS-LARKEN_FONT_WEIGHT"
+    },
+    "TEXT_SM-LARKEN_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_SM-LARKEN_FONT_WEIGHT"
+    },
     "TEXT_XXL_FONT_WEIGHT": {
       "value": "400",
       "type": "string",
@@ -1025,6 +1044,14 @@
       "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "TEXT_XXXL-HEAVY_FONT_WEIGHT"
     },
+    "TEXT_XS-LARKEN_FONT_SIZE": {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "TEXT_XS-LARKEN_FONT_SIZE"
+    },
     "TEXT_XL-HEAVY_FONT_WEIGHT": {
       "value": "900",
       "type": "string",
@@ -1032,6 +1059,30 @@
       "deprecated": true,
       "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "TEXT_XL-HEAVY_FONT_WEIGHT"
+    },
+    "TEXT_SM-LARKEN_FONT_SIZE": {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "TEXT_SM-LARKEN_FONT_SIZE"
+    },
+    "TEXT_XS-LARKEN_LINE_HEIGHT": {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "TEXT_XS-LARKEN_LINE_HEIGHT"
+    },
+    "TEXT_BASE-LARKEN_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "deprecated": true,
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_BASE-LARKEN_FONT_WEIGHT"
     },
     "TEXT_LG-EMPHASIZED_FONT_WEIGHT": {
       "value": "700",
@@ -1048,6 +1099,14 @@
       "deprecated": true,
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_XS-EMPHASIZED_FONT_WEIGHT"
+    },
+    "TEXT_SM-LARKEN_LINE_HEIGHT": {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "TEXT_SM-LARKEN_LINE_HEIGHT"
     },
     "TEXT_BASE_FONT_WEIGHT": {
       "value": "400",
@@ -1137,6 +1196,14 @@
       "originalValue": "{!FONT_SIZE_XL}",
       "name": "TEXT_XL-HEAVY_FONT_SIZE"
     },
+    "TEXT_BASE-LARKEN_FONT_SIZE": {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "deprecated": true,
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "TEXT_BASE-LARKEN_FONT_SIZE"
+    },
     "TEXT_XS-EMPHASIZED_FONT_SIZE": {
       "value": "12",
       "type": "font-size",
@@ -1144,6 +1211,14 @@
       "deprecated": true,
       "originalValue": "{!FONT_SIZE_XS}",
       "name": "TEXT_XS-EMPHASIZED_FONT_SIZE"
+    },
+    "TEXT_BASE-LARKEN_LINE_HEIGHT": {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "deprecated": true,
+      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "name": "TEXT_BASE-LARKEN_LINE_HEIGHT"
     },
     "TEXT_LG-EMPHASIZED_FONT_SIZE": {
       "value": "20",
@@ -2740,26 +2815,19 @@
       "originalValue": "{!BORDER_SIZE_LG}",
       "name": "BORDER_SIZE_LG"
     },
-    "BORDER_SIZE_XL": {
+    "BORDER_RADIUS_FULL": {
       "type": "size",
-      "value": "3",
-      "category": "borders",
-      "originalValue": "{!BORDER_SIZE_XL}",
-      "name": "BORDER_SIZE_XL"
-    },
-    "BORDER_RADIUS_XS": {
-      "type": "size",
-      "value": "4",
+      "value": "9999",
       "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_XS}",
-      "name": "BORDER_RADIUS_XS"
+      "originalValue": "{!BORDER_RADIUS_FULL}",
+      "name": "BORDER_RADIUS_FULL"
     },
-    "BORDER_RADIUS_SM": {
+    "BORDER_RADIUS_XL": {
       "type": "size",
-      "value": "8",
+      "value": "40",
       "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_SM}",
-      "name": "BORDER_RADIUS_SM"
+      "originalValue": "{!BORDER_RADIUS_XL}",
+      "name": "BORDER_RADIUS_XL"
     },
     "BORDER_RADIUS_MD": {
       "type": "size",
@@ -2768,6 +2836,27 @@
       "originalValue": "{!BORDER_RADIUS_MD}",
       "name": "BORDER_RADIUS_MD"
     },
+    "BORDER_RADIUS_NAV_TABS": {
+      "type": "size",
+      "value": "18",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_NAV_TABS}",
+      "name": "BORDER_RADIUS_NAV_TABS"
+    },
+    "BORDER_RADIUS_SM": {
+      "type": "size",
+      "value": "8",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_SM}",
+      "name": "BORDER_RADIUS_SM"
+    },
+    "BORDER_RADIUS_XS": {
+      "type": "size",
+      "value": "4",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_XS}",
+      "name": "BORDER_RADIUS_XS"
+    },
     "BORDER_RADIUS_LG": {
       "type": "size",
       "value": "24",
@@ -2775,12 +2864,12 @@
       "originalValue": "{!BORDER_RADIUS_LG}",
       "name": "BORDER_RADIUS_LG"
     },
-    "BORDER_RADIUS_XL": {
+    "BORDER_SIZE_XL": {
       "type": "size",
-      "value": "40",
-      "category": "radii",
-      "originalValue": "{!BORDER_RADIUS_XL}",
-      "name": "BORDER_RADIUS_XL"
+      "value": "3",
+      "category": "borders",
+      "originalValue": "{!BORDER_SIZE_XL}",
+      "name": "BORDER_SIZE_XL"
     },
     "BUTTON_BORDER_WIDTH": {
       "type": "size",
@@ -2956,6 +3045,13 @@
       "category": "typesettings",
       "originalValue": "{!FONT_FAMILY_HEAVY}",
       "name": "FONT_FAMILY_HEAVY"
+    },
+    "FONT_FAMILY_LARKEN": {
+      "value": "\"larken\"",
+      "type": "font",
+      "category": "typesettings",
+      "originalValue": "{!FONT_FAMILY_LARKEN}",
+      "name": "FONT_FAMILY_LARKEN"
     },
     "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR": {
       "type": "color",
@@ -3822,6 +3918,8 @@
     "LINE_HEIGHT_XXXXL",
     "TEXT_LG_LINE_HEIGHT",
     "TEXT_XS_LINE_HEIGHT",
+    "TEXT_XS-LARKEN_FONT_WEIGHT",
+    "TEXT_SM-LARKEN_FONT_WEIGHT",
     "TEXT_XXL_FONT_WEIGHT",
     "TEXT_CAPS-EMPHASIZED_FONT_WEIGHT",
     "TEXT_CAPS_FONT_SIZE",
@@ -3829,9 +3927,14 @@
     "TEXT_XXL-EMPHASIZED_FONT_SIZE",
     "TEXT_XXL-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XXXL-HEAVY_FONT_WEIGHT",
+    "TEXT_XS-LARKEN_FONT_SIZE",
     "TEXT_XL-HEAVY_FONT_WEIGHT",
+    "TEXT_SM-LARKEN_FONT_SIZE",
+    "TEXT_XS-LARKEN_LINE_HEIGHT",
+    "TEXT_BASE-LARKEN_FONT_WEIGHT",
     "TEXT_LG-EMPHASIZED_FONT_WEIGHT",
     "TEXT_XS-EMPHASIZED_FONT_WEIGHT",
+    "TEXT_SM-LARKEN_LINE_HEIGHT",
     "TEXT_BASE_FONT_WEIGHT",
     "TEXT_SM-EMPHASIZED_FONT_WEIGHT",
     "TEXT_XXL_FONT_SIZE",
@@ -3843,7 +3946,9 @@
     "TEXT_XXXL-HEAVY_FONT_SIZE",
     "TEXT_XL-EMPHASIZED_FONT_WEIGHT",
     "TEXT_XL-HEAVY_FONT_SIZE",
+    "TEXT_BASE-LARKEN_FONT_SIZE",
     "TEXT_XS-EMPHASIZED_FONT_SIZE",
+    "TEXT_BASE-LARKEN_LINE_HEIGHT",
     "TEXT_LG-EMPHASIZED_FONT_SIZE",
     "TEXT_LG-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XS-EMPHASIZED_LINE_HEIGHT",
@@ -4068,12 +4173,14 @@
     "ANIMATION_DURATION_BASE",
     "BORDER_SIZE_SM",
     "BORDER_SIZE_LG",
-    "BORDER_SIZE_XL",
-    "BORDER_RADIUS_XS",
-    "BORDER_RADIUS_SM",
-    "BORDER_RADIUS_MD",
-    "BORDER_RADIUS_LG",
+    "BORDER_RADIUS_FULL",
     "BORDER_RADIUS_XL",
+    "BORDER_RADIUS_MD",
+    "BORDER_RADIUS_NAV_TABS",
+    "BORDER_RADIUS_SM",
+    "BORDER_RADIUS_XS",
+    "BORDER_RADIUS_LG",
+    "BORDER_SIZE_XL",
     "BUTTON_BORDER_WIDTH",
     "BUTTON_HEIGHT",
     "BUTTON_PADDING_HORIZONTAL",
@@ -4099,6 +4206,7 @@
     "FONT_FAMILY",
     "FONT_FAMILY_EMPHASIZE",
     "FONT_FAMILY_HEAVY",
+    "FONT_FAMILY_LARKEN",
     "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR",
     "CANVAS_COLOR",
     "CANVAS_CONTRAST_COLOR",

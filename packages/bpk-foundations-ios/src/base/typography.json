@@ -6,6 +6,11 @@
       "type": "font",
       "category": "typesettings"
     },
+    "FONT_FAMILY_LARKEN": {
+      "value": "{!FONT_FAMILY_LARKEN}",
+      "type": "font",
+      "category": "typesettings"
+    },
     "LETTER_SPACING_CAPS": {
       "value": "{!LETTER_SPACING_CAPS}",
       "type": "legacy-letter-spacing",

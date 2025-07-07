@@ -15,6 +15,11 @@
       "value": "{!FONT_FAMILY_HEAVY}",
       "type": "font",
       "category": "typesettings"
+    },
+    "FONT_FAMILY_LARKEN": {
+      "value": "{!FONT_FAMILY_LARKEN}",
+      "type": "font",
+      "category": "typesettings"
     }
   }
 }
