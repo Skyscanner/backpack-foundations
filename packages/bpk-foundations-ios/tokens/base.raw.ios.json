@@ -2808,13 +2808,6 @@
       "originalValue": "{!BORDER_SIZE_XL}",
       "name": "BORDER_SIZE_XL"
     },
-    "SHADOW_SM_OFFSET_HEIGHT": {
-      "value": 1,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 1,
-      "name": "SHADOW_SM_OFFSET_HEIGHT"
-    },
     "SHADOW_SM_OFFSET_WIDTH": {
       "value": 0,
       "type": "size",
@@ -2829,12 +2822,19 @@
       "originalValue": 0.15,
       "name": "SHADOW_SM_OPACITY"
     },
-    "SHADOW_SM_RADIUS": {
-      "value": 3,
+    "SHADOW_LG_OPACITY": {
+      "value": 0.15,
       "type": "size",
       "category": "box-shadows",
-      "originalValue": 3,
-      "name": "SHADOW_SM_RADIUS"
+      "originalValue": 0.15,
+      "name": "SHADOW_LG_OPACITY"
+    },
+    "SHADOW_SM_OFFSET_HEIGHT": {
+      "value": 1,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 1,
+      "name": "SHADOW_SM_OFFSET_HEIGHT"
     },
     "SHADOW_LG_OFFSET_HEIGHT": {
       "value": 4,
@@ -2843,26 +2843,40 @@
       "originalValue": 4,
       "name": "SHADOW_LG_OFFSET_HEIGHT"
     },
-    "SHADOW_LG_OFFSET_WIDTH": {
-      "value": 0,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 0,
-      "name": "SHADOW_LG_OFFSET_WIDTH"
-    },
-    "SHADOW_LG_OPACITY": {
-      "value": 0.15,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 0.15,
-      "name": "SHADOW_LG_OPACITY"
-    },
     "SHADOW_LG_RADIUS": {
       "value": 16,
       "type": "size",
       "category": "box-shadows",
       "originalValue": 16,
       "name": "SHADOW_LG_RADIUS"
+    },
+    "SHADOW_SM_RADIUS": {
+      "value": 3,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 3,
+      "name": "SHADOW_SM_RADIUS"
+    },
+    "SHADOW_SM_COLOR": {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "SHADOW_SM_COLOR"
+    },
+    "SHADOW_LG_COLOR": {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "SHADOW_LG_COLOR"
+    },
+    "SHADOW_LG_OFFSET_WIDTH": {
+      "value": 0,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 0,
+      "name": "SHADOW_LG_OFFSET_WIDTH"
     },
     "BUTTON_BORDER_WIDTH": {
       "type": "size",
@@ -4224,14 +4238,16 @@
     "CORNER_RADIUS_XS",
     "CORNER_RADIUS_LG",
     "BORDER_SIZE_XL",
-    "SHADOW_SM_OFFSET_HEIGHT",
     "SHADOW_SM_OFFSET_WIDTH",
     "SHADOW_SM_OPACITY",
-    "SHADOW_SM_RADIUS",
-    "SHADOW_LG_OFFSET_HEIGHT",
-    "SHADOW_LG_OFFSET_WIDTH",
     "SHADOW_LG_OPACITY",
+    "SHADOW_SM_OFFSET_HEIGHT",
+    "SHADOW_LG_OFFSET_HEIGHT",
     "SHADOW_LG_RADIUS",
+    "SHADOW_SM_RADIUS",
+    "SHADOW_SM_COLOR",
+    "SHADOW_LG_COLOR",
+    "SHADOW_LG_OFFSET_WIDTH",
     "BUTTON_BORDER_WIDTH",
     "BUTTON_HEIGHT",
     "BUTTON_PADDING_HORIZONTAL",

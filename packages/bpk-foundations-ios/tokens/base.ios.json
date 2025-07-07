@@ -2474,13 +2474,6 @@
       "name": "borderSizeXl"
     },
     {
-      "value": 1,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 1,
-      "name": "shadowSmOffsetHeight"
-    },
-    {
       "value": 0,
       "type": "size",
       "category": "box-shadows",
@@ -2495,11 +2488,18 @@
       "name": "shadowSmOpacity"
     },
     {
-      "value": 3,
+      "value": 0.15,
       "type": "size",
       "category": "box-shadows",
-      "originalValue": 3,
-      "name": "shadowSmRadius"
+      "originalValue": 0.15,
+      "name": "shadowLgOpacity"
+    },
+    {
+      "value": 1,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 1,
+      "name": "shadowSmOffsetHeight"
     },
     {
       "value": 4,
@@ -2509,25 +2509,39 @@
       "name": "shadowLgOffsetHeight"
     },
     {
-      "value": 0,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 0,
-      "name": "shadowLgOffsetWidth"
-    },
-    {
-      "value": 0.15,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 0.15,
-      "name": "shadowLgOpacity"
-    },
-    {
       "value": 16,
       "type": "size",
       "category": "box-shadows",
       "originalValue": 16,
       "name": "shadowLgRadius"
+    },
+    {
+      "value": 3,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 3,
+      "name": "shadowSmRadius"
+    },
+    {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "shadowSmColor"
+    },
+    {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "shadowLgColor"
+    },
+    {
+      "value": 0,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 0,
+      "name": "shadowLgOffsetWidth"
     },
     {
       "type": "size",
