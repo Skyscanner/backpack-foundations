@@ -165,6 +165,9 @@
     "NIGHT_BLUE": {
       "value": "#84E9FF"
     },
+    "SKY_GRAY": {
+      "value": "#161616"
+    },
     "NIGHT_SKY_85": {
       "value": "#024DAF"
     },
@@ -2861,14 +2864,14 @@
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
-      "originalValue": "{!CHARCOAL}",
+      "originalValue": "{!SKY_GRAY}",
       "name": "SHADOW_SM_COLOR"
     },
     "SHADOW_LG_COLOR": {
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
-      "originalValue": "{!CHARCOAL}",
+      "originalValue": "{!SKY_GRAY}",
       "name": "SHADOW_LG_COLOR"
     },
     "SHADOW_LG_OFFSET_WIDTH": {

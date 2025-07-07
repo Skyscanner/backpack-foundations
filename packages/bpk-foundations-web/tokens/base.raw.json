@@ -15,6 +15,9 @@
     "NIGHT_BLUE": {
       "value": "#84E9FF"
     },
+    "SKY_GRAY": {
+      "value": "#111236"
+    },
     "NIGHT_SKY_85": {
       "value": "#024DAF"
     },
@@ -158,9 +161,6 @@
     },
     "SKY_BLUE_TINT_03": {
       "value": "#cddff8"
-    },
-    "SKY_GRAY": {
-      "value": "#111236"
     },
     "NARA": {
       "value": "#ffe7e0"

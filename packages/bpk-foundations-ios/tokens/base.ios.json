@@ -2526,14 +2526,14 @@
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
-      "originalValue": "{!CHARCOAL}",
+      "originalValue": "{!SKY_GRAY}",
       "name": "shadowSmColor"
     },
     {
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
-      "originalValue": "{!CHARCOAL}",
+      "originalValue": "{!SKY_GRAY}",
       "name": "shadowLgColor"
     },
     {

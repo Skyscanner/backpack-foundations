@@ -4,7 +4,7 @@
   ],
   "props": {
     "SHADOW_SM_COLOR": {
-      "value": "{!CHARCOAL}",
+      "value": "{!SKY_GRAY}",
       "type": "color",
       "category": "box-shadows"
     },
@@ -29,7 +29,7 @@
       "category": "box-shadows"
     },
     "SHADOW_LG_COLOR": {
-      "value": "{!CHARCOAL}",
+      "value": "{!SKY_GRAY}",
       "type": "color",
       "category": "box-shadows"
     },
