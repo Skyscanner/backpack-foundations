@@ -4,9 +4,9 @@
   ],
   "props": {
     "SHADOW_SM_COLOR": {
-        "value": "{!CHARCOAL}",
-        "type": "color",
-        "category": "box-shadows"
+      "value": "{!CHARCOAL}",
+      "type": "color",
+      "category": "box-shadows"
     },
     "SHADOW_SM_OFFSET_HEIGHT": {
       "value": 1,
@@ -55,3 +55,4 @@
     }
   }
 }
+
