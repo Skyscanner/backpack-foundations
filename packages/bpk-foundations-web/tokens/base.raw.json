@@ -402,6 +402,12 @@
     "BORDER_RADIUS_LG": {
       "value": "1.5rem"
     },
+    "BORDER_RADIUS_FULL": {
+      "value": "100%"
+    },
+    "BORDER_RADIUS_NAV_TABS": {
+      "value": "1.125rem"
+    },
     "BREAKPOINT_ABOVE_TABLET": {
       "value": "64.0625rem"
     },

@@ -21,6 +21,12 @@
     "BORDER_RADIUS_LG": {
       "value": 24
     },
+    "BORDER_RADIUS_FULL": {
+      "value": 9999
+    },
+    "BORDER_RADIUS_NAV_TABS": {
+      "value": 18
+    },
     "BORDER_RADIUS_XL": {
       "value": 40
     },
