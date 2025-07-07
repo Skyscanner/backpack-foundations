@@ -19,9 +19,6 @@
  */
 
 module.exports = {
-  colorWhite: "rgb(255, 255, 255)",
-  colorSkyBlue: "rgb(0, 98, 227)",
-  colorBlack: "rgb(1, 9, 19)",
   privateBadgeBackgroundNormalDay: "rgb(239, 243, 248)",
   privateBadgeBackgroundNormalNight: "rgb(36, 51, 70)",
   canvasDay: "rgb(255, 255, 255)",

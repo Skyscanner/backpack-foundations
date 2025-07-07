@@ -5,14 +5,6 @@
     "category": "colors"
   },
   "props": {
-    "COLOR_WHITE": {
-      "value": "{!WHITE}"
-    },
-    "COLOR_SKY_BLUE": {
-      "value": "{!SKY_BLUE}"
-    },
-    "COLOR_BLACK": {
-      "value": "{!BLACK}"
-    }
+      
   }
 }

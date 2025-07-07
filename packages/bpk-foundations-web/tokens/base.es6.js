@@ -17,9 +17,6 @@
  * limitations under the License.
  * 
  */
-export const colorWhite = "rgb(255, 255, 255)";
-export const colorSkyBlue = "rgb(0, 98, 227)";
-export const colorBlack = "rgb(1, 9, 19)";
 export const privateBadgeBackgroundNormalDay = "rgb(239, 243, 248)";
 export const privateBadgeBackgroundNormalNight = "rgb(36, 51, 70)";
 export const canvasDay = "rgb(255, 255, 255)";
@@ -540,9 +537,6 @@ privateChipOnDarkOnDismissIconDay,
 privateChipOnDarkOnDismissIconNight,
 };
 export const colors = {
-colorWhite,
-colorSkyBlue,
-colorBlack,
 colorSkyBlueShade03,
 colorPrimaryGradientLight,
 colorErfoud,

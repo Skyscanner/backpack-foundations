@@ -165,9 +165,6 @@
     "NIGHT_BLUE": {
       "value": "#84E9FF"
     },
-    "SKY_GRAY": {
-      "value": "#161616"
-    },
     "NIGHT_SKY_85": {
       "value": "#024DAF"
     },
@@ -1354,27 +1351,6 @@
       "deprecated": true,
       "originalValue": "{!FONT_SIZE_XS}",
       "name": "TEXT_XS_FONT_SIZE"
-    },
-    "COLOR_WHITE": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "COLOR_WHITE"
-    },
-    "COLOR_SKY_BLUE": {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "originalValue": "{!SKY_BLUE}",
-      "name": "COLOR_SKY_BLUE"
-    },
-    "COLOR_BLACK": {
-      "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "originalValue": "{!BLACK}",
-      "name": "COLOR_BLACK"
     },
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
       "type": "color",
@@ -3865,9 +3841,6 @@
     "TEXT_SM_LINE_HEIGHT",
     "TEXT_BASE-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XS_FONT_SIZE",
-    "COLOR_WHITE",
-    "COLOR_SKY_BLUE",
-    "COLOR_BLACK",
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY",
     "PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT",
     "CANVAS_DAY",

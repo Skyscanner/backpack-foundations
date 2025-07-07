@@ -1019,27 +1019,6 @@
     },
     {
       "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "colorWhite"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "originalValue": "{!SKY_BLUE}",
-      "name": "colorSkyBlue"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "originalValue": "{!BLACK}",
-      "name": "colorBlack"
-    },
-    {
-      "type": "color",
       "category": "badge-colors",
       "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
@@ -2495,6 +2474,13 @@
       "name": "borderSizeXl"
     },
     {
+      "value": 1,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 1,
+      "name": "shadowSmOffsetHeight"
+    },
+    {
       "value": 0,
       "type": "size",
       "category": "box-shadows",
@@ -2509,18 +2495,11 @@
       "name": "shadowSmOpacity"
     },
     {
-      "value": 0.15,
+      "value": 3,
       "type": "size",
       "category": "box-shadows",
-      "originalValue": 0.15,
-      "name": "shadowLgOpacity"
-    },
-    {
-      "value": 1,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 1,
-      "name": "shadowSmOffsetHeight"
+      "originalValue": 3,
+      "name": "shadowSmRadius"
     },
     {
       "value": 4,
@@ -2530,39 +2509,25 @@
       "name": "shadowLgOffsetHeight"
     },
     {
-      "value": 16,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 16,
-      "name": "shadowLgRadius"
-    },
-    {
-      "value": 3,
-      "type": "size",
-      "category": "box-shadows",
-      "originalValue": 3,
-      "name": "shadowSmRadius"
-    },
-    {
-      "value": "#161616ff",
-      "type": "color",
-      "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "shadowSmColor"
-    },
-    {
-      "value": "#161616ff",
-      "type": "color",
-      "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "shadowLgColor"
-    },
-    {
       "value": 0,
       "type": "size",
       "category": "box-shadows",
       "originalValue": 0,
       "name": "shadowLgOffsetWidth"
+    },
+    {
+      "value": 0.15,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 0.15,
+      "name": "shadowLgOpacity"
+    },
+    {
+      "value": 16,
+      "type": "size",
+      "category": "box-shadows",
+      "originalValue": 16,
+      "name": "shadowLgRadius"
     },
     {
       "type": "size",
@@ -2675,21 +2640,6 @@
       "value": "8",
       "originalValue": "{!SPACING_MD}",
       "name": "spacingIconText"
-    },
-    {
-      "category": "touchables",
-      "value": "0.15",
-      "type": "number",
-      "deprecated": true,
-      "originalValue": "0.15",
-      "name": "underlayOpacity"
-    },
-    {
-      "category": "touchables",
-      "value": "#161616ff",
-      "type": "color",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "touchableOverlayColor"
     },
     {
       "category": "touchables",

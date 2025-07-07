@@ -15,9 +15,6 @@
     "NIGHT_BLUE": {
       "value": "#84E9FF"
     },
-    "SKY_GRAY": {
-      "value": "#111236"
-    },
     "NIGHT_SKY_85": {
       "value": "#024DAF"
     },
@@ -161,6 +158,9 @@
     },
     "SKY_BLUE_TINT_03": {
       "value": "#cddff8"
+    },
+    "SKY_GRAY": {
+      "value": "#111236"
     },
     "NARA": {
       "value": "#ffe7e0"
@@ -467,27 +467,6 @@
     }
   },
   "props": {
-    "COLOR_WHITE": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(255, 255, 255)",
-      "originalValue": "{!WHITE}",
-      "name": "COLOR_WHITE"
-    },
-    "COLOR_SKY_BLUE": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(0, 98, 227)",
-      "originalValue": "{!SKY_BLUE}",
-      "name": "COLOR_SKY_BLUE"
-    },
-    "COLOR_BLACK": {
-      "type": "color",
-      "category": "colors",
-      "value": "rgb(1, 9, 19)",
-      "originalValue": "{!BLACK}",
-      "name": "COLOR_BLACK"
-    },
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
       "type": "color",
       "category": "badge-colors",
