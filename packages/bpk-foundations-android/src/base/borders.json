@@ -37,7 +37,7 @@
     "BORDER_RADIUS_XL": {
       "value": "{!BORDER_RADIUS_XL}",
       "category": "radii"
-    }
+    },
     "BORDER_RADIUS_FULL": {
       "value": "{!BORDER_RADIUS_FULL}",
       "category": "radii"
