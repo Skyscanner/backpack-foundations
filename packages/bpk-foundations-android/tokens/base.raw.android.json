@@ -2837,7 +2837,7 @@
     "BORDER_RADIUS_SM": {
       "type": "size",
       "value": "8",
-      "category": "radii",
+      "category": "borders",
       "originalValue": "{!BORDER_RADIUS_SM}",
       "name": "BORDER_RADIUS_SM"
     },
@@ -2851,7 +2851,7 @@
     "BORDER_RADIUS_LG": {
       "type": "size",
       "value": "24",
-      "category": "radii",
+      "category": "borders",
       "originalValue": "{!BORDER_RADIUS_LG}",
       "name": "BORDER_RADIUS_LG"
     },
