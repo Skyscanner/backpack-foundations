@@ -2851,7 +2851,7 @@
     "BORDER_RADIUS_LG": {
       "type": "size",
       "value": "24",
-      "category": "borders",
+      "category": "radii",
       "originalValue": "{!BORDER_RADIUS_LG}",
       "name": "BORDER_RADIUS_LG"
     },

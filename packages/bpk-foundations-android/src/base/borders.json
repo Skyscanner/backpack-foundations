@@ -32,7 +32,7 @@
     },
     "BORDER_RADIUS_LG": {
       "value": "{!BORDER_RADIUS_LG}",
-      "category": "borders"
+      "category": "radii"
     },
     "BORDER_RADIUS_XL": {
       "value": "{!BORDER_RADIUS_XL}",

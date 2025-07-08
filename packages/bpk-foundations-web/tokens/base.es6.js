@@ -418,6 +418,10 @@ export const badgeColors = {
 privateBadgeBackgroundNormalDay,
 privateBadgeBackgroundNormalNight,
 };
+export const borders = {
+borderSizeSm,
+borderSizeLg,
+};
 export const boxShadows = {
 boxShadowSm,
 boxShadowLg,
@@ -729,8 +733,6 @@ export const panels = {
 panelBorderColor,
 };
 export const radii = {
-borderSizeSm,
-borderSizeLg,
 borderRadiusFull,
 borderRadiusXl,
 borderRadiusMd,

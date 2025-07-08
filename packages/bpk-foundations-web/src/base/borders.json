@@ -28,11 +28,11 @@
     },
     "BORDER_SIZE_SM": {
       "value": "{!BORDER_SIZE_SM}",
-      "category": "radii"
+      "category": "borders"
     },
     "BORDER_SIZE_LG": {
       "value": "{!BORDER_SIZE_LG}",
-      "category": "radii"
+      "category": "borders"
     },
     "BORDER_SIZE_XL": {
       "value": "{!BORDER_SIZE_XL}",

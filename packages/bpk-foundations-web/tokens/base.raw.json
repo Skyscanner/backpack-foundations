@@ -2369,14 +2369,14 @@
     "BORDER_SIZE_SM": {
       "type": "size",
       "value": "1px",
-      "category": "radii",
+      "category": "borders",
       "originalValue": "{!BORDER_SIZE_SM}",
       "name": "BORDER_SIZE_SM"
     },
     "BORDER_SIZE_LG": {
       "type": "size",
       "value": "2px",
-      "category": "radii",
+      "category": "borders",
       "originalValue": "{!BORDER_SIZE_LG}",
       "name": "BORDER_SIZE_LG"
     },
