@@ -36,7 +36,7 @@
     },
     "BORDER_SIZE_XL": {
       "value": "{!BORDER_SIZE_XL}",
-      "category": "radii"
+      "category": "borders"
     },
     "BORDER_RADIUS_FULL": {
       "value": "{!BORDER_RADIUS_FULL}",
