@@ -418,13 +418,6 @@ export declare const badgeColors = {
 privateBadgeBackgroundNormalDay,
 privateBadgeBackgroundNormalNight,
 } as const;
-export declare const borders = {
-borderSizeSm,
-borderSizeLg,
-borderRadiusFull,
-borderRadiusNavTabs,
-borderSizeXl,
-} as const;
 export declare const boxShadows = {
 boxShadowSm,
 boxShadowLg,
@@ -736,11 +729,16 @@ export declare const panels = {
 panelBorderColor,
 } as const;
 export declare const radii = {
+borderSizeSm,
+borderSizeLg,
+borderRadiusFull,
 borderRadiusXl,
 borderRadiusMd,
+borderRadiusNavTabs,
 borderRadiusSm,
 borderRadiusXs,
 borderRadiusLg,
+borderSizeXl,
 } as const;
 export declare const ratingBarColors = {
 privateBarTrackDefaultDay,

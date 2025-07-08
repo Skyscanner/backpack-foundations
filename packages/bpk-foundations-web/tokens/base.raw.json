@@ -2369,21 +2369,21 @@
     "BORDER_SIZE_SM": {
       "type": "size",
       "value": "1px",
-      "category": "borders",
+      "category": "radii",
       "originalValue": "{!BORDER_SIZE_SM}",
       "name": "BORDER_SIZE_SM"
     },
     "BORDER_SIZE_LG": {
       "type": "size",
       "value": "2px",
-      "category": "borders",
+      "category": "radii",
       "originalValue": "{!BORDER_SIZE_LG}",
       "name": "BORDER_SIZE_LG"
     },
     "BORDER_RADIUS_FULL": {
       "type": "size",
       "value": "100%",
-      "category": "borders",
+      "category": "radii",
       "originalValue": "{!BORDER_RADIUS_FULL}",
       "name": "BORDER_RADIUS_FULL"
     },
@@ -2404,7 +2404,7 @@
     "BORDER_RADIUS_NAV_TABS": {
       "type": "size",
       "value": "1.125rem",
-      "category": "borders",
+      "category": "radii",
       "originalValue": "{!BORDER_RADIUS_NAV_TABS}",
       "name": "BORDER_RADIUS_NAV_TABS"
     },
@@ -2432,7 +2432,7 @@
     "BORDER_SIZE_XL": {
       "type": "size",
       "value": "3px",
-      "category": "borders",
+      "category": "radii",
       "originalValue": "{!BORDER_SIZE_XL}",
       "name": "BORDER_SIZE_XL"
     },
