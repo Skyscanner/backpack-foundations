@@ -24,7 +24,7 @@
     },
     "BORDER_RADIUS_SM": {
       "value": "{!BORDER_RADIUS_SM}",
-      "category": "borders"
+      "category": "radii"
     },
     "BORDER_RADIUS_MD": {
       "value": "{!BORDER_RADIUS_MD}",
