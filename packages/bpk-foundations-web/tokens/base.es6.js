@@ -421,6 +421,7 @@ privateBadgeBackgroundNormalNight,
 export const borders = {
 borderSizeSm,
 borderSizeLg,
+borderSizeXl,
 };
 export const boxShadows = {
 boxShadowSm,
@@ -740,7 +741,6 @@ borderRadiusNavTabs,
 borderRadiusSm,
 borderRadiusXs,
 borderRadiusLg,
-borderSizeXl,
 };
 export const ratingBarColors = {
 privateBarTrackDefaultDay,

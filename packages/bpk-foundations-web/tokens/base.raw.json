@@ -2432,7 +2432,7 @@
     "BORDER_SIZE_XL": {
       "type": "size",
       "value": "3px",
-      "category": "radii",
+      "category": "borders",
       "originalValue": "{!BORDER_SIZE_XL}",
       "name": "BORDER_SIZE_XL"
     },
