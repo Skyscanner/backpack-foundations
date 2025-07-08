@@ -347,12 +347,26 @@
     }
   },
   "props": {
+    "TEXT_XS-LARKEN_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_XS-LARKEN_FONT_WEIGHT"
+    },
     "TEXT_HEADING-4_FONT_WEIGHT": {
       "value": "700",
       "type": "string",
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_HEADING-4_FONT_WEIGHT"
+    },
+    "TEXT_SM-LARKEN_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_SM-LARKEN_FONT_WEIGHT"
     },
     "TEXT_HEADING-5_FONT_WEIGHT": {
       "value": "700",
@@ -585,6 +599,13 @@
       "originalValue": "{!LETTER_SPACING_TIGHT}",
       "name": "LETTER_SPACING_TIGHT"
     },
+    "TEXT_XS-LARKEN_FONT_SIZE": {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "TEXT_XS-LARKEN_FONT_SIZE"
+    },
     "TEXT_HEADING-4_FONT_SIZE": {
       "value": "20",
       "type": "font-size",
@@ -606,6 +627,13 @@
       "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
       "name": "TEXT_HEADING-3_LINE_HEIGHT"
     },
+    "TEXT_SM-LARKEN_FONT_SIZE": {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "TEXT_SM-LARKEN_FONT_SIZE"
+    },
     "TEXT_HEADING-5_FONT_SIZE": {
       "value": "16",
       "type": "font-size",
@@ -613,12 +641,26 @@
       "originalValue": "{!FONT_SIZE_BASE}",
       "name": "TEXT_HEADING-5_FONT_SIZE"
     },
+    "TEXT_XS-LARKEN_LINE_HEIGHT": {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "TEXT_XS-LARKEN_LINE_HEIGHT"
+    },
     "TEXT_HEADING-4_LINE_HEIGHT": {
       "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
       "name": "TEXT_HEADING-4_LINE_HEIGHT"
+    },
+    "TEXT_BASE-LARKEN_FONT_WEIGHT": {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TEXT_BASE-LARKEN_FONT_WEIGHT"
     },
     "TEXT_HEADING-5_LINE_HEIGHT": {
       "value": "20",
@@ -633,6 +675,13 @@
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_LG}",
       "name": "TEXT_BODY-LONGFORM_FONT_SIZE"
+    },
+    "TEXT_SM-LARKEN_LINE_HEIGHT": {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "TEXT_SM-LARKEN_LINE_HEIGHT"
     },
     "TEXT_BODY-LONGFORM_LINE_HEIGHT": {
       "value": "28",
@@ -682,6 +731,20 @@
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
       "name": "LINE_HEIGHT_XL-TIGHT"
+    },
+    "TEXT_BASE-LARKEN_FONT_SIZE": {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "TEXT_BASE-LARKEN_FONT_SIZE"
+    },
+    "TEXT_BASE-LARKEN_LINE_HEIGHT": {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "name": "TEXT_BASE-LARKEN_LINE_HEIGHT"
     },
     "TEXT_HERO-5_LETTER_SPACING": {
       "value": "-0.02",
@@ -972,22 +1035,6 @@
       "originalValue": "{!LINE_HEIGHT_XS}",
       "name": "TEXT_XS_LINE_HEIGHT"
     },
-    "TEXT_XS-LARKEN_FONT_WEIGHT": {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "TEXT_XS-LARKEN_FONT_WEIGHT"
-    },
-    "TEXT_SM-LARKEN_FONT_WEIGHT": {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "TEXT_SM-LARKEN_FONT_WEIGHT"
-    },
     "TEXT_XXL_FONT_WEIGHT": {
       "value": "400",
       "type": "string",
@@ -1044,14 +1091,6 @@
       "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "TEXT_XXXL-HEAVY_FONT_WEIGHT"
     },
-    "TEXT_XS-LARKEN_FONT_SIZE": {
-      "value": "12",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XS}",
-      "name": "TEXT_XS-LARKEN_FONT_SIZE"
-    },
     "TEXT_XL-HEAVY_FONT_WEIGHT": {
       "value": "900",
       "type": "string",
@@ -1059,30 +1098,6 @@
       "deprecated": true,
       "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "TEXT_XL-HEAVY_FONT_WEIGHT"
-    },
-    "TEXT_SM-LARKEN_FONT_SIZE": {
-      "value": "14",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_SM}",
-      "name": "TEXT_SM-LARKEN_FONT_SIZE"
-    },
-    "TEXT_XS-LARKEN_LINE_HEIGHT": {
-      "value": "16",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_XS}",
-      "name": "TEXT_XS-LARKEN_LINE_HEIGHT"
-    },
-    "TEXT_BASE-LARKEN_FONT_WEIGHT": {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "TEXT_BASE-LARKEN_FONT_WEIGHT"
     },
     "TEXT_LG-EMPHASIZED_FONT_WEIGHT": {
       "value": "700",
@@ -1099,14 +1114,6 @@
       "deprecated": true,
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "TEXT_XS-EMPHASIZED_FONT_WEIGHT"
-    },
-    "TEXT_SM-LARKEN_LINE_HEIGHT": {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_SM}",
-      "name": "TEXT_SM-LARKEN_LINE_HEIGHT"
     },
     "TEXT_BASE_FONT_WEIGHT": {
       "value": "400",
@@ -1196,14 +1203,6 @@
       "originalValue": "{!FONT_SIZE_XL}",
       "name": "TEXT_XL-HEAVY_FONT_SIZE"
     },
-    "TEXT_BASE-LARKEN_FONT_SIZE": {
-      "value": "16",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_BASE}",
-      "name": "TEXT_BASE-LARKEN_FONT_SIZE"
-    },
     "TEXT_XS-EMPHASIZED_FONT_SIZE": {
       "value": "12",
       "type": "font-size",
@@ -1211,14 +1210,6 @@
       "deprecated": true,
       "originalValue": "{!FONT_SIZE_XS}",
       "name": "TEXT_XS-EMPHASIZED_FONT_SIZE"
-    },
-    "TEXT_BASE-LARKEN_LINE_HEIGHT": {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
-      "name": "TEXT_BASE-LARKEN_LINE_HEIGHT"
     },
     "TEXT_LG-EMPHASIZED_FONT_SIZE": {
       "value": "20",
@@ -4033,7 +4024,9 @@
     }
   },
   "propKeys": [
+    "TEXT_XS-LARKEN_FONT_WEIGHT",
     "TEXT_HEADING-4_FONT_WEIGHT",
+    "TEXT_SM-LARKEN_FONT_WEIGHT",
     "TEXT_HEADING-5_FONT_WEIGHT",
     "LINE_HEIGHT_XXXL",
     "LINE_HEIGHT_XL",
@@ -4067,13 +4060,18 @@
     "FONT_SIZE_SM",
     "FONT_SIZE_XS",
     "LETTER_SPACING_TIGHT",
+    "TEXT_XS-LARKEN_FONT_SIZE",
     "TEXT_HEADING-4_FONT_SIZE",
     "FONT_SIZE_LG",
     "TEXT_HEADING-3_LINE_HEIGHT",
+    "TEXT_SM-LARKEN_FONT_SIZE",
     "TEXT_HEADING-5_FONT_SIZE",
+    "TEXT_XS-LARKEN_LINE_HEIGHT",
     "TEXT_HEADING-4_LINE_HEIGHT",
+    "TEXT_BASE-LARKEN_FONT_WEIGHT",
     "TEXT_HEADING-5_LINE_HEIGHT",
     "TEXT_BODY-LONGFORM_FONT_SIZE",
+    "TEXT_SM-LARKEN_LINE_HEIGHT",
     "TEXT_BODY-LONGFORM_LINE_HEIGHT",
     "TEXT_LABEL-1_FONT_WEIGHT",
     "LINE_HEIGHT_BASE-TIGHT",
@@ -4081,6 +4079,8 @@
     "TEXT_LABEL-3_FONT_WEIGHT",
     "TEXT_BODY-DEFAULT_FONT_WEIGHT",
     "LINE_HEIGHT_XL-TIGHT",
+    "TEXT_BASE-LARKEN_FONT_SIZE",
+    "TEXT_BASE-LARKEN_LINE_HEIGHT",
     "TEXT_HERO-5_LETTER_SPACING",
     "TEXT_HERO-4_LETTER_SPACING",
     "TEXT_HERO-3_LETTER_SPACING",
@@ -4122,8 +4122,6 @@
     "LINE_HEIGHT_XXXXL",
     "TEXT_LG_LINE_HEIGHT",
     "TEXT_XS_LINE_HEIGHT",
-    "TEXT_XS-LARKEN_FONT_WEIGHT",
-    "TEXT_SM-LARKEN_FONT_WEIGHT",
     "TEXT_XXL_FONT_WEIGHT",
     "TEXT_CAPS-EMPHASIZED_FONT_WEIGHT",
     "TEXT_CAPS_FONT_SIZE",
@@ -4131,14 +4129,9 @@
     "TEXT_XXL-EMPHASIZED_FONT_SIZE",
     "TEXT_XXL-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XXXL-HEAVY_FONT_WEIGHT",
-    "TEXT_XS-LARKEN_FONT_SIZE",
     "TEXT_XL-HEAVY_FONT_WEIGHT",
-    "TEXT_SM-LARKEN_FONT_SIZE",
-    "TEXT_XS-LARKEN_LINE_HEIGHT",
-    "TEXT_BASE-LARKEN_FONT_WEIGHT",
     "TEXT_LG-EMPHASIZED_FONT_WEIGHT",
     "TEXT_XS-EMPHASIZED_FONT_WEIGHT",
-    "TEXT_SM-LARKEN_LINE_HEIGHT",
     "TEXT_BASE_FONT_WEIGHT",
     "TEXT_SM-EMPHASIZED_FONT_WEIGHT",
     "TEXT_XXL_FONT_SIZE",
@@ -4150,9 +4143,7 @@
     "TEXT_XXXL-HEAVY_FONT_SIZE",
     "TEXT_XL-EMPHASIZED_FONT_WEIGHT",
     "TEXT_XL-HEAVY_FONT_SIZE",
-    "TEXT_BASE-LARKEN_FONT_SIZE",
     "TEXT_XS-EMPHASIZED_FONT_SIZE",
-    "TEXT_BASE-LARKEN_LINE_HEIGHT",
     "TEXT_LG-EMPHASIZED_FONT_SIZE",
     "TEXT_LG-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XS-EMPHASIZED_LINE_HEIGHT",

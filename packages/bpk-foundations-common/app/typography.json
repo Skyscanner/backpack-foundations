@@ -467,6 +467,51 @@
       "value": "{!LETTER_SPACING_TIGHT}",
       "type": "letter-spacing",
       "category": "letter-spacings"
+    },
+    "TEXT_BASE-LARKEN_FONT_SIZE": {
+      "value": "{!FONT_SIZE_BASE}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_BASE-LARKEN_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_BASE-LARKEN_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_XS-LARKEN_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XS}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_XS-LARKEN_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XS}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_XS-LARKEN_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_SM-LARKEN_FONT_SIZE": {
+      "value": "{!FONT_SIZE_SM}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_SM-LARKEN_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_SM}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_SM-LARKEN_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOLD}",
+      "type": "string",
+      "category": "font-weights"
     }
   }
 }

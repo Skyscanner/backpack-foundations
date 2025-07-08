@@ -5,7 +5,21 @@
       "type": "string",
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textXsLarkenFontWeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "textHeading4FontWeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textSmLarkenFontWeight"
     },
     {
       "value": "700",
@@ -239,6 +253,13 @@
       "name": "letterSpacingTight"
     },
     {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "textXsLarkenFontSize"
+    },
+    {
       "value": "20",
       "type": "font-size",
       "category": "font-sizes",
@@ -260,6 +281,13 @@
       "name": "textHeading3LineHeight"
     },
     {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "textSmLarkenFontSize"
+    },
+    {
       "value": "16",
       "type": "font-size",
       "category": "font-sizes",
@@ -267,11 +295,25 @@
       "name": "textHeading5FontSize"
     },
     {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textXsLarkenLineHeight"
+    },
+    {
       "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
       "name": "textHeading4LineHeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textBaseLarkenFontWeight"
     },
     {
       "value": "20",
@@ -286,6 +328,13 @@
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_LG}",
       "name": "textBodyLongformFontSize"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "textSmLarkenLineHeight"
     },
     {
       "value": "28",
@@ -335,6 +384,20 @@
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
       "name": "lineHeightXlTight"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textBaseLarkenFontSize"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "name": "textBaseLarkenLineHeight"
     },
     {
       "value": "-0.02",
@@ -626,22 +689,6 @@
       "name": "textXsLineHeight"
     },
     {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textXsLarkenFontWeight"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textSmLarkenFontWeight"
-    },
-    {
       "value": "400",
       "type": "string",
       "category": "font-weights",
@@ -698,44 +745,12 @@
       "name": "textXxxlHeavyFontWeight"
     },
     {
-      "value": "12",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_XS}",
-      "name": "textXsLarkenFontSize"
-    },
-    {
       "value": "900",
       "type": "string",
       "category": "font-weights",
       "deprecated": true,
       "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "textXlHeavyFontWeight"
-    },
-    {
-      "value": "14",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_SM}",
-      "name": "textSmLarkenFontSize"
-    },
-    {
-      "value": "16",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_XS}",
-      "name": "textXsLarkenLineHeight"
-    },
-    {
-      "value": "700",
-      "type": "string",
-      "category": "font-weights",
-      "deprecated": true,
-      "originalValue": "{!FONT_WEIGHT_BOLD}",
-      "name": "textBaseLarkenFontWeight"
     },
     {
       "value": "700",
@@ -752,14 +767,6 @@
       "deprecated": true,
       "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "textXsEmphasizedFontWeight"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_SM}",
-      "name": "textSmLarkenLineHeight"
     },
     {
       "value": "400",
@@ -850,28 +857,12 @@
       "name": "textXlHeavyFontSize"
     },
     {
-      "value": "16",
-      "type": "font-size",
-      "category": "font-sizes",
-      "deprecated": true,
-      "originalValue": "{!FONT_SIZE_BASE}",
-      "name": "textBaseLarkenFontSize"
-    },
-    {
       "value": "12",
       "type": "font-size",
       "category": "font-sizes",
       "deprecated": true,
       "originalValue": "{!FONT_SIZE_XS}",
       "name": "textXsEmphasizedFontSize"
-    },
-    {
-      "value": "20",
-      "type": "size",
-      "category": "typesettings",
-      "deprecated": true,
-      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
-      "name": "textBaseLarkenLineHeight"
     },
     {
       "value": "20",
