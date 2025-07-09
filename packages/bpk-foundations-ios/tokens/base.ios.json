@@ -5,7 +5,21 @@
       "type": "string",
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textXsLarkenFontWeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
       "name": "textHeading4FontWeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textSmLarkenFontWeight"
     },
     {
       "value": "700",
@@ -239,6 +253,13 @@
       "name": "letterSpacingTight"
     },
     {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "textXsLarkenFontSize"
+    },
+    {
       "value": "20",
       "type": "font-size",
       "category": "font-sizes",
@@ -260,6 +281,13 @@
       "name": "textHeading3LineHeight"
     },
     {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "textSmLarkenFontSize"
+    },
+    {
       "value": "16",
       "type": "font-size",
       "category": "font-sizes",
@@ -267,11 +295,25 @@
       "name": "textHeading5FontSize"
     },
     {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textXsLarkenLineHeight"
+    },
+    {
       "value": "24",
       "type": "size",
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_LG-TIGHT}",
       "name": "textHeading4LineHeight"
+    },
+    {
+      "value": "700",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "textBaseLarkenFontWeight"
     },
     {
       "value": "20",
@@ -286,6 +328,13 @@
       "category": "font-sizes",
       "originalValue": "{!FONT_SIZE_LG}",
       "name": "textBodyLongformFontSize"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_SM}",
+      "name": "textSmLarkenLineHeight"
     },
     {
       "value": "28",
@@ -335,6 +384,20 @@
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XL-TIGHT}",
       "name": "lineHeightXlTight"
+    },
+    {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textBaseLarkenFontSize"
+    },
+    {
+      "value": "20",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_BASE-TIGHT}",
+      "name": "textBaseLarkenLineHeight"
     },
     {
       "value": "-0.02",
@@ -2419,6 +2482,13 @@
     },
     {
       "type": "size",
+      "value": "9999",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_FULL}",
+      "name": "borderRadiusFull"
+    },
+    {
+      "type": "size",
       "value": "40",
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_XL}",
@@ -2430,6 +2500,13 @@
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_MD}",
       "name": "borderRadiusMd"
+    },
+    {
+      "type": "size",
+      "value": "18",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_NAV_TABS}",
+      "name": "borderRadiusNavTabs"
     },
     {
       "type": "size",
@@ -2697,6 +2774,13 @@
       "type": "number",
       "originalValue": "0.15",
       "name": "touchableOverlayOpacity"
+    },
+    {
+      "value": "\"larken\"",
+      "type": "font",
+      "category": "typesettings",
+      "originalValue": "{!FONT_FAMILY_LARKEN}",
+      "name": "fontFamilyLarken"
     },
     {
       "value": null,

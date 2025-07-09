@@ -10,6 +10,7 @@
   ],
   "aliases": {
     "FONT_FAMILY": "\"System\"",
+    "FONT_FAMILY_LARKEN": "\"larken\"",
     "LETTER_SPACING_CAPS": 0.4,
     "LETTER_SPACING_XS": 0,
     "LETTER_SPACING_SM": 0,

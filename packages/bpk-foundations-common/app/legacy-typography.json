@@ -1,5 +1,7 @@
 {
-  "imports": ["./typography.json"],
+  "imports": [
+    "./typography.json"
+  ],
   "aliases": {
     "FONT_SIZE_CAPS": 10,
     "FONT_WEIGHT_BLACK": "900"

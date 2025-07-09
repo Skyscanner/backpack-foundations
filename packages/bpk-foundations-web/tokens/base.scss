@@ -539,20 +539,24 @@ $bpk-duration-xs: 50ms;
 $bpk-duration-sm: 200ms;
 /// @group animations
 $bpk-duration-base: 400ms;
-/// @group radii
-$bpk-border-radius-xs: .25rem;
-/// @group radii
-$bpk-border-radius-sm: .5rem;
-/// @group radii
-$bpk-border-radius-md: .75rem;
-/// @group radii
-$bpk-border-radius-lg: 1.5rem;
-/// @group radii
-$bpk-border-radius-xl: 2.5rem;
 /// @group borders
 $bpk-border-size-sm: 1px;
 /// @group borders
 $bpk-border-size-lg: 2px;
+/// @group radii
+$bpk-border-radius-full: 100%;
+/// @group radii
+$bpk-border-radius-xl: 2.5rem;
+/// @group radii
+$bpk-border-radius-md: .75rem;
+/// @group radii
+$bpk-border-radius-nav-tabs: 1.125rem;
+/// @group radii
+$bpk-border-radius-sm: .5rem;
+/// @group radii
+$bpk-border-radius-xs: .25rem;
+/// @group radii
+$bpk-border-radius-lg: 1.5rem;
 /// @group borders
 $bpk-border-size-xl: 3px;
 /// @group box-shadows
