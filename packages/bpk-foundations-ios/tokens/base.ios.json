@@ -2526,8 +2526,22 @@
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "shadowNight"
+    },
+    {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
       "originalValue": "{!SKY_GRAY}",
       "name": "shadowSmColor"
+    },
+    {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "shadowDay"
     },
     {
       "value": "#161616ff",
@@ -3554,6 +3568,15 @@
       "name": "privateSegmentedControlSurfaceContrastOnColor",
       "darkValue": "#054184ff",
       "originalDarkValue": "{!NIGHT_SKY}"
+    },
+    {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "shadowColor",
+      "darkValue": "#161616ff",
+      "originalDarkValue": "{!CHARCOAL}"
     }
   ]
 }

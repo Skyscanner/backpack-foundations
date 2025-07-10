@@ -2860,12 +2860,26 @@
       "originalValue": 3,
       "name": "SHADOW_SM_RADIUS"
     },
+    "SHADOW_NIGHT": {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "SHADOW_NIGHT"
+    },
     "SHADOW_SM_COLOR": {
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
       "originalValue": "{!SKY_GRAY}",
       "name": "SHADOW_SM_COLOR"
+    },
+    "SHADOW_DAY": {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "SHADOW_DAY"
     },
     "SHADOW_LG_COLOR": {
       "value": "#161616ff",
@@ -3892,6 +3906,15 @@
       "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_COLOR",
       "darkValue": "#054184ff",
       "originalDarkValue": "{!NIGHT_SKY}"
+    },
+    "SHADOW_COLOR": {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "SHADOW_COLOR",
+      "darkValue": "#161616ff",
+      "originalDarkValue": "{!CHARCOAL}"
     }
   },
   "propKeys": [
@@ -4248,7 +4271,9 @@
     "SHADOW_LG_OFFSET_HEIGHT",
     "SHADOW_LG_RADIUS",
     "SHADOW_SM_RADIUS",
+    "SHADOW_NIGHT",
     "SHADOW_SM_COLOR",
+    "SHADOW_DAY",
     "SHADOW_LG_COLOR",
     "SHADOW_LG_OFFSET_WIDTH",
     "BUTTON_BORDER_WIDTH",
@@ -4370,6 +4395,7 @@
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_COLOR",
-    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_COLOR"
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_COLOR",
+    "SHADOW_COLOR"
   ]
 }
