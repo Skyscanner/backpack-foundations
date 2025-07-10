@@ -275,13 +275,15 @@ export declare const colorSkyBlueShade02 = "rgb(4, 39, 89)" as const;
 export declare const durationXs = "50ms" as const;
 export declare const durationSm = "200ms" as const;
 export declare const durationBase = "400ms" as const;
-export declare const borderRadiusXs = ".25rem" as const;
-export declare const borderRadiusSm = ".5rem" as const;
-export declare const borderRadiusMd = ".75rem" as const;
-export declare const borderRadiusLg = "1.5rem" as const;
-export declare const borderRadiusXl = "2.5rem" as const;
 export declare const borderSizeSm = "1px" as const;
 export declare const borderSizeLg = "2px" as const;
+export declare const borderRadiusFull = "100%" as const;
+export declare const borderRadiusXl = "2.5rem" as const;
+export declare const borderRadiusMd = ".75rem" as const;
+export declare const borderRadiusNavTabs = "1.125rem" as const;
+export declare const borderRadiusSm = ".5rem" as const;
+export declare const borderRadiusXs = ".25rem" as const;
+export declare const borderRadiusLg = "1.5rem" as const;
 export declare const borderSizeXl = "3px" as const;
 export declare const boxShadowSm = "0px 1px 3px 0px rgba(37,32,31,.3)" as const;
 export declare const boxShadowLg = "0px 4px 14px 0px rgba(37,32,31,.25)" as const;
@@ -726,11 +728,13 @@ export declare const panels = {
 panelBorderColor,
 } as const;
 export declare const radii = {
-borderRadiusXs,
-borderRadiusSm,
-borderRadiusMd,
-borderRadiusLg,
+borderRadiusFull,
 borderRadiusXl,
+borderRadiusMd,
+borderRadiusNavTabs,
+borderRadiusSm,
+borderRadiusXs,
+borderRadiusLg,
 } as const;
 export declare const ratingBarColors = {
 privateBarTrackDefaultDay,

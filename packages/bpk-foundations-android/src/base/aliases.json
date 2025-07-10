@@ -12,6 +12,7 @@
     "FONT_FAMILY": "\"sans-serif\"",
     "FONT_FAMILY_EMPHASIZE": "\"sans-serif-medium\"",
     "FONT_FAMILY_HEAVY": "\"sans-serif-black\"",
+    "FONT_FAMILY_LARKEN": "\"larken\"",
     "ELEVATION_XS": 1,
     "ELEVATION_SM": 2,
     "ELEVATION_BASE": 4,

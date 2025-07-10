@@ -67,6 +67,15 @@
     "BORDER_RADIUS_XL": {
       "value": "{!BORDER_RADIUS_XL}",
       "category": "radii"
+    },
+    "BORDER_RADIUS_FULL": {
+      "value": "{!BORDER_RADIUS_FULL}",
+      "category": "radii"
+    },
+    "BORDER_RADIUS_NAV_TABS": {
+      "value":"{!BORDER_RADIUS_NAV_TABS}",
+      "category": "radii"
     }
+
   }
 }
