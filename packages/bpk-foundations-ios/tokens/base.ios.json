@@ -2533,22 +2533,8 @@
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "shadowSmColor"
-    },
-    {
-      "value": "#161616ff",
-      "type": "color",
-      "category": "box-shadows",
       "originalValue": "{!CHARCOAL}",
       "name": "shadowDay"
-    },
-    {
-      "value": "#161616ff",
-      "type": "color",
-      "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "shadowLgColor"
     },
     {
       "value": 0,

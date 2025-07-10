@@ -13,11 +13,6 @@
       "type": "color",
       "category": "box-shadows"
     },
-    "SHADOW_SM_COLOR": {
-      "value": "{!SKY_GRAY}",
-      "type": "color",
-      "category": "box-shadows"
-    },
     "SHADOW_SM_OFFSET_HEIGHT": {
       "value": 1,
       "type": "size",
@@ -36,11 +31,6 @@
     "SHADOW_SM_RADIUS": {
       "value": 3,
       "type": "size",
-      "category": "box-shadows"
-    },
-    "SHADOW_LG_COLOR": {
-      "value": "{!SKY_GRAY}",
-      "type": "color",
       "category": "box-shadows"
     },
     "SHADOW_LG_OFFSET_HEIGHT": {
