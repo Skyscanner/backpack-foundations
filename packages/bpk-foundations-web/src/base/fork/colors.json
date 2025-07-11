@@ -45,21 +45,21 @@
     "COLOR_WHITE": {
          "type": "color",
          "category": "colors",
-         "value": "#ffffffff",
+         "value": "#ffffff",
          "originalValue": "{!WHITE}",
          "name": "COLOR_WHITE"
     },
     "COLOR_SKY_BLUE": {
          "type": "color",
          "category": "colors",
-         "value": "#0062e3ff",
+         "value": "#0062e3",
          "originalValue": "{!SKY_BLUE}",
          "name": "COLOR_SKY_BLUE"
     },
     "COLOR_BLACK": {
          "type": "color",
          "category": "colors",
-         "value": "#010913ff",
+         "value": "#010913",
          "originalValue": "{!BLACK}",
          "name": "COLOR_BLACK"
     },

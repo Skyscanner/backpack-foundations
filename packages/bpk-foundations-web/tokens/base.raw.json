@@ -1856,7 +1856,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(1, 9, 19)",
-      "originalValue": "#010913ff",
+      "originalValue": "#010913",
       "name": "COLOR_BLACK"
     },
     "BACKGROUND_ELEVATION_02_DARK_COLOR": {
@@ -2055,7 +2055,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(255, 255, 255)",
-      "originalValue": "#ffffffff",
+      "originalValue": "#ffffff",
       "name": "COLOR_WHITE"
     },
     "COLOR_BLACK_TINT_05": {
@@ -2158,7 +2158,7 @@
       "type": "color",
       "category": "colors",
       "value": "rgb(0, 98, 227)",
-      "originalValue": "#0062e3ff",
+      "originalValue": "#0062e3",
       "name": "COLOR_SKY_BLUE"
     },
     "TEXT_TERTIARY_DARK_COLOR": {
