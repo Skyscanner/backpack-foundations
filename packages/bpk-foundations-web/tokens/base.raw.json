@@ -1852,6 +1852,13 @@
       "originalValue": "{!SKY_GRAY_TINT_01}",
       "name": "COLOR_SKY_GRAY_TINT_01"
     },
+    "COLOR_BLACK": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(1, 9, 19)",
+      "originalValue": "#010913ff",
+      "name": "COLOR_BLACK"
+    },
     "BACKGROUND_ELEVATION_02_DARK_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -2044,6 +2051,13 @@
       "originalValue": "{!WHITE}",
       "name": "BACKGROUND_ALTERNATIVE_SECONDARY_LIGHT_COLOR"
     },
+    "COLOR_WHITE": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "#ffffffff",
+      "name": "COLOR_WHITE"
+    },
     "COLOR_BLACK_TINT_05": {
       "value": "rgb(99, 99, 102)",
       "deprecated": true,
@@ -2139,6 +2153,13 @@
       "category": "colors",
       "originalValue": "{!PETRA}",
       "name": "COLOR_PETRA"
+    },
+    "COLOR_SKY_BLUE": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(0, 98, 227)",
+      "originalValue": "#0062e3ff",
+      "name": "COLOR_SKY_BLUE"
     },
     "TEXT_TERTIARY_DARK_COLOR": {
       "value": "rgb(142, 142, 147)",

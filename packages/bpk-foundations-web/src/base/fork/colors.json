@@ -42,6 +42,27 @@
     "PRIMARY_GRADIENT_LIGHT": "#02DDD8"
   },
   "props": {
+    "COLOR_WHITE": {
+         "type": "color",
+         "category": "colors",
+         "value": "#ffffffff",
+         "originalValue": "{!WHITE}",
+         "name": "COLOR_WHITE"
+    },
+    "COLOR_SKY_BLUE": {
+         "type": "color",
+         "category": "colors",
+         "value": "#0062e3ff",
+         "originalValue": "{!SKY_BLUE}",
+         "name": "COLOR_SKY_BLUE"
+    },
+    "COLOR_BLACK": {
+         "type": "color",
+         "category": "colors",
+         "value": "#010913ff",
+         "originalValue": "{!BLACK}",
+         "name": "COLOR_BLACK"
+    },
     "COLOR_MONTEVERDE": {
       "value": "{!MONTEVERDE}",
       "deprecated": true,
