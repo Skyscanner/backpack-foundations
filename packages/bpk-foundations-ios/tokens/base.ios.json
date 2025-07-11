@@ -1082,27 +1082,6 @@
     },
     {
       "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "colorWhite"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "originalValue": "{!SKY_BLUE}",
-      "name": "colorSkyBlue"
-    },
-    {
-      "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "originalValue": "{!BLACK}",
-      "name": "colorBlack"
-    },
-    {
-      "type": "color",
       "category": "badge-colors",
       "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",
@@ -2624,15 +2603,15 @@
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "shadowSmColor"
+      "originalValue": "{!CHARCOAL}",
+      "name": "shadowNight"
     },
     {
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "shadowLgColor"
+      "originalValue": "{!CHARCOAL}",
+      "name": "shadowDay"
     },
     {
       "value": 0,
@@ -2752,21 +2731,6 @@
       "value": "8",
       "originalValue": "{!SPACING_MD}",
       "name": "spacingIconText"
-    },
-    {
-      "category": "touchables",
-      "value": "0.15",
-      "type": "number",
-      "deprecated": true,
-      "originalValue": "0.15",
-      "name": "underlayOpacity"
-    },
-    {
-      "category": "touchables",
-      "value": "#161616ff",
-      "type": "color",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "touchableOverlayColor"
     },
     {
       "category": "touchables",
@@ -3674,6 +3638,15 @@
       "name": "privateSegmentedControlSurfaceContrastOnColor",
       "darkValue": "#054184ff",
       "originalDarkValue": "{!NIGHT_SKY}"
+    },
+    {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "shadowColor",
+      "darkValue": "#161616ff",
+      "originalDarkValue": "{!CHARCOAL}"
     }
   ]
 }

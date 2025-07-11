@@ -19,9 +19,6 @@
  */
 
 module.exports = {
-  colorWhite: "rgb(255, 255, 255)",
-  colorSkyBlue: "rgb(0, 98, 227)",
-  colorBlack: "rgb(1, 9, 19)",
   privateBadgeBackgroundNormalDay: "rgb(239, 243, 248)",
   privateBadgeBackgroundNormalNight: "rgb(36, 51, 70)",
   canvasDay: "rgb(255, 255, 255)",
@@ -218,6 +215,7 @@ module.exports = {
   colorMonteverde: "rgb(0, 166, 152)",
   backgroundElevation03DarkColor: "rgb(58, 58, 60)",
   colorSkyGrayTint01: "rgb(68, 69, 96)",
+  colorBlack: "rgb(1, 9, 19)",
   backgroundElevation02DarkColor: "rgb(44, 44, 46)",
   colorSkyGrayTint02: "rgb(104, 105, 127)",
   lineDarkColor: "rgb(72, 72, 74)",
@@ -242,6 +240,7 @@ module.exports = {
   textPrimaryLightColor: "rgb(17, 18, 54)",
   colorBlackTint04: "rgb(72, 72, 74)",
   backgroundAlternativeSecondaryLightColor: "rgb(255, 255, 255)",
+  colorWhite: "rgb(255, 255, 255)",
   colorBlackTint05: "rgb(99, 99, 102)",
   colorBlackTint06: "rgb(142, 142, 147)",
   colorPanjin: "rgb(209, 67, 91)",
@@ -254,6 +253,7 @@ module.exports = {
   backgroundElevation02LightColor: "rgb(255, 255, 255)",
   backgroundElevation03LightColor: "rgb(255, 255, 255)",
   colorPetra: "rgb(255, 171, 149)",
+  colorSkyBlue: "rgb(0, 98, 227)",
   textTertiaryDarkColor: "rgb(142, 142, 147)",
   backgroundTertiaryDarkColor: "rgb(44, 44, 46)",
   backgroundSecondaryDarkColor: "rgb(29, 27, 32)",

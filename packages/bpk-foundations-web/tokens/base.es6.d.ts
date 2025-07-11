@@ -17,9 +17,6 @@
  * limitations under the License.
  * 
  */
-export declare const colorWhite = "rgb(255, 255, 255)" as const;
-export declare const colorSkyBlue = "rgb(0, 98, 227)" as const;
-export declare const colorBlack = "rgb(1, 9, 19)" as const;
 export declare const privateBadgeBackgroundNormalDay = "rgb(239, 243, 248)" as const;
 export declare const privateBadgeBackgroundNormalNight = "rgb(36, 51, 70)" as const;
 export declare const canvasDay = "rgb(255, 255, 255)" as const;
@@ -216,6 +213,7 @@ export declare const colorValensole = "rgb(165, 155, 200)" as const;
 export declare const colorMonteverde = "rgb(0, 166, 152)" as const;
 export declare const backgroundElevation03DarkColor = "rgb(58, 58, 60)" as const;
 export declare const colorSkyGrayTint01 = "rgb(68, 69, 96)" as const;
+export declare const colorBlack = "rgb(1, 9, 19)" as const;
 export declare const backgroundElevation02DarkColor = "rgb(44, 44, 46)" as const;
 export declare const colorSkyGrayTint02 = "rgb(104, 105, 127)" as const;
 export declare const lineDarkColor = "rgb(72, 72, 74)" as const;
@@ -240,6 +238,7 @@ export declare const colorBlackTint03 = "rgb(58, 58, 60)" as const;
 export declare const textPrimaryLightColor = "rgb(17, 18, 54)" as const;
 export declare const colorBlackTint04 = "rgb(72, 72, 74)" as const;
 export declare const backgroundAlternativeSecondaryLightColor = "rgb(255, 255, 255)" as const;
+export declare const colorWhite = "rgb(255, 255, 255)" as const;
 export declare const colorBlackTint05 = "rgb(99, 99, 102)" as const;
 export declare const colorBlackTint06 = "rgb(142, 142, 147)" as const;
 export declare const colorPanjin = "rgb(209, 67, 91)" as const;
@@ -252,6 +251,7 @@ export declare const lineLightColor = "rgb(205, 205, 215)" as const;
 export declare const backgroundElevation02LightColor = "rgb(255, 255, 255)" as const;
 export declare const backgroundElevation03LightColor = "rgb(255, 255, 255)" as const;
 export declare const colorPetra = "rgb(255, 171, 149)" as const;
+export declare const colorSkyBlue = "rgb(0, 98, 227)" as const;
 export declare const textTertiaryDarkColor = "rgb(142, 142, 147)" as const;
 export declare const backgroundTertiaryDarkColor = "rgb(44, 44, 46)" as const;
 export declare const backgroundSecondaryDarkColor = "rgb(29, 27, 32)" as const;
@@ -542,15 +542,13 @@ privateChipOnDarkOnDismissIconDay,
 privateChipOnDarkOnDismissIconNight,
 } as const;
 export declare const colors = {
-colorWhite,
-colorSkyBlue,
-colorBlack,
 colorSkyBlueShade03,
 colorPrimaryGradientLight,
 colorErfoud,
 colorValensole,
 colorMonteverde,
 colorSkyGrayTint01,
+colorBlack,
 colorSkyGrayTint02,
 lineDarkColor,
 colorSagano,
@@ -569,6 +567,7 @@ backgroundDarkColor,
 colorBlackTint03,
 colorBlackTint04,
 backgroundAlternativeSecondaryLightColor,
+colorWhite,
 colorBlackTint05,
 colorBlackTint06,
 colorPanjin,
@@ -578,6 +577,7 @@ colorGlencoe,
 colorTochigi,
 lineLightColor,
 colorPetra,
+colorSkyBlue,
 backgroundTertiaryDarkColor,
 backgroundSecondaryDarkColor,
 backgroundAlternativeLightColor,

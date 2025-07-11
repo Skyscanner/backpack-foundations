@@ -1427,27 +1427,6 @@
       "originalValue": "{!FONT_SIZE_XS}",
       "name": "TEXT_XS_FONT_SIZE"
     },
-    "COLOR_WHITE": {
-      "type": "color",
-      "category": "colors",
-      "value": "#ffffffff",
-      "originalValue": "{!WHITE}",
-      "name": "COLOR_WHITE"
-    },
-    "COLOR_SKY_BLUE": {
-      "type": "color",
-      "category": "colors",
-      "value": "#0062e3ff",
-      "originalValue": "{!SKY_BLUE}",
-      "name": "COLOR_SKY_BLUE"
-    },
-    "COLOR_BLACK": {
-      "type": "color",
-      "category": "colors",
-      "value": "#010913ff",
-      "originalValue": "{!BLACK}",
-      "name": "COLOR_BLACK"
-    },
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
       "type": "color",
       "category": "badge-colors",
@@ -2967,19 +2946,19 @@
       "originalValue": 3,
       "name": "SHADOW_SM_RADIUS"
     },
-    "SHADOW_SM_COLOR": {
+    "SHADOW_NIGHT": {
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "SHADOW_SM_COLOR"
+      "originalValue": "{!CHARCOAL}",
+      "name": "SHADOW_NIGHT"
     },
-    "SHADOW_LG_COLOR": {
+    "SHADOW_DAY": {
       "value": "#161616ff",
       "type": "color",
       "category": "box-shadows",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "SHADOW_LG_COLOR"
+      "originalValue": "{!CHARCOAL}",
+      "name": "SHADOW_DAY"
     },
     "SHADOW_LG_OFFSET_WIDTH": {
       "value": 0,
@@ -3099,21 +3078,6 @@
       "value": "8",
       "originalValue": "{!SPACING_MD}",
       "name": "SPACING_ICON_TEXT"
-    },
-    "UNDERLAY_OPACITY": {
-      "category": "touchables",
-      "value": "0.15",
-      "type": "number",
-      "deprecated": true,
-      "originalValue": "0.15",
-      "name": "UNDERLAY_OPACITY"
-    },
-    "TOUCHABLE_OVERLAY_COLOR": {
-      "category": "touchables",
-      "value": "#161616ff",
-      "type": "color",
-      "originalValue": "{!SKY_GRAY}",
-      "name": "TOUCHABLE_OVERLAY_COLOR"
     },
     "TOUCHABLE_OVERLAY_OPACITY": {
       "category": "touchables",
@@ -4021,6 +3985,15 @@
       "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_COLOR",
       "darkValue": "#054184ff",
       "originalDarkValue": "{!NIGHT_SKY}"
+    },
+    "SHADOW_COLOR": {
+      "value": "#161616ff",
+      "type": "color",
+      "category": "box-shadows",
+      "originalValue": "{!CHARCOAL}",
+      "name": "SHADOW_COLOR",
+      "darkValue": "#161616ff",
+      "originalDarkValue": "{!CHARCOAL}"
     }
   },
   "propKeys": [
@@ -4171,9 +4144,6 @@
     "TEXT_SM_LINE_HEIGHT",
     "TEXT_BASE-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XS_FONT_SIZE",
-    "COLOR_WHITE",
-    "COLOR_SKY_BLUE",
-    "COLOR_BLACK",
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY",
     "PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT",
     "CANVAS_DAY",
@@ -4391,8 +4361,8 @@
     "SHADOW_LG_OFFSET_HEIGHT",
     "SHADOW_LG_RADIUS",
     "SHADOW_SM_RADIUS",
-    "SHADOW_SM_COLOR",
-    "SHADOW_LG_COLOR",
+    "SHADOW_NIGHT",
+    "SHADOW_DAY",
     "SHADOW_LG_OFFSET_WIDTH",
     "BUTTON_BORDER_WIDTH",
     "BUTTON_HEIGHT",
@@ -4410,8 +4380,6 @@
     "SPACING_XXL",
     "SPACING_NONE",
     "SPACING_ICON_TEXT",
-    "UNDERLAY_OPACITY",
-    "TOUCHABLE_OVERLAY_COLOR",
     "TOUCHABLE_OVERLAY_OPACITY",
     "FONT_FAMILY_LARKEN",
     "TEXT_XXXL_LETTER_SPACING",
@@ -4516,6 +4484,7 @@
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_COLOR",
-    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_COLOR"
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_COLOR",
+    "SHADOW_COLOR"
   ]
 }

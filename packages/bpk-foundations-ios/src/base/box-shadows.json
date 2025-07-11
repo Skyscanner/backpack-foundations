@@ -3,8 +3,13 @@
     "./aliases.json"
   ],
   "props": {
-    "SHADOW_SM_COLOR": {
-      "value": "{!SKY_GRAY}",
+    "SHADOW_DAY": {
+      "value": "{!CHARCOAL}",
+      "type": "color",
+      "category": "box-shadows"
+    },
+    "SHADOW_NIGHT": {
+      "value": "{!CHARCOAL}",
       "type": "color",
       "category": "box-shadows"
     },
@@ -26,11 +31,6 @@
     "SHADOW_SM_RADIUS": {
       "value": 3,
       "type": "size",
-      "category": "box-shadows"
-    },
-    "SHADOW_LG_COLOR": {
-      "value": "{!SKY_GRAY}",
-      "type": "color",
       "category": "box-shadows"
     },
     "SHADOW_LG_OFFSET_HEIGHT": {
@@ -55,3 +55,4 @@
     }
   }
 }
+

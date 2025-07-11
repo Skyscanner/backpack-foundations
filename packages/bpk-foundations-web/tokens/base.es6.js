@@ -17,9 +17,6 @@
  * limitations under the License.
  * 
  */
-export const colorWhite = "rgb(255, 255, 255)";
-export const colorSkyBlue = "rgb(0, 98, 227)";
-export const colorBlack = "rgb(1, 9, 19)";
 export const privateBadgeBackgroundNormalDay = "rgb(239, 243, 248)";
 export const privateBadgeBackgroundNormalNight = "rgb(36, 51, 70)";
 export const canvasDay = "rgb(255, 255, 255)";
@@ -216,6 +213,7 @@ export const colorValensole = "rgb(165, 155, 200)";
 export const colorMonteverde = "rgb(0, 166, 152)";
 export const backgroundElevation03DarkColor = "rgb(58, 58, 60)";
 export const colorSkyGrayTint01 = "rgb(68, 69, 96)";
+export const colorBlack = "rgb(1, 9, 19)";
 export const backgroundElevation02DarkColor = "rgb(44, 44, 46)";
 export const colorSkyGrayTint02 = "rgb(104, 105, 127)";
 export const lineDarkColor = "rgb(72, 72, 74)";
@@ -240,6 +238,7 @@ export const colorBlackTint03 = "rgb(58, 58, 60)";
 export const textPrimaryLightColor = "rgb(17, 18, 54)";
 export const colorBlackTint04 = "rgb(72, 72, 74)";
 export const backgroundAlternativeSecondaryLightColor = "rgb(255, 255, 255)";
+export const colorWhite = "rgb(255, 255, 255)";
 export const colorBlackTint05 = "rgb(99, 99, 102)";
 export const colorBlackTint06 = "rgb(142, 142, 147)";
 export const colorPanjin = "rgb(209, 67, 91)";
@@ -252,6 +251,7 @@ export const lineLightColor = "rgb(205, 205, 215)";
 export const backgroundElevation02LightColor = "rgb(255, 255, 255)";
 export const backgroundElevation03LightColor = "rgb(255, 255, 255)";
 export const colorPetra = "rgb(255, 171, 149)";
+export const colorSkyBlue = "rgb(0, 98, 227)";
 export const textTertiaryDarkColor = "rgb(142, 142, 147)";
 export const backgroundTertiaryDarkColor = "rgb(44, 44, 46)";
 export const backgroundSecondaryDarkColor = "rgb(29, 27, 32)";
@@ -542,15 +542,13 @@ privateChipOnDarkOnDismissIconDay,
 privateChipOnDarkOnDismissIconNight,
 };
 export const colors = {
-colorWhite,
-colorSkyBlue,
-colorBlack,
 colorSkyBlueShade03,
 colorPrimaryGradientLight,
 colorErfoud,
 colorValensole,
 colorMonteverde,
 colorSkyGrayTint01,
+colorBlack,
 colorSkyGrayTint02,
 lineDarkColor,
 colorSagano,
@@ -569,6 +567,7 @@ backgroundDarkColor,
 colorBlackTint03,
 colorBlackTint04,
 backgroundAlternativeSecondaryLightColor,
+colorWhite,
 colorBlackTint05,
 colorBlackTint06,
 colorPanjin,
@@ -578,6 +577,7 @@ colorGlencoe,
 colorTochigi,
 lineLightColor,
 colorPetra,
+colorSkyBlue,
 backgroundTertiaryDarkColor,
 backgroundSecondaryDarkColor,
 backgroundAlternativeLightColor,
