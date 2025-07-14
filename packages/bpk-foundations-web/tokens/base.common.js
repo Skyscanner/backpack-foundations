@@ -19,6 +19,7 @@
  */
 
 module.exports = {
+  colorIDontWantThisAnymore: "rgb(255, 255, 255)",
   privateBadgeBackgroundNormalDay: "rgb(239, 243, 248)",
   privateBadgeBackgroundNormalNight: "rgb(36, 51, 70)",
   canvasDay: "rgb(255, 255, 255)",

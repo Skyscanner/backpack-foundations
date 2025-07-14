@@ -1427,6 +1427,13 @@
       "originalValue": "{!FONT_SIZE_XS}",
       "name": "TEXT_XS_FONT_SIZE"
     },
+    "COLOR_I_DONT_WANT_THIS_ANYMORE": {
+      "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "COLOR_I_DONT_WANT_THIS_ANYMORE"
+    },
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
       "type": "color",
       "category": "badge-colors",
@@ -3946,6 +3953,7 @@
     "TEXT_SM_LINE_HEIGHT",
     "TEXT_BASE-EMPHASIZED_LINE_HEIGHT",
     "TEXT_XS_FONT_SIZE",
+    "COLOR_I_DONT_WANT_THIS_ANYMORE",
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY",
     "PRIVATE_BADGE_BACKGROUND_NORMAL_NIGHT",
     "CANVAS_DAY",

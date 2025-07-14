@@ -5,6 +5,8 @@
     "category": "colors"
   },
   "props": {
-      
+    "COLOR_I_DONT_WANT_THIS_ANYMORE": {
+    "value": "{!WHITE}"
+    }
   }
 }

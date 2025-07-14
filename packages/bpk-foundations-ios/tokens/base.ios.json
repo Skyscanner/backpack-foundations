@@ -1082,6 +1082,13 @@
     },
     {
       "type": "color",
+      "category": "colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "colorIDontWantThisAnymore"
+    },
+    {
+      "type": "color",
       "category": "badge-colors",
       "value": "#eff3f8ff",
       "originalValue": "{!GREY_10}",

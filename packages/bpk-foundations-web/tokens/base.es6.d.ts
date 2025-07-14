@@ -17,6 +17,7 @@
  * limitations under the License.
  * 
  */
+export declare const colorIDontWantThisAnymore = "rgb(255, 255, 255)" as const;
 export declare const privateBadgeBackgroundNormalDay = "rgb(239, 243, 248)" as const;
 export declare const privateBadgeBackgroundNormalNight = "rgb(36, 51, 70)" as const;
 export declare const canvasDay = "rgb(255, 255, 255)" as const;
@@ -542,6 +543,7 @@ privateChipOnDarkOnDismissIconDay,
 privateChipOnDarkOnDismissIconNight,
 } as const;
 export declare const colors = {
+colorIDontWantThisAnymore,
 colorSkyBlueShade03,
 colorPrimaryGradientLight,
 colorErfoud,

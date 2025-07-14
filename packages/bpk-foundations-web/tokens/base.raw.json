@@ -473,6 +473,13 @@
     }
   },
   "props": {
+    "COLOR_I_DONT_WANT_THIS_ANYMORE": {
+      "type": "color",
+      "category": "colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "COLOR_I_DONT_WANT_THIS_ANYMORE"
+    },
     "PRIVATE_BADGE_BACKGROUND_NORMAL_DAY": {
       "type": "color",
       "category": "badge-colors",
