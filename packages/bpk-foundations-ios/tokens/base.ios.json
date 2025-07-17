@@ -1419,6 +1419,13 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#62f1c6ff",
+      "originalValue": "{!NIGHT_GREEN_SPOT}",
+      "name": "textSuccessNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#00000033",
       "originalValue": "{!BLACK_ALPHA_20}",
       "name": "textDisabledDay"
@@ -1429,6 +1436,13 @@
       "value": "#161616ff",
       "originalValue": "{!CHARCOAL}",
       "name": "textPrimaryDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#0c838aff",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "textSuccessDay"
     },
     {
       "type": "color",
@@ -3098,6 +3112,15 @@
       "name": "textPrimaryColor",
       "darkValue": "#ffffffff",
       "originalDarkValue": "{!WHITE}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#0c838aff",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "textSuccessColor",
+      "darkValue": "#62f1c6ff",
+      "originalDarkValue": "{!NIGHT_GREEN_SPOT}"
     },
     {
       "type": "color",

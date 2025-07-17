@@ -65,8 +65,10 @@ export declare const textDisabledNight = "rgba(255, 255, 255, 0.2)" as const;
 export declare const textLinkDay = "rgb(0, 98, 227)" as const;
 export declare const textHeroDay = "rgb(0, 98, 227)" as const;
 export declare const textPrimaryNight = "rgb(255, 255, 255)" as const;
+export declare const textSuccessNight = "rgb(98, 241, 198)" as const;
 export declare const textDisabledDay = "rgba(0, 0, 0, 0.2)" as const;
 export declare const textPrimaryDay = "rgb(22, 22, 22)" as const;
+export declare const textSuccessDay = "rgb(12, 131, 138)" as const;
 export declare const textErrorNight = "rgb(255, 100, 156)" as const;
 export declare const textErrorDay = "rgb(231, 8, 102)" as const;
 export declare const textPrimaryInverseNight = "rgb(1, 9, 19)" as const;
@@ -819,8 +821,10 @@ textDisabledNight,
 textLinkDay,
 textHeroDay,
 textPrimaryNight,
+textSuccessNight,
 textDisabledDay,
 textPrimaryDay,
+textSuccessDay,
 textErrorNight,
 textErrorDay,
 textPrimaryInverseNight,

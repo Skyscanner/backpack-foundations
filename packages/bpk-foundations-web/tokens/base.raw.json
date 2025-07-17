@@ -809,6 +809,13 @@
       "originalValue": "{!WHITE}",
       "name": "TEXT_PRIMARY_NIGHT"
     },
+    "TEXT_SUCCESS_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgb(98, 241, 198)",
+      "originalValue": "{!NIGHT_GREEN_SPOT}",
+      "name": "TEXT_SUCCESS_NIGHT"
+    },
     "TEXT_DISABLED_DAY": {
       "type": "color",
       "category": "text-colors",
@@ -822,6 +829,13 @@
       "value": "rgb(22, 22, 22)",
       "originalValue": "{!CHARCOAL}",
       "name": "TEXT_PRIMARY_DAY"
+    },
+    "TEXT_SUCCESS_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgb(12, 131, 138)",
+      "originalValue": "{!GREEN_SPOT}",
+      "name": "TEXT_SUCCESS_DAY"
     },
     "TEXT_ERROR_NIGHT": {
       "type": "color",

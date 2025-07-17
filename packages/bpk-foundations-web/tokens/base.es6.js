@@ -65,8 +65,10 @@ export const textDisabledNight = "rgba(255, 255, 255, 0.2)";
 export const textLinkDay = "rgb(0, 98, 227)";
 export const textHeroDay = "rgb(0, 98, 227)";
 export const textPrimaryNight = "rgb(255, 255, 255)";
+export const textSuccessNight = "rgb(98, 241, 198)";
 export const textDisabledDay = "rgba(0, 0, 0, 0.2)";
 export const textPrimaryDay = "rgb(22, 22, 22)";
+export const textSuccessDay = "rgb(12, 131, 138)";
 export const textErrorNight = "rgb(255, 100, 156)";
 export const textErrorDay = "rgb(231, 8, 102)";
 export const textPrimaryInverseNight = "rgb(1, 9, 19)";
@@ -819,8 +821,10 @@ textDisabledNight,
 textLinkDay,
 textHeroDay,
 textPrimaryNight,
+textSuccessNight,
 textDisabledDay,
 textPrimaryDay,
+textSuccessDay,
 textErrorNight,
 textErrorDay,
 textPrimaryInverseNight,
