@@ -37,6 +37,12 @@
     "TEXT_DISABLED_ON_DARK_NIGHT": {
       "value": "{!WHITE_ALPHA_50}"
     },
+    "TEXT_SUCCESS_DAY": {
+      "value": "{!GREEN_SPOT}"
+    },
+    "TEXT_SUCCESS_NIGHT": {
+      "value": "{!NIGHT_GREEN_SPOT}"
+    },
     "TEXT_ERROR_DAY": {
       "value": "{!BERRY}"
     },
