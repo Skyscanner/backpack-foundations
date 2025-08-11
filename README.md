@@ -13,7 +13,6 @@ This repo contains common design system elements that are shared across Skyscann
 
 ## Structure
 
-
 This repo is broken down into the following [packages](/packages):
 
 ### `bpk-foundations-common`
