@@ -1,3 +1,4 @@
 # Global code owners
-# All files in the repository require review from the Donburi squad
-* @Skyscanner/donburi
+# All files in the repository require review from either the Donburi or Clover team
+# Both teams will be tagged but only one approval is needed
+* @Skyscanner/donburi @Skyscanner/clover
