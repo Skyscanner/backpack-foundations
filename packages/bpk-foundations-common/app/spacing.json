@@ -6,6 +6,8 @@
     "SPACING_LG": 24,
     "SPACING_XL": 32,
     "SPACING_XXL": 40,
+    "SPACING_XXXL": 64,
+    "SPACING_XXXXL": 96,
     "SPACING_NONE": 0
   }
 }

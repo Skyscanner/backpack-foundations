@@ -25,6 +25,12 @@
     "SPACING_XXL": {
       "value": "{!SPACING_XXL}"
     },
+    "SPACING_XXXL": {
+      "value": "{!SPACING_XXXL}"
+    },
+    "SPACING_XXXXL": {
+      "value": "{!SPACING_XXXXL}"
+    },
     "SPACING_NONE": {
       "value": "{!SPACING_NONE}"
     },
