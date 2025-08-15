@@ -778,7 +778,7 @@ $bpk-font-size-root: 100% !default;
 /// @group typesettings
 $bpk-font-size-6-xl: 4.75rem !default;
 /// @group typesettings
-$bpk-font-family-base: 'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !default;
+$bpk-font-family-base: 'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !default;
 /// @group font-weights
 $bpk-font-weight-bold: 700 !default;
 /// @group text-colors
