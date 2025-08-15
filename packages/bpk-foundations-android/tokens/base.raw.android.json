@@ -39,17 +39,11 @@
     "CAROUSEL_INDICATOR_DOT_SIZE_BASE": {
       "value": 6
     },
-    "SPACING_SM": {
-      "value": 4
-    },
-    "SPACING_MD": {
-      "value": 8
-    },
     "SPACING_BASE": {
       "value": 16
     },
-    "SPACING_LG": {
-      "value": 24
+    "SPACING_XXXL": {
+      "value": 64
     },
     "SPACING_XL": {
       "value": 32
@@ -57,8 +51,20 @@
     "SPACING_XXL": {
       "value": 40
     },
+    "SPACING_XXXXL": {
+      "value": 96
+    },
+    "SPACING_MD": {
+      "value": 8
+    },
     "SPACING_NONE": {
       "value": 0
+    },
+    "SPACING_SM": {
+      "value": 4
+    },
+    "SPACING_LG": {
+      "value": 24
     },
     "FONT_WEIGHT_BOOK": {
       "value": "400"
@@ -2953,20 +2959,6 @@
       "originalValue": "{!ELEVATION_XXL}",
       "name": "ELEVATION_XXL"
     },
-    "SPACING_SM": {
-      "type": "size",
-      "category": "spacings",
-      "value": "4",
-      "originalValue": "{!SPACING_SM}",
-      "name": "SPACING_SM"
-    },
-    "SPACING_MD": {
-      "type": "size",
-      "category": "spacings",
-      "value": "8",
-      "originalValue": "{!SPACING_MD}",
-      "name": "SPACING_MD"
-    },
     "SPACING_BASE": {
       "type": "size",
       "category": "spacings",
@@ -2974,12 +2966,12 @@
       "originalValue": "{!SPACING_BASE}",
       "name": "SPACING_BASE"
     },
-    "SPACING_LG": {
+    "SPACING_XXXL": {
       "type": "size",
       "category": "spacings",
-      "value": "24",
-      "originalValue": "{!SPACING_LG}",
-      "name": "SPACING_LG"
+      "value": "64",
+      "originalValue": "{!SPACING_XXXL}",
+      "name": "SPACING_XXXL"
     },
     "SPACING_XL": {
       "type": "size",
@@ -2995,6 +2987,20 @@
       "originalValue": "{!SPACING_XXL}",
       "name": "SPACING_XXL"
     },
+    "SPACING_XXXXL": {
+      "type": "size",
+      "category": "spacings",
+      "value": "96",
+      "originalValue": "{!SPACING_XXXXL}",
+      "name": "SPACING_XXXXL"
+    },
+    "SPACING_MD": {
+      "type": "size",
+      "category": "spacings",
+      "value": "8",
+      "originalValue": "{!SPACING_MD}",
+      "name": "SPACING_MD"
+    },
     "SPACING_NONE": {
       "type": "size",
       "category": "spacings",
@@ -3002,12 +3008,26 @@
       "originalValue": "{!SPACING_NONE}",
       "name": "SPACING_NONE"
     },
+    "SPACING_SM": {
+      "type": "size",
+      "category": "spacings",
+      "value": "4",
+      "originalValue": "{!SPACING_SM}",
+      "name": "SPACING_SM"
+    },
     "SPACING_ICON_TEXT": {
       "type": "size",
       "category": "spacings",
       "value": "8",
       "originalValue": "{!SPACING_MD}",
       "name": "SPACING_ICON_TEXT"
+    },
+    "SPACING_LG": {
+      "type": "size",
+      "category": "spacings",
+      "value": "24",
+      "originalValue": "{!SPACING_LG}",
+      "name": "SPACING_LG"
     },
     "FONT_FAMILY": {
       "value": "\"sans-serif\"",
@@ -4187,14 +4207,16 @@
     "ELEVATION_LG",
     "ELEVATION_XL",
     "ELEVATION_XXL",
-    "SPACING_SM",
-    "SPACING_MD",
     "SPACING_BASE",
-    "SPACING_LG",
+    "SPACING_XXXL",
     "SPACING_XL",
     "SPACING_XXL",
+    "SPACING_XXXXL",
+    "SPACING_MD",
     "SPACING_NONE",
+    "SPACING_SM",
     "SPACING_ICON_TEXT",
+    "SPACING_LG",
     "FONT_FAMILY",
     "FONT_FAMILY_EMPHASIZE",
     "FONT_FAMILY_HEAVY",

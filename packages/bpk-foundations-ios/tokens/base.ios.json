@@ -2693,20 +2693,6 @@
     {
       "type": "size",
       "category": "spacings",
-      "value": "4",
-      "originalValue": "{!SPACING_SM}",
-      "name": "spacingSm"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
-      "value": "8",
-      "originalValue": "{!SPACING_MD}",
-      "name": "spacingMd"
-    },
-    {
-      "type": "size",
-      "category": "spacings",
       "value": "16",
       "originalValue": "{!SPACING_BASE}",
       "name": "spacingBase"
@@ -2714,9 +2700,9 @@
     {
       "type": "size",
       "category": "spacings",
-      "value": "24",
-      "originalValue": "{!SPACING_LG}",
-      "name": "spacingLg"
+      "value": "64",
+      "originalValue": "{!SPACING_XXXL}",
+      "name": "spacingXxxl"
     },
     {
       "type": "size",
@@ -2735,6 +2721,20 @@
     {
       "type": "size",
       "category": "spacings",
+      "value": "96",
+      "originalValue": "{!SPACING_XXXXL}",
+      "name": "spacingXxxxl"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "8",
+      "originalValue": "{!SPACING_MD}",
+      "name": "spacingMd"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
       "value": "0",
       "originalValue": "{!SPACING_NONE}",
       "name": "spacingNone"
@@ -2742,9 +2742,23 @@
     {
       "type": "size",
       "category": "spacings",
+      "value": "4",
+      "originalValue": "{!SPACING_SM}",
+      "name": "spacingSm"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
       "value": "8",
       "originalValue": "{!SPACING_MD}",
       "name": "spacingIconText"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "24",
+      "originalValue": "{!SPACING_LG}",
+      "name": "spacingLg"
     },
     {
       "category": "touchables",
