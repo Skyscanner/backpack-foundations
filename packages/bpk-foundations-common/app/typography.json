@@ -368,6 +368,26 @@
       "type": "size",
       "category": "typesettings"
     },
+    "TEXT_HERO-6_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XXXXL}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_HERO-6_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BLACK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_HERO-6_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XXXXL}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_HERO-6_LETTER_SPACING": {
+      "value": "{!LETTER_SPACING_TIGHT}",
+      "type": "letter-spacing",
+      "category": "letter-spacings"
+    },
     "TEXT_HERO-5_FONT_SIZE": {
       "value": "{!FONT_SIZE_XXXXL}",
       "type": "font-size",
@@ -512,6 +532,66 @@
       "value": "{!FONT_WEIGHT_BOLD}",
       "type": "string",
       "category": "font-weights"
+    },
+        "TEXT_EDITORIAL_4_FONT_SIZE": {
+      "value": "{!FONT_SIZE_BASE}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_EDITORIAL_4_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_EDITORIAL_4_LINE_HEIGHT": {
+      "value": "{!FONT_SIZE_BASE}",
+      "type": "size",
+      "category": "typesettings"
+    },
+        "TEXT_EDITORIAL_5_FONT_SIZE": {
+      "value": "{!FONT_SIZE_SM}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_EDITORIAL_5_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_EDITORIAL_5_LINE_HEIGHT": {
+      "value": "{!FONT_SIZE_BASE}",
+      "type": "size",
+      "category": "typesettings"
+    },
+        "TEXT_EDITORIAL_6_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XS}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_EDITORIAL_6_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_EDITORIAL_6_LINE_HEIGHT": {
+      "value": "{!FONT_SIZE_BASE}",
+      "type": "size",
+      "category": "typesettings"
+    },
+        "TEXT_DISPLAY_7_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XXL}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_DISPLAY_7_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BLACK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_DISPLAY_7_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_LG}",
+      "type": "size",
+      "category": "typesettings"
     }
   }
 }
