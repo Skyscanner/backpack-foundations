@@ -90,6 +90,26 @@
       "value": "{!LETTER_SPACING_XXXL}",
       "type": "legacy-letter-spacing",
       "category": "letter-spacings"
+    },
+    "TEXT_VDL2_SM_LETTER_SPACING": {
+      "value": "{!LETTER_SPACING_VDL2_SM}",
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings"
+    },
+    "TEXT_VDL2_MD_LETTER_SPACING": {
+      "value": "{!LETTER_SPACING_VDL2_SM}",
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings"
+    },
+    "TEXT_VDL2_BASE_LETTER_SPACING": {
+      "value": "{!LETTER_SPACING_VDL2_BASE}",
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings"
+    },
+    "TEXT_VDL2_LG_LETTER_SPACING": {
+      "value": "{!LETTER_SPACING_VDL2_LG}",
+      "type": "legacy-letter-spacing",
+      "category": "letter-spacings"
     }
   }
 }

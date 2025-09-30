@@ -592,6 +592,26 @@
       "value": "{!LINE_HEIGHT_LG}",
       "type": "size",
       "category": "typesettings"
+    },
+    "TEXT_VDL2_SM_LETTER_SPACING": {
+      "value": "{!LETTER_SPACING_VDL2_SM}",
+      "type": "letter-spacing",
+      "category": "letter-spacings"
+    },
+    "TEXT_VDL2_MD_LETTER_SPACING": {
+      "value": "{!LETTER_SPACING_VDL2_SM}",
+      "type": "letter-spacing",
+      "category": "letter-spacings"
+    },
+    "TEXT_VDL2_BASE_LETTER_SPACING": {
+      "value": "{!LETTER_SPACING_VDL2_BASE}",
+      "type": "letter-spacing",
+      "category": "letter-spacings"
+    },
+    "TEXT_VDL2_LG_LETTER_SPACING": {
+      "value": "{!LETTER_SPACING_VDL2_LG}",
+      "type": "letter-spacing",
+      "category": "letter-spacings"
     }
   }
 }
