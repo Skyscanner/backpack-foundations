@@ -327,11 +327,17 @@
     "LETTER_SPACING_BASE": {
       "value": -0.2
     },
+    "LETTER_SPACING_VDL2_BASE": {
+      "value": -0.01
+    },
     "LETTER_SPACING_XXXL": {
       "value": null
     },
     "LETTER_SPACING_XL": {
       "value": null
+    },
+    "LETTER_SPACING_VDL2_MD": {
+      "value": -0.012
     },
     "LETTER_SPACING_SM": {
       "value": 0
@@ -341,6 +347,12 @@
     },
     "LETTER_SPACING_XS": {
       "value": 0
+    },
+    "LETTER_SPACING_VDL2_SM": {
+      "value": -0.016
+    },
+    "LETTER_SPACING_VDL2_LG": {
+      "value": -0.006
     },
     "FONT_FAMILY": {
       "value": "\"System\""
@@ -3120,6 +3132,13 @@
       "originalValue": "0.15",
       "name": "TOUCHABLE_OVERLAY_OPACITY"
     },
+    "TEXT_DISPLAY_7_LETTER_SPACING": {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "TEXT_DISPLAY_7_LETTER_SPACING"
+    },
     "FONT_FAMILY_LARKEN": {
       "value": "\"larken\"",
       "type": "font",
@@ -3197,12 +3216,40 @@
       "originalValue": "{!LETTER_SPACING_XS}",
       "name": "LETTER_SPACING_XS"
     },
+    "TEXT_DISPLAY_7_FONT_WEIGHT": {
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "TEXT_DISPLAY_7_FONT_WEIGHT"
+    },
+    "TEXT_EDITORIAL_4_FONT_WEIGHT": {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "TEXT_EDITORIAL_4_FONT_WEIGHT"
+    },
     "FONT_FAMILY": {
       "value": "\"System\"",
       "type": "font",
       "category": "typesettings",
       "originalValue": "{!FONT_FAMILY}",
       "name": "FONT_FAMILY"
+    },
+    "TEXT_EDITORIAL_5_FONT_WEIGHT": {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "TEXT_EDITORIAL_5_FONT_WEIGHT"
+    },
+    "TEXT_EDITORIAL_6_FONT_WEIGHT": {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "TEXT_EDITORIAL_6_FONT_WEIGHT"
     },
     "TEXT_CAPS_LETTER_SPACING": {
       "value": 0.28,
@@ -3225,6 +3272,20 @@
       "originalValue": "{!LETTER_SPACING_XXL}",
       "name": "LETTER_SPACING_XXL"
     },
+    "TEXT_DISPLAY_7_FONT_SIZE": {
+      "value": "32",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "TEXT_DISPLAY_7_FONT_SIZE"
+    },
+    "TEXT_DISPLAY_7_LINE_HEIGHT": {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG}",
+      "name": "TEXT_DISPLAY_7_LINE_HEIGHT"
+    },
     "TEXT_XS_LETTER_SPACING": {
       "value": 0,
       "type": "legacy-letter-spacing",
@@ -3239,12 +3300,54 @@
       "originalValue": "{!LETTER_SPACING_LG}",
       "name": "TEXT_LG_LETTER_SPACING"
     },
+    "TEXT_EDITORIAL_4_FONT_SIZE": {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "TEXT_EDITORIAL_4_FONT_SIZE"
+    },
+    "TEXT_EDITORIAL_5_FONT_SIZE": {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "TEXT_EDITORIAL_5_FONT_SIZE"
+    },
+    "TEXT_EDITORIAL_4_LINE_HEIGHT": {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "TEXT_EDITORIAL_4_LINE_HEIGHT"
+    },
     "TEXT_SM_LETTER_SPACING": {
       "value": 0.154,
       "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_SM}",
       "name": "TEXT_SM_LETTER_SPACING"
+    },
+    "TEXT_EDITORIAL_6_FONT_SIZE": {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "TEXT_EDITORIAL_6_FONT_SIZE"
+    },
+    "TEXT_EDITORIAL_5_LINE_HEIGHT": {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "TEXT_EDITORIAL_5_LINE_HEIGHT"
+    },
+    "TEXT_EDITORIAL_6_LINE_HEIGHT": {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "TEXT_EDITORIAL_6_LINE_HEIGHT"
     },
     "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR": {
       "type": "color",
@@ -4428,6 +4531,7 @@
     "SPACING_ICON_TEXT",
     "SPACING_LG",
     "TOUCHABLE_OVERLAY_OPACITY",
+    "TEXT_DISPLAY_7_LETTER_SPACING",
     "FONT_FAMILY_LARKEN",
     "TEXT_XXXL_LETTER_SPACING",
     "TEXT_XL_LETTER_SPACING",
@@ -4439,13 +4543,25 @@
     "LETTER_SPACING_SM",
     "LETTER_SPACING_LG",
     "LETTER_SPACING_XS",
+    "TEXT_DISPLAY_7_FONT_WEIGHT",
+    "TEXT_EDITORIAL_4_FONT_WEIGHT",
     "FONT_FAMILY",
+    "TEXT_EDITORIAL_5_FONT_WEIGHT",
+    "TEXT_EDITORIAL_6_FONT_WEIGHT",
     "TEXT_CAPS_LETTER_SPACING",
     "LETTER_SPACING_CAPS",
     "LETTER_SPACING_XXL",
+    "TEXT_DISPLAY_7_FONT_SIZE",
+    "TEXT_DISPLAY_7_LINE_HEIGHT",
     "TEXT_XS_LETTER_SPACING",
     "TEXT_LG_LETTER_SPACING",
+    "TEXT_EDITORIAL_4_FONT_SIZE",
+    "TEXT_EDITORIAL_5_FONT_SIZE",
+    "TEXT_EDITORIAL_4_LINE_HEIGHT",
     "TEXT_SM_LETTER_SPACING",
+    "TEXT_EDITORIAL_6_FONT_SIZE",
+    "TEXT_EDITORIAL_5_LINE_HEIGHT",
+    "TEXT_EDITORIAL_6_LINE_HEIGHT",
     "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR",
     "CANVAS_COLOR",
     "CANVAS_CONTRAST_COLOR",

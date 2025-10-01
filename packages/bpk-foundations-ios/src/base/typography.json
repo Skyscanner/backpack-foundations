@@ -110,6 +110,51 @@
       "value": "{!LETTER_SPACING_VDL2_SM}",
       "type": "letter-spacing",
       "category": "letter-spacings"
+    },
+    "TEXT_EDITORIAL_4_FONT_SIZE": {
+      "value": "{!FONT_SIZE_BASE}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_EDITORIAL_4_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_EDITORIAL_4_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XS}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_EDITORIAL_5_FONT_SIZE": {
+      "value": "{!FONT_SIZE_SM}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_EDITORIAL_5_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_EDITORIAL_5_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XS}",
+      "type": "size",
+      "category": "typesettings"
+    },
+    "TEXT_EDITORIAL_6_FONT_SIZE": {
+      "value": "{!FONT_SIZE_XS}",
+      "type": "font-size",
+      "category": "font-sizes"
+    },
+    "TEXT_EDITORIAL_6_FONT_WEIGHT": {
+      "value": "{!FONT_WEIGHT_BOOK}",
+      "type": "string",
+      "category": "font-weights"
+    },
+    "TEXT_EDITORIAL_6_LINE_HEIGHT": {
+      "value": "{!LINE_HEIGHT_XS}",
+      "type": "size",
+      "category": "typesettings"
     }
   }
 }
