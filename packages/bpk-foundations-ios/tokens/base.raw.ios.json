@@ -3055,6 +3055,34 @@
       "originalValue": "{!CAROUSEL_INDICATOR_DOT_SIZE_BASE}",
       "name": "CAROUSEL_INDICATOR_DOT_SIZE_BASE"
     },
+    "SPACING_VDL2_BASE": {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.01",
+      "originalValue": "{!LETTER_SPACING_VDL2_BASE}",
+      "name": "SPACING_VDL2_BASE"
+    },
+    "SPACING_VDL2_MD": {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.012",
+      "originalValue": "{!LETTER_SPACING_VDL2_MD}",
+      "name": "SPACING_VDL2_MD"
+    },
+    "SPACING_VDL2_SM": {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.016",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "SPACING_VDL2_SM"
+    },
+    "SPACING_VDL2_LG": {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.006",
+      "originalValue": "{!LETTER_SPACING_VDL2_LG}",
+      "name": "SPACING_VDL2_LG"
+    },
     "SPACING_BASE": {
       "type": "size",
       "category": "spacings",
@@ -4520,6 +4548,10 @@
     "CAROUSEL_INDICATOR_DOT_SIZE_SM",
     "CAROUSEL_INDICATOR_DOT_SIZE_MD",
     "CAROUSEL_INDICATOR_DOT_SIZE_BASE",
+    "SPACING_VDL2_BASE",
+    "SPACING_VDL2_MD",
+    "SPACING_VDL2_SM",
+    "SPACING_VDL2_LG",
     "SPACING_BASE",
     "SPACING_XXXL",
     "SPACING_XL",

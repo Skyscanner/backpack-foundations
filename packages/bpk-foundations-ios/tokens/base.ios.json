@@ -2693,6 +2693,34 @@
     {
       "type": "size",
       "category": "spacings",
+      "value": "-0.01",
+      "originalValue": "{!LETTER_SPACING_VDL2_BASE}",
+      "name": "spacingVdl2Base"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.012",
+      "originalValue": "{!LETTER_SPACING_VDL2_MD}",
+      "name": "spacingVdl2Md"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.016",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "spacingVdl2Sm"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.006",
+      "originalValue": "{!LETTER_SPACING_VDL2_LG}",
+      "name": "spacingVdl2Lg"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
       "value": "16",
       "originalValue": "{!SPACING_BASE}",
       "name": "spacingBase"

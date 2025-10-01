@@ -36,6 +36,18 @@
     },
     "SPACING_ICON_TEXT": {
       "value": "{!SPACING_MD}"
+    },
+    "SPACING_VDL2_SM": {
+      "value": "{!LETTER_SPACING_VDL2_SM}"
+    },
+    "SPACING_VDL2_MD": {
+      "value": "{!LETTER_SPACING_VDL2_MD}"
+    },
+    "SPACING_VDL2_BASE": {
+      "value": "{!LETTER_SPACING_VDL2_BASE}"
+    },
+    "SPACING_VDL2_LG": {
+      "value": "{!LETTER_SPACING_VDL2_LG}"
     }
   }
 }
