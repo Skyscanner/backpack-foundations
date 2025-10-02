@@ -3244,6 +3244,13 @@
       "originalValue": "{!LETTER_SPACING_XS}",
       "name": "LETTER_SPACING_XS"
     },
+    "TEXT_HEADING-5_LETTER_SPACING": {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "TEXT_HEADING-5_LETTER_SPACING"
+    },
     "TEXT_DISPLAY_7_FONT_WEIGHT": {
       "value": "900",
       "type": "string",
@@ -3251,12 +3258,33 @@
       "originalValue": "{!FONT_WEIGHT_BLACK}",
       "name": "TEXT_DISPLAY_7_FONT_WEIGHT"
     },
+    "TEXT_HEADING-4_LETTER_SPACING": {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "TEXT_HEADING-4_LETTER_SPACING"
+    },
+    "TEXT_HEADING-3_LETTER_SPACING": {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "TEXT_HEADING-3_LETTER_SPACING"
+    },
     "TEXT_EDITORIAL_4_FONT_WEIGHT": {
       "value": "400",
       "type": "string",
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_EDITORIAL_4_FONT_WEIGHT"
+    },
+    "TEXT_HEADING-2_LETTER_SPACING": {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "TEXT_HEADING-2_LETTER_SPACING"
     },
     "FONT_FAMILY": {
       "value": "\"System\"",
@@ -3278,6 +3306,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_EDITORIAL_6_FONT_WEIGHT"
+    },
+    "TEXT_HEADING-1_LETTER_SPACING": {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "TEXT_HEADING-1_LETTER_SPACING"
     },
     "TEXT_CAPS_LETTER_SPACING": {
       "value": 0.28,
@@ -4575,11 +4610,16 @@
     "LETTER_SPACING_SM",
     "LETTER_SPACING_LG",
     "LETTER_SPACING_XS",
+    "TEXT_HEADING-5_LETTER_SPACING",
     "TEXT_DISPLAY_7_FONT_WEIGHT",
+    "TEXT_HEADING-4_LETTER_SPACING",
+    "TEXT_HEADING-3_LETTER_SPACING",
     "TEXT_EDITORIAL_4_FONT_WEIGHT",
+    "TEXT_HEADING-2_LETTER_SPACING",
     "FONT_FAMILY",
     "TEXT_EDITORIAL_5_FONT_WEIGHT",
     "TEXT_EDITORIAL_6_FONT_WEIGHT",
+    "TEXT_HEADING-1_LETTER_SPACING",
     "TEXT_CAPS_LETTER_SPACING",
     "LETTER_SPACING_CAPS",
     "LETTER_SPACING_XXL",

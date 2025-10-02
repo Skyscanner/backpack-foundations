@@ -2880,6 +2880,13 @@
       "name": "letterSpacingXs"
     },
     {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "textHeading5LetterSpacing"
+    },
+    {
       "value": "900",
       "type": "string",
       "category": "font-weights",
@@ -2887,11 +2894,32 @@
       "name": "textDisplay7FontWeight"
     },
     {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "textHeading4LetterSpacing"
+    },
+    {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "textHeading3LetterSpacing"
+    },
+    {
       "value": "400",
       "type": "string",
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textEditorial4FontWeight"
+    },
+    {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "textHeading2LetterSpacing"
     },
     {
       "value": "\"System\"",
@@ -2913,6 +2941,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textEditorial6FontWeight"
+    },
+    {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "textHeading1LetterSpacing"
     },
     {
       "value": 0.28,
