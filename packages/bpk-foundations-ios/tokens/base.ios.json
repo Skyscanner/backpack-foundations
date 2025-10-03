@@ -2838,6 +2838,20 @@
       "name": "textBaseLetterSpacing"
     },
     {
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "textHero6FontSize"
+    },
+    {
+      "value": "56",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "textHero6LineHeight"
+    },
+    {
       "value": null,
       "type": "legacy-letter-spacing",
       "category": "letter-spacings",
@@ -2913,6 +2927,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "textEditorial4FontWeight"
+    },
+    {
+      "value": "-0.012",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_MD}",
+      "name": "textHero6LetterSpacing"
     },
     {
       "value": "0",
@@ -3039,6 +3060,13 @@
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XS}",
       "name": "textEditorial5LineHeight"
+    },
+    {
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "textHero6FontWeight"
     },
     {
       "value": "16",

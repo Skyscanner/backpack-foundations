@@ -3202,6 +3202,20 @@
       "originalValue": "{!LETTER_SPACING_BASE}",
       "name": "TEXT_BASE_LETTER_SPACING"
     },
+    "TEXT_HERO-6_FONT_SIZE": {
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "TEXT_HERO-6_FONT_SIZE"
+    },
+    "TEXT_HERO-6_LINE_HEIGHT": {
+      "value": "56",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "TEXT_HERO-6_LINE_HEIGHT"
+    },
     "LETTER_SPACING_XXXL": {
       "value": null,
       "type": "legacy-letter-spacing",
@@ -3278,6 +3292,13 @@
       "category": "font-weights",
       "originalValue": "{!FONT_WEIGHT_BOOK}",
       "name": "TEXT_EDITORIAL_4_FONT_WEIGHT"
+    },
+    "TEXT_HERO-6_LETTER_SPACING": {
+      "value": "-0.012",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_MD}",
+      "name": "TEXT_HERO-6_LETTER_SPACING"
     },
     "TEXT_HEADING-2_LETTER_SPACING": {
       "value": "0",
@@ -3404,6 +3425,13 @@
       "category": "typesettings",
       "originalValue": "{!LINE_HEIGHT_XS}",
       "name": "TEXT_EDITORIAL_5_LINE_HEIGHT"
+    },
+    "TEXT_HERO-6_FONT_WEIGHT": {
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "TEXT_HERO-6_FONT_WEIGHT"
     },
     "TEXT_EDITORIAL_6_LINE_HEIGHT": {
       "value": "16",
@@ -4604,6 +4632,8 @@
     "TEXT_XL_LETTER_SPACING",
     "LETTER_SPACING_BASE",
     "TEXT_BASE_LETTER_SPACING",
+    "TEXT_HERO-6_FONT_SIZE",
+    "TEXT_HERO-6_LINE_HEIGHT",
     "LETTER_SPACING_XXXL",
     "LETTER_SPACING_XL",
     "TEXT_XXL_LETTER_SPACING",
@@ -4615,6 +4645,7 @@
     "TEXT_HEADING-4_LETTER_SPACING",
     "TEXT_HEADING-3_LETTER_SPACING",
     "TEXT_EDITORIAL_4_FONT_WEIGHT",
+    "TEXT_HERO-6_LETTER_SPACING",
     "TEXT_HEADING-2_LETTER_SPACING",
     "FONT_FAMILY",
     "TEXT_EDITORIAL_5_FONT_WEIGHT",
@@ -4633,6 +4664,7 @@
     "TEXT_SM_LETTER_SPACING",
     "TEXT_EDITORIAL_6_FONT_SIZE",
     "TEXT_EDITORIAL_5_LINE_HEIGHT",
+    "TEXT_HERO-6_FONT_WEIGHT",
     "TEXT_EDITORIAL_6_LINE_HEIGHT",
     "PRIVATE_BADGE_BACKGROUND_NORMAL_COLOR",
     "CANVAS_COLOR",
