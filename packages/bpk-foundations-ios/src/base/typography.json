@@ -157,27 +157,27 @@
       "category": "typesettings"
     },
     "TEXT_HEADING-1_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_VDL2_SM}",
+      "value": "{!LETTER_SPACING_XS}",
       "type": "letter-spacing",
       "category": "letter-spacings"
     },
     "TEXT_HEADING-2_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_VDL2_SM}",
+      "value": "{!LETTER_SPACING_XS}",
       "type": "letter-spacing",
       "category": "letter-spacings"
     },
     "TEXT_HEADING-3_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_VDL2_SM}",
+      "value": "{!LETTER_SPACING_XS}",
       "type": "letter-spacing",
       "category": "letter-spacings"
     },
     "TEXT_HEADING-4_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_VDL2_SM}",
+      "value": "{!LETTER_SPACING_XS}",
       "type": "letter-spacing",
       "category": "letter-spacings"
     },
     "TEXT_HEADING-5_LETTER_SPACING": {
-      "value": "{!LETTER_SPACING_VDL2_SM}",
+      "value": "{!LETTER_SPACING_XS}",
       "type": "letter-spacing",
       "category": "letter-spacings"
     }
