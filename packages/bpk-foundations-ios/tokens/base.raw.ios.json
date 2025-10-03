@@ -3245,10 +3245,10 @@
       "name": "LETTER_SPACING_XS"
     },
     "TEXT_HEADING-5_LETTER_SPACING": {
-      "value": "-0.016",
+      "value": "0",
       "type": "letter-spacing",
       "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "originalValue": "{!LETTER_SPACING_XS}",
       "name": "TEXT_HEADING-5_LETTER_SPACING"
     },
     "TEXT_DISPLAY_7_FONT_WEIGHT": {
@@ -3259,17 +3259,17 @@
       "name": "TEXT_DISPLAY_7_FONT_WEIGHT"
     },
     "TEXT_HEADING-4_LETTER_SPACING": {
-      "value": "-0.016",
+      "value": "0",
       "type": "letter-spacing",
       "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "originalValue": "{!LETTER_SPACING_XS}",
       "name": "TEXT_HEADING-4_LETTER_SPACING"
     },
     "TEXT_HEADING-3_LETTER_SPACING": {
-      "value": "-0.016",
+      "value": "0",
       "type": "letter-spacing",
       "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "originalValue": "{!LETTER_SPACING_XS}",
       "name": "TEXT_HEADING-3_LETTER_SPACING"
     },
     "TEXT_EDITORIAL_4_FONT_WEIGHT": {
@@ -3280,10 +3280,10 @@
       "name": "TEXT_EDITORIAL_4_FONT_WEIGHT"
     },
     "TEXT_HEADING-2_LETTER_SPACING": {
-      "value": "-0.016",
+      "value": "0",
       "type": "letter-spacing",
       "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "originalValue": "{!LETTER_SPACING_XS}",
       "name": "TEXT_HEADING-2_LETTER_SPACING"
     },
     "FONT_FAMILY": {
@@ -3308,10 +3308,10 @@
       "name": "TEXT_EDITORIAL_6_FONT_WEIGHT"
     },
     "TEXT_HEADING-1_LETTER_SPACING": {
-      "value": "-0.016",
+      "value": "0",
       "type": "letter-spacing",
       "category": "letter-spacings",
-      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "originalValue": "{!LETTER_SPACING_XS}",
       "name": "TEXT_HEADING-1_LETTER_SPACING"
     },
     "TEXT_CAPS_LETTER_SPACING": {
