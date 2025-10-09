@@ -2693,6 +2693,34 @@
     {
       "type": "size",
       "category": "spacings",
+      "value": "-0.01",
+      "originalValue": "{!LETTER_SPACING_VDL2_BASE}",
+      "name": "spacingVdl2Base"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.012",
+      "originalValue": "{!LETTER_SPACING_VDL2_MD}",
+      "name": "spacingVdl2Md"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.016",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "spacingVdl2Sm"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "-0.006",
+      "originalValue": "{!LETTER_SPACING_VDL2_LG}",
+      "name": "spacingVdl2Lg"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
       "value": "16",
       "originalValue": "{!SPACING_BASE}",
       "name": "spacingBase"
@@ -2768,6 +2796,13 @@
       "name": "touchableOverlayOpacity"
     },
     {
+      "value": "-0.016",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_SM}",
+      "name": "textDisplay7LetterSpacing"
+    },
+    {
       "value": "\"larken\"",
       "type": "font",
       "category": "typesettings",
@@ -2801,6 +2836,20 @@
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_BASE}",
       "name": "textBaseLetterSpacing"
+    },
+    {
+      "value": "40",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXXL}",
+      "name": "textHero6FontSize"
+    },
+    {
+      "value": "56",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XXXXL}",
+      "name": "textHero6LineHeight"
     },
     {
       "value": null,
@@ -2845,11 +2894,81 @@
       "name": "letterSpacingXs"
     },
     {
+      "value": "0",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XS}",
+      "name": "textHeading5LetterSpacing"
+    },
+    {
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "textDisplay7FontWeight"
+    },
+    {
+      "value": "0",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XS}",
+      "name": "textHeading4LetterSpacing"
+    },
+    {
+      "value": "0",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XS}",
+      "name": "textHeading3LetterSpacing"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textEditorial4FontWeight"
+    },
+    {
+      "value": "-0.012",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_VDL2_MD}",
+      "name": "textHero6LetterSpacing"
+    },
+    {
+      "value": "0",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XS}",
+      "name": "textHeading2LetterSpacing"
+    },
+    {
       "value": "\"System\"",
       "type": "font",
       "category": "typesettings",
       "originalValue": "{!FONT_FAMILY}",
       "name": "fontFamily"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textEditorial5FontWeight"
+    },
+    {
+      "value": "400",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BOOK}",
+      "name": "textEditorial6FontWeight"
+    },
+    {
+      "value": "0",
+      "type": "letter-spacing",
+      "category": "letter-spacings",
+      "originalValue": "{!LETTER_SPACING_XS}",
+      "name": "textHeading1LetterSpacing"
     },
     {
       "value": 0.28,
@@ -2873,6 +2992,20 @@
       "name": "letterSpacingXxl"
     },
     {
+      "value": "32",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XXL}",
+      "name": "textDisplay7FontSize"
+    },
+    {
+      "value": "28",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_LG}",
+      "name": "textDisplay7LineHeight"
+    },
+    {
       "value": 0,
       "type": "legacy-letter-spacing",
       "category": "letter-spacings",
@@ -2887,11 +3020,60 @@
       "name": "textLgLetterSpacing"
     },
     {
+      "value": "16",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_BASE}",
+      "name": "textEditorial4FontSize"
+    },
+    {
+      "value": "14",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_SM}",
+      "name": "textEditorial5FontSize"
+    },
+    {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textEditorial4LineHeight"
+    },
+    {
       "value": 0.154,
       "type": "legacy-letter-spacing",
       "category": "letter-spacings",
       "originalValue": "{!LETTER_SPACING_SM}",
       "name": "textSmLetterSpacing"
+    },
+    {
+      "value": "12",
+      "type": "font-size",
+      "category": "font-sizes",
+      "originalValue": "{!FONT_SIZE_XS}",
+      "name": "textEditorial6FontSize"
+    },
+    {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textEditorial5LineHeight"
+    },
+    {
+      "value": "900",
+      "type": "string",
+      "category": "font-weights",
+      "originalValue": "{!FONT_WEIGHT_BLACK}",
+      "name": "textHero6FontWeight"
+    },
+    {
+      "value": "16",
+      "type": "size",
+      "category": "typesettings",
+      "originalValue": "{!LINE_HEIGHT_XS}",
+      "name": "textEditorial6LineHeight"
     },
     {
       "type": "color",
