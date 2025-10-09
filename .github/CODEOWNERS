@@ -2,3 +2,7 @@
 # All files in the repository require review from either the Donburi or Clover team
 # Both teams will be tagged but only one approval is needed
 * @Skyscanner/donburi @Skyscanner/clover
+
+/packages/bpk-foundations-android @Skyscanner/donburi
+/packages/bpk-foundations-ios/ @Skyscanner/donburi
+/packages/bpk-foundations-web/ @Skyscanner/clover
