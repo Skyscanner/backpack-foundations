@@ -1258,6 +1258,13 @@
     {
       "type": "color",
       "category": "surface-colors",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "surfaceTintNight"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
       "value": "#131d2bff",
       "originalValue": "{!NIGHT_GREY_20}",
       "name": "surfaceDefaultNight"
@@ -1268,6 +1275,13 @@
       "value": "#0062e3ff",
       "originalValue": "{!SKY_BLUE}",
       "name": "surfaceHeroDay"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "surfaceTintDay"
     },
     {
       "type": "color",
@@ -3191,6 +3205,15 @@
       "name": "surfaceHeroColor",
       "darkValue": "#010913ff",
       "originalDarkValue": "{!NIGHT_GREY_10}"
+    },
+    {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "surfaceTintColor",
+      "darkValue": "#ffffff1a",
+      "originalDarkValue": "{!WHITE_ALPHA_10}"
     },
     {
       "type": "color",

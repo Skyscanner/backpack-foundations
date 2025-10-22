@@ -648,6 +648,13 @@
       "originalValue": "{!NIGHT_GREY_10}",
       "name": "SURFACE_HERO_NIGHT"
     },
+    "SURFACE_TINT_NIGHT": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgba(255, 255, 255, 0.1)",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "SURFACE_TINT_NIGHT"
+    },
     "SURFACE_DEFAULT_NIGHT": {
       "type": "color",
       "category": "surface-colors",
@@ -661,6 +668,13 @@
       "value": "rgb(0, 98, 227)",
       "originalValue": "{!SKY_BLUE}",
       "name": "SURFACE_HERO_DAY"
+    },
+    "SURFACE_TINT_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "rgba(255, 255, 255, 0.1)",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "SURFACE_TINT_DAY"
     },
     "SURFACE_DEFAULT_DAY": {
       "type": "color",
