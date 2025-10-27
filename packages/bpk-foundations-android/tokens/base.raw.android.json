@@ -1608,6 +1608,13 @@
       "originalValue": "{!NIGHT_GREY_10}",
       "name": "SURFACE_HERO_NIGHT"
     },
+    "SURFACE_TINT_NIGHT": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "SURFACE_TINT_NIGHT"
+    },
     "SURFACE_DEFAULT_NIGHT": {
       "type": "color",
       "category": "surface-colors",
@@ -1621,6 +1628,13 @@
       "value": "#0062e3ff",
       "originalValue": "{!SKY_BLUE}",
       "name": "SURFACE_HERO_DAY"
+    },
+    "SURFACE_TINT_DAY": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "SURFACE_TINT_DAY"
     },
     "SURFACE_DEFAULT_DAY": {
       "type": "color",
@@ -3174,6 +3188,15 @@
       "darkValue": "#010913ff",
       "originalDarkValue": "{!NIGHT_GREY_10}"
     },
+    "SURFACE_TINT_COLOR": {
+      "type": "color",
+      "category": "surface-colors",
+      "value": "#ffffff1a",
+      "originalValue": "{!WHITE_ALPHA_10}",
+      "name": "SURFACE_TINT_COLOR",
+      "darkValue": "#ffffff1a",
+      "originalDarkValue": "{!WHITE_ALPHA_10}"
+    },
     "SURFACE_DEFAULT_COLOR": {
       "type": "color",
       "category": "surface-colors",
@@ -4014,8 +4037,10 @@
     "STATUS_DANGER_FILL_DAY",
     "STATUS_WARNING_FILL_DAY",
     "SURFACE_HERO_NIGHT",
+    "SURFACE_TINT_NIGHT",
     "SURFACE_DEFAULT_NIGHT",
     "SURFACE_HERO_DAY",
+    "SURFACE_TINT_DAY",
     "SURFACE_DEFAULT_DAY",
     "SURFACE_CONTRAST_NIGHT",
     "SURFACE_CONTRAST_DAY",
@@ -4234,6 +4259,7 @@
     "STATUS_DANGER_FILL_COLOR",
     "STATUS_WARNING_FILL_COLOR",
     "SURFACE_HERO_COLOR",
+    "SURFACE_TINT_COLOR",
     "SURFACE_DEFAULT_COLOR",
     "SURFACE_CONTRAST_COLOR",
     "SURFACE_ELEVATED_COLOR",

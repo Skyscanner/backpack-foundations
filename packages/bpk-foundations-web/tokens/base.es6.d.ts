@@ -42,8 +42,10 @@ export declare const statusWarningSpotDay = "rgb(245, 93, 66)" as const;
 export declare const statusDangerFillDay = "rgb(255, 233, 249)" as const;
 export declare const statusWarningFillDay = "rgb(255, 247, 207)" as const;
 export declare const surfaceHeroNight = "rgb(1, 9, 19)" as const;
+export declare const surfaceTintNight = "rgba(255, 255, 255, 0.1)" as const;
 export declare const surfaceDefaultNight = "rgb(19, 29, 43)" as const;
 export declare const surfaceHeroDay = "rgb(0, 98, 227)" as const;
+export declare const surfaceTintDay = "rgba(255, 255, 255, 0.1)" as const;
 export declare const surfaceDefaultDay = "rgb(255, 255, 255)" as const;
 export declare const surfaceContrastNight = "rgb(1, 9, 19)" as const;
 export declare const surfaceContrastDay = "rgb(5, 32, 60)" as const;
@@ -796,8 +798,10 @@ statusWarningFillDay,
 } as const;
 export declare const surfaceColors = {
 surfaceHeroNight,
+surfaceTintNight,
 surfaceDefaultNight,
 surfaceHeroDay,
+surfaceTintDay,
 surfaceDefaultDay,
 surfaceContrastNight,
 surfaceContrastDay,

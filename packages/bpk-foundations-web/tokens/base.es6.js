@@ -42,8 +42,10 @@ export const statusWarningSpotDay = "rgb(245, 93, 66)";
 export const statusDangerFillDay = "rgb(255, 233, 249)";
 export const statusWarningFillDay = "rgb(255, 247, 207)";
 export const surfaceHeroNight = "rgb(1, 9, 19)";
+export const surfaceTintNight = "rgba(255, 255, 255, 0.1)";
 export const surfaceDefaultNight = "rgb(19, 29, 43)";
 export const surfaceHeroDay = "rgb(0, 98, 227)";
+export const surfaceTintDay = "rgba(255, 255, 255, 0.1)";
 export const surfaceDefaultDay = "rgb(255, 255, 255)";
 export const surfaceContrastNight = "rgb(1, 9, 19)";
 export const surfaceContrastDay = "rgb(5, 32, 60)";
@@ -796,8 +798,10 @@ statusWarningFillDay,
 };
 export const surfaceColors = {
 surfaceHeroNight,
+surfaceTintNight,
 surfaceDefaultNight,
 surfaceHeroDay,
+surfaceTintDay,
 surfaceDefaultDay,
 surfaceContrastNight,
 surfaceContrastDay,

@@ -48,6 +48,12 @@
     },
     "SURFACE_HERO_NIGHT": {
       "value": "{!NIGHT_GREY_10}"
+    },
+    "SURFACE_TINT_DAY": {
+      "value": "{!WHITE_ALPHA_10}"
+    },
+    "SURFACE_TINT_NIGHT": {
+      "value": "{!WHITE_ALPHA_10}"
     }
   }
 }
