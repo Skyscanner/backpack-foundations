@@ -28,6 +28,12 @@
     },
     "PRIVATE_CHIP_ON_DARK_ON_DISMISS_ICON_NIGHT": {
       "value": "{!WHITE_ALPHA_50}"
+    },
+    "PRIVATE_CHIP_ON_DARK_ON_FILL_DAY": {
+      "value": "{!DARK_SKY_85}"
+    },
+    "PRIVATE_CHIP_ON_DARK_ON_FILL_NIGHT": {
+      "value": "{!NIGHT_SKY_85}"
     }
   }
 }
