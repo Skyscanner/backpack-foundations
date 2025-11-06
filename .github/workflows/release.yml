@@ -36,7 +36,7 @@ jobs:
           git checkout $DEFAULT_BRANCH
           git pull origin $DEFAULT_BRANCH
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version-file: ".nvmrc"
           registry-url: 'https://registry.npmjs.org'
