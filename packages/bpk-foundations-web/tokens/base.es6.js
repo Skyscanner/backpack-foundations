@@ -116,14 +116,16 @@ export const marcommsPinkMuted = "rgb(255, 233, 249)";
 export const marcommsGreenMuted = "rgb(212, 255, 242)";
 export const marcommsBlueMuted = "rgb(217, 248, 255)";
 export const marcommsEcoGreen = "rgb(15, 161, 169)";
-export const privateChipOnDarkPressedStrokeDay = "rgb(255, 255, 255)";
-export const privateChipOnDarkPressedStrokeNight = "rgb(5, 65, 132)";
-export const privateChipOnDarkOnBackgroundDay = "rgb(255, 255, 255)";
-export const privateChipOnDarkOnBackgroundNight = "rgb(5, 65, 132)";
-export const privateChipDisabledBackgroundDay = "rgb(224, 228, 233)";
-export const privateChipDisabledBackgroundNight = "rgb(11, 18, 29)";
-export const privateChipOnDarkOnDismissIconDay = "rgb(98, 105, 113)";
+export const privateChipOnDarkOnFillDay = "rgb(21, 70, 121)";
 export const privateChipOnDarkOnDismissIconNight = "rgba(255, 255, 255, 0.5)";
+export const privateChipOnDarkOnBackgroundNight = "rgb(5, 65, 132)";
+export const privateChipOnDarkOnBackgroundDay = "rgb(255, 255, 255)";
+export const privateChipOnDarkOnDismissIconDay = "rgb(98, 105, 113)";
+export const privateChipOnDarkPressedStrokeNight = "rgb(5, 65, 132)";
+export const privateChipOnDarkPressedStrokeDay = "rgb(255, 255, 255)";
+export const privateChipDisabledBackgroundNight = "rgb(11, 18, 29)";
+export const privateChipDisabledBackgroundDay = "rgb(224, 228, 233)";
+export const privateChipOnDarkOnFillNight = "rgb(2, 77, 175)";
 export const privateMapPreviousSelectionDay = "rgb(207, 228, 255)";
 export const privateMapClusterPinNight = "rgb(255, 255, 255)";
 export const privateMapClusterPinPreviousSelectionNight = "rgb(148, 195, 255)";
@@ -536,14 +538,16 @@ cardBackgroundColor,
 cardPadding,
 };
 export const chipColors = {
-privateChipOnDarkPressedStrokeDay,
-privateChipOnDarkPressedStrokeNight,
-privateChipOnDarkOnBackgroundDay,
-privateChipOnDarkOnBackgroundNight,
-privateChipDisabledBackgroundDay,
-privateChipDisabledBackgroundNight,
-privateChipOnDarkOnDismissIconDay,
+privateChipOnDarkOnFillDay,
 privateChipOnDarkOnDismissIconNight,
+privateChipOnDarkOnBackgroundNight,
+privateChipOnDarkOnBackgroundDay,
+privateChipOnDarkOnDismissIconDay,
+privateChipOnDarkPressedStrokeNight,
+privateChipOnDarkPressedStrokeDay,
+privateChipDisabledBackgroundNight,
+privateChipDisabledBackgroundDay,
+privateChipOnDarkOnFillNight,
 };
 export const colors = {
 colorSkyBlueShade03,
