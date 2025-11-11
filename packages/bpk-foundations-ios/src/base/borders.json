@@ -48,6 +48,10 @@
       "value": "{!BORDER_RADIUS_XL}",
       "category": "radii"
     },
+    "CORNER_RADIUS_FULL": {
+      "value": "{!BORDER_RADIUS_FULL}",
+      "category": "radii"
+    },
     "BORDER_RADIUS_XS": {
       "value": "{!BORDER_RADIUS_XS}",
       "category": "radii"

@@ -7,7 +7,7 @@
       "value": 2
     },
     "BORDER_RADIUS_FULL": {
-      "value": 9999
+      "value": 100
     },
     "BORDER_RADIUS_XL": {
       "value": 40
@@ -2821,7 +2821,7 @@
     },
     "BORDER_RADIUS_FULL": {
       "type": "size",
-      "value": "9999",
+      "value": "100",
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_FULL}",
       "name": "BORDER_RADIUS_FULL"

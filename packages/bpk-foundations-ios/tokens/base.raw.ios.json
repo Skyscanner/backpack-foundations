@@ -7,7 +7,7 @@
       "value": 2
     },
     "BORDER_RADIUS_FULL": {
-      "value": 9999
+      "value": 100
     },
     "BORDER_RADIUS_XL": {
       "value": 40
@@ -2854,7 +2854,7 @@
     },
     "BORDER_RADIUS_FULL": {
       "type": "size",
-      "value": "9999",
+      "value": "100",
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_FULL}",
       "name": "BORDER_RADIUS_FULL"
@@ -2872,6 +2872,13 @@
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_MD}",
       "name": "BORDER_RADIUS_MD"
+    },
+    "CORNER_RADIUS_FULL": {
+      "type": "size",
+      "value": "100",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_FULL}",
+      "name": "CORNER_RADIUS_FULL"
     },
     "BORDER_RADIUS_NAV_TABS": {
       "type": "size",
@@ -4608,6 +4615,7 @@
     "BORDER_RADIUS_FULL",
     "BORDER_RADIUS_XL",
     "BORDER_RADIUS_MD",
+    "CORNER_RADIUS_FULL",
     "BORDER_RADIUS_NAV_TABS",
     "BORDER_RADIUS_SM",
     "BORDER_RADIUS_XS",

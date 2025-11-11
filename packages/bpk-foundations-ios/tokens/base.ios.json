@@ -2489,7 +2489,7 @@
     },
     {
       "type": "size",
-      "value": "9999",
+      "value": "100",
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_FULL}",
       "name": "borderRadiusFull"
@@ -2507,6 +2507,13 @@
       "category": "radii",
       "originalValue": "{!BORDER_RADIUS_MD}",
       "name": "borderRadiusMd"
+    },
+    {
+      "type": "size",
+      "value": "100",
+      "category": "radii",
+      "originalValue": "{!BORDER_RADIUS_FULL}",
+      "name": "cornerRadiusFull"
     },
     {
       "type": "size",
