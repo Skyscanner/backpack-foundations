@@ -24,6 +24,7 @@ import {
   surfaceColors,
   textColors,
   segmentedControlColors,
+  chipColors,
 } from '../../../packages/bpk-foundations-web/tokens/base.es6';
 
 import createColorContainer from './colors';
@@ -79,4 +80,9 @@ SurfaceColor.args = {
 export const TextColor = Template.bind({});
 TextColor.args = {
   colorGroup: textColors,
+};
+
+export const ChipColor = Template.bind({});
+ChipColor.args = {
+  colorGroup: chipColors,
 };
