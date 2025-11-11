@@ -1783,13 +1783,6 @@
     {
       "type": "color",
       "category": "chip-colors",
-      "value": "#024dafff",
-      "originalValue": "{!NIGHT_SKY_85}",
-      "name": "privateChipOnDarkOnFillNight"
-    },
-    {
-      "type": "color",
-      "category": "chip-colors",
       "value": "#ffffff80",
       "originalValue": "{!WHITE_ALPHA_50}",
       "name": "privateChipOnDarkOnDismissIconNight"
@@ -1842,6 +1835,13 @@
       "value": "#e0e4e9ff",
       "originalValue": "{!GREY_20}",
       "name": "privateChipDisabledBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "chip-colors",
+      "value": "#024dafff",
+      "originalValue": "{!NIGHT_SKY_85}",
+      "name": "privateChipOnDarkOnFillNight"
     },
     {
       "type": "color",

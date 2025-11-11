@@ -218,23 +218,23 @@ $bpk-marcomms-eco-green: rgb(15, 161, 169);
 /// @group chip-colors
 $bpk-private-chip-on-dark-on-fill-day: rgb(21, 70, 121);
 /// @group chip-colors
-$bpk-private-chip-on-dark-on-fill-night: rgb(2, 77, 175);
-/// @group chip-colors
-$bpk-private-chip-on-dark-on-dismiss-icon-day: rgb(98, 105, 113);
-/// @group chip-colors
 $bpk-private-chip-on-dark-on-dismiss-icon-night: rgba(255, 255, 255, 0.5);
-/// @group chip-colors
-$bpk-private-chip-on-dark-on-background-day: rgb(255, 255, 255);
 /// @group chip-colors
 $bpk-private-chip-on-dark-on-background-night: rgb(5, 65, 132);
 /// @group chip-colors
-$bpk-private-chip-on-dark-pressed-stroke-day: rgb(255, 255, 255);
+$bpk-private-chip-on-dark-on-background-day: rgb(255, 255, 255);
+/// @group chip-colors
+$bpk-private-chip-on-dark-on-dismiss-icon-day: rgb(98, 105, 113);
 /// @group chip-colors
 $bpk-private-chip-on-dark-pressed-stroke-night: rgb(5, 65, 132);
 /// @group chip-colors
-$bpk-private-chip-disabled-background-day: rgb(224, 228, 233);
+$bpk-private-chip-on-dark-pressed-stroke-day: rgb(255, 255, 255);
 /// @group chip-colors
 $bpk-private-chip-disabled-background-night: rgb(11, 18, 29);
+/// @group chip-colors
+$bpk-private-chip-disabled-background-day: rgb(224, 228, 233);
+/// @group chip-colors
+$bpk-private-chip-on-dark-on-fill-night: rgb(2, 77, 175);
 /// @group map-marker-colors
 $bpk-private-map-previous-selection-day: rgb(207, 228, 255);
 /// @group map-marker-colors

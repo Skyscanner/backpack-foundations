@@ -117,15 +117,15 @@ export declare const marcommsGreenMuted = "rgb(212, 255, 242)" as const;
 export declare const marcommsBlueMuted = "rgb(217, 248, 255)" as const;
 export declare const marcommsEcoGreen = "rgb(15, 161, 169)" as const;
 export declare const privateChipOnDarkOnFillDay = "rgb(21, 70, 121)" as const;
-export declare const privateChipOnDarkOnFillNight = "rgb(2, 77, 175)" as const;
-export declare const privateChipOnDarkOnDismissIconDay = "rgb(98, 105, 113)" as const;
 export declare const privateChipOnDarkOnDismissIconNight = "rgba(255, 255, 255, 0.5)" as const;
-export declare const privateChipOnDarkOnBackgroundDay = "rgb(255, 255, 255)" as const;
 export declare const privateChipOnDarkOnBackgroundNight = "rgb(5, 65, 132)" as const;
-export declare const privateChipOnDarkPressedStrokeDay = "rgb(255, 255, 255)" as const;
+export declare const privateChipOnDarkOnBackgroundDay = "rgb(255, 255, 255)" as const;
+export declare const privateChipOnDarkOnDismissIconDay = "rgb(98, 105, 113)" as const;
 export declare const privateChipOnDarkPressedStrokeNight = "rgb(5, 65, 132)" as const;
-export declare const privateChipDisabledBackgroundDay = "rgb(224, 228, 233)" as const;
+export declare const privateChipOnDarkPressedStrokeDay = "rgb(255, 255, 255)" as const;
 export declare const privateChipDisabledBackgroundNight = "rgb(11, 18, 29)" as const;
+export declare const privateChipDisabledBackgroundDay = "rgb(224, 228, 233)" as const;
+export declare const privateChipOnDarkOnFillNight = "rgb(2, 77, 175)" as const;
 export declare const privateMapPreviousSelectionDay = "rgb(207, 228, 255)" as const;
 export declare const privateMapClusterPinNight = "rgb(255, 255, 255)" as const;
 export declare const privateMapClusterPinPreviousSelectionNight = "rgb(148, 195, 255)" as const;
@@ -539,15 +539,15 @@ cardPadding,
 } as const;
 export declare const chipColors = {
 privateChipOnDarkOnFillDay,
-privateChipOnDarkOnFillNight,
-privateChipOnDarkOnDismissIconDay,
 privateChipOnDarkOnDismissIconNight,
-privateChipOnDarkOnBackgroundDay,
 privateChipOnDarkOnBackgroundNight,
-privateChipOnDarkPressedStrokeDay,
+privateChipOnDarkOnBackgroundDay,
+privateChipOnDarkOnDismissIconDay,
 privateChipOnDarkPressedStrokeNight,
-privateChipDisabledBackgroundDay,
+privateChipOnDarkPressedStrokeDay,
 privateChipDisabledBackgroundNight,
+privateChipDisabledBackgroundDay,
+privateChipOnDarkOnFillNight,
 } as const;
 export declare const colors = {
 colorSkyBlueShade03,
