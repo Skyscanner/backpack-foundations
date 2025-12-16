@@ -788,6 +788,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(132, 233, 255)",
+      "deprecated": true,
       "originalValue": "{!NIGHT_BLUE}",
       "name": "TEXT_LINK_NIGHT"
     },
@@ -809,6 +810,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "rgb(0, 98, 227)",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "TEXT_LINK_DAY"
     },
