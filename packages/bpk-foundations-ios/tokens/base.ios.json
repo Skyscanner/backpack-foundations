@@ -1140,7 +1140,6 @@
       "type": "color",
       "category": "core-colors",
       "value": "#0062e3ff",
-      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "coreAccentDay"
     },
@@ -3143,6 +3142,7 @@
       "category": "core-colors",
       "value": "#0fa1a9ff",
       "originalValue": "{!ECO_GREEN}",
+      "deprecated": true,
       "name": "coreEcoColor",
       "darkValue": "#0fa1a9ff",
       "originalDarkValue": "{!ECO_GREEN}"
