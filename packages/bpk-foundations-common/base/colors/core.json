@@ -8,10 +8,12 @@
   },
   "props": {
     "CORE_ECO_DAY": {
-      "value": "{!ECO_GREEN}"
+      "value": "{!ECO_GREEN}",
+      "deprecated": true
     },
     "CORE_ECO_NIGHT": {
-      "value": "{!ECO_GREEN}"
+      "value": "{!ECO_GREEN}",
+      "deprecated": true
     },
     "CORE_ACCENT_DAY": {
       "value": "{!SKY_BLUE}"

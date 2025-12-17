@@ -1494,6 +1494,7 @@
       "type": "color",
       "category": "core-colors",
       "value": "#0fa1a9ff",
+      "deprecated": true,
       "originalValue": "{!ECO_GREEN}",
       "name": "CORE_ECO_DAY"
     },
@@ -1501,6 +1502,7 @@
       "type": "color",
       "category": "core-colors",
       "value": "#0fa1a9ff",
+      "deprecated": true,
       "originalValue": "{!ECO_GREEN}",
       "name": "CORE_ECO_NIGHT"
     },
@@ -3509,6 +3511,7 @@
       "type": "color",
       "category": "core-colors",
       "value": "#0fa1a9ff",
+      "deprecated": true,
       "originalValue": "{!ECO_GREEN}",
       "name": "CORE_ECO_COLOR",
       "darkValue": "#0fa1a9ff",

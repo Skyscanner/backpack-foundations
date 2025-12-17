@@ -114,6 +114,12 @@ const performMerge = (key, mergeDefinition) => {
   newObj.name = key;
   newObj.darkValue = mergeDefinition.dark.value;
   newObj.originalDarkValue = mergeDefinition.dark.originalValue;
+
+  // Preserve the deprecated field if either light or dark version is deprecated
+  if (mergeDefinition.light.deprecated || mergeDefinition.dark.deprecated) {
+    newObj.deprecated = true;
+  }
+
   return newObj;
 };
 
