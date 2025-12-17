@@ -1394,6 +1394,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#84e9ffff",
+      "deprecated": true,
       "originalValue": "{!NIGHT_BLUE}",
       "name": "textLinkNight"
     },
@@ -1415,6 +1416,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#0062e3ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "textLinkDay"
     },
@@ -3324,6 +3326,7 @@
       "type": "color",
       "category": "text-colors",
       "value": "#0062e3ff",
+      "deprecated": true,
       "originalValue": "{!SKY_BLUE}",
       "name": "textLinkColor",
       "darkValue": "#84e9ffff",

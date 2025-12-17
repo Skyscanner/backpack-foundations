@@ -50,10 +50,12 @@
       "value": "{!NIGHT_BERRY}"
     },
     "TEXT_LINK_DAY": {
-      "value": "{!SKY_BLUE}"
+      "value": "{!SKY_BLUE}",
+      "deprecated": true
     },
     "TEXT_LINK_NIGHT": {
-      "value": "{!NIGHT_BLUE}"
+      "value": "{!NIGHT_BLUE}",
+      "deprecated": true
     },
     "TEXT_ON_LIGHT_DAY": {
       "value": "{!CHARCOAL}"
