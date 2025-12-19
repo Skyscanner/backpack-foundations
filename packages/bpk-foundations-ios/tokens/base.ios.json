@@ -2067,8 +2067,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#010913ff",
-      "originalValue": "{!NIGHT_GREY_10}",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
       "name": "privateButtonSecondaryOnDarkPressedBackgroundNight"
     },
     {
@@ -2102,8 +2102,8 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#010913ff",
-      "originalValue": "{!NIGHT_GREY_10}",
+      "value": "#04182dff",
+      "originalValue": "{!MIDNIGHT_SKY}",
       "name": "privateButtonSecondaryOnDarkPressedBackgroundDay"
     },
     {
@@ -3695,11 +3695,11 @@
     {
       "type": "color",
       "category": "button-colors",
-      "value": "#010913ff",
-      "originalValue": "{!NIGHT_GREY_10}",
+      "value": "#04182dff",
+      "originalValue": "{!MIDNIGHT_SKY}",
       "name": "privateButtonSecondaryOnDarkPressedBackgroundColor",
-      "darkValue": "#010913ff",
-      "originalDarkValue": "{!NIGHT_GREY_10}"
+      "darkValue": "#ffffff33",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
     },
     {
       "type": "color",

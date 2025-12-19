@@ -102,10 +102,10 @@
         "value": "{!WHITE_ALPHA_10}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_DAY": {
-        "value": "{!NIGHT_GREY_10}"
+        "value": "{!MIDNIGHT_SKY}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_PRESSED_BACKGROUND_NIGHT": {
-        "value": "{!NIGHT_GREY_10}"
+        "value": "{!WHITE_ALPHA_20}"
       },
       "PRIVATE_BUTTON_SECONDARY_ON_DARK_DISABLED_FOREGROUND_DAY": {
         "value": "{!WHITE_ALPHA_20}"
