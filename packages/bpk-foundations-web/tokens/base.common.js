@@ -395,7 +395,7 @@ module.exports = {
   letterSpacingHero: "-0.04em",
   fontSizeRoot: "100%",
   fontSize6Xl: "4.75rem",
-  fontFamilyBase: "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+  fontFamilyBase: "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
   fontWeightBold: "700",
   fontColorBase: "rgb(22, 22, 22)",
   lineHeightBaseTight: "1.25rem",
