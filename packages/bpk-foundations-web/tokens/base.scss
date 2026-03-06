@@ -734,7 +734,11 @@ $bpk-private-slider-selected-day: rgb(21, 70, 121);
 /// @group spacings
 @function bpk-spacing-lg() { @return 1.5rem; }
 /// @group spacings
+@function bpk-spacing-xs() { @return .125rem; }
+/// @group spacings
 $bpk-one-pixel-rem: .0625rem;
+/// @group spacings
+@function bpk-spacing-xxs() { @return .063rem; }
 /// @group spacings
 $bpk-spacing-none: 0;
 /// @group spacings

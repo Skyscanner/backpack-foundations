@@ -420,11 +420,17 @@
     "SPACING_SM": {
       "value": ".25rem"
     },
+    "SPACING_XS": {
+      "value": ".125rem"
+    },
     "FONT_LINE_HEIGHT_LG_TIGHT": {
       "value": "1.5rem"
     },
     "SPACING_LG": {
       "value": "1.5rem"
+    },
+    "SPACING_XXS": {
+      "value": ".063rem"
     },
     "FONT_LINE_HEIGHT_SM": {
       "value": "1.25rem"
@@ -3055,12 +3061,26 @@
       "originalValue": "@function bpk-spacing-lg() { @return {!SPACING_LG}; }",
       "name": "SPACING_FUNCTION_LG"
     },
+    "SPACING_FUNCTION_XS": {
+      "type": "function",
+      "category": "spacings",
+      "value": "@function bpk-spacing-xs() { @return .125rem; }",
+      "originalValue": "@function bpk-spacing-xs() { @return {!SPACING_XS}; }",
+      "name": "SPACING_FUNCTION_XS"
+    },
     "ONE_PIXEL_REM": {
       "type": "size",
       "category": "spacings",
       "value": ".0625rem",
       "originalValue": "{!ONE_PIXEL_REM}",
       "name": "ONE_PIXEL_REM"
+    },
+    "SPACING_FUNCTION_XXS": {
+      "type": "function",
+      "category": "spacings",
+      "value": "@function bpk-spacing-xxs() { @return .063rem; }",
+      "originalValue": "@function bpk-spacing-xxs() { @return {!SPACING_XXS}; }",
+      "name": "SPACING_FUNCTION_XXS"
     },
     "SPACING_NONE": {
       "type": "size",
