@@ -2823,9 +2823,23 @@
     {
       "type": "size",
       "category": "spacings",
+      "value": "2",
+      "originalValue": "{!SPACING_XS}",
+      "name": "spacingXs"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
       "value": "24",
       "originalValue": "{!SPACING_LG}",
       "name": "spacingLg"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "1",
+      "originalValue": "{!SPACING_XXS}",
+      "name": "spacingXxs"
     },
     {
       "category": "touchables",

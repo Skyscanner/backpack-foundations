@@ -63,8 +63,14 @@
     "SPACING_SM": {
       "value": 4
     },
+    "SPACING_XS": {
+      "value": 2
+    },
     "SPACING_LG": {
       "value": 24
+    },
+    "SPACING_XXS": {
+      "value": 1
     },
     "FONT_WEIGHT_BOOK": {
       "value": "400"
@@ -3191,12 +3197,26 @@
       "originalValue": "{!SPACING_MD}",
       "name": "SPACING_ICON_TEXT"
     },
+    "SPACING_XS": {
+      "type": "size",
+      "category": "spacings",
+      "value": "2",
+      "originalValue": "{!SPACING_XS}",
+      "name": "SPACING_XS"
+    },
     "SPACING_LG": {
       "type": "size",
       "category": "spacings",
       "value": "24",
       "originalValue": "{!SPACING_LG}",
       "name": "SPACING_LG"
+    },
+    "SPACING_XXS": {
+      "type": "size",
+      "category": "spacings",
+      "value": "1",
+      "originalValue": "{!SPACING_XXS}",
+      "name": "SPACING_XXS"
     },
     "TOUCHABLE_OVERLAY_OPACITY": {
       "category": "touchables",
@@ -4694,7 +4714,9 @@
     "SPACING_NONE",
     "SPACING_SM",
     "SPACING_ICON_TEXT",
+    "SPACING_XS",
     "SPACING_LG",
+    "SPACING_XXS",
     "TOUCHABLE_OVERLAY_OPACITY",
     "TEXT_DISPLAY_7_LETTER_SPACING",
     "FONT_FAMILY_LARKEN",
