@@ -8,10 +8,10 @@
   },
   "props": {
     "SPACING_XXS": {
-        "value": "{!SPACING_XXS}"
+      "value": "{!SPACING_XXS}"
     },
     "SPACING_XS": {
-        "value": "{!SPACING_XS}"
+      "value": "{!SPACING_XS}"
     },
     "SPACING_SM": {
       "value": "{!SPACING_SM}"
