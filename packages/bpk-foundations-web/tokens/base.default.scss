@@ -738,7 +738,7 @@ $bpk-private-slider-selected-day: rgb(21, 70, 121) !default;
 /// @group spacings
 $bpk-one-pixel-rem: .0625rem !default;
 /// @group spacings
-@function bpk-spacing-xxs() { @return .063rem; }
+@function bpk-spacing-xxs() { @return .0625rem; }
 /// @group spacings
 $bpk-spacing-none: 0 !default;
 /// @group spacings

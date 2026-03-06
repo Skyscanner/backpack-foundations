@@ -430,7 +430,7 @@
       "value": "1.5rem"
     },
     "SPACING_XXS": {
-      "value": ".063rem"
+      "value": ".0625rem"
     },
     "FONT_LINE_HEIGHT_SM": {
       "value": "1.25rem"
@@ -3078,7 +3078,7 @@
     "SPACING_FUNCTION_XXS": {
       "type": "function",
       "category": "spacings",
-      "value": "@function bpk-spacing-xxs() { @return .063rem; }",
+      "value": "@function bpk-spacing-xxs() { @return .0625rem; }",
       "originalValue": "@function bpk-spacing-xxs() { @return {!SPACING_XXS}; }",
       "name": "SPACING_FUNCTION_XXS"
     },
