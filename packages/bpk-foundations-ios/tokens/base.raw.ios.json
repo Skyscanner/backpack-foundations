@@ -2770,6 +2770,20 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
     },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#024dafff",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#054184ff",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT"
+    },
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY": {
       "type": "color",
       "category": "card-button-colors",
@@ -4272,6 +4286,15 @@
       "darkValue": "#ffffffff",
       "originalDarkValue": "{!WHITE}"
     },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_COLOR": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#024dafff",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_COLOR",
+      "darkValue": "#054184ff",
+      "originalDarkValue": "{!NIGHT_SKY}"
+    },
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR": {
       "type": "color",
       "category": "card-button-colors",
@@ -4653,6 +4676,8 @@
     "PRIVATE_NAVIGATION_TAB_HOVER_NIGHT",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_DAY",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT",
+    "PRIVATE_NAVIGATION_TAB_SELECTED_DAY",
+    "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT",
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY",
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT",
     "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_DAY",
@@ -4843,6 +4868,7 @@
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR",
     "PRIVATE_NAVIGATION_TAB_HOVER_COLOR",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_COLOR",
+    "PRIVATE_NAVIGATION_TAB_SELECTED_COLOR",
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_COLOR",

@@ -1792,6 +1792,20 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
     },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgb(2, 77, 175)",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgb(5, 65, 132)",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT"
+    },
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY": {
       "type": "color",
       "category": "card-button-colors",
