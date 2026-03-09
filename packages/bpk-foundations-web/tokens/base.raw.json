@@ -420,11 +420,17 @@
     "SPACING_SM": {
       "value": ".25rem"
     },
+    "SPACING_XS": {
+      "value": ".125rem"
+    },
     "FONT_LINE_HEIGHT_LG_TIGHT": {
       "value": "1.5rem"
     },
     "SPACING_LG": {
       "value": "1.5rem"
+    },
+    "SPACING_XXS": {
+      "value": ".0625rem"
     },
     "FONT_LINE_HEIGHT_SM": {
       "value": "1.25rem"
@@ -1792,6 +1798,20 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
     },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgb(2, 77, 175)",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgb(5, 65, 132)",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT"
+    },
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY": {
       "type": "color",
       "category": "card-button-colors",
@@ -3041,12 +3061,26 @@
       "originalValue": "@function bpk-spacing-lg() { @return {!SPACING_LG}; }",
       "name": "SPACING_FUNCTION_LG"
     },
+    "SPACING_FUNCTION_XS": {
+      "type": "function",
+      "category": "spacings",
+      "value": "@function bpk-spacing-xs() { @return .125rem; }",
+      "originalValue": "@function bpk-spacing-xs() { @return {!SPACING_XS}; }",
+      "name": "SPACING_FUNCTION_XS"
+    },
     "ONE_PIXEL_REM": {
       "type": "size",
       "category": "spacings",
       "value": ".0625rem",
       "originalValue": "{!ONE_PIXEL_REM}",
       "name": "ONE_PIXEL_REM"
+    },
+    "SPACING_FUNCTION_XXS": {
+      "type": "function",
+      "category": "spacings",
+      "value": "@function bpk-spacing-xxs() { @return .0625rem; }",
+      "originalValue": "@function bpk-spacing-xxs() { @return {!SPACING_XXS}; }",
+      "name": "SPACING_FUNCTION_XXS"
     },
     "SPACING_NONE": {
       "type": "size",

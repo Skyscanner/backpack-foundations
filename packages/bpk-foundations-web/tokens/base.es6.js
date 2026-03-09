@@ -204,6 +204,8 @@ export const privateNavigationTabHoverDay = "rgb(21, 70, 121)";
 export const privateNavigationTabHoverNight = "rgb(209, 247, 255)";
 export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
 export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
+export const privateNavigationTabSelectedDay = "rgb(2, 77, 175)";
+export const privateNavigationTabSelectedNight = "rgb(5, 65, 132)";
 export const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)";
 export const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)";
 export const privateSegmentedControlCanvasDefaultDay = "rgb(239, 243, 248)";
@@ -724,6 +726,8 @@ privateNavigationTabHoverDay,
 privateNavigationTabHoverNight,
 privateNavigationTabOutlineDay,
 privateNavigationTabOutlineNight,
+privateNavigationTabSelectedDay,
+privateNavigationTabSelectedNight,
 };
 export const notifications = {
 bannerAlertHeaderExpandableHoverBackgroundColor,

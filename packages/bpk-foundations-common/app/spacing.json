@@ -1,5 +1,7 @@
 {
   "aliases": {
+    "SPACING_XXS": 1,
+    "SPACING_XS": 2,
     "SPACING_SM": 4,
     "SPACING_MD": 8,
     "SPACING_BASE": 16,

@@ -2395,6 +2395,20 @@
     },
     {
       "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#024dafff",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "privateNavigationTabSelectedDay"
+    },
+    {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#054184ff",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "privateNavigationTabSelectedNight"
+    },
+    {
+      "type": "color",
       "category": "card-button-colors",
       "value": "#ffffffcc",
       "originalValue": "{!WHITE_ALPHA_80}",
@@ -2823,9 +2837,23 @@
     {
       "type": "size",
       "category": "spacings",
+      "value": "2",
+      "originalValue": "{!SPACING_XS}",
+      "name": "spacingXs"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
       "value": "24",
       "originalValue": "{!SPACING_LG}",
       "name": "spacingLg"
+    },
+    {
+      "type": "size",
+      "category": "spacings",
+      "value": "1",
+      "originalValue": "{!SPACING_XXS}",
+      "name": "spacingXxs"
     },
     {
       "category": "touchables",
@@ -3880,6 +3908,15 @@
       "name": "privateNavigationTabOutlineColor",
       "darkValue": "#ffffffff",
       "originalDarkValue": "{!WHITE}"
+    },
+    {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#024dafff",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "privateNavigationTabSelectedColor",
+      "darkValue": "#054184ff",
+      "originalDarkValue": "{!NIGHT_SKY}"
     },
     {
       "type": "color",

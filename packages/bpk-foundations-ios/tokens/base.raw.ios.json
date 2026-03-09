@@ -63,8 +63,14 @@
     "SPACING_SM": {
       "value": 4
     },
+    "SPACING_XS": {
+      "value": 2
+    },
     "SPACING_LG": {
       "value": 24
+    },
+    "SPACING_XXS": {
+      "value": 1
     },
     "FONT_WEIGHT_BOOK": {
       "value": "400"
@@ -2764,6 +2770,20 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
     },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#024dafff",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#054184ff",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT"
+    },
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY": {
       "type": "color",
       "category": "card-button-colors",
@@ -3191,12 +3211,26 @@
       "originalValue": "{!SPACING_MD}",
       "name": "SPACING_ICON_TEXT"
     },
+    "SPACING_XS": {
+      "type": "size",
+      "category": "spacings",
+      "value": "2",
+      "originalValue": "{!SPACING_XS}",
+      "name": "SPACING_XS"
+    },
     "SPACING_LG": {
       "type": "size",
       "category": "spacings",
       "value": "24",
       "originalValue": "{!SPACING_LG}",
       "name": "SPACING_LG"
+    },
+    "SPACING_XXS": {
+      "type": "size",
+      "category": "spacings",
+      "value": "1",
+      "originalValue": "{!SPACING_XXS}",
+      "name": "SPACING_XXS"
     },
     "TOUCHABLE_OVERLAY_OPACITY": {
       "category": "touchables",
@@ -4252,6 +4286,15 @@
       "darkValue": "#ffffffff",
       "originalDarkValue": "{!WHITE}"
     },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_COLOR": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#024dafff",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_COLOR",
+      "darkValue": "#054184ff",
+      "originalDarkValue": "{!NIGHT_SKY}"
+    },
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR": {
       "type": "color",
       "category": "card-button-colors",
@@ -4633,6 +4676,8 @@
     "PRIVATE_NAVIGATION_TAB_HOVER_NIGHT",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_DAY",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT",
+    "PRIVATE_NAVIGATION_TAB_SELECTED_DAY",
+    "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT",
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY",
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_NIGHT",
     "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_DAY",
@@ -4694,7 +4739,9 @@
     "SPACING_NONE",
     "SPACING_SM",
     "SPACING_ICON_TEXT",
+    "SPACING_XS",
     "SPACING_LG",
+    "SPACING_XXS",
     "TOUCHABLE_OVERLAY_OPACITY",
     "TEXT_DISPLAY_7_LETTER_SPACING",
     "FONT_FAMILY_LARKEN",
@@ -4821,6 +4868,7 @@
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR",
     "PRIVATE_NAVIGATION_TAB_HOVER_COLOR",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_COLOR",
+    "PRIVATE_NAVIGATION_TAB_SELECTED_COLOR",
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_COLOR",

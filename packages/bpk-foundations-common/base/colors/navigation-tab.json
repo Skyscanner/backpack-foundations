@@ -16,6 +16,12 @@
     },
     "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT": {
       "value": "{!WHITE}"
+    },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_DAY": {
+      "value": "{!SKY_BLUE_85}"
+    },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT": {
+      "value": "{!NIGHT_SKY}"
     }
   }
 }

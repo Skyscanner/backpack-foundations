@@ -40,6 +40,8 @@
     "LETTER_SPACING_TIGHT": "-0.02em",
     "LETTER_SPACING_HERO": "-0.04em",
     "LETTER_SPACING_DISPLAY": "-0.05em",
+    "SPACING_XXS": ".0625rem",
+    "SPACING_XS": ".125rem",
     "SPACING_SM": ".25rem",
     "SPACING_MD": ".5rem",
     "SPACING_BASE": "1rem",

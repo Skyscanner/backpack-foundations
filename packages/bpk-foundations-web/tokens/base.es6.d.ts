@@ -204,6 +204,8 @@ export declare const privateNavigationTabHoverDay = "rgb(21, 70, 121)" as const;
 export declare const privateNavigationTabHoverNight = "rgb(209, 247, 255)" as const;
 export declare const privateNavigationTabOutlineDay = "rgb(193, 199, 207)" as const;
 export declare const privateNavigationTabOutlineNight = "rgb(255, 255, 255)" as const;
+export declare const privateNavigationTabSelectedDay = "rgb(2, 77, 175)" as const;
+export declare const privateNavigationTabSelectedNight = "rgb(5, 65, 132)" as const;
 export declare const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)" as const;
 export declare const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)" as const;
 export declare const privateSegmentedControlCanvasDefaultDay = "rgb(239, 243, 248)" as const;
@@ -724,6 +726,8 @@ privateNavigationTabHoverDay,
 privateNavigationTabHoverNight,
 privateNavigationTabOutlineDay,
 privateNavigationTabOutlineNight,
+privateNavigationTabSelectedDay,
+privateNavigationTabSelectedNight,
 } as const;
 export declare const notifications = {
 bannerAlertHeaderExpandableHoverBackgroundColor,
