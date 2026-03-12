@@ -3940,6 +3940,29 @@
       "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_COLOR",
       "darkValue": "#054184ff",
       "originalDarkValue": "{!NIGHT_SKY}"
+    },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT"
+    },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_COLOR": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_COLOR",
+      "darkValue": "#ffffff33",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
     }
   },
   "propKeys": [
@@ -4419,6 +4442,9 @@
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_COLOR",
-    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_COLOR"
+    "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_COLOR",
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY",
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT",
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_COLOR"
   ]
 }
