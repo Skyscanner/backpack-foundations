@@ -204,6 +204,8 @@ export const privateNavigationTabHoverDay = "rgb(21, 70, 121)";
 export const privateNavigationTabHoverNight = "rgb(209, 247, 255)";
 export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
 export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
+export const privateNavigationTabOnDarkOutlineDay = "rgba(255, 255, 255, 0.2)";
+export const privateNavigationTabOnDarkOutlineNight = "rgba(255, 255, 255, 0.2)";
 export const privateNavigationTabSelectedDay = "rgb(2, 77, 175)";
 export const privateNavigationTabSelectedNight = "rgb(5, 65, 132)";
 export const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)";
@@ -726,6 +728,8 @@ privateNavigationTabHoverDay,
 privateNavigationTabHoverNight,
 privateNavigationTabOutlineDay,
 privateNavigationTabOutlineNight,
+privateNavigationTabOnDarkOutlineDay,
+privateNavigationTabOnDarkOutlineNight,
 privateNavigationTabSelectedDay,
 privateNavigationTabSelectedNight,
 };
