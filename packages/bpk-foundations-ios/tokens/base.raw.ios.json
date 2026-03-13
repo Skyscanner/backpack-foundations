@@ -2770,6 +2770,20 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
     },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT"
+    },
     "PRIVATE_NAVIGATION_TAB_SELECTED_DAY": {
       "type": "color",
       "category": "navigation-tab-colors",
@@ -4286,6 +4300,15 @@
       "darkValue": "#ffffffff",
       "originalDarkValue": "{!WHITE}"
     },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_COLOR": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "#ffffff33",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_COLOR",
+      "darkValue": "#ffffff33",
+      "originalDarkValue": "{!WHITE_ALPHA_20}"
+    },
     "PRIVATE_NAVIGATION_TAB_SELECTED_COLOR": {
       "type": "color",
       "category": "navigation-tab-colors",
@@ -4676,6 +4699,8 @@
     "PRIVATE_NAVIGATION_TAB_HOVER_NIGHT",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_DAY",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT",
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY",
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT",
     "PRIVATE_NAVIGATION_TAB_SELECTED_DAY",
     "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT",
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY",
@@ -4868,6 +4893,7 @@
     "PRIVATE_SPONSORED_BANNER_BACKGROUND_COLOR",
     "PRIVATE_NAVIGATION_TAB_HOVER_COLOR",
     "PRIVATE_NAVIGATION_TAB_OUTLINE_COLOR",
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_COLOR",
     "PRIVATE_NAVIGATION_TAB_SELECTED_COLOR",
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_COLOR",
     "PRIVATE_SEGMENTED_CONTROL_CANVAS_DEFAULT_COLOR",

@@ -204,6 +204,8 @@ export declare const privateNavigationTabHoverDay = "rgb(21, 70, 121)" as const;
 export declare const privateNavigationTabHoverNight = "rgb(209, 247, 255)" as const;
 export declare const privateNavigationTabOutlineDay = "rgb(193, 199, 207)" as const;
 export declare const privateNavigationTabOutlineNight = "rgb(255, 255, 255)" as const;
+export declare const privateNavigationTabOnDarkOutlineDay = "rgba(255, 255, 255, 0.2)" as const;
+export declare const privateNavigationTabOnDarkOutlineNight = "rgba(255, 255, 255, 0.2)" as const;
 export declare const privateNavigationTabSelectedDay = "rgb(2, 77, 175)" as const;
 export declare const privateNavigationTabSelectedNight = "rgb(5, 65, 132)" as const;
 export declare const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)" as const;
@@ -726,6 +728,8 @@ privateNavigationTabHoverDay,
 privateNavigationTabHoverNight,
 privateNavigationTabOutlineDay,
 privateNavigationTabOutlineNight,
+privateNavigationTabOnDarkOutlineDay,
+privateNavigationTabOnDarkOutlineNight,
 privateNavigationTabSelectedDay,
 privateNavigationTabSelectedNight,
 } as const;

@@ -1798,6 +1798,20 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
     },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT"
+    },
     "PRIVATE_NAVIGATION_TAB_SELECTED_DAY": {
       "type": "color",
       "category": "navigation-tab-colors",
