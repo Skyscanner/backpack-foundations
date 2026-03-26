@@ -3174,10 +3174,10 @@
       "name": "FONT_SIZE_XL"
     },
     "FONT_FAMILY_LARKEN": {
-      "value": "'Larken', 'Noto Sans Arabic', 'Noto Serif Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', 'Noto Serif KR', sans-serif",
+      "value": "'Larken', 'Noto Sans Arabic', 'Noto Serif Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Serif TC', 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', sans-serif",
       "type": "font",
       "category": "typesettings",
-      "originalValue": "'Larken', 'Noto Sans Arabic', 'Noto Serif Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', 'Noto Serif KR', sans-serif",
+      "originalValue": "'Larken', 'Noto Sans Arabic', 'Noto Serif Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Serif TC', 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', sans-serif",
       "name": "FONT_FAMILY_LARKEN"
     },
     "FONT_SIZE_XXXXXL": {
@@ -3286,10 +3286,10 @@
       "name": "FONT_SIZE_6XL"
     },
     "FONT_FAMILY_BASE": {
-      "value": "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+      "value": "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
       "type": "font",
       "category": "typesettings",
-      "originalValue": "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+      "originalValue": "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
       "name": "FONT_FAMILY_BASE"
     },
     "FONT_WEIGHT_BOLD": {
