@@ -1,0 +1,21 @@
+{
+  "imports": ["./aliases.json"],
+  "global": {
+    "type": "color",
+    "category": "page-indicator-colors"
+  },
+  "props": {
+    "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_NORMAL_BACKGROUND_DAY": {
+      "value": "{!WHITE_ALPHA_50}"
+    },
+    "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_NORMAL_BACKGROUND_NIGHT": {
+      "value": "{!WHITE_ALPHA_50}"
+    },
+    "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_PRESSED_BACKGROUND_DAY": {
+      "value": "{!WHITE_ALPHA_80}"
+    },
+    "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_PRESSED_BACKGROUND_NIGHT": {
+      "value": "{!WHITE_ALPHA_80}"
+    }
+  }
+}
