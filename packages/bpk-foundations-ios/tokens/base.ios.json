@@ -2482,28 +2482,28 @@
       "category": "page-indicator-colors",
       "value": "#ffffff80",
       "originalValue": "{!WHITE_ALPHA_50}",
-      "name": "privatePageIndicatorBtnBgCarouselTriggerDay"
+      "name": "privatePageIndicatorButtonCarouselNormalBackgroundDay"
     },
     {
       "type": "color",
       "category": "page-indicator-colors",
       "value": "#ffffff80",
       "originalValue": "{!WHITE_ALPHA_50}",
-      "name": "privatePageIndicatorBtnBgCarouselTriggerNight"
+      "name": "privatePageIndicatorButtonCarouselNormalBackgroundNight"
     },
     {
       "type": "color",
       "category": "page-indicator-colors",
       "value": "#ffffffcc",
       "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "privatePageIndicatorBtnBgHoverCarouselTriggerDay"
+      "name": "privatePageIndicatorButtonCarouselPressedBackgroundDay"
     },
     {
       "type": "color",
       "category": "page-indicator-colors",
       "value": "#ffffffcc",
       "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "privatePageIndicatorBtnBgHoverCarouselTriggerNight"
+      "name": "privatePageIndicatorButtonCarouselPressedBackgroundNight"
     },
     {
       "type": "duration",
@@ -4010,7 +4010,7 @@
       "category": "page-indicator-colors",
       "value": "#ffffff80",
       "originalValue": "{!WHITE_ALPHA_50}",
-      "name": "privatePageIndicatorBtnBgCarouselTriggerColor",
+      "name": "privatePageIndicatorButtonCarouselNormalBackgroundColor",
       "darkValue": "#ffffff80",
       "originalDarkValue": "{!WHITE_ALPHA_50}"
     },
@@ -4019,7 +4019,7 @@
       "category": "page-indicator-colors",
       "value": "#ffffffcc",
       "originalValue": "{!WHITE_ALPHA_80}",
-      "name": "privatePageIndicatorBtnBgHoverCarouselTriggerColor",
+      "name": "privatePageIndicatorButtonCarouselPressedBackgroundColor",
       "darkValue": "#ffffffcc",
       "originalDarkValue": "{!WHITE_ALPHA_80}"
     },

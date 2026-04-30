@@ -216,10 +216,10 @@ export declare const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255,
 export declare const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)" as const;
 export declare const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)" as const;
 export declare const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)" as const;
-export declare const privatePageIndicatorBtnBgCarouselTriggerDay = "rgba(255, 255, 255, 0.5)" as const;
-export declare const privatePageIndicatorBtnBgCarouselTriggerNight = "rgba(255, 255, 255, 0.5)" as const;
-export declare const privatePageIndicatorBtnBgHoverCarouselTriggerDay = "rgba(255, 255, 255, 0.8)" as const;
-export declare const privatePageIndicatorBtnBgHoverCarouselTriggerNight = "rgba(255, 255, 255, 0.8)" as const;
+export declare const privatePageIndicatorButtonCarouselNormalBackgroundDay = "rgba(255, 255, 255, 0.5)" as const;
+export declare const privatePageIndicatorButtonCarouselNormalBackgroundNight = "rgba(255, 255, 255, 0.5)" as const;
+export declare const privatePageIndicatorButtonCarouselPressedBackgroundDay = "rgba(255, 255, 255, 0.8)" as const;
+export declare const privatePageIndicatorButtonCarouselPressedBackgroundNight = "rgba(255, 255, 255, 0.8)" as const;
 export declare const colorSkyBlueShade03 = "rgb(2, 18, 44)" as const;
 export declare const colorPrimaryGradientLight = "rgb(0, 98, 227)" as const;
 export declare const colorErfoud = "rgb(255, 181, 77)" as const;
@@ -751,10 +751,10 @@ overlayDay,
 overlayNight,
 } as const;
 export declare const pageIndicatorColors = {
-privatePageIndicatorBtnBgCarouselTriggerDay,
-privatePageIndicatorBtnBgCarouselTriggerNight,
-privatePageIndicatorBtnBgHoverCarouselTriggerDay,
-privatePageIndicatorBtnBgHoverCarouselTriggerNight,
+privatePageIndicatorButtonCarouselNormalBackgroundDay,
+privatePageIndicatorButtonCarouselNormalBackgroundNight,
+privatePageIndicatorButtonCarouselPressedBackgroundDay,
+privatePageIndicatorButtonCarouselPressedBackgroundNight,
 } as const;
 export declare const panels = {
 panelBorderColor,

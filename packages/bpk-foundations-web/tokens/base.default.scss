@@ -416,13 +416,13 @@ $bpk-private-segmented-control-surface-contrast-on-day: rgb(2, 77, 175) !default
 /// @group segmented-control-colors
 $bpk-private-segmented-control-surface-contrast-on-night: rgb(5, 65, 132) !default;
 /// @group page-indicator-colors
-$bpk-private-page-indicator-btn-bg-carousel-trigger-day: rgba(255, 255, 255, 0.5) !default;
+$bpk-private-page-indicator-button-carousel-normal-background-day: rgba(255, 255, 255, 0.5) !default;
 /// @group page-indicator-colors
-$bpk-private-page-indicator-btn-bg-carousel-trigger-night: rgba(255, 255, 255, 0.5) !default;
+$bpk-private-page-indicator-button-carousel-normal-background-night: rgba(255, 255, 255, 0.5) !default;
 /// @group page-indicator-colors
-$bpk-private-page-indicator-btn-bg-hover-carousel-trigger-day: rgba(255, 255, 255, 0.8) !default;
+$bpk-private-page-indicator-button-carousel-pressed-background-day: rgba(255, 255, 255, 0.8) !default;
 /// @group page-indicator-colors
-$bpk-private-page-indicator-btn-bg-hover-carousel-trigger-night: rgba(255, 255, 255, 0.8) !default;
+$bpk-private-page-indicator-button-carousel-pressed-background-night: rgba(255, 255, 255, 0.8) !default;
 /// @group colors
 $bpk-color-sky-blue-shade-03: rgb(2, 18, 44) !default;
 /// @group colors
