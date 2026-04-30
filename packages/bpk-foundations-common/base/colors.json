@@ -18,6 +18,7 @@
     "./colors/sponsored-banner.json",
     "./colors/navigation-tab.json",
     "./colors/card-button.json",
-    "./colors/segmented-control.json"
+    "./colors/segmented-control.json",
+    "./colors/page-indicator.json"
   ]
 }

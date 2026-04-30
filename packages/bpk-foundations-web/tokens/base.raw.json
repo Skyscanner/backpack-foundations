@@ -1882,6 +1882,34 @@
       "originalValue": "{!NIGHT_SKY}",
       "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_NIGHT"
     },
+    "PRIVATE_PAGE_INDICATOR_BTN_BG_CAROUSEL_TRIGGER_DAY": {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "PRIVATE_PAGE_INDICATOR_BTN_BG_CAROUSEL_TRIGGER_DAY"
+    },
+    "PRIVATE_PAGE_INDICATOR_BTN_BG_CAROUSEL_TRIGGER_NIGHT": {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "PRIVATE_PAGE_INDICATOR_BTN_BG_CAROUSEL_TRIGGER_NIGHT"
+    },
+    "PRIVATE_PAGE_INDICATOR_BTN_BG_HOVER_CAROUSEL_TRIGGER_DAY": {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_PAGE_INDICATOR_BTN_BG_HOVER_CAROUSEL_TRIGGER_DAY"
+    },
+    "PRIVATE_PAGE_INDICATOR_BTN_BG_HOVER_CAROUSEL_TRIGGER_NIGHT": {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_PAGE_INDICATOR_BTN_BG_HOVER_CAROUSEL_TRIGGER_NIGHT"
+    },
     "COLOR_SKY_BLUE_SHADE_03": {
       "value": "rgb(2, 18, 44)",
       "deprecated": true,

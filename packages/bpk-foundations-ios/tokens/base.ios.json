@@ -2478,6 +2478,34 @@
       "name": "privateSegmentedControlSurfaceContrastOnNight"
     },
     {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "privatePageIndicatorBtnBgCarouselTriggerDay"
+    },
+    {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "privatePageIndicatorBtnBgCarouselTriggerNight"
+    },
+    {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "privatePageIndicatorBtnBgHoverCarouselTriggerDay"
+    },
+    {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "privatePageIndicatorBtnBgHoverCarouselTriggerNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -3976,6 +4004,24 @@
       "name": "privateSegmentedControlSurfaceContrastOnColor",
       "darkValue": "#054184ff",
       "originalDarkValue": "{!NIGHT_SKY}"
+    },
+    {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "privatePageIndicatorBtnBgCarouselTriggerColor",
+      "darkValue": "#ffffff80",
+      "originalDarkValue": "{!WHITE_ALPHA_50}"
+    },
+    {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "#ffffffcc",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "privatePageIndicatorBtnBgHoverCarouselTriggerColor",
+      "darkValue": "#ffffffcc",
+      "originalDarkValue": "{!WHITE_ALPHA_80}"
     },
     {
       "value": "#161616ff",

@@ -216,6 +216,10 @@ export const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255, 255, 0.
 export const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)";
 export const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)";
 export const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)";
+export const privatePageIndicatorBtnBgCarouselTriggerDay = "rgba(255, 255, 255, 0.5)";
+export const privatePageIndicatorBtnBgCarouselTriggerNight = "rgba(255, 255, 255, 0.5)";
+export const privatePageIndicatorBtnBgHoverCarouselTriggerDay = "rgba(255, 255, 255, 0.8)";
+export const privatePageIndicatorBtnBgHoverCarouselTriggerNight = "rgba(255, 255, 255, 0.8)";
 export const colorSkyBlueShade03 = "rgb(2, 18, 44)";
 export const colorPrimaryGradientLight = "rgb(0, 98, 227)";
 export const colorErfoud = "rgb(255, 181, 77)";
@@ -745,6 +749,12 @@ bannerAlertNeutralColor,
 export const overlayColors = {
 overlayDay,
 overlayNight,
+};
+export const pageIndicatorColors = {
+privatePageIndicatorBtnBgCarouselTriggerDay,
+privatePageIndicatorBtnBgCarouselTriggerNight,
+privatePageIndicatorBtnBgHoverCarouselTriggerDay,
+privatePageIndicatorBtnBgHoverCarouselTriggerNight,
 };
 export const panels = {
 panelBorderColor,
