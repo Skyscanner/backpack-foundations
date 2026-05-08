@@ -761,6 +761,10 @@ $bpk-spacing-icon-text: .5rem !default;
 @function bpk-spacing-xl() { @return 2rem; }
 /// @group spacings
 @function bpk-spacing-xxxl() { @return 4rem; }
+/// @group switch-colors
+$bpk-private-switch-on-contrast-off-day: rgba(255, 255, 255, 0.2) !default;
+/// @group switch-colors
+$bpk-private-switch-on-contrast-off-night: rgba(255, 255, 255, 0.2) !default;
 /// @group font-weights
 $bpk-font-weight-book: 400 !default;
 /// @group typesettings

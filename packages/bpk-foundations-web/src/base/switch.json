@@ -1,0 +1,17 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "type": "color",
+    "category": "switch-colors"
+  },
+  "props": {
+    "PRIVATE_SWITCH_ON_CONTRAST_OFF_DAY": {
+      "value": "{!WHITE_ALPHA_20}"
+    },
+    "PRIVATE_SWITCH_ON_CONTRAST_OFF_NIGHT": {
+      "value": "{!WHITE_ALPHA_20}"
+    }
+  }
+}
