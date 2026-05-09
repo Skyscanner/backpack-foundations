@@ -3159,6 +3159,20 @@
       "originalValue": "@function bpk-spacing-xxxl() { @return {!SPACING_XXXL}; }",
       "name": "SPACING_FUNCTION_XXXL"
     },
+    "PRIVATE_SWITCH_ON_CONTRAST_OFF_DAY": {
+      "type": "color",
+      "category": "switch-colors",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_SWITCH_ON_CONTRAST_OFF_DAY"
+    },
+    "PRIVATE_SWITCH_ON_CONTRAST_OFF_NIGHT": {
+      "type": "color",
+      "category": "switch-colors",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_SWITCH_ON_CONTRAST_OFF_NIGHT"
+    },
     "FONT_WEIGHT_BOOK": {
       "value": "400",
       "type": "string",

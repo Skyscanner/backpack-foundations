@@ -379,6 +379,8 @@ export const privateSliderSelectedDay = "rgb(21, 70, 121)";
 export const onePixelRem = ".0625rem";
 export const spacingNone = "0";
 export const spacingIconText = ".5rem";
+export const privateSwitchOnContrastOffDay = "rgba(255, 255, 255, 0.2)";
+export const privateSwitchOnContrastOffNight = "rgba(255, 255, 255, 0.2)";
 export const fontWeightBook = "400";
 export const lineHeightXlTight = "1.75rem";
 export const lineHeightXxxxxl = "4rem";
@@ -835,6 +837,10 @@ surfaceHighlightNight,
 surfaceLowContrastDay,
 surfaceSubtleDay,
 surfaceHighlightDay,
+};
+export const switchColors = {
+privateSwitchOnContrastOffDay,
+privateSwitchOnContrastOffNight,
 };
 export const textColors = {
 textOnDarkDay,

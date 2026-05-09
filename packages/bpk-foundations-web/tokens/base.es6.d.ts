@@ -379,6 +379,8 @@ export declare const privateSliderSelectedDay = "rgb(21, 70, 121)" as const;
 export declare const onePixelRem = ".0625rem" as const;
 export declare const spacingNone = "0" as const;
 export declare const spacingIconText = ".5rem" as const;
+export declare const privateSwitchOnContrastOffDay = "rgba(255, 255, 255, 0.2)" as const;
+export declare const privateSwitchOnContrastOffNight = "rgba(255, 255, 255, 0.2)" as const;
 export declare const fontWeightBook = "400" as const;
 export declare const lineHeightXlTight = "1.75rem" as const;
 export declare const lineHeightXxxxxl = "4rem" as const;
@@ -835,6 +837,10 @@ surfaceHighlightNight,
 surfaceLowContrastDay,
 surfaceSubtleDay,
 surfaceHighlightDay,
+} as const;
+export declare const switchColors = {
+privateSwitchOnContrastOffDay,
+privateSwitchOnContrastOffNight,
 } as const;
 export declare const textColors = {
 textOnDarkDay,

@@ -381,6 +381,8 @@ module.exports = {
   onePixelRem: ".0625rem",
   spacingNone: "0",
   spacingIconText: ".5rem",
+  privateSwitchOnContrastOffDay: "rgba(255, 255, 255, 0.2)",
+  privateSwitchOnContrastOffNight: "rgba(255, 255, 255, 0.2)",
   fontWeightBook: "400",
   lineHeightXlTight: "1.75rem",
   lineHeightXxxxxl: "4rem",
