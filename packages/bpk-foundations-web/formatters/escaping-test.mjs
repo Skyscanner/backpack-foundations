@@ -16,9 +16,17 @@
  * limitations under the License.
  */
 
-import { tokenTemplate as es6TokenTemplate } from './bpk.es6.js.mjs';
-import { tokenTemplate as dtsTokenTemplate } from './bpk.d.ts.mjs';
-import { tokenTemplate as commonTokenTemplate } from './bpk.common.js.mjs';
+import es6Formatter, {
+  tokenTemplate as es6TokenTemplate,
+  categoryTemplate as es6CategoryTemplate,
+} from './bpk.es6.js.mjs';
+import dtsFormatter, {
+  tokenTemplate as dtsTokenTemplate,
+  categoryTemplate as dtsCategoryTemplate,
+} from './bpk.d.ts.mjs';
+import commonFormatter, {
+  tokenTemplate as commonTokenTemplate,
+} from './bpk.common.js.mjs';
 
 const LINE_SEPARATOR = String.fromCharCode(0x2028);
 const PARAGRAPH_SEPARATOR = String.fromCharCode(0x2029);
@@ -27,7 +35,9 @@ const PARAGRAPH_SEPARATOR = String.fromCharCode(0x2029);
 // either break the string literal (line terminators) or silently corrupt the
 // emitted value. This is the class of `js/incomplete-sanitization` the fix
 // guards against, so no generated snippet should contain them raw.
-const RAW_UNSAFE = new RegExp(`[\\n\\r${LINE_SEPARATOR}${PARAGRAPH_SEPARATOR}]`);
+const RAW_UNSAFE = new RegExp(
+  `[\\n\\r${LINE_SEPARATOR}${PARAGRAPH_SEPARATOR}]`,
+);
 
 // Hostile token values that previously broke or corrupted the generated
 // module (see CodeQL alerts #4, #5, #6).
@@ -94,6 +104,88 @@ describe('token string literal escaping', () => {
 
         expect(roundTrip(line, formatter)).toEqual('8');
       });
+
+      it('returns null for a function token', () => {
+        expect(
+          template({ name: 'token', type: 'function', value: 'fn()' }),
+        ).toBeNull();
+      });
+
+      it('resolves token operations before escaping', () => {
+        const line = template({
+          name: 'token',
+          type: 'size',
+          value: '1rem + 2.5rem',
+        });
+
+        expect(roundTrip(line, formatter)).toEqual('3.5rem');
+      });
     });
+  });
+});
+
+describe('categoryTemplate', () => {
+  const props = [
+    { name: 'brand-color-primary', category: 'colors' },
+    { name: 'brand-color-secondary', category: 'colors' },
+  ];
+
+  it('groups camelCased token names for the es6 formatter', () => {
+    expect(es6CategoryTemplate('colors', props)).toEqual(
+      'export const colors = {\nbrandColorPrimary,\nbrandColorSecondary,\n};',
+    );
+  });
+
+  it('groups camelCased token names for the d.ts formatter', () => {
+    expect(dtsCategoryTemplate('colors', props)).toEqual(
+      'export declare const colors = {\n' +
+        'brandColorPrimary,\nbrandColorSecondary,\n} as const;',
+    );
+  });
+});
+
+describe('default formatter', () => {
+  // Minimal stand-in for the theo result object the formatters consume.
+  const result = {
+    toJS: () => ({
+      props: [
+        {
+          name: 'brand-color',
+          category: 'colors',
+          type: 'color',
+          value: 'red',
+        },
+        { name: 'ignored', category: 'misc', type: 'function', value: 'fn()' },
+      ],
+    }),
+  };
+
+  it('emits single tokens and grouped categories for es6', () => {
+    const output = es6Formatter(result);
+
+    expect(output).toContain('export const brandColor = "red";');
+    expect(output).toContain('export const colors = {\nbrandColor,\n};');
+    // Function tokens are excluded from the output.
+    expect(output).not.toContain('ignored');
+  });
+
+  it('emits declarations and grouped categories for d.ts', () => {
+    const output = dtsFormatter(result);
+
+    expect(output).toContain(
+      'export declare const brandColor = "red" as const;',
+    );
+    expect(output).toContain(
+      'export declare const colors = {\nbrandColor,\n} as const;',
+    );
+    expect(output).not.toContain('ignored');
+  });
+
+  it('emits a CommonJS module map for common', () => {
+    const output = commonFormatter(result);
+
+    expect(output).toContain('module.exports = {');
+    expect(output).toContain('brandColor: "red"');
+    expect(output).not.toContain('ignored');
   });
 });
