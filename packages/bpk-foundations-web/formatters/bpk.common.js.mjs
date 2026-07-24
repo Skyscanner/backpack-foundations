@@ -33,7 +33,10 @@ export const tokenTemplate = ({ name, type, value }) => {
     tokenValue = performTokenOperations(value);
   }
 
-  return `${_.camelCase(name)}: ${JSON.stringify(tokenValue)
+  // Coerce to a string before serialising: token values are always strings
+  // here, and String() keeps a non-string value (e.g. a number) from being
+  // emitted as a bare, unquoted literal that would change the output shape.
+  return `${_.camelCase(name)}: ${JSON.stringify(String(tokenValue))
     .replace(/\u2028/g, '\\u2028')
     .replace(/\u2029/g, '\\u2029')}`;
 };

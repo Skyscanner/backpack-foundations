@@ -32,8 +32,11 @@ export const tokenTemplate = ({ name, type, value }) => {
   if (/\+|\*/.test(value)) {
     tokenValue = performTokenOperations(value);
   }
+  // Coerce to a string before serialising: token values are always strings
+  // here, and String() keeps a non-string value (e.g. a number) from being
+  // emitted as a bare, unquoted literal that would change the output shape.
   return `export declare const ${_.camelCase(name)} = ${JSON.stringify(
-    tokenValue,
+    String(tokenValue),
   )
     .replace(/\u2028/g, '\\u2028')
     .replace(/\u2029/g, '\\u2029')} as const;`;
