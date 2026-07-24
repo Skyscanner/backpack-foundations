@@ -33,9 +33,9 @@ export const tokenTemplate = ({ name, type, value }) => {
     tokenValue = performTokenOperations(value);
   }
 
-  return `${_.camelCase(name)}: "${tokenValue
-    .replace(/\\/g, '\\\\')
-    .replace(/"/g, '\\"')}"`;
+  return `${_.camelCase(name)}: ${JSON.stringify(tokenValue)
+    .replace(/\u2028/g, '\\u2028')
+    .replace(/\u2029/g, '\\u2029')}`;
 };
 
 export default (result) => {
