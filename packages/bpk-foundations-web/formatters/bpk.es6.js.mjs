@@ -32,10 +32,9 @@ export const tokenTemplate = ({ name, type, value }) => {
   if (/\+|\*/.test(value)) {
     tokenValue = performTokenOperations(value);
   }
-  return `export const ${_.camelCase(name)} = "${tokenValue.replace(
-    /"/g,
-    '\\"',
-  )}";`;
+  return `export const ${_.camelCase(name)} = "${tokenValue
+    .replace(/\\/g, '\\\\')
+    .replace(/"/g, '\\"')}";`;
 };
 
 export const categoryTemplate = (
