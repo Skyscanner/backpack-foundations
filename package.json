@@ -54,9 +54,9 @@
         "statements": 75
       }
     },
-    "testRegex": "packages/.*-test\\.js$",
+    "testRegex": "packages/.*-test\\.[cm]?js$",
     "transform": {
-      "^.+\\.js$": "babel-jest"
+      "^.+\\.[cm]?js$": "babel-jest"
     },
     "transformIgnorePatterns": [
       "node_modules/(?!bpk|color)"
