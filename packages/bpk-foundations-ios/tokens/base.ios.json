@@ -1386,6 +1386,13 @@
     {
       "type": "color",
       "category": "text-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "textSecondaryOnContrastDay"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
       "value": "#161616ff",
       "originalValue": "{!CHARCOAL}",
       "name": "textOnLightDay"
@@ -1496,6 +1503,13 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "textOnDarkNight"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "textSecondaryOnContrastNight"
     },
     {
       "type": "color",
@@ -3319,6 +3333,15 @@
       "value": "#ffffff80",
       "originalValue": "{!WHITE_ALPHA_50}",
       "name": "textDisabledOnDarkColor",
+      "darkValue": "#ffffff80",
+      "originalDarkValue": "{!WHITE_ALPHA_50}"
+    },
+    {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "textSecondaryOnContrastColor",
       "darkValue": "#ffffff80",
       "originalDarkValue": "{!WHITE_ALPHA_50}"
     },

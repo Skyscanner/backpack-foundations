@@ -25,6 +25,12 @@
     "TEXT_SECONDARY_NIGHT": {
       "value": "{!NIGHT_GREY_40}"
     },
+    "TEXT_SECONDARY_ON_CONTRAST_DAY": {
+      "value":"{!WHITE_ALPHA_50}"
+    },
+    "TEXT_SECONDARY_ON_CONTRAST_NIGHT": {
+      "value":"{!WHITE_ALPHA_50}"
+    },
     "TEXT_DISABLED_DAY": {
       "value": "{!BLACK_ALPHA_20}"
     },

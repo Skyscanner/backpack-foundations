@@ -1742,6 +1742,13 @@
       "originalValue": "{!WHITE_ALPHA_50}",
       "name": "TEXT_DISABLED_ON_DARK_DAY"
     },
+    "TEXT_SECONDARY_ON_CONTRAST_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_DAY"
+    },
     "TEXT_ON_LIGHT_DAY": {
       "type": "color",
       "category": "text-colors",
@@ -1855,6 +1862,13 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "TEXT_ON_DARK_NIGHT"
+    },
+    "TEXT_SECONDARY_ON_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_NIGHT"
     },
     "TEXT_PRIMARY_INVERSE_DAY": {
       "type": "color",
@@ -3303,6 +3317,15 @@
       "darkValue": "#ffffff80",
       "originalDarkValue": "{!WHITE_ALPHA_50}"
     },
+    "TEXT_SECONDARY_ON_CONTRAST_COLOR": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_COLOR",
+      "darkValue": "#ffffff80",
+      "originalDarkValue": "{!WHITE_ALPHA_50}"
+    },
     "TEXT_LINK_COLOR": {
       "type": "color",
       "category": "text-colors",
@@ -4090,6 +4113,7 @@
     "TEXT_ON_DARK_DAY",
     "TEXT_ON_LIGHT_NIGHT",
     "TEXT_DISABLED_ON_DARK_DAY",
+    "TEXT_SECONDARY_ON_CONTRAST_DAY",
     "TEXT_ON_LIGHT_DAY",
     "TEXT_LINK_NIGHT",
     "TEXT_HERO_NIGHT",
@@ -4106,6 +4130,7 @@
     "TEXT_PRIMARY_INVERSE_NIGHT",
     "TEXT_SECONDARY_NIGHT",
     "TEXT_ON_DARK_NIGHT",
+    "TEXT_SECONDARY_ON_CONTRAST_NIGHT",
     "TEXT_PRIMARY_INVERSE_DAY",
     "TEXT_DISABLED_ON_DARK_NIGHT",
     "TEXT_SECONDARY_DAY",
@@ -4306,6 +4331,7 @@
     "TEXT_ON_DARK_COLOR",
     "TEXT_ON_LIGHT_COLOR",
     "TEXT_DISABLED_ON_DARK_COLOR",
+    "TEXT_SECONDARY_ON_CONTRAST_COLOR",
     "TEXT_LINK_COLOR",
     "TEXT_HERO_COLOR",
     "TEXT_DISABLED_COLOR",
