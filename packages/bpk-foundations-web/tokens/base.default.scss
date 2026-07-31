@@ -104,6 +104,8 @@ $bpk-text-on-light-night: rgb(1, 9, 19) !default;
 /// @group text-colors
 $bpk-text-disabled-on-dark-day: rgba(255, 255, 255, 0.5) !default;
 /// @group text-colors
+$bpk-text-secondary-on-contrast-day: rgba(255, 255, 255, 0.5) !default;
+/// @group text-colors
 $bpk-text-on-light-day: rgb(22, 22, 22) !default;
 /// @group text-colors
 $bpk-text-link-night: rgb(132, 233, 255) !default;
@@ -135,6 +137,8 @@ $bpk-text-primary-inverse-night: rgb(1, 9, 19) !default;
 $bpk-text-secondary-night: rgb(189, 196, 203) !default;
 /// @group text-colors
 $bpk-text-on-dark-night: rgb(255, 255, 255) !default;
+/// @group text-colors
+$bpk-text-secondary-on-contrast-night: rgba(255, 255, 255, 0.5) !default;
 /// @group text-colors
 $bpk-text-primary-inverse-day: rgb(255, 255, 255) !default;
 /// @group text-colors

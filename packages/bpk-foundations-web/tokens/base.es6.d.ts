@@ -60,6 +60,7 @@ export declare const surfaceHighlightDay = "rgb(224, 228, 233)" as const;
 export declare const textOnDarkDay = "rgb(255, 255, 255)" as const;
 export declare const textOnLightNight = "rgb(1, 9, 19)" as const;
 export declare const textDisabledOnDarkDay = "rgba(255, 255, 255, 0.5)" as const;
+export declare const textSecondaryOnContrastDay = "rgba(255, 255, 255, 0.5)" as const;
 export declare const textOnLightDay = "rgb(22, 22, 22)" as const;
 export declare const textLinkNight = "rgb(132, 233, 255)" as const;
 export declare const textHeroNight = "rgb(1, 9, 19)" as const;
@@ -76,6 +77,7 @@ export declare const textErrorDay = "rgb(231, 8, 102)" as const;
 export declare const textPrimaryInverseNight = "rgb(1, 9, 19)" as const;
 export declare const textSecondaryNight = "rgb(189, 196, 203)" as const;
 export declare const textOnDarkNight = "rgb(255, 255, 255)" as const;
+export declare const textSecondaryOnContrastNight = "rgba(255, 255, 255, 0.5)" as const;
 export declare const textPrimaryInverseDay = "rgb(255, 255, 255)" as const;
 export declare const textDisabledOnDarkNight = "rgba(255, 255, 255, 0.5)" as const;
 export declare const textSecondaryDay = "rgb(98, 105, 113)" as const;
@@ -846,6 +848,7 @@ export declare const textColors = {
 textOnDarkDay,
 textOnLightNight,
 textDisabledOnDarkDay,
+textSecondaryOnContrastDay,
 textOnLightDay,
 textLinkNight,
 textHeroNight,
@@ -862,6 +865,7 @@ textErrorDay,
 textPrimaryInverseNight,
 textSecondaryNight,
 textOnDarkNight,
+textSecondaryOnContrastNight,
 textPrimaryInverseDay,
 textDisabledOnDarkNight,
 textSecondaryDay,

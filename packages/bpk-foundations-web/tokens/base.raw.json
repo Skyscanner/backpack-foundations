@@ -788,6 +788,13 @@
       "originalValue": "{!WHITE_ALPHA_50}",
       "name": "TEXT_DISABLED_ON_DARK_DAY"
     },
+    "TEXT_SECONDARY_ON_CONTRAST_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_DAY"
+    },
     "TEXT_ON_LIGHT_DAY": {
       "type": "color",
       "category": "text-colors",
@@ -901,6 +908,13 @@
       "value": "rgb(255, 255, 255)",
       "originalValue": "{!WHITE}",
       "name": "TEXT_ON_DARK_NIGHT"
+    },
+    "TEXT_SECONDARY_ON_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_NIGHT"
     },
     "TEXT_PRIMARY_INVERSE_DAY": {
       "type": "color",
