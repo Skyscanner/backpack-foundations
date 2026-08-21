@@ -1924,6 +1924,76 @@
       "originalValue": "{!WHITE_ALPHA_80}",
       "name": "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_PRESSED_BACKGROUND_NIGHT"
     },
+    "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(98, 105, 113)",
+      "originalValue": "{!GREY_40}",
+      "name": "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_DAY"
+    },
+    "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(132, 233, 255)",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(132, 233, 255)",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(193, 199, 207)",
+      "originalValue": "{!GREY_30}",
+      "name": "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(0, 98, 227)",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgba(255, 255, 255, 0)",
+      "originalValue": "#FFFFFF00",
+      "name": "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_NIGHT"
+    },
     "COLOR_SKY_BLUE_SHADE_03": {
       "value": "rgb(2, 18, 44)",
       "deprecated": true,

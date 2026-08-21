@@ -1,0 +1,39 @@
+{
+  "imports": ["./aliases.json"],
+  "global": {
+    "type": "color",
+    "category": "radio-colors"
+  },
+  "props": {
+    "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_DAY": {
+      "value": "{!SKY_BLUE}"
+    },
+    "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_NIGHT": {
+      "value": "{!NIGHT_BLUE}"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_DAY": {
+      "value": "{!WHITE}"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_NIGHT": {
+      "value": "{!NIGHT_BLUE}"
+    },
+    "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_DAY": {
+      "value": "{!GREY_40}"
+    },
+    "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_NIGHT": {
+      "value": "{!WHITE_ALPHA_50}"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_DAY": {
+      "value": "{!WHITE}"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_NIGHT": {
+      "value": "#FFFFFF00"
+    },
+    "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_DAY": {
+      "value": "{!GREY_30}"
+    },
+    "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_NIGHT": {
+      "value": "{!WHITE_ALPHA_50}"
+    }
+  }
+}
