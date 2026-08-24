@@ -10,8 +10,6 @@ defaults:
 
 jobs:
   release:
-    permissions:
-      contents: read
     runs-on: ubuntu-latest
     environment: Publishing
 
