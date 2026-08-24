@@ -2520,6 +2520,90 @@
       "name": "privatePageIndicatorButtonCarouselPressedBackgroundNight"
     },
     {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#626971ff",
+      "originalValue": "{!GREY_40}",
+      "name": "privateRadioDefaultUnselectedStrokeDay"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "privateRadioDefaultDisabledBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#84e9ffff",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "privateRadioDefaultSelectedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#84e9ffff",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "privateRadioOnContrastSelectedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#ff649cff",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "privateRadioInvalidBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "privateRadioDefaultDisabledBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#0062e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "privateRadioDefaultSelectedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "privateRadioOnContrastSelectedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "privateRadioInvalidBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#ffffff00",
+      "originalValue": "#FFFFFF00",
+      "name": "privateRadioOnContrastUnselectedBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "privateRadioOnContrastUnselectedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#ffffff80",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "privateRadioDefaultUnselectedStrokeNight"
+    },
+    {
       "type": "duration",
       "value": "50ms",
       "category": "animations",
@@ -4045,6 +4129,60 @@
       "name": "privatePageIndicatorButtonCarouselPressedBackgroundColor",
       "darkValue": "#ffffffcc",
       "originalDarkValue": "{!WHITE_ALPHA_80}"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#626971ff",
+      "originalValue": "{!GREY_40}",
+      "name": "privateRadioDefaultUnselectedStrokeColor",
+      "darkValue": "#ffffff80",
+      "originalDarkValue": "{!WHITE_ALPHA_50}"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#c1c7cfff",
+      "originalValue": "{!GREY_30}",
+      "name": "privateRadioDefaultDisabledBackgroundColor",
+      "darkValue": "#ffffff80",
+      "originalDarkValue": "{!WHITE_ALPHA_50}"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#0062e3ff",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "privateRadioDefaultSelectedBackgroundColor",
+      "darkValue": "#84e9ffff",
+      "originalDarkValue": "{!NIGHT_BLUE}"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "privateRadioOnContrastSelectedBackgroundColor",
+      "darkValue": "#84e9ffff",
+      "originalDarkValue": "{!NIGHT_BLUE}"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "privateRadioInvalidBackgroundColor",
+      "darkValue": "#ff649cff",
+      "originalDarkValue": "{!NIGHT_BERRY}"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#ffffffff",
+      "originalValue": "{!WHITE}",
+      "name": "privateRadioOnContrastUnselectedBackgroundColor",
+      "darkValue": "#ffffff00",
+      "originalDarkValue": "#FFFFFF00"
     },
     {
       "value": "#161616ff",

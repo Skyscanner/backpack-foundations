@@ -19,6 +19,7 @@
     "./colors/navigation-tab.json",
     "./colors/card-button.json",
     "./colors/segmented-control.json",
-    "./colors/page-indicator.json"
+    "./colors/page-indicator.json",
+    "./colors/radio.json"
   ]
 }

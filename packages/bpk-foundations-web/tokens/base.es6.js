@@ -222,6 +222,18 @@ export const privatePageIndicatorButtonCarouselNormalBackgroundDay = "rgba(255, 
 export const privatePageIndicatorButtonCarouselNormalBackgroundNight = "rgba(255, 255, 255, 0.5)";
 export const privatePageIndicatorButtonCarouselPressedBackgroundDay = "rgba(255, 255, 255, 0.8)";
 export const privatePageIndicatorButtonCarouselPressedBackgroundNight = "rgba(255, 255, 255, 0.8)";
+export const privateRadioDefaultUnselectedStrokeDay = "rgb(98, 105, 113)";
+export const privateRadioDefaultDisabledBackgroundNight = "rgba(255, 255, 255, 0.5)";
+export const privateRadioDefaultSelectedBackgroundNight = "rgb(132, 233, 255)";
+export const privateRadioOnContrastSelectedBackgroundNight = "rgb(132, 233, 255)";
+export const privateRadioInvalidBackgroundNight = "rgb(255, 100, 156)";
+export const privateRadioDefaultDisabledBackgroundDay = "rgb(193, 199, 207)";
+export const privateRadioDefaultSelectedBackgroundDay = "rgb(0, 98, 227)";
+export const privateRadioOnContrastSelectedBackgroundDay = "rgb(255, 255, 255)";
+export const privateRadioInvalidBackgroundDay = "rgb(231, 8, 102)";
+export const privateRadioOnContrastUnselectedBackgroundNight = "rgba(255, 255, 255, 0)";
+export const privateRadioOnContrastUnselectedBackgroundDay = "rgb(255, 255, 255)";
+export const privateRadioDefaultUnselectedStrokeNight = "rgba(255, 255, 255, 0.5)";
 export const colorSkyBlueShade03 = "rgb(2, 18, 44)";
 export const colorPrimaryGradientLight = "rgb(0, 98, 227)";
 export const colorErfoud = "rgb(255, 181, 77)";
@@ -771,6 +783,20 @@ borderRadiusNavTabs,
 borderRadiusSm,
 borderRadiusXs,
 borderRadiusLg,
+};
+export const radioColors = {
+privateRadioDefaultUnselectedStrokeDay,
+privateRadioDefaultDisabledBackgroundNight,
+privateRadioDefaultSelectedBackgroundNight,
+privateRadioOnContrastSelectedBackgroundNight,
+privateRadioInvalidBackgroundNight,
+privateRadioDefaultDisabledBackgroundDay,
+privateRadioDefaultSelectedBackgroundDay,
+privateRadioOnContrastSelectedBackgroundDay,
+privateRadioInvalidBackgroundDay,
+privateRadioOnContrastUnselectedBackgroundNight,
+privateRadioOnContrastUnselectedBackgroundDay,
+privateRadioDefaultUnselectedStrokeNight,
 };
 export const ratingBarColors = {
 privateBarTrackDefaultDay,

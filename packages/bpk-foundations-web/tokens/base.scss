@@ -427,6 +427,30 @@ $bpk-private-page-indicator-button-carousel-normal-background-night: rgba(255, 2
 $bpk-private-page-indicator-button-carousel-pressed-background-day: rgba(255, 255, 255, 0.8);
 /// @group page-indicator-colors
 $bpk-private-page-indicator-button-carousel-pressed-background-night: rgba(255, 255, 255, 0.8);
+/// @group radio-colors
+$bpk-private-radio-default-unselected-stroke-day: rgb(98, 105, 113);
+/// @group radio-colors
+$bpk-private-radio-default-disabled-background-night: rgba(255, 255, 255, 0.5);
+/// @group radio-colors
+$bpk-private-radio-default-selected-background-night: rgb(132, 233, 255);
+/// @group radio-colors
+$bpk-private-radio-on-contrast-selected-background-night: rgb(132, 233, 255);
+/// @group radio-colors
+$bpk-private-radio-invalid-background-night: rgb(255, 100, 156);
+/// @group radio-colors
+$bpk-private-radio-default-disabled-background-day: rgb(193, 199, 207);
+/// @group radio-colors
+$bpk-private-radio-default-selected-background-day: rgb(0, 98, 227);
+/// @group radio-colors
+$bpk-private-radio-on-contrast-selected-background-day: rgb(255, 255, 255);
+/// @group radio-colors
+$bpk-private-radio-invalid-background-day: rgb(231, 8, 102);
+/// @group radio-colors
+$bpk-private-radio-on-contrast-unselected-background-night: rgba(255, 255, 255, 0);
+/// @group radio-colors
+$bpk-private-radio-on-contrast-unselected-background-day: rgb(255, 255, 255);
+/// @group radio-colors
+$bpk-private-radio-default-unselected-stroke-night: rgba(255, 255, 255, 0.5);
 /// @group colors
 $bpk-color-sky-blue-shade-03: rgb(2, 18, 44);
 /// @group colors
