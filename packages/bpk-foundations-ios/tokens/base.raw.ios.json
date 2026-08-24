@@ -2924,6 +2924,13 @@
       "originalValue": "{!NIGHT_BLUE}",
       "name": "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_NIGHT"
     },
+    "PRIVATE_RADIO_INVALID_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#ff649cff",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "PRIVATE_RADIO_INVALID_BACKGROUND_NIGHT"
+    },
     "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "radio-colors",
@@ -2944,6 +2951,13 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_INVALID_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "PRIVATE_RADIO_INVALID_BACKGROUND_DAY"
     },
     "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_NIGHT": {
       "type": "color",
@@ -4529,6 +4543,15 @@
       "darkValue": "#84e9ffff",
       "originalDarkValue": "{!NIGHT_BLUE}"
     },
+    "PRIVATE_RADIO_INVALID_BACKGROUND_COLOR": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "PRIVATE_RADIO_INVALID_BACKGROUND_COLOR",
+      "darkValue": "#ff649cff",
+      "originalDarkValue": "{!NIGHT_BERRY}"
+    },
     "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_COLOR": {
       "type": "color",
       "category": "radio-colors",
@@ -4905,9 +4928,11 @@
     "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_NIGHT",
     "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_NIGHT",
     "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_NIGHT",
+    "PRIVATE_RADIO_INVALID_BACKGROUND_NIGHT",
     "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_DAY",
     "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_DAY",
     "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_DAY",
+    "PRIVATE_RADIO_INVALID_BACKGROUND_DAY",
     "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_NIGHT",
     "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_DAY",
     "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_NIGHT",
@@ -5106,6 +5131,7 @@
     "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_COLOR",
     "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_COLOR",
     "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_COLOR",
+    "PRIVATE_RADIO_INVALID_BACKGROUND_COLOR",
     "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_COLOR",
     "SHADOW_COLOR"
   ]

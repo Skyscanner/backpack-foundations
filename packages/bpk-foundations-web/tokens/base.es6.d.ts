@@ -226,9 +226,11 @@ export declare const privateRadioDefaultUnselectedStrokeDay = "rgb(98, 105, 113)
 export declare const privateRadioDefaultDisabledBackgroundNight = "rgba(255, 255, 255, 0.5)" as const;
 export declare const privateRadioDefaultSelectedBackgroundNight = "rgb(132, 233, 255)" as const;
 export declare const privateRadioOnContrastSelectedBackgroundNight = "rgb(132, 233, 255)" as const;
+export declare const privateRadioInvalidBackgroundNight = "rgb(255, 100, 156)" as const;
 export declare const privateRadioDefaultDisabledBackgroundDay = "rgb(193, 199, 207)" as const;
 export declare const privateRadioDefaultSelectedBackgroundDay = "rgb(0, 98, 227)" as const;
 export declare const privateRadioOnContrastSelectedBackgroundDay = "rgb(255, 255, 255)" as const;
+export declare const privateRadioInvalidBackgroundDay = "rgb(231, 8, 102)" as const;
 export declare const privateRadioOnContrastUnselectedBackgroundNight = "rgba(255, 255, 255, 0)" as const;
 export declare const privateRadioOnContrastUnselectedBackgroundDay = "rgb(255, 255, 255)" as const;
 export declare const privateRadioDefaultUnselectedStrokeNight = "rgba(255, 255, 255, 0.5)" as const;
@@ -787,9 +789,11 @@ privateRadioDefaultUnselectedStrokeDay,
 privateRadioDefaultDisabledBackgroundNight,
 privateRadioDefaultSelectedBackgroundNight,
 privateRadioOnContrastSelectedBackgroundNight,
+privateRadioInvalidBackgroundNight,
 privateRadioDefaultDisabledBackgroundDay,
 privateRadioDefaultSelectedBackgroundDay,
 privateRadioOnContrastSelectedBackgroundDay,
+privateRadioInvalidBackgroundDay,
 privateRadioOnContrastUnselectedBackgroundNight,
 privateRadioOnContrastUnselectedBackgroundDay,
 privateRadioDefaultUnselectedStrokeNight,

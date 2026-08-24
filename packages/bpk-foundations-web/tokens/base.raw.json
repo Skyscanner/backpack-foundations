@@ -1952,6 +1952,13 @@
       "originalValue": "{!NIGHT_BLUE}",
       "name": "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_NIGHT"
     },
+    "PRIVATE_RADIO_INVALID_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(255, 100, 156)",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "PRIVATE_RADIO_INVALID_BACKGROUND_NIGHT"
+    },
     "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_DAY": {
       "type": "color",
       "category": "radio-colors",
@@ -1972,6 +1979,13 @@
       "value": "rgb(255, 255, 255)",
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_INVALID_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(231, 8, 102)",
+      "originalValue": "{!BERRY}",
+      "name": "PRIVATE_RADIO_INVALID_BACKGROUND_DAY"
     },
     "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_NIGHT": {
       "type": "color",

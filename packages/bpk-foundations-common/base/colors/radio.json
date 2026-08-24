@@ -34,6 +34,12 @@
     },
     "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_NIGHT": {
       "value": "{!WHITE_ALPHA_50}"
+    },
+    "PRIVATE_RADIO_INVALID_BACKGROUND_DAY": {
+      "value": "{!BERRY}"
+    },
+    "PRIVATE_RADIO_INVALID_BACKGROUND_NIGHT": {
+      "value": "{!NIGHT_BERRY}"
     }
   }
 }

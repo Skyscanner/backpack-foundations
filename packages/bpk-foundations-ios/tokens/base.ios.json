@@ -2550,6 +2550,13 @@
     {
       "type": "color",
       "category": "radio-colors",
+      "value": "#ff649cff",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "privateRadioInvalidBackgroundNight"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
       "value": "#c1c7cfff",
       "originalValue": "{!GREY_30}",
       "name": "privateRadioDefaultDisabledBackgroundDay"
@@ -2567,6 +2574,13 @@
       "value": "#ffffffff",
       "originalValue": "{!WHITE}",
       "name": "privateRadioOnContrastSelectedBackgroundDay"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "privateRadioInvalidBackgroundDay"
     },
     {
       "type": "color",
@@ -4151,6 +4165,15 @@
       "name": "privateRadioOnContrastSelectedBackgroundColor",
       "darkValue": "#84e9ffff",
       "originalDarkValue": "{!NIGHT_BLUE}"
+    },
+    {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "#e70866ff",
+      "originalValue": "{!BERRY}",
+      "name": "privateRadioInvalidBackgroundColor",
+      "darkValue": "#ff649cff",
+      "originalDarkValue": "{!NIGHT_BERRY}"
     },
     {
       "type": "color",
