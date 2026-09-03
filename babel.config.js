@@ -16,6 +16,7 @@
  * limitations under the License.
  */
 
+// Temporary no-op comment to verify CI baseline on an unmodified dependency tree.
 module.exports = {
   presets: [
     [
