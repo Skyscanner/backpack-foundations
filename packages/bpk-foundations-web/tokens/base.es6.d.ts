@@ -60,6 +60,7 @@ export declare const surfaceHighlightDay = "rgb(224, 228, 233)" as const;
 export declare const textOnDarkDay = "rgb(255, 255, 255)" as const;
 export declare const textOnLightNight = "rgb(1, 9, 19)" as const;
 export declare const textDisabledOnDarkDay = "rgba(255, 255, 255, 0.5)" as const;
+export declare const textSecondaryOnContrastDay = "rgba(255, 255, 255, 0.5)" as const;
 export declare const textOnLightDay = "rgb(22, 22, 22)" as const;
 export declare const textLinkNight = "rgb(132, 233, 255)" as const;
 export declare const textHeroNight = "rgb(1, 9, 19)" as const;
@@ -76,6 +77,7 @@ export declare const textErrorDay = "rgb(231, 8, 102)" as const;
 export declare const textPrimaryInverseNight = "rgb(1, 9, 19)" as const;
 export declare const textSecondaryNight = "rgb(189, 196, 203)" as const;
 export declare const textOnDarkNight = "rgb(255, 255, 255)" as const;
+export declare const textSecondaryOnContrastNight = "rgba(255, 255, 255, 0.5)" as const;
 export declare const textPrimaryInverseDay = "rgb(255, 255, 255)" as const;
 export declare const textDisabledOnDarkNight = "rgba(255, 255, 255, 0.5)" as const;
 export declare const textSecondaryDay = "rgb(98, 105, 113)" as const;
@@ -204,6 +206,10 @@ export declare const privateNavigationTabHoverDay = "rgb(21, 70, 121)" as const;
 export declare const privateNavigationTabHoverNight = "rgb(209, 247, 255)" as const;
 export declare const privateNavigationTabOutlineDay = "rgb(193, 199, 207)" as const;
 export declare const privateNavigationTabOutlineNight = "rgb(255, 255, 255)" as const;
+export declare const privateNavigationTabOnDarkOutlineDay = "rgba(255, 255, 255, 0.2)" as const;
+export declare const privateNavigationTabOnDarkOutlineNight = "rgba(255, 255, 255, 0.2)" as const;
+export declare const privateNavigationTabSelectedDay = "rgb(2, 77, 175)" as const;
+export declare const privateNavigationTabSelectedNight = "rgb(5, 65, 132)" as const;
 export declare const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)" as const;
 export declare const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)" as const;
 export declare const privateSegmentedControlCanvasDefaultDay = "rgb(239, 243, 248)" as const;
@@ -212,6 +218,22 @@ export declare const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255,
 export declare const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)" as const;
 export declare const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)" as const;
 export declare const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)" as const;
+export declare const privatePageIndicatorButtonCarouselNormalBackgroundDay = "rgba(255, 255, 255, 0.5)" as const;
+export declare const privatePageIndicatorButtonCarouselNormalBackgroundNight = "rgba(255, 255, 255, 0.5)" as const;
+export declare const privatePageIndicatorButtonCarouselPressedBackgroundDay = "rgba(255, 255, 255, 0.8)" as const;
+export declare const privatePageIndicatorButtonCarouselPressedBackgroundNight = "rgba(255, 255, 255, 0.8)" as const;
+export declare const privateRadioDefaultUnselectedStrokeDay = "rgb(98, 105, 113)" as const;
+export declare const privateRadioDefaultDisabledBackgroundNight = "rgba(255, 255, 255, 0.5)" as const;
+export declare const privateRadioDefaultSelectedBackgroundNight = "rgb(132, 233, 255)" as const;
+export declare const privateRadioOnContrastSelectedBackgroundNight = "rgb(132, 233, 255)" as const;
+export declare const privateRadioInvalidBackgroundNight = "rgb(255, 100, 156)" as const;
+export declare const privateRadioDefaultDisabledBackgroundDay = "rgb(193, 199, 207)" as const;
+export declare const privateRadioDefaultSelectedBackgroundDay = "rgb(0, 98, 227)" as const;
+export declare const privateRadioOnContrastSelectedBackgroundDay = "rgb(255, 255, 255)" as const;
+export declare const privateRadioInvalidBackgroundDay = "rgb(231, 8, 102)" as const;
+export declare const privateRadioOnContrastUnselectedBackgroundNight = "rgba(255, 255, 255, 0)" as const;
+export declare const privateRadioOnContrastUnselectedBackgroundDay = "rgb(255, 255, 255)" as const;
+export declare const privateRadioDefaultUnselectedStrokeNight = "rgba(255, 255, 255, 0.5)" as const;
 export declare const colorSkyBlueShade03 = "rgb(2, 18, 44)" as const;
 export declare const colorPrimaryGradientLight = "rgb(0, 98, 227)" as const;
 export declare const colorErfoud = "rgb(255, 181, 77)" as const;
@@ -371,13 +393,15 @@ export declare const privateSliderSelectedDay = "rgb(21, 70, 121)" as const;
 export declare const onePixelRem = ".0625rem" as const;
 export declare const spacingNone = "0" as const;
 export declare const spacingIconText = ".5rem" as const;
+export declare const privateSwitchOnContrastOffDay = "rgba(255, 255, 255, 0.2)" as const;
+export declare const privateSwitchOnContrastOffNight = "rgba(255, 255, 255, 0.2)" as const;
 export declare const fontWeightBook = "400" as const;
 export declare const lineHeightXlTight = "1.75rem" as const;
 export declare const lineHeightXxxxxl = "4rem" as const;
 export declare const lineHeightXxxl = "3rem" as const;
 export declare const lineHeightXl = "2rem" as const;
 export declare const fontSizeXl = "1.5rem" as const;
-export declare const fontFamilyLarken = "'Larken', 'Noto Sans Arabic', 'Noto Serif Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', 'Noto Serif KR', sans-serif" as const;
+export declare const fontFamilyLarken = "'Larken', sans-serif" as const;
 export declare const fontSizeXxxxxl = "4rem" as const;
 export declare const fontSizeXxxl = "2.5rem" as const;
 export declare const lineHeightSm = "1.25rem" as const;
@@ -393,7 +417,7 @@ export declare const letterSpacingDisplay = "-0.05em" as const;
 export declare const letterSpacingHero = "-0.04em" as const;
 export declare const fontSizeRoot = "100%" as const;
 export declare const fontSize6Xl = "4.75rem" as const;
-export declare const fontFamilyBase = "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" as const;
+export declare const fontFamilyBase = "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" as const;
 export declare const fontWeightBold = "700" as const;
 export declare const fontColorBase = "rgb(22, 22, 22)" as const;
 export declare const lineHeightBaseTight = "1.25rem" as const;
@@ -724,6 +748,10 @@ privateNavigationTabHoverDay,
 privateNavigationTabHoverNight,
 privateNavigationTabOutlineDay,
 privateNavigationTabOutlineNight,
+privateNavigationTabOnDarkOutlineDay,
+privateNavigationTabOnDarkOutlineNight,
+privateNavigationTabSelectedDay,
+privateNavigationTabSelectedNight,
 } as const;
 export declare const notifications = {
 bannerAlertHeaderExpandableHoverBackgroundColor,
@@ -738,6 +766,12 @@ export declare const overlayColors = {
 overlayDay,
 overlayNight,
 } as const;
+export declare const pageIndicatorColors = {
+privatePageIndicatorButtonCarouselNormalBackgroundDay,
+privatePageIndicatorButtonCarouselNormalBackgroundNight,
+privatePageIndicatorButtonCarouselPressedBackgroundDay,
+privatePageIndicatorButtonCarouselPressedBackgroundNight,
+} as const;
 export declare const panels = {
 panelBorderColor,
 } as const;
@@ -749,6 +783,20 @@ borderRadiusNavTabs,
 borderRadiusSm,
 borderRadiusXs,
 borderRadiusLg,
+} as const;
+export declare const radioColors = {
+privateRadioDefaultUnselectedStrokeDay,
+privateRadioDefaultDisabledBackgroundNight,
+privateRadioDefaultSelectedBackgroundNight,
+privateRadioOnContrastSelectedBackgroundNight,
+privateRadioInvalidBackgroundNight,
+privateRadioDefaultDisabledBackgroundDay,
+privateRadioDefaultSelectedBackgroundDay,
+privateRadioOnContrastSelectedBackgroundDay,
+privateRadioInvalidBackgroundDay,
+privateRadioOnContrastUnselectedBackgroundNight,
+privateRadioOnContrastUnselectedBackgroundDay,
+privateRadioDefaultUnselectedStrokeNight,
 } as const;
 export declare const ratingBarColors = {
 privateBarTrackDefaultDay,
@@ -818,10 +866,15 @@ surfaceLowContrastDay,
 surfaceSubtleDay,
 surfaceHighlightDay,
 } as const;
+export declare const switchColors = {
+privateSwitchOnContrastOffDay,
+privateSwitchOnContrastOffNight,
+} as const;
 export declare const textColors = {
 textOnDarkDay,
 textOnLightNight,
 textDisabledOnDarkDay,
+textSecondaryOnContrastDay,
 textOnLightDay,
 textLinkNight,
 textHeroNight,
@@ -838,6 +891,7 @@ textErrorDay,
 textPrimaryInverseNight,
 textSecondaryNight,
 textOnDarkNight,
+textSecondaryOnContrastNight,
 textPrimaryInverseDay,
 textDisabledOnDarkNight,
 textSecondaryDay,

@@ -104,6 +104,8 @@ $bpk-text-on-light-night: rgb(1, 9, 19) !default;
 /// @group text-colors
 $bpk-text-disabled-on-dark-day: rgba(255, 255, 255, 0.5) !default;
 /// @group text-colors
+$bpk-text-secondary-on-contrast-day: rgba(255, 255, 255, 0.5) !default;
+/// @group text-colors
 $bpk-text-on-light-day: rgb(22, 22, 22) !default;
 /// @group text-colors
 $bpk-text-link-night: rgb(132, 233, 255) !default;
@@ -135,6 +137,8 @@ $bpk-text-primary-inverse-night: rgb(1, 9, 19) !default;
 $bpk-text-secondary-night: rgb(189, 196, 203) !default;
 /// @group text-colors
 $bpk-text-on-dark-night: rgb(255, 255, 255) !default;
+/// @group text-colors
+$bpk-text-secondary-on-contrast-night: rgba(255, 255, 255, 0.5) !default;
 /// @group text-colors
 $bpk-text-primary-inverse-day: rgb(255, 255, 255) !default;
 /// @group text-colors
@@ -391,6 +395,14 @@ $bpk-private-navigation-tab-hover-night: rgb(209, 247, 255) !default;
 $bpk-private-navigation-tab-outline-day: rgb(193, 199, 207) !default;
 /// @group navigation-tab-colors
 $bpk-private-navigation-tab-outline-night: rgb(255, 255, 255) !default;
+/// @group navigation-tab-colors
+$bpk-private-navigation-tab-on-dark-outline-day: rgba(255, 255, 255, 0.2) !default;
+/// @group navigation-tab-colors
+$bpk-private-navigation-tab-on-dark-outline-night: rgba(255, 255, 255, 0.2) !default;
+/// @group navigation-tab-colors
+$bpk-private-navigation-tab-selected-day: rgb(2, 77, 175) !default;
+/// @group navigation-tab-colors
+$bpk-private-navigation-tab-selected-night: rgb(5, 65, 132) !default;
 /// @group card-button-colors
 $bpk-private-card-button-contained-fill-day: rgba(255, 255, 255, 0.8) !default;
 /// @group card-button-colors
@@ -407,6 +419,38 @@ $bpk-private-segmented-control-surface-contrast-night: rgb(19, 29, 43) !default;
 $bpk-private-segmented-control-surface-contrast-on-day: rgb(2, 77, 175) !default;
 /// @group segmented-control-colors
 $bpk-private-segmented-control-surface-contrast-on-night: rgb(5, 65, 132) !default;
+/// @group page-indicator-colors
+$bpk-private-page-indicator-button-carousel-normal-background-day: rgba(255, 255, 255, 0.5) !default;
+/// @group page-indicator-colors
+$bpk-private-page-indicator-button-carousel-normal-background-night: rgba(255, 255, 255, 0.5) !default;
+/// @group page-indicator-colors
+$bpk-private-page-indicator-button-carousel-pressed-background-day: rgba(255, 255, 255, 0.8) !default;
+/// @group page-indicator-colors
+$bpk-private-page-indicator-button-carousel-pressed-background-night: rgba(255, 255, 255, 0.8) !default;
+/// @group radio-colors
+$bpk-private-radio-default-unselected-stroke-day: rgb(98, 105, 113) !default;
+/// @group radio-colors
+$bpk-private-radio-default-disabled-background-night: rgba(255, 255, 255, 0.5) !default;
+/// @group radio-colors
+$bpk-private-radio-default-selected-background-night: rgb(132, 233, 255) !default;
+/// @group radio-colors
+$bpk-private-radio-on-contrast-selected-background-night: rgb(132, 233, 255) !default;
+/// @group radio-colors
+$bpk-private-radio-invalid-background-night: rgb(255, 100, 156) !default;
+/// @group radio-colors
+$bpk-private-radio-default-disabled-background-day: rgb(193, 199, 207) !default;
+/// @group radio-colors
+$bpk-private-radio-default-selected-background-day: rgb(0, 98, 227) !default;
+/// @group radio-colors
+$bpk-private-radio-on-contrast-selected-background-day: rgb(255, 255, 255) !default;
+/// @group radio-colors
+$bpk-private-radio-invalid-background-day: rgb(231, 8, 102) !default;
+/// @group radio-colors
+$bpk-private-radio-on-contrast-unselected-background-night: rgba(255, 255, 255, 0) !default;
+/// @group radio-colors
+$bpk-private-radio-on-contrast-unselected-background-day: rgb(255, 255, 255) !default;
+/// @group radio-colors
+$bpk-private-radio-default-unselected-stroke-night: rgba(255, 255, 255, 0.5) !default;
 /// @group colors
 $bpk-color-sky-blue-shade-03: rgb(2, 18, 44) !default;
 /// @group colors
@@ -730,7 +774,11 @@ $bpk-private-slider-selected-day: rgb(21, 70, 121) !default;
 /// @group spacings
 @function bpk-spacing-lg() { @return 1.5rem; }
 /// @group spacings
+@function bpk-spacing-xs() { @return .125rem; }
+/// @group spacings
 $bpk-one-pixel-rem: .0625rem !default;
+/// @group spacings
+@function bpk-spacing-xxs() { @return .0625rem; }
 /// @group spacings
 $bpk-spacing-none: 0 !default;
 /// @group spacings
@@ -741,6 +789,10 @@ $bpk-spacing-icon-text: .5rem !default;
 @function bpk-spacing-xl() { @return 2rem; }
 /// @group spacings
 @function bpk-spacing-xxxl() { @return 4rem; }
+/// @group switch-colors
+$bpk-private-switch-on-contrast-off-day: rgba(255, 255, 255, 0.2) !default;
+/// @group switch-colors
+$bpk-private-switch-on-contrast-off-night: rgba(255, 255, 255, 0.2) !default;
 /// @group font-weights
 $bpk-font-weight-book: 400 !default;
 /// @group typesettings
@@ -754,7 +806,7 @@ $bpk-line-height-xl: 2rem !default;
 /// @group typesettings
 $bpk-font-size-xl: 1.5rem !default;
 /// @group typesettings
-$bpk-font-family-larken: 'Larken', 'Noto Sans Arabic', 'Noto Serif Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', 'Noto Serif KR', sans-serif !default;
+$bpk-font-family-larken: 'Larken', sans-serif !default;
 /// @group typesettings
 $bpk-font-size-xxxxxl: 4rem !default;
 /// @group typesettings
@@ -786,7 +838,7 @@ $bpk-font-size-root: 100% !default;
 /// @group typesettings
 $bpk-font-size-6-xl: 4.75rem !default;
 /// @group typesettings
-$bpk-font-family-base: 'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !default;
+$bpk-font-family-base: 'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !default;
 /// @group font-weights
 $bpk-font-weight-bold: 700 !default;
 /// @group text-colors

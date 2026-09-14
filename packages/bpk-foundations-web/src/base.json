@@ -17,6 +17,7 @@
     "./base/panels.json",
     "./base/sliders.json",
     "./base/spacing.json",
+    "./base/switch.json",
     "./base/typography.json",
     "./base/z-index.json"
   ]

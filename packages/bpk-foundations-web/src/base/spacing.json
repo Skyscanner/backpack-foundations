@@ -7,6 +7,14 @@
     "category": "spacings"
   },
   "props": {
+    "SPACING_FUNCTION_XXS": {
+      "value": "@function bpk-spacing-xxs() { @return {!SPACING_XXS}; }",
+      "type": "function"
+    },
+    "SPACING_FUNCTION_XS": {
+      "value": "@function bpk-spacing-xs() { @return {!SPACING_XS}; }",
+      "type": "function"
+    },
     "SPACING_FUNCTION_SM": {
       "value": "@function bpk-spacing-sm() { @return {!SPACING_SM}; }",
       "type": "function"

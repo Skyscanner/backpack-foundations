@@ -420,11 +420,17 @@
     "SPACING_SM": {
       "value": ".25rem"
     },
+    "SPACING_XS": {
+      "value": ".125rem"
+    },
     "FONT_LINE_HEIGHT_LG_TIGHT": {
       "value": "1.5rem"
     },
     "SPACING_LG": {
       "value": "1.5rem"
+    },
+    "SPACING_XXS": {
+      "value": ".0625rem"
     },
     "FONT_LINE_HEIGHT_SM": {
       "value": "1.25rem"
@@ -782,6 +788,13 @@
       "originalValue": "{!WHITE_ALPHA_50}",
       "name": "TEXT_DISABLED_ON_DARK_DAY"
     },
+    "TEXT_SECONDARY_ON_CONTRAST_DAY": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_DAY"
+    },
     "TEXT_ON_LIGHT_DAY": {
       "type": "color",
       "category": "text-colors",
@@ -895,6 +908,13 @@
       "value": "rgb(255, 255, 255)",
       "originalValue": "{!WHITE}",
       "name": "TEXT_ON_DARK_NIGHT"
+    },
+    "TEXT_SECONDARY_ON_CONTRAST_NIGHT": {
+      "type": "color",
+      "category": "text-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "TEXT_SECONDARY_ON_CONTRAST_NIGHT"
     },
     "TEXT_PRIMARY_INVERSE_DAY": {
       "type": "color",
@@ -1792,6 +1812,34 @@
       "originalValue": "{!WHITE}",
       "name": "PRIVATE_NAVIGATION_TAB_OUTLINE_NIGHT"
     },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_NAVIGATION_TAB_ON_DARK_OUTLINE_NIGHT"
+    },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_DAY": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgb(2, 77, 175)",
+      "originalValue": "{!SKY_BLUE_85}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_DAY"
+    },
+    "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT": {
+      "type": "color",
+      "category": "navigation-tab-colors",
+      "value": "rgb(5, 65, 132)",
+      "originalValue": "{!NIGHT_SKY}",
+      "name": "PRIVATE_NAVIGATION_TAB_SELECTED_NIGHT"
+    },
     "PRIVATE_CARD_BUTTON_CONTAINED_FILL_DAY": {
       "type": "color",
       "category": "card-button-colors",
@@ -1847,6 +1895,118 @@
       "value": "rgb(5, 65, 132)",
       "originalValue": "{!NIGHT_SKY}",
       "name": "PRIVATE_SEGMENTED_CONTROL_SURFACE_CONTRAST_ON_NIGHT"
+    },
+    "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_NORMAL_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_NORMAL_BACKGROUND_DAY"
+    },
+    "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_NORMAL_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_NORMAL_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_PRESSED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_PRESSED_BACKGROUND_DAY"
+    },
+    "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_PRESSED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "page-indicator-colors",
+      "value": "rgba(255, 255, 255, 0.8)",
+      "originalValue": "{!WHITE_ALPHA_80}",
+      "name": "PRIVATE_PAGE_INDICATOR_BUTTON_CAROUSEL_PRESSED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(98, 105, 113)",
+      "originalValue": "{!GREY_40}",
+      "name": "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_DAY"
+    },
+    "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(132, 233, 255)",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(132, 233, 255)",
+      "originalValue": "{!NIGHT_BLUE}",
+      "name": "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_INVALID_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(255, 100, 156)",
+      "originalValue": "{!NIGHT_BERRY}",
+      "name": "PRIVATE_RADIO_INVALID_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(193, 199, 207)",
+      "originalValue": "{!GREY_30}",
+      "name": "PRIVATE_RADIO_DEFAULT_DISABLED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(0, 98, 227)",
+      "originalValue": "{!SKY_BLUE}",
+      "name": "PRIVATE_RADIO_DEFAULT_SELECTED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_RADIO_ON_CONTRAST_SELECTED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_INVALID_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(231, 8, 102)",
+      "originalValue": "{!BERRY}",
+      "name": "PRIVATE_RADIO_INVALID_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgba(255, 255, 255, 0)",
+      "originalValue": "#FFFFFF00",
+      "name": "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_NIGHT"
+    },
+    "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_DAY": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "{!WHITE}",
+      "name": "PRIVATE_RADIO_ON_CONTRAST_UNSELECTED_BACKGROUND_DAY"
+    },
+    "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_NIGHT": {
+      "type": "color",
+      "category": "radio-colors",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "originalValue": "{!WHITE_ALPHA_50}",
+      "name": "PRIVATE_RADIO_DEFAULT_UNSELECTED_STROKE_NIGHT"
     },
     "COLOR_SKY_BLUE_SHADE_03": {
       "value": "rgb(2, 18, 44)",
@@ -3041,12 +3201,26 @@
       "originalValue": "@function bpk-spacing-lg() { @return {!SPACING_LG}; }",
       "name": "SPACING_FUNCTION_LG"
     },
+    "SPACING_FUNCTION_XS": {
+      "type": "function",
+      "category": "spacings",
+      "value": "@function bpk-spacing-xs() { @return .125rem; }",
+      "originalValue": "@function bpk-spacing-xs() { @return {!SPACING_XS}; }",
+      "name": "SPACING_FUNCTION_XS"
+    },
     "ONE_PIXEL_REM": {
       "type": "size",
       "category": "spacings",
       "value": ".0625rem",
       "originalValue": "{!ONE_PIXEL_REM}",
       "name": "ONE_PIXEL_REM"
+    },
+    "SPACING_FUNCTION_XXS": {
+      "type": "function",
+      "category": "spacings",
+      "value": "@function bpk-spacing-xxs() { @return .0625rem; }",
+      "originalValue": "@function bpk-spacing-xxs() { @return {!SPACING_XXS}; }",
+      "name": "SPACING_FUNCTION_XXS"
     },
     "SPACING_NONE": {
       "type": "size",
@@ -3082,6 +3256,20 @@
       "value": "@function bpk-spacing-xxxl() { @return 4rem; }",
       "originalValue": "@function bpk-spacing-xxxl() { @return {!SPACING_XXXL}; }",
       "name": "SPACING_FUNCTION_XXXL"
+    },
+    "PRIVATE_SWITCH_ON_CONTRAST_OFF_DAY": {
+      "type": "color",
+      "category": "switch-colors",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_SWITCH_ON_CONTRAST_OFF_DAY"
+    },
+    "PRIVATE_SWITCH_ON_CONTRAST_OFF_NIGHT": {
+      "type": "color",
+      "category": "switch-colors",
+      "value": "rgba(255, 255, 255, 0.2)",
+      "originalValue": "{!WHITE_ALPHA_20}",
+      "name": "PRIVATE_SWITCH_ON_CONTRAST_OFF_NIGHT"
     },
     "FONT_WEIGHT_BOOK": {
       "value": "400",
@@ -3126,10 +3314,10 @@
       "name": "FONT_SIZE_XL"
     },
     "FONT_FAMILY_LARKEN": {
-      "value": "'Larken', 'Noto Sans Arabic', 'Noto Serif Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', 'Noto Serif KR', sans-serif",
+      "value": "'Larken', sans-serif",
       "type": "font",
       "category": "typesettings",
-      "originalValue": "'Larken', 'Noto Sans Arabic', 'Noto Serif Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', 'Noto Serif KR', sans-serif",
+      "originalValue": "'Larken', sans-serif",
       "name": "FONT_FAMILY_LARKEN"
     },
     "FONT_SIZE_XXXXXL": {
@@ -3238,10 +3426,10 @@
       "name": "FONT_SIZE_6XL"
     },
     "FONT_FAMILY_BASE": {
-      "value": "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+      "value": "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
       "type": "font",
       "category": "typesettings",
-      "originalValue": "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+      "originalValue": "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
       "name": "FONT_FAMILY_BASE"
     },
     "FONT_WEIGHT_BOLD": {

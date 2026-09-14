@@ -60,6 +60,7 @@ export const surfaceHighlightDay = "rgb(224, 228, 233)";
 export const textOnDarkDay = "rgb(255, 255, 255)";
 export const textOnLightNight = "rgb(1, 9, 19)";
 export const textDisabledOnDarkDay = "rgba(255, 255, 255, 0.5)";
+export const textSecondaryOnContrastDay = "rgba(255, 255, 255, 0.5)";
 export const textOnLightDay = "rgb(22, 22, 22)";
 export const textLinkNight = "rgb(132, 233, 255)";
 export const textHeroNight = "rgb(1, 9, 19)";
@@ -76,6 +77,7 @@ export const textErrorDay = "rgb(231, 8, 102)";
 export const textPrimaryInverseNight = "rgb(1, 9, 19)";
 export const textSecondaryNight = "rgb(189, 196, 203)";
 export const textOnDarkNight = "rgb(255, 255, 255)";
+export const textSecondaryOnContrastNight = "rgba(255, 255, 255, 0.5)";
 export const textPrimaryInverseDay = "rgb(255, 255, 255)";
 export const textDisabledOnDarkNight = "rgba(255, 255, 255, 0.5)";
 export const textSecondaryDay = "rgb(98, 105, 113)";
@@ -204,6 +206,10 @@ export const privateNavigationTabHoverDay = "rgb(21, 70, 121)";
 export const privateNavigationTabHoverNight = "rgb(209, 247, 255)";
 export const privateNavigationTabOutlineDay = "rgb(193, 199, 207)";
 export const privateNavigationTabOutlineNight = "rgb(255, 255, 255)";
+export const privateNavigationTabOnDarkOutlineDay = "rgba(255, 255, 255, 0.2)";
+export const privateNavigationTabOnDarkOutlineNight = "rgba(255, 255, 255, 0.2)";
+export const privateNavigationTabSelectedDay = "rgb(2, 77, 175)";
+export const privateNavigationTabSelectedNight = "rgb(5, 65, 132)";
 export const privateCardButtonContainedFillDay = "rgba(255, 255, 255, 0.8)";
 export const privateCardButtonContainedFillNight = "rgba(0, 0, 0, 0.8)";
 export const privateSegmentedControlCanvasDefaultDay = "rgb(239, 243, 248)";
@@ -212,6 +218,22 @@ export const privateSegmentedControlSurfaceContrastDay = "rgba(255, 255, 255, 0.
 export const privateSegmentedControlSurfaceContrastNight = "rgb(19, 29, 43)";
 export const privateSegmentedControlSurfaceContrastOnDay = "rgb(2, 77, 175)";
 export const privateSegmentedControlSurfaceContrastOnNight = "rgb(5, 65, 132)";
+export const privatePageIndicatorButtonCarouselNormalBackgroundDay = "rgba(255, 255, 255, 0.5)";
+export const privatePageIndicatorButtonCarouselNormalBackgroundNight = "rgba(255, 255, 255, 0.5)";
+export const privatePageIndicatorButtonCarouselPressedBackgroundDay = "rgba(255, 255, 255, 0.8)";
+export const privatePageIndicatorButtonCarouselPressedBackgroundNight = "rgba(255, 255, 255, 0.8)";
+export const privateRadioDefaultUnselectedStrokeDay = "rgb(98, 105, 113)";
+export const privateRadioDefaultDisabledBackgroundNight = "rgba(255, 255, 255, 0.5)";
+export const privateRadioDefaultSelectedBackgroundNight = "rgb(132, 233, 255)";
+export const privateRadioOnContrastSelectedBackgroundNight = "rgb(132, 233, 255)";
+export const privateRadioInvalidBackgroundNight = "rgb(255, 100, 156)";
+export const privateRadioDefaultDisabledBackgroundDay = "rgb(193, 199, 207)";
+export const privateRadioDefaultSelectedBackgroundDay = "rgb(0, 98, 227)";
+export const privateRadioOnContrastSelectedBackgroundDay = "rgb(255, 255, 255)";
+export const privateRadioInvalidBackgroundDay = "rgb(231, 8, 102)";
+export const privateRadioOnContrastUnselectedBackgroundNight = "rgba(255, 255, 255, 0)";
+export const privateRadioOnContrastUnselectedBackgroundDay = "rgb(255, 255, 255)";
+export const privateRadioDefaultUnselectedStrokeNight = "rgba(255, 255, 255, 0.5)";
 export const colorSkyBlueShade03 = "rgb(2, 18, 44)";
 export const colorPrimaryGradientLight = "rgb(0, 98, 227)";
 export const colorErfoud = "rgb(255, 181, 77)";
@@ -371,13 +393,15 @@ export const privateSliderSelectedDay = "rgb(21, 70, 121)";
 export const onePixelRem = ".0625rem";
 export const spacingNone = "0";
 export const spacingIconText = ".5rem";
+export const privateSwitchOnContrastOffDay = "rgba(255, 255, 255, 0.2)";
+export const privateSwitchOnContrastOffNight = "rgba(255, 255, 255, 0.2)";
 export const fontWeightBook = "400";
 export const lineHeightXlTight = "1.75rem";
 export const lineHeightXxxxxl = "4rem";
 export const lineHeightXxxl = "3rem";
 export const lineHeightXl = "2rem";
 export const fontSizeXl = "1.5rem";
-export const fontFamilyLarken = "'Larken', 'Noto Sans Arabic', 'Noto Serif Hebrew', 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Thai', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', 'Noto Serif KR', sans-serif";
+export const fontFamilyLarken = "'Larken', sans-serif";
 export const fontSizeXxxxxl = "4rem";
 export const fontSizeXxxl = "2.5rem";
 export const lineHeightSm = "1.25rem";
@@ -393,7 +417,7 @@ export const letterSpacingDisplay = "-0.05em";
 export const letterSpacingHero = "-0.04em";
 export const fontSizeRoot = "100%";
 export const fontSize6Xl = "4.75rem";
-export const fontFamilyBase = "'Skyscanner Relative', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Thai', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif";
+export const fontFamilyBase = "'Skyscanner Relative', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif";
 export const fontWeightBold = "700";
 export const fontColorBase = "rgb(22, 22, 22)";
 export const lineHeightBaseTight = "1.25rem";
@@ -724,6 +748,10 @@ privateNavigationTabHoverDay,
 privateNavigationTabHoverNight,
 privateNavigationTabOutlineDay,
 privateNavigationTabOutlineNight,
+privateNavigationTabOnDarkOutlineDay,
+privateNavigationTabOnDarkOutlineNight,
+privateNavigationTabSelectedDay,
+privateNavigationTabSelectedNight,
 };
 export const notifications = {
 bannerAlertHeaderExpandableHoverBackgroundColor,
@@ -738,6 +766,12 @@ export const overlayColors = {
 overlayDay,
 overlayNight,
 };
+export const pageIndicatorColors = {
+privatePageIndicatorButtonCarouselNormalBackgroundDay,
+privatePageIndicatorButtonCarouselNormalBackgroundNight,
+privatePageIndicatorButtonCarouselPressedBackgroundDay,
+privatePageIndicatorButtonCarouselPressedBackgroundNight,
+};
 export const panels = {
 panelBorderColor,
 };
@@ -749,6 +783,20 @@ borderRadiusNavTabs,
 borderRadiusSm,
 borderRadiusXs,
 borderRadiusLg,
+};
+export const radioColors = {
+privateRadioDefaultUnselectedStrokeDay,
+privateRadioDefaultDisabledBackgroundNight,
+privateRadioDefaultSelectedBackgroundNight,
+privateRadioOnContrastSelectedBackgroundNight,
+privateRadioInvalidBackgroundNight,
+privateRadioDefaultDisabledBackgroundDay,
+privateRadioDefaultSelectedBackgroundDay,
+privateRadioOnContrastSelectedBackgroundDay,
+privateRadioInvalidBackgroundDay,
+privateRadioOnContrastUnselectedBackgroundNight,
+privateRadioOnContrastUnselectedBackgroundDay,
+privateRadioDefaultUnselectedStrokeNight,
 };
 export const ratingBarColors = {
 privateBarTrackDefaultDay,
@@ -818,10 +866,15 @@ surfaceLowContrastDay,
 surfaceSubtleDay,
 surfaceHighlightDay,
 };
+export const switchColors = {
+privateSwitchOnContrastOffDay,
+privateSwitchOnContrastOffNight,
+};
 export const textColors = {
 textOnDarkDay,
 textOnLightNight,
 textDisabledOnDarkDay,
+textSecondaryOnContrastDay,
 textOnLightDay,
 textLinkNight,
 textHeroNight,
@@ -838,6 +891,7 @@ textErrorDay,
 textPrimaryInverseNight,
 textSecondaryNight,
 textOnDarkNight,
+textSecondaryOnContrastNight,
 textPrimaryInverseDay,
 textDisabledOnDarkNight,
 textSecondaryDay,
