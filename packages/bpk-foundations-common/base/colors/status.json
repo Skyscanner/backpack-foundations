@@ -42,6 +42,12 @@
     },
     "STATUS_WARNING_SPOT_NIGHT": {
       "value": "{!NIGHT_YELLOW_SPOT}"
+    },
+    "STATUS_LOYALTY_SPOT_DAY": {
+      "value": "{!LOYALTY_SPOT}"
+    },
+    "STATUS_LOYALTY_SPOT_NIGHT": {
+      "value": "{!LOYALTY_SPOT}"
     }
   }
 }
