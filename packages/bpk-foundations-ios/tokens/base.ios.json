@@ -1169,6 +1169,13 @@
     {
       "type": "color",
       "category": "status-colors",
+      "value": "#c9fc70ff",
+      "originalValue": "{!LOYALTY_SPOT}",
+      "name": "statusLoyaltySpotNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
       "value": "#62f1c6ff",
       "originalValue": "{!NIGHT_GREEN_SPOT}",
       "name": "statusSuccessSpotNight"
@@ -1179,6 +1186,13 @@
       "value": "#b1ffe7ff",
       "originalValue": "{!NIGHT_GREEN_FILL}",
       "name": "statusSuccessFillNight"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#c9fc70ff",
+      "originalValue": "{!LOYALTY_SPOT}",
+      "name": "statusLoyaltySpotDay"
     },
     {
       "type": "color",
@@ -3336,6 +3350,15 @@
       "name": "corePrimaryColor",
       "darkValue": "#054184ff",
       "originalDarkValue": "{!NIGHT_SKY}"
+    },
+    {
+      "type": "color",
+      "category": "status-colors",
+      "value": "#c9fc70ff",
+      "originalValue": "{!LOYALTY_SPOT}",
+      "name": "statusLoyaltySpotColor",
+      "darkValue": "#c9fc70ff",
+      "originalDarkValue": "{!LOYALTY_SPOT}"
     },
     {
       "type": "color",

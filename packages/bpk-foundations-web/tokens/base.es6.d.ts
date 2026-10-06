@@ -29,8 +29,10 @@ export declare const coreAccentDay = "rgb(0, 98, 227)" as const;
 export declare const coreAccentNight = "rgb(132, 233, 255)" as const;
 export declare const corePrimaryDay = "rgb(5, 32, 60)" as const;
 export declare const corePrimaryNight = "rgb(5, 65, 132)" as const;
+export declare const statusLoyaltySpotNight = "rgb(201, 252, 112)" as const;
 export declare const statusSuccessSpotNight = "rgb(98, 241, 198)" as const;
 export declare const statusSuccessFillNight = "rgb(177, 255, 231)" as const;
+export declare const statusLoyaltySpotDay = "rgb(201, 252, 112)" as const;
 export declare const statusSuccessSpotDay = "rgb(12, 131, 138)" as const;
 export declare const statusSuccessFillDay = "rgb(212, 255, 242)" as const;
 export declare const statusDangerSpotNight = "rgb(255, 100, 156)" as const;
@@ -835,8 +837,10 @@ privateSponsoredBannerBackgroundDay,
 privateSponsoredBannerBackgroundNight,
 } as const;
 export declare const statusColors = {
+statusLoyaltySpotNight,
 statusSuccessSpotNight,
 statusSuccessFillNight,
+statusLoyaltySpotDay,
 statusSuccessSpotDay,
 statusSuccessFillDay,
 statusDangerSpotNight,

@@ -29,8 +29,10 @@ export const coreAccentDay = "rgb(0, 98, 227)";
 export const coreAccentNight = "rgb(132, 233, 255)";
 export const corePrimaryDay = "rgb(5, 32, 60)";
 export const corePrimaryNight = "rgb(5, 65, 132)";
+export const statusLoyaltySpotNight = "rgb(201, 252, 112)";
 export const statusSuccessSpotNight = "rgb(98, 241, 198)";
 export const statusSuccessFillNight = "rgb(177, 255, 231)";
+export const statusLoyaltySpotDay = "rgb(201, 252, 112)";
 export const statusSuccessSpotDay = "rgb(12, 131, 138)";
 export const statusSuccessFillDay = "rgb(212, 255, 242)";
 export const statusDangerSpotNight = "rgb(255, 100, 156)";
@@ -835,8 +837,10 @@ privateSponsoredBannerBackgroundDay,
 privateSponsoredBannerBackgroundNight,
 };
 export const statusColors = {
+statusLoyaltySpotNight,
 statusSuccessSpotNight,
 statusSuccessFillNight,
+statusLoyaltySpotDay,
 statusSuccessSpotDay,
 statusSuccessFillDay,
 statusDangerSpotNight,

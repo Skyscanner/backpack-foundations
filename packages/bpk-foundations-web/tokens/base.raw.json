@@ -129,6 +129,9 @@
     "BLACK_ALPHA_70": {
       "value": "#000000B3"
     },
+    "LOYALTY_SPOT": {
+      "value": "#C9FC70"
+    },
     "NIGHT_GREY_25": {
       "value": "#243346"
     },
@@ -571,6 +574,13 @@
       "originalValue": "{!NIGHT_SKY}",
       "name": "CORE_PRIMARY_NIGHT"
     },
+    "STATUS_LOYALTY_SPOT_NIGHT": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "rgb(201, 252, 112)",
+      "originalValue": "{!LOYALTY_SPOT}",
+      "name": "STATUS_LOYALTY_SPOT_NIGHT"
+    },
     "STATUS_SUCCESS_SPOT_NIGHT": {
       "type": "color",
       "category": "status-colors",
@@ -584,6 +594,13 @@
       "value": "rgb(177, 255, 231)",
       "originalValue": "{!NIGHT_GREEN_FILL}",
       "name": "STATUS_SUCCESS_FILL_NIGHT"
+    },
+    "STATUS_LOYALTY_SPOT_DAY": {
+      "type": "color",
+      "category": "status-colors",
+      "value": "rgb(201, 252, 112)",
+      "originalValue": "{!LOYALTY_SPOT}",
+      "name": "STATUS_LOYALTY_SPOT_DAY"
     },
     "STATUS_SUCCESS_SPOT_DAY": {
       "type": "color",
