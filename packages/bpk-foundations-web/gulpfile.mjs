@@ -42,7 +42,7 @@ const RAW_FORMATS = {
 };
 
 const PLATFORM_FORMATS = {
-  web: ['scss', 'default.scss', 'common.js', 'es6.js', 'es6.d.ts'],
+  web: ['scss', 'default.scss', 'common.cjs', 'es6.js', 'es6.d.ts'],
 };
 
 const createTokenSets = (formats) =>
@@ -62,7 +62,7 @@ const platformTokenSets = createTokenSets(PLATFORM_FORMATS);
 theo.registerFormat('scss', bpkScss);
 theo.registerFormat('default.scss', bpkDefaultScss);
 theo.registerFormat('es6.js', bpkEs6Js);
-theo.registerFormat('common.js', bpkCommonJs);
+theo.registerFormat('common.cjs', bpkCommonJs);
 theo.registerFormat('es6.d.ts', bpkDts);
 
 gulp.task('clean', (done) => deleteAsync(['tokens'], done));
