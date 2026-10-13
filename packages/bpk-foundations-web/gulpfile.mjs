@@ -16,23 +16,22 @@
  * limitations under the License.
  */
 
+import { exec } from 'child_process';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 import { deleteAsync } from 'del';
-import { exec } from 'child_process';
 import gulp from 'gulp';
 import gulpTheo from 'gulp-theo';
 import _ from 'lodash';
 import gulpMerge from 'merge2';
 import theo from 'theo';
 
-import bpkEs6Js from './formatters/bpk.es6.js.mjs';
 import bpkCommonJs from './formatters/bpk.common.js.mjs';
 import bpkDts from './formatters/bpk.d.ts.mjs';
-
-import bpkScss from './formatters/bpk.scss.mjs';
 import bpkDefaultScss from './formatters/bpk.default.scss.mjs';
+import bpkEs6Js from './formatters/bpk.es6.js.mjs';
+import bpkScss from './formatters/bpk.scss.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
