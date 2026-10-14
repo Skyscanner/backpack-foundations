@@ -8,7 +8,17 @@
     "url": "git@github.com:Skyscanner/backpack-foundations.git"
   },
   "author": "Backpack Design System <backpack@skyscanner.net>",
+  "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./tokens/base.es6": {
+      "types": "./tokens/base.es6.d.ts",
+      "default": "./tokens/base.es6.js"
+    },
+    "./tokens/base.common": "./tokens/base.common.cjs",
+    "./*": "./*"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
