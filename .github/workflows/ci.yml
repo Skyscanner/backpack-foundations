@@ -50,6 +50,6 @@ jobs:
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
   
       - name: Draft release notes
-        uses: release-drafter/release-drafter@v6
+        uses: release-drafter/release-drafter@v7
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
